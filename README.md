@@ -3,7 +3,7 @@
 ## Natural Language Query Interface for Library Data
 ### Proposed by: Paul Kelly and Jonathan Schild
 #### Email: pjameskelly@gwu.edu, jschild01@gwu.edu
-#### Advisor: Amir Jafai
+#### Advisor: Amir Jafari
 #### The George Washington University, Washington DC  
 #### Data Science Program
 
@@ -208,6 +208,6 @@
 
 
 ## Contact
-- Author: Amir Jafai
+- Author: Amir Jafari
 - Email: [ajafari@gmail.com](Eamil)
 - GitHub: [https://github.com/jschild01/Capstone](Git Hub rep)
