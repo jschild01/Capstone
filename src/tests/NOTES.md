@@ -1,3 +1,10 @@
+# TO DO and Be aware of
+1. Try different more powerful SOTA models on AWS GPUs
+2. More Q&A testing on more documents
+3. Directory needs to be set to where the txt data DataFrame is
+4. This DOES NOT do the text extraction. The pandas dataframe containing all of the text data from txt files was generated before, so we still need this. 
+
+
 # Text Processing, Retrieval, and Generation using Python
 
 This document explains a Python script that involves text processing, retrieval, and generation using various natural language processing (NLP) libraries. The script is organized into four main classes:
@@ -23,7 +30,7 @@ The script imports several libraries and dependencies, including:
 
 ### 1. TextProcessor
 
-This class is responsible for preprocessing text data. It removes unnecessary characters, punctuation, stopwords, and more. The class also includes methods to filter out invalid sentences that do not have a subject or verb.
+This class is responsible for preprocessing text data. It removes unnecessary characters, URLs, tags, and more. It provides the user the option to lowercase the text, remove punctuation and stopwords, lemmatize, and filter out invalid sentences that do not have a subject or verb. Testing showed the optimal preprocessing was to set each of those to False. 
 
 #### Methods:
 - `__init__()`: Initializes the `WordNetLemmatizer`, stop words, and the `spaCy` NLP pipeline.
