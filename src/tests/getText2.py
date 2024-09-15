@@ -10,145 +10,156 @@ import faiss
 import spacy
 from nltk.corpus import stopwords as nltk_stopwords
 from nltk.stem import WordNetLemmatizer
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
+import warnings
 
-# Function to get all text; might take a while because of the number of files
-def getText():
-    files = glob.glob('text/*.txt')
-    file_data = []
-    df = pd.DataFrame(columns=['filename', 'text'])
+warnings.filterwarnings('ignore')
 
-    for file in files:
-        with open(file, 'r', encoding='utf-8', errors='ignore') as f:
-            text = f.read()
-        file_data.append({'filename': file, 'text': text})
-
-    df = pd.DataFrame(file_data)
-    return df
-
-# Function to clean the text
-def preprocess(text, lowercase=False, filter_invalid_sents=False, remove_punctuation=False, remove_stopwords=False, use_lemma=False):
-    text = re.sub(r'\n', ' ', text)
-    text = re.sub(r'([{}])\1+'.format(re.escape(string.punctuation)), r'\1', text)
-    text = re.sub(r'-', ' ', text)
-    text = re.sub(r'http\S+', '', text)
-    text = re.sub(r'<.*?>', '', text)
-    text = re.sub(r'[^A-Za-z0-9.!? ]+', '', text)
-    text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\s+', ' ', text).strip()
-
-    if filter_invalid_sents:
-        text = filter_valid_sentences(text)
-
-    if lowercase:
-        text = text.lower()
-
-    if remove_punctuation:
-        text = text.translate(str.maketrans('', '', string.punctuation))
-
-    words = text.split()
-    if remove_stopwords:
-        words = [word for word in words if word not in stop_words]
-
-    if use_lemma:
-        words = [lemmatizer.lemmatize(word) for word in words]
-
-    return ' '.join(words)
-
-def is_valid_sentence(sentence):
-    doc = nlp(sentence)
-    has_subject = any(token.dep_ in ("nsubj", "nsubjpass") for token in doc)
-    has_verb = any(token.pos_ == "VERB" for token in doc)
-    return has_subject and has_verb
-
-def filter_valid_sentences(text):
-    doc = nlp(text)
-    sentences = [sent.text.strip() for sent in doc.sents]
-    valid_sentences = [sent for sent in sentences if is_valid_sentence(sent)]
-    return " ".join(valid_sentences)
-
-# Implement vector store search
-def search_vector_store(query, top_k=10):
-    query_embedding = model.encode([query], convert_to_tensor=False)
-    query_embedding_np = np.array(query_embedding).astype('float32')
-    distances, indices = index.search(query_embedding_np, top_k)
-    retrieved_docs = df['clean_text'].iloc[indices[0]].tolist()
-
-    # Rank passages by relevance (e.g., based on cosine similarity or additional scoring)
-    # This is a placeholder; you can implement more sophisticated ranking logic
-    return retrieved_docs
-
-# Generate text response using a QA model like Flan-T5
-def generate_response(query, retrieved_docs, max_new_tokens=50, temperature=0.3, top_p=0.85):
-    # Use only the top 2-3 most relevant documents to generate response
-    input_text = query + " ".join(retrieved_docs[:3])
-    #input_text = " ".join(retrieved_docs[:3])
+class TextProcessor:
+    def __init__(self):
+        self.lemmatizer = WordNetLemmatizer()
+        self.stop_words = set(nltk_stopwords.words('english'))
+        self.nlp = spacy.load("en_core_web_sm")
     
-    # Truncate input text to ensure it fits within the model's context window
-    input_text = input_text[:2000]  # Adjust the limit based on the model's max input size
-    
-    input_ids = tokenizer.encode(input_text, return_tensors='pt')
-    output = generatorModel.generate(input_ids, 
-                                     max_length=max_new_tokens + len(input_ids[0]), 
-                                     temperature=temperature,
-                                     top_p=top_p,
-                                     num_return_sequences=1)
-    response = tokenizer.decode(output[0], skip_special_tokens=True)
-    return response
+    def preprocess(self, text, lowercase=False, filter_invalid_sents=False, remove_punctuation=False, remove_stopwords=False, use_lemma=False):
+        text = re.sub(r'\n', ' ', text)
+        text = re.sub(r'([{}])\1+'.format(re.escape(string.punctuation)), r'\1', text)
+        text = re.sub(r'-', ' ', text)
+        text = re.sub(r'http\S+', '', text)
+        text = re.sub(r'<.*?>', '', text)
+        text = re.sub(r'[^A-Za-z0-9.!? ]+', '', text)
+        text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'\s+', ' ', text).strip()
 
-# RAG pipeline with vector store
-def rag_pipeline_with_vectorstore(query, top_k=10):
-    retrieved_docs = search_vector_store(query, top_k=top_k)
-    response = generate_response(query, retrieved_docs)
-    return retrieved_docs, response
+        if filter_invalid_sents:
+            text = self.filter_valid_sentences(text)
+
+        if lowercase:
+            text = text.lower()
+
+        if remove_punctuation:
+            text = text.translate(str.maketrans('', '', string.punctuation))
+
+        words = text.split()
+        if remove_stopwords:
+            words = [word for word in words if word not in self.stop_words]
+
+        if use_lemma:
+            words = [self.lemmatizer.lemmatize(word) for word in words]
+
+        return ' '.join(words)
+
+    def is_valid_sentence(self, sentence):
+        doc = self.nlp(sentence)
+        has_subject = any(token.dep_ in ("nsubj", "nsubjpass") for token in doc)
+        has_verb = any(token.pos_ == "VERB" for token in doc)
+        return has_subject and has_verb
+
+    def filter_valid_sentences(self, text):
+        doc = self.nlp(text)
+        sentences = [sent.text.strip() for sent in doc.sents]
+        valid_sentences = [sent for sent in sentences if self.is_valid_sentence(sent)]
+        return " ".join(valid_sentences)
 
 
+class TextRetriever:
+    def __init__(self):
+        self.model = SentenceTransformer('all-mpnet-base-v2')  # Embedding model
+        self.index = None
+        self.df = None
+
+    def load_data(self, filepath):
+        self.df = pd.read_csv(filepath)
+        self.df = self.df.head(100)  # Subset for testing
+
+    def generate_embeddings(self):
+        embeddings = self.model.encode(self.df['clean_text'].tolist(), convert_to_tensor=True, show_progress_bar=False)
+        embeddings_np = embeddings.cpu().numpy()
+        dimension = embeddings_np.shape[1]
+        self.index = faiss.IndexFlatL2(dimension)
+        self.index.add(embeddings_np)
+
+    def search_vector_store(self, query, top_k=10):
+        query_embedding = self.model.encode([query], convert_to_tensor=True).squeeze(0)
+        query_embedding_np = query_embedding.cpu().numpy().reshape(1, -1)
+        
+        distances, indices = self.index.search(query_embedding_np.astype('float32'), top_k)
+        retrieved_docs = self.df['clean_text'].iloc[indices[0]].tolist()
+
+        relevant_passages = []
+        for doc in retrieved_docs:
+            doc_sentences = doc.split('. ')
+            best_match = max(
+                doc_sentences,
+                key=lambda sentence: self.model.encode([sentence], convert_to_tensor=True).squeeze(0).dot(query_embedding).item()
+            )
+            relevant_passages.append(best_match)
+
+        return relevant_passages
 
 
+class QAGenerator:
+    def __init__(self):
+        self.tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')
+        self.generatorModel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small')
+        #self.tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-large')
+        #self.generatorModel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-large')
+        #self.tokenizer = AutoTokenizer.from_pretrained('gpt2')
+        #self.generatorModel = AutoModelForCausalLM.from_pretrained('gpt2')
 
 
+    def generate_response(self, query, most_relevant_passage, max_new_tokens=50, temperature=0.4, top_p=0.8):
+        input_text = query + " " + most_relevant_passage
+        input_text = input_text[:2000]
+        
+        input_ids = self.tokenizer.encode(input_text, return_tensors='pt')
+        output = self.generatorModel.generate(input_ids, 
+                                              max_length=max_new_tokens + len(input_ids[0]), 
+                                              temperature=temperature,
+                                              top_p=top_p,
+                                              num_return_sequences=1,
+                                              do_sample=True)
+        response = self.tokenizer.decode(output[0], skip_special_tokens=True)
+        
+        return response
 
 
+class RAGPipeline:
+    def __init__(self, text_retriever, qa_generator):
+        self.text_retriever = text_retriever
+        self.qa_generator = qa_generator
 
-
-# Set directory
-os.chdir(r'C:\Users\schil\OneDrive\Desktop\Grad SChool\Capstone\LOC')
+    def run(self, query, top_k=10):
+        relevant_passages = self.text_retriever.search_vector_store(query, top_k=top_k)
+        
+        query_embedding = self.text_retriever.model.encode([query], convert_to_tensor=True).squeeze(0)
+        most_relevant_passage = max(
+            relevant_passages,
+            key=lambda passage: self.text_retriever.model.encode([passage], convert_to_tensor=True).squeeze(0).dot(query_embedding).item()
+        )
+        
+        response = self.qa_generator.generate_response(query, most_relevant_passage)
+        
+        return relevant_passages, most_relevant_passage, response
 
 # Set up
-lemmatizer = WordNetLemmatizer()
-stop_words = set(nltk_stopwords.words('english'))
-nlp = spacy.load("en_core_web_sm")
+os.chdir(r'C:\Users\schil\OneDrive\Desktop\Grad SChool\Capstone\LOC')
+text_processor = TextProcessor()
+text_retriever = TextRetriever()
+qa_generator = QAGenerator()
 
-# Get the text; commented out because it takes a while and previously saved as a csv
-# df = getText()
-df = pd.read_csv('afc_txtFiles.csv')
-df = df.head(100)  # Subset for testing
-
-# Clean the text
-df['clean_text'] = df['text'].apply(preprocess, lowercase=False, filter_invalid_sents=False, remove_punctuation=False, remove_stopwords=False, use_lemma=False)
-df['clean_text_lower'] = df['clean_text'].apply(preprocess, lowercase=True, filter_invalid_sents=False, remove_punctuation=False, remove_stopwords=False, use_lemma=False)
-df['clean_text_sents'] = df['text'].apply(preprocess, lowercase=False, filter_invalid_sents=True, remove_punctuation=False, remove_stopwords=False, use_lemma=False)
-df['clean_text_lower_sents'] = df['text'].apply(preprocess, lowercase=True, filter_invalid_sents=True, remove_punctuation=False, remove_stopwords=False, use_lemma=False)
-
-# Generate embeddings
-model = SentenceTransformer('all-mpnet-base-v2')  # Embedding model
-embeddings = model.encode(df['clean_text_lower'].tolist(), convert_to_tensor=True, show_progress_bar=False)
-
-# Build FAISS vector store
-embeddings_np = embeddings.cpu().numpy()
-dimension = embeddings_np.shape[1]
-index = faiss.IndexFlatL2(dimension)
-index.add(embeddings_np)
-
-# Load QA model (Flan-T5) for generation
-tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')
-generatorModel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small')
+# Load and process data
+text_retriever.load_data('afc_txtFiles.csv')
+text_retriever.df['clean_text'] = text_retriever.df['text'].apply(text_processor.preprocess)
+text_retriever.generate_embeddings()
 
 # Test the RAG pipeline with vector store
-query = 'What date did Voyager I and Voyager II launch?'
-retrieved_docs, response = rag_pipeline_with_vectorstore(query, top_k=3)
-print('Number of Retrieved Docs:', len(retrieved_docs))
+rag_pipeline = RAGPipeline(text_retriever, qa_generator)
+query = 'When were the Voyager I and Voyager II launched?'
+relevant_passages, most_relevant_passage, response = rag_pipeline.run(query, top_k=3)
+
+print(f"Retrieved Passages (3x):\n", relevant_passages)
 print()
-print("Retrieved Docs Text:", retrieved_docs)
+print(f"Most Relevant Passage Used for Response:\n", most_relevant_passage)
 print()
-print("RAG Response:", response)
+print(f"RAG Response:\n", response)
