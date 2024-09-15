@@ -89,24 +89,11 @@ print()
 print(f"RAG Response:\n", response)
 ```
 
-# Vector Store and Embeddings Process
+# About Vector Store and Embeddings Process
 
-This document provides an overview of how vector stores and embeddings are utilized within a pipeline to retrieve and generate answers to questions based on relevant passages from a dataset. The process involves several key components: text preprocessing, generating text embeddings, storing them in a vector store, and using them to retrieve relevant passages for question-answering.
+Overview of how vector stores and embeddings are utilized within a pipeline to retrieve and generate answers to questions based on relevant passages from a dataset. The process involves several key components: text preprocessing, generating text embeddings, storing them in a vector store, and using them to retrieve relevant passages for question-answering.
 
-## 1. Text Preprocessing
-
-The `TextProcessor` class is responsible for cleaning and preprocessing the text data. It performs the following tasks:
-
-- **Removing special characters**: Cleans up unnecessary characters and URLs.
-- **Lowercasing**: Converts text to lowercase if specified.
-- **Removing punctuation**: Removes punctuation marks from the text.
-- **Removing stop words**: Filters out common stop words that do not add meaningful information.
-- **Lemmatization**: Reduces words to their base or dictionary form.
-- **Filtering invalid sentences**: Ensures that sentences have both a subject and a verb to be considered valid.
-
-These preprocessing steps are crucial for creating clean and meaningful representations of the text data that are fed into the embedding model.
-
-## 2. Text Embeddings
+## 1. Text Embeddings
 
 The `TextRetriever` class is used to generate embeddings for the text data. Embeddings are vector representations of text that capture semantic information, allowing for more effective text retrieval and comparison. The process includes:
 
@@ -114,14 +101,14 @@ The `TextRetriever` class is used to generate embeddings for the text data. Embe
 - **Embedding Model**: A pre-trained Sentence Transformer model (`all-mpnet-base-v2`) is used to encode the preprocessed text into dense vector representations (embeddings).
 - **Generating Embeddings**: The `generate_embeddings()` method encodes the cleaned text data into embeddings using the Sentence Transformer model.
 
-## 3. Vector Store
+## 2. Vector Store
 
 The generated embeddings are stored in a **vector store** for efficient similarity search and retrieval. The `TextRetriever` class uses the FAISS (Facebook AI Similarity Search) library to create a vector store that allows for fast retrieval of similar vectors. The process is as follows:
 
 - **Initializing the Vector Store**: A FAISS `IndexFlatL2` index is used, which is based on the L2 (Euclidean) distance metric for similarity measurement.
 - **Adding Embeddings to the Index**: The generated embeddings are added to the FAISS index, creating a searchable vector store.
 
-## 4. Searching the Vector Store
+## 3. Searching the Vector Store
 
 When a user provides a query, the `TextRetriever` class searches the vector store to find the most relevant passages. The process includes:
 
@@ -129,14 +116,14 @@ When a user provides a query, the `TextRetriever` class searches the vector stor
 - **Performing a Search**: The FAISS index is queried with the encoded query vector to find the top `k` most similar vectors (passages) in the vector store.
 - **Retrieving Passages**: The corresponding passages from the original text data are retrieved based on the indices returned by the FAISS search.
 
-## 5. Passage Ranking and Response Generation
+## 4. Passage Ranking and Response Generation
 
 Once relevant passages are retrieved, they are ranked, and a response is generated using a text generation model. The `QAGenerator` class is responsible for generating a response based on the most relevant passage.
 
 - **Finding the Most Relevant Passage**: Among the retrieved passages, the one with the highest cosine similarity to the query is selected as the most relevant passage.
 - **Generating the Response**: The `generate_response()` method of the `QAGenerator` class uses a pre-trained model like `google/flan-t5-small` to generate a response to the query based on the most relevant passage.
 
-## 6. RAG (Retrieval-Augmented Generation) Pipeline
+## 5. RAG (Retrieval-Augmented Generation) Pipeline
 
 The `RAGPipeline` class integrates the `TextRetriever` and `QAGenerator` classes to create a cohesive pipeline for retrieval-augmented generation (RAG). The process is as follows:
 
@@ -144,7 +131,7 @@ The `RAGPipeline` class integrates the `TextRetriever` and `QAGenerator` classes
 - **Generating Responses**: Uses the `QAGenerator` to generate a response based on the most relevant passage.
 - **Combining Results**: The pipeline returns the retrieved passages, the most relevant passage, the generated response, and the filename of the most relevant passage for further analysis.
 
-## 7. Example Usage
+## 6. Example Usage
 
 The following example demonstrates how to set up and use the RAG pipeline:
 
