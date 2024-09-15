@@ -1,4 +1,3 @@
-#%%
 import os
 import re
 import string
@@ -12,6 +11,7 @@ from nltk.corpus import stopwords as nltk_stopwords
 from nltk.stem import WordNetLemmatizer
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 import warnings
+from fuzzywuzzy import process
 
 warnings.filterwarnings('ignore')
 
@@ -99,14 +99,21 @@ class TextRetriever:
 
 
 class QAGenerator:
-    def __init__(self):
-        self.tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-small')
-        self.generatorModel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-small')
-        #self.tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-large')
-        #self.generatorModel = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-large')
-        #self.tokenizer = AutoTokenizer.from_pretrained('gpt2')
-        #self.generatorModel = AutoModelForCausalLM.from_pretrained('gpt2')
-
+    def __init__(self, model_name='google/flan-t5-small'):
+        self.model_name = model_name
+        self.model_dict = {
+            'google/flan-t5-small': (AutoTokenizer.from_pretrained, AutoModelForSeq2SeqLM.from_pretrained),
+            'google/flan-t5-large': (AutoTokenizer.from_pretrained, AutoModelForSeq2SeqLM.from_pretrained),
+            'gpt2': (AutoTokenizer.from_pretrained, AutoModelForCausalLM.from_pretrained)
+        }
+        
+        # Initialize tokenizer and model based on the chosen model
+        if self.model_name in self.model_dict:
+            tokenizer_class, model_class = self.model_dict[self.model_name]
+            self.tokenizer = tokenizer_class(self.model_name)
+            self.generatorModel = model_class(self.model_name)
+        else:
+            raise ValueError(f"Model '{self.model_name}' is not supported.")
 
     def generate_response(self, query, most_relevant_passage, max_new_tokens=50, temperature=0.4, top_p=0.8):
         input_text = query + " " + most_relevant_passage
@@ -124,29 +131,45 @@ class QAGenerator:
         return response
 
 
+
 class RAGPipeline:
     def __init__(self, text_retriever, qa_generator):
         self.text_retriever = text_retriever
         self.qa_generator = qa_generator
 
     def run(self, query, top_k=10):
+        # Retrieve relevant passages
         relevant_passages = self.text_retriever.search_vector_store(query, top_k=top_k)
         
+        # Find most relevant passage
         query_embedding = self.text_retriever.model.encode([query], convert_to_tensor=True).squeeze(0)
         most_relevant_passage = max(
             relevant_passages,
             key=lambda passage: self.text_retriever.model.encode([passage], convert_to_tensor=True).squeeze(0).dot(query_embedding).item()
         )
-        
+
+        # Get filename of most relevant passage
+        matched_rows = self.text_retriever.df[self.text_retriever.df['clean_text'].str.contains(most_relevant_passage, na=False)]
+
+        if not matched_rows.empty:
+            most_relevant_passage_filename = matched_rows['filename'].values[0]
+        else:
+            most_relevant_passage_filename = None  # Handle case where no match is found
+
+
+        # Generate response
         response = self.qa_generator.generate_response(query, most_relevant_passage)
         
-        return relevant_passages, most_relevant_passage, response
+        return relevant_passages, most_relevant_passage, response, most_relevant_passage_filename
+
+
+
 
 # Set up
 os.chdir(r'C:\Users\schil\OneDrive\Desktop\Grad SChool\Capstone\LOC')
 text_processor = TextProcessor()
 text_retriever = TextRetriever()
-qa_generator = QAGenerator()
+qa_generator = QAGenerator(model_name='google/flan-t5-small')
 
 # Load and process data
 text_retriever.load_data('afc_txtFiles.csv')
@@ -156,10 +179,11 @@ text_retriever.generate_embeddings()
 # Test the RAG pipeline with vector store
 rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 query = 'When were the Voyager I and Voyager II launched?'
-relevant_passages, most_relevant_passage, response = rag_pipeline.run(query, top_k=3)
+relevant_passages, most_relevant_passage, response, most_relevant_passage_filename = rag_pipeline.run(query, top_k=3)
 
 print(f"Retrieved Passages (3x):\n", relevant_passages)
 print()
-print(f"Most Relevant Passage Used for Response:\n", most_relevant_passage)
+print(f"Most Relevant Passage Used for Response from file {most_relevant_passage_filename}:\n", most_relevant_passage)
+
 print()
 print(f"RAG Response:\n", response)
