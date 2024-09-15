@@ -174,11 +174,13 @@ qa_generator = QAGenerator(model_name='google/flan-t5-small')
 # Load and process data
 text_retriever.load_data('afc_txtFiles.csv')
 text_retriever.df['clean_text'] = text_retriever.df['text'].apply(text_processor.preprocess)
+#text_retriever.df.to_csv('subset_for_examine100.csv', index=False)
 text_retriever.generate_embeddings()
 
 # Test the RAG pipeline with vector store
 rag_pipeline = RAGPipeline(text_retriever, qa_generator)
-query = 'When were the Voyager I and Voyager II launched?'
+query = 'When were the Voyager I and Voyager II launched?' # correct response - text\001.txt
+query = 'When will the machine be ready for shipment?' # wrong response - text\afc1933001_ms005_010.txt
 relevant_passages, most_relevant_passage, response, most_relevant_passage_filename = rag_pipeline.run(query, top_k=3)
 
 print(f"Retrieved Passages (3x):\n", relevant_passages)
