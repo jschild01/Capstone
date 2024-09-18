@@ -1,51 +1,55 @@
 import re
-import string
-import spacy
-from nltk.corpus import stopwords as nltk_stopwords
-from nltk.stem import WordNetLemmatizer
+from langchain.text_splitter import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
 
 class TextProcessor:
     def __init__(self):
-        self.lemmatizer = WordNetLemmatizer()
-        self.stop_words = set(nltk_stopwords.words('english'))
-        self.nlp = spacy.load("en_core_web_sm")
+        self.markdown_splitter = MarkdownHeaderTextSplitter(
+            headers_to_split_on=[
+                ("#", "Header 1"),
+                ("##", "Header 2"),
+                ("###", "Header 3"),
+            ]
+        )
+        self.char_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000,
+            chunk_overlap=200,
+            length_function=len,
+            is_separator_regex=False,
+        )
     
-    def preprocess(self, text, lowercase=False, filter_invalid_sents=False, remove_punctuation=False, remove_stopwords=False, use_lemma=False):
-        text = re.sub(r'\n', ' ', text)
-        text = re.sub(r'([{}])\1+'.format(re.escape(string.punctuation)), r'\1', text)
-        text = re.sub(r'-', ' ', text)
-        text = re.sub(r'http\S+', '', text)
-        text = re.sub(r'<.*?>', '', text)
-        text = re.sub(r'[^A-Za-z0-9.!? ]+', '', text)
+    def custom_preprocess(self, text):
+        # Remove specific text
         text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
+        
+        # Add any other custom preprocessing steps here
+        text = re.sub(r'\n', ' ', text)
         text = re.sub(r'\s+', ' ', text).strip()
+        
+        return text
 
-        if filter_invalid_sents:
-            text = self.filter_valid_sentences(text)
+    def preprocess_and_split(self, text):
+        # First, apply custom preprocessing
+        text = self.custom_preprocess(text)
+        
+        # Then, split by markdown headers
+        md_splits = self.markdown_splitter.split_text(text)
+        
+        # Finally, further split each section
+        chunks = []
+        for doc in md_splits:
+            chunks.extend(self.char_splitter.split_text(doc.page_content))
+        
+        return chunks
 
-        if lowercase:
-            text = text.lower()
-
-        if remove_punctuation:
-            text = text.translate(str.maketrans('', '', string.punctuation))
-
-        words = text.split()
-        if remove_stopwords:
-            words = [word for word in words if word not in self.stop_words]
-
-        if use_lemma:
-            words = [self.lemmatizer.lemmatize(word) for word in words]
-
-        return ' '.join(words)
-
-    def is_valid_sentence(self, sentence):
-        doc = self.nlp(sentence)
-        has_subject = any(token.dep_ in ("nsubj", "nsubjpass") for token in doc)
-        has_verb = any(token.pos_ == "VERB" for token in doc)
-        return has_subject and has_verb
-
-    def filter_valid_sentences(self, text):
-        doc = self.nlp(text)
-        sentences = [sent.text.strip() for sent in doc.sents]
-        valid_sentences = [sent for sent in sentences if self.is_valid_sentence(sent)]
-        return " ".join(valid_sentences)
+    def chunk_text(self, text, chunk_size=1000, chunk_overlap=200):
+        # First, apply custom preprocessing
+        text = self.custom_preprocess(text)
+        
+        # Then, use LangChain's splitter
+        splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            length_function=len,
+            is_separator_regex=False,
+        )
+        return splitter.split_text(text)

@@ -1,33 +1,21 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 class QAGenerator:
     def __init__(self, model_name='google/flan-t5-small'):
-        self.model_name = model_name
-        self.model_dict = {
-            'google/flan-t5-small': (AutoTokenizer.from_pretrained, AutoModelForSeq2SeqLM.from_pretrained),
-            'google/flan-t5-large': (AutoTokenizer.from_pretrained, AutoModelForSeq2SeqLM.from_pretrained),
-            'gpt2': (AutoTokenizer.from_pretrained, AutoModelForCausalLM.from_pretrained)
-        }
-        
-        # Initialize tokenizer and model based on the chosen model
-        if self.model_name in self.model_dict:
-            tokenizer_class, model_class = self.model_dict[self.model_name]
-            self.tokenizer = tokenizer_class(self.model_name)
-            self.generatorModel = model_class(self.model_name)
-        else:
-            raise ValueError(f"Model '{self.model_name}' is not supported.")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-    def generate_response(self, query, most_relevant_passage, max_new_tokens=50, temperature=0.4, top_p=0.8):
-        input_text = query + " " + most_relevant_passage
-        input_text = input_text[:2000]
+    def generate_response(self, query, most_relevant_passage, max_new_tokens=100):
+        input_text = f"Question: {query}\nContext: {most_relevant_passage}\nAnswer:"
+        input_ids = self.tokenizer(input_text, return_tensors='pt', truncation=True, max_length=512).input_ids
         
-        input_ids = self.tokenizer.encode(input_text, return_tensors='pt')
-        output = self.generatorModel.generate(input_ids, 
-                                              max_length=max_new_tokens + len(input_ids[0]), 
-                                              temperature=temperature,
-                                              top_p=top_p,
-                                              num_return_sequences=1,
-                                              do_sample=True)
-        response = self.tokenizer.decode(output[0], skip_special_tokens=True)
+        outputs = self.model.generate(
+            input_ids,
+            max_new_tokens=max_new_tokens,
+            num_return_sequences=1,
+            do_sample=False,
+            temperature=1.0,
+        )
         
-        return response
+        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        return response.strip()
