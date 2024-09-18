@@ -39,10 +39,10 @@ def test_chunking_method(chunk_size, chunk_overlap, df, query):
     total_time = end_time - start_time
 
     print(f"\nChunk Size: {chunk_size}, Chunk Overlap: {chunk_overlap}")
-    print(f"Retrieved Passages (3x):\n", relevant_passages)
-    print(f"Most Relevant Passage Used for Response from file {most_relevant_passage_filename}:\n", most_relevant_passage)
-    print(f"RAG Response:\n", response)
-    print(f"Total processing time: {total_time:.2f} seconds")
+    print(f"\nRetrieved Passages (3x):\n", relevant_passages)
+    print(f"\nMost Relevant Passage Used for Response from file {most_relevant_passage_filename}:\n", most_relevant_passage)
+    print(f"\nRAG Response:\n", response)
+    print(f"\nTotal processing time: {total_time:.2f} seconds")
     print("-" * 50)
 
     # Clear memory
