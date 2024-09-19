@@ -1,7 +1,13 @@
 # test_qagenerator.py
 import pytest
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import sys
+import os
+
+# Add grandparent directory since this file is in scratch_code directory
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from component.qa_generator import QAGenerator
+
 
 @pytest.fixture
 def qa_generator():
@@ -56,3 +62,4 @@ def test_generate_response_non_factual_query(qa_generator):
 # Run the tests if this script is executed directly
 if __name__ == "__main__":
     pytest.main()
+
