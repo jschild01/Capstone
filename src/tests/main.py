@@ -26,7 +26,7 @@ def set_seed(seed=42):
         torch.backends.cudnn.benchmark = False
 
 def test_chunking_method(chunk_size, chunk_overlap, df, query):
-    text_retriever = TextRetriever(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    text_retriever = TextRetriever(model_name='instructor-xl', chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     text_retriever.load_data(df)
     text_retriever.generate_embeddings()
 

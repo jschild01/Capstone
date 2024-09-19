@@ -6,8 +6,15 @@ import torch
 from .text_processor import TextProcessor
 
 class TextRetriever:
-    def __init__(self, chunk_size=1000, chunk_overlap=200):
-        self.model = SentenceTransformer('all-mpnet-base-v2')
+    def __init__(self, model_name='mpnet', chunk_size=1000, chunk_overlap=200):
+        # Allow selection between 'mpnet' and 'instructxl'
+        if model_name == 'mpnet':
+            self.model = SentenceTransformer('all-mpnet-base-v2')
+        elif model_name == 'instructor-xl':
+            self.model = SentenceTransformer('hkunlp/instructor-xl')
+        else:
+            raise ValueError("Invalid model_name. Choose 'mpnet' or 'instructor-xl'.")
+
         self.index = None
         self.df = None
         self.chunk_size = chunk_size
