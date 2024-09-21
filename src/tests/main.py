@@ -11,9 +11,9 @@ import gc
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Now import from the component directory
-from component.text_processor import TextProcessor
-from component.text_retriever import TextRetriever
-from component.qa_generator import QAGenerator
+from component.rag_text_processor import TextProcessor
+from component.rag_retriever import RAGRetriever
+from component.rag_generator import RAGGenerator
 from component.rag_pipeline import RAGPipeline
 
 def set_seed(seed=42):
@@ -27,11 +27,11 @@ def set_seed(seed=42):
 
 def test_chunking_method(chunk_size, chunk_overlap, df, query):
     # model can be 'mpnet' or 'instructor-xl'; use AWS GPU for instructor xl 
-    text_retriever = TextRetriever(model_name='instructor-xl', chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    text_retriever = RAGRetriever(model_name='instructor-xl', chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     text_retriever.load_data(df)
     text_retriever.generate_embeddings()
 
-    qa_generator = QAGenerator(model_name='google/flan-t5-small')
+    qa_generator = RAGGenerator(model_name='google/flan-t5-small')
     rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 
     start_time = time.time()
