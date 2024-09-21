@@ -7,6 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from keybert import KeyBERT
 
+from rag_text_processor import custom_preprocess
+
 
 class QuestionGenerator:
     def __init__(self, input_csv, output_csv, model_name='mohammedaly22/t5-small-squad-qg'):
@@ -70,6 +72,8 @@ class QuestionGenerator:
         return len(text.split())
 
     def generate_questions(self):
+        self.df['clean_text'] = self.df['text'].apply(custom_preprocess)
+
         self.df['token_count'] = self.df['clean_text'].apply(self.get_token_count)
 
         self.df['keyword_tfidf'], self.df['keyword_tfidf_score'] = zip(
