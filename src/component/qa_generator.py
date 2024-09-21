@@ -21,7 +21,17 @@ class QuestionGenerator:
         if not os.path.exists(self.input_csv):
             print(f"Error: {self.input_csv} not found.")
             sys.exit()
-        self.df = pd.read_csv(self.input_csv).head(10)
+        self.df = pd.read_csv(self.input_csv)
+
+    def custom_preprocess(self, text):
+        # Remove specific text
+        text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
+        
+        # Add any other custom preprocessing steps here
+        text = re.sub(r'\n', ' ', text)
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        return text
 
     @staticmethod
     def process_context_and_prepare_instruction(context, answer):
@@ -70,6 +80,8 @@ class QuestionGenerator:
         return len(text.split())
 
     def generate_questions(self):
+        self.df['clean_text'] = self.df['text'].apply(self.custom_preprocess)
+
         self.df['token_count'] = self.df['clean_text'].apply(self.get_token_count)
 
         self.df['keyword_tfidf'], self.df['keyword_tfidf_score'] = zip(
