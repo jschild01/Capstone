@@ -24,6 +24,7 @@ class QuestionGenerator:
                              device=0 if torch.cuda.is_available() else -1)
         embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2', device=device)
         self.keybert_model = KeyBERT(embedding_model)
+        #self.keybert_model = KeyBERT('t5-large')
 
     def load_data(self):
         if not os.path.exists(self.input_csv):
@@ -34,7 +35,7 @@ class QuestionGenerator:
         # Remove specific text
         text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
         
-        # basic cleaning
+        # Add any other custom preprocessing steps here
         text = re.sub(r'\n', ' ', text)
         text = re.sub(r'\s+', ' ', text).strip()
         
@@ -93,13 +94,25 @@ class QuestionGenerator:
     def process_chunk(self, chunk, chunk_index):
         chunk['clean_text'] = chunk['text'].apply(self.custom_preprocess)
         chunk['token_count'] = chunk['clean_text'].apply(self.get_token_count)
-        chunk['keyword_tfidf'], chunk['keyword_tfidf_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1)))
-        chunk['keyphrase_keybert'], chunk['keyphrase_keybert_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1)))
+        chunk['keyword_tfidf'], chunk['keyword_tfidf_score'] = zip(
+            *chunk['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1))
+        )
+        chunk['keyphrase_keybert'], chunk['keyphrase_keybert_score'] = zip(
+            *chunk['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1))
+        )
         chunk['keyphrase_keybert'] = chunk['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
-        chunk['instruction_prompt_keyword'] = chunk.apply(lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyword_tfidf']), axis=1)
-        chunk['instruction_prompt_keyphrase'] = chunk.apply(lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyphrase_keybert']), axis=1)
-        chunk['keyword_generated_question'] = chunk['instruction_prompt_keyword'].apply(lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text'])
-        chunk['keyphrase_generated_question'] = chunk['instruction_prompt_keyphrase'].apply(lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text'])
+        chunk['instruction_prompt_keyword'] = chunk.apply(
+            lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyword_tfidf']), axis=1
+        )
+        chunk['instruction_prompt_keyphrase'] = chunk.apply(
+            lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyphrase_keybert']), axis=1
+        )
+        chunk['keyword_generated_question'] = chunk['instruction_prompt_keyword'].apply(
+            lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
+        )
+        chunk['keyphrase_generated_question'] = chunk['instruction_prompt_keyphrase'].apply(
+            lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
+        )
 
         # Save the processed chunk to a CSV file
         chunk_output_csv = f"{self.output_csv_base}_chunk_{chunk_index}.csv"
@@ -108,7 +121,7 @@ class QuestionGenerator:
 
     def run(self):
         # Read and process the CSV file in chunks of 500 rows
-        chunk_size = 10000
+        chunk_size = 1000
         chunk_index = 0
         for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
             self.process_chunk(chunk, chunk_index)
