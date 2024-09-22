@@ -93,6 +93,10 @@ class QuestionGenerator:
     def process_chunk(self, chunk, chunk_index):
         chunk['clean_text'] = chunk['text'].apply(self.custom_preprocess)
         chunk['token_count'] = chunk['clean_text'].apply(self.get_token_count)
+
+        # Filter out samples where the token count is less than 100
+        chunk = chunk[chunk['token_count'] >= 100].reset_index(drop=True)
+    
         chunk['keyword_tfidf'], chunk['keyword_tfidf_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1)))
         chunk['keyphrase_keybert'], chunk['keyphrase_keybert_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1)))
         chunk['keyphrase_keybert'] = chunk['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
@@ -108,7 +112,7 @@ class QuestionGenerator:
 
     def run(self):
         # Read and process the CSV file in chunks of 500 rows
-        chunk_size = 10000
+        chunk_size = 5000
         chunk_index = 0
         for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
             self.process_chunk(chunk, chunk_index)
