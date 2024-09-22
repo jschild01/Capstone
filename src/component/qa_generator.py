@@ -5,7 +5,12 @@ import pandas as pd
 from transformers import pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
+import random
+import numpy as np
+import torch
+from sentence_transformers import SentenceTransformer
 from keybert import KeyBERT
+import torch
 
 class QuestionGenerator:
     def __init__(self, input_csv, output_csv, model_name='mohammedaly22/t5-small-squad-qg'):
@@ -14,8 +19,12 @@ class QuestionGenerator:
         self.output_csv_base = os.path.splitext(output_csv)[0] 
         self.model_name = model_name
         self.df = None
-        self.pipe = pipeline('text2text-generation', model=self.model_name)
-        self.keybert_model = KeyBERT('t5-large')
+        self.pipe = pipeline('text2text-generation', 
+                             model=self.model_name,
+                             device=0 if torch.cuda.is_available() else -1)
+        embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2', device=device)
+        self.keybert_model = KeyBERT(embedding_model)
+        #self.keybert_model = KeyBERT('t5-large')
 
     def load_data(self):
         if not os.path.exists(self.input_csv):
@@ -59,8 +68,9 @@ class QuestionGenerator:
         vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
         X = vectorizer.fit_transform([text])
 
-        if X.shape[1] < n_components:
-            return [], [] 
+        if X.shape[1] <= n_components:
+            return '', 0.0  # Return empty string and zero score
+
 
         svd = TruncatedSVD(n_components=n_components)
         svd.fit(X)
@@ -113,21 +123,35 @@ class QuestionGenerator:
 
     def run(self):
         # Read and process the CSV file in chunks of 500 rows
-        chunk_size = 500
+        chunk_size = 10000
         chunk_index = 0
         for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
             self.process_chunk(chunk, chunk_index)
             chunk_index += 1
 
 
-# Example usage
+# run
 if __name__ == "__main__":
+    
+    # set device to gpu
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # direcotries
     base_path = os.path.dirname(os.path.abspath(__file__))
     parent = os.path.dirname(base_path)
     grandparent = os.path.dirname(parent)
 
+    # Set seed for reproducibility
+    def set_seed(seed=42):
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
+            torch.backends.cudnn.deterministic = True
+            torch.backends.cudnn.benchmark = False
+    set_seed(42)
+    
     # define input and output csv files
     input_csv = os.path.join(parent, 'data', 'afc_txtFiles.csv')
     output_csv = os.path.join(parent, 'data', 'afc_txtFiles_QA.csv')
@@ -137,4 +161,3 @@ if __name__ == "__main__":
     question_generator.run()
 
     print(f"\nQuestions generated and saved to: {output_csv}\n")
-
