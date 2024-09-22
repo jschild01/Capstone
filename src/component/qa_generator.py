@@ -123,7 +123,7 @@ class QuestionGenerator:
 
     def run(self):
         # Read and process the CSV file in chunks of 500 rows
-        chunk_size = 10000
+        chunk_size = 1000
         chunk_index = 0
         for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
             self.process_chunk(chunk, chunk_index)
