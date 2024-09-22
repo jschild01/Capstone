@@ -7,13 +7,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from keybert import KeyBERT
 
-from rag_text_processor import custom_preprocess
-
-
 class QuestionGenerator:
     def __init__(self, input_csv, output_csv, model_name='mohammedaly22/t5-small-squad-qg'):
         self.input_csv = input_csv
         self.output_csv = output_csv
+        self.output_csv_base = os.path.splitext(output_csv)[0] 
         self.model_name = model_name
         self.df = None
         self.pipe = pipeline('text2text-generation', model=self.model_name)
@@ -23,7 +21,7 @@ class QuestionGenerator:
         if not os.path.exists(self.input_csv):
             print(f"Error: {self.input_csv} not found.")
             sys.exit()
-        self.df = pd.read_csv(self.input_csv)
+        self.df = pd.read_csv(self.input_csv).head(100)
 
     def custom_preprocess(self, text):
         # Remove specific text
@@ -60,6 +58,10 @@ class QuestionGenerator:
     def keywords_tfidf(text, n_components=1):
         vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
         X = vectorizer.fit_transform([text])
+
+        if X.shape[1] < n_components:
+            return [], [] 
+
         svd = TruncatedSVD(n_components=n_components)
         svd.fit(X)
         terms = vectorizer.get_feature_names_out()
@@ -81,39 +83,41 @@ class QuestionGenerator:
     def get_token_count(text):
         return len(text.split())
 
-    def generate_questions(self):
-        self.df['token_count'] = self.df['clean_text'].apply(self.get_token_count)
-
-        self.df['keyword_tfidf'], self.df['keyword_tfidf_score'] = zip(
-            *self.df['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1))
+    def process_chunk(self, chunk, chunk_index):
+        chunk['clean_text'] = chunk['text'].apply(self.custom_preprocess)
+        chunk['token_count'] = chunk['clean_text'].apply(self.get_token_count)
+        chunk['keyword_tfidf'], chunk['keyword_tfidf_score'] = zip(
+            *chunk['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1))
         )
-
-        self.df['keyphrase_keybert'], self.df['keyphrase_keybert_score'] = zip(
-            *self.df['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1))
+        chunk['keyphrase_keybert'], chunk['keyphrase_keybert_score'] = zip(
+            *chunk['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1))
         )
-        self.df['keyphrase_keybert'] = self.df['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
-
-        self.df['instruction_prompt_keyword'] = self.df.apply(
+        chunk['keyphrase_keybert'] = chunk['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
+        chunk['instruction_prompt_keyword'] = chunk.apply(
             lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyword_tfidf']), axis=1
         )
-        self.df['instruction_prompt_keyphrase'] = self.df.apply(
+        chunk['instruction_prompt_keyphrase'] = chunk.apply(
             lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyphrase_keybert']), axis=1
         )
-
-        self.df['keyword_generated_question'] = self.df['instruction_prompt_keyword'].apply(
+        chunk['keyword_generated_question'] = chunk['instruction_prompt_keyword'].apply(
             lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
         )
-        self.df['keyphrase_generated_question'] = self.df['instruction_prompt_keyphrase'].apply(
+        chunk['keyphrase_generated_question'] = chunk['instruction_prompt_keyphrase'].apply(
             lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
         )
 
-    def save_results(self):
-        self.df.to_csv(self.output_csv, index=False)
+        # Save the processed chunk to a CSV file
+        chunk_output_csv = f"{self.output_csv_base}_chunk_{chunk_index}.csv"
+        chunk.to_csv(chunk_output_csv, index=False)
+        print(f"Chunk {chunk_index} processed and saved to {chunk_output_csv}")
 
     def run(self):
-        self.load_data()
-        self.generate_questions()   
-        self.save_results()
+        # Read and process the CSV file in chunks of 500 rows
+        chunk_size = 500
+        chunk_index = 0
+        for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
+            self.process_chunk(chunk, chunk_index)
+            chunk_index += 1
 
 
 # Example usage
