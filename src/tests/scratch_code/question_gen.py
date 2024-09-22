@@ -11,7 +11,7 @@ import sys
 # Add the path to the parent and grandparent directories to augment search for module
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-#from component.text_processor import TextProcessor
+#from component.rag_text_processor import TextProcessor
 
 
 '''
