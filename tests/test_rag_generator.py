@@ -4,15 +4,22 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import sys
 import os
 
-# Add grandparent directory since this file is in scratch_code directory
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from component.qa_generator import QAGenerator
 
+# Add parent directory to sys path
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
+
+# Add the src folder in parent directory to sys path, which contains the component files
+src_dir = os.path.join(parent_dir, 'src')
+sys.path.append(src_dir)
+
+# Import the RAGRetriever class for test file
+from component.rag_generator import RAGGenerator
 
 @pytest.fixture
 def qa_generator():
     # Fixture to create an instance of QAGenerator for use in tests
-    return QAGenerator(model_name='google/flan-t5-small')
+    return RAGGenerator(model_name='google/flan-t5-small')
 
 def test_generate_response_basic(qa_generator):
     # Test with a basic input

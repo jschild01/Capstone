@@ -1,32 +1,18 @@
-#%%
 import pytest
 import pandas as pd
 import sys
 import os
 
 # Add parent directory to sys path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# Import the RAGRetriever class from the component
-from src.component.rag_retriever import RAGRetriever
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
 
-# Get directories
-base_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(base_dir)
-grandparent_dir = os.path.dirname(parent_dir)
+# Add the src folder in parent directory to sys path, which contains the component files
+src_dir = os.path.join(parent_dir, 'src')
+sys.path.append(src_dir)
 
-print(base_dir)
-print(parent_dir)   
-print(grandparent_dir)
-print()
-print(sys.path)
-#%%
-
-
-
-
-#%%
-
-from src.component.rag_retriever import RAGRetriever
+# Import the RAGRetriever class for test file
+from component.rag_retriever import RAGRetriever
 
 # Mock TextProcessor to avoid dependency issues during testing
 class MockTextProcessor:
