@@ -8,6 +8,7 @@ import random
 import gc
 from sklearn.metrics import precision_score, recall_score, f1_score
 from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
+import sacrebleu
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -44,11 +45,11 @@ def main():
     df = pd.read_csv(input_csv)
 
     # get 10% subset of df to test functionality
-    df = df.sample(frac=0.01, random_state=42).reset_index(drop=True)
+    df = df.sample(frac=0.1, random_state=42).reset_index(drop=True)
 
     # Initialize the retriever and generator
-    chunk_size = 100
-    chunk_overlap = 30
+    chunk_size = 500
+    chunk_overlap = 100
 
     # model can be 'mpnet' or 'instructor-xl'; use AWS GPU for instructor xl
     text_retriever = RAGRetriever(model_name='mpnet', chunk_size=chunk_size, chunk_overlap=chunk_overlap)
@@ -95,17 +96,14 @@ def main():
     # Add the RAG answers to the dataframe
     df['rag_answer'] = rag_answers
 
-    # Compute corpus-level BLEU score safely without the '_normalize' issue
-    try:
-        corpus_bleu_score = corpus_bleu(references, hypotheses, smoothing_function=smoothie)
-    except TypeError:
-        # Fallback approach to calculate BLEU manually or adjust settings
-        print("Encountered TypeError in corpus BLEU calculation. Consider checking NLTK version or modifying score calculation.")
-        corpus_bleu_score = corpus_bleu(references, hypotheses)  # without smoothing or customize further
-        
-    # get overall bleu score
-    print(f"\nOverall Corpus BLEU score: {corpus_bleu_score:.2f}")
+    # Compute corpus-level BLEU score using sacrebleu
+    references_flat = [[ref] for ref in references]
+    hypotheses_flat = hypotheses
+    corpus_bleu = sacrebleu.corpus_bleu(hypotheses_flat, [ref for ref in references_flat])
 
+    # get overall bleu score
+    print(f"\nOverall Corpus BLEU score: {corpus_bleu.score:.2f}")
+    
     # Save the dataframe with RAG answers to data folder in parent direction
     df.to_csv(os.path.join(parent_dir, 'data', 'afc_txtFiles_QA_eval.csv'), index=False)
 
