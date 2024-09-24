@@ -5,31 +5,36 @@ import pandas as pd
 from transformers import pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
+import random
+import numpy as np
+import torch
+from sentence_transformers import SentenceTransformer
 from keybert import KeyBERT
-
-from rag_text_processor import custom_preprocess
-
+import torch
 
 class QuestionGenerator:
     def __init__(self, input_csv, output_csv, model_name='mohammedaly22/t5-small-squad-qg'):
         self.input_csv = input_csv
         self.output_csv = output_csv
+        self.output_csv_base = os.path.splitext(output_csv)[0] 
         self.model_name = model_name
         self.df = None
-        self.pipe = pipeline('text2text-generation', model=self.model_name)
-        self.keybert_model = KeyBERT('t5-large')
+        self.pipe = pipeline('text2text-generation', 
+                             model=self.model_name,
+                             device=0 if torch.cuda.is_available() else -1)
+        embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2', device=device)
+        self.keybert_model = KeyBERT(embedding_model)
 
     def load_data(self):
         if not os.path.exists(self.input_csv):
             print(f"Error: {self.input_csv} not found.")
             sys.exit()
-        self.df = pd.read_csv(self.input_csv)
 
     def custom_preprocess(self, text):
         # Remove specific text
         text = re.sub(r'transcribed and reviewed by contributors participating in the by the people project at crowd.loc.gov.', '', text, flags=re.IGNORECASE)
         
-        # Add any other custom preprocessing steps here
+        # basic cleaning
         text = re.sub(r'\n', ' ', text)
         text = re.sub(r'\s+', ' ', text).strip()
         
@@ -60,6 +65,10 @@ class QuestionGenerator:
     def keywords_tfidf(text, n_components=1):
         vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
         X = vectorizer.fit_transform([text])
+
+        if X.shape[1] <= n_components:
+            return '', 0.0  # Return empty string and zero score
+
         svd = TruncatedSVD(n_components=n_components)
         svd.fit(X)
         terms = vectorizer.get_feature_names_out()
@@ -81,49 +90,57 @@ class QuestionGenerator:
     def get_token_count(text):
         return len(text.split())
 
-    def generate_questions(self):
-        self.df['token_count'] = self.df['clean_text'].apply(self.get_token_count)
+    def process_chunk(self, chunk, chunk_index):
+        chunk['clean_text'] = chunk['text'].apply(self.custom_preprocess)
+        chunk['token_count'] = chunk['clean_text'].apply(self.get_token_count)
 
-        self.df['keyword_tfidf'], self.df['keyword_tfidf_score'] = zip(
-            *self.df['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1))
-        )
+        # Filter out samples where the token count is less than 100
+        chunk = chunk[chunk['token_count'] >= 100].reset_index(drop=True)
+    
+        chunk['keyword_tfidf'], chunk['keyword_tfidf_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keywords_tfidf(text, n_components=1)))
+        chunk['keyphrase_keybert'], chunk['keyphrase_keybert_score'] = zip(*chunk['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1)))
+        chunk['keyphrase_keybert'] = chunk['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
+        chunk['instruction_prompt_keyword'] = chunk.apply(lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyword_tfidf']), axis=1)
+        chunk['instruction_prompt_keyphrase'] = chunk.apply(lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyphrase_keybert']), axis=1)
+        chunk['keyword_generated_question'] = chunk['instruction_prompt_keyword'].apply(lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text'])
+        chunk['keyphrase_generated_question'] = chunk['instruction_prompt_keyphrase'].apply(lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text'])
 
-        self.df['keyphrase_keybert'], self.df['keyphrase_keybert_score'] = zip(
-            *self.df['clean_text'].apply(lambda text: self.keyphrases_keybert(text, top_n=1))
-        )
-        self.df['keyphrase_keybert'] = self.df['keyphrase_keybert'].apply(lambda phrases: phrases[0] if phrases else '')
-
-        self.df['instruction_prompt_keyword'] = self.df.apply(
-            lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyword_tfidf']), axis=1
-        )
-        self.df['instruction_prompt_keyphrase'] = self.df.apply(
-            lambda row: self.process_context_and_prepare_instruction(row['clean_text'], row['keyphrase_keybert']), axis=1
-        )
-
-        self.df['keyword_generated_question'] = self.df['instruction_prompt_keyword'].apply(
-            lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
-        )
-        self.df['keyphrase_generated_question'] = self.df['instruction_prompt_keyphrase'].apply(
-            lambda prompt: self.pipe(prompt, num_return_sequences=1, num_beams=2, num_beam_groups=2, diversity_penalty=1.0)[0]['generated_text']
-        )
-
-    def save_results(self):
-        self.df.to_csv(self.output_csv, index=False)
+        # Save the processed chunk to a CSV file
+        chunk_output_csv = f"{self.output_csv_base}_chunk_{chunk_index}.csv"
+        chunk.to_csv(chunk_output_csv, index=False)
+        print(f"Chunk {chunk_index} processed and saved to {chunk_output_csv}")
 
     def run(self):
-        self.load_data()
-        self.generate_questions()   
-        self.save_results()
+        # Read and process the CSV file in chunks of 500 rows
+        chunk_size = 5000
+        chunk_index = 0
+        for chunk in pd.read_csv(self.input_csv, chunksize=chunk_size):
+            self.process_chunk(chunk, chunk_index)
+            chunk_index += 1
 
 
-# Example usage
+# run
 if __name__ == "__main__":
+    
+    # set device to gpu
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # direcotries
     base_path = os.path.dirname(os.path.abspath(__file__))
     parent = os.path.dirname(base_path)
     grandparent = os.path.dirname(parent)
 
+    # Set seed for reproducibility
+    def set_seed(seed=42):
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
+            torch.backends.cudnn.deterministic = True
+            torch.backends.cudnn.benchmark = False
+    set_seed(42)
+    
     # define input and output csv files
     input_csv = os.path.join(parent, 'data', 'afc_txtFiles.csv')
     output_csv = os.path.join(parent, 'data', 'afc_txtFiles_QA.csv')
@@ -133,4 +150,3 @@ if __name__ == "__main__":
     question_generator.run()
 
     print(f"\nQuestions generated and saved to: {output_csv}\n")
-
