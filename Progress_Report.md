@@ -2,19 +2,19 @@ Note: Use Markdown Cheat Sheet if you need more functionality
 https://www.markdownguide.org/cheat-sheet/
 ### Date: sep 24 2024 
 - Topics of discussion
-    - Concatenating metadata with documents
-    - Repo organization
-    - Data diagram:
+    - Item1
+    - Item2
+    - Item3
 
-![data_diagram.png](data_diagram.png)
+![img_2.png](img_2.png)
 
 - Action Items:
 
-* [ ] Try and create manual questions (around 20-30)
-* [ ] Add data diagram to final report
-* [ ] Determine if FIASS can handle passing metadata; if not explore deeplake
-
-
+* [ ] Action Item 1
+* [ ] Action Item 2
+* [ ] Action Item 3
+* [ ] Action Item 4
+* [ ] Action Item 5
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
