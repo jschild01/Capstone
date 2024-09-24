@@ -6,7 +6,8 @@ https://www.markdownguide.org/cheat-sheet/
     - Repo organization
     - Data diagram:
 
-![data_diagram.png](data_diagram.png)
+![WhatsApp Image 2024-09-24 at 19 53 12_a203f424](https://github.com/user-attachments/assets/7868fbcc-1f64-4a4b-b408-81b515e24889)
+
 
 - Action Items:
 
