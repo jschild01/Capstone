@@ -106,8 +106,8 @@ def main():
     # get overall bleu score
     print(f"\nOverall Corpus BLEU score: {corpus_bleu_score:.2f}")
 
-    # Save the dataframe with RAG answers
-    df.to_csv('rag_results.csv', index=False)
+    # Save the dataframe with RAG answers to data folder in parent direction
+    df.to_csv(os.path.join(parent_dir, 'data', 'afc_txtFiles_QA_eval.csv'), index=False)
 
 if __name__ == "__main__":
     main()
