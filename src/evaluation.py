@@ -1,3 +1,4 @@
+#%%
 import os
 import sys
 import time
@@ -44,7 +45,7 @@ def main():
     df = pd.read_csv(input_csv)
 
     # get 10% subset of df to test functionality
-    df = df.sample(frac=0.01, random_state=42).reset_index(drop=True)
+    df = df.sample(frac=0.1, random_state=42).reset_index(drop=True)
 
     # Initialize the retriever and generator
     chunk_size = 100
