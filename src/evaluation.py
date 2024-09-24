@@ -7,7 +7,7 @@ import numpy as np
 import random
 import gc
 from sklearn.metrics import precision_score, recall_score, f1_score
-from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -44,7 +44,7 @@ def main():
     df = pd.read_csv(input_csv)
 
     # get 10% subset of df to test functionality
-    df = df.sample(frac=0.1, random_state=42)
+    df = df.sample(frac=0.01, random_state=42).reset_index(drop=True)
 
     # Initialize the retriever and generator
     chunk_size = 100
@@ -95,8 +95,15 @@ def main():
     # Add the RAG answers to the dataframe
     df['rag_answer'] = rag_answers
 
-    # Compute corpus-level BLEU score
-    corpus_bleu_score = corpus_bleu(references, hypotheses, smoothing_function=smoothie)
+    # Compute corpus-level BLEU score safely without the '_normalize' issue
+    try:
+        corpus_bleu_score = corpus_bleu(references, hypotheses, smoothing_function=smoothie)
+    except TypeError:
+        # Fallback approach to calculate BLEU manually or adjust settings
+        print("Encountered TypeError in corpus BLEU calculation. Consider checking NLTK version or modifying score calculation.")
+        corpus_bleu_score = corpus_bleu(references, hypotheses)  # without smoothing or customize further
+        
+    # get overall bleu score
     print(f"\nOverall Corpus BLEU score: {corpus_bleu_score:.2f}")
 
     # Save the dataframe with RAG answers
