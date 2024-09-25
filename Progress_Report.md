@@ -1,6 +1,6 @@
 Note: Use Markdown Cheat Sheet if you need more functionality
 https://www.markdownguide.org/cheat-sheet/
-### Date: sep 24 2024 
+### Date: Sep 24 2024 
 - Topics of discussion
     - Concatenating metadata with documents
     - Repo organization
@@ -10,16 +10,19 @@ https://www.markdownguide.org/cheat-sheet/
 
 
 - Action Items:
-
 * [ ] Try and create manual questions (around 20-30)
 * [ ] Add data diagram to final report
-* [ ] Determine if FIASS can handle passing metadata; if not explore deeplake
+* [ ] Add metadata to vector store
+    * [ ] Determine if FIASS can handle passing metadata; if not explore deeplake
+* [ ] Add API code + parser
+* [ ] Continue research; add to introduction, identify additional relevant papers
+* [ ] fix folder structure; add test files for each component, utils; test script for every component
 
 
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
-
+    - Discuss chunking sizes/overlap
 
 |checked|unchecked|crossed|
 |---|---|---|
