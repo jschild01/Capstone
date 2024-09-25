@@ -166,7 +166,7 @@ class RAGPipeline:
 
 
 # Set up
-os.chdir(r'/Users/paulkelly/Desktop/Capstone/src/tests')
+os.chdir(r'/home/ubuntu/Capstone/src/tests/scratch_code')
 text_processor = TextProcessor()
 text_retriever = TextRetriever()
 qa_generator = QAGenerator(model_name='google/flan-t5-small')

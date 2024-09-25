@@ -11,7 +11,7 @@ import gc
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Now import from the component directory
-from component.rag_text_processor import TextProcessor
+#from component.rag_text_processor import TextProcessor
 from component.rag_retriever import RAGRetriever
 from component.rag_generator import RAGGenerator
 from component.rag_pipeline import RAGPipeline
@@ -56,7 +56,11 @@ def main():
     set_seed(42)
 
     # Configuration
-    input_csv = 'subset_for_examine100.csv'
+    # direcotries
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    parent = os.path.dirname(base_path)
+    grandparent = os.path.dirname(parent)
+    input_csv = os.path.join(parent, 'data', 'subset_for_examine100.csv')
 
     # Load the CSV file
     if not os.path.exists(input_csv):
