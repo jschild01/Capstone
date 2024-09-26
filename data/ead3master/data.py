@@ -22,12 +22,9 @@ data_afc = data[data['collection'] == 'afc']
 # save data_afc to csv
 data_afc.to_csv(r'C:\Users\schil\OneDrive\Desktop\School\Capstone\LOC\xml_master3_afc.csv', index=False)
 
-
-
-#%%
-# get current working directory as base path
-
+# get dirs
 base_path = os.getcwd()
-
-# get parent directory
 data_path = os.path.dirname(base_path)
+
+# save to csv in data folder
+data_afc.to_csv(os.path.join(data_path, 'xml_master3_afc.csv'), index=False)
