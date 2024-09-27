@@ -28,3 +28,22 @@ data_path = os.path.dirname(base_path)
 
 # save to csv in data folder
 data_afc.to_csv(os.path.join(data_path, 'xml_master3_afc.csv'), index=False)
+
+
+#%%
+import pandas as pd
+import os
+
+# get dirs
+base_path = os.getcwd()
+data_path = os.path.dirname(base_path)
+
+# read in data_afc from csv
+df_afc = pd.read_csv(os.path.join(data_path, 'xml_master3_afc.csv'))
+
+# print first value for urls column
+print(df_afc['urls'][0])
+print(df_afc['catalog_marcRecord_url'][0])
+
+
+
