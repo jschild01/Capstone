@@ -10,12 +10,12 @@ https://www.markdownguide.org/cheat-sheet/
 
 
 - Action Items:
-    * [ ] Try and create manual questions (around 20-30)
+    * [x] Try and create manual questions (around 20-30)
     * [ ] Add data diagram to final report
     * [ ] Add metadata to vector store
         * [ ] Determine if FIASS can handle passing metadata; if not explore deeplake
     * [ ] Add API code + parser
-    * [ ] Continue research; add to introduction, identify additional relevant papers
+    * [x] Continue research; add to introduction, identify additional relevant papers
     * [ ] fix folder structure; add test files for each component, utils; test script for every component
 
 
