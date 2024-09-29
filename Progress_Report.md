@@ -17,6 +17,7 @@ https://www.markdownguide.org/cheat-sheet/
     * [ ] Add API code + parser
     * [x] Continue research; add to introduction, identify additional relevant papers
     * [ ] fix folder structure; add test files for each component, utils; test script for every component
+    * [x] convert pdfs to text files; combine into csv (two halves due to size)
 
 
 ---
