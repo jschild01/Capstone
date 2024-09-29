@@ -4,6 +4,8 @@ import fitz  # PyMuPDF
 import pytesseract
 from PIL import Image
 from io import BytesIO
+import pandas as pd
+import glob
 
 '''
 terresact-ocr installation instructions:
@@ -53,31 +55,62 @@ def is_pdf_scanned_pymupdf(pdf_file):
             return False
     return True
 
+def combine_txt_files_to_df(output_folder):
+    # Get all text files in the output folder
+    txt_files = glob.glob(os.path.join(output_folder, '*.txt'))
+
+    # Create a list to store the extracted text
+    data = []
+
+    # Read each text file and append the data to the list
+    for txt_file in txt_files:
+        with open(txt_file, 'r', encoding='utf-8') as f:
+            text = f.read()
+        filename = os.path.basename(txt_file)
+        data.append({'filename': filename, 'text': text})
+
+    # Convert the list to a DataFrame
+    df = pd.DataFrame(data)
+
+    return df
+
 # Function to process all PDFs in the folder
 def process_pdfs(pdf_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
+    counter = 0
+
     for filename in os.listdir(pdf_folder):
         if filename.lower().endswith('.pdf'):
             pdf_file = os.path.join(pdf_folder, filename)
-            print(f'Processing {filename}...')
+            #print(f'Processing {filename}...')
 
             # Check if the PDF is scanned
             if is_pdf_scanned_pymupdf(pdf_file):
-                print(f'  {filename} seems to be a scanned document. Using OCR...')
+                #print(f'  {filename} seems to be a scanned document. Using OCR...')
                 extracted_text = extract_text_using_ocr_pymupdf(pdf_file)
             else:
-                print(f'  {filename} contains embedded text. Using PDF parser...')
+                #print(f'  {filename} contains embedded text. Using PDF parser...')
                 extracted_text = extract_text_from_pdf_pymupdf(pdf_file)
 
             # Save the extracted text to a file
             save_text_to_file(pdf_file, extracted_text)
 
+            # Print message every time 500 PDFs are processed
+            counter += 1
+            if counter % 500 == 0:
+                print(f'{counter} completed')
+
+    # Combine all text files into a single DataFrame
+    df = combine_txt_files_to_df(output_folder)
+    df.to_csv(os.path.join(output_folder, 'afc_pdfFiles.csv'), index=False)
+
     print('Processing complete.')
 
 # Run the script
 process_pdfs(pdf_folder)
+
 
 
 
