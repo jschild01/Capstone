@@ -185,3 +185,145 @@ def standardize_dataframe_columns(df: pd.DataFrame, cols: list) -> pd.DataFrame:
         if col not in df.columns:
             df[col] = None
     return df[cols]
+
+
+
+# XML Scraper ----------------------------------------------------------------------------------------------------------
+def get_url_xml(url): # rate limit(s) are 10 requests per minute
+    # raw xml
+    raw_xml = getXML(url)
+    time.sleep(random.randint(7, 10))
+
+    # raw uncleaned text inside the xml
+    raw_text = getXMLText(url)
+    time.sleep(random.randint(7, 10))
+    return raw_xml, raw_text
+
+def get_catalog_record_url(url):
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        # Parse the XML content
+        root = ET.fromstring(response.content)
+        namespace = {'ead': 'http://ead3.archivists.org/schema/'}
+        ref_element = root.find('.//ead:controlnote[@id="lccnNote"]/ead:p/ead:ref', namespace)
+
+        # Extract the URL
+        if ref_element is not None:
+            catalog_record_url = ref_element.get('href')
+            catalog_record_url = catalog_record_url + "/marcxml"
+            return catalog_record_url
+        else:
+            catalog_record_url = f"Failed to fetch XML content. Status code: {response.status_code}"
+    else:
+        catalog_record_url = f"Failed to fetch XML content. Status code: {response.status_code}"
+
+    # random sleep to avoid getting blocked/detected
+    time.sleep(random.randint(1, 3))
+    return catalog_record_url
+
+def fetchXML(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, "html.parser")
+    return soup
+
+def getXML(url):
+    soup = fetchXML(url)
+    return soup.prettify()
+
+def getXMLText(url):
+    soup = fetchXML(url)
+    return soup.get_text()
+
+def getXMLLinks(url):
+    soup = fetchXML(url)
+    links = []
+    for link in soup.find_all("a"):
+        links.append(link.get("href"))
+    return links
+
+def get_lccn(url):
+    lccn = ''.join(filter(str.isdigit, url))
+    return lccn
+
+def get_collection(url):
+    collection = url.split("/")[-3]
+    return collection
+
+def get_digital_url(row):
+    baseurl = row.get("digital_content_baseurl")
+    baseurl2 = row.get("digital_content_baseurl2")
+    
+    if pd.notna(row.get("marc_xml")) and pd.notna(baseurl):
+        match = pd.Series(row["marc_xml"]).str.extract(rf'({baseurl}[^ ]*)')
+        if not match.isna().values.any():
+            return match[0].values[0]
+    
+    if pd.notna(row.get("ead_xml")) and pd.notna(baseurl):
+        match = pd.Series(row["ead_xml"]).str.extract(rf'({baseurl}[^ ]*)')
+        if not match.isna().values.any():
+            return match[0].values[0]
+    
+    if pd.notna(row.get("marc_xml")) and pd.notna(baseurl2):
+        match = pd.Series(row["marc_xml"]).str.extract(rf'({baseurl2}[^ ]*)')
+        if not match.isna().values.any():
+            return match[0].values[0]
+
+    if pd.notna(row.get("ead_xml")) and pd.notna(baseurl2):
+        match = pd.Series(row["ead_xml"]).str.extract(rf'({baseurl2}[^ ]*)')
+        if not match.isna().values.any():
+            return match[0].values[0]
+
+    return "No url found"
+
+def get_all_XML_urls(base_url):
+    collections = getXMLLinks(base_url)
+    collections_urls = [base_url + link for link in collections]
+
+    # loop through each collection to get their corresponding years; not each collection has the same years available
+    urls_master = []
+    for collection_url in collections_urls:    
+        
+        # get the years for each collection and their urls
+        years = getXMLLinks(collection_url)
+        collectionYear_urls = [collection_url + year for year in years]
+
+        # loop through each year to get the xml links
+        for collectionYear_url in collectionYear_urls:
+            xmlItems = getXMLLinks(collectionYear_url)
+            full_urls = [collectionYear_url + item for item in xmlItems]
+            urls_master.append(full_urls)
+            time.sleep(random.randint(7, 10))
+        
+        time.sleep(random.randint(7, 10))
+
+    # flatten master list so it is not a nested list
+    urls_master = [item for sublist in urls_master for item in sublist]
+    return urls_master
+
+def fetch_ead_marc_xml():
+    base_url = "https://findingaids.loc.gov/exist_collections/ead3master/"
+    urls_master = get_all_XML_urls(base_url)
+    df = pd.DataFrame(urls_master, columns=["urls"])
+
+    # get additional data for the urls
+    df["catalog_marcRecord_url"] = df["urls"].apply(get_catalog_record_url)
+    df["ead_xml"], df["ead_xmlText"] = zip(*df["urls"].map(get_url_xml))
+    df["marc_xml"], df["marc_xmlText"] = zip(*df["catalog_marcRecord_url"].map(get_url_xml))
+    df["lccn"] = df["catalog_marcRecord_url"].apply(get_lccn)
+    df["collection"] = df["urls"].apply(get_collection)
+
+    # check for/if there is digital content
+    df["digital_content_baseurl"] = df["collection"].apply(lambda x: f"http://hdl.loc.gov/loc.{x}/coll{x}")
+    df["digital_content_baseurl2"] = df["collection"].apply(lambda x: f"https://hdl.loc.gov/loc.{x}/coll{x}")
+    df["digital_content"] = df.apply( # check if digital content base url is present in the ead_xml or marc_xml (True/False)
+                            lambda row: (row["digital_content_baseurl"] in row["ead_xml"]) or 
+                                        (row["digital_content_baseurl"] in row["marc_xml"]) or
+                                        (row["digital_content_baseurl2"] in row["ead_xml"]) or
+                                        (row["digital_content_baseurl2"] in row["marc_xml"]),
+                            axis=1
+                        )
+
+    # get full digital content url
+    df["digital_content_fullurl"] = df.apply(get_digital_url, axis=1)
+    return df
