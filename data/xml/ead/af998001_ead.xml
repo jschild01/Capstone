@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af998001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af998001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Duncan Emrich Autograph Album
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1955/001
+    </subtitle>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center, Library
+			 of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="1998-08">
+     August 1998
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2003682275" show="new">
+       https://lccn.loc.gov/2003682275
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2009-12">
+     December 2009
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     converted from EAD 1.0 to EAD 2002
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2009-08">
+     August 2009
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="1998">
+     1998
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 1955/001
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Emrich, Duncan,
+			 1908-1977
+     </part>
+    </persname>
+   </origination>
+   <unittitle encodinganalog="245$a" label="Title">
+    Duncan Emrich Autograph
+		  Album Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1843/1923">
+     1843-1923
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1843/1923" unitdatetype="inclusive">
+    1843-1923
+   </unitdate>
+   <physdesc encodinganalog="300" label="Contents">
+    20 volumes and 2
+		  folders in 2 boxes
+   </physdesc>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    This collection was
+		  initiated through an on-air request for autograph albums on the "NBC Weekend"
+		  radio program by Duncan Emrich, then head of the Archive of Folk Song, Library
+		  of Congress, between 1955 and 1956. It consists of twenty autograph albums and
+		  related ephemera from Iowa, Illinois, Indiana, Michigan, Missouri, and New
+		  York, with dates from 1843 to 1923.
+   </abstract>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="ger">
+     German
+    </language>
+    <language encodinganalog="041" langcode="grc">
+     Greek
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in
+		English,
+		German, and
+		Greek
+     </p>
+    </descriptivenote>
+   </langmaterial>
+  </did>
+  <controlaccess altrender=":::F005=^20230808143936.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Song (U.S.)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      American poetry--19th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      American poetry--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Autograph albums--Iowa.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Autograph albums--Middle West.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Autograph albums--New York (State)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Autograph albums--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Autograph verse.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      British Americans--Iowa--Independence--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      German Americans--Iowa--Independence--Social life and customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Independence (Iowa)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Autograph albums.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Poems.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Twenty autograph albums, dated from 1843 through 1923, represent the
+		  German-American and Anglo-American autograph album tradition. Duncan Emrich,
+		  head of the Archive of Folk Song, appeared on the "NBC Weekend" radio program
+		  and apparently asked interested listeners to send such materials to the
+		  Library. In response to his radio talk, the albums, mostly from Iowa, arrived
+		  at the Archive between 1955 and 1956. Examination of the Music Division
+		  administrative files might lead to further information on the original owners,
+		  donors, and the history of these albums.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    This collection was processed in 1995, with a finding aid completed in
+		  December 1995. It was revised in 1998.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Access to the collection is unrestricted.
+   </p>
+  </accessrestrict>
+  <userestrict encodinganalog="540">
+   <head>
+    Restrictions
+   </head>
+   <p>
+    Duplication for publication may require permissions.
+   </p>
+  </userestrict>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content Note
+   </head>
+   <p>
+    The collection consists of twenty autograph albums and ephemera from
+		  the states of Iowa, Illinois, Indiana, Michigan, Missouri, and New York dating
+		  from 1843 through 1923, collected by Duncan Emrich, head of the Archive of Folk
+		  Song, 1945-1956. Emrich's collection is comprised of eight albums from the
+		  Habel, Steinmetz, Hale, and Wehls families, donated by Mrs. Orville B. Craig of
+		  Independence, Iowa, in 1955; three albums apparently donated by Neva Ruth Dye
+		  of Independence, Iowa, in 1956; plus seven albums, one set of loose pages from
+		  an album, and one greeting card, donated by various individuals.
+   </p>
+   <p>
+    The collection represents German-American and Anglo-American autograph
+		  album customs. Autograph albums are thought to have become a tradition among
+		  German students in the fifteenth century. The tradition came to the United
+		  States about 1820 and changed as it was adopted by American album-writers
+		  (McNeil, 1968).
+   </p>
+   <p>
+    These albums, the earliest from 1843, provide examples of variations
+		  of the tradition as it emerged. Several albums kept as a student pastime
+		  (college men and women and school boys and girls) are found in this collection.
+		  Another album custom of the time was for women of marriageable age to keep
+		  "friendship books" to collect signatures and verses from suitors and advice
+		  (often on marriage) from visitors, friends, and relatives (Randolph and McCord,
+		  1948). Many women continued adding to their albums after marriage. Several
+		  albums in this collection provide examples of this version of the tradition.
+		  Sometimes the same album contains examples of both the student and the
+		  pre-marriage tradition. The verse used in American autograph albums of this
+		  period varied from serious to light-hearted and humorous texts (Stern, 1973).
+		  The albums may include verses of somber advice from their elders alongside
+		  light-hearted verses from friends. The inscriptions include simple signatures,
+		  poetry, sayings, personal messages, quotations, calligraphy, and drawings. The
+		  language of the inscriptions is predominantly in English, with few in German or
+		  Greek.
+   </p>
+   <p>
+    Little information accompanies these albums. Sometimes the name of the
+		  original owner can be determined from the album, but in some cases only the
+		  first name is evident. Entries are often dated, so the period the album was in
+		  use can usually be determined. Donors did not always provide information about
+		  the original owner or the history of the album.
+   </p>
+   <p>
+    The albums are grouped by the principal donors, then arranged
+		  chronologically by the date of the first inscription. Mrs. Craig's donation of
+		  eight albums is followed by Mrs. Nye's donation of three albums. These are
+		  followed by the individually donated albums, album pages, and the greeting
+		  card, all arranged chronologically.
+   </p>
+   <p>
+    Further research might be done on this collection. Examination of the
+		  Music Division files might lead to further correspondence related to the albums
+		  under donor's names. The radio script was not found among the Duncan Emrich
+		  papers held by the Archive.
+   </p>
+  </scopecontent>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    McNeil, W.K., "The Autograph Album Custom: A Tradition and its
+		  Scholarly Treatment."
+    <title localtype="simple">
+     <part>
+      Keystone Folklore Quarterly
+     </part>
+    </title>
+    , Spring 1968, pp.
+		  29-40.
+   </bibref>
+   <bibref>
+    Randolph, Vance, and May Kennedy McCord, "Autograph Albums in the
+		  Ozarks."
+    <title localtype="simple">
+     <part>
+      Journal of American Folklore
+     </part>
+    </title>
+    61, no. 240 (April-June,
+		  1948), pp. 182-93.
+   </bibref>
+   <bibref>
+    Stern, Stephen, "Autograph Memorabilia as an Output of Social
+		  Interaction."
+    <title localtype="simple">
+     <part>
+      New York Folklore Quarterly
+     </part>
+    </title>
+    29, no. 3 (September 1973),
+		  pp. 219-39.
+   </bibref>
+  </bibliography>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES I: ADMINISTRATIVE MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Collection Guide.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Correspondence and identifying information.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One letter from Neva Ruth Dye (Mrs. L. M. Dye) of Independence,
+				  Iowa, dated May 9, 1956. One letter from Mrs. Grace Danforth of Charleston,
+				  Missouri, dated March 27, 1955. Various envelopes and postmarks identifying
+				  donors, which were enclosed inside the albums by Dr. Emrich.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES II: DONATIONS OF MRS. CRAIG
+     </unittitle>
+    </did>
+    <odd localtype="admininfo">
+     <p>
+      The following eight albums were donated by Mrs. Orville B. Craig.
+				Albums from the same location and period were also donated by Mrs. Neva Ruth
+				Dye, below.
+     </p>
+    </odd>
+    <scopecontent>
+     <p>
+      Most of these albums have several entries from Independence, Iowa.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       1
+      </container>
+      <unittitle>
+       Steinmetz, Carrie L. C., 1879
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 4 x 2.5-in. cardboard-bound album with illustrated cover.
+				  Earliest inscription dated September 29, 1879. The inner cover is inscribed,
+				  "Carrie L. C. Steinmetz." The earliest inscriptions are apparently for a young
+				  woman going away to school ("Study hard and accomplish much"). Inscriptions in
+				  English, with one in German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       2
+      </container>
+      <unittitle>
+       Hale, Fannie R., 1879
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7.5 x 4.75-in. black leather-bound album embossed with gold
+				  and silver pheasant pattern and Chinese calligraphy on the spine, belonging to
+				  Fannie R. Hale. Earliest inscription dated October 25, 1879, and most
+				  inscriptions are from various towns in Iowa. Many calligraphic embellishments
+				  and illustrations throughout; most are apparently by Fannie Hale. Inscriptions
+				  in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       3
+      </container>
+      <unittitle>
+       Wehls, Emma, 1880
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4.25-in. blue cloth-bound album embossed with fan design
+				  in silver, black, and gold belonging to Emma Wehls. Earliest entry dated
+				  September 29, 1880. Inscriptions in English and German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       4
+      </container>
+      <unittitle>
+       Steinmetz, Martha, 1881
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7.75 x 5-in. dark green album with raised and embossed stag
+				  head on the cover belonging to Miss Martha Steinmetz. Earliest entry dated
+				  December 23, 1881. Inscriptions in English and German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       5
+      </container>
+      <unittitle>
+       Habel, Johnnie, 1882
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4-in. light brown, cloth-bound album embossed in silver
+				  and dark brown belonging to Johnnie [Johann?] Habel. Earliest entry from
+				  Chicago dated February 22, 1882. Inscriptions in English and German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       6
+      </container>
+      <unittitle>
+       Steinmetz, George, 1883
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 6 x 4-in. brown album with raised and embossed color
+				  illustrations of birds belonging to George Steinmetz. Earliest entry dated
+				  April 3, 1883. The penmanship of the signature of the owner indicates that the
+				  album belonged to a child. Color illustrations of butterflies inside.
+				  Inscriptions are primarily in English and German, with one inscription in
+				  Greek.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       7
+      </container>
+      <unittitle>
+       [Steinmetz?], Martha, 1883
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4.25-in. grey, cloth-bound album embossed in black and
+				  gold belonging to Martha [Steinmetz?]. Earliest entry dated August 10, 1883.
+				  Quotations from famous persons are printed in gold ink on left-hand pages.
+				  Inscriptions in English and German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       8
+      </container>
+      <unittitle>
+       Steinmetz, Carrie, 1884
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4.5-in. red velvet album belonging to Miss Carrie
+				  Steinmetz. First inscription dated February 14, 1884. Several penciled
+				  drawings, one is a detailed drawing of pansies and a cross signed "Allie,"
+				  opposite an inscription from Alice Blood. Inscriptions in English and German,
+				  most from Independence, Iowa.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES III: DONATIONS OF MRS. DYE
+     </unittitle>
+    </did>
+    <odd localtype="admininfo">
+     <p>
+      The following three albums were apparently donated by Neva Ruth
+				Dye (Mrs. L. M. Dye) of Independence, Iowa. In a letter found with the
+				collection, Mrs. Dye says she is donating "these albums" (more than one), but
+				no albums are marked as having been donated by her. All the other albums, with
+				the exception of the loose album pages, either have known donors or were marked
+				as having been donated anonymously. So, it is likely that these three unmarked
+				albums, all German-American and all with entries from Independence, Iowa, were
+				donated by Mrs. Dye.
+     </p>
+    </odd>
+    <scopecontent>
+     <p>
+      These albums are from the same location and period as the albums
+				donated by Mrs. Craig and have many signatures in common with them.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       9
+      </container>
+      <unittitle>
+       Zinn, Pauline, dark red leather album, 1879
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4.25-in. dark red album embossed with gold and silver
+				  drawing of pheasants and Chinese calligraphy on the spine belonging to Miss
+				  Pauline Zinn. The earliest inscription is from Independence, Iowa, dated April
+				  3, 1879. Inscriptions in English and German. No donor noted, probably Mrs. Dye.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       10
+      </container>
+      <unittitle>
+       Zinn, Pauline, "Floral Album," 1879
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4.25-in. red, cloth-bound album belonging to Miss Pauline
+				  Zinn, earliest entry from Independence, Iowa, dated April 7, 1879. Cover
+				  inscription in gold, "Floral Album." Inside are color illustrations of flowers.
+				  Inscriptions in English and German. No donor noted, probably Mrs. Dye.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       11
+      </container>
+      <unittitle>
+       Wackerbarth, Carrie, 1891
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7.75 x 5-in. dark red, paper-bound album with gold embossed
+				  cover featuring a color lithograph of a woman with a parasol. Inscriptions are
+				  addressed to Carrie Wackerbarth. Earliest inscription dated March 10, 1891,
+				  Independence, Iowa. Inscriptions in English and German. No donor noted. The
+				  inscription signed "your sister Neva" gives reason to believe this album was
+				  donated by Mrs. Dye.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES IV: INDIVIDUAL DONATIONS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       12
+      </container>
+      <unittitle>
+       Album pages, 1843
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One set of 9 unattached 6 x 7.5-in. album pages containing
+				  poetry and printed pictures. Anonymous donation. Two circular cutouts of
+				  illustrations are among the pages. These pages appear to be from the same
+				  album. One poem is addressed to "Sarah." The earliest inscription is marked
+				  "Norwich, Oct. 2nd, 1843." No other locations are given. Inscriptions in
+				  English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       13
+      </container>
+      <unittitle>
+       Deatherage, Dora, 1880
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 5.5 x 3-in. dark red album embossed with silver, belonging to
+				  Dora Deatherage. Inscription in the front dated October 9, 1880, reads,
+				  "Presented to Miss Dora Deatherage by Cecil L. Rogers, Waverly, Illinois." Some
+				  later entries are addressed to "Mrs. Rogers." The donor is unknown but may have
+				  been the owner or a relative. The postmarked envelope, with a return address in
+				  Springfield, Illinois, was included with the album, which Dr. Emrich marked "no
+				  name." Inscriptions in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       14
+      </container>
+      <unittitle>
+       Theis, Ethel Anna, 1868
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 4-in. brown, cloth-bound "Scenery Album" with silver
+				  embossed cover donated by Ethel Anna Theis of Minier, Illinois. Inscription
+				  inside front cover reads, "This album belonged to my mother, Anna Aretta Lee
+				  Robertson (Theis). Aug. 8, 1868; April 30, 1942. Ethel Anna Theis, Minier,
+				  Illinois." Earliest inscription dated June 27, 1881. Inscriptions in
+				  English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       15
+      </container>
+      <unittitle>
+       Danforth, Nettie Browning, 1882
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7 x 8.25-in. dark red album embossed with gold and silver,
+				  belonging to Nettie Browning Danforth of Charleston, Missouri. Dated August 29,
+				  1882. Notations of births and deaths of Danforth relatives noted inside front
+				  cover. Notes by signatures indicate relationship to the owner, dates of death,
+				  and comments about the person: "Lived to over 100 years old. Brilliant to the
+				  end," and so on. Includes a few drawings, one photograph. Two pages pasted
+				  together conceal texts on both. Donated by Grace D. Danforth of Charleston,
+				  Missouri, in 1955. Inscriptions primarily in English, with one inscription in
+				  Greek.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       16
+      </container>
+      <unittitle>
+       Harper, Samuel A., 1883
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 3.75 x 2.5-in. dark red album with a raised and embossed cover
+				  in gold and pink showing a vase of flowers, belonging to Samuel A. Harper of
+				  Merrit Island, Florida, inscribed "Sammie Harper, Bronson, Mich." Earliest
+				  inscription dated December 26, 1883. Donated by Mr. Harper in 1955.
+				  Inscriptions in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       17
+      </container>
+      <unittitle>
+       Epstein, Clara, 1893
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 6.5 x 4.5-in. album originally belonging to Miss Clara Epstein
+				  from Aurora, Indiana, dated October 16, 1893, donated by H. Speier. Brown
+				  leather cover in poor condition. Inscriptions in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       18
+      </container>
+      <unittitle>
+       Smith, Anne M. S., 1901
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 7.5 x 9-in. blue, cloth-bound album embossed with gold, with
+				  mauve and green flower design. Titled "Forget-Me-Not: A Floral Album." Several
+				  inscription locations indicate they were collected in Northern Germany. One
+				  page near the center of the album is glued over another. Examination on a light
+				  table shows a slightly risque verse beneath. Earliest inscription, July 13,
+				  1901. Donated by the original owner, Anne M. S. Smith of New York, New York.
+				  Inscriptions in English and German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       19
+      </container>
+      <unittitle>
+       Brett, Marie Helen, 1909
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 6.5 x 4.25-in. album with brown velvet binding and plastic
+				  lithographed cover, dated February 22, 1909. "Marie Helen Brett" is written on
+				  the back page; perhaps the name of the owner. The inscriptions are also
+				  addressed to "May" or "Mae." Donated by James Reilly, dated 1909. Inscriptions
+				  in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item">
+       20
+      </container>
+      <unittitle>
+       Dubois, Paula S. (Mrs. George W.), 1923
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A 3.75 x 5.5-in. booklet-style greeting card from Paula S. (Mrs.
+				  George W.) Dubois of Highmount, New York. She notes it was given to her in
+				  1923. Inscriptions in English.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

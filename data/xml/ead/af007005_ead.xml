@@ -1,0 +1,4628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af007005" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af007005
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Ray M. Lawless Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1970/003
+    </subtitle>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="1996-04">
+     April 1996
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695188" show="new">
+       https://lccn.loc.gov/2004695188
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-01">
+     January 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2007-06">
+     June 2007
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Judy Ng
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1970/003
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Ray M. Lawless Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1952/1965">
+     1952-1965
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1952/1965" unitdatetype="inclusive">
+    1952-1965
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    6 boxes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    2.5 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    224 folders
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Lawless, Ray McKinley,
+			 1896-
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Research materials
+		  including questionnaires, some correspondence, and photographs of approximately
+		  200 folksingers and singers of folksong (a few of them are performers of art
+		  songs and classical music) collected by Ray M. Lawless to illustrate his book,
+    <emph render="italic">
+     Folksingers and Folksongs in America
+    </emph>
+    (New York: Duell, Sloan and Pearce, 1960; second edition, 1965).
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Between 1952 and 1959, Lawless wrote to approximately two hundred
+		  "folksingers" and "singers of folksongs," requesting information about their
+		  lives and careers in preparation for his book
+    <title localtype="simple" render="italic">
+     <part>
+      Folksingers and Folksongs in America
+     </part>
+    </title>
+    .
+		Lawless contacted both professional and non-professional singers and also wrote
+		to several collectors of folksongs and collectors of folk instruments. The bulk
+		of the collection consists of Lawless's correspondence with the singers,
+		completed questionnaires, and information sent by the singers to Lawless. Most
+		singers also sent one or more photographs.
+   </p>
+   <p>
+    The collection includes responses to the prepared questionnaire,
+		  carbon copies of Lawless's correspondence, the original letters from his
+		  correspondents, photographs, newspaper and magazine clippings, concert
+		  programs, publicity materials, and other ephemera. It also includes some
+		  correspondence with folksingers not strictly related to the preparation of
+		  Lawless's book. For example, there is correspondence concerning the arrangement
+		  of a concert at the college where Lawless taught.
+   </p>
+   <p>
+    The second edition of
+    <title localtype="simple" render="italic">
+     <part>
+      Folksingers and Folksongs in America
+     </part>
+    </title>
+    (1965) included a "Special Supplement" with biographical information on the
+		generation of folksingers who became prominent around 1960-64 (e.g. Joan Baez
+		and Odetta). To research this updated edition, Lawless drew on previously
+		published sources and did not contact the singers directly as he had in the
+		1950s. Few of the 1960s folksingers listed in the "Special Supplement" are
+		represented in this collection, and those represented are documented with
+		black-and-white photographs and clippings, not with correspondence.
+   </p>
+   <p>
+    The folders contain many more black-and-white photographs than appear
+		  in
+    <title localtype="simple" render="italic">
+     <part>
+      Folksingers and Folksongs in America
+     </part>
+    </title>
+    . The
+		book included two kinds of illustrations: black-and-white photographs of
+		artworks depicting folklife, and black-and-white photographs of musicians. The
+		black-and-white photographs of artwork are in folder 2, "Artwork
+		illustrations." The photograph(s) of each musician are under the name of each
+		musician or musician group.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Ray McKinley Lawless was born in Wellington, Kansas in 1896 and died
+		  March 11, 1968. A veteran of World War I, Lawless received his master's degree
+		  from the University of Chicago in 1924 and completed his doctorial studies with
+		  the same institution in 1940. For over 35 years, Lawless taught as a professor
+		  of English at Hendrix College (1924-1928), Dakota Wesleyan University
+		  (1928-1931), and Junior College of Kansas City (1932-1962), later known as
+		  Metropolitan Junior College. A lifelong scholar of American literature and
+		  folksongs, he published many articles in addition to the influential and
+		  authoritative
+    <title localtype="simple" render="italic">
+     <part>
+      Folksingers and Folksongs in America
+     </part>
+    </title>
+    .
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20231128190704.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lawless, Ray McKinley, 1896-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk singers--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk singers--Scotland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk singers--United States--Correspondence.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk singers--United States--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--1951-1960.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--1961-1970.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Programs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Biographical materials of performing artists in the collection are
+		  organized alphabetically by the correspondent's last name.
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Viewing access to the collection is unrestricted. Duplication of
+		  collection materials may be governed by copyright and other restrictions. For
+		  specific questions, researchers should consult with the American Folklife
+		  Center reference staff.
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was donated to the Folklife Center Archive by Mrs.
+		  Hazel K. Lawless in 1970. Photographic negatives created from prints for
+		  reference purposes have been added to the collection. The number of negatives
+		  may increase over time as photoprints from this collection are requested.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Ray M. Lawless Collection (AFC 1970/003), Archive of Folk Culture,
+		  American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        224
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1-6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        142
+       </entry>
+       <entry morerows="0">
+        black-and-white photographs
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        n/a
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Correspondence
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Includes carbon copies of Lawless's correspondence, the original
+				letters from his correspondents, responses to the prepared questionnaire,
+				photographs, newspaper and magazine clippings, concert programs, publicity
+				materials, and other ephemera.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Administrative materials regarding the
+				  collection
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Collection guide and correspondence. Correspondence arranged
+				  chronologically (1956-70) between the Archive of Folk Song, Exchange and Gift
+				  Division, and Mrs. Lawless.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Artwork--Illustrations
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       18 photoprints including 17 illustrations and 1 of unknown
+				  musicians. One negative of the illustration "WRECK OF THE '97." Each
+				  illustration is identified by title, artist, donor, and photographer, but
+				  undated.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle>
+       Adams, Derrols S.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and questionnaire; portrait (negative and
+				  print)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       Allison, John
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and questionnaire; news clippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle>
+       Archer, Frances, and Beverly Gile
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and questionnaire; programs; press release.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle>
+       Arkin, Alan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle>
+       Baez, Joan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       News clippings; portrait (negative and print); magazine
+				  write-ups.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       8
+      </container>
+      <unittitle>
+       Bailey, Jay
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait, 1 large and 1 small
+				  prints.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       9
+      </container>
+      <unittitle>
+       Baillargeon-Cote, Helene
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle>
+       Bair, Fred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       11
+      </container>
+      <unittitle>
+       Balfour, Nemonie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Portrait, photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       12
+      </container>
+      <unittitle>
+       Ball, E. C.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       13
+      </container>
+      <unittitle>
+       Barker, Horton
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       14
+      </container>
+      <unittitle>
+       Barnes, Bobby and Wilmer
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; news clippings;
+				  portrait (prints).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       15
+      </container>
+      <unittitle>
+       Barry, Margaret
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       16
+      </container>
+      <unittitle>
+       Beers, Robert ("Fiddler"), and Evelyne Beers (Mrs.
+				  Fiddler)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaires; press releases; programs;
+				  reviews; portrait (prints).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle>
+       Belafonte, Harry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; biography; questionnaire; portrait (print); news
+				  clippings; magazine write-ups.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       18
+      </container>
+      <unittitle>
+       Bender, Bill
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       19
+      </container>
+      <unittitle>
+       Benton, Jessie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Biography; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       20
+      </container>
+      <unittitle>
+       Bikel, Theodore
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       21
+      </container>
+      <unittitle>
+       Black, Nettie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       22
+      </container>
+      <unittitle>
+       Boette, Marie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       23
+      </container>
+      <unittitle>
+       Bonyun, Bill
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; news clippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       24
+      </container>
+      <unittitle>
+       Boswell, George
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       25
+      </container>
+      <unittitle>
+       Boyle, Mary Ella
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       26
+      </container>
+      <unittitle>
+       Brand, Oscar
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (prints); programs; song
+				  texts;
+       <title localtype="simple" render="italic">
+        <part>
+         New York Folklore Quarterly
+        </part>
+       </title>
+       , vol. 8,
+				no. 4.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       27
+      </container>
+      <unittitle>
+       Broonzy, "Big Bill"
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (negative and
+				  prints).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       28
+      </container>
+      <unittitle>
+       Bryan, Charles Faulkner
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; picture of instruments
+				  from his collection; draft of article to
+       <title localtype="simple" render="italic">
+        <part>
+         Tennessee Folklore Society Bulletin
+        </part>
+       </title>
+       March 1952 issue; portrait (print)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       29
+      </container>
+      <unittitle>
+       Buckley, Bruce
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       30
+      </container>
+      <unittitle>
+       Burnett, W. H.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       31
+      </container>
+      <unittitle>
+       Byrne, Jerry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       32
+      </container>
+      <unittitle>
+       Cahn, Rolf
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       33
+      </container>
+      <unittitle>
+       Missing
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       34
+      </container>
+      <unittitle>
+       Cameron, Isla
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       35
+      </container>
+      <unittitle>
+       Campbell, Booth
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; photoprints.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       36
+      </container>
+      <unittitle>
+       Cansler, Loman
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; news clippings; news write-up; phonograph
+				  recording release (Folkways FH 5324); portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       37
+      </container>
+      <unittitle>
+       Chalmers, Keith
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       38
+      </container>
+      <unittitle>
+       Chase, Dorothy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       39
+      </container>
+      <unittitle>
+       Churchill, Stuart
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; biography;
+				  photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       40
+      </container>
+      <unittitle>
+       Clark, Keith
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; song score; stories;
+				  crafts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       41
+      </container>
+      <unittitle>
+       Clark, Rogie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clippings; portrait (print);
+				  program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       42
+      </container>
+      <unittitle>
+       Clauson, William
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       43
+      </container>
+      <unittitle>
+       Clayborn, James R., and Garland K.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       44
+      </container>
+      <unittitle>
+       Clayton, Paul
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news write-up; programs; the
+       <title localtype="simple" render="italic">
+        <part>
+         University of Virginia Magazine
+        </part>
+       </title>
+       ,
+				Spring 1956, vol. 1, no. 1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       45
+      </container>
+      <unittitle>
+       Cobos, Ruben
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       46
+      </container>
+      <unittitle>
+       Colby, Fred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       47
+      </container>
+      <unittitle>
+       Coltman, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       48
+      </container>
+      <unittitle>
+       Copeland, Dave
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       49
+      </container>
+      <unittitle>
+       Cornett, "Banjo" Bill
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       50
+      </container>
+      <unittitle>
+       Creswell, Grace
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait, photograph and
+				  painting, (print); programs; news clipping; biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       51
+      </container>
+      <unittitle>
+       Crisp, Rufus
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       52
+      </container>
+      <unittitle>
+       Cronin, Elizabeth
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; biography; review.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       53
+      </container>
+      <unittitle>
+       Dagel, Kathy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       54
+      </container>
+      <unittitle>
+       Missing
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       55
+      </container>
+      <unittitle>
+       Dane, Barbara
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       56
+      </container>
+      <unittitle>
+       Danufsky, Philip
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       57
+      </container>
+      <unittitle>
+       Darling, Erik
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; sketch of instruments; list of
+				  phonograph recordings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       58
+      </container>
+      <unittitle>
+       Davis, Rev. Gary
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print and negative);
+				  news write-up.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       59
+      </container>
+      <unittitle>
+       Davis, Mary Jo
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       60
+      </container>
+      <unittitle>
+       Davis, Mr. and Mrs. T.M.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       61
+      </container>
+      <unittitle>
+       Dehr, Rich
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       62
+      </container>
+      <unittitle>
+       Deller, Alfred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       63
+      </container>
+      <unittitle>
+       Devall, Dick
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       64
+      </container>
+      <unittitle>
+       Diard, Marion
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       65
+      </container>
+      <unittitle>
+       Dobson, Bonnie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       66
+      </container>
+      <unittitle>
+       Duncan, Bob
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clippings; program; portrait
+				  (print); biography; brochures.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       67
+      </container>
+      <unittitle>
+       Dyer-Bennet, Richard
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; portrait (print); program; biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       68
+      </container>
+      <unittitle>
+       Elliott, Bill
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       69
+      </container>
+      <unittitle>
+       Elliot, Jack and June
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait and photograph, (prints
+				  and negative).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       70
+      </container>
+      <unittitle>
+       Eskin, Sam
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news write-up; program;
+				  photoprint; record notes: song texts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       71
+      </container>
+      <unittitle>
+       Faier, Billy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       72
+      </container>
+      <unittitle>
+       Flatt and Scruggs
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Portrait; news clippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       73
+      </container>
+      <unittitle>
+       Flowers, Robert E. Lee
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       74
+      </container>
+      <unittitle>
+       Foster, Pat
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       75
+      </container>
+      <unittitle>
+       Fuller, Jesse
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; magazine write-up; biography;
+				  news clippings; photoprint; record notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       76
+      </container>
+      <unittitle>
+       Gainer, Patrick W.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       77
+      </container>
+      <unittitle>
+       Gard, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       78
+      </container>
+      <unittitle>
+       Gibson, Bob
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       79
+      </container>
+      <unittitle>
+       Ginandes, Shep
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       80
+      </container>
+      <unittitle>
+       Glazer, Joe
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       81
+      </container>
+      <unittitle>
+       Glazer, Tom
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); programs;
+				  sketch.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       82
+      </container>
+      <unittitle>
+       Golden, Terry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); photoprints;
+				  biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       83
+      </container>
+      <unittitle>
+       Gooding, Cynthia
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news write-up, portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       84
+      </container>
+      <unittitle>
+       Gordon, Hally Wood
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       85
+      </container>
+      <unittitle>
+       Greer, Dr. and Mrs. I.G.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       86
+      </container>
+      <unittitle>
+       Gregory, Frosia
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       87
+      </container>
+      <unittitle>
+       Grimes, Anne
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); program;
+				  biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       88
+      </container>
+      <unittitle>
+       Grise, George C.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       89
+      </container>
+      <unittitle>
+       Hall, Kenneth M.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       90
+      </container>
+      <unittitle>
+       Hamilton, Frank
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       91
+      </container>
+      <unittitle>
+       Hammond, John
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       News clipping; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       92
+      </container>
+      <unittitle>
+       Hammontree, Doney
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       93
+      </container>
+      <unittitle>
+       Hatcher, T. Ben
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       94
+      </container>
+      <unittitle>
+       Hayes, Roland
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       95
+      </container>
+      <unittitle>
+       Haynes, Valerie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       96
+      </container>
+      <unittitle>
+       Hays, Lee
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       97
+      </container>
+      <unittitle>
+       Hellerman, Fred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       98
+      </container>
+      <unittitle>
+       Hickerson, Joe
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       99
+      </container>
+      <unittitle>
+       High, Fred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprints.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       100
+      </container>
+      <unittitle>
+       Hillhouse, Cora
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       101
+      </container>
+      <unittitle>
+       Hilton, L.M.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portraits (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       102
+      </container>
+      <unittitle>
+       Hinton, Sam
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; program; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       103
+      </container>
+      <unittitle>
+       Holland, Lori
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       104
+      </container>
+      <unittitle>
+       Holt, Will
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       105
+      </container>
+      <unittitle>
+       House, Wallace
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       106
+      </container>
+      <unittitle>
+       Houston, Cisco
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (negative and
+				  print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       107
+      </container>
+      <unittitle>
+       Hunter, Max
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; article.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       108
+      </container>
+      <unittitle>
+       Huntington, E.G.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       109
+      </container>
+      <unittitle>
+       Hurd, Peter
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; newsclippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       110
+      </container>
+      <unittitle>
+       Isaacson, Dan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       111
+      </container>
+      <unittitle>
+       Ives, Burl
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; news clippings; news write-ups; programs;
+				  portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       112
+      </container>
+      <unittitle>
+       Jarrett, Merrick
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       113
+      </container>
+      <unittitle>
+       Jemison, Gene
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; news clipping; portrait
+				  (print); photograph (print and negative).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       114
+      </container>
+      <unittitle>
+       Kazee, Buell
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (negative and
+				  print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       115
+      </container>
+      <unittitle>
+       Kincaid, Barry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       116
+      </container>
+      <unittitle>
+       King, Martha
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); news clipping;
+				  magazine write-up.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       117
+      </container>
+      <unittitle>
+       Kornfeld, Barry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       118
+      </container>
+      <unittitle>
+       Kossoy, Sisters
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       119
+      </container>
+      <unittitle>
+       Kukler, Aolph and Augusta
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       120
+      </container>
+      <unittitle>
+       Kunitz, Charlene
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       121
+      </container>
+      <unittitle>
+       Kweskin, Jim, and Jug Band
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Program; magazine write-up; news clipping; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       122
+      </container>
+      <unittitle>
+       Lane, Lawrence
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       123
+      </container>
+      <unittitle>
+       Langstaff, John
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; portrait printed on
+				  programs; news clipping; magazine write-ups.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       124
+      </container>
+      <unittitle>
+       Leadbelly
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; portrait on record notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       125
+      </container>
+      <unittitle>
+       Ledford, Homer
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       126
+      </container>
+      <unittitle>
+       Lee, Archie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       127
+      </container>
+      <unittitle>
+       Lee, Katie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print); news
+				  clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       128
+      </container>
+      <unittitle>
+       Lloyd, A.L.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       129
+      </container>
+      <unittitle>
+       Lomax, Alan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; news write-up; biography; article.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       130
+      </container>
+      <unittitle>
+       Long, Maud
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       131
+      </container>
+      <unittitle>
+       Loudermilk, Romaine
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       132
+      </container>
+      <unittitle>
+       Lunsford, Bascomb
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       133
+      </container>
+      <unittitle>
+       MacColl, Ewan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       134
+      </container>
+      <unittitle>
+       McCord, May Kennedy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait, negative and print;
+				  news clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       135
+      </container>
+      <unittitle>
+       McCurdy, Ed
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); news
+				  clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       136
+      </container>
+      <unittitle>
+       McNeil, Brownie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       137
+      </container>
+      <unittitle>
+       Maples, Jo
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       138
+      </container>
+      <unittitle>
+       Marais and Miranda
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       139
+      </container>
+      <unittitle>
+       Marcotte, Will and Jean
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       140
+      </container>
+      <unittitle>
+       Mechau Family
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; news write-up; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       141
+      </container>
+      <unittitle>
+       Meyer, Roy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       142
+      </container>
+      <unittitle>
+       Mickelson, Eric
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       143
+      </container>
+      <unittitle>
+       Mills, Alan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; news write-up; news
+				  clipping; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       144
+      </container>
+      <unittitle>
+       Mitchell, Merlin
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       145
+      </container>
+      <unittitle>
+       Mobley, Pleaz W.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       146
+      </container>
+      <unittitle>
+       Moon, Jacob and Winnifred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       147
+      </container>
+      <unittitle>
+       Morris, Jimmy (Driftwood)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; 2 song scores by J. Morris.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       148
+      </container>
+      <unittitle>
+       Morrison, Absie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       149
+      </container>
+      <unittitle>
+       Moser, Artus
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       150
+      </container>
+      <unittitle>
+       Mueller, Joan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       151
+      </container>
+      <unittitle>
+       Murai, Jean
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); programs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       152
+      </container>
+      <unittitle>
+       Murray, Jim and Carmen
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       153
+      </container>
+      <unittitle>
+       National Music League Vocal Trio
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Program; portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       154
+      </container>
+      <unittitle>
+       Neal, Ruth
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       155
+      </container>
+      <unittitle>
+       Neibarger, Nancy, and Pearl Kelly
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       156
+      </container>
+      <unittitle>
+       Nickerson, Camille
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       157
+      </container>
+      <unittitle>
+       Niles, John Jacob
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news write-up; biography;
+				  programs; portraits (print); news clipping; article.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       158
+      </container>
+      <unittitle>
+       Nye, Hermes
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       159
+      </container>
+      <unittitle>
+       O'Bryant, Joan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       160
+      </container>
+      <unittitle>
+       O'Hara, Mary
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       161
+      </container>
+      <unittitle>
+       Okun, Milt
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       162
+      </container>
+      <unittitle>
+       Oldfather, Charles
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       163
+      </container>
+      <unittitle>
+       Oster, Harry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; new write-up; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       164
+      </container>
+      <unittitle>
+       Paley, Tom
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       165
+      </container>
+      <unittitle>
+       Peacock, Ken
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       166
+      </container>
+      <unittitle>
+       Pennington, John B.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Song book: song texts only.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       167
+      </container>
+      <unittitle>
+       Powell, Desmond
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       168
+      </container>
+      <unittitle>
+       Le Quatour, Alouette
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; photoprints; program; biography,
+				  English and French; reviews.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       169
+      </container>
+      <unittitle>
+       Reed, Jared
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       170
+      </container>
+      <unittitle>
+       Reed, Susan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; program; news clipping; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       171
+      </container>
+      <unittitle>
+       Ritchie, Edna
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       172
+      </container>
+      <unittitle>
+       Ritchie, Jason
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       173
+      </container>
+      <unittitle>
+       Ritchie, Jean
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; program; news clipping; news write-up; portrait
+				  (print) and negative.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       174
+      </container>
+      <unittitle>
+       Ritchie, Jewel
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; photoprint.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       175
+      </container>
+      <unittitle>
+       Ritchie, May
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       176
+      </container>
+      <unittitle>
+       Ritchie, Una
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       177
+      </container>
+      <unittitle>
+       Roberts, Robin
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       178
+      </container>
+      <unittitle>
+       Robinson, Earl
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       179
+      </container>
+      <unittitle>
+       Robinson, Frank V.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       180
+      </container>
+      <unittitle>
+       Ross, Rob
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; Folkways record notes: portrait,
+				  song texts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       181
+      </container>
+      <unittitle>
+       Roth, Herbert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; news clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       182
+      </container>
+      <unittitle>
+       Rubin, Ruth
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       183
+      </container>
+      <unittitle>
+       Rudie, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       184
+      </container>
+      <unittitle>
+       Saletan, Tony
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       185
+      </container>
+      <unittitle>
+       Sandburg, Carl
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; biography; news clippings; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       186
+      </container>
+      <unittitle>
+       Scammell, A.R.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       187
+      </container>
+      <unittitle>
+       Schlamme, Martha
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       News clipping; portrait (print) on brochure; program; biography;
+				  reviews.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       188
+      </container>
+      <unittitle>
+       Scott, Molly
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; news clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       189
+      </container>
+      <unittitle>
+       Scott, Tom
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; biography; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       190
+      </container>
+      <unittitle>
+       Seeger, Pete
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; portrait (print); news
+				  clippings; program; his How to play the 5-string Banjo; Folkways record
+				  notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       191
+      </container>
+      <unittitle>
+       Sellers, John
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       192
+      </container>
+      <unittitle>
+       Silverman, Jerry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; record notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       193
+      </container>
+      <unittitle>
+       Smith, Fred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       194
+      </container>
+      <unittitle>
+       Smith, Winifred
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       195
+      </container>
+      <unittitle>
+       Sparks, Lloyd
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       196
+      </container>
+      <unittitle>
+       Starr, Mary Agnes
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; program; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       197
+      </container>
+      <unittitle>
+       Stekert, Ellen
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       198
+      </container>
+      <unittitle>
+       Stone, Eleanor
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       199
+      </container>
+      <unittitle>
+       Stracke, Win
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; programs; portrait (print);
+				  reviews; news clippings; biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       200
+      </container>
+      <unittitle>
+       Sturgill, Virgil
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print); news
+				  clipping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       201
+      </container>
+      <unittitle>
+       Summers, Andrew R.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; program; portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       202
+      </container>
+      <unittitle>
+       Tarwater, Rebecca
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       203
+      </container>
+      <unittitle>
+       Tate, Charles, and Family
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; festival programs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       204
+      </container>
+      <unittitle>
+       Temple, Pick
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; photoprint and
+				  portrait (print)s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       205
+      </container>
+      <unittitle>
+       Terry, Sonny
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photograph (print and negative).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       206
+      </container>
+      <unittitle>
+       Thomson, Paul S.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       207
+      </container>
+      <unittitle>
+       Tyler, Ruth
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       208
+      </container>
+      <unittitle>
+       Usher, Alex
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portraits (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       209
+      </container>
+      <unittitle>
+       Van Wey, Adelaide
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; program; portraits
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       210
+      </container>
+      <unittitle>
+       Vincent, Jenny Wells
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; programs; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       211
+      </container>
+      <unittitle>
+       Warner, Frank
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; biography; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       212
+      </container>
+      <unittitle>
+       Washington, Jackie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; news clipping; program; portrait
+				  (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       213
+      </container>
+      <unittitle>
+       Weissman, Dick
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       214
+      </container>
+      <unittitle>
+       Welsch, Roger
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       215
+      </container>
+      <unittitle>
+       West, Harry and Jeanie
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; portrait (print); program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       216
+      </container>
+      <unittitle>
+       White, Josh
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       217
+      </container>
+      <unittitle>
+       Whitmire, Ross C.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       218
+      </container>
+      <unittitle>
+       Wilder, Dick
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       219
+      </container>
+      <unittitle>
+       Williams, Betty V.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire; news clipping; program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       220
+      </container>
+      <unittitle>
+       Williams, Cratis
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       221
+      </container>
+      <unittitle>
+       Wilson, Stan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire; program; portrait (print).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       222
+      </container>
+      <unittitle>
+       Wood, Theodore
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       223
+      </container>
+      <unittitle>
+       Yarbrough, Glen
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       224
+      </container>
+      <unittitle>
+       Zeitlin, David
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence; questionnaire.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

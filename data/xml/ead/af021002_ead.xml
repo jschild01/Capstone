@@ -1,0 +1,4382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021002">
+   loc.afc/eadafc.af021002
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Barbara Dane collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Ying-Ting "Serena" Chiu and Valda
+                    Morris
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2021">
+     2021
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2010655230" show="new">
+       https://lccn.loc.gov/2010655230
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="http://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-01">
+     January 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     date/unitdate encoding fix by Farrah Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-05">
+     May 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Barbara Dane collection
+    <date altrender="Span Dates" localtype="inclusive" normal="1952/1978">
+     1952-1978
+    </date>
+   </unittitle>
+   <unitdate label="Span Dates" normal="1952/1978" unitdatetype="inclusive">
+    1952-1978
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 1980/001
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Dane, Barbara, collector.
+     </part>
+    </persname>
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Silber, Irwin, 1925-2010, collector.
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 458 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    43 sound tape reels :
+                analog, various speeds ; 10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    80 sound tape reels :
+                analog, various speeds ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    35 sound tape reels :
+                analog, various speeds ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent Manuscript materials">
+    6 folders; 5 linear
+                inches; 1 container
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <language encodinganalog="041" langcode="spa">
+      Spanish
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English, a few recordings in Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of sound recordings of
+                interviews, readings by authors, lectures and speeches, and radio broadcasts with
+                songs and music, recorded and compiled by Barbara Dane and Irwin Silber for the
+    <emph render="italic">
+     Sing Out!
+    </emph>
+    radio program on WBAI-FM, New York City;
+                and for other radio shows and documentation of other music and events from
+                1952-1978. Includes interviews with Vietnam War protesters, draft resisters, and
+                topical songs written about the Vietnam War; many songs about other events of the
+                1960s and 1970s, including the African American civil rights movement; Native
+                American survival movement; the women's rights and gay rights movements. The
+                collection includes some tapes submitted by performers or listeners of Barbara
+                Dane's shows, some with accompanying letters. Includes interview and songs performed
+                by Catalan poet and composer, Raimon; Philippine songs; Cambodian songs; sound
+                recordings of the Poor People's March on Washington, 1968; folk festivals and other
+                recordings.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Barbara Dane; 1981.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Dana Pratt of the LC publishing office during LC
+                "arrearage week," 1991, and Ann Hoog, 2006.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Barbara Dane collection is open to research. To request materials, please contact
+                the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Barbara Dane collection (AFC 1980/001), Archive of
+                Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Barbara Dane was born May 12, 1927, and raised in Detroit, Michigan. She is a folk,
+                blues, and jazz singer, and co-founder of Paredon Records with her husband Irwin
+                Silber. Paredon published songs, poetry, and oratory related to social and political
+                activism. Throughout her life, Dane sang at demonstrations in Washington, D.C., and
+                in small towns all over the U.S. and the world. During the 1950s and 60s, she
+                performed and recorded with many great musicians from Earl Hines to Willie Dixon.
+                She appeared on national TV’s Timex Jazz Show with Louis Armstrong. In 1966, Dane
+                became the first American musician to tour post-revolutionary Cuba. In February
+                2018, the Smithsonian Folkways released a 2-CD retrospective, Hot Jazz, Cool Blues
+                and Hard-Hitting Songs along with her historic folkways LP, Barbara Dane and the
+                Chambers Brothers. On her 85th birthday, The Boston Globe music critic James Reed
+                called her "one of the true unsung heroes of American music."
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of sound recordings of interviews, readings by authors, lectures and
+                speeches, and radio broadcasts with songs and music, recorded and compiled by
+                Barbara Dane and Irwin Silber for the
+    <emph render="italic">
+     Sing Out!
+    </emph>
+    radio
+                program on WBAI-FM, New York City; and for other radio shows and documentation of
+                other music and events from 1952-1978. Includes interviews with Vietnam War
+                protesters, draft resisters, and topical songs written about the Vietnam War; many
+                songs about other events of the 1960s and 1970s, including the African American
+                civil rights movement; Native American survival movement; the women's rights and gay
+                rights movements. The collection includes some tapes submitted by performers or
+                listeners of Barbara Dane's shows, some with accompanying letters. Includes
+                interview and songs performed by Catalan poet and composer, Raimon; Philippine
+                songs; Cambodian songs; sound recordings of the Poor People's March on Washington,
+                1968; folk festivals and other recordings.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Barbara Dane collection is organized in two series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref target="ead10001">
+      Series 1: Manuscripts
+     </ref>
+    </item>
+   </list>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref target="ead10008">
+      Series 2: Sound recordings,
+     </ref>
+     <date localtype="inclusive" normal="1953/1978">
+      1952-1978
+     </date>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20210504092445.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Barry, Margaret, 1917-1989
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bikel, Theodore
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Carawan, Guy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cohen, John, 1932-2019
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cooney, Michael B., 1943-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cray, Ed
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dane, Barbara
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dixon, Willie, 1915-1992
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fuller, Jesse
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Garland, Jim, 1905-1978
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gorman, Michael, 1895-1970
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hopkins, Lightnin', 1912-1982
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jackson, Mahalia, 1911-1972
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Johnson, Lonnie, 1894-1970
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kraber, Tony
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lebrón, Lolita, 1919-2010
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lester, Julius, 1939-2018
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lipscomb, Mance, 1895-1976
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lynn, Conrad J.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McDonald, Joe, 1942-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McDowell, Fred
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McGhee, Brownie, 1915-1996
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Melton, Barry
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Memphis Slim
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Miller, Big
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Paxton, Tom, 1937-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Porter, Katherine Anne, 1890-1980
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Raimon, 1940-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Seeger, Pete, 1919-2014
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Silber, Irwin, 1925-2010
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Smith, Harry Everett, 1923-1991
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Traum, Happy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Watson, Doc
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Williams, Big Joe, 1903-1982
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Witherspoon, Jimmy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Yancey, Estella
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Chambers Brothers
+     </part>
+    </corpname>
+    <corpname encodinganalog="711" source="lcnaf">
+     <part>
+      Miramichi Folksong Festival.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      WBAI Radio (New York, N.Y.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Weavers (Musical group)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1951-1960.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1961-1970.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues musicians--United States--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Civil Rights movements--United States--History--20th century--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Political ballads and songs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Poor People's Campaign.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Protest songs--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Topical songs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vietnam War, 1961-1975--Protest movements--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vietnam War, 1961-1975--Songs and music.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      New York (N.Y.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Folk music radio programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Radio programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1:
+                        Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Administrative
+                            materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Contains the collection inventory, tape concordance, original tape
+                            inventory, and list of
+       <emph render="italic">
+        Sing Out
+       </emph>
+       radio
+                            programs with dates and guests.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="rai02">
+        Terry Lipscomb,
+                                Texas
+       </unittitle>
+       <unitid label="Tape ID:">
+        AFC 1980/001: SR151
+       </unitid>
+       <physdesc encodinganalog="300" label="Extent">
+        1 empty tape
+                                box
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Tape box decorated by artwork. See
+        <ref target="rai01">
+         Terry
+                                Lipscomb, Texas
+        </ref>
+        sound recording, AFC 1980/001: SR151 for
+                                related materials.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Photocopies of tape boxes
+                            SR01-SR30
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Photocopies of tape boxes
+                            SR31-SR75
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Photocopies of tape boxes
+                            SR76-SR105
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Photocopies of tape boxes
+                            SR106-SR140
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Photocopies of tape boxes
+                            SR141-SR157
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10008">
+      Series 2: Sound
+                        recordings
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR001
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Katherine Ann Porter reads,
+       <emph render="italic">
+        Pale Horse, Pale Rider,
+       </emph>
+       <date localtype="inclusive" normal="1952-12-08">
+        December 8,
+       </date>
+       and
+       <date localtype="inclusive" normal="1952-12-15">
+        December 15,
+                                1952
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1952-12-08" unitdatetype="inclusive">
+       December 8, 1952
+      </unitdate>
+      <unitdate encodinganalog="245$f" normal="1952-12-15" unitdatetype="inclusive">
+       December 15, 1952
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0001
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Katherine Ann Porter reads,
+       <emph render="italic">
+        Pale Horse, Pale
+                                Rider,
+       </emph>
+       from Caedmon recording made in NYC.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR002
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       Julian Lee Rayford,
+       <date localtype="inclusive" normal="1955-09-10">
+        September 10,
+                            1955
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1955-09-10" unitdatetype="inclusive">
+       September 10, 1955
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0002
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Julian Lee Rayford performs street cries, Mike Fink songs, Mike Fink's
+       <emph render="italic">
+        Bragg Paul Bunyan chant
+       </emph>
+       ,
+       <emph>
+        the
+                                Buttermilk Pipeline
+       </emph>
+       ,
+       <emph render="italic">
+        Davy Crockett
+                                chant
+       </emph>
+       , story from Crockett Almanac, and
+       <emph render="italic">
+        Colonel Crockett's Morning Hunt
+       </emph>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR003
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       The Weavers,
+       <date localtype="inclusive" normal="1958">
+        1958
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1958" unitdatetype="inclusive">
+       1958
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0003
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       The Weavers interview themselves about their origins and discuss cuts
+                            from their Carnegie Hall Concert record. The interview was done for
+                            Barbara Dane's KPFA program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape IDs:">
+       AFC 1980/001: SR004-SR006
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Miramichi Folk Festival,
+                            part 1-3,
+       <date localtype="inclusive" normal="1959">
+        1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959" unitdatetype="inclusive">
+       1959
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RWC 6401 - RWC 6403
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       3 audiotape reels, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       List of songs on box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR007
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       British Isles - Paul
+                            Phillips and Barry Hall,
+       <date localtype="inclusive" normal="1959">
+        1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959" unitdatetype="inclusive">
+       1959
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0004
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR008
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Urreal "Little Brother"
+                            Montgomery
+       <date localtype="inclusive" normal="1959">
+        1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959" unitdatetype="inclusive">
+       1959
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0005
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel,
+                            7-in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Montgomery made this tape for Barbara Dane in Chicago.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR009
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Willie Dixon and Urreal
+                            "Little Brother" Montgomery,
+       <date localtype="inclusive" normal="1959">
+        1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959" unitdatetype="inclusive">
+       1959
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0006
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Willie Dixon, Chicago blues writer and singer, sings the blues and other
+                            things accompanied by Urreal "Little Brother" Montgomery.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR010
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       "From Here to Sunday," Ed
+                            Cray's program,
+       <date localtype="inclusive" normal="1960-02-27">
+        February
+                                27, 1960
+       </date>
+       and
+       <date localtype="inclusive" normal="1959-07-31">
+        July 31, 1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960-02-27" unitdatetype="inclusive">
+       February 27, 1960
+      </unitdate>
+      <unitdate encodinganalog="245$f" normal="1959-07-31" unitdatetype="inclusive">
+       July 31, 1959
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0007
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Interview with Mahalia Jackson and Barbara Dane, by Ed Cray on his
+                            program,
+       <emph render="italic">
+        From Here to Sunday
+       </emph>
+       in Los Angeles
+                            at KPFK. Interview with Memphis Slim, February 27, 1960 and July 31,
+                            1959.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR011
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Big Joe Williams,
+       <date localtype="inclusive" normal="1960-07">
+        July 1960
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960-07" unitdatetype="inclusive">
+       July 1960
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0008
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Big Joe Williams at Ash Grove, Los Angeles music club. He also talks
+                            about his life and work.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape IDs:">
+       AFC 1980/001: SR012 - SR013
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       Lightning Sam Hopkins,
+                            interview KPFX,
+       <date localtype="inclusive" normal="1960">
+        1960
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960" unitdatetype="inclusive">
+       1960
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0009 - RXB 0010
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       2 audiotape reels, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Interview on reels 1-2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR014
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       Barbara Dane interviews Big
+                            Miller,
+       <date localtype="inclusive" normal="1961-07-08">
+        July 8,
+                                1961
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1961-07-08" unitdatetype="inclusive">
+       July 8, 1961
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0011
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Barbara Dane interviews Big Miller, blues singer from Kansas City.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape IDs:">
+       AFC 1980/001: SR015 - SR017
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       Barbara Dane interviews
+                            Mance Lipscomb, part 1-3,
+       <date localtype="inclusive" normal="1961">
+        1961
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1961" unitdatetype="inclusive">
+       1961
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0012 - RXB 0014
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       3 audiotape reels, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       SR015: Barbara Dane interviews Mance Lipscomb about his 55 years of
+                            sharecropping in Navasota, Texas, 1961.
+      </p>
+      <p>
+       SR016: Barbara Dane interviews Mance Lipscomb about his life and work in
+                            Navasota, Texas, 1961.
+      </p>
+      <p>
+       SR017: Barbara Dane interviews Mance Lipscomb for a radio show, includes
+                            songs, 1961.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR018
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Barbara Dane interviews Fred
+                            McDowell, 1960s
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0015
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara Dane interviews Fred McDowell, Mississippi blues singer, early
+                            1960s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR019
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10024">
+       Barbara Dane interviews Fred
+                            McDowell, 1960s
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0016
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel,
+                            7-in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara Dane interviews Fred McDowell, Mississippi blues singer, early
+                            1960s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR020
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10025">
+       Tony Kraber-I, April 16,
+                            1962
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0017
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR021
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10026">
+       Tony Kraber-II, April 16,
+                            1962
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0018
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR022
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10027">
+       Tony Kraber-III,
+                            1962
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0019
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel,
+                            7-in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR023
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10028">
+       Pete Seeger
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0020
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel,
+                            7-in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Pete Seeger singing some topical songs from 1963-1964. List of songs in
+                            tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR024
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10029">
+       Children's ring games and
+                            chants,
+       <date localtype="inclusive" normal="1964-07">
+        July 1964
+       </date>
+       and Estella Hana Yancey,
+       <date localtype="inclusive" normal="1964-09-23">
+        September 23, 1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1964-07" unitdatetype="inclusive">
+       July 1967
+      </unitdate>
+      <unitdate encodinganalog="245$f" normal="1964-09-23" unitdatetype="inclusive">
+       September 23, 1964
+      </unitdate>
+      <unitid label="MBRS Shelflist number">
+       RXB 0021
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel,
+                            7-in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Tape includes children's ring games and chants. The balance of tape is
+                            with Estella Hana Yancey.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR025
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10030">
+       Miramichi Folk Festival,
+                            1964, part 1
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6404
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR026
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10031">
+       Miramichi Folk Festival,
+                            1964, part 3
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6405
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR027
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10032">
+       Miramichi Folk Festival,
+                            1964, part 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6406
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR028
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10033">
+       Miramichi Folk Festival,
+                            1964, part 4
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6407
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR029
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10034">
+       Interview with Estella Mama
+                            Yancey by Barbara Dane, September 23, 1964
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0022
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR030
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10035">
+       <emph render="italic">
+        From
+                                Here to Sunday
+       </emph>
+       with Barbara Dane, April 14, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6408
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane, subject of the
+                            program is Woody Guthrie, April 14, 1965, 63 min. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR031
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10036">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Mance Lipscomp, April 15,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6409
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Manse
+                            Lipscomp, April 15, 1965, 59:30 min. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR032
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10037">
+       Unidentified, April 19,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       unassigned
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR033
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10038">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Irwin Silber, November 11,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6410
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Irwin Silber
+                            with guest, Brownie McGhee, 60 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR034
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10039">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane and Harry Smith, April 27, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6411
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane and Harry Smith (editor
+                            of Folkway's famous Smith Anthology), April 27, 1965, 57:30 min. Pancake
+                            reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR035
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10040">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane and lzzy Young, May 5, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6412
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR036
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane, May 13, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6443
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       New releases (folk) - No. 1, May 13, 1965, 60 min. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR037
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10042">
+       Barbara Dane, "Is Bob Dylan
+                            really John Lennon?" May 25, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0023
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara Dane hosts
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       No. 2, first
+                            broadcast in
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       series called "Is Bob
+                            Dylan really John Lennon?" (music from selected records), May 25, 1965,
+                            60 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR038
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10043">
+       Interview by Dane with
+                            Lonnie Johnson, May 25, 1965 part 1 of 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0024
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Interview by Dane with Lonnie Johnson, May 25, 1965, WBAI-NY, part 1 of
+                            2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR039
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10044">
+       Lonnie Johnson interview
+                            part 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0025
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR040
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10045">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Irwin Silber, "ls Bob Dylan
+                            really John Lennon?" May 25, 1965, part 2 of 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0026
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       First broadcast in the series
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with
+                            Barbara Dane and Irwin Silber called "ls Bob Dylan really John Lennon?"
+                            May 25, 1965, part 2 of 2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR041
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10046">
+       Silber interviews Dane, June
+                            3, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6413
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on tape box. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR042
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10047">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , June 22, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6414
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       mangled by post office, the
+                            contents of program unknown, June 22, 1965. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR043
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10048">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       N.Y. Folk Festival, June 23, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6415
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       N.Y. Folk Festival with Dane and
+                            Irwin Silber, June 23, 1965. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR044
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10049">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       show with Michael Cooney, Barbara Dane and Irwin
+                            Silber, November 6, 1965 Pancake reel.
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6416
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       show WBAI-NY, with Barbara Dane and
+                            Irwin Silber and guest, Michael Cooney. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR045
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10050">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , 1965 Newport Folk Festival, July 20,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6417
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , Dane at preview for 1965 Newport
+                            Folk Festival in Central Park's Delacorte Theater, July 20, 1965.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR046
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10051">
+       <emph render="italic">
+        Sing
+                                in for Peace
+       </emph>
+       , produced by Barbara Dane and Irwin Silber,
+                            September 24, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0027
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       A compilation of songs and comments submitted for use at the first big
+                            anti-Vietnam war demonstration in New York called,
+       <emph render="italic">
+        Sing in for Peace
+       </emph>
+       (produced by Barbara Dane and Irwin
+                            Silber) September 24, 1965, Carnegie Hall.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR047
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10052">
+       Barbara Dane Show with
+                            guests Guy Caravan and Tom Paxton, September 25, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6418
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara Dane Show, guests Guy Caravan and Tom Paxton, September 25, 1965.
+                            Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR048
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10053">
+       Barbara Dane and Chambers
+                            Brothers, September 15, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6419
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR049
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10054">
+       Theo Bikel, Barbara Dane and
+                            Irvin Silber, September 1, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6420
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR050
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10055">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane and Silber, September 8, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6421
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR051
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10056">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Margaret Barry and Michael Gorman, part 1,
+                            September 15, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0028
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR052
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10057">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Margaret Barry and Michael Gorman, part 2, no
+                            date
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0029
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR053
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10058">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Barbara Dane and Irwin Silber with guest
+                            Charles O'Hagerty, September 22, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6422
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR054
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10059">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , Dane and Silber interview with Frances Taylor
+                            about Bob Dylan, October 17, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6423
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR055
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10060">
+       Margaret Barry and Michael
+                            Gorman, October 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0030
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       radio show, Dane and Silber
+                            interview with Frances Taylor about Bob Dylan, October 17, 1965.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR056
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10061">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , Dane and Silber, NYC's Big Black Out of 1965,
+                            November 10, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6424
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR057
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10062">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , commemorating death of Joe Hill, November 17,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6425
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       out on WBAI radio show
+                            commemorating death of Joe Hill, November 17, 1965. Pancake reel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR058
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10063">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , WBAI radio show, Dane and Silber with Julius
+                            Lester, November 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6426
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR059
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10064">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , WBAI radio show, Dane and Silber, November 27,
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6427
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR060
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10065">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , Dane and Silber, December 5, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6428
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR061
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10066">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Silber children, December 19, 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6429
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Duration of interview was 62:45 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR062
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10067">
+       Interview with Brownie
+                            McGhee, NYC, December 1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0031
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR063
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10068">
+       Jesse Fuller interview, NYC
+                            1965
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6430
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR064
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10069">
+       Barbara Dane interviewing
+                            Jesse Fuller, 1965, NYC
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6431
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR065
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10070">
+       Christmas folk songs,
+                            January 2, 1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6432
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Christmas folk songs with commentary by Silber and Dane.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR066
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10071">
+       New Years Program, January
+                            3, 1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6433
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       New Years program with Ewan MacCall, Brendon Behan, and The Singing
+                            Streets.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR067
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10072">
+       Doc Watson, guest on
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       radio show UBAI, January 16,
+                            1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6434
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR068
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10073">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       radio show WBAI with Dane and Silber on the 15th
+                            Anniversary of
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , February 3,
+                            1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6435
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR069
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10074">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       , with guest John Cohen, February 15,
+                            1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6436
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR070
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10075">
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       with Dane and Silber, and Happy Traum Finger
+                            Picking, March 1
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6437
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Dane and Sibler interview Happy Traum Finger Picking, 62 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR071
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10076">
+       Barbara's Blues' radio show
+                            from KPFK, interview with Jimmy Witherspoon, April 7, 1966
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0032
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara's Blues' radio show from KPFK, Pacifica Station in Los Angeles,
+                            interview with Jimmy Witherspoon blues singer, with music from selected
+                            records, 12 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR072
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10077">
+       Tuli Kupferberg, anti-war
+                            songs, 1967
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0033
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box. Also has disc inside box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR073
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10078">
+       Raimon interview, March 27,
+                            1967
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0034
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Raimon is a catalonian political singer.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR074
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10079">
+       Joe McDonald, Untitled
+                            protest no. 1, "Feel Like I'm Fixin' to Die"
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0035
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Letter enclosed in box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR075
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10080">
+       German jokes,
+                            '67
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0036
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR076
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10081">
+       Topical songs,
+                            1967-1968
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0037
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Miscellaneous topical songs which came in from a variety of sources
+                            during 1967-1968. List of songs on back and inside of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR077
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10082">
+       Mike Cooney, musician and
+                            draft resister interviewed by Irwin Silber, March 19, 1968
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0038
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR078
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10083">
+       Dennis Gaston, interviewed
+                            by Irwin Silber, March 10, 1968, part 1
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0039
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Dennis Gaston, an ex-vista worker, anti-war, so called hippie interviewed
+                            by Irwin Silber.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR079
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10084">
+       Dennis Gaston, interviewed
+                            by Irwin Silber, March 10, 1968, part 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0040
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Dennis Gaston, an ex-vista worker, anti-war, so called hippie interviewed
+                            by Irwin Silber.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR080
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10085">
+       Country Joe McDonald and
+                            Barry Melton interviewed by Irwin Silber, March 5, 1968, NYC
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0041
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR081
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10086">
+       Country Joe McDonald and
+                            Barry Melton interviewed by Irwin Silber, March 5, 1968, NYC
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0042
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR082
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10087">
+       Interview with Irwin Silber,
+                            March 28, 1968
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0043
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Irwin Silber discusses attitudes about social change, current events
+                            with son of a former Communist who himself is an ex-Berkeley student who
+                            stood outside events on that campus.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR083
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10088">
+       Oleo Strut interview G.I.'s
+                            at Fort Hood, Texas, July 6, 1968, part 1 of 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0044
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Oleo Strut interview G.I.'s at Fort Hood, Texas talk about their
+                            experiences during Vietnam War, July 6, 1968.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR084
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10089">
+       G.I.'s at Fort Hood, Texas,
+                            July 6, 1968, part 2 of 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0045
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR085
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10090">
+       Fred Gardner,
+                            1969-70
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0046
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR086
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10091">
+       The Unknown Soldier, "What
+                            was his name," by Peggy Seeger and Tark Warshaw, January 30,
+                            1970
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0047
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR087
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10092">
+       Draftee sings "Uncle Sam
+                            wants me as a Soldier," January 31, 1970
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0048
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR088
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10093">
+       Poetry Reading at the
+                            Marxist Institute, August 14, 1970
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0049
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR089
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10094">
+       Beastly Times Eric and Kirk
+                            Cheyfitz
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0050
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Beastly Times Eric and Kirk Cheyfitz, song group in the Washington, DC
+                            area. List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR090
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10095">
+       Various commentaries on the
+                            Vietnam War by Vinnie McNamara August 16, 1972
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0051
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Various commentaries on the Vietnam War by Vinnie McNamara at Operation
+                            P.O.W. in Concord, Massachusetts, Bob Missa at Burlington, Vermont and
+                            Chris Coyle.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR091
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10096">
+       Commentaries by Jim Holmes
+                            at Dewey Canyon III in Washington, DC
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0052
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR092
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10097">
+       Topical songs from a variety
+                            of sources, 1971
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0053
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Miscellaneous topical songs from a variety of sources, 1971. Notes on
+                            inside of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR093
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10098">
+       Draft resistance trial and
+                            support statements, November 1971
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0054
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Draft resistance trial and support statements from active-duty G.I.'s,
+                            wounded veterans, and Gold star mothers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR094
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10099">
+       Songs and history of
+                            Philippines, 1971
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0055
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       The songs are discussed and also some of the history of the Philippine.
+                            List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR095
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10100">
+       Red Star Singers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0056
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box, and also on piece of paper inside
+                            box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR096
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10101">
+       Music from Cambodia 1972
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0057
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Music from Cambodia sent to Isreal Young from Sihanouk government in
+                            Paris, 1972, 21 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR097
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10102">
+       On Public Affairs WBAI
+                            History of Irish people in music, poetry and theatre, 1972
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0058
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR098
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10103">
+       Haiti, 1972 (from Lionel)
+                            part 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0059
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR099
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10104">
+       Haiti, 1972 (from Lionel)
+                            part 1
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0060
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR100
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10105">
+       Red Star Singers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0061
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR101
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10106">
+       Songs recorded and composed
+                            by Tuli Kupferberg
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0062
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR102
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10107">
+       New Harmony Sisterhood Band,
+                            February 8, 1975
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0063
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       New Harmony Sisterhood Band, Somerville, Kansas. List of songs on back
+                            of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR103
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10108">
+       Jim Garland sings songs and
+                            talks, April 30, 1975
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0064
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of items on piece of paper in tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR104
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10109">
+       Tape of Malvina Reynolds
+                            singing, "The Judge Said" January 12, 1978
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0065
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Tape in Dolby, 2:42 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR105
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10110">
+       Lolita Lebron, January 22,
+                            1976
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0066
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Lolita Lebron, interview made duing the last year of confinement in
+                            Alderson, West Virginia, prison by Genoveva Clemente.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR106
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10111">
+       People's Peace
+                            Treaty
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0067
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR107
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10112">
+       Barbara Dane and Chambers
+                            Brothers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6438
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR108
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10113">
+       Unidentified
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6439
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Box mangled by post office no way to check present contents.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR109
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10114">
+       Unidentified
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       program with
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6440
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="italic">
+        Sing-Out
+       </emph>
+       WBAI Barbara Dane and Irving Silber
+                            contents of this show unknown as box mangled by P.O. No way to
+                            check.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR110
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10115">
+       Unpublished songs by Carroll
+                            Perry, early '60s.
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0068
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Unpublished songs by Carroll Perry sung here by Clarence? and Elaine
+                            Geeler, possibly later recorded by The Chambers Brothers. Taped in Los
+                            Angeles, California, early '60s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR111
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10116">
+       Interview and songs with
+                            Ramon (Spain)
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0069
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR112
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10117">
+       Rodger Bryant, Goin to
+                            Kentucky and/or Stop the Flow of Coal
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0070
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR113
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10118">
+       Jim Garland
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0071
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Jim Garland, "Sad Little Land of Vietnam," (partial) Oscar Brand, "A Very
+                            Nice Country," 2 takes, not used.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR114
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10119">
+       Florie-Greek
+                            Protest
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0072
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR115
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10120">
+       Greece, Kaimos
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0073
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR116
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10121">
+       American G.I. talks about
+                            the army and the war
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0074
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR117
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10122">
+       Songs about war in Vietnam
+                            in Spanish
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0075
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR118
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10123">
+       Soldiers at UFO, Ft.
+                            Jackson
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0076
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR119
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10124">
+       Bill Horowitz, Tanya and
+                            Rosemary Wood
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0077
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Bill Horowitz, Tanya (about Patty Hearst) and Rosemary Wood (the women
+                            who erased Nixon tapes).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR120
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10125">
+       Chris Rohmann
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0078
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on bottom of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR121
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10126">
+       German protest song from a
+                            radio broadcast by David Berger, New York
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0079
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR122
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10127">
+       "Anti-war songs, Australia"
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0080
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on top of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR123
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10128">
+       "Mable Hillery (Portelli)"
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0081
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on bottom of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR124
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10129">
+       Jack Elliot, Diesel
+                            Truck
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0082
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR125
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10130">
+       Lucha, "Sing of Vietnam"
+                            (Freedom Voices Never Die)
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0083
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR126
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10131">
+       Chicago Women's Liberation
+                            Rock Band, 1971
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0084
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 5
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on bottom of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR127
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10132">
+       Interview with Margaret
+                            Barry and Michael Gorman
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0085
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR128
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10133">
+       Conrad Lynn
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0086
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Lynn a black lawyer active in draft resistance cases, gives detailed
+                            talks about Vietnam war from black point of view.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR129
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10134">
+       "Lavender
+                            Country"
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0087
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR130
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10135">
+       The legacy of Malcolm X
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0088
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       The legacy of Malcolm X The International Scene as viewed by Malcolm X
+                            in his last year, Commentary by George Britman.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR131
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10136">
+       Interview with Willie Dixon
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0089
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR132
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10137">
+       Rose-Redwoods
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0090
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Rose-Redwoods, contains two songs, "La Lucha Continuara" and "Take Back
+                            the Land."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR133
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10138">
+       "White Roots of
+                            Peace"
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0091
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR134
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10139">
+       Margaret Barry and Michael
+                            Gorman
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0092
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on inside of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR135
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10140">
+       <emph render="italic">
+        Who's
+                                Crazy?
+       </emph>
+       by Country Diction
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0093
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR136
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10141">
+       Red Shadows, jokes, gone,
+                            gone, gone and anything good
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0094
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR137
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10142">
+       Dorie Ellzey, two songs,
+       <emph render="italic">
+        Don't Shoot Shadows
+       </emph>
+       and
+       <emph render="italic">
+        When We Make it Through
+       </emph>
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0095
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR138
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10143">
+       War on a People
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0096
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       This tape dramatizes the methods the U.S. is using in its attempt to win
+                            a war against the people of Indochina.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR139
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10144">
+       Red Star Singers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0097
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR140
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10145">
+       The Chambers
+                            Brothers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0098
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR141
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10146">
+       "The Incredible Rocky," part
+                            2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0099
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR142
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10147">
+       Red Star Singers
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0100
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       List of songs on back of tape box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR143
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10148">
+       Selection of topical songs,
+                            late 1969-1970
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0101
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Selection of topical songs written during late 1969 and 1970 in the USA.
+                            List of songs on piece of paper in box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR144
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10149">
+       Kandeda
+                            Montgomery
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0102
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR145
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10150">
+       Interviews with American
+                            deserters in Canada during Vietnam War, part 4 of 4
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0103
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Will Hoffman, Radio McGill, and Montreal, interviews American deserters
+                            in Canada during Vietnam War.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR146
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10151">
+       Interviews with American
+                            deserters in Canada during Vietnam War, part 1 of 4
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0104
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Will Hoffman, Radio McGill, and Montreal, interviews American deserters
+                            in Canada during Vietnam War.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR147
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10152">
+       Interviews with American
+                            deserters in Canada during Vietnam War, part 2 of 4
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0105
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Will Hoffman, Radio McGill, and Montreal, interviews American deserters
+                            in Canada during Vietnam War.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR148
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10153">
+       Interviews with American
+                            deserters in Canada during Vietnam War, part 3 of 4
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0106
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Will Hoffman, Radio McGill, and Montreal, interviews American deserters
+                            in Canada during Vietnam War.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR149
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10154">
+       Interview with Dr.
+                            Truman
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0107
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR150
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10155">
+       The Incredible Rocky, part
+                            1
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0108
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR151
+      </unitid>
+      <unittitle encodinganalog="245$a" id="rai01">
+       Terry Lipscomb, Texas
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 5826
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Tape has extensive notes. See
+       <ref target="rai02">
+        Terry
+                            Lipscomb, Texas
+       </ref>
+       for related
+                            materials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR152
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10157">
+       Mable Hillery
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0110
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Copies from various sources.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR153
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10158">
+       Stephen Texas Moon Argo
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0111
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Stephen Texas Moon Argo talks about why he deserted and sings several
+                            songs. List of songs on outside cover.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR154
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10159">
+       Margaret Barry and Michael
+                            Gorman interview
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0112
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR155
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10160">
+       Interview with blues sing
+                            Jimmy Witherspoon, part 1 of 2
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0113
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Barbara‘s Blues radio show from KPFK, Pacifica Station in LA, interview
+                            with blues sing Jimmy Witherspoon, with music from selected records.
+                            Part 1 of 2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR156
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10161">
+       The Poor People's
+                            March
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0114
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Tapes made on the way to, and during the Poor People's March.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR157
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10162">
+       The Poor People's
+                            March
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RXB 0115
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 7
+                            in.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Tapes made on the way to, and during the Poor People's March.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Tape ID:">
+       AFC 1980/001: SR158
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10163">
+       Unidentified
+      </unittitle>
+      <unitid label="MBRS Shelflist number">
+       RWC 6441
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 audiotape reel, 10
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

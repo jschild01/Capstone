@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af012006" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af012006
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     CAPTAIN PEARL R. NYE COLLECTION
+    </titleproper>
+    <subtitle>
+     AFC 1937/002
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+					Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2012-12-04">
+     December 4, 2012
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004447752" show="new">
+       https://lccn.loc.gov/2004447752
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2012-12">
+     December 2012
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Captain Pearl R. Nye Collection
+    <date altrender="Bulk Dates" localtype="bulk" normal="1937/1944">
+     1937-1944
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1937/1944" unitdatetype="bulk">
+    1937-1944
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="050" label="Call No." repositorycode="US-DLC">
+    AFC 1937/002
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Archive of
+					American Folk Song
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Nye, Pearl R.,
+					1872-1950
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    18 folders total (Folders 1-16 and Folder 18 in 1 box,
+					plus Folder 17, oversize).
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    22 sound discs : analog ; 12 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    7 photographic prints : black and white, color ;
+					various sizes.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+					Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection is comprised of field
+				recordings made in Akron, Ohio, by John A. Lomax (on June 27-28, 1937), and Alan
+				Lomax and Elizabeth Lomax (on November 3, 1937), of songs performed by Pearl R. Nye
+				related to life on the Ohio and Erie Canal, plus photographs of canal life (some
+				hand-decorated by Nye), and correspondence between Nye and Harold Spivacke of the
+				Library of Congress, and manuscript and typed transcriptions of song lyrics sung and
+				collected by Pearl R. Nye.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020130408.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lomax, Alan, 1915-2002
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lomax, Alan, 1915-2002--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lomax, John A. (John Avery), 1867-1948
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lomax, John A. (John Avery), 1867-1948--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nye, Pearl R., 1872-1950
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Nye, Pearl R., 1872-1950--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Waterhouse, Helen Stocking, 1892-1965--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of American Folk Song
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Library of Congress. National Digital Library Program.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--Ohio.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Canals--Ohio--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Ohio.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Ohio.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Ohio.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--1931-1940.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Revival hymns--Ohio.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Akron (Ohio) event place.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Akron (Ohio)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Ohio and Erie Canal (Ohio)--Songs and music.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Captain Pearl R. Nye, life on the Ohio and Erie Canal
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Pearl R. Nye collection
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts; II. Sound
+					Recordings; III. Graphic Materials.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Subsequent to the field trips, the sound recordings were accessioned at the
+					Library of Congress. Communications between Pearl Nye and Library of Congress
+					staff accumulated as they were received at the Library (rather than being sent
+					as a unit, at a later date). According to correspondence, in the 1940s Nye sent
+					more transcriptions to the Library, which were microfilmed, then returned to
+					him. These are presumed to be the documents on the microfilm reel.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by the American Folklife Center staff between 2003
+					and 2009. Marcia K. Segal revised and coded the collection finding aid in EAD
+					format in December 2012.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Autograph manuscript containing song texts by Pearl R. Nye, with a few letters to
+					Alan Lomax and to Harold Spivacke is available on microfilm [Songs of the Ohio
+					canal, 1938], Library of Congress Music Division, MUS-12.
+   </p>
+  </relatedmaterial>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    A substantial portion of the collection is available as "Captain Pearl R. Nye,
+					life on the Ohio and Erie Canal," an online presentation compiled by the National Digital Library Program of the Library of Congress.
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000019" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000019
+    </ref>
+   </p>
+  </altformavail>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the
+					Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Captain Pearl R. Nye Collection (AFC 1937/002), Archive of Folk Culture, American
+					Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        17
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        Box 1, Folders 1-16, 18
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        folder
+       </entry>
+       <entry morerows="0">
+        Folders 17, oversize
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        22
+       </entry>
+       <entry morerows="0">
+        12-inch lacquer-coated aluminum audio discs
+       </entry>
+       <entry morerows="0">
+        AFS 01001-01009, AFS 01603-01615
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        4
+       </entry>
+       <entry morerows="0">
+        12-inch aluminum audio discs
+       </entry>
+       <entry morerows="0">
+        AFS 01005_dupe, AFS 01007_dupe, AFS 01605_dupe,
+								AFS 01606_dupe
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        7
+       </entry>
+       <entry morerows="0">
+        photographic prints : black and white, color ;
+								various sizes
+       </entry>
+       <entry morerows="0">
+        Box 1, Folder 18
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Captain Pearl R. Nye Collection consists of materials that document the
+				professional relationship between Pearl R. Nye and the Library of Congress, as well
+				as the personal relationship between Nye and Alan Lomax. The collection is centered
+				on Nye’s documentation of and contribution to folk songs about the Ohio and Erie
+				Canal. It includes sound recordings of Nye, recorded by John A. Lomax, and Alan and
+				Elizabeth Lomax in Akron, Ohio in 1937, correspondence between the Library of
+				Congress and Nye, and photographs of Nye at his home on the canal.
+   </p>
+   <p>
+    Nye’s desire to collect canal folk songs and sing them for the Lomaxes stemmed from
+				his childhood growing up on the canal, his own career as a canal captain, and his
+				later years when traditional activities on the Ohio and Erie Canal were supplanted
+				by more modern technologies.
+   </p>
+   <p>
+    Nye’s transcriptions of song lyrics provide an invaluable research tool. These
+				transcriptions include those songs he sang (included on the recordings), as well as
+				songs he knew (and were not recorded). These lyrics reflect not only popular
+				sentiments of the times, but enduring values and traditions, as they provide a
+				snapshot of a way of life for trade and travel that was becoming obsolete through
+				technological advances.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Pearl R. Nye was born on February 5, 1872 aboard the canal boat "Reform." He spent
+				his life on canal boats on the Ohio and Erie Canal and researched and documented the
+				songs and traditions of canal life. He died in 1950.
+   </p>
+  </bioghist>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Collection finding aid
+      </unittitle>
+      <physdesc encodinganalog="300">
+       8 pp.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Documentation for sound
+							recordings
+      </unittitle>
+      <physdesc encodinganalog="300">
+       6 pp.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Documentation for digitization of sound
+							recordings
+      </unittitle>
+      <physdesc encodinganalog="300">
+       65 pp.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Various documents detailing the digitization process, including hardware
+							and software used, plus any problems with the source recordings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms01
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1937">
+        1937
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1937" unitdatetype="inclusive">
+       1937
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms02
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1938">
+        1938
+       </date>
+       (Folder 1 of 2)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1938" unitdatetype="inclusive">
+       1938
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms02
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1938">
+        1938
+       </date>
+       (Folder 2 of 2)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1938" unitdatetype="inclusive">
+       1938
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms03
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1939">
+        1939
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1939" unitdatetype="inclusive">
+       1939
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms04
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1940/1941">
+        1940-1941
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940/1941" unitdatetype="inclusive">
+       1940-1941
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms05
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1942">
+        1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942" unitdatetype="inclusive">
+       1942
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms06
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1944">
+        1944
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1944" unitdatetype="inclusive">
+       1944
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms07
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Correspondence, undated
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Various correspondence,
+       <date localtype="inclusive" normal="1937">
+        1937
+       </date>
+       and undated
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1937" unitdatetype="inclusive">
+       1937
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 pp.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Items of correspondence formerly alienated from the collection, which
+							were returned to the collection but not digitized. The undated items may
+							have been written in 1936.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms08
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcriptions (Folder 1 of 4)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms09
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcriptions (Folder 2 of 4)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms10
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcriptions (Folder 3 of 4)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unitid label="digital ID ">
+       afc1937002_ms11
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcriptions (Folder 4 of 4)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Various manuscript materials
+      </unittitle>
+      <physdesc encodinganalog="300">
+       13 items
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Manuscript items formerly alienated from the collection, which were
+							returned to the collection and subsequently treated by Conservation
+							Division staff, but not digitized.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01001
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr01
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 27, 1937
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The House Carpenter
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The Scioto Valley Mills
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Johnny and Molly
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        My horses ain’t hungry, they won't eat your hay
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01002
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr02
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 27, 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Perry's Victory
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The Girl with the striped stockings on
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Barbara Allen
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01003
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr03
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 27, 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: James Bird
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Hush-a-bye-baby
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The jolly boatman
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01004
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr04
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 27, 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Lord Vanifer's wife
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        When I was single
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The bold bolster
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Julianne Johnson
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01005
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr05
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 27, 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: We’ll end this war down by the river
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The resurrection car
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Lord Vanifer's wife
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01005_dupe
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr06
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Duplicate of recording made on June 27,
+							1937. Duplication date unknown.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: We’ll end this war down by the river
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The resurrection car
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Lord Vanifer's wife
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01006
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr07
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded in 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Dutch jollification song
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Edward Bold
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 3]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Edward Bold]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        St. Peter at the gate
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 4]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Keep that baby still
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Over in the promised land
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Oh, glory, hallelujah
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01007
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr08
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded in 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Lord Lovele [sic]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Jones' hospital
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Irish washerwoman
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Dark-eyed sailor
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01007_dupe
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr09
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Duplicate of recording made in 1937.
+							Duplication date unknown.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Lord Lovele [sic]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Jones' hospital
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Irish washerwoman
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Dark-eyed sailor
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01008
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr10
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded in 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Little red bird in the tree
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Old woman under the hill
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: [Willy Reilly]
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01009
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr11
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on June 28, 1937, in Akron,
+							Ohio.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Mr. Frog
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no.1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Mary, don’t you weep
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 1]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Little Sally Waters
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        [Spoken segment, no. 2]
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01603
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr12
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: The Clever Skipper
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Gentle Little Jenny (The Wife Wrapped in the Wether's
+								Skin)
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01604
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr13
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Take a Trip on the Canal If You Want to Have Fun
+								[continued on Side B]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Take a Trip on the Canal If You Want to Have Fun
+								[continued from Side A; continued on AFS 01605a]
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01605
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr14
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Take a Trip on the Canal If You Want to Have Fun
+								[continued from AFS 01604b]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        William was a royal lover
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The Cumberland's crew
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01605_dupe
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr15
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Duplicate of recording made on November 3,
+							1937. Duplication date unknown.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Take a Trip on the Canal If You Want to Have Fun
+								[continued from AFS 01604b]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        William was a royal lover
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The Cumberland's crew
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01606_dupe
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr16
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Duplicate of recording made on November 3,
+							1937. Duplication date unknown.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: On the banks of Salee
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: In the shade of a tree
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        We'll outshine the sun
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01606
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr17
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: On the banks of Salee
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: In the shade of a tree
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        We'll outshine the sun
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01607
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr18
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Riding on the elevated railroad
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The cruel ship carpenter [continued on Side B]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The ship's cruel carpenter [continued from Side
+								A]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Lord Ullin's daughter
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01608
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr19
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Between me and the wall
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Between me and the wall
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Pretty Sally [continued on AFS 01609a]
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01609
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr20
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Pretty Sally [continued from AFS 01608b]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The Jew's daughter/The Butcher boy
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The gospel chariot
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The dying cowboy
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01610
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr21
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: The roving gambler
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Erin’s green shore
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Dandy Jim of Caroline
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01611
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr22
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: The old skipper
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Early in the spring
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01612
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr23
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: Rosin the bow
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        My father's broke the ice and gone
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Who killed Cock Robin
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        I won't marry at all
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01613
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr24
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: I owed ten dollars to O'Grady
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Boys, keep away from the girls
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        I say [continued on Side B]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Boys, keep away from the girls
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        I say [continued from Side A]
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Just one penny
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01614
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr25
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: We're going to pump out Lake Erie
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        In the storm at sea
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        A canal dance (One Night in Cleveland)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: Moonlight Dance (Yellowbud gals)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Canal boat wedding
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Down the river
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="disc">
+       AFS 01615
+      </unitid>
+      <unitid label="digital ID ">
+       afc1937002_sr26
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Recorded on November 3, 1937; location
+							uncertain.
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side A: The gospel train
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        When the old sun was a-crawlin’
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Jawbone (Jawbone walk, jawbone talk)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        Side B: The banks of the sweet Dundee
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box-folder">
+      1/18
+     </container>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph01
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Portrait of Captain Pearl R.
+							Nye
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print (3” x 4.5”)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph02
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Captain Pearl R. Nye with B.F. Goodrich
+							buildings in background
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print; hand-tinted, with a collage
+							effect, plus a manuscript item affixed to the lower back edge of the
+							item (4.5” x 3.5” for the photo; 2” x 3.5” for the manuscript
+							item)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph03
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Captain Pearl R. Nye at Camp Charming
+							(view from water)
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print (5.5” x 3.5”)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph04
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Captain Pearl R. Nye at Camp Charming
+							(view from land)
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print (5.5” x 3.5”)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph05
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Captain Pearl R. Nye at Camp Charming
+							(view from water, at a distance)
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print (5.5” x 3.5”)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph06
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Captain Pearl R. Nye at Camp Charming
+							(view from water, at a distance)
+      </unittitle>
+      <physdesc>
+       Black-and-white photographic print (5.5” x 3.5”)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital ID ">
+       afc1937002_ph07
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Portrait of Captain Pearl R. Nye outdoors,
+							with women in the background
+      </unittitle>
+      <physdesc>
+       Color photographic print, incorporated in a collage on top of an
+							outline of a moose (3.25” x 4.75”)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

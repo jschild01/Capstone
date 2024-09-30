@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011015" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011015
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1988 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1988/009
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2011">
+     2011
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695158" show="new">
+       https://lccn.loc.gov/2004695158
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-09">
+     September 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1988/009
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1988 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1988">
+     1988
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1988" unitdatetype="inclusive">
+    1988
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    13
+		  folders
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    16 sound tape reels
+		  : analog, 7 1/2 and 15 ips, double track, stereo. ; 10 in.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    203 photographs :
+		  black and white, negatives
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    3 photographic prints
+		  : black and white ; various sizes
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    125 slides :
+		  color
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="gle">
+     Irish Gaelic
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <language encodinganalog="041" langcode="vie">
+     Vietnamese
+    </language>
+    <descriptivenote>
+     <p>
+      English,
+		  Irish Gaelic,
+		  Spanish, and
+		  Vietnamese
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists
+		  of manuscript materials, sound recordings, and photographs documenting the
+		  performance of old-time music from the Cumberland Plateau, Irish folk music and
+		  dance, bluegrass music, Piedmont blues music, Vietnamese music, mariachi music,
+		  and gospel music recorded live outdoors on Neptune Plaza in front of the Thomas
+		  Jefferson Building, Library of Congress. Concerts were sponsored by the
+		  American Folklife Center and the National Council for the Traditional
+		  Arts.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1988 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, audio recordings, and graphic materials that
+		  document the 1988 concert series sponsored by the American Folklife Center. The
+		  annual series, which began in 1977, features the presentation of folk
+		  traditions from many cultures. The concerts take place on the Neptune Plaza at
+		  the front of the Jefferson Building of the Library of Congress between April
+		  and September. Adverse weather conditions sometimes force the concerts indoors.
+		  The 1988 series was produced with the assistance of the National Council for
+		  the Traditional Arts.
+   </p>
+   <p>
+    The 1988 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="1.00*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="1.68*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="1.50*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="1.84*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 21
+       </entry>
+       <entry morerows="0">
+        The Cumberland Music Tour
+       </entry>
+       <entry morerows="0">
+        Kentucky and Tennessee
+       </entry>
+       <entry morerows="0">
+        Old Time music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 19
+       </entry>
+       <entry morerows="0">
+        Egan, Moloney, and Harney
+       </entry>
+       <entry morerows="0">
+        Maryland
+       </entry>
+       <entry morerows="0">
+        Irish music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 16
+       </entry>
+       <entry morerows="0">
+        The Grant Street Band
+       </entry>
+       <entry morerows="0">
+        California
+       </entry>
+       <entry morerows="0">
+        Bluegrass music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 21
+       </entry>
+       <entry morerows="0">
+        John Cephas and Phil Wiggins
+       </entry>
+       <entry morerows="0">
+        Maryland
+       </entry>
+       <entry morerows="0">
+        Piedmont Blues
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 18
+       </entry>
+       <entry morerows="0">
+        Nguyen Family
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Vietnamese music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 15
+       </entry>
+       <entry morerows="0">
+        Mariachi San Cristobal
+       </entry>
+       <entry morerows="0">
+        Mexico
+       </entry>
+       <entry morerows="0">
+        Mariachi music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        October 20
+       </entry>
+       <entry morerows="0">
+        The Four Echoes, Linda Gore and the
+					 Spirituallettes
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Gospel music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1988.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20230608145844.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cephas, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Egan, Séamus, 1969-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gore, Linda
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Harney, Liam
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lewis, Laurie, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Moloney, Mick, 1944-2022
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nguyễn, Đình Nghĩa
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wiggins, Phil
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Cumberland Music Tour (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Four Echoes (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Gospel Spirituallettes (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Grant Street (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Mariachi San Cristóbal
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      National Council for the Traditional Arts
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--Piedmont (U.S. : Region)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Appalachian Region, Southern.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing, Irish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Cumberland Mountains Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Mexico--Jalisco.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Vietnam.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Irish Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mariachi.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mexican Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Vietnam.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Old-time music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      String band music--Cumberland Mountains Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vietnamese Americans--Music.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1988
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1988 Neptune Plaza Concert Series Collection (AFC 1988/009), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        boxes
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1, 2-3, 7-8, 10-11, 13, 15-17, 19,
+					 22
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        10
+       </entry>
+       <entry morerows="0">
+        10" DT stereo reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        RWB 8779-8780 [AFS 26953-26954]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9618-9619 [AFS 26998-26999]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9620-9621 [AFS 27000-27001]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9628-9629 [AFS 27009 R1-2]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9626-9627 [AFS 27006-27007]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        10" DT stereo reels at 15 ips
+       </entry>
+       <entry morerows="0">
+        RWB 9052-9054 [AFS 26955-26957]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9622-9624 [AFS 27002-27004]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        13
+       </entry>
+       <entry morerows="0">
+        60-minute audiocassettes (Listening
+					 copies)
+       </entry>
+       <entry morerows="0">
+        RWB 8779-8780 [AFS 26953-26954]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9618-9619 [AFS 26998-26999]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9620-21 [AFS 27000-27001]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9628-9629 [AFS 27009 R1-2]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWB 9626-9627 [AFS 27006-27007]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        201
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 1, 4, 6, 8, 9, 12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        29
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 4-6, 9, 12, 14, 18, 20-21, 23
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 8
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        4x6 black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPE 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        4x6 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        125
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 2-3, 5, 7, 10-11, 13-14
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document), an article describing
+					 the Neptune Plaza Concert Series, press releases and news clippings on the 1988
+					 concert lineup.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        2-3
+       </container>
+       <unittitle>
+        The Cumberland Music Tour, 4-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        News clippings, press releases, pamphlets, a brochure, concert
+					 fliers, concert log by Aldona Joseph, and photo logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        7-8
+       </container>
+       <unittitle>
+        Egan, Moloney, and Harney, 5-19-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Aldona Joseph, press releases, news clippings, booklets, photo
+					 logs, and a black-and-white 8 x 10 promotional picture of Seamus Egan.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        10-11
+       </container>
+       <unittitle>
+        The Grant Street Band, 6-16-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Aldona Joseph, press releases, news clippings, a promotional
+					 booklet, and photo logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Robert Attardi, press releases, news clippings, a promotional
+					 booklet, program notes, and photo logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Robert Attardi, press releases, news clippings, a promotional
+					 booklet, program notes, and photo logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        15-17
+       </container>
+       <unittitle>
+        The Nguyen Family, 8-18-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Aldona Joseph, press releases, news clippings, a promotional
+					 booklet, program notes, diagrams and descriptions of instruments, and photo
+					 logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        19
+       </container>
+       <unittitle>
+        Mariachi San Cristobal, 9-15-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, concert log (logger unknown), press releases,
+					 news clippings, and photo logs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        22
+       </container>
+       <unittitle>
+        Four Echoes, Linda Gore and the Gospel
+					 Spirituallettes, 10-20-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Aldona Joseph, press releases, a news clipping, and photo
+					 logs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reel Audio
+				  Tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        8779-8780
+       </container>
+       <container localtype="afs">
+        26953-26954
+       </container>
+       <unittitle>
+        The Cumberland Music Tour, 4-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9052-9054
+       </container>
+       <container localtype="afs">
+        26955-26957
+       </container>
+       <unittitle>
+        Egan, Moloney, and Harney, 5-19-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three 10" DT stereo at 15 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9618-9619
+       </container>
+       <container localtype="afs">
+        26998-26999
+       </container>
+       <unittitle>
+        The Grant Street Band, 6-16-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9620-9621
+       </container>
+       <container localtype="afs">
+        27000-27001
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9622-9624
+       </container>
+       <container localtype="afs">
+        27002-27004
+       </container>
+       <unittitle>
+        The Nguyen Family, 8-18-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three 10" DT stereo at 15 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9628-9629
+       </container>
+       <container localtype="afs">
+        27009
+       </container>
+       <unittitle>
+        Mariachi San Cristobal, 9-15-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo R1-2 at 7.5 ips. Listening copies are
+					 available in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwb">
+        9626-9627
+       </container>
+       <container localtype="afs">
+        27006-27007
+       </container>
+       <unittitle>
+        The Four Echoes, Linda Gore and the Gospel
+					 Spirituallettes, 10-20-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copy is available in
+					 the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        1
+       </container>
+       <unittitle>
+        The Cumberland Music Tour, 4-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (35 images, photographed by
+					 John Gibbs), and two 4 x 6 black-and-white negatives (photographer
+					 unknown).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        4
+       </container>
+       <unittitle>
+        Egan, Moloney, and Harney, 5-19-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (18 images). Photographed
+					 by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        6
+       </container>
+       <unittitle>
+        The Grant Street Band, 6-16-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (21 images). Photographed
+					 by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        8
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (21 images). Photographed
+					 by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        9
+       </container>
+       <unittitle>
+        Mariachi San Cristobal, 9-15-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black-and-white 35 mm (71 images). Photographed
+					 by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        12
+       </container>
+       <unittitle>
+        Four Echoes, Linda Gore and the Gospel
+					 Spirituallettes, 10-20-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (34 images). Photographed
+					 by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        4-6
+       </container>
+       <unittitle>
+        The Cumberland Music Tour, 4-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Four black-and-white 35 mm contact sheets (107 images,
+					 photographed by John Gibbs and Reid Baker), three duplicates of contact sheets,
+					 and two 4 x 6 black-and-white promotional photoprints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        9
+       </container>
+       <unittitle>
+        Egan, Moloney, and Harney, 5-19-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Four black-and-white 35 mm contact sheets (64 images,
+					 photographed by John Gibbs and Jim Higgins).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        12
+       </container>
+       <unittitle>
+        The Grant Street Band, 6-16-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Four black-and-white 35 mm contact sheets (90 images).
+					 Photographed by John Gibbs and Jim Higgins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        14
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Four black-and-white 35 mm contact sheets (85 images).
+					 Photographed by John Gibbs and Reid Baker.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        18
+       </container>
+       <unittitle>
+        The Nguyen Family, 8-18-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white 35 mm contact sheets (59 images).
+					 Photographed by Reid Baker.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        20-21
+       </container>
+       <unittitle>
+        Mariachi San Cristobal, 9-15-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Five black-and-white 35 mm contact sheets (155 images).
+					 Photographed by John Gibbs and an unknown photographer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        23
+       </container>
+       <unittitle>
+        Four Echoes, Linda Gore and the Gospel
+					 Spirituallettes, 10-20-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three black-and-white 35 mm contact sheets (92 images).
+					 Photographed by John Gibbs and Reid Baker.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        2-3
+       </container>
+       <unittitle>
+        The Cumberland Music Tour, 4-21-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 34. Photographed by John
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        5
+       </container>
+       <unittitle>
+        Egan, Moloney, and Harney, 5-19-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing four. Photographed by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        7
+       </container>
+       <unittitle>
+        The Grant Street Band, 6-16-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing 15. Photographed by John Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        10-11
+       </container>
+       <unittitle>
+        Mariachi San Cristobal, 9-15-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 35. Photographed by John
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        13-14
+       </container>
+       <unittitle>
+        Four Echoes, Linda Gore and the Gospel
+					 Spirituallettes, 10-20-88.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 37. Photographed by John
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    <emph>
+     Appendix A: Dance Content
+    </emph>
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="1.00*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="4.23*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        The Cumberland Music Tour
+       </entry>
+       <entry morerows="0">
+        A group of seven musicians present old-time
+					 mountain music and dance from the Cumberland Plateau region of Kentucky and
+					 Tennessee. Performance included a demonstration of buck dancing, a mountain
+					 style solo form. Print material and photographs: folders 2-6; sound recordings:
+					 RWB 8779-8790 [AFS 26953-269554].
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="80*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Egan, Moloney, and Harney
+       </entry>
+       <entry morerows="0">
+        Irish music and dance presented by Seamus
+					 Egan, Mick Moloney, and Liam Harney. Harney, a world champion step dancer,
+					 performs reels, a jig, and a hornpipe. Print material, photographs, and slides:
+					 folders 7-9, envelope 5. Sound recordings: RWB 9052-9054 [AFS 26955-269557].
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

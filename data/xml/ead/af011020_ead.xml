@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011020" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011020
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1993 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1993/002
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <date calendar="gregorian" era="ce">
+     December 1995
+    </date>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2011">
+     2011
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695163" show="new">
+       https://lccn.loc.gov/2004695163
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime>
+     February 2012
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-08">
+     August 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1993/002
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1993 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1993">
+     1993
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1993" unitdatetype="inclusive">
+    1993
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    8
+		  folders.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    6 sound tape reels :
+		  analog: 7 1/2 ips, stereo; 10 inch.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    8 audiocassettes :
+		  analog.
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    3 photographs :
+		  negatives, black and white, color ; various sizes.
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    132 slides :
+		  color.
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    28 photographic
+		  prints : black and white ; various sizes.
+   </physdesc>
+   <physdesc label="Extent (Moving Images)">
+    6 videocassettes (VHS):
+		  color.
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      English and
+		  Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Manuscript materials,
+		  sound recordings, photographs, and moving images documenting the performance of
+		  North Indian Bengali music; Jamaican music; African American gospel quartets
+		  and choral music; Irish folk dance and music; bluegrass music; African American
+		  hand dancing; and Andean music recorded live outdoors on Neptune Plaza in front
+		  of the Thomas Jefferson Building, Library of Congress, at concerts from April
+		  through September 1993.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1993 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, sound recordings, graphic materials, and moving
+		  images that document the 1993 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures. The concerts take place on the Neptune
+		  Plaza at the front of the Jefferson Building of the Library of Congress between
+		  April and September. Adverse weather conditions sometimes force the concerts
+		  indoors.
+   </p>
+   <p>
+    The 1993 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="15*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="30*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="25*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="30*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 15
+       </entry>
+       <entry morerows="0">
+        Master Performers and Their
+					 Apprentices
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Northern Indian, Begali, Jamaican, and Gospel
+					 music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 20
+       </entry>
+       <entry morerows="0">
+        Traditional Irish Music and Dance - Tom and
+					 Maureen Doherty
+       </entry>
+       <entry morerows="0">
+        New York and Pennsylvania
+       </entry>
+       <entry morerows="0">
+        Traditional Irish music and dance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 17
+       </entry>
+       <entry morerows="0">
+        Northern Lights
+       </entry>
+       <entry morerows="0">
+        Massachusetts
+       </entry>
+       <entry morerows="0">
+        Bluegrass music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 15
+       </entry>
+       <entry morerows="0">
+        Philadelphia Ambassadors Chorale and
+					 Ensemble
+       </entry>
+       <entry morerows="0">
+        Pennsylvania
+       </entry>
+       <entry morerows="0">
+        African-American sacred music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 19
+       </entry>
+       <entry morerows="0">
+        African-American Hand Dancers
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        African-American hand dancing
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 16
+       </entry>
+       <entry morerows="0">
+        Ollantay
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Pan-Andean music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1993.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20231206074011.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Blackwell, Lucien, 1931-2003
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Briscoe, Erald
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Doherty, Tom, 1913-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Friedland, Lee Ellen
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hubbard, Samuel O.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Moloney, Mick, 1944-2022
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Simpson-Curenton, Evelyn, 1953-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wick, Regan
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      D.C. Commission on the Arts and Humanities
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Northern Lights (Bluegrass group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Ollantay (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Philadelphia Ambassadors Chorale and Ensemble
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Reverb (Vocal group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      WAMU-FM (Radio station : Washington, D.C.)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American dance--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bengali (South Asian people)--United States--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1991-2000.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--Massachusetts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bolivian Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      D.C. hand dance.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing, Irish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Pennsylvania--Philadelphia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hornpipe (Dance)--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Irish Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jamaicans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jig (Dance)--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lindy (Dance)--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--India.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--Andes Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Reggae music--Jamaica.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Step dancing--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vocal quartets, Unaccompanied.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1993
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Neptune Plaza Concert Series, 1993
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Autographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions. Performers may be contacted
+		  through the American Folklife Center administrative office.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1993 Neptune Plaza Concert Series Collection (AFC 1993/002), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        8
+       </entry>
+       <entry morerows="0">
+        folders in 2 boxes
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1, 2, 6, 10-11, 15, 20, 27
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        10" stereo reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        SR1-3, 6, 9, 12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        8
+       </entry>
+       <entry morerows="0">
+        60-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        SR 4-5, 7-8, 10-11, 13-14 (Reference
+					 copies)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        color negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPE 2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        4x5 black-and-white internegative
+       </entry>
+       <entry morerows="0">
+        ENVELOPE 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        19
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3-5, 7-9, 12-14, 16-17, 21-26,
+					 28-29
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        27
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3-5, 7-9, 12-14, 16-17, 21-16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        7x9 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 17
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        132
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 3-10
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Image
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        1/2" VHS color videocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1993/002:V1-6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        1/2" VHS color videocassettes (viewing
+					 copies)
+       </entry>
+       <entry morerows="0">
+        AFC 1993/002:V1-v1; AFC 1993/002:V2-v1-2
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPT MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Archive of Folk Culture Administrative Materials. The
+					 collection guide (this document), concert schedules, and articles describing
+					 the Neptune Plaza Concert Series.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        2
+       </container>
+       <unittitle>
+        Master Performers and Their Apprentices,
+					 4-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, concert log, and a list of performers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        6
+       </container>
+       <unittitle>
+        Traditional Irish Music and Dance--Tom and Maureen
+					 Doherty, 5-20-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, press releases, and a concert log.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        10-11
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, press releases, concert log, publicity photo,
+					 and news clippings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        15
+       </container>
+       <unittitle>
+        Philadelphia Ambassadors Chorale and Ensemble,
+					 7-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two concert fliers autographed by the performers, unsigned
+					 fliers, press releases, and a concert log by Thea Austen.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        20
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 press releases, news clippings, and a concert log by Stephanie Hall.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        27
+       </container>
+       <unittitle>
+        Ollantay, 9-16-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, press releases, jacket notes from a published
+					 cassette, and a concert log by Stephanie Hall.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reels
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR1
+       </container>
+       <unittitle>
+        Master Performers and Their Apprentices,
+					 4-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR2
+       </container>
+       <unittitle>
+        Traditional Irish Music and Dance--Tom and Maureen
+					 Doherty, 5-20-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR3
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR6
+       </container>
+       <unittitle>
+        Philadelphia Ambassadors Chorale and Ensemble,
+					 7-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR9
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR12
+       </container>
+       <unittitle>
+        Ollantay, 9-16-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Audiocassettes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR4-5
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 60-minute. Each cassette is a complete recording of the
+					 concert (recorded concurrently with reel-to-reel).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR7-8
+       </container>
+       <unittitle>
+        Philadelphia Ambassadors Chorale and Ensemble,
+					 7-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 60-minute. Each cassette is a complete recording of the
+					 concert (recorded concurrently with reel-to-reel).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR10-11
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 60-minute. Each cassette is a complete recording of the
+					 concert (recorded concurrently with reel- to-reel).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002: SR13-14
+       </container>
+       <unittitle>
+        Ollantay, 9-16-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 60-minute. Each cassette is a complete recording of the
+					 concert (recorded concurrently with reel-to-reel).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        1
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 4 x 5 black-and-white internegative (publicity).
+					 Photographer unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        2
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of color 35 mm (2 images). Photographed by Bobby
+					 Lane.
+       </p>
+      </scopecontent>
+      <odd>
+       <p>
+        Note: negatives for photographs shot by Library of Congress
+					 photographers Reid Baker and Jim Higgins may be in the Public Affairs
+					 Office.
+       </p>
+      </odd>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        3-5
+       </container>
+       <unittitle>
+        Master Performers and Their Apprentices, 4-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white 35 mm contact sheets (60 images) and five
+					 8 x 10" black-and-white photographic prints with three duplicates. Photographed
+					 by Yusef El-Amin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        7-9
+       </container>
+       <unittitle>
+        Traditional Irish Music and Dance--Tom and Maureen
+					 Doherty, 5-20-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white 35 mm contact sheets (57 images) and four
+					 8 x 10" black-and-white photographic prints with two duplicates. Photographed
+					 by Jim Higgins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        12-14
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three black-and-white 35 mm contact sheets (72 images) and
+					 five 8 x 10" black-and-white photographic prints. Photographed by Yusef
+					 El-Amin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        16-17
+       </container>
+       <unittitle>
+        Philadelphia Ambassadors Chorale and Ensemble,
+					 7-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three black-and-white 35 mm contact sheets (77 images), one 7
+					 x 9 black-and-white photographic print, and eight 8 x 10" black-and-white
+					 photographic prints. Photographed by Jim Higgins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        21-26
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Six black-and-white 35 mm contact sheets (131 images) and five
+					 8 x 10" black-and-white photographic prints with two duplicates. Photographed
+					 by Jim Higgins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        28-29
+       </container>
+       <unittitle>
+        Ollantay, 9-16-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three black-and-white 35 mm contact sheets (61 images).
+					 Photographed by Yusef El-Amin.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        3-10
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Eight holders containing 132. Photographed by David A. Taylor.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: MOVING IMAGE
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Videocassettes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V1
+       </container>
+       <unittitle>
+        Master Performers and Their Apprentices, 4-
+					 15-93
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        D.C. Commission on the Arts (Master). One 1/2" VHS color (a
+					 copy of an original that is not in the collection). (Copy)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V2
+       </container>
+       <unittitle>
+        Traditional Irish Music and Dance--Tom and Maureen
+					 Doherty, 5-20-93. (Master plus 2 copies)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 1/2" VHS color. Viewing copies are available in the
+					 Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V3
+       </container>
+       <unittitle>
+        Northern Lights, 6-17-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 1/2" VHS color. (Master)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V4
+       </container>
+       <unittitle>
+        Philadelphia Ambassadors Chorale and Ensemble,
+					 7-15-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 1/2" VHS color. (Master)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V5
+       </container>
+       <unittitle>
+        African-American Hand Dancing, 8-19-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 1/2" VHS color. (Master)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afc">
+        1993/002:V6
+       </container>
+       <unittitle>
+        Ollantay, 9-16-93.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 1/2" VHS color. (Master)
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    <emph>
+     Appendix A: Dance Content
+    </emph>
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="80*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Traditional Irish Music and Dance
+       </entry>
+       <entry morerows="0">
+        Tom Doherty, Maureen Doherty-Macken, Mick
+					 Moloney, and Regan Wick present traditional Irish music and dance. Wick, a
+					 champion step dancer, performs set dances, reels, a hornpipe, jig, and an a
+					 capella dance. Print materials and photographs: folders 6-9; sound recording:
+					 AFC 1993/002:SR2; videotape: AFC 1993/002:V2.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        African-American Hand Dancing
+       </entry>
+       <entry morerows="0">
+        Demonstration of hand-dancing, a local couple
+					 dance derived from the lindy hop that has seen a recent revival in the
+					 Washington African-American community. Folklorist LeeEllen Friedland narrates
+					 and provides background information. Three couples demonstrate basic steps and
+					 individual variations, as well as other dances in the repertoire such as line
+					 dances, the Bop, Walk, Slop, Birdland, Bugaloo, Jerk, Twist, and line dances.
+					 Audience participation included. Print material, photographs, and slides:
+					 folders 20-26, envelopes 3-10; sound recordings: AFC 1993/002:SR9-11;
+					 videotape: AFC 1993/ 002:V5.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1980 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1980/012
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695013" show="new">
+       https://lccn.loc.gov/2004695013
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-04">
+     April 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1980/012
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1980 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1980/1980">
+     1980
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1980/1980" unitdatetype="inclusive">
+    1980
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    7
+		  folders
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    11 sound tape reels :
+		  analog, 7 1/2 ips; 10 in.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    249 photographs :
+		  negatives, photographic prints, black and white, color ; various
+		  sizes.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    97 slides :
+		  color.
+   </physdesc>
+   <physdesc label="Extent (Moving Images)">
+    2 videocassettes of 2
+		  (U-Matic) : sound, black and white ; 3/4 in.
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041">
+     Armenian
+    </language>
+    <language encodinganalog="041">
+     French Creole
+    </language>
+    <language encodinganalog="041">
+     French
+    </language>
+    <language encodinganalog="041">
+     Ga
+    </language>
+    <language encodinganalog="041">
+     Lao
+    </language>
+    <language encodinganalog="041">
+     Mon-Khmer
+    </language>
+    <language encodinganalog="041">
+     Spanish
+    </language>
+    <language encodinganalog="041">
+     Twi
+    </language>
+    <language encodinganalog="041">
+     and Vietnamese
+    </language>
+    <descriptivenote>
+     <p>
+      English, 
+		  Armenian, French Creole,
+		  French, Ga, Lao,
+		  Mon-Khmer,  Spanish,
+		  Twi, and Vietnamese
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists
+		  of manuscript materials, sound recordings, photographs, and moving images
+		  documenting the performance of Armenian music and dance, bluegrass music,
+		  zydeco music, Ghanaian music, Afro-Cuban music, and Southeast Asian music
+		  featuring Laotian, Vietnamese, and Hmong performers recorded live outdoors on
+		  Neptune Plaza in front of the Library of Congress.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1980 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, audio recordings, and graphic materials that
+		  document the 1980 concert series sponsored by the American Folklife Center. The
+		  annual series, which began in 1977, features the presentation of folk
+		  traditions from many cultures. The concerts take place on the Neptune Plaza at
+		  the front of the Jefferson Building of the Library of Congress between April
+		  and October. The 1980 series was produced with the assistance of the National
+		  Council for the Traditional Arts.
+   </p>
+   <p>
+    The 1980 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="15*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="20*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="30*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        May 8
+       </entry>
+       <entry morerows="0">
+        Leo Sarkisian and group
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Armenian music and dance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 12
+       </entry>
+       <entry morerows="0">
+        Don Stover
+       </entry>
+       <entry morerows="0">
+        Maryland
+       </entry>
+       <entry morerows="0">
+        Bluegrass and old-time music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 10
+       </entry>
+       <entry morerows="0">
+        Sam Brothers Five
+       </entry>
+       <entry morerows="0">
+        Louisiana
+       </entry>
+       <entry morerows="0">
+        Zydeco music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 14
+       </entry>
+       <entry morerows="0">
+        Yacub Addy and Blema Bii (Children of the
+					 Ancient)
+       </entry>
+       <entry morerows="0">
+        Ghana
+       </entry>
+       <entry morerows="0">
+        Ghanaian music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 11
+       </entry>
+       <entry morerows="0">
+        Las Estrellas Del Son, Roberto Borrell and
+					 Kubata
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Afro-Cuban music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        October 9
+       </entry>
+       <entry morerows="0">
+        Music of Southeast Asia
+       </entry>
+       <entry morerows="0">
+        Various locations
+       </entry>
+       <entry morerows="0">
+        Southeast Asian music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1980.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20210216112409.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Addy, Yacub
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Borrell, Roberto
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Derderian, Leo
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sarkisian, Leo, 1921-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stover, Don, 1928-1996
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Blema Bii (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Estrellas del Son (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Kubatá (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      National Council for the Traditional Arts
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Sam Brothers Five
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Armenian Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1971-1980.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cuban Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Ghana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance, Black--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--Armenia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing--Armenia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Armenia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong (Asian people)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong Americans--Rhode Island--Providence--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Laotian Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Ghana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Laos.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Southeast Asia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Vietnam.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Old-time music--Middle Atlantic States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Percussion music--Ghana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Storytelling.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vietnamese Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Zydeco music--Louisiana.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1980
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1980 Neptune Plaza Concert Series Collection (AFC 1980/012), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        box
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1, 2, 4, 7, 9, 11, 14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        10" DT stereo reel at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        LWO 16538
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        10" DT mono reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        LWO 16767 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 16796 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 15-16 [LWO 16844 R1-2] [AFS
+					 20170-20171]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        4
+       </entry>
+       <entry morerows="0">
+        10" FT mono reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        LWO 16645 R1-2 [AFS 19977-19978]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 16678 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        222
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 1, 4, 5, 7, 10, 12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        8
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3, 5-6, 8, 10, 12-13, 15-16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 10, 12-13
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        4x6 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        3x5 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 13
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        15
+       </entry>
+       <entry morerows="0">
+        color polaroids
+       </entry>
+       <entry morerows="0">
+        FOLDERS 6 and 16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        97
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 2-3, 6, 8-9, 11, 13
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        videocassettes (U-Matic) 3/4" sound, black
+					 and white
+       </entry>
+       <entry morerows="0">
+        LVR 326
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document) and an article about the
+					 concert series.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        2
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, news clippings, biographical sketches,
+					 descriptions of instruments, and a brochure about Sarkisian's art work.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        4
+       </container>
+       <unittitle>
+        Don Stover, 6-12-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, newspaper and magazine clippings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        6
+       </container>
+       <unittitle>
+        Hazel Dickens and Don Stover, 6-28-79.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        News clippings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        7
+       </container>
+       <unittitle>
+        Sam Brothers Five, 7-10-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, newspaper clippings, correspondence, and
+					 identification of people in photos on contact sheet.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        9
+       </container>
+       <unittitle>
+        Yacub Addy and Blema Bii, 8-14-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, correspondence, photocopy of resume of Yacub
+					 Tetteh Addy, and identification of people in photos on contact sheet.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        11
+       </container>
+       <unittitle>
+        Las Estrellas del Son, 9-11-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, correspondence, concert program,
+					 identification of people in photos on contact sheet and in color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        14
+       </container>
+       <unittitle>
+        Music of Southeast Asia, 10-9-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases and identification of people in
+					 photographs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reel Audio
+				  Tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        16538
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" DT stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        16645
+       </container>
+       <container>
+        [AFS 19977-19978]
+       </container>
+       <unittitle>
+        Don Stover, 6-12-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" FT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        16678
+       </container>
+       <unittitle>
+        Sam Brothers Five, 7-10-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" FT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        16767
+       </container>
+       <unittitle>
+        Yacub Addy and Blema Bii, 8-14-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" inch DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        16796
+       </container>
+       <unittitle>
+        Las Estrellas del Son, 9-11-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="RWA">
+        15-16
+       </container>
+       <container>
+        [LWO 16844 R1-2]
+       </container>
+       <container>
+        [AFS 20170-20171]
+       </container>
+       <unittitle>
+        Music of Southeast Asia, 10-9-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        1
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black and white 35 mm (63 images). Photographed
+					 by John T. Gibbs and Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        4
+       </container>
+       <unittitle>
+        Don Stover, 6-12-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (25 images). Photographed
+					 by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        5
+       </container>
+       <unittitle>
+        Sam Brothers Five, 7-10-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (30 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        7
+       </container>
+       <unittitle>
+        Yacub Addy and Blema Bii, 8-14-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black and white 35 mm (64 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        10
+       </container>
+       <unittitle>
+        Las Estrellas del Son, 9-11-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (36 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        12
+       </container>
+       <unittitle>
+        Music of Southeast Asia, 10-9-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (36 images). Photographed
+					 by John T. Gibbs
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        3
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black and white 35 mm contact sheets. (63 images).
+					 Photographed by John T. Gibbs and Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        5-6
+       </container>
+       <unittitle>
+        Don Stover, 6-12-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (25 images) and nine 3
+					 x 3 color polaroids (photographer unknown). Photographed by Carl
+					 Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        8
+       </container>
+       <unittitle>
+        Sam Brothers Five, 7-10-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (30 images).
+					 Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        10
+       </container>
+       <unittitle>
+        Yacub Addy and Blema Bii, 8-14-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black and white 35 mm contact sheets (64 images) and two 8
+					 x 10 black and white photoprints. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        12-13
+       </container>
+       <unittitle>
+        Las Estrellas del Son, 9-11-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (36 images), three 8 x
+					 10 black and white photoprints (photographed by John T. Gibbs), and six 3 x 5
+					 color photoprints (photographer unknown, possibly Carl Fleischhauer).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        15-16
+       </container>
+       <unittitle>
+        Music of Southeast Asia, 10-9-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white contact sheet (36 images), one 4 x 6 black
+					 and white photoprint (photographed by John T. Gibbs), and six 3 x 3 color
+					 polaroids (photographer unknown, possibly Carl Fleischhauer).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPES">
+        2-3
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 26. Photographed by John T.
+					 Gibbs and Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        6
+       </container>
+       <unittitle>
+        Sam Brothers Five, 7-10-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing 14. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPES">
+        8-9
+       </container>
+       <unittitle>
+        Yacub Addy and Blema Bii, 8-14-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 25. Photographed by John T.
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        11
+       </container>
+       <unittitle>
+        Las Estrellas del Son, 9-11-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing 13. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        13
+       </container>
+       <unittitle>
+        Music of Southeast Asia, 10-9-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing 19. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: MOVING IMAGES
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Videocassette
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container>
+        LVR 326
+       </container>
+       <unittitle>
+        Leo Sarkisian, 5-8-80.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 3/4" black and white.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    <emph>
+     Appendix A: Dance Content
+    </emph>
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="80*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Leo Sarkisian and group
+       </entry>
+       <entry morerows="0">
+        Solo dancer Eleanor Caroglanian, in costume,
+					 demonstrates three Armenian folk dances from different regions to the music of
+					 Leo Sarkisian's group. Mrs. Sarkisian and friends lead the audience in several
+					 line dances. Photographs and slides: folder 3, envelopes 2-3; videotape: LVR
+					 326; sound recording: LWO 16,538. See also 6-16-83 concert.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

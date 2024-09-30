@@ -1,0 +1,5905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019003" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019003
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Henry Sapoznik collection
+    </titleproper>
+    <subtitle>
+     AFC 2010/003
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2019-06">
+     June 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2010655233" show="new">
+       https://lccn.loc.gov/2010655233
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-03">
+     2020-03
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-06">
+     June 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Henry Sapoznik collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1920/1960">
+     circa 1920-1960
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1920/1960" unitdatetype="inclusive">
+    circa 1920-1960
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2010/003
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Sapoznik, Henry
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (items)">
+    10,438 items ; 25 containers (not including audiovisual
+               materials) ; 148 linear inches (not including audiovisual materials).
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    1401 sound discs : analog ; 16 in. and various
+               sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    546 sound tape reels : analog ; 10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    4 sound tape reels : analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    8400 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (photographs)">
+    84 photographs : black and white, color ; various
+               sizes.
+   </physdesc>
+   <physdesc label="Extent (artifacts)">
+    3 items.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Sound recordings in Yiddish and English;
+               manuscripts in Yiddish and English.
+    </language>
+    <descriptivenote>
+     <p>
+      Sound recordings in Yiddish and English;
+               manuscripts in Yiddish and English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of Yiddish radio broadcasts on
+            transcription discs and audio tape; plus sheet music, manuscripts and photographs
+            documenting Yiddish culture, theater, and music, primarily in the New York City area,
+            but also including documentation from other parts of the United States, from the 1920s
+            to circa 1960, collected by Henry Sapoznik. Manuscripts include correspondence,
+            manuscript music, photocopies, and other material.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20230331084556.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sapoznik, Henry
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Authors, Yiddish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic radio broadcasting--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Yiddish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Radio broadcasting, Yiddish--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Radio broadcasting, Yiddish--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Yiddish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Theater, Yiddish.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Radio programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: 1: Radio broadcasting; 2: Radio writers,
+               performers, and programs; 3: Organizations and committees; 4: Print publications; 5:
+               Interview transcripts, logs, and related documentation; 6: Manuscripts accompanying
+               sound recordings; 7: "The Stations that Spoke Your Language": Yiddish-American Radio
+               1925-1955; 8: Sound recordings; 9: Photographic materials; 10: Artifacts.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Henry Sapoznik; 2010, 2012.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    The 2012 accrual consisted of three items: the cut-out and mounted photo of Al Entin,
+               the hand chimes and mallet, and a ticket stub.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Hear, O Israel, Yiddish-American Broadcasting 1925-1965, Lecture by Henry Sapoznik
+               (AFC 2009/013), Archive of Folk Culture, American Folklife Center, Library of
+               Congress, Washington, D.C.
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access may be restricted. To request materials,
+               please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Additional Formats
+   </head>
+   <p>
+    Selected analog disc recordings have preservation tape masters in the collection.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Henry Sapoznik collection (AFC 2010/003), Archive of Folk Culture, American Folklife
+               Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Henry Sapoznik was born in Brooklyn, New York City, in 1953. He is an author, record and
+            radio producer, scholar, and performer of klezmer music. He directed the Mayrent
+            Institute for Yiddish Culture at the University of Wisconsin, Madison, until his
+            retirement in 2017.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of Yiddish radio broadcasts on transcription discs and audio tape; plus sheet
+            music, manuscripts and photographs documenting Yiddish culture, theater, and music,
+            primarily in the New York City area, but also including documentation from other parts
+            of the United States, from the 1920s to circa 1960, collected by Henry Sapoznik.
+            Manuscripts include correspondence, manuscript music, photocopies, and other
+            material.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Radio broadcasting
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation includes original materials and photocopies, as well as faxes and
+                  ditto copies. If no date is given then the information was not available.
+                  Materials in Yiddish and English. Includes correspondence, the background and
+                  history of stations, publicity for stations and featured performers, continuity
+                  guidelines, radio licenses and applications for renewal,
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: History, programs, legal documents,
+                     and related materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Materials in Yiddish and English. Includes correspondence, the background and
+                     history of stations, publicity for stations and featured performers, continuity
+                     guidelines, radio licenses and applications for renewal.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        NBC: religious programming policy,
+        <date>
+         1935
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1935
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        WABC,
+        <date>
+         1929
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1929
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        WADS and WAVZ,
+        <date>
+         1950s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        WARD,
+        <date>
+         circa
+                           1940s-2000s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                           1940s-2000s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        WBBC,
+        <date>
+         1920s-1930s; 2000s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920s-1930s; 2000s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        WBNX,
+        <date>
+         1920s-1940s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920s-1940s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies, plus one original brochure (circa 1930s).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        WCFL,
+        <date>
+         1920s-1930s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920s-1930s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEDC,
+        <date>
+         1930s-1940s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1930s-1940s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1920s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1940s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1940s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1950s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1960s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1960s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1970s-1990s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1970s-1990s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         2000s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        2000s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        One original document and a newspaper clipping.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund,
+        <date>
+         1920, 1932
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920, 1932
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopied documents on the background of WEVD as a radio station operating
+                        in memory of Eugene Debs. Includes a 1992 letter to Henry Sapoznik from Paul
+                        F. Gullifor, Bradley University.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund stock books (1
+                        of 3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes originals and copies of newspaper clippings, correspondence and
+                        radio license renewal documents. A fax to Henry Sapoznik (1992) is also
+                        included.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund stock books (2
+                        of 3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes a program from the dedication of the new WEVD building (1938). See
+                        description for box-folder 2/6.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund stock books (3
+                        of 3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes a verified reception stamp and handwritten notes on yellow legal
+                        paper. See description for box-folder 2/6.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund, Inc.: stock
+                        certificates 1-25,
+        <date>
+         1928-1932
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1928-1932
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Bound oblong volume with original stock certificates (some detached),
+                        bearing stock transfer tax stamps.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: Debs Memorial Radio Fund, Inc.: stock
+                        certificates 25-50,
+        <date>
+         1933-1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1933-1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Bound oblong volume with original stock certificates (some detached).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (1 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes originals and photocopies of FRC and FCC documents, radio licenses
+                        and applications for license renewals, correspondence, newspaper articles,
+                        financial information regarding the Debs Memorial Fund, Inc., program
+                        information, and related documentation.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (2 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The contents date primarily from the 1920s. See description for box-folder
+                        3/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (3 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The contents date primarily from the 1920s. See description for box-folder
+                        3/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (4 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The contents date primarily from the 1920s. See description for box-folder
+                        3/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (5 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The contents date primarily from the 1920s. See description for box-folder
+                        3/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (6 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The contents date primarily from the 1920s. See description for box-folder
+                        3/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (7 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Documents are from 1953-1991.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD: FRC and FCC documents (8 of 8),
+        <date>
+         1926-1957, 1991
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1926-1957, 1991
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two issues of the news flyer, "What's Nu!" (one from 1954, the other
+                        undated).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/9-10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sections of the FBI report on radio station
+                        WEVD (2 folders),
+        <date>
+         1940s-1970s;
+                           1994
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1940s-1970s;
+                           1994
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes original letter from the FBI to Andy Lanset, who had requested the
+                        report. The report is photocopied, with information redacted in the source
+                        copy.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Henry Sapoznik's WEVD file,
+        <date>
+         1990
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1990
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents. Includes correspondence to Sapoznik while he worked at
+                        WEVD, and a program script in transcribed Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        WEVD,
+        <date>
+         1950s,
+                           undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950s,
+                           undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Copy of a letter from the Yiddish Radio Guild of America, an original page
+                        and two photocopies from WEVD English and foreign language program
+                        schedules, and an original document called "Who's Who among advertisers on
+                        WEVD."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        WHN (1 of 2),
+        <date>
+         1920s, undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1920s, undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Originals and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        WHN (2 of 2),
+        <date>
+         1927-1941
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1927-1941
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies of license application documents, program analysis sheet, and
+                        related materials.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        WHOM,
+        <date>
+         1938-1950
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1938-1950
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        45th anniversary program schedule for the station, legal papers,
+                        correspondence, and newspaper articles. Original documents and
+                        photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        WJLB,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of
+        <title>
+         <part>
+          Weinberg's Yiddish radio hour (a
+                           memoir)
+         </part>
+        </title>
+        , by Harry Weinberg.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        WLIB,
+        <date>
+         1942,
+                           undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1942,
+                           undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents. Master program schedule for September 1942, and an radio
+                        station profile prepared for Sapoznik.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        WLTH (originals and photocopies),
+        <date>
+         1935-1947
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1935-1947
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies. Correspondence to Victor Packer, program
+                        advertisements, a songster in Yiddish and English, with music; program
+                        schedules, a station profile created for Sapoznik, and related
+                        documents.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publication on the history of WNYC radio and
+                        TV (original),
+        <date>
+         circa
+                        1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                        1986
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Overview of WNYC's history.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Lincoln and the Jews," by Emanuel Hertz,
+        <date>
+         1928
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1928
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original copy of the text delivered on WRNY radio.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Brooklyn radio stations,
+        <date>
+         1928-1934, 1999, undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1928-1934, 1999, undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Radio station profiles prepared for Sapoznik, newspaper articles, and
+                        related documents. Original documents and photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Raymond, Art.
+        <title>
+         <part>
+          Put your money where
+                           your mouth is
+         </part>
+        </title>
+        .
+        <date>
+         1978
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1978
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original copy of a small book on finding a job in the radio industry.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Recollections of Jewish Radio and
+                        Television,"
+        <date>
+         October 21,
+                        1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        October 21,
+                        1985
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Talk delivered by Sholom Rubinstein.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Jewish Radio Stations,"
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Unpublished research report by Beatrice Goldsmith on Jewish radio stations.
+                        Faxed document, printed on regular bond paper.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Scripts and related
+                     materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Materials are in Yiddish.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Shulamis
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original copy of a script for the radio play, in Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Tsvei Kuni Lemels
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original copy of a script for the radio play, in Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Radio writers, performers, and
+                  programs
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes scripts, correspondence, and related documentation.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Nahum Stutchkoff
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Bei Tate Mames Tish
+         </part>
+        </title>
+        (Round the
+                        Family Table) (1 of 3),
+        <date>
+         circa
+                           1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                           1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original, typed copy of a script for the program, in Yiddish; pencilled
+                        notations throughout, and housed in a black paper binder. The name of Max
+                        Friedlander is handwritten in pencil on the last page, with further notes.
+                        The folder also includes the typing paper package in which AFC received the
+                        document.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Bei Tate Mames Tish
+         </part>
+        </title>
+        (Round the
+                        Family Table) (2 of 3),
+        <date>
+         circa
+                           1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                           1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original, typed copy of the radio play, in Yiddish; pencilled writing and
+                        notations throughout, and housed in a tan paper binder.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Bei Tate Mames Tish
+         </part>
+        </title>
+        (Round the
+                        Family Table) (3 of 3),
+        <date>
+         circa
+                           1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                           1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original, typed, unbound copy of the radio play, in Yiddish. This may be a
+                        draft or revision of the play. The folder also includes the typing paper
+                        package in which AFC received the document.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          In a Yidisher Groseri
+         </part>
+        </title>
+        (In a
+                        Jewish Grocery) (1 of 2),
+        <date>
+         circa late
+                           1930s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa late
+                           1930s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the radio play, with handwritten notations and orange
+                        highlighting.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          In a Yidisher Groseri
+         </part>
+        </title>
+        (In a
+                        Jewish Grocery) (2 of 2),
+        <date>
+         circa late
+                           1930s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa late
+                           1930s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 5/2.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Radio appeals for a Jewish
+                        sanitorium,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original, typed text in Yiddish with handwritten notations. The folder also
+                        includes the typing paper package in which AFC received the document. This
+                        was the Brooklyn Jewish Sanitarium, now called Kingsbrook Jewish Medical
+                        Center.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publicity and articles,
+        <date>
+         circa 1930s-1960s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1930s-1960s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies. Includes publicity and articles about
+                        Stutchkoff.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Note and envelope to Henry Sapoznik,
+        <date>
+         January 2003
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        January 2003
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Wolf Younin
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       These manuscripts were received as a group from the donor. Wolf Younin was, at
+                     one point, the secretary for the Yiddish Radio Guild of America.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/1-2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Yiddish Radio Guild of America -
+                        correspondence (2 folders),
+        <date>
+         1942-1943,
+                           undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1942-1943,
+                           undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents; in Yiddish and English. Most are typed, with some
+                        documents and notes handwritten in pencil.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Yiddish Radio Guild of America - scripts,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents; in Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Wolf Younin - scripts and correspondence,
+        <date>
+         1941-1943,
+                        undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1941-1943,
+                        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents, typed and handwritten; in Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/5-6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Wolf Younin: advertising copy (2 folders),
+        <date>
+         1943, undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943, undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents, typed and handwritten; in Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Yiddish Radio Guild of America: news scripts
+                        and advertisements,
+        <date>
+         1943-1944,
+                           undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943-1944,
+                           undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 6/4.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Texts, bills, and related documentation,
+        <date>
+         1943-1949,
+                        undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943-1949,
+                        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 6/4. Includes bills signed by Younin for fees
+                        charged to translate particular texts from English to Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Misha Rapel,
+        <date>
+         1943, undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943, undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Embossed image (on paper) of Misha Rapel; 2 1/3 in. x 2 1/2 in. Rappel, also
+                        known as Maurice Rappel and as Morris Rappaport, was a Yiddish-language
+                        radio and stage personality.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries C: Correspondence to radio
+                     stations
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Postcards and brief notes with envelopes, plus other materials related to the
+                     radio stations. Some notes do not have an accompanying envelope, and some
+                     envelopes are empty. A significant number of items are specifically addressed
+                     to Wolf Younin, who worked both at WARD and WBYN radio stations.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/1-4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WARD (4 folders),
+        <date>
+         1940
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1940
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Correspondence from listeners in response to trivia questions or requests
+                        for stories, or requesting publications.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/5-6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WARD (2 folders),
+        <date>
+         1941
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1941
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Manuscripts accompanying correspondence to
+                        WARD,
+        <date>
+         circa 1940s,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1940s,
+                        1975
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes newspaper clippings, handwritten notes, and one two-page typed
+                        document. Almost all texts in Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/8-10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (3 folders),
+        <date>
+         1941
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1941
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Correspondence, as brief notes or as postcards, from WBYN listeners to WBYN
+                        or Wolf Younin, to request tickets to a radio show, or to send stamps to him
+                        to cover postage for a Purim Megillah in Yiddish to be sent to them, as
+                        Younin had announced on the air. Some messages are in Yiddish, but most are
+                        in English. Some envelopes are empty. Note: some people write Younin's name
+                        as "Union," or similar variations. WBYN existed as such from 1941-1946.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/1-2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (2 folders),
+        <date>
+         1942
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1942
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8. Also included: an invitation from Mr.
+                        and Mrs. Sholom Secunda to the Bar Mitzvah of their son, Sheldon. Shalom
+                        Fecundate was a noted Yiddish composer, and his son later became a
+                        songwriter.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/3-9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (1-7 of 38),
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/1-9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (8-16 of 38),
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/1-10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (17-26 of 38),
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/1-10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (27-36 of 38),
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/1-2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN (37-38 of 38),
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WBYN,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence to WEVD,
+        <date>
+         1943
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1943
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 7/8.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries D: Radio personalities and
+                     performers
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jan Bart,
+        <date>
+         circa 1944-1998
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1944-1998
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes typed radio dialog and correspondence. Originals and
+                        photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hyman Brown,
+        <date>
+         circa 2003
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 2003
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Typed biography by Patricia J. Priest and a newspaper clipping.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Henry Burbig,
+        <date>
+         1929
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1929
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        One-page texts in Yinglish of humorous radio copy, ultimately used to
+                        advertise products made by CeCo Manufacturing Co. Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Chaver-Paver (1 of 2),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        <title>
+         <part>
+          Lobzig the Crisis Dog
+         </part>
+        </title>
+        , by Chaver-Paver (the professional name
+                        of Gershon Einbinder). Ditto copies of the radio episodes. In Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Chaver-Paver (2 of 2),
+        <date>
+         1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See note for box-folder 12/8. Photocopies of credits and narration, in
+                        English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Benjamin A. Gebiner,
+        <date>
+         May 22, 1993
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        May 22, 1993
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original program from the Mensch of the Year Award buffet luncheon, in honor
+                        of Gebiner.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jacob Gordin,
+        <date>
+         circa 1940s-1950s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1940s-1950s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        <title>
+         <part>
+          Got, Mensch, und Tayvl
+         </part>
+        </title>
+        (God, Man and Devil), adapted for the
+                        radio. Original and copies, in Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Louis J. Gross,
+        <date>
+         circa 1950s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1950s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Publicity for radio shows and events, and four business cards, including one
+                        for Gross. Originals, plus a few photocopies. In Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Aaron Hantin (1 of 2),
+        <date>
+         circa 1930-1940
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1930-1940
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes correspondence, an original copy of
+        <title>
+         <part>
+          Hagadah shel Pesah mit
+                           myuzik noten
+         </part>
+        </title>
+        (Passover haggadah with music) in Hebrew and English
+                        (1912), texts of radio announcements, typed documents with handwritten
+                        notations, and handwritten music (with typed lyrics) for the song "Bar
+                        Mitzvo," by Evo (?) Silver and arranged by M. Kortchmaroff, drafts of WVFW
+                        (radio station) documents, and business cards. Documents are in Yiddish and
+                        English. A photograph was relocated to Series 3.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Aaron Hantin (2 of 2),
+        <date>
+         circa 1930-1940
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1930-1940
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See description for box-folder 12/13.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Joseph Jacobs,
+        <date>
+         1938-1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1938-1939
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes original advertisements, advertising rates, and a letter of
+                        correspondence from Jacobs to Alexander Kahm (of The
+        <title>
+         <part>
+          Jewish Daily
+                           Forward
+         </part>
+        </title>
+        . Documents are in English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Samuel Kaplan,
+        <date>
+         circa 1940s; 1992-1994
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1940s; 1992-1994
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A newspaper obituary for Kaplan, a typed program list for WEVD (on the radio
+                        station's letterhead), a handwritten letter from Kaplan to Andy Lanset
+                        (accompanied by photocopied newspaper articles). A photograph was relocated
+                        to Series 3.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        C. Israel Lutsky,
+        <date>
+         circa 1922-1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1922-1999
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes correspondence, published materials, pages from a calendar, and a
+                        synopsis of Lutsky's radio segments. Originals and photocopies; in
+                        English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Samuel P. Mogelewsky,
+        <date>
+         1935
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1935
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two pages (both photocopies) of radio station advertisements. In
+                        Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Victor Packer,
+        <date>
+         1958; undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1958; undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        An advertisement for a play, which includes Packer's name and image (the
+                        advertisement, dated 1958, is in Yiddish and English), and a 7-page typed
+                        document in Yiddish (undated).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Samuel Regensberg,
+        <date>
+         2001; undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        2001; undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        One photocopied item of publicity (in Yiddish and English), and a
+                        handwritten letter from Regenberg's daughter Juliet Halpern (original; in
+                        English). A photo was relocated to Series 3.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Vera Rosanko,
+        <date>
+         1946; undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1946; undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Publicity (original; in Yiddish and English), and several pages of
+                        handwritten musical notation, including the following compositions: "L'chaim
+                        Rosy-Vilner," "Kinder Yorn," "Mother's Day," "Vera Vilner," "Mazel Tov
+                        Mames," "Leby," and "My Yiddishe Mame." Some notations pencilled in
+                        Yiddish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Zvee Scooler,
+        <date>
+         1937-1985; undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1937-1985; undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopied materials, including Scooler's obituary and the transcript of an
+                        interview with Scooler (1977). Also includes a program for a 1982 event
+                        honoring Zvee Scooler. In Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Chaim Towber
+         </part>
+        </title>
+        ,
+        <date>
+         circa 1967
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1967
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        An original pamphlet, in Yiddish, celebrating the life and achievements of
+                        Chaim Towber.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Baruch Charney Vladeck,
+        <date>
+         1923-1993
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1923-1993
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of a biography of Vladeck, published in
+        <title>
+         <part>
+          American Jewish
+                           Yearbook, 1939
+         </part>
+        </title>
+        , typed notes from an unidentified person who
+                        looked at the Vladeck papers at Tamiment Library, New York University (and
+                        photocopied correspondence from that collection), a photocopied speech by
+                        Vladeck from his papers at Tamiment, and a typed, original letter from
+                        Norman Thomas to Vladeck. Documents in English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Zalmen and Celia Zylbercweig,
+        <date>
+         1953-1997
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1953-1997
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes printed advertising Zalmen and Celia's radio show, photocopied
+                        obituaries for Celia, a program for the fiftieth anniversary of their radio
+                        show, and correspondence. In Yiddish and English.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Organizations and committees
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       13/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       American Jewish Congress – related documents
+                     (photocopies) from the papers of Rabbi J.K. Cohen, ca. 1935-,
+       <date>
+        circa 1935-1938; undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1935-1938; undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes photocopied documents from the papers of Rabbi J.K. Cohen, and a
+                     handwritten (original) note from Daniel Soyer (researcher). The original copies
+                     of Rabbi Cohen's documents are held at Stephen Wise Free Synagogue, in folder
+                     164.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       13/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       American Red Cross Bureau of Foreign Language
+                     Information Service.,
+       <date>
+        April 16,
+                        1920
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 16,
+                        1920
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopy of a typed letter from an individual (Robert A. Bo--?) to William F.
+                     Keohan, at the Department of Justice, regarding the potential Communist
+                     sympathies of the FLIS.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       13/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Citizens Committee on Displaced Persons (CCDP),
+       <date>
+        1947-1949
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1947-1949
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Minutes of meetings (photocopies).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       13/15-16, 14/1-3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Common Council for American Unity (CCAU) (5
+                     folders),
+       <date>
+        circa
+                     1939-1943
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa
+                     1939-1943
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes photocopied correspondence, newspaper and media coverage, information
+                     on foreign-language radio broadcasts in the United States, scripts for radio
+                     programs, and documentation to support the mission and work of the CCAU through
+                     radio broadcasts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         How about putting your union on the
+                        air
+        </part>
+       </title>
+       ,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original brochure, published by the Jewish Labor Committee.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Message of Israel
+        </part>
+       </title>
+       ,
+       <date>
+        1947-1953
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1947-1953
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original, typed copies of seven radio scripts for the program
+       <title>
+        <part>
+         Message of
+                        Israel
+        </part>
+       </title>
+       and presented by the American Jewish Layman's Committee. Also
+                     includes pieces of original envelopes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       United Service for New Americans (USNA) (1 of
+                     2),
+       <date>
+        circa 1948-1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1948-1954
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes correspondence, an interview transcript, memos, and newspaper
+                     clippings related to the radio broadcast content. Originals and
+                     photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       United Service for New Americans (USNA) (2 of
+                     2),
+       <date>
+        circa 1948-1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1948-1954
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 14/6.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Works Progress Administration (WPA) (1 of 2),
+       <date>
+        1935-1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1935-1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes correspondence, programming information, scripts of radio plays,
+                     documents pertaining to the Jewish Division of the Federal Theatre of the Air,
+                     and a copy of a report on "Cultural Diversity in the Federal Theatre Project."
+                     Originals and photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       14/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Works Progress Administration (WPA) (2 of
+                     2)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 14/8.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Print publications
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes publicity, graphics, and sheet music from various publications, grouped
+                  by name, then by general categories.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Amerikaner
+        </part>
+       </title>
+       ,
+       <date>
+        circa 1930
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of several pages. Primarily in Yiddish, with some English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Broadcaster
+        </part>
+       </title>
+       ,
+       <date>
+        March 1934
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       March 1934
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The periodical was the official organ of the Radio Synagogue of America.
+                     Photocopy of complete issue.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Broadcaster
+        </part>
+       </title>
+       ,
+       <date>
+        March 1935
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       March 1935
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for box-folder 13/13,
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Der Tog
+        </part>
+       </title>
+       (newspaper): articles and
+                     advertisements,
+       <date>
+        circa 1920s;
+                     1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1920s;
+                     1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes typed research reports on the
+       <title>
+        <part>
+         Der Tog
+        </part>
+       </title>
+       radio show from
+                     Daniel Soyer, and numerous photocopies from the pages of the newspaper
+       <title>
+        <part>
+         Der Tog
+        </part>
+       </title>
+       . The newspaper made more than one attempt to
+                     broadcast a radio show., Originals and photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Forward
+        </part>
+       </title>
+       : articles and
+                     advertisements,
+       <date>
+        circa
+                     1929-1933
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa
+                     1929-1933
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies, almost entirely in Yiddish.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Forward
+        </part>
+       </title>
+       : pages,
+       <date>
+        1951; 1954; 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1951; 1954; 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of a front page (1951), an original page (1954), and a letter from
+                     Annette (last name not given) to Sapoznik regarding the photocopied pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Yiddish Radio in New York in 1932 as
+                        listed in the Forward
+        </part>
+       </title>
+       ,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed, original research report for Sapoznik, written by Daniel Soyer.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Yiddish Radio Programs As Listed in the
+                        Forward, January-March 1933,
+        </part>
+       </title>
+       <date>
+        July
+                        1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       July
+                        1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 15/7.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Horowitz-Margareten Songbook,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of the songbook, with text in Yiddish and English. Publication
+                     sponsored by Passover product manufacturer Horowitz-Margareten (the hyphen is
+                     still present in the songbook's name).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Investigation of Yiddish and
+                        English-language Jewish press outside New York
+        </part>
+       </title>
+       ,
+       <date>
+        1928-1938
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1928-1938
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original research report.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Jewish Philosopher
+        </part>
+       </title>
+       ,
+       <date>
+        November 1937
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       November 1937
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original issue of the magazine, in Yiddish and English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Jewish Society
+        </part>
+       </title>
+       : selections,
+       <date>
+        1933
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1933
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Five photocopied pages, primarily in Yiddish.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Jewish Theatrical News
+        </part>
+       </title>
+       , 1926,
+       <date>
+        1926
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1926
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Six original copies from different dates in 1926.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Koift, Koift" and "Manischewitz Matzo,"
+       <date>
+        1933
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1933
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original, printed sheet music, in Yiddish and English. Music by Nahum
+                     Stutchkoff and lyrics by Sholom Secunda.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       15/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Libby’s March"
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes photocopied sheet music for "Libby's March," along with photocopies of
+                     research in printed sources about Libby's Hotel (New York), and a color
+                     postcard.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Morgen Freiheit
+        </part>
+       </title>
+       (Morning Freedom)
+                     (1 of 2)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of pages from the Yiddish daily newspaper, with handwritten
+                     notations. Box-folder 16/1 includes a research report (possibly by Daniel
+                     Soyer) about the newspaper's history.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Morgen Freiheit
+        </part>
+       </title>
+       (Morning Freedom)
+                     (2 of 2)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 16/1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Oifn Shvel
+        </part>
+       </title>
+       ,
+       <date>
+        March-April 1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       March-April 1964
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopied pages from this issue. In Yiddish.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Radio Annual
+        </part>
+       </title>
+       ,
+       <date>
+        1933-1950
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1933-1950
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopied pages from various years.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Selected Yiddish Songs
+        </part>
+       </title>
+       ,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pamphlet, with music and lyrics. The text is primarily in Yiddish.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Theatre and Radio World
+        </part>
+       </title>
+       ,
+       <date>
+        1935-1936
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1935-1936
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       April 1935 (original issue), and photocopied pages from the October 1935 and
+                     April 1936 issues. In Yiddish and English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Variety
+        </part>
+       </title>
+       ,
+       <date>
+        circa 1936-1940
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1936-1940
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopied pages from various issues.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ads and other graphics (original),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In Yiddish and English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ads and other graphics (photocopies),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In Yiddish and English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings from newspapers and magazines (1 of
+                     2),
+       <date>
+        circa 1928-1946
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1928-1946
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Originals, in Yiddish and English. Box-folder 16/10 includes material with a
+                     small amount of Russian text.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings from newspapers and magazines (2 of
+                     2),
+       <date>
+        1920s-1930s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1920s-1930s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for folder 16/10.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       16/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings from newspapers and magazines (1 of
+                     3),
+       <date>
+        circa 1926-1946;
+                     undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1926-1946;
+                     undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies, in Yiddish and English. Box-folder 16/12 includes correspondence
+                     and a printout of typed research notes (the latter undated).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       17/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings from newspapers and magazines (2 of
+                     3),
+       <date>
+        circa 1930-1946; circa
+                     2002
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930-1946; circa
+                     2002
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Originals and photocopies, in Yiddish and English. Handwritten research notes
+                     in Yiddish and English, circa 2002.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       17/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings from newspapers and magazines (3 of
+                     3),
+       <date>
+        circa 1932
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1932
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies. Received and maintained as a separate group of photocopies. In
+                     Yiddish and English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       17/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       YMCA (radio station) advertisements,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Reprints from
+       <title>
+        <part>
+         National Broadcast Reporter
+        </part>
+       </title>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       17/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Scrapbook,
+       <date>
+        circa 1936
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1936
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Newspaper clippings regarding WLTH (radio station) and also the Yiddish Art
+                     Quartet. In Yiddish and English. Less than 1/2 inch of the scrapbook has been
+                     used.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 5: Interview transcripts, logs, and related
+                  documentation
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      All documents are typed (unless otherwise noted), with instances of handwritten
+                  notations.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Claire Barry interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview) and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Isabel Belarsky interview,
+       <date>
+        May 20, 1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 20, 1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lillian Lux Burstein interview (transcript and
+                     highlights),
+       <date>
+        February 23,
+                     1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       February 23,
+                     1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Doris Cohen interview (transcript) and
+                     highlights,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dick Defreitas interview (transcript; two
+                     versions) and highlights,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview) and highlights. The
+                     accompanying photo has been relocated to Series 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Estelle Deutsch interview (transcript and
+                     highlights),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Max Epstein interview (transcript),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Feder Sisters interview,
+       <date>
+        June 29, 1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       June 29, 1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview), and highlights with
+                     a different transcription.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Donald Flamm interview,
+       <date>
+        June 29, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       June 29, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and log of highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Benjamin A. Gebiner interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and biography.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Edna Goldman interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Eve Miller Greenfield interview,
+       <date>
+        May 18, 1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 18, 1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Samuel Kaplan interview by Henry Sapoznik and
+                     Andy Lancet,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Incomplete transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Samuel Kaplan interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rita Karininterview,
+       <date>
+        September 5, 1991
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       September 5, 1991
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rita Karin interview, no date,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Shirley Katz interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview) and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paula Krauss interview,
+       <date>
+        February 25, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       February 25, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ethel Julius Leifer interview,
+       <date>
+        December 14, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       December 14, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sydney Lumet interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Morris Novick interview,
+       <date>
+        May 2, 1991
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 2, 1991
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview) and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Oppatashu interview,
+       <date>
+        July 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       July 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts for the answers only (different versions of the same
+                     interview).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       18/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Freydele Oysher interview,
+       <date>
+        November 5, 1991
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       November 5, 1991
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Art Raymond interview,
+       <date>
+        August 9, 1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       August 9, 1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flora Freiman Roth interview,
+       <date>
+        April 3, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 3, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions of the same interview) and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sholom Rubinstein interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two transcripts (different versions).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Schiff interview,
+       <date>
+        April 30, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 30, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Moses Schoenfeld interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript and highlights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sheldon Secunda interview,
+       <date>
+        March 3, 1992
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       March 3, 1992
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Phyllis Syetta interview,
+       <date>
+        May 20, 1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 20, 1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       19/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interview (unidentified person),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Quotations and logged selections.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 6: Manuscripts accompanying sound
+                  recordings
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes disc labels that have detached from the disc centers, correspondence,
+                  logs, inventories, and related materials.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       20/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeves and typed documentation,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Texts are primarily in Yiddish. Housed in a flat, square document box.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/1-4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound disc labels (4 folders),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Paper labels that have detached from sound disc centers. Primarily typed
+                     information.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (1 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2001-SR2099.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (2 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2101-SR2126.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (3 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2247-SR2347.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (4 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2356-SR2386.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (5 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2389-SR2450.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (6 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2451-SR2467.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       21/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (7 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2468-SR2485.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       22/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (8 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2486-SR2516.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       22/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (9 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2517-SR2539.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       22/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts from sound reel containers (10 of
+                     10),
+       <date>
+        circa 1930s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1930s-1950s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes materials from SR2540-SR2549.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 7: "The Stations that Spoke Your Language":
+                  Yiddish-American Radio 1925-1955
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Project proposal documentation and correspondence.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       23/1-4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Funding and support (4 folders),
+       <date>
+        circa 1991-1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1991-1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Application made by Sapoznik and Andy Lanset to Corporation for Public
+                     Broadcasting for funding, plus the project and budget summary, correspondence,
+                     and related documentation. Includes documentation regarding efforts to have the
+                     results of the project broadcast on National Public Radio (NPR) and other
+                     efforts to gain funding and support.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       23/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Project treatment
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       An extensive description of the projected one-hour documentary. Typed
+                     document.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       23/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       NEH grant proposal: first draft (version 1),
+       <date>
+        circa 1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1990s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed document, with handwritten notes in blue ink; accompanied by a few
+                     photocopies of music, photos, and other documentation.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       23/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       NEH grant proposal: first draft (version 2),
+       <date>
+        circa 1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1990s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed document, with handwritten notes in red ink; accompanied by a few
+                     photocopies of music, photos, and other documentation.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 8: Sound recordings
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation includes original materials and photocopies, as well as faxes and
+                  ditto copies. If no date is given then the information was not available.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Sound discs
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Numbering for discs begins with SR0001. See Appendix A for a partial list of
+                     items. The sound discs were received at AFC in approximate numerical order
+                     (when there was a YIVO number). The processor organized the discs by program
+                     (if there were three or more items per program), by purpose (discs with the
+                     Kole Recording label were compiled from various recordings for convenient
+                     playback on the radio), by the type of program (a designation received from the
+                     donor; used here when a program title was not known), and the remaining discs
+                     were grouped together in alphabetical order.
+      </p>
+     </scopecontent>
+     <scopecontent>
+      <p>
+       The YIVO number indicates a disc that was formerly in the custody of YIVO
+                     (Yiddish Institute of Yiddish Research), during the time when Henry Sapoznik
+                     was employed there, and had donated the discs to the Institute. When he left
+                     his position there, he was allowed to take the discs with him. The so-called
+                     "catalog number" reflects Sapoznik's work to continue cataloging the discs,
+                     using YIVO's numbering system. The "ID number on the sleeve" was the number
+                     written on the disc sleeve in which the discs were received at AFC. The number
+                     sometimes matches the YIVO number, sometimes the catalog number, and sometimes
+                     is different from both.
+      </p>
+     </scopecontent>
+     <scopecontent>
+      <p>
+       Content on the discs is sometimes listed as separated by numbers (e.g., 1, 2,
+                     3, etc.). This reflects the information on disc labels or from the donor's
+                     original inventory. For the Kole Recording subseries numbers indicate cuts. For
+                     other discs the numbers may indicate either cuts or multiple selections within
+                     a longer cut.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          American Jewish Hour: It Happened This
+                           Week
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 1-5.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          American Jewish Hour: Yiddish Melodies
+                           In Swing
+         </part>
+        </title>
+        ;
+        <title>
+         <part>
+          American Jewish Hour: Yiddish Swing
+                           Festival
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 6-66.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Bei Tate Mames Tish
+         </part>
+        </title>
+        (Round the
+                        Family Table)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 67-79.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Radio programs sponsored by the Congress for
+                        Jewish Culture
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 80-85.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Dreams and Deeds
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 86-88.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Forward Hour
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 89-107.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          The Golden Door
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 108-125.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Hammer's Beverage Program: The Happy
+                        Twins
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 126-133.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Radio programs sponsored by HIAS (Hebrew
+                        Immigrant Aid Society)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 134-138.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Jewish American Board of Peace and
+                           Justice
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 139-148.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Mentshn un oygn
+         </part>
+        </title>
+        (Men Without
+                        Eyes)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 149-161.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Music by New
+                        Americans
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 162-169.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          The Music Store
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 170-173.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          News of The Week In
+                        Review
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 174-182.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Our New Neighbors
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 183-197.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Quiz Master: What Do You
+                        Know?
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 198-202.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Reunion
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 203-211.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Spies
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 212-230.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          The Story of General
+                           Gershelman
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 231-236.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          The United Nations
+                        Today
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 237-240.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Zion Dov Ber Torah Fund fundraising program
+                        and other programs with Esther Leibowitz
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 241-264.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Commercials and promotional
+                        programs
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix A, pages 265-307.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Kole Recording
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        According to the donor, these discs are a "combination of radio excerpts
+                        (Shikoff, Secunda, etc) and dubs of commercial 78s (Jolson, Mickey Katz,
+                        etc.), Yiddish theater, novelty, and cantorial" recordings. See Appendix A,
+                        pages 308-367.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Sound reels
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Numbering begins with SR2000. Preservation reels received from the donor. ID
+                     numbers are YIVO numbers or another system, and are concorded in the sound disc
+                     inventory. See Appendix B for a list of items.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Transfers of discs with YIVO
+                        numbers
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Appendix B, pages 1-12.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 9: Photographic materials
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation includes original materials and photocopies, as well as faxes and
+                  ditto copies. If no date is given then the information was not available.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Claire Barry,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 4
+                        1/2 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH001
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The photo is a copy of an earlier photo, which had a small closed tear.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dick Defreitas,
+       <date>
+        circa 1940
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1940
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH002
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Relocated from box-folder 18/5.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ben Gailling,
+       <date>
+        circa 1989
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1989
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH003
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographer: Albert J. Winn; photo copyright 1989.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miriam Grossman,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 7 1/2 in.
+                        x 9 1/2 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH004
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original photo, with a small chip to the top edge, and other wear from
+                     handling.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Aaron Hantin,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH005
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original photo. Relocated from materials now housed in box-folder 12/13-14.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Samuel Kaplan,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH006
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Relocated from box-folder 13/2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Samuel P. Mogelewsky,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 photographs : black and white ; 8 in. x
+                        10 in. or smaller; 1 photograph : color, photocopy ; 8 1/2 in. x 11
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH007-PH010
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       There are two copies each of PH007 and PH008. The photocopy was relocated from
+                     box-folder 13/4.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Freydele Oysher,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH011
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Relocated from box-folder 18/23.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Victor Packer,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 photographs : black and white ; 7 in. x 5
+                        in. or smaller; 1 image : reproduction ; 4 3/4 in. x 9 1/2
+                     in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH012-PH018
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH012-PH014 are from a live broadcast of
+       <title>
+        <part>
+         Frages af der Luft
+        </part>
+       </title>
+       (Questions in the Air), a Jewish quiz show featuring Victor Packer. PH014 is a
+                     version of PH013. PH017 is a photographic postcard. PH018 is a photo reproduced
+                     on paper, on a cardboard mount. Relocated from box-folder 13/5.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Vera Rosanko,
+       <date>
+        1937; undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1937; undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       14 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH019-PH026
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two copies of PH019, three copies of PH020, two copies of PH021, and three
+                     copies of PH022. PH023 (dated March 7, 1937, and possibly the original
+                     photograph) and PH024 are similar. PH025 (dated September 13, 1933?) and PH026
+                     were taken on the same day. Relocated from box-folder 13/7.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Zvee Scooler,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       11 photographs : black and white ; 8 in. x
+                        10 in. or smaller; 3 photographs : color, 3 1/2 in. x 5
+                     in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH027-PH040
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Betty Simonoff,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 9 1/2 in.
+                        x 7 1/2 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH041
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Autographed by Simonoff.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Baruch Charney Vladeck,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH042-PH044
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Relocated from box-folder 13/10
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wolf Younin,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH045
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Female radio performer,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH046
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A photograph of a woman at the microphone, but signed by Morris B. Sachs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       WBNZ,
+       <date>
+        circa
+                        1933-1935
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa
+                        1933-1935
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH047-PH049
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH047 has a quarter-sized piece missing from the right-hand edge. The source
+                     image from which it was copied had two closed tears along the bottom edge.
+                     PH048 is an undamaged version of PH047; it still has the marks where the source
+                     had closed tears but the right side of the image is not damaged.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       WBYN,
+       <date>
+        1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1942
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH050-PH052
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two versions of PH050 (most of copy 2 has a faded or sunned area). In these two
+                     images, Wolf Younin is at left, and Victor Packer is third from the right. In
+                     PH052 Victor Packer is third from the left and Wolf Younin is in the front row,
+                     second from the right (with arms folded). All photos taken on the occasion of
+                     WBYN's "birthday" party.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       WEVD,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH053-PH058
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       WLTH,
+       <date>
+        circa
+                        1930s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa
+                        1930s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH059-PH074
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH060 has a closed tear on the bottom edge. The folder includes photos of
+                     Victor Packer, Bella Meisel, Irving Grossman, and A. Alchanesky.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       WMCA,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 photographs : black and white ; 8 in. x
+                        10 in. or smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH075-PH076
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The folder has two copies of PH075.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       New Year postcard,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 postcard : black and white ; 3 1/2 in. x
+                        5 1/2 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2010/003: PH077
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Three images on one postcard; the image at right shows a radio performer.
+                     Pre-printed text in Yiddish on the image side. Text at right indicates good
+                     wishes for the New Year.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 10: Artifacts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       24/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cut-out photo of Al Entin, on a cut-out rigid
+                     support
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Probably intended for a display. Al Entin was associated with the business side
+                     of Yiddish radio. No copies of the show are in this collection.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       25
+      </container>
+      <unittitle encodinganalog="245$a">
+       WEVD radio station hand chimes and
+                     mallet
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       One of the sounding bars is missing. The items were found in a dumpster behind
+                     the WEVD offices.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       25/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ticket for "The American Hour," broadcast on
+                     WHN
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A ticket for the Sunday, May 17, 1942, broadcast.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Appendix A:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/af019003.apx1" show="new">
+       Inventory of sound discs
+                     (partial)
+      </ref>
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Information in this section is based on information provided by the donor, plus
+                  details from disc labels, sleeves, and accompanying documentation.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Appendix B:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/af019003.apx2" show="new">
+       Inventory of sound reels
+      </ref>
+     </unittitle>
+    </did>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

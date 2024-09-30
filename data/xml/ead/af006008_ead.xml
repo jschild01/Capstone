@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af006008">
+   loc.afc/eadafc.af006008
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Ken Lindsay Collection of Woody
+			 Guthrie Correspondence
+    </titleproper>
+    <author>
+     Prepared by Sarah Bradley Leighton
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2005-11">
+     November 2005
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004659958" show="new">
+       https://lccn.loc.gov/2004659958
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+            Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-01">
+     January 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Related Materials link replaced with handle and EAD template updated by Farrah Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-03">
+     March 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Updated by Nora Yeh.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2006-08">
+     August 2006
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Amarantha Dyuaaxchs.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Ken Lindsay Collection of Woody Guthrie Correspondence
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1952-02/1953-09">
+     February 1952 -- September 1953
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1952-02/1953-09" unitdatetype="inclusive">
+    February 1952 -- September 1953
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2005/006
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Lindsay, Ken, 1923-2001
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    29 items (34 leaves)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    2 boxes
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife
+                  Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    This collection
+		  contains unpublished correspondence between Woody Guthrie, two of his wives,
+		  and British recording distributor, Ken Lindsay.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    The American Folklife Center acquired the collection on June 7, 2005,
+            from Wendy Lindsay, daughter of Ken Lindsay, and her siblings.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Ken Lindsay Collection of Woody Guthrie Correspondence was processed by
+            Sarah Bradley Leighton in June 2005. This finding aid was encoded by Amarantha Dyuaaxchs in August 2006 and updated by Nora Yeh in March 2010.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Alan Lomax Collection of Woody Guthrie
+            Recordings,
+    <num>
+     AFS 3407-3423
+    </num>
+   </p>
+   <p>
+    Alan Lomax CBS Radio Series Collection,
+    <num>
+     AFC 1939/002
+    </num>
+   </p>
+   <p>
+    Almanac Singers Audition for Wm. Morris &amp;
+            Co.,
+    <num>
+     AFS 6100-6105
+    </num>
+    <date calendar="gregorian" era="ce" normal="1942-01">
+     (Recorded in January 1942)
+    </date>
+   </p>
+   <p>
+    Songs by Woody Guthrie,
+    <num>
+     AFS 4491
+    </num>
+    <date calendar="gregorian" era="ce" normal="1941-01-04">
+     (Recorded on January 4, 1941)
+    </date>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000013" show="new">
+     Woody Guthrie Manuscript Collection
+    </ref>
+    ,
+    <num>
+     AFC 1940/004
+    </num>
+   </p>
+   <p>
+    Woody Guthrie Concert and Conversation,
+    <num>
+     AFC 1991/003
+    </num>
+    <date calendar="gregorian" era="ce" normal="1951-04-14">
+     (Recorded on April 14, 1951)
+    </date>
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Ken Lindsay Collection of Woody Guthrie Correspondence is open to research. To request materials,
+            please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+            [item, date, container number],
+            Ken Lindsay Collection of Woody Guthrie Correspondence (AFC 2005/006), American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    <emph render="bold">
+     Ken Lindsay (1923-2001)
+    </emph>
+    was a founding
+		partner in the Challenge Jazz Club, the first sizable jazz club in London after
+		World War II. As a jazz and folk enthusiast, Lindsay was connected with the
+		jazz revival and folk movement of the 1950s in the United Kingdom, and made a
+		career of promoting such musicians and organizing performances. Lindsay also
+		worked for the International Bookshop where he oversaw the department that
+		would import records from America and Europe and sell them by mail. This was
+		the period during which he established a correspondence relationship with Woody
+		Guthrie. Lindsay went on to work for other record shops and continued to manage
+		bands, lecture on music at universities, and write articles for such music
+		publications as
+    <title>
+     <part>
+      Melody Maker
+     </part>
+    </title>
+    and
+    <title>
+     <part>
+      Music Mirror
+     </part>
+    </title>
+    .
+   </p>
+   <p>
+    <emph render="bold">
+     Woodrow Wilson "Woody" Guthrie
+		  (1912-1967)
+    </emph>
+    was a singer, songwriter, and social activist who
+		influenced twentieth-century American music and culture. Having lived through
+		the Great Depression, the Dust Bowl Migration, World War II, and the political
+		upheavals that resulted in the labor union movement, Guthrie called upon these
+		experiences as he expressed the plight of common people through his songs,
+		prose, and poetry. He was a seminal figure in the folk music revival of the
+		1950s, and his songs and philosophy had a profound impact on society and on
+		contemporary musicians such as Bob Dylan and Bruce Springsteen.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The correspondence between Ken Lindsay and Woody Guthrie began in
+            1952, while Lindsay was responsible for the mail order record department at the
+            International Bookshop on Charing Cross Road in London, England. Lindsay first
+            wrote to Guthrie encouraging him to write and record material for the European
+            market. Although the recording projects and the European tours discussed in
+            their letters never materialized, this correspondence (1952-1953) captures the
+            development of a special relationship between two men who never met, but shared
+            a passion for music. The correspondence also provides a glimpse at the creative
+            flair and the personal challenges that shaped this period of Guthrie's
+            life.
+   </p>
+   <p>
+    In his letters to Lindsay, Guthrie discusses music, politics, and
+            family relationships and reveals his struggle with alcoholism and the disease
+            that claimed his life, Huntington's chorea. The letters also document
+            Guthrie's whereabouts during these years as he writes from Brooklyn, New
+            York; Jacksonville, Florida; and Topanga, California. Additionally, there is
+            correspondence from Guthrie's second and third wives, Marjorie Mazia Guthrie
+            and Anneke Van Kirk, who communicate details about Guthrie's personal health
+            and professional endeavors to Lindsay. Letters MS01, MS03, MS04, and MS24 are
+            even embellished with sketches made by Guthrie and Anneke Van Kirk.
+   </p>
+   <p>
+    Interestingly, Guthrie concluded many of his letters with the number
+            "30." This symbol is often found at the closing of a press release and is
+            believed to have descended from the practice of typing "XXX" at the
+            conclusion of telegraph transmissions during the Civil War.
+   </p>
+   <p>
+    There are fifteen letters written by Ken Lindsay, seven written by
+            Woody Guthrie, two written by Marjorie Guthrie (Guthrie's second wife), and
+            two written by Anneke Van Kirk (Guthrie's third wife). In addition to the
+            letters, there are four pages of song lyrics written by Woody Guthrie that he
+            sent to Ken Lindsay with his letters. Some of the letters and song lyrics are
+            embellished with drawings. The letters written by Ken Lindsay are carbon copies
+            that Lindsay kept of his original letters.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The letters are arranged in chronological order to represent the
+		  development of communication between Ken Lindsay and Woody Guthrie. Each letter was
+		  assigned a unique manuscript (MS) number and the recto and verso of the
+		  letter's leaves were assigned decimal derivations of that unique manuscript
+		  number. For example, in the number "MS01.02," "MS01" represents the first item
+		  of correspondence in the collection and ".02" signifies the verso of the first
+		  leaf of the item. Decimal derivations were not assigned if the side of an item
+		  is blank.
+   </p>
+  </arrangement>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by
+		  Format
+   </head>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="30*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        29 items
+       </entry>
+       <entry morerows="0">
+        34 leaves of paper
+       </entry>
+       <entry morerows="0">
+        Boxes 1-2
+       </entry>
+       <entry morerows="0">
+        MS01-MS29
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <controlaccess altrender=":::F005=^20180703102924.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Guthrie, Marjorie--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Guthrie, Woody, 1912-1967--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Guthrie, Woody, 1912-1967.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lindsay, Ken
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Van Kirk, Anneke--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Hard travelin'
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Love says no
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Sunny sun sun
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Un Americans
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Woody Guthrie correspondence, 1952-1953
+     </part>
+    </title>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Finding Aid. 7 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       MS01. February 15, 1952. Letter from Ken Lindsay to
+				  Woody Guthrie. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS01.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS01.02 [leaf 1, verso]
+       <lb>
+       </lb>
+       MS01.03 [leaf 2, recto]
+       <lb>
+       </lb>
+       MS01.04 [leaf 2, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle>
+       MS02. February 26, 1952. Letter from Woody Guthrie to
+				  Ken Lindsay. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS02.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS02.02 [leaf 2, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       MS03. February 21, 1952. Song lyrics, "Un
+				  Americans," by Woody Guthrie sent to Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       [EMPTY FOLDER: See Oversized Box 2 of 2, Folder 31]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle>
+       MS04. February 21, 1952. Song lyrics, "Sunny Sun
+				  Sun," by Woody Guthrie sent to Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       [EMPTY FOLDER: See Oversized Box 2 of 2, Folder 31]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle>
+       MS05. February 1952. Song lyrics, "Love Says No," by
+				  Woody Guthrie sent to Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       [EMPTY FOLDER: See Oversized Box 2 of 2, Folder 31]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle>
+       MS06. March 14, 1952. Letter from Ken Lindsay to Woody
+				  Guthrie. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS06.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS06.02 [leaf 1, verso]
+       <lb>
+       </lb>
+       MS06.03 [leaf 2, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       8
+      </container>
+      <unittitle>
+       MS07. March 27, 1952. Letter from Woody Guthrie to Ken
+				  Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS07.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       9
+      </container>
+      <unittitle>
+       MS08. May 1, 1952. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS08.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle>
+       MS09. May 31, 1952. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS09.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS09.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       11
+      </container>
+      <unittitle>
+       MS10. June 18, 1952. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS10.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       12
+      </container>
+      <unittitle>
+       MS11. June 26, 1952. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS11.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       13
+      </container>
+      <unittitle>
+       MS12. July 17, 1952. Letter from Marjorie Guthrie to Ken
+				  Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS12.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       14
+      </container>
+      <unittitle>
+       MS13. July 21, 1952. Letter from Ken Lindsay to Marjorie
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS13.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS13.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       15
+      </container>
+      <unittitle>
+       MS14. July 31, 1952. Letter from Marjorie Guthrie to Ken
+				  Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS14.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       16
+      </container>
+      <unittitle>
+       MS15. August 8, 1952. Letter from Ken Lindsay to
+				  Marjorie Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS15.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle>
+       MS16. September 23, 1952. Letter from Ken Lindsay to
+				  Woody Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS16.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS16.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       18
+      </container>
+      <unittitle>
+       MS17. September 30, 1952. Letter from Woody Guthrie to
+				  Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS17.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       19
+      </container>
+      <unittitle>
+       MS18. September 30, 1952. Letter from Woody Guthrie to
+				  Ken Lindsay. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS18.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS18.02 [leaf 2, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       20
+      </container>
+      <unittitle>
+       MS19. September 31, 1952. Letter from Woody Guthrie to
+				  Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS19.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS19.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       21
+      </container>
+      <unittitle>
+       MS20. November 10, 1952. Letter from Ken Lindsay to
+				  Woody Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS20.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS20.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       22
+      </container>
+      <unittitle>
+       MS21. April 16, 1953. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS21.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS21.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       23
+      </container>
+      <unittitle>
+       MS22. April 17, 1953. Letter from Ken Lindsay to
+				  Marjorie Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS22.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       24
+      </container>
+      <unittitle>
+       MS23. June 18, 1953. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS23.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       25
+      </container>
+      <unittitle>
+       MS24. June 22, 1953. Letter from Woody Guthrie to Ken
+				  Lindsay dictated to Anneke Van Kirk. Accompanied by letter from Anneke Van Kirk
+				  to Ken Lindsay. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS24.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS24.02 [leaf 2, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       26
+      </container>
+      <unittitle>
+       MS25. July 7, 1953. Letter from Ken Lindsay to Woody
+				  Guthrie. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS25.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS25.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       27
+      </container>
+      <unittitle>
+       MS26. September 13, [1953]. Letter from Ken Lindsay to
+				  Woody Guthrie and Anneke Van Kirk. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS26.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS26.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       28
+      </container>
+      <unittitle>
+       MS27. [September 15, 1953]. Letter from Anneke Van Kirk
+				  to Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS27.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS27.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       29
+      </container>
+      <unittitle>
+       MS28. September 16, 1953. Letter from Woody Guthrie to
+				  Ken Lindsay. 1 leaf.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS28.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       30
+      </container>
+      <unittitle>
+       MS29. September 1953. Song lyrics, "Hard
+				  Travelin'," by Woody Guthrie sent to Ken Lindsay. 1 leaf
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       MS29.01 [leaf 1, recto]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container label="oversize" localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       31
+      </container>
+      <unittitle>
+       MS03 and MS04 February 21, 1952, and MS05 February
+				  1952.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Song lyrics, "Un Americans," by Woody Guthrie sent to Ken
+				  Lindsay. 1 leaf.
+       <lb>
+       </lb>
+       MS03.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS03.02 [leaf 1, verso]
+       <lb>
+       </lb>
+       Song lyrics, "Sunny Sun Sun," by Woody Guthrie sent to Ken Lindsay. 1
+				  leaf.
+       <lb>
+       </lb>
+       MS04.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS04.02 [leaf 1, verso]
+       <lb>
+       </lb>
+       Song
+				  lyrics, "Love Says No," by Woody Guthrie sent to Ken Lindsay. 1 leaf.
+       <lb>
+       </lb>
+       MS05.01 [leaf 1, recto]
+       <lb>
+       </lb>
+       MS05.02 [leaf 1, verso]
+       <lb>
+       </lb>
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

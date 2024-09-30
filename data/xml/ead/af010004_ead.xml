@@ -1,0 +1,3199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af010004">
+   loc.afc/eadafc.af010004
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     World War II Rumor Project collection
+    </titleproper>
+    <author>
+     Prepared by Stephanie A. Hall with the assistance of Linda Sudmalis
+     <lb>
+     </lb>
+     Revised
+               and edited by Nora Yeh
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="1996">
+     1996
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695194" show="new">
+       https://lccn.loc.gov/2004695194
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing Archives:
+            a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-10">
+     October 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Information about transcription dataset added by Farrah
+               Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-01">
+     January 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Hyperlinks added to container list by Carolina Restrepo. Template
+               updated by Farrah Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-02">
+     February 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Glenn R. Gardner and Nora
+               Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    World War II Rumor Project collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1942/1943">
+     1942-1943
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1942/1943" unitdatetype="inclusive">
+    1942-1943
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1945/001
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      United States. Office of War Information
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 8,000
+            items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    10 boxes (5 linear
+            feet)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    141 folders (approx. 8,000
+            sheets)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    12 drawings and cartoons
+            : graphite pencil, blue ink, newsprint
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Manuscript collection created by the
+            Office of War Information in 1942-1943. Field representatives of various federal
+            agencies in 42 states enlisted individuals who collected rumors generated in the United
+            States during World War II. These individuals or "correspondents" included dentists,
+            beauty shop operators, policemen, proprietors, and librarians who had access to rumors
+            in their communities. Reports were submitted to Dr. Eugene Horowitz at the Bureau of
+            Public Inquiries of OWI, who organized the materials. Rumors, jokes, rhymes, and
+            anecdotes about the war were also collected by teachers from African American and white
+            high school and college students; a few drawings and cartoons are included with the
+            submissions from students.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Transfer from the Office of War Information, 1945.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    World War II Rumor Project collection was processed by Stephanie A. Hall with the
+            assistance of Linda Sudmalis in 1996. The finding aid was revised, edited, and encoded
+            in EAD3 by Glenn Gardner and Nora Yeh in 2011. The collection was digitized in 2019 and
+            made available online in 2022. Hyperlinks to the digitized content were added to the
+            finding aid by Carolina Restrepo in 2022. The finding aid front matter and template were
+            updated by Farrah Cundiff.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The World War II Rumor Project collection is open to research. To request materials,
+            please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    The World War II Rumor Project collection is digitized, and images are available to view
+            on the Library of Congress website at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.afc1945001" show="new">
+     https://hdl.loc.gov/loc.afc/collafc.afc1945001
+    </ref>
+    .
+   </p>
+   <p>
+    The collection was transcribed as part of the Library of Congress crowdsourcing program
+            By the People (
+    <ref actuate="onrequest" href="https://crowd.loc.gov/" show="new">
+     https://crowd.loc.gov
+    </ref>
+    ) in a campaign called "Information and Disinformation:
+            The World War II Rumor Project." The transcription dataset is available on the Library
+            of Congress website at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.gdc/gdcdatasets.2022360466" show="new">
+     https://hdl.loc.gov/loc.gdc/gdcdatasets.2022360466
+    </ref>
+    . It contains text created
+            by volunteers through a transcription and review process, volunteer-created tags,
+            digital collections metadata, and metadata representing the arrangement of the items in
+            the By the People platform, Concordia.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+            [item, date, container number], World War II Rumor Project collection (AFC 1945/001),
+            American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The Office of War Information (OWI) was established by an Executive order on June 13,
+            1942, for the purpose of achieving a coordinated governmental war information program.
+            The information program was designed to promote an informed and intelligent
+            understanding of the status and progress of the war effort, war policies, activities,
+            and aims of the United States government. All functions of the Office of Facts and
+            Figures and of the Office of Government Reports, and parts of the functions and related
+            records of two other agencies, were transferred to the OWI.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The World War II Rumor Project Collection contains manuscript materials compiled by the
+            Office of War Information (OWI). Field representatives collected information from
+            community-based correspondents and sent duplicate or triplicate copies of reports of the
+            correspondents to Dr. Eugene Horowitz at the Bureau of Public Inquiries of the OWI. The
+            reports listed rumors and anecdotes that were compiled by Dr. Horowitz and William H.
+            Webber and arranged in alphabetical order by states and by subjects.
+   </p>
+   <p>
+    This collection has two distinct components. The first component involved field
+            representatives of various federal agencies in the United States instructed to enlist
+            individuals in their communities who were willing to write down rumors and send them to
+            the field representatives. These individuals or "correspondents" included dentists,
+            beauty shop operators, policemen, proprietors, and librarians who had access to rumors
+            in their communities.
+   </p>
+   <p>
+    The second component involved rumors, jokes, rhymes, and anecdotes about the war from
+            high school and college students collected by teachers. Subjects include Adolph Hitler,
+            the Japanese, rationing, and other topics. Includes rhymes and stories composed or
+            recorded by students. Correspondence within the folders indicates that some teachers
+            removed some rumors or jokes in order to "show the best of their pupils." Within the
+            documents, race designations vary. For one school, correspondence indicates that
+            students were not asked to identify their race due to local tensions. However, the
+            papers were taken up in order, and the teacher later added a designation as to the race
+            of the student. The designations for African-American students appear as "Negro," "N,"
+            "Colored," "Col," or "C." Designations for white students appear as "White" or "W."
+   </p>
+   <p>
+    Drawings by high school students and a few World War II cartoons appear on and among
+            correspondence in the following folders:
+   </p>
+   <list>
+    <item>
+     FOLDER 114
+    </item>
+    <item>
+     FOLDER 118
+    </item>
+    <item>
+     FOLDER 122
+    </item>
+    <item>
+     FOLDER 123
+    </item>
+    <item>
+     FOLDER 127
+    </item>
+   </list>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    This collection is arranged in five series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1: Administrative
+                  Information on World War II Rumor Project
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10010">
+      Series 2: Administrative
+                  Information on Local Rumor-control Projects and Correspondence
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10019">
+      Series 3: Rumor Reports
+                  Gathered by Correspondents
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10063">
+      Series 4: Rumors from
+                  Correspondents and Field Representatives
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10117">
+      Series 5: Rumors, Jokes,
+                  and Anecdotes from High School and College Students
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20230919103035.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Horowitz, Eugene
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Office of War Information
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      College students--United States--Attitudes.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      High school students--United States--Attitudes.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rumor--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Urban folklore--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--African Americans.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Anecdotes.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--German Americans.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Humor.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Japanese Americans.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Jews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Propaganda.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Psychological aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Public opinion.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Poems.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1: Administrative
+                  Information on World War II Rumor Project
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10002">
+       Rumor Control Project Documents
+                     - various editions
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01001" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01001
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10003">
+       Administrative Information and
+                     Correspondence,
+       <date localtype="inclusive" normal="1942-01/1942-03">
+        January-March, 1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942-01/1942-03" unitdatetype="inclusive">
+       January-March, 1942
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01002" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01002
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10004">
+       Administrative Information and
+                     Correspondence,
+       <date localtype="inclusive" normal="1942-04/1942-06">
+        April-June, 1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942-04/1942-06" unitdatetype="inclusive">
+       April-June, 1942
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01003" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01003
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10005">
+       Administrative Information and
+                     Correspondence,
+       <date localtype="inclusive" normal="1942-07/1942-08">
+        July-August, 1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942-07/1942-08" unitdatetype="inclusive">
+       July-August, 1942
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01004" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01004
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10006">
+       Administrative Information and
+                     Correspondence,
+       <date localtype="inclusive" normal="1942-09/1942-12">
+        September-December, 1942
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942-09/1942-12" unitdatetype="inclusive">
+       September-December, 1942
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01005" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01005
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10007">
+       Diagrams of Rumor and Rumor
+                     Control
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01006" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01006
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10008">
+       Graphics and
+                     Articles
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01007" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01007
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10009">
+       Radio Broadcast "War
+                     Information and Military Security"
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms01008" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms01008
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10010">
+      Series 2: Administrative
+                  Information on Local Rumor-control Projects and Correspondence
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10011">
+       Memoranda on Rumors and Rumor
+                     Control Groups: Various Drafts
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02009" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02009
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10012">
+       Memoranda on Rumors and Rumor
+                     Control Groups: Various Drafts
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02010" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02010
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10013">
+       Memoranda on Rumors and Rumor
+                     Control Groups: Dr. Horowitz's File
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02011" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02011
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10014">
+       Correspondents and Rumor
+                     Analysis
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02012" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02012
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/13
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10015">
+       Rumor Analysis on Several
+                     Topics, including compilation of rumors received
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02013" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02013
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/14
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10016">
+       Local Rumor Control Projects:
+                     Rumor Collectors
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02014" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02014
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/15
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10017">
+       Local Rumor Control Projects:
+                     Correspondence and Internal Documents
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02015" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02015
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10018">
+       Local Rumor Control Projects:
+                     Introduction Letter and Questionnaire
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02016" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02016
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10019">
+      Series 3: Rumor Reports Gathered
+                  by Correspondents
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10020">
+       Local Rumor Control Projects:
+                     Alabama
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02017" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02017
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10021">
+       Local Rumor Control Projects:
+                     Arizona
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02018" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02018
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10022">
+       Local Rumor Control Projects:
+                     Arkansas
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02019" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02019
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/20
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10023">
+       Local Rumor Control Projects:
+                     California
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02020" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02020
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/21
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10024">
+       Local Rumor Control Projects:
+                     Colorado
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02021" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02021
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/22
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10025">
+       Local Rumor Control Projects:
+                     Connecticut
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02022" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02022
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/23
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10026">
+       Local Rumor Control Projects:
+                     Florida
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02023" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02023
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/24
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10027">
+       Local Rumor Control Projects:
+                     Georgia
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02024" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02024
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/25
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10028">
+       Local Rumor Control Projects:
+                     Idaho
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02025" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02025
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/26
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10029">
+       Local Rumor Control Projects:
+                     Illinois
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02026" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02026
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/27
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10030">
+       Local Rumor Control Projects:
+                     Indiana
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02027" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02027
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/28
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10031">
+       Local Rumor Control Projects:
+                     Iowa
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02028" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02028
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/29
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10032">
+       Local Rumor Control Projects:
+                     Kansas
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02029" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02029
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/30
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10033">
+       Local Rumor Control Projects:
+                     Kentucky
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02030" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02030
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/31
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10034">
+       Local Rumor Control Projects:
+                     Louisiana
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02031" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02031
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/32
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10035">
+       Local Rumor Control Projects:
+                     Maine
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02032" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02032
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/33
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10036">
+       Local Rumor Control Projects:
+                     Massachusetts
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms02033" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms02033
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/34
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10037">
+       Massachusetts Committee on
+                     Public Safety: Documents and Correspondence
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03034" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03034
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/35
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10038">
+       Local Rumor Control Projects:
+                     Michigan
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03035" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03035
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/36
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10039">
+       Local Rumor Control Projects:
+                     Minnesota
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03036" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03036
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/37
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10040">
+       Local Rumor Control Projects:
+                     Missouri
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03037" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03037
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/38
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10041">
+       Local Rumor Control Projects:
+                     Montana
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03038" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03038
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/39
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10042">
+       Local Rumor Control Projects:
+                     Nebraska
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03039" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03039
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/40
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10043">
+       Local Rumor Control Projects:
+                     New Jersey
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03040" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03040
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/41
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10044">
+       Local Rumor Control Projects:
+                     New Mexico
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03041" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03041
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/42
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10045">
+       Local Rumor Control Projects:
+                     New York
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03042" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03042
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/43
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10046">
+       Local Rumor Control Projects:
+                     North Carolina
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03043" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03043
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/44
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10047">
+       Local Rumor Control Projects:
+                     North Dakota
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03044" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03044
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/45
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10048">
+       Local Rumor Control Projects:
+                     Ohio
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03045" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03045
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/46
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10049">
+       Local Rumor Control Projects:
+                     Oklahoma
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03046" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03046
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/47
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10050">
+       Local Rumor Control Projects:
+                     Oregon
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03047" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03047
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/48
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10051">
+       Local Rumor Control Projects:
+                     Pennsylvania
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03048" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03048
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/49
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10052">
+       Local Rumor Control Projects:
+                     Rhode Island
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03049" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03049
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/50
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10053">
+       Local Rumor Control Projects:
+                     South Carolina
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03050" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03050
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/51
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10054">
+       Local Rumor Control Projects:
+                     Tennessee
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03051" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03051
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/52
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10055">
+       Local Rumor Control Projects:
+                     Texas
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03052" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03052
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/53
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10056">
+       Local Rumor Control Projects:
+                     Utah
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03053" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03053
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/54
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10057">
+       Local Rumor Control Projects:
+                     Virginia
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03054" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03054
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/55
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10058">
+       Local Rumor Control Projects:
+                     Washington (State)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03055" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03055
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/56
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10059">
+       Local Rumor Control Projects:
+                     Washington D.C.
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03056" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03056
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/57
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10060">
+       Local Rumor Control Projects:
+                     West Virginia
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03057" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03057
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/58
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10061">
+       Local Rumor Control Projects:
+                     Wisconsin
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03058" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03058
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/59
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10062">
+       Local Rumor Control Projects:
+                     Wyoming
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms03059" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms03059
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10063">
+      Series 4: Rumors from
+                  Correspondents and Field Representatives
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/60
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10064">
+       Anti-British
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04060" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04060
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/61
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10065">
+       Armed Forces:
+                     Health
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04061" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04061
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/62
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10066">
+       Army-Navy
+                     Commissions
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04062" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04062
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/63
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10067">
+       Army-Navy Training
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04063" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04063
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/64
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10068">
+       Civilian Defense
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04064" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04064
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/65
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10069">
+       Civilian Front: Criticism of
+                     Government
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04065" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04065
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/66
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10070">
+       Civilian Front: Security and
+                     Treatment of Enemy Aliens
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04066" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04066
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/67
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10071">
+       Criticism of U.S.
+                     Government
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04067" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04067
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/68
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10072">
+       Defense Workers
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04068" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04068
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/69
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10073">
+       Defense Workers:
+                     Pay
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04069" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04069
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/70
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10074">
+       Discards as
+                     non-rumor
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04070" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04070
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/71
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10075">
+       Economic Front: War Bonds and
+                     Stamps
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04071" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04071
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/72
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10076">
+       Farmers
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04072" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04072
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/73
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10077">
+       Government Information: Policy
+                     and Practice
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04073" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04073
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/74
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10078">
+       Inflation
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04074" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04074
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/75
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10079">
+       Labor Relations and Union
+                     Activities
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms04075" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms04075
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/76
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10080">
+       Military: High
+                     commands
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05076" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05076
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/77
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10081">
+       Military: Movement of
+                     troops
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05077" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05077
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/78
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10082">
+       Military: Woman
+                     Auxiliaries
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05078" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05078
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/79
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10083">
+       Military Losses: Human
+                     Combatants
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05079" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05079
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/80
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10084">
+       Military Losses:
+                     Prisoners
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05080" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05080
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/81
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10085">
+       Military Losses:
+                     Warships
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05081" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05081
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/82
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10086">
+       Military Officers
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05082" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05082
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/83
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10087">
+       Military Organization:
+                     General
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05083" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05083
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/84
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10088">
+       Military Recruitment (Military
+                     Selective Service)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05084" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05084
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/85
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10089">
+       Military Strategy: American
+                     Front
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05085" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05085
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/86
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10090">
+       Military Strategy: Far East
+                     Front
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05086" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05086
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/87
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10091">
+       Military Strategy: Russian
+                     Front
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05087" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05087
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/88
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10092">
+       Military Strategy: Second
+                     Front
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05088" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05088
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/89
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10093">
+       Military Strength
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05089" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05089
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/90
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10094">
+       Military Strength of the United
+                     States: Perceptions
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05090" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05090
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/91
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10095">
+       Military Tactics
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms05091" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms05091
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/92
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10096">
+       Miscellaneous (Permalife
+                     copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06092" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06092
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/93
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10097">
+       Miscellaneous (Original
+                     copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06093" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06093
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/94
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10098">
+       Morals
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06094" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06094
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/95
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10099">
+       Operations, Actual and
+                     Potential: In United States and along United States Coast
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06095" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06095
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/96
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10100">
+       Operations:
+                     Aleutians
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06096" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06096
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/97
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10101">
+       Operations: Russian
+                     Front
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06097" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06097
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/98
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10102">
+       Post World-War
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06098" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06098
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/99
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10103">
+       Predictions of
+                     Duration
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06099" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06099
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/100
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10104">
+       Rationing: Miscellaneous
+                     (Permalife copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06100" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06100
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/101
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10105">
+       Rationing: Miscellaneous
+                     (Original copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms06101" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms06101
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/102
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10106">
+       Rationing: Rubber and tire
+                     rationing
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07102" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07102
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/103
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10107">
+       Rationing: Sugar
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07103" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07103
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/104
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10108">
+       Russia's Arms and War Effort
+                     (1) Favorable and neutral and (2) Unfavorable
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07104" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07104
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/105
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10109">
+       Social problems:
+                     General
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07105" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07105
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/106
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10110">
+       Social problems: Poverty and
+                     Unemployment
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07106" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07106
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/107
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10111">
+       Social Problems: Race
+                     discrimination
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07107" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07107
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/108
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10112">
+       Social Problems: Race
+                     discrimination, other: Japanese, German
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07108" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07108
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/109
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10113">
+       Strategy: General
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07109" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07109
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/110
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10114">
+       War arms: General and
+                     Miscellaneous
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07110" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07110
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/111
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10115">
+       War causes
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07111" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07111
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       7/112
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10116">
+       War Production
+                     Management
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms07112" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms07112
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10117">
+      Series 5: Rumors, Jokes, and
+                  Anecdotes from High School and College Students
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/113
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10118">
+       Instruction sheet for High
+                     School and College Instructors
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08113" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08113
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/114
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10119">
+       Alabama. Parker High School,
+                     Birmingham
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08114" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08114
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300">
+       Includes 2 drawings, graphite pencil
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/115
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10120">
+       Alabama. Tuskegee Institute,
+                     Tuskegee. (Permalife copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08115" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08115
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/116
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10121">
+       Alabama. Tuskegee Institute,
+                     Tuskegee. (Original copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08116a" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08116a
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/116
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10122">
+       Alabama. Tuskegee Institute,
+                     Tuskegee. (Original copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08116b" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08116b
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/117
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10123">
+       Illinois. Du Sable High School,
+                     Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08117" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08117
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/118
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10124">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08118" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08118
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300">
+       Includes 1 drawing, blue ink; and 1 drawing,
+                     graphite pencil
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/119
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10125">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08119" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08119
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/120
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10126">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08120" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08120
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/121
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10127">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08121" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08121
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/122
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10128">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08122" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08122
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300">
+       Includes 3 photocopied political
+                     cartoons
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/123
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10129">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms08123" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms08123
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300">
+       Includes 2 sketches, graphite pencil; 1 drawing,
+                     blue ink; 1 political cartoon, newsprint, black and white
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/124
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10130">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09124" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09124
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/125
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10131">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09125" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09125
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/126
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10132">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09126" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09126
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/127
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10133">
+       Illinois. Englewood High
+                     School, Chicago
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09127" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09127
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300">
+       Includes 1 political cartoon, newsprint, black and
+                     white
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/128
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10134">
+       North Carolina. Washington High
+                     School, Raleigh
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09128" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09128
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/129
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10135">
+       Ohio. East High School,
+                     Columbus
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09129" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09129
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/130
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10136">
+       Ohio. East High School,
+                     Columbus
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09130" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09130
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/131
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10137">
+       Ohio. Dennison College,
+                     Granville
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09131" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09131
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       9/132
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10138">
+       Ohio. Wilberforce University,
+                     Wilberforce (Permalife copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms09132" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms09132
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/133
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10139">
+       Ohio. Wilberforce University,
+                     Wilberforce (Original copies)
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10133" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10133
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/134
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10140">
+       Washington, D.C., Howard
+                     University
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10134" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10134
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/135
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10141">
+       West Virginia. Bluefield State
+                     Teachers College, Bluefield
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10135" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10135
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/136
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10142">
+       West Virginia. West Virginia
+                     State College, Institute
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10136" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10136
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/137
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10143">
+       Unknown High School
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10137" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10137
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/138
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10144">
+       Unknown High School
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10138" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10138
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/139
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10145">
+       Unknown High School
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10139" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10139
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/140
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10146">
+       Unknown School
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10140" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10140
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/141
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10147">
+       Unknown School
+      </unittitle>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1945001.afc1945001_ms10141" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1945001_ms10141
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

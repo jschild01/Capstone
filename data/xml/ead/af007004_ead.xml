@@ -1,0 +1,4162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af007004" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af007004
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Working in Paterson Project Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1995/028
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Rosemary Graham and Christa Maher; revised
+               by Sarah Bradley Leighton and Stephanie Schmitz
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2004-12">
+     December
+               2004
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695193" show="new">
+       https://lccn.loc.gov/2004695193
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2009-07">
+     July 2009
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2007-05">
+     May 2007
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Judy Ng
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1995/028
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Working in Paterson Project Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1993/2002">
+     1993-2002
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1993/2002" unitdatetype="inclusive">
+    1993-2002
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center,  Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    39 boxes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    21 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    12,327 items (5,400 manuscript pages, 6,621 graphic
+               materials, 90 original sound recordings, 204 electronic media, and 12
+               artifacts)
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      American Folklife Center, Library of
+               Congress
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="ita">
+     Italian
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      English, Italian, Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists of manuscripts,
+            sound recordings, photographs, artifacts, publications, and ephemera from an
+            ethnographic field project conducted by the American Folklife Center, Library of
+            Congress, which documented occupational culture in Paterson, New Jersey in 1994.
+            Subjects include the textile industry, industrial architecture, machine shops, labor
+            unions, family owned businesses, dressmaking, and ethnic restaurants. A single
+            manufacturing firm, Watson Machine International, was the focus of an in-depth study.
+            The project focused on the ways in which community life and values are shaped by work
+            and how the theme of work intersects with other themes, namely family, ethnicity,
+            gender, neighborhood, religion, and change over time.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Working in Paterson Project Collection consists of manuscript materials, sound
+            recordings, graphic materials, and artifacts collected during the Working in Paterson
+            Project conducted by the American Folklife Center in 1994. The study was part of the
+            federal Urban History Initiative (UHI) program sponsored in Congress by U.S. Senator
+            Frank R. Lautenberg and administered by the National Park Service's Mid-Atlantic
+            Regional Office. The four-month project, conducted between June and September 1994,
+            explored occupational heritage and culture in Paterson, New Jersey, a city that is
+            considered the cradle of the Industrial Revolution in America. The goal of the project
+            was to examine how the idea of work intersects with other themes, such as family,
+            ethnicity, gender, neighborhood, and change over time. The Paterson community yielded
+            several additional themes that reflect both the history of industry in the United States
+            and the specific experience of Patersonians. These themes include the continuity and
+            change of manufacturing over time; the manufacturing process; the textile industry;
+            industrial architecture; the impact of labor unions; diversity in the workplace; the
+            ethnography of Watson Machine International; Paterson's distinctive food tradition, the
+            Hot Texas Wiener; the role of agricultural occupations in urban areas; and work, family,
+            and home.
+   </p>
+   <p>
+    In addition to Paterson, supplementary documentation was conducted in the following
+            locations in New Jersey: Bloomfield, Clifton, Haledon, Hawthorne, Pequannock, Totowa,
+            West Paterson, and Woodbridge. Documented ethnic groups include: African Americans, Arab
+            Americans, Colombian Americans, Cuban Americans, Dominican Americans, Greek Americans,
+            Hispanic Americans, Honduran Americans, Irish Americans, Italian Americans, Peruvian
+            Americans, Polish Americans, and Puerto Ricans.
+   </p>
+   <p>
+    AFC Folklife Specialist, David A. Taylor, directed the field research that was carried
+            out by folklorists Tom Carroll (a Paterson native), Robert McCarl, Susan Levitas, and
+            Timothy Lloyd, documentary photographer Martha Cooper, and Taylor himself. The research
+            team interviewed active and retired workers from important local industries,
+            photographed workers and work-related events, and documented other aspects of Paterson's
+            occupational heritage. Under the terms of the cooperative agreement between the National
+            Park Service (NPS) and the American Folklife Center, the AFC developed and administered
+            a study of occupational culture in Paterson, New Jersey, produced a draft report with
+            the findings of the study and recommendations for future research and cultural
+            programming, and provided the NPS with a reference copy of the field data.
+   </p>
+   <p>
+    The field research resulted in a multi-format collection. The manuscript materials
+            document the project from 1993, when the initial planning began, to 2002, when the
+            project materials were used to create the online presentation, "Working in Paterson:
+            Occupational Heritage in an Urban Setting,"
+    <ref actuate="onrequest" href="http://memory.loc.gov/ammem/wiphtml/pthome.html" show="new">
+     http://memory.loc.gov/ammem/wiphtml/pthome.html
+    </ref>
+    . The manuscript materials
+            include "Resource Tools," which include databases and tables created by the processing
+            and digitizing staff to summarize information from the fieldworkers' logs, sound
+            recordings, and graphic materials. Also found are various publications, including books,
+            articles, and ephemera that provide background material on Paterson and urban folklife.
+            Documents regarding the planning, administration, and promotion of the project are
+            available in this series with field notes, graphic materials logs, sound recordings
+            logs, and reports and products from the research.
+   </p>
+   <p>
+    As noted earlier, this series contains two "post-fieldwork" sections. The first includes
+            publications and ephemera the AFC continued to collect after the fieldwork was
+            completed. The second section includes materials generated by the National Digital
+            Library staff at the Library of Congress while creating the online presentation.
+   </p>
+   <p>
+    This collection contains 90 original sound recordings, both analog and digital
+            audiotapes. The sound recordings are arranged alphabetically by fieldworker's name and
+            then by tape number. The sound recordings contain interviews with residents of Paterson,
+            New Jersey, and the surrounding area, as well as interviews by David Taylor with U.S.
+            Senator Frank R. Lautenberg and Congressman Bill Pascrell. Almost all of the sound
+            recordings have accompanying audio logs. Information on whether or not an audio log
+            exists for a particular sound recording can be found in the database, "WIP Sound
+            Recordings Collection," which is on a zip disk in folder 1, and in hard copy in folder
+            4.
+   </p>
+   <p>
+    The Working in Paterson project produced 6,621 graphic materials, which include
+            black-and white negatives, black-and-white photographic prints, color slides, and color
+            photocopies. Black-and-white contact sheets are available to researchers in the Folklife
+            Reading Room. The graphic materials are arranged alphabetically by fieldworker name,
+            then numerically by slide tray or by contact sheet, and then numerically by individual
+            image. While each of the fieldworkers took photographs, documentary photographer Martha
+            Cooper produced the majority of the images in this series. Fieldworkers created logs for
+            the graphic images that are summarized in the database, "WIP Graphic Materials
+            Collection," (available on a zip disk in folder 1).
+   </p>
+   <p>
+    It should be noted that Martha Cooper's black-and-white image logs only provide
+            information from roll WIP-MC-B001 to roll WIP-MC-B016, but her black-and-white images
+            proceed to WIP-MC-B036. Using her color slides, it was possible to discern the subjects
+            of these unidentified black-and-white images, but there is no way to be positive of the
+            date these photographs were taken. Martha Cooper's color slides WIP-MC-C097-05 through
+            WIP-MCC114-03 are all labeled with a red "X" because the photographer deemed them to not
+            be among the best of the images. They were ultimately added to the collection because of
+            the value of information they contain. Again, these images do not have corresponding
+            logs, but were identified by comparison with logged color slides, and can also be found
+            in the database.
+   </p>
+   <p>
+    The electronic media in this collection includes one zip disk, 174 CD-ROMs, and 29
+            3.5-inch high-density diskettes. The zip disk contains the databases for sound
+            recordings and graphic materials and the contents of 38 diskettes of the fieldworkers'
+            logs and field notes. The CD-ROMs contain digital files used in the online presentation.
+            In July 2004, 29 3.5-inch diskettes were found and were added to the collection.
+   </p>
+   <p>
+    The final series contains 15 artifacts and ephemeral pieces donated by Paterson
+            informants. The artifacts include product samples from work places in Paterson as well
+            as union memorabilia.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The Working in Paterson Project was undertaken in connection with the federal Urban
+            History Initiative (UHI). In accordance with the initiative, three cities in New
+            Jersey--Perth Amboy, Trenton, and Paterson--each received government funds to develop
+            revitalization programs. The National Park Service's Mid-Atlantic Regional Office
+            administered programs in Paterson, including this study of occupational heritage. AFC
+            Folklife Specialist, David A. Taylor, directed the project and conducted fieldwork along
+            with folklorists Tom Carroll, Susan Levitas, Robert McCarl, Timothy Lloyd, and
+            documentary photographer, Martha Cooper. At the time of the Working in Paterson Project,
+            Tom Carroll was Assistant Director for Collections and Research at the Historical
+            Society of Western Pennsylvania in Pittsburgh, Pennsylvania. Susan Levitas was a
+            self-employed folklorist/cultural consultant in the mid-Atlantic region. Robert McCarl
+            was Research Professor in the Department of Anthropology at Boise State University in
+            Boise, Idaho. Timothy Lloyd was Acting Deputy Director of the American Folklife Center.
+            Martha Cooper was a professional photographer in New York City.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20170224101804.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Carroll, Thomas DeBlasio
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cooper, Martha
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lautenberg, Frank R.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lautenberg, Frank R.--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Levitas, Susan, 1961-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lloyd, Timothy Charles
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McCarl, Robert
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pascrell, Bill
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pascrell, Bill--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Smith, Lynda S.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Taylor, David Alan, 1951-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Catholic Church--Customs and practices.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Library of Congress. National Digital Library Program.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. National Park Service. Mid-Atlantic Regional Office
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Watson Machine International.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American business enterprises--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arab American business enterprises--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arab Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Architecture, Industrial--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Beauty contestants--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Catholics--New Jersey--Paterson--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Colombian American business enterprises--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Community life--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dominican Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic arts--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic groups--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic restaurants--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Family-owned business enterprises--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American business enterprises--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Irish Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Labor unions--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Labor--New Jersey--Paterson--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Machine shops--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Manufacturing processes--New Jersey--Paterson--20th century--Social aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Occupations--New Jersey--Paterson--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pageants--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polish Americans--Employment--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Processions--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Textile industry--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Textile workers--New Jersey--Paterson.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Women dressmakers--New Jersey--Paterson.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Paterson (N.J.)--Economic conditions--20th century.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Paterson (N.J.)--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Paterson (N.J.)--Social life and customs--20th century.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Working in Paterson : a survey of occupational culture in Paterson, New Jersey, with recommendations for public programming.
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Working in Paterson Project, 1993-2002
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Working in Paterson, occupational heritage in an urban setting
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Access to the collection is unrestricted. Upon request, reference copies of the sound
+               recordings and the black-and-white contact sheets are available in the Folklife
+               Reading Room. Duplication of the collection materials may be governed by copyright
+               and other restrictions.
+   </p>
+  </accessrestrict>
+  <altformavail>
+   <head>
+    Online Content
+   </head>
+   <p>
+    A substantial portion of the collection, with interpretive essays, is available as
+               Working in Paterson: Occupational Heritage in an Urban Setting, an online resource
+               compiled by the National Digital Library Program of the Library of Congress
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000014" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000014
+    </ref>
+    .
+   </p>
+  </altformavail>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The Archive of Folk Culture, American Folklife Center (AFC), accessioned the Working
+               in Paterson Project Collection, the product of an AFC-sponsored project, in 1995.
+               During the digital conversion process, from 2000 to 2002, manuscript materials and
+               electronic media were also added to the collection. Initial processing of the
+               collection was done by Robin Fanslow. Christa Maher curated the online presentation
+               of the collection from November 2000 to May 2002. Rosemary Graham arranged and
+               processed the collection and created the initial version of the collection in
+               September 2002. In July 2004, Sarah Bradley Leighton and Stephanie Schmitz resolved
+               outstanding issues with the sound recordings series and added additional materials
+               that were found after the original processing had been completed. All modifications
+               are reflected in this updated version of the collection guide and its appendices.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Working in Paterson Project Collection (AFC 1995/028), Archive of Folk Culture,
+               American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <p>
+    A selected version of the same collection is also available at the Paterson Free
+               Public Library in Paterson, New Jersey.
+   </p>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <p>
+    Note: Sound recordings originally housed in boxes are stored in a separate location.
+   </p>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        143
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Boxes 1-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        39
+       </entry>
+       <entry morerows="0">
+        60-min. audiocassettes (field originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 10-12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        90-min. audiocassettes (field originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 10-12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        49
+       </entry>
+       <entry morerows="0">
+        digital audio tapes (field originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 13-14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        51
+       </entry>
+       <entry morerows="0">
+        7-inch reel-to-reel tapes (preservation copies)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        N/A
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2,697
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3,831
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Boxes 16-30, 38
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        4
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic prints
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 38
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        8x10 color photocopies
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 38
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        78
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets (reference)
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room
+       </entry>
+       <entry morerows="0">
+        Binders 1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Electronic Media
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        zip disk
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1, Folder 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        174
+       </entry>
+       <entry morerows="0">
+        CD-ROMS
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Boxes 31-37
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        29
+       </entry>
+       <entry morerows="0">
+        3.5-inch high density diskettes
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 38
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Artifacts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        15
+       </entry>
+       <entry morerows="0">
+        artifacts and ephemera
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 39
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscript Materials
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle>
+       Administrative Files
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        1
+       </container>
+       <unittitle>
+        Collection Guide
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Hard copy of collection guide and zip disk containing the following:
+       </p>
+       <p>
+        Graphic Materials database. Fields include: ID number, frame, format,
+                           photographer, title, created/published, event, people in photo, location,
+                           notes, and repository.
+       </p>
+       <p>
+        Sound Recordings database. Fields include: audio number, audio log,
+                           informant, date, location, event, subject, format/quantity, and
+                           length.
+       </p>
+       <p>
+        Contents of Working in Paterson Project Collection diskettes:
+                           fieldworkers notes and logs. (See Series IV: Electronic Media)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        2
+       </container>
+       <unittitle>
+        Collection Guide
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        For the Working in Paterson Project Collection housed at the Paterson
+                           Public Library in Paterson, New Jersey.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Reference Tools
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        3
+       </container>
+       <unittitle>
+        Working in Paterson Fieldwork Calendar
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Calendar for June-September 1994 that lists where the fieldworkers were
+                           during the project. 9 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        4
+       </container>
+       <unittitle>
+        Sound Recordings database
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Hard copy. Fields include: audio number, audio log, informant, date,
+                           location, event, subject, format/quantity, and length. 23 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        5
+       </container>
+       <unittitle>
+        Places/People/Events photographed by Martha Cooper
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Table of places, people, dates, and events photographed by Martha Cooper
+                           during the Working in Paterson project. 2 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        6
+       </container>
+       <unittitle>
+        Events in Black and White Photos
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Table of the events depicted in black and white photographs. Fields
+                           include: event, date created, call number, fieldworkers, notes, location.
+                           8 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        7
+       </container>
+       <unittitle>
+        Working in Paterson field notes summary
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Table of information from field notes; fields include: item, date,
+                           location, informant/event, fieldworker, and co-worker. 11 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Preliminaries
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        8
+       </container>
+       <unittitle>
+        Cooperative Agreement
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Agreement between American Folklife Center and National Park Service.
+                           Draft of agreement, signed final agreement with related correspondence.
+                           50 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Planning
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        9
+       </container>
+       <unittitle>
+        Background Ideas
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Memos, notes, budget draft. 17 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        10
+       </container>
+       <unittitle>
+        CHAPMAN, Lloyd
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        (National Park Service contact) Correspondence and planning
+                           documentation. 19 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        11
+       </container>
+       <unittitle>
+        Correspondence, National Park Service
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        34 pages
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        12
+       </container>
+       <unittitle>
+        Correspondence, TAYLOR, David
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        (Project director). 15 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        Fieldwork Schedule
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Outline and two copies of memorandum. 5 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        14
+       </container>
+       <unittitle>
+        Job Announcement
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Copy of public announcement for researchers. 2 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        15
+       </container>
+       <unittitle>
+        Paterson Contacts
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Business cards, correspondence, list of names, receipt. 6 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        16
+       </container>
+       <unittitle>
+        Project Applicants
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Applications, cover letters, resumes, correspondence from applicants
+                           selected to work on the project. 20 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Background Information
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        17
+       </container>
+       <unittitle>
+        Boarding Houses and Residential Health Facilities
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Directory of facilities in Paterson, a possible setting for project
+                           research. 24 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        18
+       </container>
+       <unittitle>
+        H.R. 3498/1104 (U.S. Representative Herbert Klein) (Great Falls
+                           Redevelopment/Preservation)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Data sheet from
+        <title localtype="simple" render="italic">
+         <part>
+          Congressional
+                              Yellow Book
+         </part>
+        </title>
+        , clipping. 2 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        19
+       </container>
+       <unittitle>
+        LAUTENBERG, Frank R.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        U.S. Senator (D-NJ). Correspondence, press releases, personal
+                           biographical data sheet, consent form, two visitor passes to Senate
+                           chamber, and one 8 x 10 black- and-white photo. 29 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        20
+       </container>
+       <unittitle>
+        Lowell National Historic Park
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Park handbook, map, press releases, museum and festival brochures that
+                           provide examples of the city's industrial heritage. 20 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        21
+       </container>
+       <unittitle>
+        N.J. Urban History Initiative (P.L. 102-154)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        11 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        22
+       </container>
+       <unittitle>
+        The Paterson Great Falls/S.U.M. National Historic Landmark
+                           District Condition Assessment Project Summary Report.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        8 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        23
+       </container>
+       <unittitle>
+        Paterson Urban History Initiative Advisory Committee
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Advisory committee meeting outlines and notes, project status report,
+                           grant program notes. 22 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Project Personnel
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        24
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Fieldworker project proposals, contract, invoices, and progress reports,
+                           related correspondence, related paperwork from LC travel office. 79
+                           pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        25
+       </container>
+       <unittitle>
+        COOPER, Martha
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Fieldworker correspondence, contract, LC purchase orders, LC purchase
+                           requisitions, notes. 33 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        26
+       </container>
+       <unittitle>
+        Fieldworkers
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Memo, notes. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        27
+       </container>
+       <unittitle>
+        Guide for Project Fieldworkers
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "Notes on Archiving and Media Documentation: A Guide for Project
+                           Fieldworkers Prepared in Connection with the Project 'Working in
+                           Paterson'"(2 copies). 68 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        28
+       </container>
+       <unittitle>
+        LEVITAS, Susan
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Fieldworker correspondence, contract, LC travel requisitions, notes. 33
+                           pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       29
+      </container>
+      <unittitle>
+       McCARL, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Fieldworker correspondence, contract, invoices, notes. 31 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       30
+      </container>
+      <unittitle>
+       SMITH, Lynda
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Fieldwork assistant contract and invoice. 4 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       31
+      </container>
+      <unittitle>
+       TORRADO, Carlos
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Fieldwork assistant contract and cancellation. 3 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Equipment and Expenses
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        32
+       </container>
+       <unittitle>
+        Equipment
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        List of documentation equipment used during field survey. 16 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        33
+       </container>
+       <unittitle>
+        Expenses
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Preliminary accounting of expenses. Invoices, purchase orders and
+                           miscellaneous documents. 126 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Publicity and Public Relations
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        34
+       </container>
+       <unittitle>
+        Business Cards
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Business cards for the Working in Paterson fieldworkers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        35
+       </container>
+       <unittitle>
+        Certificates of Appreciation
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Copies of certificates sent to informants and others who assisted with
+                           the project. 8 blank certificates.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        36
+       </container>
+       <unittitle>
+        Correspondence, Informants
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Letters sent to informants along with copies of
+        <title localtype="simple" render="italic">
+         <part>
+          Folklife Center News
+         </part>
+        </title>
+        featuring articles about the Working in Paterson Project. 5 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        37
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Folklife Center News
+         </part>
+        </title>
+        (Summer 1994), Vol. XVI, No. 3
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "American Folklife Center Documents Occupational Culture in Paterson, New
+                           Jersey," by David Taylor. 3 copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        38
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Folklife Center News
+         </part>
+        </title>
+        (Spring 1995), Vol. XVII, No. 2
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "Narratives of Work: Stories Told by Retired Workers and Their Children,"
+                           by David Taylor, and "Paterson's Hot Texas Wiener Tradition," by Timothy
+                           Lloyd. 3 copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        39
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Folklife Center News
+         </part>
+        </title>
+        (Summer 1995), Vol. XVII, No. 3
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "African American Family Business in Paterson, New Jersey," by Susan
+                           Levitas. 3 copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        40
+       </container>
+       <unittitle>
+        Hot Texas Wiener Articles:
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two articles that mention American Folklife Center's Working in Paterson
+                           project. 4 pages.
+       </p>
+       <p>
+        "Hot Texas Wiener entrepreneurs are on a roll,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , July 9, 1995.
+                           (2 copies)
+       </p>
+       <p>
+        "Secret still in the sauce,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , July 16, 1995.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        41
+       </container>
+       <unittitle>
+        Letter of Appreciation to Informants
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Post-project correspondence with informants. Letters of thanks, letters
+                           accompanying
+        <title localtype="simple" render="italic">
+         <part>
+          Folklife Center
+                              News
+         </part>
+        </title>
+        article. 26 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        42
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Library of Congress
+                              News
+         </part>
+        </title>
+        press release
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "American Folklife Center Documents Occupational Culture in Paterson,
+                           N.J." English and Spanish copies. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        43
+       </container>
+       <unittitle>
+        Mailing List
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Informants' addresses. 5 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        44
+       </container>
+       <unittitle>
+        Project Handout
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        English and Spanish. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Publications
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        45
+       </container>
+       <unittitle>
+        Botto House/American Labor Museum
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        6 pages, 3 pamphlets, 3 booklets (68 pages each)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        46
+       </container>
+       <unittitle>
+        Dominican Parade
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Flyer
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        47
+       </container>
+       <unittitle>
+        Dyers Local 1733
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        COSTA, Marianne (informant). Unpublished story of her memories and
+                           experiences of Dyers Local 1733, Amalgamated Clothing Textile Workers
+                           Union of America. 8 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        48
+       </container>
+       <unittitle>
+        Famous Patersonians
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "Fifty Famous Patersonians Across 200 Years" from the Great Falls Visitor
+                           Center. 1 page.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        49
+       </container>
+       <unittitle>
+        Hot Texas Wieners
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "Geography Quiz: Where's the Texas in the Texas Wiener?,"
+        <title localtype="simple" render="italic">
+         <part>
+          New York Times
+         </part>
+        </title>
+        , Sunday,
+                           January 12, 1997. 1 page.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        50
+       </container>
+       <unittitle>
+        "The Limited Fame of Sam Patch"
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        By Kathleen M. Kavanaugh.
+        <title localtype="simple" render="italic">
+         <part>
+          New
+                              York Folklore Quarterly
+         </part>
+        </title>
+        , Volume XXVIII, Number 2, June 1972:
+                           Study of a man who jumped into waterfalls. William Carlos Williams
+                           dedicated several pages of his poem
+        <title localtype="simple" render="italic">
+         <part>
+          Paterson
+         </part>
+        </title>
+        to Sam. 17 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        51a
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          The Mill Street
+                              Forward
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        [See Box 39]
+       </p>
+       <p>
+        June 1987, Volume 1, Number 1. 12 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        51b
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          The Mill Street
+                              Forward
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        [See Box 39]
+       </p>
+       <p>
+        Spring/Summer 1990, Volume 1, Number 5. 12 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        52
+       </container>
+       <unittitle>
+        New Jersey Urban History Initiative Newsletter
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          The View From the
+                              Falls
+         </part>
+        </title>
+        , Spring 1995. (2 copies) 8 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        53-54
+       </container>
+       <unittitle>
+        Paterson Community Information (2 folders)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Miscellaneous Paterson information. 212 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       55
+      </container>
+      <unittitle>
+       Paterson Economic Development Corporation
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Housed in promotional folder. Includes: Paterson profile, retail center
+                        and notable area resources, business mix and prominent employers,
+                        business resources, transportation, Paterson Economic Development
+                        Corporation board of directors. 6 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       56
+      </container>
+      <unittitle>
+       Paterson Museum Photos
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Two black-and-white 8 x 10 photographs depicting scenes inside textile
+                        mills.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       57-65
+      </container>
+      <unittitle>
+       Picture Postcards
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Postcards depicting various sites in and around Paterson, N.J. 9
+                        cards.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       66
+      </container>
+      <unittitle>
+       San Rocco Festival
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Program from the "Comitato Festa Patronale San Rocco." 1 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       67-68
+      </container>
+      <unittitle>
+       STETIN, Sol (2 folders)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Background information about Stetin, a WIP informant who was a
+                        textile-union activist. 176 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       69
+      </container>
+      <unittitle>
+       Textile Industry
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       General information on northern New Jersey textiles. 2 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       70
+      </container>
+      <unittitle>
+       Watson Machinery International
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Brochure, correspondence, photo, miscellaneous information. 4 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Forms
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        71
+       </container>
+       <unittitle>
+        Biographical Data Forms
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Completed forms. 97 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        72
+       </container>
+       <unittitle>
+        Informant Consent and Data Forms, Masters
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Master copies. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        73
+       </container>
+       <unittitle>
+        Informant Consent Forms
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Completed forms. 115 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Disk Directories
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        74
+       </container>
+       <unittitle>
+        Disk Directories
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Logs describing data to be found on diskettes (now found on zip disk);
+                           arranged alphabetically by fieldworkers' surname. 12 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Audio Tape Logs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        75-76
+       </container>
+       <unittitle>
+        CARROLL, Tom (2 folders)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TDC-A001 through WIP-TDC-A027. 179 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        77
+       </container>
+       <unittitle>
+        LEVITAS, Susan
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-SL-A001 through WIP-SL-A022. 94 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folder">
+       78
+      </container>
+      <unittitle>
+       LLOYD, Timothy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       WIP-TL-A001 through WIP-TL-A002. 7 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       79
+      </container>
+      <unittitle>
+       McCARL, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       WIP-RM-A001 through WIP-RM-A011. 53 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       80
+      </container>
+      <unittitle>
+       TAYLOR, David
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       WIP-DT-A003, A004, A008-A011, A018, A019, A022-26. 26 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Black and White Photo Logs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        81
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TDC-B001 through WIP-TDC-B012. 30 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        82
+       </container>
+       <unittitle>
+        COOPER, Martha
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-MC-B001 through WIP-MC-B016. 17 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        83
+       </container>
+       <unittitle>
+        LEVITAS, Susan
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-SL-B001 through WIP-SL-B010. 14 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        84
+       </container>
+       <unittitle>
+        LLOYD, Timothy
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TL-B001. 2 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        85
+       </container>
+       <unittitle>
+        McCARL, Robert
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-RM-B001 through WIP-RM-B015. 15 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        86
+       </container>
+       <unittitle>
+        TAYLOR, David
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-DT-B001 through WIP-DT-B004. 4 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Color Photo Logs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        87
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TDC-C001 through WIP-TDC-C027. 48 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        88
+       </container>
+       <unittitle>
+        COOPER, Martha
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-MC-C001- through WIP-MC-C097. 98 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        89
+       </container>
+       <unittitle>
+        LEVITAS, Susan
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-SL-C001 through WIP-SL-C015. 16 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        90
+       </container>
+       <unittitle>
+        LLOYD, Timothy
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TL-C001 through WIP-TL-C003. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        91
+       </container>
+       <unittitle>
+        McCARL, Robert
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-RM-C001 through WIP-RM-C027. 26 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        92
+       </container>
+       <unittitle>
+        TAYLOR, David
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-DT-C001 through WIP-DT-C008. 8 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Fieldnotes
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        93
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TDC-F061894 through WIP-TDC-F090994. 284 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        94
+       </container>
+       <unittitle>
+        LEVITAS, Susan
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-SL-F080394.A through WIP-SL-F082994.A. 75 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        95
+       </container>
+       <unittitle>
+        LLOYD, Timothy
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-TL-F081794 through WIP-TL-F081894. 3 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        96
+       </container>
+       <unittitle>
+        McCARL, Robert
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-RM-F080294 through WIP-RM-F081794. 55 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        97
+       </container>
+       <unittitle>
+        TAYLOR, David
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        WIP-DT-F080494 through WIP-DT-F081194. 13 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Unpublished Reports and Products
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        98
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        "21st Avenue Report." January 3, 1995 (Revised on October 2, 1995). Essay
+                           explaining the rationale for conducting the study of the 21st Avenue
+                           commercial area in Paterson, New Jersey. 35 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        99
+       </container>
+       <unittitle>
+        Correspondence regarding reports
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Paterson reports. July 1996. 5 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folder">
+       100
+      </container>
+      <unittitle>
+       Final Report
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Working in Paterson: A Survey of Occupational Culture in Paterson, New
+                        Jersey, with Recommendations for Public Programming" edited by David A.
+                        Taylor. Bound, with color photos. 1997. 169 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       101
+      </container>
+      <unittitle>
+       LEVITAS, Susan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Working in Paterson: African American Experiences, a Report on Fieldwork
+                        Conducted for the American Folklife Center." January 1995. 39 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       102
+      </container>
+      <unittitle>
+       LLOYD, Timothy
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Work and Food: Paterson's Hot Texas Wiener Tradition." No date. (2
+                        copies) 44 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       103
+      </container>
+      <unittitle>
+       McCARL, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Working in Paterson: Watson Machine International." No date. (2 copies)
+                        27 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       104
+      </container>
+      <unittitle>
+       "Notes From Field-Perspectives on the Collections and Work of the
+                        American Folklife Center"
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Announcement for "Working in Paterson: Documenting Occupational Heritage
+                        in Paterson, New Jersey," lecture given by David A. Taylor. August 28,
+                        1996. 4 copies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       105
+      </container>
+      <unittitle>
+       Report Draft
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Working in Paterson: A Survey of Occupational Culture in Paterson, New
+                        Jersey, with Recommendations for Public Programming," edited by David A.
+                        Taylor. Report submitted to the Mid-Atlantic Regional Office of the
+                        National Park Service, and the Paterson Urban History Initiative Advisory
+                        Committee, by the American Folklife Center. Report draft. 1995. 173
+                        pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       106
+      </container>
+      <unittitle>
+       Report Outline
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Working in Paterson: A Survey of Occupational Culture in Paterson, New
+                        Jersey, with Recommendations for Public Programming," edited by David A.
+                        Taylor. Report submitted to the Mid-Atlantic Regional Office of the
+                        National Park Service and The Paterson Urban History Initiative Advisory
+                        Committee, by the American Folklife Center. Report outline. 1994. 8
+                        pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       107
+      </container>
+      <unittitle>
+       Selected Documentation
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Audio tape logs, black-and-white photo logs, color slide logs,
+                        fieldnotes. "Working in Paterson Project: A Study of Occupational
+                        Heritage in Paterson, New Jersey 1994." 86 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       108
+      </container>
+      <unittitle>
+       Slide Show Lectures
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Notes from David Taylor's slide-show lecture on the Working In Paterson
+                        Project Collection. No date. 24 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       109
+      </container>
+      <unittitle>
+       TAYLOR, David
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Narratives of Work: Stories Told by Retired Workers and Their Children."
+                        No date. 21 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Publications (Post-Fieldwork)
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        110
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          As I Was Saying...
+         </part>
+        </title>
+        ,
+                           April 14-May 17, 1996
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Booklet from The Paterson Museum Exhibit,
+        <title localtype="simple" render="italic">
+         <part>
+          'As I Was Saying...' Reflections of African Americans
+                              in Paterson
+         </part>
+        </title>
+        . Many of the same informants had also contributed
+                           to the Working in Paterson project.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        111
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Cianci Street: A Neighborhood
+                              In Transition
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        By June Avignone, Photographs by Ellen Denuto. Paterson, New Jersey:
+                           Italian Girls Press, 1996.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        112
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Downtown Paterson
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Edited by June Avignone. Charleston, South Carolina: Arcadia Publishing,
+                           1999: Includes an essay by Tom Carroll.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        113
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Mary Ellen
+         </part>
+        </title>
+        Newsletters
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Newsletter of the Alexander Hamilton National Memorial. January 2001,
+                           March 2001, April 2001, June 2001, and July 2001. 6 newsletters.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        114
+       </container>
+       <unittitle>
+        Articles
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Allee, Rod, "A step at last to dignify the Great Falls,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , March 14,
+                           2001.
+       </p>
+       <p>
+        Austin, Charles, "A Bit of Paterson's Past Glory Debuts at the Library of
+                           Congress,"
+        <title localtype="simple" render="italic">
+         <part>
+          NorthJersey.com
+         </part>
+        </title>
+        , 2002.
+       </p>
+       <p>
+        Boehlert, Eric; Hansen, Suzy; and Stark, Jeff, "Our fight is for
+                           Jerusalem, not New York,"
+        <title localtype="simple" render="italic">
+         <part>
+          Salon.com News
+         </part>
+        </title>
+        , 2001.
+       </p>
+       <p>
+        Casey, Michael, "Downtown dilemma,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , March 8, 2001.
+       </p>
+       <p>
+        Cichowski, John, "Hamilton honored at Great Falls gathering,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , February 20,
+                           2001.
+       </p>
+       <p>
+        "Lautenberg Library Unveiled at Labor Museum,"
+        <title localtype="simple" render="italic">
+         <part>
+          Italian Voice
+         </part>
+        </title>
+        , Vol. 69, No. 19, p. 6, October
+                           5, 2000.
+       </p>
+       <p>
+        Llorente, Elizabeth, "Painting A New Portrait of New Jersey,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , October 24,
+                           1999.
+       </p>
+       <p>
+        "Many Faces, One Family: Portraits of Our City," Fall 1996.
+       </p>
+       <p>
+        "New Online: Working in Paterson,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Gazette
+         </part>
+        </title>
+        , May 10, 2002.
+       </p>
+       <p>
+        Pfaff, Leslie Garisto, "Silk City Saga,"
+        <title localtype="simple" render="italic">
+         <part>
+          New Jersey Monthly
+         </part>
+        </title>
+        , December 2001.
+       </p>
+       <p>
+        Vekshin, Alison, "Paterson national park bid on hold,"
+        <title localtype="simple" render="italic">
+         <part>
+          The Record
+         </part>
+        </title>
+        , March 14,
+                           2001.
+       </p>
+       <p>
+        Vekshin, Alison,"House Oks Great Falls park study,"
+        <title localtype="simple" render="italic">
+         <part>
+          State News Service
+         </part>
+        </title>
+        , May
+                           10, 2001.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        115
+       </container>
+       <unittitle>
+        Paterson Museum Coloring Book
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          The Story of Paterson
+         </part>
+        </title>
+        coloring book. 20 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        116
+       </container>
+       <unittitle>
+        Paterson Museum Pamphlets
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          The History of Paterson's Silk
+                              Industry 1839-1945
+         </part>
+        </title>
+        ;
+       </p>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          The Story of Wright
+                              Aeronautics
+         </part>
+        </title>
+        ;
+       </p>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          John Philip Holland
+                              1841-1914
+         </part>
+        </title>
+        ;
+       </p>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          A Brief History of The Society
+                              for Establishing Useful Manufactures
+         </part>
+        </title>
+        ;
+       </p>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          Thomas Rogers
+                           Building
+         </part>
+        </title>
+        ;
+       </p>
+       <p>
+        <title localtype="simple" render="italic">
+         <part>
+          A Brief History of the Great
+                              Falls
+         </part>
+        </title>
+        ; 6 pamphlets.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folder">
+       117
+      </container>
+      <unittitle>
+       <title localtype="simple" render="italic">
+        <part>
+         Squeaky Chalk and Other Fun
+                           Things To Draw (and do) When There is Nothing To Do!
+        </part>
+       </title>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       By Joy Sikorski. New York: Crown Publishers, 2000. The author is from
+                        Paterson and her work appears in the
+       <title localtype="simple" render="italic">
+        <part>
+         Mary Ellen
+        </part>
+       </title>
+       newsletters.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Online Presentation
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        118
+       </container>
+       <unittitle>
+        AFCWIP Batch 1-35mm black-and-white negatives
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        CD-ROM inventory sheets. 100 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        119-121
+       </container>
+       <unittitle>
+        AFCWIP Batch 2-Color slides (3 folders)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        CD-ROM inventory sheets. 300 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        122
+       </container>
+       <unittitle>
+        Audio conversion procedures
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Information on digitizing sound recordings. 13 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        123
+       </container>
+       <unittitle>
+        CARROLL, Tom
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Carroll's selection, from his audio logs, of possible online excerpts.
+                           181 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        124
+       </container>
+       <unittitle>
+        Cataloging
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Subject terms for cataloging Working in Paterson photographs (I and II);
+                           notes from cataloging meetings; list of events and themes from the
+                           Working in Paterson collection. 59 pages.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        125
+       </container>
+       <unittitle>
+        Copyright Permission Request
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Copyright permission correspondence for Paterson postcard used in online
+                           presentation. 11 pages.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <container localtype="folder">
+       126
+      </container>
+      <unittitle>
+       Correspondence
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence announcing the Working in Paterson online presentation
+                        project. 11 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       127
+      </container>
+      <unittitle>
+       Framework
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Drafts and edited versions of text for Working in Paterson online
+                        presentation; correspondence regarding framework; notes from design
+                        meeting. 36 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       128
+      </container>
+      <unittitle>
+       LEVITAS, Susan
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "WIP Audio Tape Inventory" for audio collection; fields include: tape
+                        number, fieldworker, informant, recording date, subject matter, recording
+                        format, recording length. Selections, from her audio logs, of possible
+                        online excerpts. 94 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       129
+      </container>
+      <unittitle>
+       McCARL, Robert
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "WIP Audio Tape Inventory" for audio collection. 51 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       130
+      </container>
+      <unittitle>
+       Announcement about online presentation
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       3 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       131
+      </container>
+      <unittitle>
+       Permission Forms, First Request (Irradiated
+                        Originals)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Due to the fragility of the irradiated originals, please refer to the
+                        photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       132
+      </container>
+      <unittitle>
+       Permission Forms, Second Request (Irradiated
+                        Originals)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Due to the fragility of the irradiated originals, please refer to the
+                        photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       133
+      </container>
+      <unittitle>
+       Permission Forms Received (Irradiated Originals)
+                        (A-L)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Due to the fragility of the irradiated originals, please refer to the
+                        photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       134
+      </container>
+      <unittitle>
+       Permission Forms Received (Irradiated Originals)
+                        (M-Sch)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Due to the fragility of the irradiated originals, please refer to the
+                        photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <container localtype="folder">
+       135
+      </container>
+      <unittitle>
+       Permission Forms Received (Irradiated Originals)
+                        (Se-Z)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Due to the fragility of the irradiated originals, please refer to the
+                        photocopies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       136
+      </container>
+      <unittitle>
+       Permission Forms, First Request (Photocopies)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       137
+      </container>
+      <unittitle>
+       Permission Forms, Second Request (Photocopies)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       138
+      </container>
+      <unittitle>
+       Permission Forms Received (Photocopies) (A-L)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       139
+      </container>
+      <unittitle>
+       Permission Forms Received (Photocopies) (M-S)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       140
+      </container>
+      <unittitle>
+       Permission Forms Received (Photocopies) (T-Z)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <container localtype="folder">
+       141
+      </container>
+      <unittitle>
+       Plan for Digital Collections, 1996-2000
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence, proposals, budget. 16 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       142
+      </container>
+      <unittitle>
+       Planning
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Outline, status reports, task lists, ephemera, meeting notes, planning
+                        template, questions and answers, budget. 38 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       143
+      </container>
+      <unittitle>
+       TAYLOR, David
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Table - "WIP Audio Tape Inventory" for Taylor's audio collection, fields
+                        include: tape number, fieldworker, informant, recording date, subject
+                        matter, recording format, recording length. Taylor's selections, from his
+                        audio logs, of possible online excerpts. 87 pages.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Note: Sound recordings originally housed in boxes are stored in a separate
+                  location. Duplicate copies, preservation copies, and reference copies of the
+                  original sound recordings are available on audiocassette tapes. Please contact
+                  Folklife Reading Room reference staff for descriptive lists of these copies.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Audiocassettes, Originals
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       LLOYD, Timothy: WIP-TL-A001 through WIP-TL-A002
+      </p>
+      <p>
+       McCARL, Robert: WIP-RM-A001 through WIP-RM-A011
+      </p>
+      <p>
+       TAYLOR, David: WIP-DT-A001 through WIP-DT-A028
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Digital Audio Tapes
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       CARROLL, Tom: WIP-TDC-A001 through WIP-TDC-A027
+      </p>
+      <p>
+       LEVITAS, Susan: WIP-SL-A001 through WIP-SL-A022
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Black-and-White Negatives
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        15
+       </container>
+       <unittitle>
+        A - Z
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        CARROLL, Tom: WIP-TDC-B001 through WIP-TDC-B012
+       </p>
+       <p>
+        COOPER, Martha: WIP-MC-B001 through WIP-MC-B036
+       </p>
+       <p>
+        LEVITAS, Susan: WIP-SL-B001 through WIP-SL-B010
+       </p>
+       <p>
+        LLOYD, Timothy: WIP-TL-B001
+       </p>
+       <p>
+        McCARL, Robert: WIP-RM-B001 through WIP-RM-B014
+       </p>
+       <p>
+        TAYLOR, David: WIP-DT-B001 through WIP-DT-B004
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Black-and-White Negatives Contact Sheet Binders
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="Binder">
+        1
+       </container>
+       <unittitle>
+        Contact Sheet Binder 1
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        CARROLL, Tom: WIP-TDC-B001 through WIP-TDC-B012
+       </p>
+       <p>
+        LEVITAS, Susan: WIP-SL-B001 through WIP-SL-B010
+       </p>
+       <p>
+        LLOYD, Timothy: WIP-TL-B001
+       </p>
+       <p>
+        McCARL, Robert: WIP-RM-B001 through WIP-RM-B014
+       </p>
+       <p>
+        TAYLOR, David: WIP-DT-B001 through WIP-DT-B004
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="Binder">
+        2
+       </container>
+       <unittitle>
+        Contact Sheet Binder 2
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        COOPER, Martha: WIP-MC-B001 through WIP-MC-B036
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Color Slides
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        16-17
+       </container>
+       <unittitle>
+        CARROLL, Tom: WIP-TC-C001 through WIP-TC-C025
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        18-26
+       </container>
+       <unittitle>
+        COOPER, Martha: WIP-MC-C001 through WIP-MC-C114
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        26-27
+       </container>
+       <unittitle>
+        LEVITAS, Susan: WIP-SL-C001 through WIP-SL-C015
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        28
+       </container>
+       <unittitle>
+        LLOYD, Timothy: WIP-TL-C001 through WIP-TL-C003
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        28-30
+       </container>
+       <unittitle>
+        McCARL, Robert: WIP-RM-C001 through WIP-RM-C027
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        30
+       </container>
+       <unittitle>
+        TAYLOR, David: WIP-DT-C001 through WIP-DT-C008
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Additional Graphic Material
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        38
+       </container>
+       <unittitle>
+        Duplicate Slides [Folders 1 through 3] and Selected color photocopies of
+                        photographic prints and black-and-white photographs by COOPER, Martha.
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: Electronic Media
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Administrative
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        1/1
+       </container>
+       <unittitle>
+        Zip Disk
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Graphic Materials Database (Access): Fields include: ID number, frame,
+                        format, photographer, title, created/published, event, people in photo,
+                        location, notes, and repository.
+       </p>
+       <p>
+        Sound Recordings Database (Access): Fields include: audio number, audio
+                        log, informant, date, location, event, subject, format/quantity, and
+                        length. 23 pages.
+       </p>
+       <p>
+        Contents of Working in Paterson Project Collection diskettes:
+       </p>
+       <p>
+        CARROLL, Tom: fieldnotes, final report, black and white photo logs, color
+                        photo logs, audio logs.
+       </p>
+       <p>
+        COOPER, Martha: color photo logs
+       </p>
+       <p>
+        LEVITAS, Susan: Fieldnotes, black and white photo logs, color photo logs,
+                        audio logs, final report
+       </p>
+       <p>
+        McCARL, Robert: (Information is unavailable. See hard copies.)
+       </p>
+       <p>
+        TAYLOR, David: fieldnotes, final report, black and white photo logs,
+                        color photo logs, audio logs (Information is not complete. See hard
+                        copies.)
+       </p>
+       <p>
+        Working in Paterson Report
+       </p>
+       <p>
+        Working in Paterson Group Level Database (Access).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       CD-ROMs
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        31
+       </container>
+       <unittitle>
+        JJT Image Deliverables, Batch 1
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        AFCWIP001 through AFCWIP019, AFCWIP033
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        32-37
+       </container>
+       <unittitle>
+        JJT Image Deliverables, Batch 2
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        AFCWIP020 through AFCWIP177
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        38
+       </container>
+       <unittitle>
+        Diskettes
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        29 diskettes containing researchers' fieldwork, photo logs, slide logs,
+                        audio logs, and final report.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series V: Artifacts and Ephemera
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <container localtype="box">
+       39
+      </container>
+      <unittitle>
+       Oversize
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/51a
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          The Mill Street
+                           Forward
+         </part>
+        </title>
+        , June 1987, Vol. 1, No. 1.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/51b
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          The Mill Street
+                           Forward
+         </part>
+        </title>
+        , Spring/Summer 1990, Vol. 1, No. 5.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/144
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          A Keepsake of
+                        Memories
+         </part>
+        </title>
+        . A booklet honoring the 125th anniversary of St.
+                        Joseph's Hospital and Medical Center.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/145
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Building Our Tradition of
+                           Excellence
+         </part>
+        </title>
+        . 125th anniversary commemorative booklet; a
+                        keepsake of memories- a history of St. Joseph's.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/146
+       </container>
+       <unittitle>
+        Hand-held fan, courtesy of Carnie P. Bragg Funeral Homes,
+                        Inc.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/147
+       </container>
+       <unittitle>
+        I.L.G.W.U. (International Ladies' Garment Workers' Union)
+                        sponge.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/148
+       </container>
+       <unittitle>
+        I.L.G.W.U. (International Ladies' Garment Workers' Union)
+                        button.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/149
+       </container>
+       <unittitle>
+        I.L.G.W.U. scarf
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Polyester scarf, 32" x 32", with International Ladies' Garment Workers'
+                        Union logo. Donated to the Working in Paterson Project by I.L.G.W.U.
+                        member and retired garment worker Florence DiStefano of Paterson, N.J.
+                        1994.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/150
+       </container>
+       <unittitle>
+        Textile Sample 1
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Sample from Joseph Teshon, Inc. Color: Apricot.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/151
+       </container>
+       <unittitle>
+        Textile Sample 2
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Sample from Joseph Teshon, Inc. Color: Shell #242.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/152
+       </container>
+       <unittitle>
+        Textile Sample 3
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Sample from Joseph Teshon, Inc. Color: Rust and Yellow.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/153
+       </container>
+       <unittitle>
+        Textile Sample 4
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Sample form Joseph Teshon, Inc. Color: White and Blue.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/154
+       </container>
+       <unittitle>
+        Photograph
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        1 photograph of Great Falls in Peterson, New Jersey. March 14, 1936.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/155
+       </container>
+       <unittitle>
+        <title localtype="simple" render="italic">
+         <part>
+          Traveling Small
+                           Distances
+         </part>
+        </title>
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        A booklet of poetry by June Avignone. Photographs by Ellen Denuto. 1993.
+                        Printed by Paterson Museum.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        39/156
+       </container>
+       <unittitle>
+        Street map of Paterson, Cliffton, and Passaic, New
+                        Jersey
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Published by Hagstrom. No date.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

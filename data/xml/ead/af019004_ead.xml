@@ -1,0 +1,2092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019004" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019004
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Maggie Holtzberg collection
+    </titleproper>
+    <subtitle>
+     AFC 2018/013
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Charles Hosale
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2019-05">
+     May 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2018655328" show="new">
+       https://lccn.loc.gov/2018655328
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-05">
+     May 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Charles Hosale
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Maggie Holtzberg collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1972/2002">
+     1972-2002
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1983/1992">
+     1983-1992
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1972/2002" unitdatetype="inclusive">
+    1972-2002
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1983/1992" unitdatetype="bulk">
+    1983-1992
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2018/013
+   </unitid>
+   <origination label="Creator">
+    <persname>
+     <part>
+      Holtzberg, Maggie, 1955-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 1100 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    sound recordings: 21 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    graphic images: 31 slides : color ; 35 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    graphic images: 108 photographic prints and negatives :
+               black and white, color ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    manuscripts: 1.2 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    electronic media: 16 computer files (word perfect and .tif) on 1 floppy disk ; 5.25 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The Maggie Holtzberg collection
+            documents, through interviews and photographs, the occupational folklife and craft of
+            hot metal typesetters, compositors, and printers. Holtzberg interviewed skilled
+            craftsmen and women who experienced the disruptive technology and transition in the
+            printing industry from mechanical typesetting, "hot metal," to computer-aided
+            photocomposition or "cold type." She interviewed retired printers residing at the Union
+            Printers Home in Colorado Springs, Colorado, and craft printers at Heritage Printers in
+            Charlotte, North Carolina, among others. Interviews were conducted between 1983-1988.
+            The collection includes the production files for Holtzberg's book, The Lost World
+               of the Craft Printer (University of Illinois Press, 1992); correspondence
+            with folklorists Archie Green and Judith McCulloh, and notes from meetings with
+            Holtzberg's dissertation advisors at the University of Pennsylvania -- Henry Glassie,
+            Ray Birdwhistell, and with Ken Goldstein, whom she interviewed about his experience in
+            the printing industry. The collection also includes two journals written while Maggie
+            Holtzberg was a student from 1972-1973 at the Trailside Country School, based in
+            Killington, Vermont. The Trailside Country School was a traveling high school run by
+            Michael Cohen and Diana Cohen that taught cultural documentation. The notebooks include
+            diary entries, song lyrics, music transcription, and ephemera from locations throughout
+            the United States where the students traveled. Photographs include the 46 illustrations
+            for Holtzberg's book, 31 slides, plus snapshots from Holtzberg's fieldwork with printers
+            and a few from the Trailside Country School. One of the interviews with printers was
+            conducted by folklorist Jan Rosenberg.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20190702072644.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Goldstein, Kenneth S., 1927-1995--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Green, Archie--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Holtzberg, Maggie, 1955-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Holtzberg, Maggie, 1955-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McCulloh, Judith, 1935-2014--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rosenberg, Jan, 1955-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Schlesinger, Carl.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Trailside Country School.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Union Printers Home.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      High school students--United States--Diaries.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Printers--United States--Folklore.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Printers--United States--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Printing industry--Employees--Effect of technological innovations on.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Printing industry--Social aspects--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Diaries.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts for publication.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Transcripts.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is arranged into two series: 1: Interviews; 2: Manuscripts,
+               correspondence, and production files.
+   </p>
+   <p>
+    Series 1: The Interviews series consists of a few folders at the series level and
+               19 subseries arranged alphabetically. The "Union Printers Home" subseries is divided
+               into eight further subseries, arranged in their original chronological order. The
+               records for the "Interviews" series were originally organized in roughly
+               chronological order, and stored together in a three ring binder, except for the
+               records in the "Union Printers Home" subseries. Those papers were originally
+               organized in loose folders. The order of items within all folders have been
+               retained.
+   </p>
+   <p>
+    Series 2: The Manuscripts, correspondence, and production files series consists of
+               folders and two subseries, "The Lost World of the Craft Printer" and "Trailside
+               Country School," arranged alphabetically. The records in this series were originally
+               in unordered folders, except for the two "Dissertation Research" folders, which were
+               collected in one 3-ring binder. The original order of items and the folders titles
+               (where they existed) have been retained.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Maggie Holtzberg; 2018.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Charles Hosale.
+   </p>
+   <p>
+    The 5.25" floppy was reformatted as a .img disk image and access copies of the files
+               were extracted. The image and access copies are available by request in the Folklife
+               Reading Room.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Holtzberg was a student of the Trailside Country School. Two interviews created by
+               the students of the school comprise another collection:
+    <ref actuate="onrequest" href="http://lccn.loc.gov/2006700239" show="new">
+     School
+                  interviews from Maine and Pennsylvania, 1975, collected by Diana Cohen and
+                  students of the Trailside Country School (AFC 1977/019)
+    </ref>
+    .
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+               request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Maggie Holtzberg collection (AFC 2018/013), Archive of Folk Culture, American
+               Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Holtzberg-Call, Maggie.
+    <title>
+     <part>
+      The Lost World of the Craft Printer
+     </part>
+    </title>
+    (Urbana
+            and Chicago: University of Illinois Press, 1992).
+    <ref actuate="onrequest" href="http://lccn.loc.gov/90024004" show="new">
+     http://lccn.loc.gov/90024004
+    </ref>
+    .
+   </bibref>
+   <bibref>
+    Cohen, Michael J., 1929-.
+    <title>
+     <part>
+      Our classroom is wild America; trailside education
+               in action-encounters with self, society, and nature in America's first ecology
+               expedition school
+     </part>
+    </title>
+    (Jericho, N.Y., Exposition Press, 1974).
+    <ref actuate="onrequest" href="http://lccn.loc.gov/74076019" show="new">
+     http://lccn.loc.gov/74076019
+    </ref>
+    .
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Dr. Maggie Holtzberg received her PhD in folklore and folklife from the University of
+            Pennsylvania in 1987. Prior to that she gained a BA in ethnomusicology from Wesleyan
+            University (1979). She was also a student of the traveling Trailside Country School from
+            1972-1973. She has written and published multiple books, including
+    <ref actuate="onrequest" href="http://lccn.loc.gov/2008920539" show="new">
+     <emph render="italic">
+      Keepers
+                  of Tradition: Art and Folk Heritage in Massachusetts
+     </emph>
+     (2008)
+    </ref>
+    ,
+    <ref actuate="onrequest" href="http://lccn.loc.gov/90024004" show="new">
+     <emph render="italic">
+      The Lost World of the Craft Printer
+     </emph>
+     (1992)
+    </ref>
+    , and
+    <title>
+     <part>
+      Portrait of Spirit: One Story at a Time
+     </part>
+    </title>
+    (1996). She has also produced
+            and directed documentaries, recordings, and public events, including the film
+    <ref actuate="onrequest" href="http://lccn.loc.gov/97517897" show="new">
+     <emph render="italic">
+      Gandy
+                  Dancers
+     </emph>
+     (1994)
+    </ref>
+    and the exhibition
+    <title>
+     <part>
+      Keepers of Tradition:
+               Art and Folk Heritage
+     </part>
+    </title>
+    (2008). In addition to serving on and leading state,
+            national, and regional art and folklore councils and agencies, Holtzberg has managed and
+            directed folklife programs in both Massachusetts and Georgia.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Maggie Holtzberg collection documents, through interviews and photographs, the
+            occupational folklife and craft of hot metal typesetters, compositors, and printers.
+            Holtzberg interviewed skilled craftsmen and women who experienced the disruptive
+            technology and transition in the printing industry from mechanical typesetting, "hot
+            metal," to computer-aided photocomposition or "cold type." She interviewed retired
+            printers residing at the Union Printers Home in Colorado Springs, Colorado and craft
+            printers at Heritage Printers in Charlotte, North Carolina, among others. Interviews
+            were conducted between 1983-1988. The collection includes the production files for
+            Holtzberg's book,
+    <title>
+     <part>
+      The Lost World of the Craft Printer
+     </part>
+    </title>
+    (University of
+            Illinois Press, 1992); correspondence with folklorists Archie Green and Judith McCulloh,
+            and notes from meetings with Holtzberg's dissertation advisors at the University of
+            Pennsylvania -- Henry Glassie, Ray Birdwhistle, and with Ken Goldstein, whom she
+            interviewed about his experience in the printing industry. The collection also includes
+            two journals written while Maggie Holtzberg was a student from 1972-1973 at the
+            Trailside Country School, based in Killington, Vermont. The Trailside Country School was
+            a traveling high school run by Michael Cohen and Diana Cohen that taught cultural
+            documentation. The notebooks include diary entries, song lyrics, music transcription,
+            and ephemera from locations throughout the United States where the students traveled.
+            Photographs include the 46 illustrations for Holtzberg's book, 31 slides, plus snapshots
+            from Holtzberg's fieldwork with printers and a few from the Trailside Country School.
+            One of the interviews with printers was conducted by folklorist Jan Rosenberg.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Interviews,
+      <date localtype="inclusive" normal="1983/1992">
+       1983-1992
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1983/1992" unitdatetype="inclusive">
+      1983-1992
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Interviews with craftsmen concerning their experiences in the printing industry,
+                  typically regarding the shift from "hot metal" mechanical typesetting to
+                  "cold-type" computer-aided photocomposition. Earlier interviews were conducted as
+                  part of Holtzberg's dissertation research, and those created after 1987 were
+                  conducted as part of her monograph
+      <title>
+       <part>
+        The Lost World of the Craft
+                     Printer
+       </part>
+      </title>
+      . Some interviews were not recorded. In those cases Holtzberg
+                  wrote notes and summaries. Some recorded interviews do not have full
+                  transcripts.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interview summaries,
+       <date>
+        1983-1986
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1983-1986
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Notes from interviews conducted as part of dissertation, does not include notes
+                     for interviews conducted after 1986.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Greer Allen and Sue Allen interview,
+       <date localtype="inclusive" normal="1986-02-22/1986-02-22">
+        1986
+                        February 22
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986-02-22/1986-02-22" unitdatetype="inclusive">
+       1986
+                        February 22
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR01
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Ernest Boyland interview, Little Rock, Arkansas,
+       <date localtype="inclusive" normal="1992-08-07/1992-08-07">
+        1992 August 7
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1992-08-07/1992-08-07" unitdatetype="inclusive">
+       1992 August 7
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interviewed by Jan Rosenberg for the Texarkana Regional Arts and Humanities
+                     Council (TRAHC) Folklife Program. Interview was not created by Holtzberg as
+                     part of her research.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR02 - SR03
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recordings on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Dan Burns interview,
+       <date localtype="inclusive" normal="1985-09-12/1985-09-12">
+        1985 September 12
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-09-12/1985-09-12" unitdatetype="inclusive">
+       1985 September 12
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR04
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Bob Culp interviews, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1985-06-21/1987-06-30">
+        1985 June 21 - 1986
+                        March 14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-06-21/1987-06-30" unitdatetype="inclusive">
+       1985 June 21 - 1986
+                        March 14
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR05
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette,
+        <date localtype="inclusive" normal="1986-03-14/1986-03-14">
+         1986 March 14
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-03-14/1986-03-14" unitdatetype="inclusive">
+        1986 March 14
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript and interview notes,
+        <date localtype="inclusive" normal="1985-06-21/1987-06-30">
+         1985 June 21 - 1986 March 14
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-06-21/1987-06-30" unitdatetype="inclusive">
+        1985 June 21 - 1986 March 14
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscripts; 4 color photographic
+                           prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes notes from interviews and interactions with Culp conducted between
+                        June 1985 and June 1987, in addition to a transcript for the recorded March
+                        14th 1986 interview. Photographs are four portraits likely by Maggie
+                        Holtzberg.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Karen Gaines interviews, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1984-06/1984-10-05">
+        1985 June 21 - 1986 March
+                        14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06/1984-10-05" unitdatetype="inclusive">
+       1985 June 21 - 1986 March
+                        14
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview Notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Kenneth S. Goldstein interview, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1984-11-02/1984-11-02">
+        1984 November
+                        2
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-02/1984-11-02" unitdatetype="inclusive">
+       1984 November
+                        2
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR06
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Carl Gross interview, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1983-11-02/1986-02-17">
+        1983 November 2 and
+                        1986 February 17
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-11-02/1986-02-17" unitdatetype="inclusive">
+       1983 November 2 and
+                        1986 February 17
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Dick Harrison interview, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1983-11-23/1983-11-23">
+        1983 November
+                        23
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-11-23/1983-11-23" unitdatetype="inclusive">
+       1983 November
+                        23
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR07
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Heritage Printers interviews, Charlotte, North Carolina,
+       <date localtype="inclusive" normal="1986-11-13/1986-12">
+        1986 November 13-14 and
+                        1986 December
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986-11-13/1986-12" unitdatetype="inclusive">
+       1986 November 13-14 and
+                        1986 December
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recordings from a trip to Heritage Printers, which was a fully operating hot
+                     metal print shop in Charlotte, North Carolina. Includes interviews with Bob
+                     Earnhardt, Bill (Earl) Loftin, Rick Newell, and Earl Powell.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR08 - SR10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recordings on cassette,
+        <date localtype="inclusive" normal="1986-11-13/1986-11-14">
+         1986 November 13-14
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-11-13/1986-11-14" unitdatetype="inclusive">
+        1986 November 13-14
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript,
+        <date localtype="inclusive" normal="1986-12/1986-12">
+         1986
+                        December
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-12/1986-12" unitdatetype="inclusive">
+        1986
+                        December
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Transcript is Holtzberg's first-person narrative recounting of her
+                        experience visiting Heritage Printers in Charlotte, North Carolina, and
+                        interviewing the employees.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Notes and research materials
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Ed Jacob and Dick Harrison interview, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1983-10-24/1983-10-24">
+        1983
+                        October 24
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-10-24/1983-10-24" unitdatetype="inclusive">
+       1983
+                        October 24
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Ed Jacob interview, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1983-11-30/1983-11-30">
+        1983 November
+                        30
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-11-30/1983-11-30" unitdatetype="inclusive">
+       1983 November
+                        30
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recording on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript and interview notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       "John C. Spencer Auction," Chester, Pennsylvania,
+       <date localtype="inclusive" normal="1988-02-01/1988-02-03">
+        1988
+                        February 1-3
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-02-01/1988-02-03" unitdatetype="inclusive">
+       1988
+                        February 1-3
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       John Spencer Co. was a print shop that had been in business since 1864. When
+                     the company closed, Holtzberg attended the auction of its assets. Included are
+                     public notices of the auction, Holtzberg's notes, photographs, and recordings
+                     of the event, and one printing industry journal article reporting on the
+                     event.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Item_ID">
+        AFC 2018/013: SR12 - SR 14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sound recordings on cassette
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+       <physdesc encodinganalog="300">
+        manuscripts; 22 photographic
+                           prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes materials promoting and documenting the auction and photos of the
+                        workshop and auction.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Samuel F. Kleinman interview,
+       <date localtype="inclusive" normal="1983-11-18/1983-11-18">
+        1983 November
+                        18
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-11-18/1983-11-18" unitdatetype="inclusive">
+       1983 November
+                        18
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Packard Press tour, Philadelphia, Pennsylvania,
+       <date localtype="inclusive" normal="1984-10-31/1984-10-31">
+        1984 October
+                        31
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-10-31/1984-10-31" unitdatetype="inclusive">
+       1984 October
+                        31
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Bertram A. Powers interview, New York, New York,
+       <date localtype="inclusive" normal="1984-12-28/1985-11-01">
+        1984 December 28 and
+                        1985 November 1
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-12-28/1985-11-01" unitdatetype="inclusive">
+       1984 December 28 and
+                        1985 November 1
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes subject file about Mr. Powers, and one letter from him.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       "Union Printers Home" interviews, Colorado Springs, Colorado,
+       <date localtype="inclusive" normal="1988-02-01/1988-02-05">
+        1988
+                        February 1-5
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-02-01/1988-02-05" unitdatetype="inclusive">
+       1988
+                        February 1-5
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documentation and recordings of Holtzberg's trip to the Union Printers Home,
+                     from February 1st to 5th 1988. The Union Printers Home, founded in 1892, was a
+                     low cost retirement facility located in Colorado Springs, Colorado, for members
+                     of the International Typographical Union. Series includes notes, recordings,
+                     and photographs from Holtzbergs visit, and ephemera and research materials
+                     documenting the Home. Holtzberg's interview with Tony Donagy was not recorded,
+                     and materials for it are contained in the "Transcripts" and "Interview Notes
+                     and Research Materials" folders.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcripts
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Transcripts for all the recordings in the series except the "Museum Tour."
+                        Also includes the transcript for Holtzberg's interview with Tony Donagy,
+                        which was not recorded.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/19
+       </container>
+       <unittitle encodinganalog="245$a">
+        Interview notes and research
+                        materials
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Interview notes for all the recordings in the series. Also includes the
+                        notes for Holtzberg's interview with Tony Donagy, which was not
+                        recorded.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photographs and slides
+       </unittitle>
+       <physdesc encodinganalog="300">
+        10 photographic prints; 31 35mm
+                           slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Neil Fuller,
+        <date localtype="inclusive" normal="1988-02-01/1988-02-02">
+         1988 February
+                           1-2
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-01/1988-02-02" unitdatetype="inclusive">
+        1988 February
+                           1-2
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR15
+        </container>
+        <unittitle encodinganalog="245$a">
+         Interview sound recording on cassette,
+         <date localtype="inclusive" normal="1988-02-01/1988-02-01">
+          1988 February 1
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-02-01/1988-02-01" unitdatetype="inclusive">
+         1988 February 1
+        </unitdate>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR16
+        </container>
+        <unittitle encodinganalog="245$a">
+         "Museum Tour" sound recording on cassette,
+         <date localtype="inclusive" normal="1988-02-02/1988-02-02">
+          1988 February 2
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-02-02/1988-02-02" unitdatetype="inclusive">
+         1988 February 2
+        </unitdate>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Jim Spurlock and Frank Koncel,
+        <date localtype="inclusive" normal="1988-02-02/1988-02-02">
+         1988 February 2
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-02/1988-02-02" unitdatetype="inclusive">
+        1988 February 2
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR15 - SR16
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recordings on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Joe Malady,
+        <date localtype="inclusive" normal="1988-02-03/1988-02-03">
+         1988 February
+                           3
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-03/1988-02-03" unitdatetype="inclusive">
+        1988 February
+                           3
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR17
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recording on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Amelia Story and Hazel Orff,
+        <date localtype="inclusive" normal="1988-02-03/1988-02-03">
+         1988 February 3
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-03/1988-02-03" unitdatetype="inclusive">
+        1988 February 3
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR18
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recording on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        "Birthday Party,"
+        <date localtype="inclusive" normal="1988-02-03/1988-02-03">
+         1988 February
+                           3
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-03/1988-02-03" unitdatetype="inclusive">
+        1988 February
+                           3
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes interviews with Phil Weinstein and Fred Zaner
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR19
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recording on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Filadelphio Valdez,
+        <date localtype="inclusive" normal="1988-02-05/1991-09-21">
+         1988 February 5 - 1991 September 21
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-05/1991-09-21" unitdatetype="inclusive">
+        1988 February 5 - 1991 September 21
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR19
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recording on cassette,
+         <date localtype="inclusive" normal="1988-02-05/1988-02-05">
+          1988 February 5
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-02-05/1988-02-05" unitdatetype="inclusive">
+         1988 February 5
+        </unitdate>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="Box-Folder">
+         1/21
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence,
+         <date localtype="inclusive" normal="1988-04-03/1991-09-21">
+          1988 April 3 -
+                              1991 September 21
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-04-03/1991-09-21" unitdatetype="inclusive">
+         1988 April 3 -
+                              1991 September 21
+        </unitdate>
+        <physdesc encodinganalog="300">
+         manuscripts; 6 photographic
+                              prints
+        </physdesc>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Sandy Bevis,
+        <date localtype="inclusive" normal="1988-02-05/1988-02-05">
+         1988 February
+                           5
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-05/1988-02-05" unitdatetype="inclusive">
+        1988 February
+                           5
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR20
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recording on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Clifford Gallant,
+        <date localtype="inclusive" normal="1988-02-05/1988-02-05">
+         1988 February
+                           5
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02-05/1988-02-05" unitdatetype="inclusive">
+        1988 February
+                           5
+       </unitdate>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: SR20 - SR21
+        </container>
+        <unittitle encodinganalog="245$a">
+         Sound recordings on cassette
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Barnie Weeks interview, Montgomery, Alabama,
+       <date localtype="inclusive" normal="1988-12-12/1988-12-12">
+        1988 December
+                        12
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-12-12/1988-12-12" unitdatetype="inclusive">
+       1988 December
+                        12
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Transcript
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous Short Interviews - Notes,
+       <date localtype="inclusive" normal="1986-01-31/1986-02-21">
+        1986 January 31 - 1986 February
+                     21
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986-01-31/1986-02-21" unitdatetype="inclusive">
+       1986 January 31 - 1986 February
+                     21
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes notes from Holtzberg's interviews and interactions with Rudy De
+                     Felice, Bill Glick, Richard Grasby, and John Peckham.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Manuscripts, correspondence, and
+                  production files,
+      <date localtype="inclusive" normal="1972/2002">
+       1972-2002
+      </date>
+      ,
+      <date localtype="bulk" normal="1983/1994">
+       Bulk: 1983-1994
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1972/2002" unitdatetype="inclusive">
+      1972-2002
+     </unitdate>
+     <unitdate normal="1983/1994" unitdatetype="bulk">
+      Bulk: 1983-1994
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Series primarily contains records, manuscripts, and research materials created or
+                  collected by Holtzberg related to her study of "hot metal" typesetting during her
+                  PhD research in folklore and folklife and the publication of her manuscript "The
+                  Lost World of the Craft Printer." The major subseries is "The Lost World of the
+                  Craft Printer," which contains production files and correspondence with the
+                  University of Illinois Press concerning the editing and publication of that book.
+                  A unique subseries otherwise unrelated to the other records in the collection is
+                  Holtzberg's journals from her time as a high school student at the Trailside
+                  Country School in 1972-1973.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/1-2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dissertation research,
+       <date localtype="inclusive" normal="1983/1987">
+        1983-1987
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1987" unitdatetype="inclusive">
+       1983-1987
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Holtzberg's correspondence and notes from interactions with advisors, including
+                     Henry Glassie, Ray Birdwhistell, Dan Traister, and Alastair Reid. Also includes
+                     readings, her notes on methodology, and drafts of papers and articles.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/3-4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Archie Green - correspondence,
+       <date localtype="inclusive" normal="1987/1994">
+        1987-1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1987/1994" unitdatetype="inclusive">
+       1987-1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes some correspondence with others, including Alastair Reid and Judith
+                     McCulloh, and letters which Archie Green wrote to others on behalf of
+                     Holtzberg.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       "The Lost World of the Craft Printer,"
+       <date localtype="inclusive" normal="1986/2002">
+        1986-2002
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986/2002" unitdatetype="inclusive">
+       1986-2002
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Records concerning the contracting, editing, production, and release of
+                     Holtzberg's 1992 manuscript,
+       <title>
+        <part>
+         The Lost World of the Craft Printer
+        </part>
+       </title>
+       for the University of Illinois Press. The correspondence in the subseries
+                     includes some additional information about Holtzberg's research interview
+                     subjects.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dust jacket,
+        <date localtype="inclusive" normal="1992/1992">
+         1992
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1992/1992" unitdatetype="inclusive">
+        1992
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/6-7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Illustrations, line art, and photos,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        56 photographic prints; 3 4x5 black and
+                           white negatives; 4 35mm negative strips; 4
+                        illustrations
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Materials and layout mockups for a majority of the illustrations and
+                        photographs in
+        <title>
+         <part>
+          The Lost World of the Craft Printer
+         </part>
+        </title>
+        . Includes
+                        prints of some of the slides in the Union Printers Home photographs folder
+                        (box 1, folder 18).
+       </p>
+      </scopecontent>
+      <c04 level="item">
+       <did>
+        <container localtype="Item_ID">
+         AFC 2018/013: C001
+        </container>
+        <unittitle encodinganalog="245$a">
+         Draft, "No More High Hats,"
+         <date localtype="inclusive" normal="1990-05/1990-05">
+          1990
+                              March
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1990-05/1990-05" unitdatetype="inclusive">
+         1990
+                              March
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 5.25" computer diskette; 16
+                              computer files
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         <title>
+          <part>
+           "No More High Hats"
+          </part>
+         </title>
+         was the working title for
+         <title>
+          <part>
+           the
+                              Lost World of the Craft Printer
+          </part>
+         </title>
+         . The files are a pre-print
+                           draft of the book saved on a 5.25" floppy. They are wordperfect 5.1
+                           formatted, and appear to have some data corruption. This floppy was
+                           originally housed in box two, folder six. The floppy has been reformatted
+                           to a digital disk image and the files are available in the Folklife
+                           Reading Room by request.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/8-9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Judith McCulloh - University of Illinois
+                        Press - correspondence,
+        <date localtype="inclusive" normal="1986/2002">
+         1986-2002
+        </date>
+        ,
+        <date localtype="bulk" normal="1986/1994">
+         Bulk: 1986-1994
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986/2002" unitdatetype="inclusive">
+        1986-2002
+       </unitdate>
+       <unitdate normal="1986/1994" unitdatetype="bulk">
+        Bulk: 1986-1994
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Judith McCulloh was Holtzberg's Executive Editor for
+        <title>
+         <part>
+          The Lost World
+                           of the Craft Printer
+         </part>
+        </title>
+        . Correspondence concerns the contracting,
+                        editing, and production of the book.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Permissions - correspondence,
+        <date localtype="inclusive" normal="1987/1990">
+         1987-1990
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987/1990" unitdatetype="inclusive">
+        1987-1990
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Correspondence concerns the licensing of works for reproduction in The Lost
+                        World of the Craft Printer
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Permissions - informants,
+        <date localtype="inclusive" normal="1990/1990">
+         1990
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1990/1990" unitdatetype="inclusive">
+        1990
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes correspondence securing permissions from informants and
+                        interviewees' for reuse of their statements. Includes some correspondence
+                        with interviewees and their families, and information on some interviewees'
+                        whereabouts in 1992.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        3/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Reviews,
+        <date localtype="inclusive" normal="1992/1996">
+         1992-1996
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1992/1996" unitdatetype="inclusive">
+        1992-1996
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscripts; 1 photographic
+                           print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Professional and personal reviews of
+        <title>
+         <part>
+          the Lost World of the Craft
+                           Printer
+         </part>
+        </title>
+        , including some correspondence with printers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        3/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        University of Illinois production,
+        <date localtype="inclusive" normal="1990/1992">
+         1990-1992
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1990/1992" unitdatetype="inclusive">
+        1990-1992
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscripts; 4 photographic
+                           prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Correspondence concerns the editing, design, production, and promotion of
+        <title>
+         <part>
+          The Lost World of the Craft Printer
+         </part>
+        </title>
+        . Three of the
+                        photographs are historical pictures of the Union Printers Home.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       New York Typographical Union No. 6 contract,
+       <date localtype="inclusive" normal="1984-03-31/1984-03-31">
+        1984 March 31
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-03-31/1984-03-31" unitdatetype="inclusive">
+       1984 March 31
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 printed booklet
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Old Times in the Print Shop" booklet,
+                     reproduction,
+       <date localtype="inclusive" normal="1939/1939">
+        1939
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1939/1939" unitdatetype="inclusive">
+       1939
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopy reproduction of "Old Times in the Print Shop" booklet from 1939,
+                     produced by Sam'l Bingham's Son MFG. CO. in Chicago. The booklet features
+                     illustrations and descriptions of the lifestyles and culture of printers in the
+                     1920s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Printing research,
+       <date localtype="inclusive" normal="1984/1998">
+        1984-1998
+       </date>
+       ,
+       <date localtype="bulk" normal="1984/1987">
+        bulk: 1984-1987
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1998" unitdatetype="inclusive">
+       1984-1998
+      </unitdate>
+      <unitdate normal="1984/1987" unitdatetype="bulk">
+       bulk: 1984-1987
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Newspaper clippings, ephemera, notes, and other materials concerning the
+                     history and culture of printers and the printing trade.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Responses to newsletter queries,
+       <date localtype="inclusive" normal="1986/1987">
+        1986-1987
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986/1987" unitdatetype="inclusive">
+       1986-1987
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Holtzberg placed adds reaching out to printing professionals in both the
+                     March/April 1986 issue of the American Printing History Association Newsletter
+                     and the April 1986 issue of "The Printer" serial. The folder includes a few
+                     brief responses to those requests, and copies of the serials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carl Schlesinger - correspondence,
+       <date localtype="inclusive" normal="1987/1990">
+        1987-1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1987/1990" unitdatetype="inclusive">
+       1987-1990
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 1 photographic
+                     print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photograph is a still from Schlesinger's documentary film "Farewell, Etaoin
+                     Shrdlu."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Trailside Country School,
+       <date localtype="inclusive" normal="1972/1973">
+        1972-1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1973" unitdatetype="inclusive">
+       1972-1973
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two journals written while Maggie Holtzberg was a student at the Trailside
+                     Country School, based in Killington, Vermont. The Trailside Country School was
+                     a traveling high school run by Michael Cohen and Diana Cohen that taught
+                     cultural documentation. The notebooks include diary entries, song lyrics, music
+                     transcription, and ephemera from locations throughout the United States where
+                     the students traveled.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        3/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Journal,
+        <date localtype="inclusive" normal="1972-09/1973-03">
+         1972 September - 1973
+                           March
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-09/1973-03" unitdatetype="inclusive">
+        1972 September - 1973
+                           March
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 bound notebook
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        3/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Journal,
+        <date localtype="inclusive" normal="1973-03/1973-08">
+         1973
+                           March-August
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-03/1973-08" unitdatetype="inclusive">
+        1973
+                           March-August
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 bound notebook
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

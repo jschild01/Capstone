@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018012" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018012
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Willard Rhodes papers
+    </titleproper>
+    <subtitle>
+     AFC 1980/041
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Kelly Revak
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2018-12">
+     March 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2017655250" show="new">
+       https://lccn.loc.gov/2017655250
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-03">
+     March 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kelly Revak
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Willard Rhodes papers
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1938/1979">
+     1938-1979
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1938/1979" unitdatetype="inclusive">
+    1938-1979
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1980/041
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      United States. Bureau of Indian
+               Affairs
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Rhodes, Willard, 1901-1992
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    140 items ; 2 containers ; .6 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    11 photographs : film negatives, black and white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    39 photographic prints : black and white ; various
+               sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    1 photographic print : color ; 3 x 4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    16 field notebooks.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    16 folders.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="nai">
+     Native American languages
+    </language>
+    <descriptivenote>
+     <p>
+      In English and numerous Native American languages.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Field notebooks, correspondence,
+            publications, and photographs, related to Willard Rhodes' field expeditions to Native
+            American communities between 1938 and 1952 on behalf of the Library of Congress and the
+            Bureau of Indian Affairs. The notebooks contain Rhodes' field notes, transcriptions,
+            translations, and some musical notation, relating to audio recordings of Native American
+            songs. Correspondence (1948-1979) relates primarily to the ten albums of Native American
+            music recorded and edited by Rhodes in the
+    <emph render="italic">
+     Music of the American
+               Indian
+    </emph>
+    series. Tribes recorded by Rhodes include Apache, Bannock, Caddo,
+            Cherokee, Cheyenne, Chinook, Choctaw, Comanche, Creek, Delaware, Hopi, Kiowa, Klallam,
+            Lummi, Navajo, Omaha , Paiute, Pawnee, Potawatomi, Pueblo, Quinault, San Ildefonso,
+            Seminole, Shaker, Shoshone, Sioux, Skagit, Taos, Tewa, Tlingit, Tsaiyak, Ute, Washo,
+            Wichita, and Zuni songs. The collections also includes eight government and mission
+            publications from Sioux communities.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020102827.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lange, Juel E.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rhodes, Willard, 1901-1992
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rhodes, Willard, 1901-1992--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Bureau of Indian Affairs
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Apache Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bannock Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Caddo Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cherokee Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cheyenne Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Chinook Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Choctaw Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Clallam Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Comanche Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Creek Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dakota Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Delaware Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hopi Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Great Basin.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Great Lakes Region (North America)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Great Plains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Middle Atlantic States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Southern States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indians of North America--Southwest, New.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kiowa Apache Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lummi Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Navajo Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Paiute Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pawnee Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Potawatomi Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pueblo Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Quinault Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Seminole Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Shoshoni Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Skagit Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Hopi.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Lummi.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Navajo.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Seminole.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Tewa.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Taos Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tewa Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ute Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Washoe Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wichita Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Zuni Indians--Music.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="630" relator="subject" source="lcnaf">
+     <part>
+      Music of the American Indian.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Song texts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Translations.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Collection is arranged in two series: Manuscripts and Visual Materials.
+   </p>
+  </arrangement>
+  <otherfindaid encodinganalog="555$a">
+   <head>
+    Additional Guides
+   </head>
+   <p>
+    Inventory is available in the Folklife Reading Room.
+   </p>
+  </otherfindaid>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Willard Rhodes; 1980.
+   </p>
+  </acqinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    For associated sound recordings see Willard Rhodes field recordings collections,
+               housed at the Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2014655376" show="new">
+      Willard Rhodes 1940 field
+                        recordings collection (AFC 1940/019)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2014655524" show="new">
+      Willard Rhodes 1941 field
+                        recordings collection (AFC 1941/039)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2014655526" show="new">
+      Willard Rhodes 1942-1943 field
+                        recordings collection (AFC 1942/024)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2014655527" show="new">
+      Willard Rhodes 1943 field
+                        recordings collection (AFC 1943/020)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2013655508" show="new">
+      Willard Rhodes 1947 field
+                        recordings collection (AFC 1947/012)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2018655477" show="new">
+      Willard Rhodes 1949 field
+                        recordings collection (AFC 1949/001)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2013655220" show="new">
+      Willard Rhodes 1950 field
+                        recordings collection (AFC 1950/027)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2011655309" show="new">
+      Willard Rhodes 1951 field
+                        recordings collection (AFC 1951/001)
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" href="https://lccn.loc.gov/2011655347" show="new">
+      Willard Rhodes 1952 field
+                        recordings collection (AFC 1952/005)
+     </ref>
+    </item>
+   </list>
+   <p>
+    Some associated original sound recordings reside at UCLA Ethnomusicology Archive.
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Electronic Format
+   </head>
+   <p>
+    Additional formats include 3396 master digital files, scanned from the originals,
+               2018.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Willard Rhodes papers, 1938-1979 (AFC 1980/041), Archive of Folk Culture, American
+               Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    While working for the Bureau of Indian Affairs with equipment supplied in part by the
+            Library of Congress, Willard Rhodes, professor of music at Columbia University recorded
+            the music of fifty Native American tribes living primarily in the western United States.
+            He documented, in addition to traditional genres, Christian hymns in native languages,
+            songs with English words, and other music of recent composition. He undertook nine field
+            surveys of Native American music between 1940 and 1952. The recordings included 260
+            audio discs (1940-1949) and 50 7-inch audio tape reels (1950-1952). The field projects,
+            intended to document new music in Native American communities as well as the traditional
+            music that was being performed, were sponsored by the Bureau of Indian Affairs. The
+            Library of Congress issued ten LP recordings based on the collection through the
+            cooperation of the Bureau of Indian Affairs and the Indian Arts and Crafts Board. Rhodes
+            also edited two albums on Smithsonian Folkways Records. A selection of Native American
+            music, recorded by Rhodes, was released on the Voyager Golden Record (1977).
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Field notebooks, correspondence, publications, and photographs, related to Willard
+            Rhodes' field expeditions to Native American communities between 1938 and 1952 on behalf
+            of the Library of Congress and the Bureau of Indian Affairs. The notebooks contain
+            Rhodes' field notes, transcriptions, translations, and some musical notation, relating
+            to audio recordings of Native American songs. Correspondence (1948-1979) relates
+            primarily to the ten albums of Native American music recorded and edited by Rhodes in
+            the
+    <emph render="italic">
+     Music of the American Indian
+    </emph>
+    series. Tribes recorded by
+            Rhodes include Apache, Bannock, Caddo, Cherokee, Cheyenne, Chinook, Choctaw, Comanche,
+            Creek, Delaware, Hopi, Kiowa, Klallam, Lummi, Navajo, Omaha , Paiute, Pawnee,
+            Potawatomi, Pueblo, Quinault, San Ildefonso, Seminole, Shaker, Shoshone, Sioux, Skagit,
+            Taos, Tewa, Tlingit, Tsaiyak, Ute, Washo, Wichita, and Zuni songs. The collections also
+            includes 8 government and mission publications from Sioux communities.
+   </p>
+   <p>
+    Photographs of native peoples of Washington State were taken by Juel E. Lange in
+            conjunction Willard Rhodes’ fieldwork. Selected photos were published in the booklet
+            accompanying the original edition of
+    <emph render="italic">
+     Music of the American Indian:
+               Northwest (Puget Sound)
+    </emph>
+    AFS L34. Photographs of Sioux and Pueblo children
+            appear to have been taken by Willard Rhodes. Included in the collection are three 8 x 10
+            in. black-and-white photographic prints from the Bureau of Indian Affairs of BIA
+            schools.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notebook with musical notation, transcriptions,
+                     and translations, of Kiowa, Navajo and Sioux songs.,
+       <date localtype="inclusive" normal="1938-06">
+        June 1938
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1938-06" unitdatetype="inclusive">
+       June 1938
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 notebook
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       5 notebooks, music pages,
+       <date localtype="inclusive" normal="1939">
+        1939
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1939" unitdatetype="inclusive">
+       1939
+      </unitdate>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Indian Music I”- Omaha, South Dakota,
+        <date localtype="inclusive" normal="1939-07-07/1939-07-14">
+         July 7-14, 1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1939-07-07/1939-07-14" unitdatetype="inclusive">
+        July 7-14, 1939
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 notebook
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Field notes, musical notation, transcriptions, and translations which
+                        accompany recordings I-A-1 through XV-B-2.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Indian Music II” Omaha, South Dakota,
+        <date localtype="inclusive" normal="1939-07-07/1939-07-19">
+         July 7 and July 17-19, 1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1939-07-07/1939-07-19" unitdatetype="inclusive">
+        July 7 and July 17-19, 1939
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 notebook
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Vocabulary (July 7, 1939); July 17-19, 1939, field notes, transcriptions,
+                        translations which accompany recordings VI-B-1 through XVIII-A-3.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Indian Music III” Omaha, South Dakota,
+        <date localtype="inclusive" normal="1939-07-19/1939-07-26">
+         July 19-26, 1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1939-07-19/1939-07-26" unitdatetype="inclusive">
+        July 19-26, 1939
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 notebook
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Field notes, transcriptions, translations which accompany recordings
+                        XVIII-B-2 through XXXI-A-2.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Indian Music IV” Omaha, South Dakota,
+        <date localtype="inclusive" normal="1939-07-27/1939-07-28">
+         July 27-28, 1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1939-07-27/1939-07-28" unitdatetype="inclusive">
+        July 27-28, 1939
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 notebook
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Field notes, transcriptions, translations which accompany recordings
+                        XXXI-B-1 through XXXXIII-A-5.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Indian Music V” Omaha, South Dakota,
+        <date localtype="inclusive" normal="1939-07-31/1939-08-05">
+         July 31 - August 5, 1939
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1939-07-31/1939-08-05" unitdatetype="inclusive">
+        July 31 - August 5, 1939
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 notebook
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Field notes, transcriptions, translations which accompany recordings
+                        XXXVI-A-1, XXXVII-A-2, XXXXIV-A-1 through L-B-2.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Loose music pages, with musical notation and
+                        words relating to Omaha songs.
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Indian Music XI" Omaha, Navajo, Seminole; South
+                     Dakota, New Mexico, California (?),
+       <date localtype="inclusive" normal="1940">
+        June 6, 1940
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940" unitdatetype="inclusive">
+       June 6, 1940
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 notebook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes, transcriptions, translations which accompany recordings I-A-1
+                     through XI. May relate to recordings in
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2014655376" show="new">
+        AFC 1940/019
+       </ref>
+       . One page
+                     with notes from 1942/1943.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Field notebook: Paiute; Santa Clara, Utah,
+       <date localtype="inclusive" normal="1941">
+        1941
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1941" unitdatetype="inclusive">
+       1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 notebook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Related recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2014655524" show="new">
+        AFC 1941/039
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Field notebook: Primarily Navajo; Pine Springs,
+                     Arizona (1942) and Intermountain Indian School, Brigham City, Utah (1952),
+       <date localtype="inclusive" normal="1942-08-05/1952-07-02">
+        August 5-10, 1942 ; June 14 - July 2,
+                     1952
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1942-08-05/1952-07-02" unitdatetype="inclusive">
+       August 5-10, 1942 ; June 14 - July 2,
+                     1952
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 notebook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Related recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2014655526" show="new">
+        AFC 1942/024
+       </ref>
+       and
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2011655347" show="new">
+        AFC 1952/005
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       3 notebooks : Alaskan Eskimo, Arikara,
+                     Blackfeet, Crow, Flathead, Omaha, Navajo, Nez Perce, Pueblo, Sioux, Wasco, and
+                     Winnebago; northern Great Plains and Pacific Northwest,
+       <date localtype="inclusive" normal="1947">
+        1947
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1947" unitdatetype="inclusive">
+       1947
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 notebooks
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes related to recordings made in the summer of 1947 at Pine Ridge,
+                     South Dakota; Chemawa, Simnasho, and Pendleton, Oregon; Toppenish, Washington;
+                     Browning and Poplar, Montana; and Elbowoods and Fort Yates, North Dakota.
+                     Sponsored by the Bureau of Indian Affairs. Related recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2013655508" show="new">
+        AFC 1947/012
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       3 notebooks: Various tribes and locations,
+       <date localtype="inclusive" normal="1950">
+        1950
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950" unitdatetype="inclusive">
+       1950
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 notebooks
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes related to Native American music recorded in the summer of 1950 by
+                     Willard Rhodes. Songs are labeled as Puyallup, Canadian/Vancouver Island,
+                     Nisqually, Lummi, Snahomish, Skokomish, Snoqualmi, Samyama, Fraser River,
+                     Nooksack, Skagit, Samish, Nitinat, Makah, Clayoquot, Quinault, Kwakiutl,
+                     Quileute, Chinook, Twana, Chehallis, Bannock, Shoshone, and Arapaho. Included
+                     are Native American Shaker songs. Recordings were made at Auburn, Shelton,
+                     Marietta, Everson, La Conner, Marblemount, Neah Bay, La Push, Union,
+                     Washington; and at Fort Hall, Idaho. Sponsored by the Bureau of Indian Affairs,
+                     Education Division. Related recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2013655220" show="new">
+        AFC 1950/027
+       </ref>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Field notebook: Apache, Cherokee, Comanche,
+                     Creek, Hopi, Kiowa, Navajo, Pawnee, Shoshone, and Tlingit, as well as
+                     indigenous Ecuadorian and Eskimo music; Arizona, Oklahoma, Oregon, Utah, and
+                     Wyoming,
+       <date localtype="inclusive" normal="1951">
+        1951
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1951" unitdatetype="inclusive">
+       1951
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 notebook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes related to recordings of Apache, Cherokee, Comanche, Creek, Hopi,
+                     Kiowa, Navajo, Pawnee, Shoshone, and Tlingit, as well as indigenous Ecuadorian
+                     and Eskimo music. Recorded in Arizona, Oklahoma, Oregon, Utah, and Wyoming by
+                     Willard Rhodes, June 1951, for the Bureau of Indian Affairs. Related
+                     recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2011655309" show="new">
+        AFC 1951/001
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Trip report,
+       <date localtype="inclusive" normal="1952">
+        1952
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1952" unitdatetype="inclusive">
+       1952
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Discusses fieldwork in Arizona, New Mexico, Oklahoma, and Utah by Willard
+                     Rhodes, summer 1952, to collect and record texts of Native American songs to be
+                     used in the series of albums of
+       <ref actuate="onrequest" href="https://lccn.loc.gov/r55000360" show="new">
+        Music of the American
+                        Indian
+       </ref>
+       by Library of Congress. Related recordings:
+       <ref actuate="onrequest" href="https://lccn.loc.gov/2011655347" show="new">
+        AFC 1952/005
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       <date localtype="inclusive" normal="1948/1954">
+        1948-1954
+       </date>
+       correspondence (trips and record
+                     production)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1948/1954" unitdatetype="inclusive">
+       1948-1954
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       <date localtype="inclusive" normal="1958/1979">
+        1958-1979
+       </date>
+       correspondence
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1958/1979" unitdatetype="inclusive">
+       1958-1979
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Publications by Rhodes
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “The Use of the Computer in the
+                        Classification of Folk Tunes,”
+        <emph render="italic">
+         Studia Musicologica
+                           Tomus
+        </emph>
+        VII (
+        <date localtype="inclusive" normal="1965">
+         1965
+        </date>
+        )
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1965" unitdatetype="inclusive">
+        1965
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Toward a Definition of Ethnomusicology,”
+        <emph render="italic">
+         American Anthropologist
+        </emph>
+        58, No. 3 (
+        <date localtype="inclusive" normal="1956-06">
+         June
+                           1956
+        </date>
+        )
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-06" unitdatetype="inclusive">
+        June
+                           1956
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Society of Ethnomusicology,”
+        <emph render="italic">
+         African Music
+        </emph>
+        1, No. 3 (
+        <date localtype="inclusive" normal="1956">
+         1956
+        </date>
+        )
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956" unitdatetype="inclusive">
+        1956
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “A Study of Musical Diffusion Based on the
+                        Wandering of the Opening Peyote Song,”
+        <emph render="italic">
+         Journal of the
+                           International Folk Music Council
+        </emph>
+        X (
+        <date localtype="inclusive" normal="1958">
+         1958
+        </date>
+        )
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1958" unitdatetype="inclusive">
+        1958
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “Acculturation in North American Indian
+                        Music,” TAX: Acculturation in the Americas, Vol. II,
+        <emph render="italic">
+         Proceedings of the 29th International Congress of Americanists
+        </emph>
+        (
+        <date localtype="inclusive" normal="1952">
+         1952
+        </date>
+        )
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1952" unitdatetype="inclusive">
+        1952
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       8 Government and mission publications from Sioux
+                     communities, including 1936 Constitution and By-laws of the Oglala Sioux Tribe
+                     of the Pine Ridge Reservation, South Dakota,
+       <date localtype="inclusive" normal="1936">
+        1936
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1936" unitdatetype="inclusive">
+       1936
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellany
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lists, text transcriptions, concordance of tracks for
+       <emph render="italic">
+        Music of the American Indian
+       </emph>
+       albums with Rhodes recording numbers,
+                     draft of introduction to albums.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs of native peoples of Washington
+                     State, taken in conjunction with the fieldwork of Willard Rhodes. By Juel
+                     E. Lange (NW Coast)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       17 black-and-white photographic prints, 8
+                        x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Selected photos were used in the published booklet accompanying the original
+                     edition of
+       <emph render="italic">
+        Music of the American Indian: Northwest (Puget
+                        Sound)
+       </emph>
+       AFS L34, recorded and edited by Willard Rhodes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photos – Sioux, schoolchildren, Pueblos, Navajo
+                     and BIA school photos from Bureau of Indian Affairs.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 color, 22 black-and-white photographic
+                        prints (various sizes); 11 negatives
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

@@ -1,0 +1,5485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af016001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af016001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     W.P.A. California Folk Music Project
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 1940/001
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Catherine Hiebert Kerst and Judy Ng
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2016-02">
+     February 2016
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2008700333" show="new">
+       https://lccn.loc.gov/2008700333
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2016-06">
+     June 2016
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    W.P.A. California Folk Music Project
+            collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1936/1991">
+     1936-1991
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1938/1940">
+     1938-1940
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1936/1991" unitdatetype="inclusive">
+    1936-1991
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1938/1940" unitdatetype="bulk">
+    1938-1940
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1940/001
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      United States. Work Projects
+               Administration (Calif.), sponsor
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Cowell, Sidney Robertson, 1903-1995,
+               collector
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    7 boxes 4.5 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    manuscripts: 115 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    239 sound discs (35 hours) : analog, 78 rpm, mono. ; 12
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Images)">
+    170 photographic prints : black and white ; various
+               sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Images)">
+    24 drawings.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Approximately one third of the sound
+               recordings are in English; two-thirds are performed in other, mostly European,
+               languages.
+    </language>
+    <descriptivenote>
+     <p>
+      Approximately one third of the sound
+               recordings are in English; two-thirds are performed in other, mostly European,
+               languages.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The California Folk Music Project of the
+            California Work Projects Administration (WPA) was conceived and directed by Sidney
+            Robertson Cowell and co-sponsored by the Music Department of the University of
+            California, Berkeley, and the Music Division, Library of Congress from 1938 to 1940.
+            Additional support was provided by the New Music Society of California and the Society
+            of California Pioneers. The resulting collection of sound recordings, photographs,
+            correspondence, field notes, and drawings documents the musical culture, including
+            religious music and folk song, of many ethnic and English-language performers in
+            northern California. The collection includes the documentation of the music of Anglo
+            Americans, Armenians, Assyrians, Basques, Croatians, English, Finns, Hungarians,
+            Icelanders, Italians, Norwegians, Russian Molokans, Scots, Portuguese, Mexicans, Puerto
+            Ricans, Spaniards and Spanish Americans from 1938 to 1940. The sound recordings were
+            deposited in the Archive of American Folk Song at the Library of Congress in 1940. The
+            collection also includes a few instantaneous sound discs made by Sidney Robertson Cowell
+            in Missouri and Iowa for the Farm Security Administration in 1936-1937, and includes
+            folk music research, writing, photographs, and technical drawings and sketches of the
+            musical instruments, generated by Cowell and by the WPA staff who worked for her, plus
+            related documents to 1991.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20210119093049.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Acosta, Rosalie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Aslanian, Jack
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Asmussen, Ella
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Avila, Albert
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Avila, Alice Lemos
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Baboyan, Reuben J.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bakalian, Jack
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bardarson, Leo
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bardarson, Otto
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bardarson, Sigurd
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Barr, Alex, 1910-1978
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bateman, John (Photographer)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bedrosian, Joe
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bell, Sam (Folksinger)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Benonys, Sigridur
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Blackburn, Sam
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Boro, Peter
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Botica, John
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Botkin, Benjamin Albert, 1901-1975--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Brady, Hubert
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Brangone, Louis
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Brodeur, Arthur Gilchrist, 1888-1971
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Brown, Hilda Duarte
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Calderón, Aurora, 1909-2006
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Coffin, Ada Pearl
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Coffin, Byron H.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Coffin, Byron, Jr.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cook, Charles (Fiddler)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cowell, Henry, 1897-1965--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cowell, Sidney Robertson, 1903-1995
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cowell, Sidney Robertson, 1903-1995--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cowell, Sidney Robertson, 1903-1995--Ethnomusicological collections.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cunha, Frank
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cunha, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cunningham, John (Singer)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Daniels, Joe (Musician)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Daniels, Joe (Musician)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Day, William T.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      De Soto, Jessie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      De Soto, Tomas
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dedo, Tony
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Denoon, R. R., -1971
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dormody, Anita
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Dornbush, Adrian--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Drasky, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Earnson, Flora
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Edgar, Marjorie, 1889-1960--Corresondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Einarsson, Thordur
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Elkus, Albert I. (Albert Israel), 1884-1962--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Erro, Antoinette
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Espinosa, Lottie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Etcheverry, Frances
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Etcheverry, Matias
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fetesoff, William S.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Figueroa, Ben
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Flores, Joaquim
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Flores, Olive
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ford, Arthur J.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ford, Bogue
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ford, Elizabeth W.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ford, Pat
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ford, Warde H.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Franco, Clifford
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Franco, Louise
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Franks, Mr.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fulton, Charles (Pianist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gaidos, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Garcia, Johnnie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Garcia, Maria (Singer)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gomez, Julio (Musician)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Goshtigian, Hartop
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Goshtigian, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gould, Hattie Scott
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Graham, George Vinton
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Grainger, Percy, 1882-1961--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hall, J. L.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Halpert, Herbert, 1911-2000--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Handon, Joseph H.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Haroutunian, Bedros
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Harp, Walter
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hart, Harmon
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Herzog, George, 1901-1983--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hobrecht, Bertrand
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Jabbour, Alan--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jelenfy, Elizabeth
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jelenfy, Mr.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jones, Leonard W.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kendall, Raymond, 1910-1980
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Koljonen, C. A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Koljonen, Celia
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Korson, Rae--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kratlian, Archie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lemos, Manuel
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lindsay, Bennie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lindsay, Junior
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lomax, Alan, 1915-2002--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lomax, John A. (John Avery), 1867-1948--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Loscutoff, William S.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lozada, Cruz
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lucido, Sal
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      MacInnes, Charlotte
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      MacInnes, Donald
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      MacLeish, Archibald, 1892-1982--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      MacPhee, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      MacPhee, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Madariaga, Mrs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mann, Thomas B.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McCready, John A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McCready, Spencer
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McDonald, Mary A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McKenzie, Leighton
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Meade, Virginia
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Medeiros, Antonio
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mendes, Alberto (Musician)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Morgan, Aaron, 1861-1942
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Myers, Evarista
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nilssen, Alf
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nimerfroh, Mr.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nimerfroh, Rosa
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Olafson, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Olmeda, Mario
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Oriet, Frenchy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ortega, Jacinta
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pavon, Ed
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Petersen, Fina
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pico, Virginia
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pitts, Ben
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ponce, Leon
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Popoff, Mr.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Popoff, Mrs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Powell, Charles (Guitarist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ralph, Walter Ross
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rasmussen, Charles (Judge)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Reha, Julia
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rice, Ben, 1872-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Robinson, Leighton
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rodriguez, Elinor
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Russo, Joseph W.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ruthling, Pablo
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Salonen, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sanfilippo, Francisco
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sanford, Herbert Hudson
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sanoff, J. D.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sarakoff, A. P.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Schetinin, William T.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sebree, Walter
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Seeger, Charles, 1886-1979--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Selleck, John N.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shapazian, Siranoosh
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shapazian, Vartan S.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Sharp, James B.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shatinian, T.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sigurasson, Oddrun
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Silva, Elzira
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Silveira, Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Soininen, John
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Spivacke, Harold, 1904-1977--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stone, John E., -1952
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Susoeff, J. P.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Susoeff, J. P., Mrs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Takakjian, Mesrob
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Walker, Robert W., 1883-1961
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Waters, Ozzie (Water witcher)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Wilbur, Ray L. (Ray Lyman), 1875-1949--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wilkinson, Myrtle B.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of American Folk Song
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Aslanian's Armenian Orchestra
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Julio Gomez' Orchestra
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Library of Congress. National Digital Library Program.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      New Music Society of California.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Society of California Pioneers.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      St. Anthony's Seminary (Santa Barbara, Calif.). Choristers
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      St. Joseph's Seminary (Santa Barbara, Calif.). Boys Choir
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Stanford University. Choir
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Work Projects Administration (Calif.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      University of California, Berkeley. Department of Music
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      W.P.A. California Folk Music Project Collection, 1938-1940 (Library of Congress)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Alabados.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Armenian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Basque Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bawdy songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      British Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Carols--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Children's songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Courtship--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Croatian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fados--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fiddle tunes--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Finnish Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Armenian--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Basque--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Croatian--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Finnish--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Hungarian--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Icelandic--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Italian--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Norwegian--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Portuguese--Azores.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Portuguese--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Scots--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Scottish Gaelic--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Spanish--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Spanish--Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Spanish--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Georgian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gold miners--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Humorous songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hungarian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Icelandic Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Immigrants--California--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Loggers--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Love songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lullabies--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Medicine shows--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mexican Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Minstrel music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Molokans--California--San Francisco--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Musical instruments--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Norwegian Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Political ballads and songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polkas--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Portuguese Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Puerto Ricans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ragtime music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rímur.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Scottish Americans--California--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sea songs--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sermons, Russian--California--San Francisco.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Singing games--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Spanish Americans--California--Music.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      California--Music.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      California--Songs and music.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      California gold, northern California folk music from the thirties.
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      W.P.A. California Folk Music Project collection, 1938-1940
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts, II. Sound Recordings,
+               III. Graphic Images.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Sidney Robertson Cowell; Gift; 1940.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Judy Ng in 2007.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Inventory of the California Folk Music Project records, 1938-1942; Music Library,
+               University of California, Berkeley:
+    <ref actuate="onrequest" href="http://oac.cdlib.org/findaid/ark:/13030/tf9s200870" show="new">
+     http://oac.cdlib.org/findaid/ark:/13030/tf9s200870
+    </ref>
+    &gt;
+   </p>
+   <p>
+    Sidney Robertson Cowell collection, 901-1992; Music Division, Library of Congress:
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.music/eadmus.mu010010" show="new">
+     http://hdl.loc.gov/loc.music/eadmus.mu010010
+    </ref>
+   </p>
+   <p>
+    Sidney Robertson Cowell correspondence, 1936-1973; Music Division, Library of
+               Congress. (ML94.C69)
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Access restrictions apply. To request materials,
+               please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    A substantial portion of the collection, with interpretive essays, is available as
+               "California Gold: Northern California Folk Music from the Thirties,"
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000002" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000002
+    </ref>
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    W.P.A. California Folk Music Project collection (AFC 1940/001), Archive of Folk
+               Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist>
+   <head>
+    Biographical Note
+   </head>
+   <chronlist>
+    <chronitem>
+     <datesingle>
+      1903
+     </datesingle>
+     <event>
+      Born Sidney William Hawkins in San Francisco, California on June 02
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1924
+     </datesingle>
+     <event>
+      B.A., Romance Languages, Stanford University, Palo Alto, California Married
+                  Kenneth Robertson (divorced 1933)
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1935
+     </datesingle>
+     <event>
+      Henry Street Settlement
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1936
+     </datesingle>
+     <chronitemset>
+      <event>
+       Music assistant to Charles Seeger, KL Division, Music Unit, Special Skills
+                    Division, Resettlement Administration (RA).
+      </event>
+      <event>
+       Accompanied Frank C. Brown and John A.
+                    Lomax on recording trip to western North Carolina where she received training in
+                    using a portable sound recording machine and assisted in recording Anglo American
+                    melismatic singing and African American singing in chain gang camps for the RA.
+      </event>
+      <event>
+       Travelled on her own to collect traditional English-language music in Arkansas,
+                     Maryland, Missouri, South Carolina, Tennessee, and Virginia for the RA.
+      </event>
+     </chronitemset>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1937
+     </datesingle>
+     <chronitemset>
+      <event>
+       Regional representative, Special Skills Division, Resettlement
+                  Administration.
+      </event>
+      <event>
+       Collected recordings in Minnesota and northern Wisconsin
+                  (including Warde Ford and his extended family, many of whom moved to California to
+                  work in the CCC camps at the Shasta Dam where they were recorded by Robertson for
+                  this WPA collection).
+      </event>
+      <event>
+       Community relief community manager, Special Skills Division,
+                     Resettlement Administration.
+      </event>
+      <event>
+       Recorded Finnish, Serbian, and Gaelic performers;
+                  recorded Swedish, Lithuanian, Norwegian, and Finnish performers at the 4th
+                  National Folk Festival held in Chicago, recorded lumberjacks in Michigan.
+      </event>
+     </chronitemset>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      Late 1937
+     </datesingle>
+     <chronitemset>
+      <event>
+       Traveled to Washington, D.C. and California to explore plans for developing
+                  and funding folk song collecting projects through New Deal arts organizations and
+                  private grants organizations.
+      </event>
+      <event>
+       Began to do folk music research in her native
+                     California.
+      </event>
+     </chronitemset>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      Early 1938
+     </datesingle>
+     <chronitemset>
+      <event>
+       Received endorsement from the Music Division at the Library of Congress and
+                  200 blank acetate discs for recording folk music in California, under the
+                  provision that the Library's Archive of American Folk Song receive copies of the
+                  original field recordings she made.
+      </event>
+      <event>
+       She also received approval from the Department
+                  of Music at the University of California, Berkeley, for co-sponsorship for their
+                  support in providing office space.
+      </event>
+     </chronitemset>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      Late 1938
+     </datesingle>
+     <chronitemset>
+      <event>
+       Through the sponsorship of the Library of Congress and the University of
+                  California, Berkeley, Robertson was able to apply for and receive WPA (Work
+                  Projects Administration) approval for her California Folk Music Project through
+                  the Berkeley office of the Northern District of the WPA in California. As such,
+                  she received help from twenty persons on the labor relief rolls.
+      </event>
+      <event>
+       The CFMP opened
+                     officially on October 28, 1938.
+      </event>
+     </chronitemset>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1940
+     </datesingle>
+     <event>
+      The CFMP was brought to a close, due to a lack of the renewal of WPA funds,
+                  which were intended to allow for the collection of Asian and Middle Eastern folk
+                  music in California during an additional two years. During this year, she compiled
+                  and published
+      <emph render="italic">
+       The Gold Rush Song Book
+      </emph>
+      with Eleanora
+                  Black.
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1941
+     </datesingle>
+     <event>
+      Married Henry Cowell and began to use her married name, Sidney Robertson
+                  Cowell.
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1942
+     </datesingle>
+     <event>
+      Published
+      <emph render="italic">
+       The Bibliography of American Folk-Song and
+                     Folklore
+      </emph>
+      with Alan Lomax.
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1950
+     </datesingle>
+     <event>
+      With Maud Karpeles, traveled during the fall to seek out and re-record singers
+                  and their families who had performed for Cecil Sharp in Appalachia in 1916-1917.
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1953
+     </datesingle>
+     <event>
+      Recorded American Folk Music Concert, Columbia University, at the 6th Annual
+                  Festival of Contemporary American Music; bagpipe tunes and Scottish Gaelic singing
+                  on Cape Breton Island, Nova Scotia; Spanish and Persian 
+                 singing in Alameda and
+                  Berkeley, California; and the Shady [New York] Methodist Church Choir.
+     </event>
+    </chronitem>
+    <chronitem>
+     <daterange>
+      <fromdate>
+       1955
+      </fromdate>
+      <todate>
+       56
+      </todate>
+     </daterange>
+     <event>
+      Traveled for fourteen months to Europe and Asia, recording in the Aran
+                  Islands, Ireland in June 1955, and again in June 1956. Included travel to record
+                  traditional music in Iran, Thailand, Pakistan, and Malaysia.
+     </event>
+    </chronitem>
+    <chronitem>
+     <datesingle>
+      1995
+     </datesingle>
+     <event>
+      Died February 23 at her home in Shady, New York.
+     </event>
+    </chronitem>
+   </chronlist>
+  </bioghist>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The California Folk Music Project (1938-1940) was the result of a joint effort of the
+            Northern California Work Projects Administration, the Library of Congress, and the
+            Department of Music at the University of California, Berkeley. The project was
+            officially sponsored by the University of California at Berkeley and co-sponsored by the
+            Library of Congress. The New Music Society and the Society of California Pioneers
+            offered their support and encouragement for the collecting project. The effort also
+            received some funding from the California State Relief Agency.
+   </p>
+   <p>
+    Prior to the California Folk Music Project, during 1936 and the early part of 1937,
+            Sidney Robertson had collected traditional English- and foreign-language music for the
+            Special Skills Division (KL) of the Resettlement Administration (RA). When the
+            Resettlement Administration was liquidated late in 1937, and with it, Robertson's source
+            of funds for recording, she looked for means to continue and expand the scope of her
+            folk music collecting in her native California under the auspices of the WPA.
+   </p>
+   <p>
+    Robertson was eager to organize and conduct ethnographic and folk musical research on a
+            nationwide basis in order to engage in more comprehensive field collecting than was
+            being done at the time. She discussed her plans with Luther Evans, then Librarian of
+            Congress and an old friend from Stanford University, who suggested that the WPA in
+            California might be willing to fund her project. The WPA contacts Robertson made through
+            Evans became convinced that such an undertaking might best be initiated on a
+            state-by-state basis. Robertson was promised WPA funding for a prototype of her
+            collecting plan in any single state, providing she could get the necessary 50%
+            contribution for the equipment, supplies, and rent required for government projects of
+            this kind. With such support, she was expected to devise work that could keep from
+            twenty to forty people employed from the work relief rolls and also be acceptable to at
+            least three sponsors. Robertson chose to pursue the project in California, where she
+            sought sponsorship for it through the University of California at Berkeley late in
+            1937.
+   </p>
+   <p>
+    It was in the Department of Music at the University of California, Berkeley, under the
+            chairmanship of Albert Elkus, that Robertson found a willing sponsor for her folk music
+            collecting plans in California. With Elkus' help, Robertson's project received
+            university support for space and equipment. And, because she conceived her collecting
+            project as being of relevance to the fields of anthropology, history, sociology,
+            literature, and ethnology, Robertson made contacts with interested faculty members in a
+            variety of university departments, who offered her their support. With the University of
+            California as an official sponsor, Robertson was then eligible to apply for WPA funds to
+            hire personnel to assist her in the task of collecting and documenting traditional music
+            in northern California.
+   </p>
+   <p>
+    Once WPA sponsorship of the project was established, the Archive of American Folk Song
+            at the Library of Congress, then under the Music Division's leadership of Harold
+            Spivacke, agreed to co-sponsor it by providing 12-inch acetate discs for recording the
+            music and offering cataloging assistance to organize the collection. For additional
+            non-labor items, which the WPA did not cover, such as catalog cards and travel expenses,
+            the project received financial support from the California State Relief Agency. In
+            addition to the backing of official project sponsors, Robertson sought assistance and
+            support for it from other academic sources. As an advisor on ethnographic standards for
+            conducting fieldwork, the anthropologist Paul Radin offered guidelines that could be
+            applied to the collecting of folk music. From George Herzog, Columbia University
+            ethnomusicologist, Robertson received suggestions on techniques for the melodic analysis
+            of folk music. Through Herzog's support, she developed a project that accorded
+            importance, not only to preserving the texts of folk songs, but also to collecting
+            traditional melodies and their variants so that they could later be analyzed
+            musicologically. A duplicate set of recordings on disc were given to the University of
+            California, Berkeley, for the purpose of establishing the Archive of California Folk
+            Music in 1940.
+   </p>
+   <p>
+    Although the Archive of California Folk Music was never established, the recordings
+            became part of the Music Library of the University of California, Berkeley and in the
+            early 1980s, they were put on permanent deposit in the Stanford University Archives of
+            Recorded Sound. The Music Library at the University of California, Berkeley, also
+            retained copies of administrative documents, English translations on folk music,
+            material on music in the California missions, lists of California songsters and hymnals,
+            song texts with references to California, material on Portuguese, Spanish and Latin
+            American folk songs, and sketches, scale drawings, and tracings of folk instruments.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The California Folk Music Project of the California Work Projects Administration (WPA)
+            was conceived and directed by Sidney Robertson Cowell and co-sponsored by the Music
+            Department of the University of California, Berkeley, and the Music Division, Library of
+            Congress from 1938 to 1940. Additional support was provided by the New Music Society of
+            California and the Society of California Pioneers. The resulting collection of sound
+            recordings, photographs, correspondence, field notes, and drawings documents the musical
+            culture, including religious music and folk song, of many ethnic and English-language
+            performers in northern California. The collection includes the documentation of the
+            music of Anglo Americans, Armenians, Assyrians, Basques, Croatians, English, Finns,
+            Hungarians, Icelanders, Italians, Norwegians, Russian Molokans, Scots, Portuguese,
+            Mexicans, Puerto Ricans, Spaniards and Spanish Americans from 1938 to 1940. The sound
+            recordings were deposited in the Archive of American Folk Song at the Library of
+            Congress in 1940. The collection also includes a few copies of instantaneous sound discs made by
+            Sidney Robertson Cowell in Missouri and Iowa for the Farm Security Administration in
+            1936-1937, and includes folk music research, writing, photographs, and technical
+            drawings and sketches of the musical instruments, generated by Cowell and by the WPA
+            staff who worked for her, plus related documents to 1991.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid
+      </unittitle>
+     </did>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Subseries I: Correspondence 1937-1958;
+                        1980-1991
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Subseries I contains correspondence materials that represent the pre-WPA
+                        period which spans September 21, 1938-October 20, 1938. During November
+                        1938-February 1940 and post-WPA April 1940-September 1958.
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/2
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence, Pre-WPA Project, September
+                           21, 1937-February 1938
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Robertson, memoranda, project proposals, and
+                           other materials relating to pre-California Folk Music Project activities
+                           and queries. Correspondents include Henry Cowell, Adrian Dornbush, Albert
+                           I. Elkus, Herbert Halpert, George Herzog, Alan Lomax, John A. Lomax,
+                           Charles Seeger, James B. Sharp, Harold Spivacke, the Society of
+                           California Pioneers and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/3
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence, Pre-WPA Project, March
+                           1938-May 1938
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Robertson, memoranda, project proposals, and
+                           other materials relating to pre-California Folk Music Project activities
+                           and queries. Correspondents include Henry Cowell, Adrian Dornbush, Albert
+                           I. Elkus, Herbert Halpert, George Herzog, Alan Lomax, John A. Lomax,
+                           Charles Seeger, James B. Sharp, Harold Spivacke, the Society of
+                           California Pioneers and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/4
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence, Pre-WPA Project, June 1938
+                          -October 1938
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Robertson, memoranda, project proposals, and
+                           other materials relating to pre-California Folk Music Project activities
+                           and queries. Correspondents include Henry Cowell, Adrian Dornbush, Albert
+                           I. Elkus, Herbert Halpert, George Herzog, Alan Lomax, John A. Lomax,
+                           Charles Seeger, James B. Sharp, Harold Spivacke, the Society of
+                           California Pioneers and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/5
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence. November 1938-July 1939
+                           (During WPA project)
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Robertson, memoranda, reports, and other
+                           materials relating to the California Folk Music Project while the project
+                           was being funded. Correspondents include Percy Grainger, George Herzog,
+                           Alan Lomax, Charles Seeger, Harold Spivacke and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/6
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence. August 1939-February
+                           1940 (During WPA project)
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Robertson, memoranda, reports, and other
+                           materials relating to the California Folk Music Project while the project
+                           was being funded. Correspondents include Percy Grainger, George Herzog,
+                           Alan Lomax, Charles Seeger, Harold Spivacke and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/7
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence. April 1940-September
+                           1958 (Post-WPA project)
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence to and from Sidney Robertson (after 1941, Sidney Robertson
+                           Cowell), memoranda, reports, and miscellaneous materials relating to the
+                           California Folk Music Project once it had been discontinued. Includes
+                           information about intended follow-up projects planned in the 1950s,
+                           material of folkloric and ethnomusicological value relating to the music
+                           already recorded, and plans for reviving the WPA-like cooperation of
+                           funds and resources through a consortium of universities, archival
+                           institutions, and collectors. Correspondents include Benjamin Botkin,
+                           Albert I. Elkus, Duncan Emrich, Percy Grainger, George Herzog, Rae
+                           Korson, Alan Lomax, John A. Lomax, Harold Spivacke and others.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/8
+        </container>
+        <unittitle encodinganalog="245$a">
+         Correspondence. August 1980-April 1991
+                           (American Folklife Center)
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Correspondence between Sidney Robertson Cowell and the American Folklife
+                           Center relating to Library of Congress' interest in
+                           making the California Folk Music Project Collection accessible to the
+                           public online. The folder also includes some Cowell reminiscences about the WPA
+                           project. Correspondents include
+                           Alan Jabbour and others.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Subseries II: Administrative Materials
+                        related to California WPA Project
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/9
+        </container>
+        <unittitle encodinganalog="245$a">
+         Grant proposals and statements of
+                           purpose
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/10
+        </container>
+        <unittitle encodinganalog="245$a">
+         Forms and background materials prepared
+                           for WPA project workers by Sidney Robertson
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         "Instruction to workers for the Collection of Traditional Music in
+                           California." Forms to be used in conducting fieldwork on the project.
+                           Bibliographic key word list Guide for WPA workers responding to "General
+                           Queries." Bibliography.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/11
+        </container>
+        <unittitle encodinganalog="245$a">
+         WPA progress reports
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Report dated July 20, 1939, and another for the period from October 28,
+                           1938 to September, 19, 1939, both prepared for the Northern California
+                           WPA Office.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/12
+        </container>
+        <unittitle encodinganalog="245$a">
+         Final Report of UC-Berkeley Faculty
+                           Sponsors
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Statement of sponsorship for the WPA California Folk Music Project by
+                           faculty of the University of California, Berkeley, February 14, 1940.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/13
+        </container>
+        <unittitle encodinganalog="245$a">
+         Final Report of the California Folk Music
+                           Project Submitted to WPA
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Statement of Accomplishment for O.P. 65-1-08-62, Unit A-25, Area Unit
+                           Serial No. 0803-1659, "A Study of California Folk Music," sponsored by
+                           the Department of Music of the University of California, Work Projects
+                           Administration, State of California, Northern District, Area No. 8,
+                           Alameda County, Berkeley, California, January, 1940. 88 pages
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Subseries III: Field notes
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/14
+        </container>
+        <unittitle encodinganalog="245$a">
+         Yellow Song Checklist: "E" (English
+                           Language) Listing
+        </unittitle>
+        <physdesc>
+         73 pages
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         List of Recordings made by Sidney Robertson in California 1938-1940
+                           arranged alphabetically by performer. Yellow and white typewritten pages,
+                           some originals, listing English-language songs recorded as part of the
+                           California Folk Music Project. Organized alphabetically by last name of
+                           performer. Includes dates and locations of performances, collector's disc
+                           number with E, indicating "English-language" songs, instrumentation,
+                           occasional background commentary on the performers and performances,
+                           location where recorded, and, at times, comments regarding quality of
+                           sound recordings.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/15
+        </container>
+        <unittitle encodinganalog="245$a">
+         Yellow Song Checklist: "E" (English
+                           Language) Listing
+        </unittitle>
+        <physdesc encodinganalog="300">
+         73 pages
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         List of recordings made by Sidney Robertson in California 1938-1940
+                           arranged alphabetically by performer. (photocopy)
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/16
+        </container>
+        <unittitle encodinganalog="245$a">
+         Yellow Song Checklist: "M" (Minority)
+                           Listing, Armenian to Mexican (1/2)
+        </unittitle>
+        <physdesc encodinganalog="300">
+         103 pages
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         List of foreign language recordings made by Sidney Robertson in
+                           California, 1938-1940. Yellow and white typewritten pages, some
+                           originals, listing non-English language songs recorded as part of the
+                           California Folk Music Project. Organized alphabetically by cultural
+                           group. Includes dates and locations of performances, collector's disc
+                           number with M, indicating "minority," instrumentation, occasional
+                           background commentary on the performers and performances, location where
+                           recorded, and, at times, comments regarding quality of sound recordings.
+                           n.d.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/17
+        </container>
+        <unittitle encodinganalog="245$a">
+         Yellow Song Checklist: "M" (Minority)
+                           Listing, Norwegian to Spanish (2/2)
+        </unittitle>
+        <physdesc encodinganalog="300">
+         103 pages
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         List of foreign language recordings made by Sidney Robertson in
+                           California, 1938–1940. Yellow and white typewritten pages, some
+                           originals, listing non-English language songs recorded as part of the
+                           California Folk Music Project. Organized alphabetically by cultural
+                           group. Includes dates and locations of performances, collector's disc
+                           number with M, indicating "minority," instrumentation, occasional
+                           background commentary on the performers and performances, location where
+                           recorded, and, at times, comments regarding quality of sound recordings.
+                           n.d.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/18
+        </container>
+        <unittitle encodinganalog="245$a">
+         Yellow Song Checklist: "M" (Minority)
+                           Listing, Armenian to Mexican
+        </unittitle>
+        <physdesc encodinganalog="300">
+         103 pages
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         List of foreign language recordings made by Sidney Robertson in
+                           California, 1938-1940 (photocopy).
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/19
+        </container>
+        <unittitle encodinganalog="245$a">
+         WPA Field Reports, 1938-11-25 to
+                           1939-11-20
+        </unittitle>
+        <physdesc encodinganalog="300">
+         38 pages
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Field reports submitted to the Northern California WPA Office for Folk
+                           Music Project 10482-A25, November 25, 1938-November 25, 1939
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         2/20
+        </container>
+        <unittitle encodinganalog="245$a">
+         California Folk Music Project
+                           miscellany
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/21
+        </container>
+        <unittitle encodinganalog="245$a">
+         George Vinton Graham field
+                           materials
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/22
+        </container>
+        <unittitle encodinganalog="245$a">
+         Dust jackets, "E" [English] and "M"
+                           [minority] language (original)
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/23
+        </container>
+        <unittitle encodinganalog="245$a">
+         Dust jackets, "E" [English
+                           Language]
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/24
+        </container>
+        <unittitle encodinganalog="245$a">
+         Dust jackets, "M" [Minority
+                           Language]
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Subseries IV: Song Indexes and
+                        Transcriptions
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/25
+        </container>
+        <unittitle encodinganalog="245$a">
+         Song Indexes, English and Minority
+                           Language
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/26
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "A"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/27
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "B"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/28
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "C"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/29
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with "D"
+                           and "E"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/30
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "F"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/31
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "G"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/32
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "H"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/33
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "I"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         3/34
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with "J"
+                           and "K"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/35
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "L"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/36
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "M"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/37
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with "N"
+                           and "O"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/38
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with "P,"
+                           "Q," and "R"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/39
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "S"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/40
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "T"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/41
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with "U,"
+                           "V," and "W"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/42
+        </container>
+        <unittitle encodinganalog="245$a">
+         English-language songs beginning with
+                           "Y"
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/43
+        </container>
+        <unittitle encodinganalog="245$a">
+         Lists of Portuguese-language song titles,
+                           n.d.
+        </unittitle>
+        <physdesc encodinganalog="300">
+         4 pages with duplicate
+                           copy
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         With English translations, arranged alphabetically by title. Folder 43 (A
+                          -F) and Folder 44 (H-V) include musical transcriptions of
+                           Portuguese-language songs with lyrics, a translation of the lyrics into
+                           English and, at times, notes on these songs from the Azores that were
+                           recorded for the California collection, indexed, organized, and
+                           translated by WPA California Folk Music Project worker and performer
+                           Alice Lemos Avila.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/44
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese-language songs beginning with
+                           "A," "B," "E," and "F," n.d. (original)
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/45
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese-language songs beginning with
+                           "H"-"V" (original)
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/46
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese songs beginning with "A"-"V"
+                           (photocopy)
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         4/47
+        </container>
+        <unittitle encodinganalog="245$a">
+         Spanish-language songs sung by Jessie De
+                           Soto, n.d. (original)
+        </unittitle>
+        <physdesc>
+         6 pages
+        </physdesc>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/48
+        </container>
+        <unittitle encodinganalog="245$a">
+         English Language "A-T"
+        </unittitle>
+        <physdesc>
+         6 pages
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         English-language California song and poem research from printed sources
+                           for texts beginning in "A" through "T," n.d. Arranged in alphabetical
+                           order by first letter of title or first line.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/49
+        </container>
+        <unittitle encodinganalog="245$a">
+         English Language, Gold Rush Songs, n.d.
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         This folder includes background information on and published lyrics of
+                           Gold Rush songs copied by California WPA workers from an unidentified
+                           book at the UC Library in Berkeley. Songs, in the order in which they
+                           were prepared by the WPA staff.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/50
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese Language "C-V"
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         Portuguese-language songs arranged in alphabetical order, beginning with
+                           first letter.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/51
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese Language, Five Folk Dances of
+                           the Azores
+        </unittitle>
+        <physdesc>
+         10 pages plus photocopy of same
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         Folk Songs and Dances from the Azores, set down by Alice Avila in
+                           Berkeley in 1938-9. Copied and translated from Portuguese by Alice Lemos
+                           Avila with notes and transcriptions from the publication entitled
+         <emph render="italic">
+          Portucale
+         </emph>
+         . Includes notes for the following songs, with lyrics and
+                           musical transcription listed by first line.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/52
+        </container>
+        <unittitle encodinganalog="245$a">
+         Spanish-language songs and their
+                           English-language translation from printed sources, n.d.
+        </unittitle>
+        <physdesc>
+         3 pages
+        </physdesc>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="subseries">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Subseries V: Research products by WPA staff
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/53
+        </container>
+        <unittitle>
+         Articles in San Francisco Chronicle (1938) by Sidney Robertson
+                           Cowell
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         "The Songs of a Nation Collect a Forgotten Claim" and "The Spirit of a
+                           Generation Reflected in Folk Songs" by Sidney Robertson in two parts
+                           about her work collecting folk songs in California for the WPA. Published
+                           in the "This World" section, on September 4, 1938, p. 26, and September
+                           14, 1938, p. 22.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/54
+        </container>
+        <unittitle encodinganalog="245$a">
+         Portuguese Citizens of California
+                           (original, 1939).
+        </unittitle>
+        <physdesc>
+         58 pages
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         Original handwritten report in spiral notebook written by WPA California
+                           Folk Music Project worker Carmen Mell to describe the historical,
+                           cultural, and musical life of the Portuguese in California, 1939.
+                           Includes letter from Carmen Mell to Sidney Robertson that accompanied the
+                           report when it was completed. (3 pages)
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/55
+        </container>
+        <unittitle>
+         Portuguese Citizens of California by Carmen Mell (1939)
+                           (photocopy)
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/56
+        </container>
+        <unittitle>
+         Article in
+         <emph render="italic">
+          California Folklore Quarterly
+         </emph>
+         (1942) by Sidney
+                           Robertson Cowell
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         3 copies of "The Recording of Folk Music in California" by Sidney
+                           Robertson. Vol. 1, No. 1, January 1942, pp. 7-23.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/57
+        </container>
+        <unittitle>
+         Outline for book tentatively called "Folksong in California,"
+                           July 1954.
+        </unittitle>
+        <physdesc>
+         24 pages
+        </physdesc>
+       </did>
+       <scopecontent>
+        <p>
+         24-page typewritten and handwritten manuscript prepared by Sidney
+                           Robertson Cowell, July 1954. Research products inspired by the WPA
+                           California Folk Music Project.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/58
+        </container>
+        <unittitle>
+         Published articles
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         Articles written about Sidney Robertson, the WPA California Folk Music
+                           Project in 1938-1940, and reviews of Sidney Robertson and Eleanora
+                           Black's compilation entitled
+         <emph render="italic">
+          The Gold Rush Song Book
+         </emph>
+         , published in 1940.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         5/59
+        </container>
+        <unittitle>
+         Catalog cards
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         19 catalog cards created according to guidelines and procedures of the
+                           Library of Congress, as examples for the WPA California Folk Music
+                           Project staff. The actual catalog cards prepared by project staff for the
+                           field recordings of the CFMP became part of the Archive of Folk Culture's
+                           item-level shelflist card file created by other WPA staff working in the
+                           Library in the late 1930s and early 1940s located in the Folklife Reading
+                           Room.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box">
+         7
+        </container>
+        <unittitle>
+         Dust jackets, "E" [English-language]
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box">
+         8
+        </container>
+        <unittitle>
+         Dust jackets, "M" [minority, 1-70]
+        </unittitle>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box">
+         9
+        </container>
+        <unittitle>
+         Dust jackets, "M" [minority, 71-104]
+        </unittitle>
+       </did>
+       <scopecontent>
+        <p>
+         The CFMP selections included here (folders 25 and up) are often
+                           annotated by an E (English-language) or M (minority) disk number, the
+                           original numbers that Robertson assigned to the recordings she made for
+                           the WPA project. The term "version" here is used to cover both true
+                           variants of a song and draft copies of transcriptions in several stages
+                           of preparation (as was frequently done by WPA staff for this collection).
+                           For Folders 24-45, see Appendix C for song titles.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        AFS 3342-3377; AFS 3809-3860; AFS
+                     4194-4287
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Original field recordings made by Robertson between 1938-1940 on 12-inch
+                     acetate disks and labeled E 1-90 [English-language recordings] and M 1-109
+                     ["Minority" or foreign-language recordings]. Arranged numerically by AFS
+                     numbers in the order in which they were received by the Archive of Folk
+                     Culture. Some of the original field recordings were sent to the Folk Archive
+                     during the project in 1939; the rest were brought in during 1940 by Robertson.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries I: Scale drawings and sketches of
+                     musical instruments
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/60
+       </container>
+       <unittitle>
+        Microfilm (copy) From UC Berkeley Music Library
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two duplicate rolls of microfilm copied from the University of California,
+                        Berkeley, Music Library's California Folk Music Project Collection. Includes
+                        images representing 85 preliminary sketches of the musical instruments made
+                        originally on butcher-block paper and 40 mechanical scale drawings made by
+                        WPA staff. Includes sketches of the Spanish guitar or Sonora not included
+                        below.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/61
+       </container>
+       <unittitle>
+        Index to scale drawings and sketches of instruments
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Typewritten listing of drawings and sketches of musical instruments in
+                        collection with handwritten annotations. Undated.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/62
+       </container>
+       <unittitle>
+        Scale drawings and sketches of instruments (photocopies)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Photocopies of scale drawings taken from microfilm in the collection.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/63
+       </container>
+       <unittitle>
+        Scale drawings and sketches of instruments (photostats)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Photostats of mechanical drawings of eight musical instruments.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries II: Photographs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/64-115
+       </container>
+       <unittitle>
+        P001-P170 (copies)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Duplicate photographic prints, copy negatives for photoduplication
+                        purposes, and photocopies of photographic prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        Binder 1
+       </container>
+       <unittitle>
+        P001-P170 (original)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        170 black and white photographic prints of various sizes photographed by
+                        Sidney Robertson, T.H. Hall, and possibly other WPA workers. Includes photos
+                        of WPA personnel at work, performers, sometimes with instruments, and of
+                        instruments.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <index>
+   <head>
+    Appendix A: Places Where Field Documentation was Conducted
+   </head>
+   <indexentry>
+    <geogname>
+     <part>
+      Alameda (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Belvedere (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Berkeley (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Camino (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Carmel (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Central Valley (Calif.) [formerly called Boomtown, near the Shasta
+               Dam]
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Clements (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Columbia (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Concord (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Fowler (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Fresno (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Groveland (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Hollywood (Los Angeles, Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Lotus (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Martinez (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Monterey (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Mountain View (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Oakland (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Ortonville (Iowa)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Pacific Grove (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Pala (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Palo Alto (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Pine Grove (Amador County, Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Pittsburg (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Richmond (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      San Francisco (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      San Jose (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      San Mateo (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Santa Barbara (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Shasta Lake Region (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Springfield (Mo.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Turlock (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+   <indexentry>
+    <geogname>
+     <part>
+      Woodside (Calif.)
+     </part>
+    </geogname>
+   </indexentry>
+  </index>
+  <odd>
+   <head>
+    Appendix B: Musical Instruments Documented in Collection
+   </head>
+   <table>
+    <tgroup align="center" cols="2">
+     <colspec colname="1" colnum="1" colwidth="50*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="50*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        LC-established name
+       </entry>
+       <entry morerows="0">
+        Sidney Robertson name
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Banjo
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Blul
+       </entry>
+       <entry morerows="0">
+        Blul, blur
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Celtic harp
+       </entry>
+       <entry morerows="0">
+        Irish bardic harp
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Cimbalom
+       </entry>
+       <entry morerows="0">
+        Cembalomp
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Clarinet
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Ḍaph
+       </entry>
+       <entry morerows="0">
+        Defs, deff, def
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Dulcimer
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Dümbelek
+       </entry>
+       <entry morerows="0">
+        Dumbeg
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Dvorgrle
+       </entry>
+       <entry morerows="0">
+        Dvogrla
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        English guitar
+       </entry>
+       <entry morerows="0">
+        Guitarra portuguesa, Portuguese guitar
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Guitar
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Gusle
+       </entry>
+       <entry morerows="0">
+        Gusla
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Hardanger fiddle
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Harmonica
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Harp-lute
+       </entry>
+       <entry morerows="0">
+        Swedish lute, double guitar
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Hawaiian guitar
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Kamānche
+       </entry>
+       <entry morerows="0">
+        Kemancha
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Lirica
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Mandolin
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Miŝnice
+       </entry>
+       <entry morerows="0">
+        Mjersnice
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Oud
+       </entry>
+       <entry morerows="0">
+        Oude
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Piano
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Qānūn (Musical instrument)
+       </entry>
+       <entry morerows="0">
+        Kanoon
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        San xian
+       </entry>
+       <entry morerows="0">
+        San hsien
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Saz
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Svirala
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Tar (Lute)
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Triangle (Musical instrument)
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Viola d'arame
+       </entry>
+       <entry morerows="0">
+        Portuguese viola
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Violin
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Yaogu
+       </entry>
+       <entry morerows="0">
+        Chinese temple drum, flower drum
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Yue qin
+       </entry>
+       <entry morerows="0">
+        Moon lute, Chinese lute, Moon violin
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Zūrnā
+       </entry>
+       <entry morerows="0">
+        Surna
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <index>
+   <head>
+    Appendix C: Index to Song Transcriptions in English and Portuguese (Box 5)
+   </head>
+   <p>
+    Note: Song titles in parenthesis are alternate titles identified by Robertson
+   </p>
+   <p>
+    <emph render="bold">
+     English Language Song Transcriptions by Title, A-Y
+    </emph>
+   </p>
+   <indexentry>
+    <title>
+     <part>
+      A-Cutting Down the Pine [musical transcription, lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      A-Nutting We Will Go [musical transcription, lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Alonzo the Brave [musical transcription, 2 versions of lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      As I Walked Out One Morning [musical transcription, 2 versions of lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      As the Dew Flies over the Green Valley; see Wife Wrapped in Wether's Skin
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Banks of Glencoe; see The Maid of Glencoe
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Barbara Allen (Barb'ry Allen) [4 musical transcriptions, 4 versions of
+               lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Barney McShane [lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Beauty Bride; see I Courted a Fair Maid
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Beneath the Old Oak Tree (Betsy) [musical transcription, 2 versions of
+               lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Betsy; see Beneath the Old Oak Tree
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Billy Boy [lyrics]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Billy Taylor; see Willie Taylor
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Bingen on the Rhine
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Bishop of Canterbury (King John)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Blue Julietta
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Boston Burglar
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Brennan on the Moor; see The Cumberland's Crew
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Brave Solid
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Bridge Water; see The Bridgewater
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Bridgewater (The Bridge Water)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Brother Jack; see My Mother was a Lady
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Buffalo buffalo (Death of McKinley)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Buried in Dirt
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Butcher Boy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Candy Girl and Margy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Captain Hull and proud Dacus (Proud Dacus and Captain Hull); see John Brown
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Captain Wedderburn's Courtship; see Many questions
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Casey Jones
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Chief Bright Sky
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Coast of La Barbaree; see Down around the Coast of Les Barbarees
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Cole Younger
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Crooked Song
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Cruel Hiss
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Creole Girl; see Lake Ponsey Train
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Cumberland crew; see The Cumberland's Crew
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Cumberland's crew (Brennan on the Moor; The Cumberland Crew; The Sinking of
+               the Cumberland)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Custer's Last Charge
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Cutting Down the Pine; see A-Cutting Down the Pine
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Dan Riley (Don Riley)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Dardanella ; see Sleep, Baby, Sleep and Dardanella
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Dark Eyed Sailor (TheLousy miner)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Days of Forty-Nine
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Dear Adel, My Son
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Death of McKinley; see Buffalo, Buffalo
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Devil Out of Hell (Scolding Wife)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Dogs: An Old Barbary Coast Song
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Don Riley; see Dan Riley
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Down around the Coast of La Barbaree; see Down around the Coast of Les
+               Barbarees
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Down around the Coast of Les Barbarees (The Coast of La Barbaree; Down around the
+               Coast of La Barbaree; High Barbaree)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Down in the Diving Bell; see The Mermaid
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Dying Californian
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Fair Captive
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fair Charlotte (Young Charlotte)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fanny More ; see Henry the shepherd
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      First She Would and Then She Wouldn't Or, O, You Naughty, Naughty Man!
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Flying Cloud
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Foreman Monroe; see Jam on Gerry's Rock
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fuller and Warren
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      A Garden Hymn for Easter
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      A Garland of Old Fashioned Roses
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Georgie
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Glencoe; see The maid of Glencoe
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Goin' Down This Road Feelin' Bad; see Goin' Down That Road Feelin' Bad
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Goin' Down That Road Feelin' Bad I Ain't Gonna Be Treated This A-Way; I'm Goin'
+               Down This Road Feelin' Bad)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Green Fields of Virginia
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Green Vallee
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Greenhorn Bill
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Hampshire Bite; see Oxford Merchant
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Hard times in Kansas
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Hear the Nightingales Sing
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Henry the Shepherd (Fanny More; Randal the Haughty)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Her Sweet Sailor Boy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Hieland Mary
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      High Barbaree; see Down around the Coast of Les Barbarees
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The House Carpenter
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I Ain't Gonna Be Treated This A-Way; see Goin' Down That Road Feelin' Bad
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I'm Glad My Wife's in Europe
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I'm Goin' Down This Road; see Goin' Down That Road Feelin' Bad
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I Courted a Fair Maid
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I Was Cast on Board to Serve My King; see I Was Forced on Board to Serve My
+               King
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      I Was Forced on Board to Serve My King
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      India's Burning Sands
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Irish-American Rag
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      It Ain't Gonna Rain No More (Taint Go'in To Rain No More)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      It's Hard Times for the Girls
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      It Was Just before the Last Fierce Charge; see The Last Fierce Charge
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Ivan Rue
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jack Donohue (The Wild Colonial Boy)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jack Stafford
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jackets So Blue
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jam on Gerry's Rock (Foreman Monroe; Young Monroe)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jennie Fair, John, Sweet Rosemary; see Wife Wrapped in Wether's Skin
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Jinnie Jenkins (Oh, Will You Wear Red?; Will You Wear Red?)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      John Brown
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Johnnie's Been on Sea; see Johnny
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Johnny (Johnnie's Been on Sea; Young Johnnie; Young Johnnie the Sailor)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Keith and Hiles Line
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Keyhole in the Door
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      King John; see Bishop of Canterbury
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Kitty Wells
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Lady del Roy; see Lady Leroy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lady Leroy (The Lady del Roy)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lady Mary and Sir William; see Sir William and Lady Mary
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lake Ponchartrain; see Lake Ponsey Train
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lake Ponsey Train (The Creole Girl; Lake Ponchartrain)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lally-tu-dum (Lolly Tu Dum; Rally Trudum; Rolly Trudum)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lamanda
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Lass of Glen Shee
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Lass of Mohee; see The Little Mohee
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Last Fierce Charge (It Was Just before the Last Fierce Charge; Twas Just
+               before the Last Fierce Charge)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Little Brown Bulls
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Little Matty Grove; see Mathy Grove
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Little Mohee (The Lass of Mohee)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lolly tu dum; see Lally-tu-dum
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lord Bakeman (Lord Bateman; The Turkish lady; Young Beichan)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lord Bateman; see Lord Bakeman
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lord Thomas and Fair Ellender
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Lousy Miner; see Dark-Eyed Sailor
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Love Henry; see The well water
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lowlands of Holland
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The lyre bird and the jay
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      MacDonald of Glencoe; see The Maid of Glencoe
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Madam, I Have Come A-Courting (An Old Quaker Dialogue; O, Madam, I Have Come
+               A-Courting)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Maid of Glencoe (Banks of Glencoe; Glencoe; MacDonald of Glencoe)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      A Maiden in her Garden Walking (The soldier's bride)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Margy; see The Candy Girl and Margy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Mary of the Wild Moor; see The Wind that Sweeps o'er the Wild Moor
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Mathie Groves; see Mathy Grove
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Mathy Grove (Mathy Groves; Mathie Groves; Little Matty Grove)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Mathy Groves; see Mathy Grove
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Mermaid (Down in the Diving Bell)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Milwaukee Fire
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Molly Dear
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Molly Melancholy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Mormon-Eyed Preacher
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Motor Car Mamma
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Moses
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Mowing of the Hay
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      My Father and Mother were Irish
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      My Mother and Father Were Irish; see My Father and Mother Were Irish
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      My Gal Sal
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      My Mother Was a Lady (Brother Jack)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Narragansett Bay
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      O, Madam, I Have Come A-Courting; see Madam, I Have Come A-Courting
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh, She Licked Him and She Kicked Him
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh, They Told Me Out in Kansas
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh, Will You Wear Red?; see Jinnie Jenkins
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Old England's Shores
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Old Ned Moore
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      An Old Quaker Dialogue; see Madam, I Have Come A-Courting
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Old Sam Finley Had a Pig
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      On Cloddie's Banks
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Our Goodman (Putting on the Agony)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Overalls in Mrs. Murphy's Chowder (Who Threw the Overalls in Mrs. Murphy's
+               Chowder?)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oxford Merchant (The Hampshire Bite)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Peanut Stand
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Pompey Smith
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Popularity
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Prisoner's Song (with answer)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Proud Dacus and Captain Hull; see Captain Hull and Proud Dacus
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Putting on the Agony; see Our Goodman
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Quaker Courtship (The Quaker's Courtship)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Rake and Rambling Blade (So I Robbed Old Nelse)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Rally Trudum; see Lally-Tu-Dum
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Randal the Haughty; see Henry the Shepherd
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Rolly Trudum; see Lally-Tu-Dum
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Root, Hog, or Die
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Rose
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sally the Queen
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sam Bass
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sandy Far at Sea
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sargeant Tally-Ho (Sergeant Tally-Ho)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Scolding Wife; see The Devil Out of Hell
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sergeant Tally-Ho; see Sargeant Tally-Ho
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Shanty Boy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      She Wore a Yellow Ribbon
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Sinking of the Cumberland; see The Cumberland's Crew
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sir William and Lady Mary
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sleep, Baby, Sleep and Dardanella (Dardanella)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Snooky-Oo-Kums (Snooky-Vo-Kums)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Snooky-Vo-Kums; see Snooky-Oo-Kums
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      So I Robbed Old Nelse; see The Rake and Rambling Blade
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Soldier's Bride; see A Maiden in Her Garden Walking
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Soldier's Sweetheart
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sterling's Hotel (Stirling's Hotel)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Stirling's Hotel; see Sterling's Hotel
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Stone That Goes Rolling Will Gather No Moss (The Stone That Keeps Rolling Will
+               Gather No Moss)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Stone That Keeps Rolling Will Gather No Moss; see The Stone That Goes Rolling
+               Will Gather No Moss
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sweet Jane
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sweet Mary, Weep No More for Me; see When Mary Laid Her Down to Sleep
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Swingtime in Springtime; see Popularity
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Tailor Boy
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Taint Go'in to Rain No More; see It Ain't Gonna Rain No More
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Texas Canyon
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Tib, the Gray Mare; see Young Johnny the Miller
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      True Lover of Mine
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Turkish Lady; see Lord Bakeman
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Twas Just before the Last Fierce Charge; see The Last Fierce Charge
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Unconstant Lover
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Uncle Sam is Rich Enough
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Virginia
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Wars of Santa Fe
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Weeping Willow
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Well Water (Love Henry; Young Henry)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      We're Building Bridges
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      When Mary Laid Her Down to Sleep (Sweet Mary, Weep No More for Me)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      White Pine Mine
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Wife Wrapped in Wether's Skin (As the Dew Flies Over the Green Valley; Jennie
+               Fair, John, Sweet Rosemary)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Who Threw the Overalls in Mrs. Murphy's Chowder?; see Overalls in Mrs. Murphy's
+               Chowder
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Wild Colonial Boy; see Jack Donohue
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Will You Wear Red?; see Jinnie Jenkins
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      William Riley; see Willie Riley
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Willie Riley
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Willie Riley and His Dear Coolin Bawn; see Willie Riley
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Willie Taylor (Billy Taylor; William Taylor)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      The Wind That Sweeps o'er the Wild Moor (Mary of the Wild Moor)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Beichan; see Lord Bakeman
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Charlotte; see Fair Charlotte
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Henry; see The Well Water
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Johnnie; see Johnny
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Johnny the Miller (Tib, the Gray Mare)
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Johnny the Sailor; see Johnny
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Man Who Would Not Hoe Corn
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Young Monroe; see Jam on Gerry's Rock
+     </part>
+    </title>
+   </indexentry>
+  </index>
+  <index>
+   <head>
+    Appendix D: Portuguese Language Song Transcriptions by Title, A-V
+   </head>
+   <indexentry>
+    <title>
+     <part>
+      A Beira d'Alvo Regalo
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      As Carvoeiras
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Adeus Ulina
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      A Florista
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Ai-Ai-Amor
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Balance
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Coradinha; see A Coradinha
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Escolha Par
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fado de Coimbra
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fado dos Passarinhos
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fado Corrido
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fado Hilario
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Fado Minha Mai
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Ha Chum
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Lydia
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Margarida
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Mariana Costureira
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Minha Mai
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Minha Mai E' Pobresinha
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Noite de Natal
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      O Carvalho Milagroso
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh Laurentina
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh Minha Mai [Oh My Mother]; see Fado Minha Mai
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Oh Senhor Ladrao [Oh Mister Robber]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Ora Vai Tu
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Padeirinha [Little Baker Girl]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Ru-Chu-Chu
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      San Joao [Saint John]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Santos Reis [Wise Men]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Sao Joao [St. John]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Tia Anica [Aunt Anica]
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Triste Fado
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Tyrolando
+     </part>
+    </title>
+   </indexentry>
+   <indexentry>
+    <title>
+     <part>
+      Vira do Minho [The Vira of Minho] (Folk Dance)
+     </part>
+    </title>
+   </indexentry>
+  </index>
+ </archdesc>
+</ead>

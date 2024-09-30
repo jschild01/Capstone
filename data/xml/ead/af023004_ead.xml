@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af023004">
+   loc.afc/eadafc.af023004
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     The Robert S. Gottlieb recordings of North Indian tabla
+    </titleproper>
+    <author>
+     Prepared by Sara Ludewig
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2023">
+     2023
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2023655237" show="new">
+       https://lccn.loc.gov/2023655237
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-06">
+     June 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Sara Ludewig.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    The Robert S. Gottlieb recordings of North Indian tabla
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1956/1972">
+     1956-1972
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1956/1972" unitdatetype="inclusive">
+    1956-1972
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2000/014
+   </unitid>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Gottlieb, Robert S.
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 94
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    1 container
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    1 linear inch
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    10 sound tape reels :
+                analog ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    11 sound cassettes :
+                analog
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <language encodinganalog="041" langcode="hin">
+      Hindi
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English and Hindi.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Ethnographic field recordings of tabla
+                drumming in North India and interviews with tabla musicians.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Robert S. Gottlieb, donation, 2000.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Robert S. Gottlieb recordings of North Indian tabla were processed by Sara
+                Ludewig in February 2023.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Robert S. Gottlieb recordings of North Indian tabla are open to research. To
+                request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], The Robert S. Gottlieb recordings of North Indian
+                tabla (AFC 2000/014), American Folklife Center, Library of Congress, Washington,
+                D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Robert S. Gottlieb was an ethnomusicologist and professor of music at the University
+                of California, Riverside and Evergreen State College. In addition to his work on
+                tabla music in North India, he also studied the music of Sudan and Kathak dance
+                music in South India.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection includes sound recordings of tabla performances by master performers
+                in North India. Also included are sound recordings of interviews, and some
+                associated transcripts, with master performers and their disciples. Interviews were
+                conducted in Hindi with transcripts translating the interviews into English. Some of
+                the tabla performance recordings were used in Gottlieb's publications:
+    <title>
+     <part>
+      The Major Traditions of North Indian Tabla Drumming
+     </part>
+    </title>
+    , 1977 and
+    <title>
+     <part>
+      Solo Tabla Drumming of North India
+     </part>
+    </title>
+    , 1993 and 1998. See Related Publications for a fuller citation of these
+                works.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Robert S. Gottlieb recordings of North Indian tabla are organized in two
+                series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1: Tabla
+                        performances
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10035">
+      Series 2:
+                        Interviews
+     </ref>
+    </item>
+   </list>
+   <p>
+    The archivist arranged and described the sound recordings based on labels on the
+                sound recordings and their carriers, not by listening to the recordings. As a
+                result, errors and discrepancies may exist.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20230418160206.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Alla Rakha
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gottlieb, Robert S.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khan, Amir, Ustad
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khan, Habibuddin
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khan, Karamatullah, 1917-1977
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khan, Masit
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khan, Wājid Hussain
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khān, Inām Alī
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Khān, Latif Āhmed, 1942-1989
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kishan Maharaj
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mahārāj, Kanțhé
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shejwal, Arjun
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Thirakwa, Ahmedjan, Ustad, 1891-1979
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Sangeet Natak Akademi.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tabla music--India.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tabla music--Instruction and study.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tabla players--India--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tabla players--India.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tabla--India.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1: Tabla
+                        performances
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR16
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10002">
+       Habibuddin
+                            Khan
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10003">
+        Side A: Solo tabla,
+        <date localtype="inclusive" normal="1957-01">
+         January
+                                1957
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1957-01" unitdatetype="inclusive">
+        January 1957
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in Calcutta by Jnan
+                                Ghosh.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10004">
+        Side B: Solo tabla,
+        <date localtype="inclusive" normal="1956-03">
+         March
+                                1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-03" unitdatetype="inclusive">
+        March 1956
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in New Delhi by Sangit Natak
+                                Akademi. Tape 1/31.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10005">
+       Sangit Natak Akademi
+                            tapes of Kanthe Maharaj,
+       <date localtype="inclusive" normal="1964-09-24">
+        September 24, 1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1964-09-24" unitdatetype="inclusive">
+       September 24, 1964
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in Calcutta. Copied by Robert S.
+                            Gottlieb with permission of the Sangit Natak Akademi, New
+                            Delhi.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10006">
+        Red leader: #1/267
+                                tintal and #1/268 brahmatal
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10007">
+        Green leader: #1/270
+                                Pancham Sawari Tal and #1/272 Ganesh Tal
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10008">
+       Sangit Natak Akademi
+                            tapes of Keramatullah,
+       <date localtype="inclusive" normal="1965">
+        circa
+                                1965
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1965" unitdatetype="inclusive">
+       circa 1965
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in New Delhi. Copied by Robert S.
+                            Gottlieb with permission of the Sangit Natak Akademi, New
+                            Delhi.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10009">
+        Green leader:
+                                Performing tabla compositions of Masit Khan. Jhaptal, Ara-Chautal,
+                                Rupak.
+       </unittitle>
+       <didnote encodinganalog="500">
+        #1118
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10010">
+        Red leader: Solo
+                                tabla - tintal
+       </unittitle>
+       <didnote encodinganalog="500">
+        #1117. Keramatullah then renders the bols
+                                for specific compositions which follow.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10011">
+       Sangit Natak Akademi tape
+                            of Ahmadjan Thirakwa,
+       <date localtype="inclusive" normal="1966-08-03">
+        August 3, 1966
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966-08-03" unitdatetype="inclusive">
+       August 3, 1966
+      </unitdate>
+      <didnote encodinganalog="500">
+       Copied by Robert S. Gottlieb with permission
+                            of the Sangit Natak Akademi, New Delhi.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10012">
+        Green leader: Solo
+                                tabla in tintal
+       </unittitle>
+       <didnote encodinganalog="500">
+        #1/298
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10013">
+        Red leader: Interview
+                                with Brahaspati
+       </unittitle>
+       <didnote encodinganalog="500">
+        #1/298
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10014">
+       Keramatullah Khan - Tabla
+                            Lahara (tintal) accompanied by Mahesh Prasad Misra - Sarangi,
+       <date localtype="inclusive" normal="1968-05">
+        May 1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968-05" unitdatetype="inclusive">
+       May 1968
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in Calcutta. This performance has not
+                            been published.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10015">
+       Amir Hussain - solo
+                            tabla,
+       <date localtype="inclusive" normal="1986-11-17">
+        November 17,
+                                1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986-11-17" unitdatetype="inclusive">
+       November 17, 1968
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in Bombay by A.K. Thatte.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10016">
+       Performances of Kishan
+                            Maharaj and Wazid Hussain
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10017">
+        Green leader:
+                                Performance of Kishan Maharaj,
+        <date localtype="inclusive" normal="1971-04-21">
+         April 21, 1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-04-21" unitdatetype="inclusive">
+        April 21, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in Benares.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10018">
+        Red leader:
+                                Performance of Wazid Hussain,
+        <date localtype="inclusive" normal="1970-04-20">
+         April 20, 1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1970-04-20" unitdatetype="inclusive">
+        April 20, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in Lucknow.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR15
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10019">
+       Wazid Hussain reciting
+                            bols for his performance,
+       <date localtype="inclusive" normal="1970-04-20">
+        April 20, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970-04-20" unitdatetype="inclusive">
+       April 20, 1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10020">
+       Tabla performance of
+                            Keramatullah Khan,
+       <date localtype="inclusive" normal="1971-05-10">
+        May
+                                10, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-05-10" unitdatetype="inclusive">
+       May 10, 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in Calcutta. This performance used
+                            for publications:
+       <emph render="italic">
+        Major Traditions of North Indian
+                                Tabla Drumming
+       </emph>
+       , 1977 and
+       <emph render="italic">
+        Solo Tabla
+                                Drumming of North India
+       </emph>
+       , 1993 and 1998.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR19
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10021">
+       Bols and
+                            performances
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10022">
+        Side A: Hashmat Ali
+                                bols for Habibuddin's 1956 and 1957 performances,
+        <date localtype="inclusive" normal="1971-07-24">
+         July 24,
+                                1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-07-24" unitdatetype="inclusive">
+        July 24, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        See
+        <ref actuate="onrequest" show="replace" target="ref_id10002">
+         AFC 2000/014:
+                                    SR16
+        </ref>
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10023">
+        Side B: Keramatullah
+                                alternate performance,
+        <date localtype="inclusive" normal="1971-05-10">
+         May 10, 1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-05-10" unitdatetype="inclusive">
+        May 10, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        Not published.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10024">
+       Tabla performances of
+                            Inam Ali Khan
+      </unittitle>
+      <didnote encodinganalog="500">
+       Recorded in Bombay.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog, 5
+                            in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10025">
+        Green leader,
+        <date localtype="inclusive" normal="1971-10-05">
+         October 5,
+                                1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$g" normal="1971-10-05" unitdatetype="bulk">
+        October 5, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        This performance used for Anthology
+                                Record, 1975.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10026">
+        Red leader,
+        <date localtype="inclusive" normal="1971-10-06">
+         October 6,
+                                1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-10-06" unitdatetype="inclusive">
+        October 6, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        This performance used for publications:
+        <emph render="italic">
+         Major Traditions of North Indian Tabla
+                                    Drumming
+        </emph>
+        , 1977 and
+        <emph render="italic">
+         Solo Tabla
+                                    Drumming of North India
+        </emph>
+        , 1993 and 1998.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10027">
+       Tabla performance of Alla
+                            Rakha,
+       <date localtype="inclusive" normal="1972-01">
+        January
+                            1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-01" unitdatetype="inclusive">
+       January 1972
+      </unitdate>
+      <didnote encodinganalog="500">
+       Recorded in Bombay. Selections from these
+                            performances were combined for use in
+       <emph render="italic">
+        Major
+                                Traditions of North Indian Tabla Drumming
+       </emph>
+       , 1977 and
+       <emph render="italic">
+        Solo Tabla Drumming of North India
+       </emph>
+       , 1993 and
+                            1998.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR21
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10028">
+       Bols and
+                            performances
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10029">
+        Side A: Bols for
+                                performance of Alla Rakha recited by Zakir Hussain,
+        <date localtype="inclusive" normal="1972-01-10">
+         January 10,
+                                    1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-01-10" unitdatetype="inclusive">
+        January 10, 1972
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in Bombay. See
+        <ref actuate="onrequest" show="replace" target="ref_id10027">
+         AFC
+                                    2000/014: SR04
+        </ref>
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10030">
+        Side B: Recorded
+                                performance of Alla Rakha,
+        <date localtype="inclusive" normal="1972-01">
+         January 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-01" unitdatetype="inclusive">
+        January 1972
+       </unitdate>
+       <didnote encodinganalog="500">
+        Recorded in Bombay. This was abridged for
+        <emph render="italic">
+         Major Traditions of North Indian Tabla
+                                    Drumming
+        </emph>
+        , 1977 and
+        <emph render="italic">
+         Solo Tabla
+                                    Drumming of North India
+        </emph>
+        , 1993 and 1998.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10031">
+       Edited tapes of
+                            Habibuddin and Alla Rakha,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <didnote encodinganalog="500">
+       Ajrala compositions selected from older
+                            recordings. See
+       <ref actuate="onrequest" show="replace" target="ref_id10002">
+        AFC 2000/014: SR16.
+       </ref>
+       The edited
+                            performance of Alla Rakha which was published.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel: analog, 5
+                            in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR20
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10032">
+       Bols,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10033">
+        Side A: Arvind
+                                Mulgaonkar bols for miscellaneous gharana compositions
+       </unittitle>
+       <didnote encodinganalog="500">
+        Recorded in Bombay.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10034">
+        Side B: Arjun Shejwal
+                                pakhawaj player, bols for miscellaneous compositions and parkhans
+                                and their rendition on pakharaj
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10035">
+      Series 2:
+                        Interviews
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR13
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10036">
+       Miscellaneous interviews,
+                            Calcutta
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10037">
+        Side A: Masit Khan
+                                playing tabla and reminiscing about his musical background,
+        <date localtype="inclusive" normal="1971-03-02">
+         March 2,
+                                1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-03-02" unitdatetype="inclusive">
+        March 2, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        Interview in Hindi.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a" id="ref_id10038">
+        Side B: Interview
+                                with Jnan Ghosh, Keramatullah, and Masit Khan about rhythmic
+                                manipulations,
+        <date localtype="inclusive" normal="1971-02-09">
+         February 9, 1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971-02-09" unitdatetype="inclusive">
+        February 9, 1971
+       </unitdate>
+       <didnote encodinganalog="500">
+        Interview in Hindi.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10039">
+       [Interview synopsis -
+                            Jnan Ghosh],
+       <date localtype="inclusive" normal="1971-02-09">
+        February 9,
+                                1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-02-09" unitdatetype="inclusive">
+       February 9, 1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10040">
+       [Interview transcript -
+                            Masit Khan and Keramatullah],
+       <date localtype="inclusive" normal="1971-03-02">
+        March 2, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-03-02" unitdatetype="inclusive">
+       March 2, 1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR17
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10041">
+       Interview with Kishan
+                            Maharaj, Benares,
+       <date localtype="inclusive" normal="1971-04-21">
+        April
+                                21, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-04-21" unitdatetype="inclusive">
+       April 21, 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Five classes of lay, discussion with bols,
+                            bols for Tabla Lahara, five lay illustration (tukras), gharana style and
+                            terms, five lay repeated.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10042">
+       [Translation of interview
+                            - Kishan Maharaj],
+       <date localtype="inclusive" normal="1971-04-21">
+        April
+                                21, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-04-21" unitdatetype="inclusive">
+       April 21, 1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR14
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10043">
+       Interview with Wazid
+                            Hussain, Lucknow,
+       <date localtype="inclusive" normal="1971-04-21">
+        April
+                                21, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-04-21" unitdatetype="inclusive">
+       April 21, 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Gharana genealogy, gat (Abid Hussain), gat
+                            features, mixed parhan (tabla), pure tabla, chakradar (Wazid Hus),
+                            comp/(Farukhabad model), tukra, peshkar, miscellaneous
+                            elaborations.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10044">
+       [Interview transcript -
+                            Wazid Hussain],
+       <date localtype="inclusive" normal="1971-04-21">
+        April
+                                21, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-04-21" unitdatetype="inclusive">
+       April 21, 1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR18
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10045">
+       Interview with
+                            Habibuddin, Meerut,
+       <date localtype="inclusive" normal="1971-07-24">
+        July
+                                24, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-07-24" unitdatetype="inclusive">
+       July 24, 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Interviewing Habibuddin who was paralyzed at
+                            the time. He could no longer perform and was barely able to speak. When
+                            asked about the compositions he performed for the 1956 and 1957
+                            recordings, he responded by fingering the bols on the arm of his
+                            disciple Hashmat Ali who was then able to recite them.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10046">
+       Interview with Inam Ali,
+                            Bombay,
+       <date localtype="inclusive" normal="1971-09">
+        September
+                                1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-09" unitdatetype="inclusive">
+       September 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Interview in Hindi.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2000/014: SR12
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10047">
+       Interview with Inam Ali
+                            and his disciple Latif Ahmed, Bombay,
+       <date localtype="inclusive" normal="1971-09">
+        September 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-09" unitdatetype="inclusive">
+       September 1971
+      </unitdate>
+      <didnote encodinganalog="500">
+       Interview in Hindi. Subjects include: bols of
+                            tabla and distinction pertaining to palta and bal.
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette:
+                            analog
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10048">
+       [Manuscript materials
+                            accompanying sound recordings]
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <bibliography>
+   <head>
+    Related Publications
+   </head>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/79322756" show="new">
+     Gottlieb, Robert S.
+     <title>
+      <part>
+       The Major Traditions of North Indian Tabla Drumming: A Survey
+                            Presentation Based on Performances by India's Leading Artists :
+                            Illustrated with Recordings and Transcriptions of the
+                            Performances.
+      </part>
+     </title>
+     Munich: Musikverlag E. Katzbichler, 1977.
+    </ref>
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/93901376" show="new">
+     Gottlieb, Robert S.
+     <title>
+      <part>
+       Solo Tabla Drumming of North India: Its Repertoire, Styles, and
+                            Performance Practices.
+      </part>
+     </title>
+     1st ed. Delhi: Motilal Banarsidass Publishers, 1993.
+    </ref>
+   </bibref>
+   <bibref>
+    Gottlieb, Robert S.
+    <title>
+     <part>
+      Solo Tabla Drumming of North India: Its Repertoire, Styles, and
+                        Performance Practices.
+     </part>
+    </title>
+    2nd ed. Delhi, Motilal Banarsidass Publishers, 1998.
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/73750149" show="new">
+     Khan,
+                    Inam Ali and Sultan Khan, performers and Robert Gottlieb, compiler.
+     <title>
+      <part>
+       North Indian Tabla Drumming.
+      </part>
+     </title>
+     Anthology, 1975.
+    </ref>
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/73750906" show="new">
+     Khan,
+                    Ustad Keramatullah, performer and Robert Gottlieb, compiler.
+     <title>
+      <part>
+       42 Lessons for Tabla: Illustrated with Examples and Recordings of
+                            Master Performer Ustad Keramatullah Khan.
+      </part>
+     </title>
+     Folkways Records CRB 12, 1973.
+    </ref>
+   </bibref>
+  </bibliography>
+ </archdesc>
+</ead>

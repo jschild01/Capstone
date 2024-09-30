@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011002" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011002
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1995 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1995/001
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="1995-11">
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695165" show="new">
+       https://lccn.loc.gov/2004695165
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-08">
+     August, 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1995/001
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1995 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1995/1995">
+     1995
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1995/1995" unitdatetype="inclusive">
+    1995
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    14
+		  folders.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    5 sound cassettes
+		  (DAT) : digital.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    254 photographs :
+		  negative, black and white, color
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    73 photographic prints
+		  : black and white, color ; various sizes
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    10 color slides :
+		  color
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    4 transparencies :
+		  color
+   </physdesc>
+   <physdesc label="Extent (Moving Images)">
+    6 videocassettes
+		  (Hi-8).
+   </physdesc>
+   <physdesc label="Extent (Moving Images)">
+    2 videocassettes
+		  (VHS).
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="cpf">
+     Louisiana French
+		  Creole
+    </language>
+    <language encodinganalog="041" langcode="hun">
+     Hungarian
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      English,
+		  Louisiana French
+		  Creole, Hungarian, and
+		  Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Documentation of the
+		  monthly 1995 Neptune Plaza Concert Series, which consists of manuscript
+		  materials, sound recordings, photographs, and moving images of performances of
+		  zydeco music, lindy hop, bluegrass music, Hungarian folk dance and music,
+		  gospel music, and Argentine tango recorded live outdoors on Neptune Plaza in
+		  front of the Thomas Jefferson Building, Library of Congress from April through
+		  September 1995, sponsored by the American Folklife Center. and the National
+		  Council for the Traditional Arts.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1995 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, sound recordings, graphic materials, and moving
+		  images that document the 1995 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures. The concerts take place on the Neptune
+		  Plaza at the front of the Jefferson Building of the Library of Congress between
+		  April and September. Adverse weather conditions sometimes force the concerts
+		  indoors.
+   </p>
+   <p>
+    The 1995 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="15*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="30*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="25*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="30*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 14
+       </entry>
+       <entry morerows="0">
+        Beau Jocque and the Hi-Rollers
+       </entry>
+       <entry morerows="0">
+        Louisiana
+       </entry>
+       <entry morerows="0">
+        Zydeco music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 18
+       </entry>
+       <entry morerows="0">
+        Frankie Manning
+       </entry>
+       <entry morerows="0">
+        New York
+       </entry>
+       <entry morerows="0">
+        Lindy-hop
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 15
+       </entry>
+       <entry morerows="0">
+        Laurie Lewis and the Grant Street
+					 Band
+       </entry>
+       <entry morerows="0">
+        California
+       </entry>
+       <entry morerows="0">
+        Bluegrass music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 20
+       </entry>
+       <entry morerows="0">
+        Méta and the Tisza Dance Ensemble
+       </entry>
+       <entry morerows="0">
+        Hungary and District of Columbia
+       </entry>
+       <entry morerows="0">
+        Hungarian music and dance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 17
+       </entry>
+       <entry morerows="0">
+        The Inspirational Singers
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Gospel music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 21
+       </entry>
+       <entry morerows="0">
+        Buenos Aires Connection
+       </entry>
+       <entry morerows="0">
+        Argentina and New York
+       </entry>
+       <entry morerows="0">
+        Tango music and dance
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1995.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20180703102734.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jocque, Beau
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lewis, Laurie, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Manning, Frankie
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Grant Street (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Inspirational Singers
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Méta (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      New York Tango Trio
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      New York-Buenos Aires Connection (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Tisza Ensemble
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Zydeco Hi-Rollers
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Argentine Americans--New York (State)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1991-2000.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing--Hungary.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Hungary.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hungarian Americans--Washington (D.C.)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jitterbug (Dance)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lindy (Dance)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Argentina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tango (Dance)--Argentina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tangos--Argentina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tap dancing.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Zydeco music--Louisiana.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1995
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Neptune Plaza Concert Series, 1995
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1995 Neptune Plaza Concert Series Collection (AFC 1995/001), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Print Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        box
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1, 2, 4-6, 12, 14, 16, 19
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Computer
+					 Diskettes
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        3 1/2" diskette
+       </entry>
+       <entry morerows="0">
+        FOLDER 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        120-minute digital audio tapes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/001:SR1-5
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        90-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/001:SR1-c1 to SR5-c1 (listening
+					 copies)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        201
+       </entry>
+       <entry morerows="0">
+        black-and-white 35 mm negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 1-6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        53
+       </entry>
+       <entry morerows="0">
+        color 35 mm negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3, 13, 15, 17, 20
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        20
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3, 7, 13, 15, 20
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        4x6 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        FOLDER 15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        4
+       </entry>
+       <entry morerows="0">
+        4x5 color transparencies
+       </entry>
+       <entry morerows="0">
+        FOLDER1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        52
+       </entry>
+       <entry morerows="0">
+        4x6 color photographic prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 7-11, 18
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        10
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        FOLDER1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Image
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        hi-8 color videocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/001:V1-2, V4-5, V7-8
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        1/2" VHS color videocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/001:V3, V6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        8
+       </entry>
+       <entry morerows="0">
+        1/2" VHS color videocassettes (viewing
+					 copies)
+       </entry>
+       <entry morerows="0">
+        AFC 1995/001:V1-v1-2, V2-v1, V4-v1-2, V5-v1,
+					 V7-v1, V8-v1
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: PRINT MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document), an article describing
+					 the Neptune Plaza Concert Series, and press releases on the 1995 concert
+					 lineup. Also includes a 3" computer diskette containing logs of the concerts in
+					 Wordperfect 5.1 on MSDOS 6 (all logs are available in hard copy in the
+					 individual concert folders). Publicity images: 10 color slides and 4 4x5 color
+					 positive transparencies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        2
+       </container>
+       <unittitle>
+        Beau Jocque and the Hi-Rollers, 4-14-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers and a concert log by Charlie McNamara.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        4-6
+       </container>
+       <unittitle>
+        Frankie Manning, 5-18-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, news clippings, press releases, promotional
+					 materials on the performers, a transcription of a National Public Radio
+					 interview with Frankie Manning, one copy of
+        <title localtype="simple">
+         <part>
+          Jet
+         </part>
+        </title>
+        magazine with an article on Frankie Manning,
+				  and information on swing-dancing.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        12
+       </container>
+       <unittitle>
+        Laurie Lewis and the Grant Street Band,
+					 6-15-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Charlie McNamara and Hubie King, news clippings, and promotional
+					 materials on the band.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        14
+       </container>
+       <unittitle>
+        Méta and the Tisza Dance Ensemble,
+					 7-20-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, news clippings, concert log by Dave LaSalle
+					 and Wendy DeBano, and promotional materials on the performers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        16
+       </container>
+       <unittitle>
+        The Inspirational Singers, 8-17-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 and a concert log by Dale Johnson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        19
+       </container>
+       <unittitle>
+        Buenos Aires Connection, 9-21-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers and a log by Charlie McNamara.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Audio Cassettes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1995/001: SR1
+       </container>
+       <unittitle>
+        Beau Jocque and the Hi-Rollers, 4-14-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 120 minute digital audiotape. Listening copy is available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1995/001: SR2
+       </container>
+       <unittitle>
+        Frankie Manning, 5-18-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 120-minute digital audiotape. Listening copy is available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1995/001: SR3
+       </container>
+       <unittitle>
+        Laurie Lewis and the Grant Street Band,
+					 6-15-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 120-minute digital audiotape. Listening copy is available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1995/001: SR4
+       </container>
+       <unittitle>
+        The Inspirational Singers, 8-17-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 120-minute digital audiotape. Listening copy is available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1995/001: SR5
+       </container>
+       <unittitle>
+        Buenos Aires Connection, 9-21-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 120-minute digital audiotape. Listening copy is available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        1
+       </container>
+       <unittitle>
+        Beau Jocque and the Hi-Rollers, 4-14-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (33 images). Photographed
+					 by Jim Hardin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        2
+       </container>
+       <unittitle>
+        Frankie Manning, 5-18-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three sheets of color 35 mm (53 images). Photographed by
+					 Stephen Spinder.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        3
+       </container>
+       <unittitle>
+        Laurie Lewis and the Grant Street Band,
+					 6-15-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (37 images). Photographed
+					 by Jim Hardin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        4
+       </container>
+       <unittitle>
+        Méta and the Tisza Dance Ensemble,
+					 7-20-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (24 images). Photographed
+					 by Craig Hobson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        5
+       </container>
+       <unittitle>
+        The Inspirational Singers, 8-17-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (36 images). Photographed
+					 by James Glover.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        6
+       </container>
+       <unittitle>
+        Buenos Aires Connection, 9-21-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black-and-white 35 mm (37 images), photographed
+					 by Peter Harrington. One sheet of black-and-white 35 mm (35 images),
+					 photographed by James Glover.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        3
+       </container>
+       <unittitle>
+        Beau Jocque and the Hi-Rollers, 4-14-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white 35 mm contact sheet (33 images) and four 8
+					 x 10 black-and-white photographic prints. Photographed by Jim Hardin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        7-11
+       </container>
+       <unittitle>
+        Frankie Manning, 5-18-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 8 x 10 black-and-white photographic print (photographed by
+					 Jim Hardin) and 41 4 x 6 color photographic prints (photographed by Stephen
+					 Spinder).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        13
+       </container>
+       <unittitle>
+        Laurie Lewis and the Grant Street Band,
+					 6-15-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white 35 mm contact sheet (37 images) and four 8
+					 x 10 black-and-white photographic prints. Photographed by Jim Hardin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        15
+       </container>
+       <unittitle>
+        Méta and the Tisza Dance Ensemble,
+					 7-20-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white 35 mm contact sheet (24 images) and six 8
+					 x 10 black-and-white photographic prints, photographed by Craig Hobson. One 4 x
+					 6 black-and-white photographic print, (publicity-photographer unkown).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        17-18
+       </container>
+       <unittitle>
+        The Inspirational Singers, 8-17-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white 35 mm contact sheet (36 images)
+					 photographed by James Glover. Ten 4 x 6 color photographic prints photographed
+					 by Dale Johnson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        20
+       </container>
+       <unittitle>
+        Buenos Aires Connection, 9-21-95.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white 35 mm contact sheet (37 images) and four 8
+					 x 10 black-and-white photographic prints photographed by Peter Harrington. One
+					 black-and-white 35 mm contact sheet (35 images) and one 8 x 10 black-and-white
+					 photographic print photographed by James Glover.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: MOVING IMAGE
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V1
+      </container>
+      <unittitle>
+       Beau Jocque and the Hi-Rollers, 4-14-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Peter Bartis. Viewing copies are
+				  available in the Folklife Reading Room.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V2-3
+      </container>
+      <unittitle>
+       Frankie Manning, 5-18-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Peter Bartis. Viewing copy is
+				  available in the Folklife Reading Room. One 1/2" VHS color copy of a 1989
+       <title localtype="simple">
+        <part>
+         20/20
+        </part>
+       </title>
+       segment on Frankie Manning (approximately 10
+				minutes).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V4
+      </container>
+      <unittitle>
+       Laurie Lewis and the Grant Street Band,
+				  6-15-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Peter Bartis. Viewing copies are
+				  available in the Folklife Reading Room.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V5-6
+      </container>
+      <unittitle>
+       Méta and the Tisza Dance Ensemble, 7-20-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Charlie McNamara and Peter Bartis.
+				  Viewing copy is available in the Folklife Reading Room. One 1/2" VHS color copy
+				  of a WJLA TV five o'clock news program segment on the concert.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V7
+      </container>
+      <unittitle>
+       The Inspirational Singers, 8-17-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Peter Bartis. Viewing copy is
+				  available in the Folklife Reading Room.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1995/001: V8
+      </container>
+      <unittitle>
+       Buenos Aires Connection, 9-21-95.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One hi-8 color videotaped by Peter Bartis. Viewing copy is
+				  available in the Folklife Reading Room.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    <emph>
+     Appendix A: Dance Content
+    </emph>
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="80*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Beau Jocque and the Hi-Rollers
+       </entry>
+       <entry morerows="0">
+        Beau Jocque and his band play zydeco, social
+					 dance music of the African-French Louisiana Creoles. Many couples in the
+					 audience dance to two-steps, waltzes, and blues. Print material and
+					 photographs: folders 2-3; sound recording: AFC 1995/001:SR1; videotape: AFC
+					 1995/001:V1.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Frankie Manning
+       </entry>
+       <entry morerows="0">
+        Frankie Manning and company present New York-
+					 style lindy hop to the music of Brooks Tegler's Hot Jazz band. Manning, an
+					 award- winning choreographer and originator of lindy hop styling, narrates the
+					 program and tells stories of the early days of the dance in Harlem. Manning and
+					 Mickey Davidson, Debbie Williams, and Charles Young (Manning's son) offer
+					 demonstrations of lindy hop, tap, shim- sham, and a tribute to chorus girls.
+					 Print material and photographs: folders 4-11; sound recording: AFC
+					 1995/001:SR2; videotapes: AFC 1995/001:V2-3.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Méta and the Tisza Dance Ensemble
+       </entry>
+       <entry morerows="0">
+        Méta and Tisza Ensemble present traditional
+					 Hungarian music and dance. Cathy Lamont, artistic director for Tisza Ensemble,
+					 narrates the program and explains the dances, which include the Rabakozi, a
+					 suite of dances from Mezosegi, a suite of dances from Szatmari (including the
+					 Verbunk), and a dance from Szekelyfoldi. Méta, an ensemble from Budapest,
+					 provides the music. Print material and photographs: folders 14-15; videotapes:
+					 AFC 1995/001:V5-6.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Buenos Aires Connection
+       </entry>
+       <entry morerows="0">
+        With music provided by the New York Tango
+					 Trio, two couples demonstrate two distinct styles of Argentine tango. Rebecca
+					 Shulman and Jorge Udrisard and Carlos and Caty Funes dance tangos, milongas and
+					 a waltz. Print material and photographs: folders 19-20; videotape: AFC
+					 1995/001:V8.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

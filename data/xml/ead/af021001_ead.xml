@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021001">
+   loc.afc/eadafc.af021001
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Michael Cooney poster collection, circa 1960s-1982
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Valda Morris and Carolina Restrepo
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2021">
+     2021
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2013655518" show="new">
+       https://lccn.loc.gov/2013655518
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="http://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-04">
+     April 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+                    Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Michael Cooney poster collection, circa
+                1960s-1982
+    <date altrender="Span Dates" localtype="inclusive" normal="1960/1982">
+     1960-1982
+    </date>
+   </unittitle>
+   <unitdate label="Span Dates" normal="1960/1982" unitdatetype="inclusive">
+    1960-1982
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 1982/024
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Cooney, Michael B., 1943-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    95 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    6 oversized folders: 1 container (5
+                folders), 1 oversized folder.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    approximately 95
+                posters : color, black and white ; various sizes.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of folk festival posters and
+                concert advertisements featuring Michael Cooney, Joan Baez, Guy Carawan, David
+                Bromberg, Barbara Dane, Jim Garland, John Hammond, Sam Hinton, Bessie Jones, Norman
+                Kennedy, Jim Kweskin, New Lost City Ramblers, Jean Ritchie, Pete Seeger, Peggy
+                Seeger, Frank Stovall, James Taylor, Dave Von Ronk, among others, for various events
+                across the United States, many undated, circa 1960-1982. Some posters are
+                autographed. Includes a few St. Brigid's Day and St. David's Day
+                broadsides.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    The collection was created by, Michael Cooney; Donation; 1982
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Michael Cooney poster collection, circa 1960s-1982 was processed by Valda Morris
+                and Carolina Restrepo in December 2020.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Michael Cooney poster collection, circa 1960s-1982 is open to research. To
+                request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Michael Cooney poster collection (AFC 1982/024),
+                Archive of Folk Culture, American Folklife Center, Library of Congress, Washington,
+                D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Michael Cooney is a musician, writer, and key contributor to the the American folk
+                revival. He was born in Carmel, California, in 1943, and was raised in Tucson,
+                Arizona. Soon after high school, he traveled the country and his interest in folk
+                and blues music grew. In 1963, he participated in a Young Folksinger's Contest at
+                the Monterey Folk Festival and began performing regularly. By 1964, he began
+                traveling the country and performing in and organizing performances in numerous
+                halls, clubs, coffee shops, and folk festivals throughout U.S., Canada, Mexico,
+                Great Britain, and Europe. He served on several boards including the National Folk
+                Festival and the Newport Folk Festival. As a performer, he participated at most of
+                the major North American folk festivals held in Washington, D.C., Newport,
+                Philadelphia, Mariposa, Winnipeg, Vancouver, Monterey, Berkeley, and San Diego,
+                among many others. He is a longtime contributor and columnist for Sing Out! and has
+                several albums including
+    <emph render="italic">
+     The Cheese Stands Alone
+    </emph>
+    (1968),
+    <emph render="italic">
+     Singer of Old Songs
+    </emph>
+    (1976),
+    <emph render="italic">
+     Still Cooney After All These Years
+    </emph>
+    (1979),
+    <emph render="italic">
+     Pure Unsweetened
+    </emph>
+    (1982), and
+    <emph render="italic">
+     Together
+                    Again
+    </emph>
+    (2002).
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection includes fliers and posters documenting Cooney’s musical performances
+                and folk festivals he organized between ca. 1960-1982. Posters from performances by
+                several prominent folk music figures, ranging from Pete Seeger to New Lost City Rambers, are included. Information pertaining to the posters are gathered from the items themselves. Most of the fliers and posters are undated but have other
+                pertinent information about who was performing and where the event was taking place.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Michael Cooney poster collection, circa 1960s-1982 has one series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref target="ead10001">
+      Series 1: Posters, ca 1963-1976.
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20210316091558.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cooney, Michael B., 1943-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Concerts--Posters.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--Posters.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music festivals--Posters.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk musicians--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Broadsides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Performing arts posters--1960-1980.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Posters, ca. 1963-1976
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Pete Seeger,
+       <date localtype="inclusive" normal="0000-06-09">
+        June
+                                9
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-06-09" unitdatetype="inclusive">
+       June 9
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 11 x 14 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pete Seeger sings in concert, Wednesday, June 9 at 8:15 pm, Civic
+                                Theatre.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Pete Seeger,
+       <date localtype="inclusive" normal="0000-12-05">
+        December
+                                15
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-12-05" unitdatetype="inclusive">
+       December 15
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pete Seeger in concert, Friday, December 15th at 8:30pm, presented by
+                                the Pittsburgh Folklore Society and Carnegie Ceilidh, Carnegie Music
+                                Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Frank Werner,
+       <date localtype="inclusive" normal="0000-04-06">
+        April
+                                6
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-04-06" unitdatetype="inclusive">
+       April 6
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Frank Werner an evening of songs and stories, Saturday, April 6th at
+                                8:30pm, presented by the Pittsburgh Folklore Society and Carnegie
+                                Ceilidh, Carnegie Lecture Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Frank George, Aunt Jenny
+                                Wilson and Russell Fluharty,
+       <date localtype="inclusive" normal="0000-10-28">
+        October 28
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-10-28" unitdatetype="inclusive">
+       October 28
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       West Virginia traditional instrumental and vocal music, Frank George,
+                                Aunt Jenny Wilson, Russell Fluharty, Saturday, October 28th at
+                                8:30pm, presented by the Pittsburgh Folklore Society and Carnegie
+                                Ceilidh, Carnegie Lecture Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Norman Kennedy, Lou
+                                Killen, and Maggi Kerr Peirce,
+       <date localtype="inclusive" normal="0000-11-18">
+        November 18
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-11-18" unitdatetype="inclusive">
+       November 18
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       England, Ireland and Scotland Traditional Ballads and Songs, Norman
+                                Kennedy, Lou Killen, Maggi Kerr Peirce, Saturday, November 18th at
+                                8:30pm, presented by the Pittsburgh Folklore Society and Carnegie
+                                Ceilidh, Carnegie Lecture Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Gospel Music from the
+                                Hill,
+       <date localtype="inclusive" normal="0000-02-24">
+        February
+                                    24
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-02-24" unitdatetype="inclusive">
+       February 24
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Gospel Music from the Hill, Saturday, February 24th at 8:30pm,
+                                presented by the Pittsburgh Folklore Society and Carnegie Ceilidh,
+                                Carnegie Lecture Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS01-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Pittsburgh Folk Music
+                                Concert,
+       <date localtype="inclusive" normal="0000-03-16">
+        March
+                                    16
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-16" unitdatetype="inclusive">
+       March 16
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pittsburgh Folk Music Concert, Saturday, March 16th at 8:30pm,
+                                presented by the Pittsburgh Folklore Society and Carnegie Ceilidh,
+                                Carnegie Lecture Hall, Oakland.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       The Masked Marvel, The
+                                incredible Bill Hinkley et al.,
+       <date localtype="inclusive" normal="0000-02-12">
+        February 12
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-02-12" unitdatetype="inclusive">
+       February 12
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 14 x 8
+                                1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Benefit starring the Masked Marvel, The incredible Bill Hinkley and
+                                Judy Larson with Phil Platt, Ceilidh Style, Sunday, February 12,
+                                Live at The Extemp.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Kingston Ceilidh folk
+                                music workshop,
+       <date localtype="inclusive" normal="0000-09-26">
+        September 26
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-26" unitdatetype="inclusive">
+       September 26
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 13 x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Kingston Ceilidh folk music workshop, 8:00pm, Fine Arts Center, URI,
+                                September 26th, October 17th, November 14th, and December 12th.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 982/024:OS02-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       Kingston Ceilidh folk
+                                music workshop,
+       <date localtype="inclusive" normal="0000-03-07">
+        March 7
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-07" unitdatetype="inclusive">
+       March 7
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 12 x 9 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Kingston Ceilidh folk music workshop, 8:00pm, Recital Hall, Fine Arts
+                                Center, URI, March 7th, April 11th, and May 2nd.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Kingston Ceilidh folk
+                                music workshop,
+       <date localtype="inclusive" normal="0000-02-21">
+        February 21
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-02-21" unitdatetype="inclusive">
+       February 21
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Kingston Ceilidh folk music workshop, Friday, Friday 21st at 8:00pm,
+                                Room C100, Fine Arts Center, URI.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       The New Lost City
+                                Ramblers,
+       <date localtype="inclusive" normal="0000-02-04">
+        February
+                                    4
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-02-04" unitdatetype="inclusive">
+       February 4
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The New Lost City Ramblers, presented in concert by the Pittsburgh
+                                Folkloric Society and Carnegie Ceilidh in the ballroom of Skibo at
+                                the Carnegie Institute of Technology, Saturday, February 4th at
+                                8:30pm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       The New Lost City
+                                Ramblers,
+       <date localtype="inclusive" normal="0000-04-29">
+        April
+                                    29
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-04-29" unitdatetype="inclusive">
+       April 29
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The New Lost City Ramblers, Sunday, April 29th at 2:30pm at Hoover
+                                High Auditorium.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Gospel Blues,
+       <date localtype="inclusive" normal="1967-03-10">
+        March 10,
+                                1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-03-10" unitdatetype="inclusive">
+       March 10, 1967
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Pittsburgh Folklore Society and the Carnegie Ceilidh present
+                                Gospel Blues, Friday, March 10, 1967 at 8:30pm in the Wherrett room
+                                of Skibo at the Carnegie Institute of Technology, a concert of
+                                traditional music from the hill, The Gospel Lights, The Travelaires,
+                                The Golden Rings, et al.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       British and American
+                                folk festival favorites
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 11 x 15
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Downtown Sounds/Second Fret Coffeehouse presents a concert series for
+                                young and old with British and American folk festival favorites,
+                                7:15 and 9:15 shows.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       Norman Kennedy, Sara
+                                Grey, and Peter R. Hoover,
+       <date localtype="inclusive" normal="1966-12-09">
+        December 9, 1966
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966-12-09" unitdatetype="inclusive">
+       December 9, 1966
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Pittsburgh Folklore Society and the Carnegie Ceilidh present a
+                                concert of traditional ballads from Scotland and Appalachia with
+                                Norman Kennedy, Sara Grey, and Peter R. Hoover, Friday, December 9th
+                                1966 at 8:30pm, Wherrett Rm, Skibo, Carnegie Institute of
+                                Technology.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       The Sixth Annual
+                                Berkeley Folk Music Festival Children's Folk Song Concerts,
+       <date localtype="inclusive" normal="0000-06-28/0000-06-29">
+        June
+                                    28-29
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-06-28/0000-06-29" unitdatetype="inclusive">
+       June 28-29
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Associated Students of the University of California present the
+                                Sixth Annual Berkeley Folk Music Festival Children's Folk Song
+                                Concerts, Pete Seeger and Sam Hinton, Friday and Saturday, June 28
+                                and 29 at 10:30 am, Pauley Ballroom, Bancroft and Telegraph,
+                                Berkeley.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR12
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       The Sixth Annual
+                                Berkeley Folk Music Festival,
+       <date localtype="inclusive" normal="0000-06-26/0000-06-29">
+        June 26-29
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-06-26/0000-06-29" unitdatetype="inclusive">
+       June 26-29
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Workshops, the sixth annual Berkeley Folk Music Festival, presented
+                                by the Associated Students of the University of California, June
+                                26-29.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR13
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10022">
+       Kent State University
+                                Folk Festival,
+       <date localtype="inclusive" normal="0000-01-14/0000-01-16">
+        January 14-16
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-01-14/0000-01-16" unitdatetype="inclusive">
+       January 14-16
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Kent State University Folk Festival, January 14-16 at 8:00pm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR14
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Southern Folk Festival
+                                Tour
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Southern Folk Festival Tour, Southern Folk Culture Revival
+                                Project.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS02-GR15
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10024">
+       Southern Folk Festival
+                                Tour
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Southern Folk Festival Tour, Southern Folk Culture Revival Project.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10026">
+       Mother Earth concert,
+       <date localtype="inclusive" normal="0000-03-15">
+        March
+                                15
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-15" unitdatetype="inclusive">
+       March 15
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Mother Earth, Sunday, March 15 at 7:30pm at The Electric Factory,
+                                produced as benefit for Sing Out Magazine.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10027">
+       The Attic
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Attic, 1201 Broadway, Boulder, Colorado, espresso, coffee,
+                                entertainment, nightly.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10028">
+       Redcar Folk Festival
+                                1968,
+       <date localtype="inclusive" normal="1968-08-16/1968-08-18">
+        August 16-18, 1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968-08-16/1968-08-18" unitdatetype="inclusive">
+       August 16, 17, 18, 1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 x 10
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Redcar Folk Festival 1968, Aug 16th, 17th, 18th, programme and
+                                details from the secretary Cutty Wren Folk Club.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10029">
+       2nd Annual Western
+                                Regional Folk Festival,
+       <date localtype="inclusive" normal="0000-10-09/0000-10-11">
+        October 9-11
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-10-09/0000-10-11" unitdatetype="inclusive">
+       October 9-11
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       2nd Annual Western Regional Folk Festival, October 9, 10, 11, Ft.
+                                Barry/Cronkhite in the Golden Gate National Recreation Center area,
+                                Co-sponsored by the Nation Folk Festival Association, A National
+                                Park Service Bicentennial event.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10030">
+       The New England Festival
+                                of Folk Music and Craft Fair,
+       <date localtype="inclusive" normal="1976-08-20/1976-08-22">
+        August 20-22,
+                                1976
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1976-08-20/1976-08-22" unitdatetype="inclusive">
+       August 20-22, 1976
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The New England Festival of Folk Music and Craft Fair, New England
+                                fiddlers convention and string band reunion, Waterville Valley, NH,
+                                August 20-22, 1976.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10031">
+       Sign Of The Sun Folk
+                                Music
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 8 1/2 x 13
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sign Of The Sun Folk Music, set of four programs begin each evening
+                                at 8:30, 4701 College Ave.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10032">
+       Barbara Dane,
+       <date localtype="inclusive" normal="0000-03-15">
+        March
+                                15
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-15" unitdatetype="inclusive">
+       March 15
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 11 x 8 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Barbara Dane, Friday, March 15, 9-1, Bear's Lair Cabaret, sponsored
+                                by ASMC Union Program Board.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10033">
+       Traditional Kentucky
+                                Mountain Folk songs,
+       <date localtype="inclusive" normal="1963-03-22">
+        March 22, 1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963-03-22" unitdatetype="inclusive">
+       March 22, 1963
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 18 x 12
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       13th Ave Gallery presents Traditional Kentucky Mtn, Folk Song sung by
+                                Jim Garland, Friday, March 22, 1963, 9pm, 226 S.E. Hawthorne.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10034">
+       Micheal Cooney,
+       <date localtype="inclusive" normal="0000-11-12/0000-11-17">
+        November
+                                    12-17
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-11-12/0000-11-17" unitdatetype="inclusive">
+       November 12-17
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 8 1/2 x 16 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Micheal Cooney, November 12-17, The Exciting Flamenco Guitar of
+                                Carmen Ripepe, Sunday nights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10035">
+       MSU Folk Festival,
+       <date localtype="inclusive" normal="0000-09-01/0000-10-01">
+        September
+                                    1-October 1
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-01/0000-10-01" unitdatetype="inclusive">
+       September 1-October 1
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Ten Pound Fiddle presents The First Occassional MSU Folk
+                                Festival, 8pm Friday and Saturday September 1-October 1, MSU Union
+                                Building Parlors, presented by the MSU Folksong Society and the
+                                ASMSU programing board.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10036">
+       Hootenanny,
+       <date localtype="inclusive" normal="0000-12-06/0000-12-14">
+        December 6,
+                                    7, 13-14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-12-06/0000-12-14" unitdatetype="inclusive">
+       December 6, 7, 13-14
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 11 x 17
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hootenanny -- Sunday 3pm, The First Step 3015 North Campbell, grand
+                                opening featuring Michael Cooney and Bob Kimmell appearing Friday
+                                and Saturday December 6 and 7 and December 13 and 14.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR12
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10037">
+       Farewell concert with
+                                Michael Cooney
+       <date localtype="inclusive" normal="0000-03-20">
+        March
+                                    20
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-20" unitdatetype="inclusive">
+       March 20
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, Farewell Concert, War Memorial Hall at 9:00pm, Friday
+                                March 20.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS03-GR13
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10038">
+       Woody Gutherie's
+                                California to the New York Island with Don Mclean and Michael
+                                    Cooney,
+       <date localtype="inclusive" normal="1969-04-20">
+        April 20,
+                                    1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969-04-20" unitdatetype="inclusive">
+       April 20, 1969
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pick'n' and Sing'n' Gather'n presents Woody Gutherie's California to
+                                the New York Island with Don Mclean and Michael Cooney, Sunday,
+                                April 20, 1969, 8pm, Shaker High School Auditorium, Latham, New
+                                York, Hudson River Sloop Restoration.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10040">
+       One Man Folk Festival
+                                with Michael Cooney,
+       <date localtype="inclusive" normal="1972-04-14">
+        April 14, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-04-14" unitdatetype="inclusive">
+       April 14, 1972
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 5 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, One Man Folk Festival, Wright State University Artist
+                                and Lecture Series, Friday, April 14, 1972, Oelman Auditorium
+                                8:00pm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       Singer of Old Songs,
+       <date localtype="inclusive" normal="0000-05-01">
+        May
+                                1
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-05-01" unitdatetype="inclusive">
+       May 1
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 5 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, Singer of Old Songs, Union Bldg auditorium, Tuesday,
+                                May 1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10042">
+       Singer of Old
+                                Songs
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Minneapolis Folklore Society Presents: Michael Cooney…singer of
+                                old songs, 8:30, February 16 and 17, Walker Church, This concert
+                                made possible in part by a grant from the Minnesota State Arts
+                                Board.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10043">
+       Michael Cooney,
+       <date localtype="inclusive" normal="0000-09-21">
+        September
+                                21
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-21" unitdatetype="inclusive">
+       September 21
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 11 1/2 x 17
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Pioneer Valley Folklore Society begins its fall concert series
+                                with Michael Cooney, Sunday, September 21, Grace Church Parish Hall,
+                                Amherst, 8:00pm, funded in part by the Mass. Council on the Arts and
+                                Humanities.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10044">
+       Michael Cooney, One-man
+                                Folk Festival, Sing Out, The Folksong Magazine
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, One-man Folk Festival, Sing Out, The Folksong
+                                Magazine
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10045">
+       Michael Cooney concert,
+       <date localtype="inclusive" normal="0000-10-26">
+        October
+                                    26
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-10-26" unitdatetype="inclusive">
+       October 26
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney Concert, October 26, 8:00pm, Rutgers Student
+                                Center.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10046">
+       Li Hibou,
+       <date localtype="inclusive" normal="0000-09-05/0000-09-10">
+        September
+                                    5-10
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-05/0000-09-10" unitdatetype="inclusive">
+       September 5-10
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 10 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Li Hibou, September 5-10, Guest Artists: Path.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10047">
+       One-man Folk
+                                Festival
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, One-man Folk Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10048">
+       The Bedtime Story and
+                                Michael Cooney,
+       <date localtype="inclusive" normal="0000-09-20">
+        September 20
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-20" unitdatetype="inclusive">
+       September 20
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Bedtime Story and Michael Cooney, Dance and Coffee House,
+                                Saturday, September 20th, 8:30pm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS04-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10049">
+       One man folk festival
+                                with Michael Cooney,
+       <date localtype="inclusive" normal="0000-09-19">
+        September 19
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-09-19" unitdatetype="inclusive">
+       September 19
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 1/2 x 11 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       U.U.A.B. Coffeehouse presents Michael Cooney "a one-man folk
+                                fesitval," Saturday, September 19, 8:30pm, Squire Hall
+                                Rathskellar.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10051">
+       The Folk Club Magazine,
+       <date localtype="inclusive" normal="0000-01-01">
+        January
+                                1
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-01-01" unitdatetype="inclusive">
+       January 1
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 20 x 15 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Buy British Buy Club Folk, The Folk Club Magazine 1/6 on sale here or
+                                from Cecil Sharp Hse.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10052">
+       The Portable Folk
+                                Festival!
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 22 x 17 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival!, [festival poster depicting drawing of
+                                bus and concert dates along perimeter].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10053">
+       Guy Carawan,
+       <date localtype="inclusive" normal="0000-04-25">
+        April
+                                25
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-04-25" unitdatetype="inclusive">
+       April 25
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 20 x 14
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Ballad and Folksong Club presents Guy Carawan, C.S.U. student
+                                center theater, 7:30pm, Wednesday, April 25.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10054">
+       Peggy Seeger,
+       <date localtype="inclusive" normal="0000-10-28">
+        October
+                                28
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-10-28" unitdatetype="inclusive">
+       October 28
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 22 x 14
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Peggy Seeger, Concert and Hootenanny, Saturday, October 28, 7:30pm,
+                                Temple of Music and Art.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10055">
+       Travis Edmonson with
+                                Connie Clark and "Those Three Guys,"
+       <date localtype="inclusive" normal="0000-11-05">
+        November 5
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-11-05" unitdatetype="inclusive">
+       November 5
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 22 x 24
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       David Graham and Tau Delta Phi presents Travis in concert, Travis
+                                Edmonson with Connie Clark and "Those Three Guys," Temple of Music
+                                and Art, Sunday, November 5, 8pm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10056">
+       James Taylor, Michael
+                                Cooney, David Bromberg, and Electric Cowboy,
+       <date localtype="inclusive" normal="0000-05-04">
+        April
+                                4
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-05-04" unitdatetype="inclusive">
+       April 4
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 20 x 14
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Benefit concert starring James Taylor and Michael Cooney, David
+                                Bromberg, Electric Cowboy, proceeds benefiting Connecticut
+                                Citizen's Action Group and Conn - P.I.R.G., Wednesday, April 4th,
+                                7:00p.m., Palace Theater Waterbury.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10057">
+       Mike Cooney,
+       <date localtype="inclusive" normal="0000-01-19">
+        January
+                                19
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-01-19" unitdatetype="inclusive">
+       January 19
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 20 x 14
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folklore Society, Mike Cooney, Sunday, January 19, 8:00pm, Schwab
+                                Auditorium.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10058">
+       Michael Cooney, The
+                                One-man Folk Festival,
+       <date localtype="inclusive" normal="0000-04-25">
+        April 25
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-04-25" unitdatetype="inclusive">
+       April 25
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 19 1/2 x 14 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       We all pay for nuclear accidents, Michael Cooney, The One-man Folk
+                                Festival in concert for the benefit of the Rochester Safe Energy
+                                Alliance, Wednesday, April 25th 8pm at the Unitarian Church.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10059">
+       Sing by the
+                                Sea
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 22 x 14 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sing by the Sea, The Philadelphia Music Workshop presents free
+                                outdoor musical entertainment at Penn's Landing on the Delaware
+                                River, Phila 76 Inc., OPDC Penn's Landing Corp, Phila Maritime
+                                Museum, featuring sea chanties, square dancing, gospel, jazz,
+                                bluegrass, and folk music from America, the British Isles, and other
+                                nations.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10060">
+       Michael Cooney, singer
+                                of old songs
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 24 x 13 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney, singer of old songs, Front Hall Records [picture of
+                                young Michael Cooney sitting with guitar].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS05-GR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10061">
+       Michael
+                                Cooney
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 18 1/2 x 12 1/2
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Michael Cooney
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10063">
+       St. Brigid
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 12 x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       St. Brigid, Feb. 1, health and prosperity to you in the coming year!,
+                                George, Gerry, Becky, and Jenny Armstrong, [Pamphlet depicting
+                                drawing of St. Brigid's cross and history].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10064">
+       St. David's Day,
+       <date localtype="inclusive" normal="0000-03-01">
+        March
+                                1
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="0000-03-01" unitdatetype="inclusive">
+       March 1
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 12 x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       St. David's Day, March 1, Why, on St. David's Day, do Welshmen seek
+                                To beautify their hat with verdant leek?, Health and prosperity to
+                                you in the coming year!, George, Gerry, Becky, Jenny Armstrong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10065">
+       The Pittsburgh Folk
+                                Music Society and Carnegie Ceilidh Concert Series,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Pittsburgh Folk Music Society and Carnegie Ceilidh Concert Series
+                                1967-1968, Carnegie Mellon University.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10066">
+       Herb David Guitar
+                                Studio
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 15 1/2 x 12 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Herb David Guitar Studio, 209 S. State, 66-58001, [Cover with
+                                illustration of a hand and words in Latin].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10067">
+       The Folk
+                                Shop
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 14 1/2 x 13 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Folk Shop, Cecil Sharp House, 2 Regents Park Road, London, N.W.
+                                1, [Cover decorated with drawings and words].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10068">
+       The Portable Folk
+                                Festival
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, [festival poster with announcement in
+                                different fonts and autographed signatures]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10069">
+       The Portable Folk
+                                Festival
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, [festival poster with announcement in
+                                different fonts and autographed signatures].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10070">
+       The Portable Folk
+                                Festival
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, [festival poster with announcement in
+                                different fonts and autographed signatures].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10071">
+       The Portable Folk
+                                Festival
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, Sponsored by the Newport Folk Foundation,
+                                Concerts and workshops in April at Dickenson College in Carlisle,
+                                Pennsylvania and Susquehanna University in Selinsgrove,
+                                Pennsylvania.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10072">
+       The Portable Folk
+                                Festival,
+       <date normal="0000-05-24/0000-05-25">
+        March
+                                24-25
+       </date>
+      </unittitle>
+      <unitdate normal="0000-05-24/0000-05-25">
+       March 24-25
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       black and white, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, Sponsored by the Newport Folk Foundation,
+                                Concerts and workshops at Fairfield University March 24-25 [Festival
+                                poster with announcement in different fonts].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 1982/024:OS06-GR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10073">
+       The Portable Folk
+                                Festival,
+       <date normal="0000-05-24/0000-05-25">
+        March
+                                24-25
+       </date>
+      </unittitle>
+      <unitdate normal="0000-05-24/0000-05-25">
+       March 24-25
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       color, 17 x 11
+                                in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Portable Folk Festival, Sponsored by the Newport Folk Foundation,
+                                Concerts and workshops at Fairfield University March 24-25 [Festival
+                                poster with announcement in different fonts].
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

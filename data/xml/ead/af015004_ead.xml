@@ -1,0 +1,3309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015004" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015004
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Nevada Arts Council "Honest Horses" exhibition
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 2014/019
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Crystal Willer
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2015-04">
+     April 2015
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2015655355" show="new">
+       https://lccn.loc.gov/2015655355
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-04">
+     April 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris and Crystal Willer
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Nevada Arts Council "Honest Horses"
+            exhibition collection
+    <date altrender="Span Dates" localtype="inclusive" normal="1999/2003">
+     1999-2003
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Span Dates" normal="1999/2003" unitdatetype="inclusive">
+    1999-2003
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2014/019
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Morin, Paula, 1945-
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Nevada Arts Council
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 126 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 3 microcassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    manuscripts: 5 boxes: 25 linear inches
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     In English.
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of field recordings of
+            interviews and administrative files generated by and curated by Paula Morin and the
+            Nevada Arts Council for an exhibition titled "Honest Horses: a portrait of the mustang
+            in the Great Basin," circa 2002, and later as a traveling exhibition. Morin photographed
+            wild horses in the Great Basin and interviewed Nevada residents and others about the
+            complex issues regarding wild horses and ecology. Interviewees include ranchers,
+            buckaroos, outfitters, horse trainers, veterinarians, professors of animal science,
+            researchers from the United States Department of Agriculture, the Bureau of Land
+            Management, the Nevada Department of Conservation and Natural Resources, the Nature
+            Conservancy, the Commission for Preservation of Wild Horses, the National Wild Horse and
+            Burro Center, National Mustang Association, other advocacy organizations, and writers.
+            Most interviewees were from Nevada, others were from California, Idaho, New Mexico,
+            Oklahoma, and Oregon. Manuscripts include the edited narratives of the interviewees;
+            edited copies of transcripts; biographical profiles; transcripts from speeches; copies
+            of published articles on feral horses and habitat; pamphlets; and correspondence with
+            Paula Morin and with folklorist Andrea Graham of the Nevada Arts Council. Selected
+            narratives were included in Paula Morin's book titled Honest Horses: Wild Horses in the
+            Great Basin (Reno: University of Nevada Press, c2006).
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20151112182115.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Abbey, Bob
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Budiansky, Stephen
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Flores, Dan L. (Dan Louie), 1948-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Graham, Andrea
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Grandin, Temple
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Liu, Irwin K. M.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mathis, Dave
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mattise, Samuel N.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mitchell, Waddie, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Morin, Paula, 1945-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nachlinger, Janet L. (Janet Lynn)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shrake, Richard
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Vavra, Martin
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Nevada Arts Council
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Animal scientists--West (U.S.)--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Conservation biology--Great Basin.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ecologists--Great Basin--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Horse trainers--Nevada--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Land use--Nevada.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ranchers--Nevada--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Veterinarians--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wild horses--Great Basin.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wild horses--Nevada.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Great Basin.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Articles.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Transcripts.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is arranged in two series, Administrative and Interview Documentation, which is organized alphabetically by
+               interviewee's last name.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Nevada Arts Council; 2014.
+   </p>
+  </acqinfo>
+  <custodhist encodinganalog="561">
+   <head>
+    Custodial History
+   </head>
+   <p>
+    The collection was initially deposited at the Nevada Arts Council in 2001; in 2014 it
+               was acquired by the American Folklife Center.
+   </p>
+  </custodhist>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Crystal Willer processed the collection in February 2015. The collection was encoded
+               in April 2015.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    See related photographs in the Paula Morin collection: Honest horses, wild horses in
+               the Great Basin (AFC 2013/038).
+   </p>
+   <archref>
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af014003" show="new">
+     http://hdl.loc.gov/loc.afc/eadafc.af014003
+    </ref>
+   </archref>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access to recordings may be restricted. To request
+               materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Nevada Arts Council "Honest Horses" exhibition collection (AFC 2014/019), Archive of
+               Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    <title render="nonproport">
+     <part>
+      Selected interviews published in: Morin, Paula.
+      <emph render="italic">
+       Honest
+               horses: wild horses in the Great Basin
+      </emph>
+      (Reno: University of Nevada Press,
+                  c2006)
+     </part>
+    </title>
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    History Note
+   </head>
+   <p>
+    The Nevada Arts Council and Paula Morin collaborated, 1999-2001, to collect a series of
+            administrative files, interviews, field recordings, and photographs which documented the
+            horses of the Great Basin. These materials were used to create an exhibit titled "Honest
+            Horses: A Portrait of the Mustang in Nevada's Great Basin," which later became a
+            traveling exhibit.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of field recordings of interviews and administrative files generated by and
+            curated by Paula Morin and the Nevada Arts Council for an exhibition titled "Honest
+            Horses: a portrait of the mustang in the Great Basin," circa 2002, and later as a
+            traveling exhibition. Morin photographed wild horses in the Great Basin and interviewed
+            Nevada residents and others about the complex issues regarding wild horses and ecology.
+            Interviewees include ranchers, buckaroos, outfitters, horse trainers, veterinarians,
+            professors of animal science, researchers from the United States Department of
+            Agriculture, the Bureau of Land Management, the Nevada Department of Conservation and
+            Natural Resources, the Nature Conservancy, the Commission for Preservation of Wild
+            Horses, the National Wild Horse and Burro Center, National Mustang Association, other
+            advocacy organizations, and writers. Most interviewees were from Nevada, others were
+            from California, Idaho, New Mexico, Oklahoma, and Oregon. Manuscripts include the edited
+            narratives of the interviewees; edited copies of transcripts; biographical profiles;
+            transcripts from speeches; copies of published articles on feral horses and habitat;
+            pamphlets; and correspondence with Paula Morin and with folklorist Andrea Graham of the
+            Nevada Arts Council. Selected narratives were included in Paula Morin's book titled
+            Honest Horses: Wild Horses in the Great Basin (Reno : University of Nevada Press,
+            c2006).
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Administrative
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Interviews
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       The Interviews were conducted by Paula Morin, 1999-2002
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Abbey, Bob,
+       <date>
+        2000-08-19
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-08-19
+      </unitdate>
+      <physdesc>
+       Transcript of interview with Bob Abbey, Bureau of Land Management state
+                     director, Reno, Nevada.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR001
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anderson, Glade,
+       <date>
+        2002-09-16
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-09-16
+      </unitdate>
+      <physdesc>
+       Transcript of interview with Glade Anderson, Bureau of Land Management
+                     supervisory wild horse and burro specialist, Sparks, Nevada.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR002
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR003
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Andrae, Jim,
+       <date>
+        2000-04-12
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-04-12
+      </unitdate>
+      <physdesc>
+       Transcript of interview with Jim Andrae ranch manager,
+                     Nevada.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR004
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR005
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Arigoni, Leland,
+       <date>
+        2002-03-26
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-03-26
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Leland Arigoni is a buckaroo. A personal narrative included. No
+                     transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR006
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR007
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Artz, Jack,
+       <date>
+        2000-05-19
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-05-19
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Jack Artz, range scientist, Cool, California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR008
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR009
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ashley, Mike,
+       <date>
+        1999-12-10
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-12-10
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Mike Ashley, geneticist, United States Department
+                     of Agriculture (USDA) Agricultural Research Service.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR010
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Barcomb, Cathy,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       One proposal included. No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR011
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR012
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Blunk, Katie,
+       <date>
+        2002-04-09
+       </date>
+      </unittitle>
+      <unitdate>
+       2002-04-09
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Katie Blunk, field veterinarian, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR013
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR014
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brown, Bob,
+       <date>
+        2000-05-09
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-05-09
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Bob Brown, Bureau of Land Management wild horse and burro
+                     specialist, Ely, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR015
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR016
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brown, Joyce,
+       <date>
+        2002-04-17
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-04-17
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Joyce Brown, real estate agent, Las Vegas, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR017
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Budiansky, Stephen,
+       <date>
+        2002-10-22
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-10-22
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Stephen Budiansky, correspondent for the The Atlantic Monthly,
+                     Leesburg, Virginia.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR018
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR019
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Burkhardt, Wayne, 2000-7-12, and
+                     2001-10-30
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of two interviews with Wayne Burkhardt, range scientist, Indian Valley, Idaho.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR020
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR021
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR022
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cassas, Frank,
+       <date localtype="inclusive" normal="2002-05-14">
+        2002-05-14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2002-05-14" unitdatetype="inclusive">
+       2002-05-14
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Frank Cassas, attorney, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR023
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR024
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cattoor, Dave,
+       <date>
+        1999-08-25
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-08-25
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Dave Cattoor, Bureau of Land Management contract mustanger,
+                     Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR025
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 mini audio
+                     cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR026
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 mini audio
+                     cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cirelli, Al,
+       <date>
+        2000-08-18
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-08-18
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Al Cirelli, horse specialist, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR027
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR028
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR029
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleary, Rex,
+       <date>
+        1999-12-09
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-12-09
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Rex Cleary, senior resource specialist, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR030
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR031
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clements, Charlie,
+       <date>
+        2002-02-08
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-02-08
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Charlie Clements, rangeland scientist, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR032
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR033
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Davies, Stacy,
+       <date>
+        2002-08-20
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-08-20
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Stacy Davies, ranch manager at Roaring Springs Ranch,
+                     Oregon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR034
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR035
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Davis, Steve,
+       <date>
+        2002-11-18
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-11-18
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Steve Davis, professor of animal science at Oregon State
+                     University, Corvallis, Oregon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR036
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR037
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Depaoli, Ed,
+       <date>
+        1999-11-19
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-11-19
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Ed Depaoli, rancher, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR038
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR039
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dohnel, Dave,
+       <date>
+        2002-10-17
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-10-17
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Dave Dohnel, wild horse outfitter, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR040
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR041
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Falen, John,
+       <date>
+        2000-08-22
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-08-22
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with John Falen, rancher, Orovada, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR042
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR043
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fisher, Charlie,
+       <date>
+        2002-01-16
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-01-16
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Charlie Fisher is a range conservationist with the Bureau of Indian Affairs. No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR044
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR045
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flores, Dan,
+       <date>
+        2003-01-10
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2003-01-10
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Dan Flores, professor of history at the University of Montana.
+                     Interview conducted in Albuquerque, New Mexico.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR046
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Frazier, Gordon,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR047
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Gianola, Jim,
+       <date>
+        2000-01-04
+       </date>
+      </unittitle>
+      <unitdate>
+       2000-01-04
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Jim Gianola, Bureau of Land Management wild horse specialist,
+                     Carson City, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR048
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Grandin, Temple,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Temple Grandin is a professor of animal science at Colorado State University. No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR049
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR050
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hall, Ron,
+       <date>
+        2002-08-14
+       </date>
+      </unittitle>
+      <unitdate>
+       2002-08-14
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Ron Hall, Bureau of Land Management wild horse specialist, Reno,
+                     Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR051
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR052
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Harding, Ron,
+       <date>
+        2002-03-06
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-03-06
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Ron Harding, range conservationist, Burns, Oregon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR053
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR054
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR055
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 of 3 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hartgrove, Tom,
+       <date>
+        2002-04-17
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-04-17
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Tom Hartgrove, veterinarian, Las Vegas, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR056
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR057
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Heaverne, Cliff,
+       <date>
+        2000-05-11
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-05-11
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Cliff Heaverne, pilot and owner of High Desert Helicopters,
+                     Fallon, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR058
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR059
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/32
+      </container>
+      <unittitle encodinganalog="245$a">
+       Johnson, Larry,
+       <date>
+        2001-08-10
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-08-10
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Larry Johnson, president of Black Eagle Consulting, Inc., Reno,
+                     Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR060
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR061
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kent, Ira,
+       <date>
+        2000-02-07
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-02-07
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Ira Kent, rancher, Fallon, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR062
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR063
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kipping, Sharon,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Sharon Kipping, manager of the Bureau of Land Management
+                     National Wild Horse and Burro Center at Palomino Valley, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR064
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR065
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kirk, Mike,
+       <date>
+        2000-03-07
+       </date>
+      </unittitle>
+      <unitdate>
+       2000-03-07
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Mike Kirk, veterinarian, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR066
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR067
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lamb, Sheldon and Lamb, Isabel,
+       <date>
+        1999-10-24
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-10-24
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview with Sheldon and Isabel Lamb, ranchers, Fallon, Nevada. No sound recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/37
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lappin, Dawn, 1999-10-27 and 2001-09-07
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of two interviews with Dawn Lappin, director of Wild Horse Organized Assistance,
+                     Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR068
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR069
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR070
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR071
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/38
+      </container>
+      <unittitle encodinganalog="245$a">
+       Liu, Irwin,
+       <date localtype="inclusive" normal="2002-05-02">
+        2002-05-02
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2002-05-02" unitdatetype="inclusive">
+       2002-05-02
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Liu Irwin, professor at University of California Davis, Davis,
+                     California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR072
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR073
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Martin, Sunny,
+       <date>
+        2000-05-08
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-05-08
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Sunny Martin, founder of the American Bashkir Curly Registry,
+                     Ely, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR074
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR075
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/40
+      </container>
+      <unittitle encodinganalog="245$a">
+       Marvel, Tom,
+       <date>
+        2001-08-20
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-08-20
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Tom Marvel, rancher, Elko, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR076
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR077
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/41
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mathis, Dave,
+       <date>
+        2001-10-03
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-10-03
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Dave Mathis, writer, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR078
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR079
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/42
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mattise, Sam,
+       <date>
+        2002-04-09
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-04-09
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Sam Mattise, Bureau of Land Management wild horse specialist,
+                     Boise, Idaho.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR080
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR081
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       McFadden, Gary,
+       <date>
+        2000-02-04
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-02-04
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Gary McFadden, Bureau of Land Management wild horse specialist,
+                     Las Vegas, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR082
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR083
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/44
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miller, Rick,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR084
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR085
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/45
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mitchell, Waddie,
+       <date>
+        2002-01-30
+       </date>
+      </unittitle>
+      <unitdate>
+       2002-01-30
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Mitchell Waddie, rancher, Elko, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR086
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR087
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/46
+      </container>
+      <unittitle encodinganalog="245$a">
+       Molini, William,
+       <date>
+        2001-11-14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-11-14
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with William Molini, former director of the Nevada Department of Fish
+                     and Game, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR088
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR089
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/47
+      </container>
+      <unittitle encodinganalog="245$a">
+       Morris, Bob,
+       <date>
+        2002-10-28
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-10-28
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Bob Morris, president and chief executive officer of Stormont
+                     Laboratories, Inc., Woodland, California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR090
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR091
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nachlinger, Jan and Provencher, Louis,
+       <date>
+        2002-10-07
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-10-07
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Jan Nachlinger and Louis Provencher, botanist/plant ecologist
+                     and range ecologist, The Nature Conservancy, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR092
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR093
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nappe, Tina,
+       <date>
+        2002-09-12
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-09-12
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Tina Nappe, former director of Nevadaworks, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR094
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR095
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/50
+      </container>
+      <unittitle encodinganalog="245$a">
+       Neubert, Bryan,
+       <date>
+        2000-01-26
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-01-26
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Bryan Neubert, horse clinician, Alturas, California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR096
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/51
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nunn, Gene,
+       <date>
+        2000-12-29
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-12-29
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Gene Nunn, Bureau of Land Management horse wrangler, Susanville,
+                     California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR097
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR098
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/52
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pellegrini, Steve,
+       <date>
+        2000-11-14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-11-14
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Steve Pellegrini, biology teacher at Yerington High School,
+                     Yerington, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR099
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR100
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/53
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pogacnik, Thomas,
+       <date>
+        2000-06-29
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-06-29
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Thomas Pogacnik, Bureau of Land Management senior supervisory
+                     wild horse specialist, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR101
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR102
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/54
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pomi, Don,
+       <date>
+        2001-08-28
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-08-28
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Don Pomi, Bureau of Land Management horse wrangler, Fallon,
+                     Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR103
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR104
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/55
+      </container>
+      <unittitle encodinganalog="245$a">
+       Portwood, Bruce,
+       <date>
+        1999-09-27
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1999-09-27
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Bruce Portwood, Bureau of Land Management wild horse specialist,
+                     Elko, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR105
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 mini audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/56
+      </container>
+      <unittitle encodinganalog="245$a">
+       Price, B. Bryan,
+       <date>
+        2002-11-14
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-11-14
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with B. Bryan Price, director of the Charles M. Russell Center for
+                     the Study of Art of the American West, Norman, Oklahoma.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR106
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/57
+      </container>
+      <unittitle encodinganalog="245$a">
+       Provencher, Louis
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Louis Provencher and Jan Nachlinger, see box 4, folder 48. No sound recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Satterthwaite, Deloyd,
+       <date>
+        2000-05-27
+       </date>
+      </unittitle>
+      <unitdate>
+       2000-05-27
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Deloyd Satterthwaite, rancher, Tuscaroroa, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR107
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR108
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/59
+      </container>
+      <unittitle encodinganalog="245$a">
+       Schulze, Vern,
+       <date>
+        2002-01-22
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-01-22
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Vern Schulze, Bureau of Land Management supervisory natural
+                     resources specialist, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR109
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR110
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/60
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sewing, Richard,
+       <date>
+        2001-07-30
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-07-30
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Richard Sewing, director of the National Mustang Association,
+                     Ely, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR111
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR112
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/61
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sharp, John,
+       <date>
+        2001-02-02
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-02-02
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with John Sharp, horseman, Prineville, Oregon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR113
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR114
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/62
+      </container>
+      <unittitle encodinganalog="245$a">
+       Shrake, Richard,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Richard Shrake is a horseman. No transcript available.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR115
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR116
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/63
+      </container>
+      <unittitle encodinganalog="245$a">
+       Smith, Lloyd,
+       <date>
+        2000-02-04
+       </date>
+      </unittitle>
+      <unitdate>
+       2000-02-04
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Lloyd Smith, former president of the National Wild Horse
+                     Association, Red Rock, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR117
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR118
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/64
+      </container>
+      <unittitle encodinganalog="245$a">
+       Tattam, Dave,
+       <date>
+        2000-02-03
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2000-02-03
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Dave Tattam, field director, Wild Horse Association, Las Vegas,
+                     Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR119
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/65
+      </container>
+      <unittitle encodinganalog="245$a">
+       Turnipseed, Mike,
+       <date>
+        2001-09-11
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-09-11
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Mike Turnipseed, director of the Department of Conservation and
+                     Natural Resources, Carson City, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR120
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR121
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/66
+      </container>
+      <unittitle encodinganalog="245$a">
+       Uhalde, Gracian,
+       <date>
+        2002-08-09
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-08-09
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Gracian Uhalde, rancher, Ely, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR122
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/67
+      </container>
+      <unittitle encodinganalog="245$a">
+       Vavra, Marty,
+       <date>
+        2002-10-15
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2002-10-15
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with Marty Vavra, professor of Rangeland Resources at Oregon State
+                     University, Burns, Oregon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR123
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR124
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/68
+      </container>
+      <unittitle encodinganalog="245$a">
+       Winnepenninkx, John,
+       <date>
+        2001-12-08
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       2001-12-08
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of interview with John Winnepenninkx, Bureau of Land Management wild horse
+                     specialist, Battle Mountain, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR125
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR126
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/69
+      </container>
+      <unittitle encodinganalog="245$a">
+       Young, Jim, 1999-12-10, and 2002-01-29
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Transcript of two interviews with Jim Young, range historian, United States Department of Agriculture (USDA), Agricultural Research Service, Reno, Nevada.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR127
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR128
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 of 2 audio cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle label="Tape ID">
+       AFC 2014/019: SR129
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

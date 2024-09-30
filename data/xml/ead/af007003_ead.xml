@@ -1,0 +1,3418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af007003" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af007003
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Italian-Americans in the West
+			 Project Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1989/022
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by The American Folklife
+			 Center, Library of Congress
+     <lb>
+     </lb>
+     Revised by Sarah Bradley Leighton and Rona R.
+			 Razon
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="1997-09">
+     September 1997
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695184" show="new">
+       https://lccn.loc.gov/2004695184
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2009-08">
+     August 2009
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Sarah Bradley Leighton and Rona R. Razon
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2006-08">
+     August 2006
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Amarantha Dyuaaxchs
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1989/022
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Italian-Americans in the
+		  West Project Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1988/1993">
+     1988-1993
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1989/1991">
+     1989-1991
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1988/1993" unitdatetype="inclusive">
+    1988-1993
+   </unitdate>
+   <unitdate calendar="gregorian" encodinganalog="245$g" era="ce" label="Bulk Dates" normal="1989/1991" unitdatetype="bulk">
+    1989-1991
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    104 boxes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    43 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    16,875 number of items in collection
+		  (16,476 manuscript pages, 298 original sound recordings, 31,416 graphic
+		  materials, 22 original moving images, 140 electronic media, and 12
+		  artifacts).
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      American Folklife Center,
+			 Library of Congress
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="ita">
+     Italian
+    </language>
+    <descriptivenote>
+     <p>
+      English,
+		Italian
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists
+		  of manuscript materials, sound recordings, graphic materials (including color
+		  slides, black-and-white negatives, and photographic prints), and moving images
+		  collected during a field research project documenting Italian American
+		  occupational, cultural, and religious traditions in several locations in the
+		  western United States. Fieldwork was conducted in Gilroy, California; San
+		  Pedro, California; Pueblo, Colorado; Carbon County, Utah; Walla Walla,
+		  Washington; and several mining and ranching communities in Nevada by staff of
+		  the American Folklife Center. The project was part of the Quincentenary
+		  Celebration of Christopher Columbus sponsored by the Library of Congress in
+		  1992. It produced a traveling exhibition and book of essays, both titled,
+		  "
+    <emph render="italic">
+     Old Ties, New Attachments : Italian-American Folklife in
+		  the West
+    </emph>
+    ."
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Italian-Americans in the West Project Collection contains the sound
+		  recordings, photographs, video recordings, fieldnotes, publications, ephemera,
+		  and accompanying manuscript materials associated with the American Folklife
+		  Center's Italian-Americans in the West project. This project was part of the
+		  Center's commemoration of the 500th anniversary of the voyage of Christopher
+		  Columbus, which was an element of a larger program on the Quincentenary
+		  sponsored by the Library of Congress. The purpose of the three-year field
+		  research project was to document aspects of traditional cultural expression of
+		  Italian Americans in the western United States.
+   </p>
+   <p>
+    Field research conducted from 1989 through 1991 was directed by Center
+		  folklife staff. During the course of the field research, teams of folklife
+		  researchers explored the ways Italian Americans have defined their identity as
+		  a cultural group in the past and present. Subject areas studied included public
+		  and private aspects of expression, foodways, occupations, festivals, and
+		  vernacular architecture. Multiple research sites afforded the opportunity to
+		  map cultural intersections of ethnic and regional history. The sites were
+		  chosen on the basis of cultural and economic definitions of the West, in
+		  communities where Italian Americans have long been associated with the
+		  distinctive economies of the regions. Fieldwork took place in the agricultural
+		  community of Gilroy, California; the commercial fishing town of San Pedro,
+		  California; the steel mill town of Pueblo, Colorado; several small mining and
+		  ranching communities in eastern and central Nevada;several mining towns in
+		  Carbon County, Utah; and the agricultural region of Walla Walla,
+		  Washington.
+   </p>
+   <p>
+    The field research resulted in a large quantity of multi-format
+		  documentation that constitutes the bulk of this collection. Other products from
+		  the project include the book,
+    <title localtype="simple" render="italic">
+     <part>
+      <emph render="italic">
+       Old Ties, New Attachments:
+		  Italian-American Folklife in the West
+      </emph>
+     </part>
+    </title>
+    , edited by David A. Taylor
+		and John Alexander Williams (1992), and a traveling exhibition of the same
+		name. The exhibition curator was I. Sheldon Posen, who was assisted by Center
+		staff member Camila Bryce-Laporte and several contractors including Anne
+		Bowman, Victoria Brown, and Robin Fanslow. The exhibit opened at the De Saisset
+		Museum in Santa Clara, California, on October 12, 1992, and the traveled to:
+		The Nevada Museum of Art, Reno, Nevada; The Gene Autry Western Heritage Museum,
+		Los Angeles, California; The Museums at Stony Brook, Stony Brook, New York; and
+		the Library of Congress, Washington, D.C.
+   </p>
+  </scopecontent>
+  <controlaccess altrender=":::F005=^20230720105337.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Carter, Thomas, 1949-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      DeNatale, Douglas
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Frank, Russell, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Graham, Andrea
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Light, Ken
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lund, Jens, 1946-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Manini, Paula Marie, 1955-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Notarianni, Philip F.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Owen, Blanton, 1945-1998
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Parks, Valerie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Roeder, Beatrice A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Siporin, Steve
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Tavarelli, Paola
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Taylor, David Alan, 1951-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Williams, John Alexander, 1938-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wood, Myron
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Catholics--West (U.S.)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Columbus Quincentenary, 1992-1993--West (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--West (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian American families--West (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--California--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--Colorado--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--Nevada--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--Utah--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--Washington (State)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--West (U.S.)--Folklore.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--West (U.S.)--Religion.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--West (U.S.)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Occupations--West (U.S.)
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      West (U.S.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Italian-American folklife in the West.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Old ties, new attachments.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lctgm">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="2aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Traveling exhibitions.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Access to the collection is unrestricted. Upon request, reference
+		  copies of the sound recordings and the black-and-white contact sheets are
+		  available in the Folklife Reading Room. Duplication of the collection materials
+		  may be governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Field research conducted from 1989 through 1991 was directed by Center
+		  folklife specialist David A. Taylor; historian John Alexander Williams served
+		  as a key consultant to the project. Center deputy director Ray Dockstader
+		  coordinated administrative and fundraising aspects, and Center archivist
+		  Stephanie Hall served as project archivist. Fieldworkers included Tom Carter,
+		  Doug DeNatale, Russell Frank, Andrea Graham, Ken Light, Jens Lund, Paula
+		  Manini, Philip Notarianni, Blanton Owen, Valerie Parks, Steve Siporin, Paola
+		  Tavarelli, and Myron Wood. All materials resulting from the project were
+		  accessioned by the Archive of Folk Culture at the American Folklife Center.
+   </p>
+   <p>
+    Initial processing of the collection was done in 1997. In April 2005,
+		  Sarah Bradley Leighton and Rona Razon resolved outstanding issues with
+		  diskettes and additional administrative materials that were found after the
+		  original processing had been completed. All modifications are reflected in this
+		  updated version of the collection guide and its appendices.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Italian-Americans in the West Project Collection (AFC 1989/022),
+		  Archive of Folk Culture, American Folklife Center, Library of Congress,
+		  Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <p>
+    <title localtype="simple" render="italic">
+     <part>
+      <emph render="italic">
+       Old Ties, New Attachments:
+		  Italian-American Folklife in the West
+      </emph>
+     </part>
+    </title>
+    , edited by David A. Taylor
+		and John Alexander Williams (Washington, D.C.: Library of Congress, 1992).
+   </p>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <p>
+    Note: Sound recordings originally housed in Boxes 17-39 are stored
+			 in a separate location. Videotapes originally housed in Boxes 88-92 and 101 are
+			 stored in a separate location.
+   </p>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Description
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Containers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript and Print
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        365
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 1-15, Boxes 95-100, Box 104
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Electronic Media
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        zip diskette (collection guide)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        32
+       </entry>
+       <entry morerows="0">
+        3.5 inch diskettes (originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        28
+       </entry>
+       <entry morerows="0">
+        5.25 inch diskettes (originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        19
+       </entry>
+       <entry morerows="0">
+        3.5 inch diskettes (reference)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        60
+       </entry>
+       <entry morerows="0">
+        3.5 inch diskettes (back-up)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 103
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        65
+       </entry>
+       <entry morerows="0">
+        7-inch reel-to reel at 7.5 ips
+					 (originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 17-23
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        233
+       </entry>
+       <entry morerows="0">
+        60- and 90-min. audiocassettes
+					 (originals)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 24-39
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        273
+       </entry>
+       <entry morerows="0">
+        60- and 90-min. audiocassettes
+					 (reference)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images and
+					 Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        557
+       </entry>
+       <entry morerows="0">
+        black and white 35 mm negative rolls (16,540
+					 images)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Binders 1-7
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        45
+       </entry>
+       <entry morerows="0">
+        black and white negatives, various
+					 sizes
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Binders 1-7
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        558
+       </entry>
+       <entry morerows="0">
+        black and white contact sheets
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room, Boxes 93-94
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1,575
+       </entry>
+       <entry morerows="0">
+        black and white prints, various sizes
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 101
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        9,304
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 40-81, 82-84, 87
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        64
+       </entry>
+       <entry morerows="0">
+        color negative sheets (approx. 1,175
+					 images)
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 86
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        286
+       </entry>
+       <entry morerows="0">
+        color internegatives
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 85
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        69
+       </entry>
+       <entry morerows="0">
+        color contacts, various sizes
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 86
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1,844
+       </entry>
+       <entry morerows="0">
+        color prints, various sizes
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 86-87
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        architectural drawings
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        10
+       </entry>
+       <entry morerows="0">
+        blueprints
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        posters
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC Reading Room
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        22
+       </entry>
+       <entry morerows="0">
+        videocassettes
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Boxes 88-92; Box 101
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Exhibition
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        12
+       </entry>
+       <entry morerows="0">
+        artifacts
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        Box 102
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory and Description
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscript and Print Materials
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      The manuscript materials provide supporting documentation for the
+				entire project. Included are archival administrative materials such as log
+				status reports that indicate the availability of reference copies, missing
+				original items, electronic versions of documents, and so forth. Documents
+				pertaining to the planning, administration, and promotion of the project are
+				found in this series. Also included are fieldnotes, graphic material logs,
+				sound recording logs, and video recording logs. This series also contains
+				reports on the project and information on the book of collected essays.
+				Finally, this series includes various publications such as books, articles, and
+				periodicals as well as ephemera (e.g., newspaper clippings and maps) that
+				provide background information on Italian-Americans in the western United
+				States.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Collection Finding Aid
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Diskette status reports
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A description of the project's electronic files, their
+					 arrangement and location.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle>
+       Log status reports.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tables that note the status of individual logs for formatted
+					 materials (sound recordings, graphic materials, and manuscripts) by fieldworker
+					 and location (diskette, database, and printout).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       Sound recordings status reports.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tables (listed by fieldworker) that note the status of
+					 individual audiocassettes and reel-to-reel tapes, such as the existence of the
+					 original and reference copies and hard-copy logs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle>
+       Graphic materials status reports.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tables (listed by fieldworker) that note the status of
+					 individual black-and-white rolls, contact sheets, color slides, color
+					 internegatives, and color negatives.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle>
+       Videotape status report.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Table (listed by fieldworker) that notes the status of
+					 individual videotapes, including the existence of original and reference copies
+					 and related hard-copy logs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle>
+       Index terms.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Alphabatized list of searchable terms used in the IAW ASKSAM
+					 database.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       8 - 9
+      </container>
+      <unittitle>
+       Processing documentation--1996.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Preliminary box list, preliminary inventory, and other
+					 documentation related to the processing of this collection.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle>
+       Processing documentation--1990.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Information on the initial processing of this collection.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       11 - 13
+      </container>
+      <unittitle>
+       Budget and expenses.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Draft project budgets, supplies and shipping receipts, and
+					 travel documentation.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       14 - 15
+      </container>
+      <unittitle>
+       Consent forms.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Blank forms and signed duplicates of informant release
+					 forms.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       16 - 18
+      </container>
+      <unittitle>
+       Correspondence.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       General project correspondence dated between 1988 and 1990,
+					 arranged chronologically.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       19 - 22
+      </container>
+      <unittitle>
+       Informants--consent forms, signed.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Original release forms signed by informants, arranged
+					 alphabetically by project site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       23
+      </container>
+      <unittitle>
+       Informants--consent forms, signed.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Original release forms signed by informants, arranged
+					 alphabetically by project site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       24 - 28
+      </container>
+      <unittitle>
+       Informants--correspondence.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence between project personnel and informants,
+					 arranged alphabetically by project site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       29 - 34
+      </container>
+      <unittitle>
+       Informants--general.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, biographical information, and
+					 miscellaneous documentation related to informants, arranged alphabetically by
+					 project site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       35
+      </container>
+      <unittitle>
+       Informants--mailing lists.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Numerous copies of lists of informants' addresses.
+       <emph render="bold">
+        Note:
+       </emph>
+       Gift photographs from informants are located
+					 with the graphic materials in Box 87.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       36 - 43
+      </container>
+      <unittitle>
+       Personnel.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and contract information, arranged
+					 alphabetically by fieldworker/consultant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folders">
+       44 - 49
+      </container>
+      <unittitle>
+       Personnel.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and contract information, arranged
+					 alphabetically by fieldworker/consultant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       50 - 53
+      </container>
+      <unittitle>
+       Planning.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence and contract information, arranged
+					 alphabetically by fieldworker/consultant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       54 - 57
+      </container>
+      <unittitle>
+       Publicity and public relations.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Articles, brochures, fliers, news clippings and press releases
+					 concerning the Italian-Americans in the West project and other Columbian
+					 Quincentenary projects of the Library of Congress.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       58 - 59
+      </container>
+      <unittitle>
+       Disk directories.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Printouts of directories of reference computer diskettes
+					 containing project files. Diskettes arranged alphabetically by fieldworker. For
+					 more information, see Diskette Status Reports in folder 2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="folders">
+       60 - 76
+      </container>
+      <unittitle>
+       Fieldnotes
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Fieldworkers' notes concerning daily activities during the
+					 project, arranged alphabetically by fieldworker and then chronologically. For
+					 more information, see Fieldnotes Status Report in folder 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <container localtype="folders">
+       77 - 80
+      </container>
+      <unittitle>
+       Handwritten notes and drawings.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Notebooks, sketch pads, and loose pages of notes and drawings
+					 made by fieldworkers during the project. Arranged alphabetically by
+					 fieldworker.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <container localtype="folders">
+       81 - 88
+      </container>
+      <unittitle>
+       Handwritten notes and drawings.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Notebooks, sketch pads, and loose pages of notes and drawings
+					 made by fieldworkers during the project. Arranged alphabetically by
+					 fieldworker.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <container localtype="folders">
+       89 - 105
+      </container>
+      <unittitle>
+       Sound recording logs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Summaries of cassette and reel-to-reel recordings of
+					 interviews, music, and events, arranged alphabetically by fieldworker and then
+					 numerically by log number. For more information, see Audiocassette and
+					 Reel-to-Reel Logs Status Reports in folder 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <container localtype="folders">
+       106 - 123
+      </container>
+      <unittitle>
+       Black-and-white photo logs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Descriptions of black-and-white photos taken during the
+					 project, arranged alphabetically by fieldworker and then numerically by roll
+					 number. For more information, see Black-and-White Photograph Log Status Report
+					 in folder 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <container localtype="folders">
+       124 - 140
+      </container>
+      <unittitle>
+       Color slide logs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Descriptions of color slides taken during the project,
+					 arranged alphabetically by fieldworker and then numerically by slide sheet
+					 number. For more information, see Color Slide Log Status Report in folder
+					 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       141 - 145
+      </container>
+      <unittitle>
+       Videotape logs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Descriptions of videotapes taken during the project or donated
+					 to the project by informants, arranged alphabetically by fieldworker.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <container localtype="folders">
+       146 - 157
+      </container>
+      <unittitle>
+       Reports.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Intermim, final, and post-project reports. Arranged
+					 alphabetically by author (fieldworker), and then alphabetically by report
+					 title.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       158 - 162
+      </container>
+      <unittitle>
+       Book.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Materials concerning
+       <title localtype="simple" render="italic">
+        <part>
+         <emph render="italic">
+          Old Ties, New
+					 Attachments: Italian-American Folklife in the West
+         </emph>
+        </part>
+       </title>
+       . Includes a
+				  copy of the book, correspondence with contributors, essay proposals, publicity
+				  materials, and purchase requisitions.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       163
+      </container>
+      <unittitle>
+       Exhibit.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Publicity and background materials describing the exhibition,
+					 "Old Ties, New Attachments: Italian-American Folklife in the West." For more
+					 information, see Series V.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <container localtype="folders">
+       164 - 174
+      </container>
+      <unittitle>
+       Collected publications.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Books, periodicals, journals, and articles about project sites
+					 collected as background information. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       12
+      </container>
+      <container localtype="folders">
+       175 - 184
+      </container>
+      <unittitle>
+       Collected publications.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Books, periodicals, journals, and articles about project sites
+					 collected as background information. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       13
+      </container>
+      <container localtype="folders">
+       185 - 186
+      </container>
+      <unittitle>
+       Collected publications.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Books, periodicals, journals, and articles about project sites
+					 collected as background information. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       187 - 194
+      </container>
+      <unittitle>
+       Ephemera.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, maps, unpublished manuscripts, and other
+					 materials collected during the project. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       14
+      </container>
+      <container localtype="folders">
+       195 - 203
+      </container>
+      <unittitle>
+       Ephemera.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, maps, unpublished manuscripts, and other
+					 materials collected during the project. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       15
+      </container>
+      <container localtype="folders">
+       204 - 206
+      </container>
+      <unittitle>
+       Ephemera.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, maps, unpublished manuscripts, and other
+					 materials collected during the project. Arranged alphabetically by project
+					 site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       207a
+      </container>
+      <unittitle>
+       Panoramic photographs and maps of Nevada (3
+                     photographs; 3 maps)
+      </unittitle>
+      <physloc>
+       <emph render="bold">
+        AFC Reading Room Map
+                        Case
+       </emph>
+      </physloc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207b
+      </container>
+      <unittitle>
+       Italian-Americans in the West Project Collection
+					 exhibit design drawings (10 drawings)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207c
+      </container>
+      <unittitle>
+       "Old Ties New Americans" exhibit poster (5
+					 posters)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207d
+      </container>
+      <unittitle>
+       Joe Delume Ranch, Lincoln County, Nevada (20
+					 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207e
+      </container>
+      <unittitle>
+       Verde Yard Bake Oven, Helper, Utah (3
+					 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207f
+      </container>
+      <unittitle>
+       Joe Bruno Connected Building and Garden, Helper, Utah
+					 (6 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207g
+      </container>
+      <unittitle>
+       Columbia Steel Company Bunkhouse, Columbia, Utah (6
+					 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207h
+      </container>
+      <unittitle>
+       Camillo Manina House, Spring Glen, Utah (6
+					 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207i
+      </container>
+      <unittitle>
+       Milano Court, Helper, Utah (3 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207j
+      </container>
+      <unittitle>
+       Map of Pueblo, Colorado (1 map)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207k
+      </container>
+      <unittitle>
+       Architectural Drawings by Tom Carter (8
+					 drawings)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207l
+      </container>
+      <unittitle>
+       Measured Drawing of San Pedro Community Gardens (1
+					 drawing)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207m
+      </container>
+      <unittitle>
+       4th Annual Italian Days Heritage Poster, October
+					 14-15, 1989 (1 poster)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207n
+      </container>
+      <unittitle>
+       Pueblo County, Colorado (3 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207o
+      </container>
+      <unittitle>
+       Columbus Day Celebration 1989, San Francisco,
+					 California (5 posters)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207p
+      </container>
+      <unittitle>
+       Bonded Winery, Gilroy, California (7
+					 blueprints)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207q
+      </container>
+      <unittitle>
+       Lateen Rigged Fishing Smack (2 schematics)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       207r
+      </container>
+      <unittitle>
+       Walla Walla Sweet Onion Commission Advertising (1 pack
+					 of advertising materials)
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Electronic Media
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      65 computer diskettes consist of original and reference disks that
+				contain original files and reference copies of those files. The reference
+				copies have been rearranged for better access. The diskettes contain the
+				documentation from the fieldwork as well as administrative files. Printed
+				directories of each disk can be found in Box 103 which contains 60 additional
+				diskettes with digital images.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       16
+      </container>
+      <unittitle>
+       Computer diskettes.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Project documentation in electronic format (WordPerfect 5.1). 32
+				  3.5-inch and 24 5.25-inch original disks containing original files and 18
+				  3.5-inch reference disks containing copies of original files rearranged in a
+				  more logical order. Includes one disk that contains files of AFC administrative
+				  materials. Note: Additional diskettes are located in Box 103. The reference
+				  disks are arranged alphabetically by fieldworker and the files on the disks are
+				  arranged by fieldworker and then by document type. The original disks are
+				  arranged in numerical order. For more information, see Disk Directories in
+				  folders 58-59.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      This series includes more than 500 original and reference copies
+				of reel-to-reel and audiocassette field recordings. They consist predominantly
+				of interviews with informants. Logs that describe the content of the recordings
+				can be found in Series I.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       17 - 23
+      </container>
+      <unittitle>
+       Reel-to-reel tapes.
+      </unittitle>
+      <didnote>
+       Note: Sound recordings originally housed in Boxes 17-23 are
+					 stored in a separate location.
+      </didnote>
+     </did>
+     <scopecontent>
+      <p>
+       65 reel-to-reel tapes of interviews, music, and events, arranged
+				  alphabetically by fieldworker and then numerically by tape number. Reference
+				  copies are available in the Folklife Reading Room. For more information, see
+				  Sound Recording Logs in folders 89-105.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       24 - 39
+      </container>
+      <unittitle>
+       Audiocassettes.
+      </unittitle>
+      <didnote>
+       Note: Sound recordings originally housed in Boxes 24-39 are
+					 stored in a separate location.
+      </didnote>
+     </did>
+     <scopecontent>
+      <p>
+       233 audiocassette tapes of interviews, music, and events,
+				  arranged alphabetically by fieldworker and then numerically by tape number.
+				  Reference copies are available in the Folkife Reading Room. For more
+				  information, see Sound Recording Logs in folders 89-105.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: Graphic Images and Moving Images
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Close to 25,000 images document the project's fieldwork. They
+				include black and white negative rolls, contact sheets, color slides,
+				negatives, and photographic prints. Logs describing the content of the field
+				photographs are in Series I. There are more than 40 videocassettes that
+				document a variety of festivals and events that took place in some of the
+				Italian-American communities studied. Logs describing the content of some of
+				these videos can be found in Series I.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="binders">
+       1 - 7
+      </container>
+      <unittitle>
+       Black-and-white negatives.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Approximately 554 black-and-white negative rolls (16,450 images)
+				  taken by fieldworkers during the project, arranged alphabetically by
+				  fieldworker and then numerically by roll number. For more information, see
+				  Black-and-White Photo Logs in folders 106-123. Contact sheets are also
+				  available through the Folklife Reading Room.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       40
+      </container>
+      <unittitle>
+       IAW-TC-C001-C008 (Tom Carter)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Tom Carter. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <unittitle>
+       IAW-TC-C009-C016 (Tom Carter)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Tom Carter. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       42
+      </container>
+      <unittitle>
+       IAW-DD-C001-C013 (Doug DeNatale)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Doug DeNatale. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       43
+      </container>
+      <unittitle>
+       IAW-DD-C014-C021 (Doug DeNatale)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Doug DeNatale. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       44
+      </container>
+      <unittitle>
+       IAW-RF-C001-C011 (Russell Frank)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Russell Frank. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       45
+      </container>
+      <unittitle>
+       IAW-RF-C012-C022 (Russell Frank)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Russell Frank. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       46
+      </container>
+      <unittitle>
+       IAW-AG-C001-C013 (Andrea Graham)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Andrea Graham. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       47
+      </container>
+      <unittitle>
+       IAW-AG-C014-C018 (Andrea Graham)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Andrea Graham. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       48
+      </container>
+      <unittitle>
+       IAW-KL-C001-C014 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       49
+      </container>
+      <unittitle>
+       IAW-KL-C015-C027 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       50
+      </container>
+      <unittitle>
+       IAW-KL-C028-c029 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       51
+      </container>
+      <unittitle>
+       IAW-KL-C040-C050 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       52
+      </container>
+      <unittitle>
+       IAW-KL-C051-C063 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       53
+      </container>
+      <unittitle>
+       IAW-KL-C064-C074 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       54
+      </container>
+      <unittitle>
+       IAW-KL-C075-C086 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       55
+      </container>
+      <unittitle>
+       IAW-KL-C087-C096 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       56
+      </container>
+      <unittitle>
+       IAW-KL-C097-C106 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       57
+      </container>
+      <unittitle>
+       IAW-KL-C107-C119 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       58
+      </container>
+      <unittitle>
+       IAW-KL-C120-C133 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       59
+      </container>
+      <unittitle>
+       IAW-KL-C134-C146 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       60
+      </container>
+      <unittitle>
+       IAW-KL-C147-C160 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       61
+      </container>
+      <unittitle>
+       IAW-KL-C161-C171 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       62
+      </container>
+      <unittitle>
+       IAW-KL-C172-C183 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       63
+      </container>
+      <unittitle>
+       IAW-KL-C184-C194 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       64
+      </container>
+      <unittitle>
+       IAW-KL-C195-C201 (Ken Light)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Ken Light. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       65
+      </container>
+      <unittitle>
+       IAW-JL-C-WW001-WW012 (Jens Lund)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Jens Lund. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       66
+      </container>
+      <unittitle>
+       IAW-JL-C-WW013-WW023 (Jens Lund)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Jens Lund. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       67
+      </container>
+      <unittitle>
+       IAW-JL-C-WWI89-C-JL-001-009 (Jens Lund)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Jens Lund. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       68
+      </container>
+      <unittitle>
+       IAW-PM-C001-C009 (Paula Manini)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Paula Manini. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       69
+      </container>
+      <unittitle>
+       IAW-PFN-C001-C015 (Philip F. Notarianni)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Philip F. Notarianni.
+				  For content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       70
+      </container>
+      <unittitle>
+       IAW-BO-C001-C006 (Blanton Owen)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Blanton Owen. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       71
+      </container>
+      <unittitle>
+       IAW-BO-C007-C019 (Blanton Owen)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Blanton Owen. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       72
+      </container>
+      <unittitle>
+       IAW-BO-C020-C029 (Blanton Owen)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Blanton Owen. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       73
+      </container>
+      <unittitle>
+       IAW-BO-c020-c027 (Blanton Owen)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Blanton Owen. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       74
+      </container>
+      <unittitle>
+       IAW-VP-C001-C013 (Valerie Parks)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Valerie Parks. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       75
+      </container>
+      <unittitle>
+       IAW-SS-C001-C012 (Steve Siporin)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Steve Siporin. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       76
+      </container>
+      <unittitle>
+       IAW-SS-C013-C024 (Steve Siporin)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Steve Siporin. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       77
+      </container>
+      <unittitle>
+       IAW-SS-C025-c023 (Steve Siporin)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Steve Siporin. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       78
+      </container>
+      <unittitle>
+       IAW-PT-C001-C003 (Paola Tavarelli)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Paola Tavarelli. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       79
+      </container>
+      <unittitle>
+       IAW-DT-C001-C014 (David Taylor)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, David Taylor. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       80
+      </container>
+      <unittitle>
+       IAW-DT-C015-C028 (David Taylor)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, David Taylor. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       81
+      </container>
+      <unittitle>
+       IAW-DT-C029-C040 (David Taylor)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, David Taylor. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       82
+      </container>
+      <unittitle>
+       IAW-DT-C041-C057 (David Taylor)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, David Taylor. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       83
+      </container>
+      <unittitle>
+       IAW-JW-C001-C011 (John Williams)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, John Williams. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       84
+      </container>
+      <unittitle>
+       IAW-MW-C001-C002 (Myron Wood)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color slides taken by project fieldworker, Myron Wood. For
+				  content details, see Color Slide Logs in folders 124-140.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       85
+      </container>
+      <container localtype="folder">
+       208
+      </container>
+      <unittitle>
+       Color internegatives.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       29 color negatives that are duplicates of color slides,
+					 arranged alphabetically by fieldworker and then numerically by sheet number.
+					 For more information, see Color Slide Log Status Report in folder 5.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       86
+      </container>
+      <unittitle>
+       Original color negatives.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color negative rolls taken by fieldworkers during the project,
+					 arranged alphabetically by fieldworker and then numerically by sheet
+					 number.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle>
+       Color photographs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       45 color prints of various sizes and 2 negative rolls of the
+					 1992 Columbus Day Parade in San Francisco, taken by John Williams.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       87
+      </container>
+      <container localtype="folders">
+       209 - 213
+      </container>
+      <unittitle>
+       Informant gifts-photos.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Color photographs and slides taken by informants and donated
+					 to the Folklife Center, arranged alphabetically by project site.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       88 - 92
+      </container>
+      <unittitle>
+       Videotapes.
+      </unittitle>
+      <didnote>
+       Note: Videotapes originally housed in Boxes 88-92 are stored
+						in a separate location.
+      </didnote>
+     </did>
+     <scopecontent>
+      <p>
+       21 videos taken by fieldworkers or informants, arranged
+					 alphabetically by item identifier. Reference copies are available in the
+					 Folklife Reading Room. For more information, see Videotape Logs in folders
+					 141-145.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       214a
+      </container>
+      <unittitle>
+       News Clippings.
+      </unittitle>
+      <physloc>
+       <emph render="bold">
+        AFC Reading Room Map
+                        Case
+       </emph>
+      </physloc>
+     </did>
+     <scopecontent>
+      <p>
+       Mary Jean Porter, "Library of Congress team studying Pueblo's
+					 Italians,"
+       <title localtype="simple" render="italic">
+        <part>
+         The Pueblo Chieftain
+        </part>
+       </title>
+       (Pueblo, CO),
+				  July 5, 1990.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       214b
+      </container>
+      <unittitle>
+       News Clippings.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Dave Socier, "It's another I-Opening weekend ahead for golf,"
+       <title localtype="simple" render="italic">
+        <part>
+         The Pueblo Chieftain
+        </part>
+       </title>
+       (Pueblo, CO),
+				  July 12, 1990. Dave Socier, "No mirage: Red-white-green flag waves at Italian
+				  Open,"
+       <title localtype="simple" render="italic">
+        <part>
+         Pueblo Chieftain
+        </part>
+       </title>
+       (Pueblo, CO),
+				  July 15, 1990.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       214c
+      </container>
+      <unittitle>
+       News Clippings.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tracey White, "Italian-American heritage intrigues research
+					 team,"
+       <title localtype="simple" render="italic">
+        <part>
+         The Dispatch
+        </part>
+       </title>
+       (Gilroy, CA),
+				  September 4, 1989.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       214d
+      </container>
+      <unittitle>
+       News Clippings.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Karen Vigil, "Tragedy narrowly averted in I-25 accident,"
+       <title localtype="simple" render="italic">
+        <part>
+         Pueblo Chieftain
+        </part>
+       </title>
+       (Pueblo, CO),
+				  July 7, 1990.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       93
+      </container>
+      <container localtype="folders">
+       215 - 220
+      </container>
+      <unittitle>
+       Duplicates.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Extra copies of some black-and-white contact sheets and color
+					 slides. Note: Duplicate prints of many of the fieldwork graphics are located
+					 with the exhibit graphic materials in Binders 5-20.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       94
+      </container>
+      <container localtype="folders">
+       221 - 231
+      </container>
+      <unittitle>
+       Duplicates.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Extra copies of some black-and-white contact sheets and color
+					 slides. Note: Duplicate prints of many of the fieldwork graphics are located
+					 with the exhibit graphic materials in Binders 5-20.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series V: Exhibition Materials
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Multi-format materials related to the administration, development,
+				and installation of the traveling exhibit, "Old Ties, New Attachments:
+				Italian-American Folklife in the West" are found in this series. It includes
+				manuscript and print materials, graphic materials, moving image materials, and
+				artifacts. The exhibit itself is documented through audio scripts, label texts,
+				photographs, and videotape.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       95
+      </container>
+      <container localtype="folders">
+       232 - 259
+      </container>
+      <unittitle>
+       Administrative.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Arranged alphabetically by subject. Includes correspondence,
+					 public relations materials (i.e., newspaper clippings, brochures, fliers), and
+					 photograph sources. Informants' files, arranged alphabetically by informant,
+					 contain information related to artifact loans. Site information, arranged
+					 alphabetically by exhibit site, contains public relations and correspondence
+					 concerning the installation and openings of the exhibit at different locations.
+					 Note: Materials such as purchase orders, contracts, fundraising documents,
+					 budget information, and related correspondence are located in Box 104.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       96
+      </container>
+      <container localtype="folders">
+       260 - 289
+      </container>
+      <unittitle>
+       Administrative.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Continued. See above.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       97
+      </container>
+      <container localtype="folders">
+       290 - 315
+      </container>
+      <unittitle>
+       Administrative.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Continued. See above.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       98
+      </container>
+      <container localtype="folders">
+       316 - 324
+      </container>
+      <unittitle>
+       Administrative.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Continued. See above.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folders">
+       325 - 335
+      </container>
+      <unittitle>
+       Exhibit.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Arranged alphabetically by subject. Contains papers related to
+					 the development, installation, and maintenance of the exhibit. Includes
+					 materials on the design concept as well as story stations and audio scripts,
+					 labels, video logs, artifact and photograph lists, artifact condition reports,
+					 and a multimedia installation manual. (The multimedia storytelling electronic
+					 files are duplicated on the AFC file server.)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       99
+      </container>
+      <container localtype="folders">
+       336 - 341
+      </container>
+      <unittitle>
+       Exhibit.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Arranged alphabetically by subject. Contains papers related to
+					 the development, installation, and maintenance of the exhibit. Includes
+					 materials on the design concept as well as story stations and audio scripts,
+					 labels, video logs, artifact and photograph lists, artifact condition reports,
+					 and a multimedia installation manual. (The multimedia storytelling electronic
+					 files are duplicated on the AFC file server.)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       100
+      </container>
+      <unittitle>
+       Exhibit Graphic Materials.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       (No folder numbers.)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       101
+      </container>
+      <container localtype="folders">
+       342 - 354
+      </container>
+      <unittitle>
+       Photographic Materials and Videotape
+      </unittitle>
+      <didnote>
+       Note: The videotape originally housed in Box 101 is stored in
+					 a separate location.
+      </didnote>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">
+        Photographic materials.
+       </emph>
+       Black-and-white and color negatives, contact sheets, prints, and slides. Some
+					 of these materials are duplicates of fieldwork documentation; others document
+					 the artifacts and the exhibit. Most of the prints depict artifacts used or
+					 considered for use in the exhibition. Included also are miscellaneous materials
+					 used in the development of the exhibit.
+       <lb>
+       </lb>
+       <emph render="bold">
+        Videotape.
+       </emph>
+       One 1/2 inch videotape documenting the exhibit
+					 after it was installed at the Library of Congress. Videotaped by Peter
+					 Bartis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="binders">
+       1 - 4
+      </container>
+      <unittitle>
+       Manuscript and Print Materials - Exhibit
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="binders">
+       5 - 20
+      </container>
+      <unittitle>
+       Photographic Materials -Exhibit
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       102
+      </container>
+      <unittitle>
+       Artifacts.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Miscellaneous items used in the exhibit that represent Italian
+					 American culture such as buttons, calendars, cloth patches, publications, and
+					 wine labels.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle>
+      <emph render="bold">
+       Additions to the
+				Collection
+      </emph>
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       103
+      </container>
+      <unittitle>
+       Computer Diskettes - Digital Images
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The IAW Image Backups are on 3.5-inch diskettes, housed in 5
+				  diskette boxes within one manuscript box.
+       <lb>
+       </lb>
+       Diskette Box 1: Day 1, Box 1 of
+				  1, IAW Image Backups, 14 Disks
+       <lb>
+       </lb>
+       Diskette Box 2: Day 2, Box 1 of 2, IAW
+				  Image Backups, 10 Disks
+       <lb>
+       </lb>
+       Diskette Box 3: Day 2, Box 2 of 2, IAW Image
+				  Backups, 11 disks
+       <lb>
+       </lb>
+       Diskette Box 4: Day 3, Box 1 of 2, IAW Image Backups, 14
+				  disks
+       <lb>
+       </lb>
+       Diskette Box 5: Day 3, Box 2 of 2, IAW Image Backups, 11 disks
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       104
+      </container>
+      <unittitle>
+       Additional Administrative Material
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        355
+       </container>
+       <unittitle>
+        Italian Christmas Traditions 12/15/93
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        356
+       </container>
+       <unittitle>
+        St. Joseph's Day Table 3/15/94
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        357
+       </container>
+       <unittitle>
+        IAW - Administration: Multimedia. M. Multimedia
+					 Production. Malecki, Eric
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        358
+       </container>
+       <unittitle>
+        Correspondence - Fundraising
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        359
+       </container>
+       <unittitle>
+        Agnelli Foundation
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        360
+       </container>
+       <unittitle>
+        IAW Administration: Budgets for IAW
+					 Projects
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        361
+       </container>
+       <unittitle>
+        IAW Administration: Multimedia Bids and
+					 Requisition
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        362
+       </container>
+       <unittitle>
+        IAW Adminstration: Mover/Shipper U.S. Art
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        363
+       </container>
+       <unittitle>
+        IAW Project Proposal
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        364
+       </container>
+       <unittitle>
+        Jens Lund
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        365
+       </container>
+       <unittitle>
+        IAW Administration: Exhibition Documents
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

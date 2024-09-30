@@ -1,0 +1,3670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af005002">
+   loc.afc/eadafc.af005002
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     September 11, 2001 Documentary Project
+               Collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Rosemary Graham and Valda
+               Morris-Slack
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2004-10">
+     October
+               2004
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2005700220" show="new">
+       https://lccn.loc.gov/2005700220
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-07">
+     July 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Ann Hoog and Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-03">
+     March 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2005-02">
+     February 2005
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Valda Morris-Slack
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2001/015
+   </unitid>
+   <origination label="Creator">
+    <corpname>
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <unittitle encodinganalog="245$a" label="Title">
+    September 11, 2001 Documentary Project
+            Collection
+    <date altrender="Span Dates" localtype="inclusive" normal="2001/2002">
+     2001-2002
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Span Dates" normal="2001/2002" unitdatetype="inclusive">
+    2001-2002
+   </unitdate>
+   <physdesc encodinganalog="300" label="Extent">
+    8,980 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    47 boxes ; 33 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    8,100 pages.
+   </physdesc>
+   <physdesc label="Extent (sound recordings)">
+    386 audio cassettes : analog and
+            digital.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    421 photographs :
+            photographic prints, negatives, contact sheets, slides, posters, drawings, digital
+            files, b&amp;w, col. ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    20 moving image items (8 VHS;
+            9 Compact VHS; 2 mini DV; 1 P6-60) : col., sd.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (electronic media)">
+    15 items : various
+            formats.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    38 items.
+   </physdesc>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041">
+     Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      English and Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Documentation of the reactions of
+            individuals and communities across the United States and elsewhere (Naples, Italy) to
+            the terrorist attacks on the World Trade Center in New York City; the Pentagon in
+            Arlington, Virginia; and the crash of the hijacked plane in Shanksville, Pennsylvania;
+            in audio, video, and photographs from 2001-2002.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20200717100558.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Library of Congress. National Digital Library Program.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Memorials--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001, in art.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001--Miscellanea.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001--Personal narratives.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001--Poetry.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      September 11 Terrorist Attacks, 2001--Religious aspects.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      September 11, 2001 documentary project, 2001-2002.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Children's art.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Flags.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Poetry.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Scrapbooks.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sermons.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    On September 12, 2001, the American Folklife Center at the Library of Congress sent an
+            email to folklorists and other ethnographers across the nation asking them to record the
+            thoughts and feelings expressed by individuals and communities following the terrorist
+            attacks of September 11. This project echoes one conducted sixty years earlier, on
+            December 8, 1941, when Alan Lomax, then in charge of the Archive of American Folk Song,
+            sent an urgent telegram to folklorists around the country to collect "man on the street"
+            reactions to the bombing of Pearl Harbor and the subsequent declaration of war by the
+            United States.
+   </p>
+   <p>
+    Within a week after the September 12 notice was sent, collection materials began to
+            arrive at the Library of Congress. Mail delivery to the Library was abruptly interrupted
+            from October 2001-May 2002, due to the discovery of envelopes containing anthrax in the
+            Hart Senate Office Building, a part of the Capitol complex. During that time, items
+            received via U.S. postal mail were sent offsite to be irradiated in order to rid them of
+            possible anthrax contamination. When the mail delivery to the Library resumed, and
+            collection materials finally began to arrive at the Center, fewer than one percent of
+            items were discovered to be severely damaged or destroyed by the irradiation process.
+            Attempts were made to contact donors of these items and some were able to provide
+            information about the content of their interviews. The destroyed materials remain a part
+            of the collection. Because of the mail delay, donations were accepted through 2002, as
+            long as the materials were reflective of immediate reactions from the fall of 2001.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    This collection received much media attention in the fall of 2001 which prompted some
+            immediate, but minimal, processing of the collection. Release forms and other manuscript
+            materials were organized according to the donating institution's or individual's name.
+            Some reference tapes were also made at this time. In addition, Ann Hoog, the curator of
+            this collection, created an Access database to assist with the organization of and
+            access to the materials. Data entry and some initial processing were done by Ann Hoog,
+            and American Folklife Center interns, Tatiana Omeltchenko and Darryl Gonzalez;
+            volunteer, Howard Kramer; and digital conversion specialists, John Barton and Myron
+            Briggs. The processing was completed by Rosemary Graham and Valda Morris-Slack in 2003.
+   </p>
+  </processinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Location
+   </head>
+   <p>
+    The collection can be requested in the Folklife Reading Room, American Folklife Center,
+            Library of Congress.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Access to the collection is unrestricted. Consult a reference librarian in the Folklife
+            Reading Room.
+   </p>
+  </accessrestrict>
+  <userestrict encodinganalog="540">
+   <head>
+    Restrictions
+   </head>
+   <p>
+    Some restrictions may apply concerning the use, duplication or publication of particular
+            materials in the collection. Consult a reference librarian in the Folklife Reading Room
+            for specific information.
+   </p>
+  </userestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    Significant portions of this collection are available as an online resource titled
+    <title localtype="simple">
+     <part>
+      September 11, 2001 Documentary Project
+     </part>
+    </title>
+    compiled by the National Digital Library Program of the Library of Congress,
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000016" show="new">
+     https://hdl.loc.gov/loc.afc/collafc.af000016
+    </ref>
+    .
+   </p>
+  </altformavail>
+  <altformavail>
+   <head>
+    Online Content
+   </head>
+   <p>
+    Selections from this and other Library of Congress September 11 collections can be found
+            in the online exhibit,
+    <emph render="italic">
+     Witness and Response: September 11
+               Acquisitions at the Library of Congress
+    </emph>
+    ,
+    <ref actuate="onrequest" href="https://www.loc.gov/exhibits/911" show="new">
+     https://www.loc.gov/exhibits/911
+    </ref>
+    .
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    September 11, 2001 Documentary Project Collection (AFC 2001/015), Archive of Folk
+            Culture, American Folklife Center, Library of Congress, Washington D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content Note
+   </head>
+   <p>
+    On September 12, 2001, the American Folklife Center at the Library of Congress sent a
+            notice to folklorists and ethnographers across the nation asking them to record on
+            audiotape the thoughts and feelings expressed by individuals and communities following
+            the terrorist attacks of September 11, 2001. The project was developed by Ann Hoog, who
+            collaborated with American Folklife Center Director Peggy Bulger in the original call
+            for participation. Materials were mailed to the Library of Congress beginning in
+            September 2001. The collection reflects the regional, ethnic, socioeconomic, and
+            political diversity of Americans at the time of the September 11 attacks.
+   </p>
+   <p>
+    The collection comprises 8980 items: 8100 manuscript materials; 386 sound recordings
+            (SR); 421 graphic and photographic materials (GR and PH); 20 moving images (MV); 15
+            electronic media (CF); and 38 artifacts (AR). There are twelve boxes of manuscript
+            materials divided into seven categories: Administrative Materials, Participant
+            Documentation, Unpublished Writings, Reports, Published Works, Internet Folklore,
+            Clippings and Online Articles. These include printout of e-mails, ephemera (from various
+            internet web sites), posters, newspaper articles, personal essays, narratives,
+            children's drawings, and other miscellaneous items that were left at the various
+            memorials.
+   </p>
+   <p>
+    The Participant Documentation series is arranged in sub-folders (a paper folder within
+            an archival folder) according to the participants' last names and the ID numbers of the
+            materials which pertain to the documentation. This arrangement ensures that the
+            interviewer and the interviewee, and the primary materials (sound recording,
+            photographic images, etc.) are readily identifiable. In some cases, there is no
+            documentation accompanying a specific sound recording, photograph, or other type of
+            medium. Therefore, in some sub-folders there is a "?" after the SR number. This
+            indicates that the documentation most likely goes with that SR number, but the name on
+            the form has not been linked definitively with that particular sound recording. There is
+            a folder entitled "Participant Documentation (Michigan)." Originally there were no tapes
+            accompanying the forms from Michigan State University (MSU). A few irradiated tapes were
+            found which were subsequently linked to Michigan State University (MSU), but could only
+            be identified and not played because of the extensive damage done to the tapes by the
+            irradiation process. The participant documentation is also divided into "originals" and
+            "photocopies" (as there was no way to verify which items had been irradiated, all the
+            documentation was photocopied). All photocopied materials can be served to readers.
+   </p>
+   <p>
+    There are twenty-two accounts of personal narratives and eleven poetic works within the
+            Unpublished Writings subseries, and they are arranged chronologically. These accounts
+            are the personal experiences of the writers on the day or days following September 11,
+            2001. Other accounts recall events in the authors' lives months after the attacks.
+   </p>
+   <p>
+    The Reports subseries consists of school projects that were submitted by several
+            institutions such as Hunter College, Colorado College, and California State University.
+            Each project was approached differently followed prescribed guidelines, which were to
+            capture the thoughts and feelings expressed by the American people in the aftermath of
+            September 11. For example, California State University presented its response in the
+            form of a research project which incorporated the use of posters, overheads, cartoons,
+            and newspaper clippings. The students at Colorado College, on the other hand, wrote term
+            papers based on the interviews they conducted.
+   </p>
+   <p>
+    The Published Works subseries consists of written articles and statements referring to
+            the events and reactions to the attacks of September 11. The works include excerpts from
+            the
+    <title localtype="simple">
+     <part>
+      Congressional Record
+     </part>
+    </title>
+    , press releases, photographs, flyers, brochures, and other ephemera.
+   </p>
+   <p>
+    The Internet Folklore section is a compilation of Internet sites that comment on the
+            events of September 11, through humor, images, memorials, legends, and Internet
+            warnings.
+   </p>
+   <p>
+    The Clippings and Online Articles subseries includes most of the California State
+            University at Chico reports, which contain a large number of newspaper clippings. These
+            clippings are included here and cross-referenced with the reports.
+   </p>
+   <p>
+    Note that the manuscript materials include database printouts that capture information
+            about sound recordings, graphic and photographic materials, moving images, electronic
+            media, and artifacts, all of which are available on hard copy and on a zip disk located
+            in Box 1, Folder 2.
+   </p>
+   <p>
+    The Sound Recordings series includes interviews with people who were in the World Trade
+            Center and the Pentagon during the attacks, and also people living in East Sullivan,
+            Maine; Des Moines, Iowa; Los Angeles, California, and many other towns and cities --
+            small and large -- across the country. Twenty-eight states are represented. The
+            collection includes interviews with teachers and students from elementary to graduate
+            school; police officers, firefighters and other emergency workers; secretaries,
+            executives, librarians, city officials, and people whose families have lived in the
+            United States for generations as well as those recently arrived.
+   </p>
+   <p>
+    There are approximately 200 interviews from New York City and Arlington, Virginia, but
+            the majority of the interviews in the collection was gathered from other parts of the
+            country. The content of the interviews include views on international relations,
+            politics, economics, patriotism, charity efforts, fears of flying, prejudices, and how
+            relationships were changed by the events of September 11, 2001.
+   </p>
+   <p>
+    The total number of sound recordings given in the Concordance is accurate as of 2005.
+            Additional items may be added. All of the sound recordings have been duplicated.
+   </p>
+   <p>
+    The sound recordings database is available in the Folklife Reading Room organized by SR
+            number and alphabetically by the interviewer's last name. The recordings are arranged
+            alphabetically by state, institution of affiliation, interviewer's last name, and
+            interviewee's last name. Using the "find" option in Access, researchers should be able
+            to find a specific sound recording easily. A few sound recordings were added to the
+            collection after the numbering arrangement was completed so the last recording, SR386,
+            is not the final recording. The sound recordings were numbered consecutively regardless
+            of format. Hence, the compact discs are not in sequence. Although the collection of
+            audio recordings was the primary goal of this project, some people documented their
+            community's reactions in photographs. Therefore, this collection also includes
+            photographic documentation of some of the spontaneous memorial tributes created near the
+            Pentagon, and in other parts of the country. These memorials, sign boards, and
+            decorations all reflect the public discourse regarding the events. Candles and flowers,
+            written messages and drawings from children, flags and other items, collectively express
+            the grief and solidarity of individuals and businesses. The American Folklife Center
+            (AFC) staff took photographs of memorials at Arlington Cemetery and near the Pentagon.
+            The American Folklife Center (AFC) also received images from places such as Marietta,
+            Georgia; Knoxville, Tennessee; and Las Vegas, Nevada. The digital graphic images are
+            housed with the electronic media.
+   </p>
+   <p>
+    Moving Images are arranged alphabetically by state and institution of affiliation. The
+            Moving Image series includes interviews and patriotic songs pertaining to September 11,
+            2001.
+   </p>
+   <p>
+    Artifacts are organized by format and institution of affiliation. The artifact
+            collection consists of materials that were gathered from a temporary memorial site in
+            Knoxville, Tennessee or collected as part of a project. They include flags, posters,
+            copper signs, and a sample of the irradiated tapes.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      1-12
+     </container>
+     <unittitle>
+      SERIES I: MANUSCRIPT MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Administrative Files
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        1
+       </container>
+       <unittitle>
+        Collection Guide
+       </unittitle>
+       <physdesc>
+        40 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        2
+       </container>
+       <unittitle>
+        Zip disk
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Contains sound-recordings database, graphic-materials database,
+                        moving-images database, electronic-media database, and artifacts
+                        database.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        3
+       </container>
+       <unittitle>
+        Sound Recordings Inventory
+       </unittitle>
+       <physdesc>
+        62 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sound recordings organized by ID number (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        4
+       </container>
+       <unittitle>
+        Sound Recordings Inventory
+       </unittitle>
+       <physdesc>
+        41 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sound recordings organized alphabetically by the interviewers' last names
+                        (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        5
+       </container>
+       <unittitle>
+        Graphic Materials Inventory
+       </unittitle>
+       <physdesc>
+        19 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        6
+       </container>
+       <unittitle>
+        Moving Images Inventory
+       </unittitle>
+       <physdesc>
+        6 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        7
+       </container>
+       <unittitle>
+        Electronic Media Inventory
+       </unittitle>
+       <physdesc>
+        1 page
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        8
+       </container>
+       <unittitle>
+        Artifacts Inventory
+       </unittitle>
+       <physdesc>
+        1 page
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        (printed copy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        9
+       </container>
+       <unittitle>
+        September 11, 2001 Documentary Project Website
+       </unittitle>
+       <physdesc>
+        6 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Includes a printout of the original call for participation and sample
+                        release forms.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        10
+       </container>
+       <unittitle>
+        Certificate of Appreciation
+       </unittitle>
+       <physdesc>
+        2 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        11
+       </container>
+       <unittitle>
+        E-mail Correspondence, 2001-2002
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        E-mail requests for information about the September 11, 2001 Documentary
+                        Project Collection.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Participant Documentation: Permission Forms, Logs, Surveys,
+                     Correspondence
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        12
+       </container>
+       <unittitle>
+        Participant Documentation (SR001-014)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        Participant Documentation (SR015-026)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        14
+       </container>
+       <unittitle>
+        Participant Documentation (SR027-068)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        15
+       </container>
+       <unittitle>
+        Participant Documentation (SR069-070)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        16
+       </container>
+       <unittitle>
+        Participant Documentation (SR071-083)
+       </unittitle>
+       <physdesc>
+        115 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        17
+       </container>
+       <unittitle>
+        Participant Documentation (SR084-098)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        18
+       </container>
+       <unittitle>
+        Participant Documentation (SR099-SR117)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        19
+       </container>
+       <unittitle>
+        Participant Documentation (SR118) (Folder 1 of 2)
+       </unittitle>
+       <physdesc>
+        90 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        20
+       </container>
+       <unittitle>
+        Participant Documentation (SR118) (Folder 2 of 2)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        21
+       </container>
+       <unittitle>
+        Participant Documentation (SR119) (Folder 1 of 4)
+       </unittitle>
+       <physdesc>
+        95 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        22
+       </container>
+       <unittitle>
+        Participant Documentation (SR119) (Folder 2 of 4)
+       </unittitle>
+       <physdesc>
+        45 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        23
+       </container>
+       <unittitle>
+        Participant Documentation (SR119) (Folder 3 of 4)
+       </unittitle>
+       <physdesc>
+        95 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        24
+       </container>
+       <unittitle>
+        Participant Documentation (SR119) (Folder 4 of 4)
+       </unittitle>
+       <physdesc>
+        110 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        25
+       </container>
+       <unittitle>
+        Participant Documentation (SR120-SR142)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        26
+       </container>
+       <unittitle>
+        Participant Documentation (SR143-SR162)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        27
+       </container>
+       <unittitle>
+        Participant Documentation (SR163-SR202)
+       </unittitle>
+       <physdesc>
+        110 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        28
+       </container>
+       <unittitle>
+        Participant Documentation (SR203-SR218)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <container localtype="folder">
+        29
+       </container>
+       <unittitle>
+        Participant Documentation (SR219-SR230)
+       </unittitle>
+       <physdesc>
+        125 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        30
+       </container>
+       <unittitle>
+        Participant Documentation (SR231-SR249)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        31
+       </container>
+       <unittitle>
+        Participant Documentation (SR250-SR269)
+       </unittitle>
+       <physdesc>
+        120 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        32
+       </container>
+       <unittitle>
+        Participant Documentation (SR270-SR286)
+       </unittitle>
+       <physdesc>
+        110 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        33
+       </container>
+       <unittitle>
+        Participant Documentation (SR287-SR304)
+       </unittitle>
+       <physdesc>
+        105 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        34
+       </container>
+       <unittitle>
+        Participant Documentation (SR305-318)
+       </unittitle>
+       <physdesc>
+        160 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        35
+       </container>
+       <unittitle>
+        Participant Documentation (SR319-327)
+       </unittitle>
+       <physdesc>
+        140 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <container localtype="folder">
+        36
+       </container>
+       <unittitle>
+        Participant Documentation (SR328-SR341)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <container localtype="folder">
+        37
+       </container>
+       <unittitle>
+        Participant Documentation (SR342-SR356)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <container localtype="folder">
+        38
+       </container>
+       <unittitle>
+        Participant Documentation (SR357-SR368)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <container localtype="folder">
+        39
+       </container>
+       <unittitle>
+        Participant Documentation (SR369-SR376)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <container localtype="folder">
+        40
+       </container>
+       <unittitle>
+        Participant Documentation (SR377-SR381)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <container localtype="folder">
+        41
+       </container>
+       <unittitle>
+        Participant Documentation (SR382-SR387)
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        42
+       </container>
+       <unittitle>
+        Participant Documentation (no audio)
+       </unittitle>
+       <physdesc>
+        25 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        43
+       </container>
+       <unittitle>
+        Participant Documentation (GR01)
+       </unittitle>
+       <physdesc>
+        1 page
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        44
+       </container>
+       <unittitle>
+        Participant Documentation (PH043-PH401)
+       </unittitle>
+       <physdesc>
+        75 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        45
+       </container>
+       <unittitle>
+        Participant Documentation (MV01-MV03)
+       </unittitle>
+       <physdesc>
+        50 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        46
+       </container>
+       <unittitle>
+        Participant Documentation (MV04-MV05)
+       </unittitle>
+       <physdesc>
+        75 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folder">
+        47
+       </container>
+       <unittitle>
+        Participant Documentation (MV06-MV08)
+       </unittitle>
+       <physdesc>
+        25 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <container localtype="folders">
+        48-78
+       </container>
+       <unittitle>
+        Removed from collection. These were duplicates of folders
+                        12-47.
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Unpublished Writings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        79
+       </container>
+       <unittitle>
+        Personal Narratives
+       </unittitle>
+       <physdesc>
+        100 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        80
+       </container>
+       <unittitle>
+        Poetry and Lyrics
+       </unittitle>
+       <physdesc>
+        75 pages
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Reports
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        81
+       </container>
+       <unittitle>
+        California State University, Chico — Barnard, Molly J.
+       </unittitle>
+       <physdesc>
+        80 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Molly J. Barnard. See also graphic materials in Boxes 34-37.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        82
+       </container>
+       <unittitle>
+        California State University, Chico — Carroll-Perdue,
+                        Andrew.
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Andrew Carroll-Perdue.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        83
+       </container>
+       <unittitle>
+        California State University, Chico — Reinschmidt,
+                        Michael
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Michael Reinschmidt. See also clippings/online article in Box
+                        12.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        84
+       </container>
+       <unittitle>
+        California State University, Chico — Valdes, Juan
+       </unittitle>
+       <physdesc>
+        65 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Juan Valdes. See also clippings/online articles, graphic materials
+                        in Boxes 12, 34-37.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        85
+       </container>
+       <unittitle>
+        Center for Documentary Studies at Duke University.
+       </unittitle>
+       <physdesc>
+        22 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <container localtype="folder">
+        86
+       </container>
+       <unittitle>
+        Colorado College — Crisera, Lauren
+       </unittitle>
+       <physdesc>
+        5 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Laura Crisera.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        87
+       </container>
+       <unittitle>
+        Colorado College — Hoecker, Ellie
+       </unittitle>
+       <physdesc>
+        45 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Ellie Hoecker.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        88
+       </container>
+       <unittitle>
+        Colorado College — Jansen, Laura
+       </unittitle>
+       <physdesc>
+        55 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Laura Jansen.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        89
+       </container>
+       <unittitle>
+        Colorado College — Kaplan, Ann
+       </unittitle>
+       <physdesc>
+        65 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Ann Kaplan.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        90
+       </container>
+       <unittitle>
+        Colorado College — McClure, Ted
+       </unittitle>
+       <physdesc>
+        15 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Ted McClure.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        91
+       </container>
+       <unittitle>
+        Colorado College — Meehan, Katy
+       </unittitle>
+       <physdesc>
+        75 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Katy Meehan.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        92
+       </container>
+       <unittitle>
+        Colorado College — Schoonmaker, Derek
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Derek Schoonmaker.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        93
+       </container>
+       <unittitle>
+        Colorado College —Skyler, Jenni
+       </unittitle>
+       <physdesc>
+        50 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Jenni Skyler.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        94
+       </container>
+       <unittitle>
+        Colorado College — Weber, Jarrod
+       </unittitle>
+       <physdesc>
+        50 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Report by Jarrod Weber.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Published Works
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        95
+       </container>
+       <unittitle>
+        Congressional Record (2001 09-12, 2001-09-17)
+       </unittitle>
+       <physdesc>
+        115 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        96
+       </container>
+       <unittitle>
+        Knoxville Writer's Guild
+       </unittitle>
+       <physdesc>
+        50 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Contains a press release, administrative information and a list of materials
+                        that were a part of "The Wall of Unity, a temporary memorial park. It was
+                        the creation of a group of local artists and developers in Knoxville,
+                        Tennessee.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        97
+       </container>
+       <unittitle>
+        Flyers, brochures, and postcards
+       </unittitle>
+       <physdesc>
+        30 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        98
+       </container>
+       <unittitle>
+        Ephemera EP1-EP3
+       </unittitle>
+       <physdesc>
+        3 pages
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Internet Folklore
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        99
+       </container>
+       <unittitle>
+        Internet humor
+       </unittitle>
+       <physdesc>
+        45 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        100
+       </container>
+       <unittitle>
+        Internet images
+       </unittitle>
+       <physdesc>
+        70 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        101
+       </container>
+       <unittitle>
+        Internet memorials
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        102
+       </container>
+       <unittitle>
+        Internet numerology and coincidences
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        103
+       </container>
+       <unittitle>
+        Internet urban legends/rumors
+       </unittitle>
+       <physdesc>
+        35 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        104
+       </container>
+       <unittitle>
+        Internet warnings
+       </unittitle>
+       <physdesc>
+        15 pages
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Clippings and Online Articles
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        105
+       </container>
+       <unittitle>
+        Library of Congress Publications
+       </unittitle>
+       <physdesc>
+        55 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Clippings about the September 11, 2001 Documentary Project.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        106
+       </container>
+       <unittitle>
+        Media Clippings about the September 11, 2001 Documentary
+                        Project
+       </unittitle>
+       <physdesc>
+        55 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <container localtype="folder">
+        107
+       </container>
+       <unittitle>
+        Media Clippings about September 11, 2001
+       </unittitle>
+       <physdesc>
+        65 pages
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <container localtype="folder">
+        108
+       </container>
+       <unittitle>
+        Stampa Generale S.R.L. Benvenuti A Napoli. Naples, Italy: SG S.r.l.,
+                        2001
+       </unittitle>
+       <physdesc>
+        65 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        A magazine published by a private firm in colloboration with the Naples
+                        Military Community. Sent in by Scott E. George (See SR382-385).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <container localtype="folder">
+        109
+       </container>
+       <unittitle>
+        Enterprise Record (Chico, California)
+       </unittitle>
+       <physdesc>
+        65 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sent in by Michael Reinschmidt. See Reports subseries in Manuscripts.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <container localtype="folder">
+        110
+       </container>
+       <unittitle>
+        The Orion (California State University, Chico)
+       </unittitle>
+       <physdesc>
+        85 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sent in by Juan Valdes. See Reports subseries in Manuscripts.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <container localtype="folder">
+        111
+       </container>
+       <unittitle>
+        Paradise Post (Chico, California) (Folder 1 of 2)
+       </unittitle>
+       <physdesc>
+        55 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sent in by Karen Brown of California State University, Chico students. See
+                        Reports subseries in Manuscripts and oversize Box 38 for original newspaper
+                        print.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <container localtype="folder">
+        112
+       </container>
+       <unittitle>
+        Paradise Post (Chico, California) (Folder 2 of 2)
+       </unittitle>
+       <physdesc>
+        110 pages
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Sent in by Karen Brown of California State University, Chico students. See
+                        Reports subseries in Manuscripts and see oversize Box 38 for original
+                        newspaper print.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      13-34, 41
+     </container>
+     <unittitle>
+      SERIES II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Audiocassettes
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle>
+        SR001, SR004-009, SR015-022, SR024-027
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        14
+       </container>
+       <unittitle>
+        SR028-045
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        15
+       </container>
+       <unittitle>
+        SR046-063
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle>
+        SR064-071, SR073-080, SR082-085
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        17
+       </container>
+       <unittitle>
+        SR086-088, SR090-105
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle>
+        SR106-123
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        19
+       </container>
+       <unittitle>
+        SR124-140
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle>
+        SR141-144, SR146-159
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle>
+        SR160-177
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle>
+        SR178-194
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        23
+       </container>
+       <unittitle>
+        SR195-200, SR202-203, SR205, SR207-215
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        24
+       </container>
+       <unittitle>
+        SR216-229, SR231-233
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        25
+       </container>
+       <unittitle>
+        SR234, SR239, SR242, SR245-259
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        26
+       </container>
+       <unittitle>
+        SR260-277
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        27
+       </container>
+       <unittitle>
+        SR278-296
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        28
+       </container>
+       <unittitle>
+        SR297-314
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle>
+        SR315-322, SR326, SR328-336
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        30
+       </container>
+       <unittitle>
+        SR337-355
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        31
+       </container>
+       <unittitle>
+        SR356-372, SR375
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        32
+       </container>
+       <unittitle>
+        SR376-379, SR381-386
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Digital Audio Tape
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        33
+       </container>
+       <unittitle>
+        SR206
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Mini-audiocassettes
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        33
+       </container>
+       <unittitle>
+        SR003, SR072, SR089, SR230, SR236-238, SR240-241, SR243-244,
+                        SR380
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Compact Discs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        34
+       </container>
+       <unittitle>
+        SR002, SR010-014, SR023, SR069, SR081, SR089, SR145, SR193, SR204,
+                        SR235, SR323-325, SR373
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Zip Disc
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        *41
+       </container>
+       <unittitle>
+        SR327 (also CF12)
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        *Disc is a digital sound recording
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      35-38, 48
+     </container>
+     <unittitle>
+      SERIES III: GRAPHIC IMAGES
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       35
+      </container>
+      <container localtype="folder">
+       113
+      </container>
+      <unittitle>
+       Contact sheets (PH001-005)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See also: Negatives (PH006-037)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       35
+      </container>
+      <container localtype="folder">
+       114
+      </container>
+      <unittitle>
+       Black-and-white negatives (PH006-037)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See also: Contact sheets (PH001-005)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       35
+      </container>
+      <container localtype="folder">
+       115
+      </container>
+      <unittitle>
+       Black-and-white photographs (PH038-042)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       35
+      </container>
+      <container localtype="folder">
+       116
+      </container>
+      <unittitle>
+       Digital photographic prints (PH043-051)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       35
+      </container>
+      <container localtype="folder">
+       117
+      </container>
+      <unittitle>
+       Color photographs (PH052-063, PH336-343)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       118
+      </container>
+      <unittitle>
+       Color slides (PH064-083)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       119
+      </container>
+      <unittitle>
+       Color slides (PH084-100)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       120
+      </container>
+      <unittitle>
+       Color slides (PH101-120)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       121
+      </container>
+      <unittitle>
+       Color slides (PH121-134)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       122
+      </container>
+      <unittitle>
+       Color slides (PH135-154)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       123
+      </container>
+      <unittitle>
+       Color slides (PH155-174)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       124
+      </container>
+      <unittitle>
+       Color slides (PH175-194)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       125
+      </container>
+      <unittitle>
+       Color slides (PH195-200)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       126
+      </container>
+      <unittitle>
+       Digital Images (PH201-343)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See Electronic Media: Folder 142 (PH201-282), Folder 133 (PH283-334), Box 37
+                     (PH335/GR01), Folder 117 (PH336-343), Folder 144 (PH402)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       127
+      </container>
+      <unittitle>
+       Black-and-white photographs (PH344-363)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See Box 48 See also Contact sheets: (PH364-368; PH371; PH373-376; PH382; PH384;
+                     PH392-393; PH396-398)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       128
+      </container>
+      <unittitle>
+       Contact sheets (PH364-PH401)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See also Photographs (PH344-363)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       36
+      </container>
+      <container localtype="folder">
+       129
+      </container>
+      <unittitle>
+       Digital photographic prints (PH403-PH404)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See Box 48 See also Contact sheet: (PH005)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       37
+      </container>
+      <unittitle>
+       Graphic materials (GR01-15)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       38 (oversize)
+      </container>
+      <unittitle>
+       Graphic materials (GR16-19)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       (See map folder in Reading Room for GR16)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       48 (oversize)
+      </container>
+      <unittitle>
+       PH344-363, PH403-404
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      39-40
+     </container>
+     <unittitle>
+      SERIES IV: MOVING IMAGES
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       39
+      </container>
+      <unittitle>
+       MV01, MV04 (copy 2), MV05 (copy 2), MV06-10
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       40
+      </container>
+      <unittitle>
+       MV02, MV03, MV04 (copy 1), MV05 (copy 1), MV11-18
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      41, 1
+     </container>
+     <unittitle>
+      SERIES V: ELECTRONIC MEDIA
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       130
+      </container>
+      <unittitle>
+       Electronic media (CF01)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       131
+      </container>
+      <unittitle>
+       Electronic media (CF02)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       132
+      </container>
+      <unittitle>
+       Electronic media (CF03/SR323)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       133
+      </container>
+      <unittitle>
+       Electronic media (CF04/PH283-291)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       134
+      </container>
+      <unittitle>
+       Electronic media (CF05/PH292-299)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       135
+      </container>
+      <unittitle>
+       Electronic media (CF06/PH300-308)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       136
+      </container>
+      <unittitle>
+       Electronic media (CF07/PH309-317)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       137
+      </container>
+      <unittitle>
+       Electronic media (CF08/PH318-326)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       138
+      </container>
+      <unittitle>
+       Electronic media (CF09/PH327-334)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       139
+      </container>
+      <unittitle>
+       Electronic media (CF10)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       140
+      </container>
+      <unittitle>
+       Electronic media (CF11)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       141
+      </container>
+      <unittitle>
+       Electronic media (CF12/SR327)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       142
+      </container>
+      <unittitle>
+       Electronic media (CF13/PH201-282)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       41
+      </container>
+      <container localtype="folder">
+       143
+      </container>
+      <unittitle>
+       Electronic media (CF14)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See Box 1
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       144
+      </container>
+      <unittitle>
+       Electronic media (CF15/PH402)
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      42-47
+     </container>
+     <unittitle>
+      SERIES VI: ARTIFACTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       42
+      </container>
+      <unittitle>
+       AR01-04
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Bumper stickers
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR05
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Scrapbook from Children International- Chile
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       43
+      </container>
+      <unittitle>
+       AR06
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Scrapbook from Children International-Asia
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       44
+      </container>
+      <unittitle>
+       AR07
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Book of condolences from Hillside Funeral Home, Kansas
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       45
+      </container>
+      <unittitle>
+       AR08-13, AR16
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Engraved copper plates that were taken to the memorial site. Donated by the
+                     Knoxville Writers' Guild, Tennessee
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR14
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Plastic flag donated by the Knoxville Writers' Guild, Tennessee (See oversize
+                     Box 38).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR15
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Small card
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR17
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Poem entitled, "The Aftermath"
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR18-19
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Red and blue ribbons
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR20
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Poem, "I am persuaded..."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR21
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper printed in French from Quebec
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR22
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Paper advertisement about Osama Bin Laden, "Have you Seen Me?"
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       AR38
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       American flag made of sequins (hand made)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       46
+      </container>
+      <unittitle>
+       AR23
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       American flag
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       47
+      </container>
+      <unittitle>
+       AR24-AR37
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Audiocassettes AR24-AR33 and floppy discs AR34-AR37 Note: These are irradiated
+                     objects.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Appendicies
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       <ref target="appendixa">
+        Appendix A: Donating Institutions
+       </ref>
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       <ref target="appendixb">
+        Appendix B: Locations Where Recordings were Made
+       </ref>
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head althead="Donors" id="appendixa">
+    Appendix A: Donating Institutions
+   </head>
+   <list>
+    <item>
+     <corpname>
+      <part>
+       Alma College
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       American Folklife Center
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       American RadioWorks
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Appleseed Recordings
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Bronx Satellite Academy
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       California State University, Chico
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Center for the Study of Upper Midwestern Cultures
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Colorado College
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Crestwood High School (Pa.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Duke University. Center for Documentary Studies
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Davenport Public Library (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Fairfax Community Adult School (Calif.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Fort Dodge Public Library (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Harvard University
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Heritage Christian School (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Hiawatha Library (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Hunter College
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Indiana University
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Iowa City Public Library (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Iowa. Dept. of Cultural Affairs
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Lake Tahoe Community College (Calif.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Long Beach Historical Society (Calif.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Montville High School (Conn.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Naples American High School (Naples, Italy)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       National Czech &amp; Slovak Museum &amp; Library
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Northwest Iowa Library Service Area
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Plymouth State College. Institute for New Hampshire Studies
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       RipBang Pictures (Md.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Salt Institute for Documentary Studies
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       September School (Colo,)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Sidney Public High School (Ia.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       State Historical Society of Iowa
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       State Library of Iowa
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       St. Andrews Episcopal Church (Ca.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Southern Illinois University at Edwardsville
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Sumner High School (Me.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Trinity College of Graduate Studies (Ca.)
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       University of California, Los Angeles
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       University of California, San Diego
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       University of Central Florida
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       University of Colorado, Boulder
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       University of Pennsylvania
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Utah State University
+      </part>
+     </corpname>
+    </item>
+    <item>
+     <corpname>
+      <part>
+       Valley High School (West Des Moines, Iowa)
+      </part>
+     </corpname>
+    </item>
+   </list>
+  </odd>
+  <odd>
+   <head althead="Locations" id="appendixb">
+    Appendix B: Locations Where Recordings were
+            Made
+   </head>
+   <list>
+    <item>
+     <emph render="bold">
+      Italy
+     </emph>
+     <list>
+      <item>
+       Naples
+      </item>
+     </list>
+    </item>
+    <item>
+     <emph render="bold">
+      United States
+     </emph>
+     <list>
+      <item>
+       Arizona
+      </item>
+      <item>
+       California
+      </item>
+      <item>
+       Colorado
+      </item>
+      <item>
+       Connecticut
+      </item>
+      <item>
+       District of Columbia
+      </item>
+      <item>
+       Florida
+      </item>
+      <item>
+       Georgia
+      </item>
+      <item>
+       Idaho
+      </item>
+      <item>
+       Illinois
+      </item>
+      <item>
+       Indiana
+      </item>
+      <item>
+       Iowa
+      </item>
+      <item>
+       Maine
+      </item>
+      <item>
+       Maryland
+      </item>
+      <item>
+       Massachusetts
+      </item>
+      <item>
+       Michigan
+      </item>
+      <item>
+       Minnesota
+      </item>
+      <item>
+       Nevada
+      </item>
+      <item>
+       New Hampshire
+      </item>
+      <item>
+       New Jersey
+      </item>
+      <item>
+       New Mexico
+      </item>
+      <item>
+       New York
+      </item>
+      <item>
+       North Carolina
+      </item>
+      <item>
+       Oklahoma
+      </item>
+      <item>
+       Oregon
+      </item>
+      <item>
+       Pennsylvania
+      </item>
+      <item>
+       Pennsylvania
+      </item>
+      <item>
+       Tennessee
+      </item>
+      <item>
+       Utah
+      </item>
+      <item>
+       Virginia
+      </item>
+      <item>
+       Washington
+      </item>
+      <item>
+       Wisconsin
+      </item>
+     </list>
+    </item>
+   </list>
+  </odd>
+ </archdesc>
+</ead>

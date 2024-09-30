@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021008">
+   loc.afc/eadafc.af021008
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Gwilym Davies Appalachian and Adirondack Mountains collection, 1997-1998
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Maya Lerman
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2021">
+     2021
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2021655267" show="new">
+       https://lccn.loc.gov/2021655267
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-09">
+     September 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress,
+                    Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Maya Lerman.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Gwilym Davies Appalachian and Adirondack Mountains collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1997/1998">
+     1997-1998
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1997/1998" unitdatetype="inclusive">
+    1997-1998
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2007/004
+   </unitid>
+   <physdesc encodinganalog="300" label="Extent">
+    10 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    9 sound recordings : digital audio files, WAV
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    1 manuscript : digital text file
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of
+                        Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Field recordings of songs and tales from Virginia, West Virginia, and New York State 
+              (Appalachian and Adirondack Mountains) made by Gwilym Davies in 1997 and 1998. Performers recorded include Spencer Moore of Chilhowie, VA; 
+              Phyllis Marks of Glenville, West Virginia, in the company of Helena Triplett of Elkins, West Virginia; Rita Emerson of Glenville, West Virginia; 
+              Russell Lehew of Mannington, West Virginia; Dick Richards of Lake Luzerne, Saratoga, New York; Catherine Charron Labier of Whitehall, New York; 
+              Jim Cleveland and Colleen Cleveland of Brant Lake, New York.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Gwilym Davies; Donation; 2007.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Gwilym Davies Appalachian and Adirondack Mountains collection was processed by Jesse Hocking.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Gwilym Davies Appalachian and Adirondack Mountains collection is open for research. To
+                request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+             [item, date, container number], Gwilym Davies Appalachian and Adirondack Mountains collection 
+             (AFC 2007/004), American Folklife Center,
+                Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical note
+   </head>
+   <p>
+    Gwilym Davies (born 1946) is a collector of folk songs from Hampshire, England. He has recorded folk music 
+               in Hampshire, Gloucestershire, Devon, the United States and elsewhere and has deposited recordings with 
+               the British Library Sound Archive and the Library of Congress.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Field recordings of songs and tales from Virginia, West Virginia, and New York State (Appalachian and Adirondack Mountains) 
+              made by Gwilym Davies in 1997 and 1998. Performers recorded include Spencer Moore of Chilhowie, VA; Phyllis Marks of Glenville, West Virginia 
+              in the company of Helena Triplett of Elkins, West Virginia; Rita Emerson of Glenville, West Virginia; Russell Lehew of Mannington, West Virginia; Dick Richards of 
+              Lake Luzerne, Saratoga, New York; Catherine Charron Labier of Whitehall, New York; Jim Cleveland and Colleen Cleveland of Brant Lake, New York.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Gwilym Davies Appalachian and Adirondack Mountains collection was recorded onto DAT tapes, each one containing multiple recording sessions or events. 
+              The DATS were digitized, and an audio file was created for each event. The finding aid arrangement reflects the events in chronological order. The digital id
+              numbering, C742-69 through C742-77, are identifiers provided by the donor and are how the files are named. Descriptions, performer and song lists, and notes about performances used 
+              in the finding aid come directly from the donor's documentation.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20210929121751.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cleveland, Colleen
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cleveland, Jim, 1923-1999
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Davies, Gwilym
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emerson, Rita
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gill, Kathleen M.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Labier, Catherine Charron
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lehew, Russell
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marks, Phyllis
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Moore, Spence
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Richards, Dick, 1918-2000
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Roberts, John, 1944 May 5-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Trump, Susan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ward, George (Guitarist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ward, Vaughn
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--New York (State)--Adirondack Mountains Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--West Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--New York (State)--Adirondack Mountains Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--New York (State)--Adirondack Mountains Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--West Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Play-party--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--New York (State)--Adirondack Mountains Region.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Adirondack Mountains (N.Y.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Adirondack Mountains (N.Y.)--Songs and music.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Appalachian Region--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Ballads.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Field recordings from the Appalachian and Adirondack Mountains,
+      <date localtype="inclusive" normal="1997/1998">
+       1997-1998
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1997/1998" unitdatetype="inclusive">
+      1997-1998
+     </unitdate>
+    </did>
+    <scopecontent>
+     <p>
+      Field recordings of songs and tales from Virginia, West Virginia, and New York State 
+               (Appalachian and Adirondack Mountains) made by Gwilym Davies in 1997 and 1998. The finding aid arrangement reflects the events in chronological order. 
+               The digital id numbering, C742-69 through C742-77, are identifiers provided by the donor and are how the files are named. Descriptions, 
+               performer and song lists, and notes about performances used 
+               in the finding aid come directly from the donor's documentation.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-69
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       NOMAD 
+                  Folk Festival, Newtown CT,
+       <date localtype="inclusive" normal="1997-11-09">
+        November 9, 1997
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1997-11-09" unitdatetype="inclusive">
+       November 9, 1997
+      </unitdate>
+     </did>
+     <arrangement encodinganalog="351$b">
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+          <entry>
+           Performer
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           00:00
+          </entry>
+          <entry>
+           Colleen Cleveland sings "Queen Jane" (some extraneous chat beforehand)
+          </entry>
+          <entry>
+           Colleen Cleveland
+          </entry>
+         </row>
+         <row>
+          <entry>
+           0:11:18
+          </entry>
+          <entry>
+           Colleen sings "Molly Vaughan"
+          </entry>
+          <entry>
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </arrangement>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-71
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Spencer Moore sings 
+                  and plays guitar at singer's home in Chilhowie, Virginia,
+       <date localtype="inclusive" normal="1997-11-29">
+        November 29, 
+                      1997
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1997-11-29" unitdatetype="inclusive">
+       November 29, 
+                          1997
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       All songs sung by Spencer Moore (age 78) with his guitar 
+                              accompaniment.
+      </p>
+     </scopecontent>
+     <arrangement encodinganalog="351$b">
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           00:00:23
+          </entry>
+          <entry>
+           "Three Little Babes" (Wife of Usher's Well)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:02:05
+          </entry>
+          <entry>
+           "Cumberland Gap"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:04:30
+          </entry>
+          <entry>
+           "Little Birdie"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:05:02
+          </entry>
+          <entry>
+           "Old Jimmie Sutton"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:07:06
+          </entry>
+          <entry>
+           "The Fate of Dewey Lee"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:08:54
+          </entry>
+          <entry>
+           "Burglar Man"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:10:25
+          </entry>
+          <entry>
+           "There Was an Old Man" (Devil and the Farmer's Wife)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:11:34
+          </entry>
+          <entry>
+           "I've Always Been a Rambler" (Girl I Left Behind - not Brighton Camp)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:12:40
+          </entry>
+          <entry>
+           "Rosewood Casket"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:14:24
+          </entry>
+          <entry>
+           "Lawson Murder" (talk beforehand)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:16:29
+          </entry>
+          <entry>
+           "Jericho" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:17:13
+          </entry>
+          <entry>
+           "Old Jericho" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:18:05
+          </entry>
+          <entry>
+           "The Convict and the Rose"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:20:10
+          </entry>
+          <entry>
+           "The Butcher Boy"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:21:44
+          </entry>
+          <entry>
+           "Golden Slippers" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:22:40
+          </entry>
+          <entry>
+           "Sugar Foot Rag" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:23:27
+          </entry>
+          <entry>
+           "Be my Little Coochie-coo" (me, [Gwilym Davies] on banjo)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:25:06
+          </entry>
+          <entry>
+           "I Tickled Nancy" (me, [Gwilym Davies] on banjo)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:26:18
+          </entry>
+          <entry>
+           "Black Snake Blues" (talk beforehand)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:27:59
+          </entry>
+          <entry>
+           "They Went Wild, Simply Wild, Over Me"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:28:22
+          </entry>
+          <entry>
+           "Down in the Valley"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:31:30
+          </entry>
+          <entry>
+           "Pretty Polly
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:32:07
+          </entry>
+          <entry>
+           "Home Sweet Home Waltz" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:33:12
+          </entry>
+          <entry>
+           ("Waltz") (instrumental - own composition) - curtailed
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </arrangement>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-73
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Spencer Moore sings and plays guitar at 
+                  singer's home in Chilhowie, Virginia,
+       <date localtype="inclusive" normal="1997-11-29">
+        November 29, 1997
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1997-11-29" unitdatetype="inclusive">
+       November 29, 1997
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       All songs sung by Spencer Moore (age 78) with his guitar accompaniment.
+      </p>
+     </scopecontent>
+     <arrangement encodinganalog="351$b">
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           00:00:16
+          </entry>
+          <entry>
+           "John Henry"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:02:16
+          </entry>
+          <entry>
+           "Soldier's Joy" (instrumental)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:03:26
+          </entry>
+          <entry>
+           "Coming round the Mountain" (me, [Gwilym Davies] on banjo)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:05:35
+          </entry>
+          <entry>
+           "McKinley"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:06:55
+          </entry>
+          <entry>
+           "Blue Ridge Mountain Blues"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:09:05
+          </entry>
+          <entry>
+           "(Drunkard Song)"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:11:11
+          </entry>
+          <entry>
+           "Cluck Old Hen" (me [Gwilym Davies] on banjo)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:12:35
+          </entry>
+          <entry>
+           "I'm Thinking Tonight of My Blue Eyes"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:13:55
+          </entry>
+          <entry>
+           "Froggy Went a-Courting"
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </arrangement>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-75
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Catherine Charron 
+                  Labier tells folktales, in Rexford, New York,
+       <date localtype="inclusive" normal="1998-01-08">
+        January 8, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-01-08" unitdatetype="inclusive">
+       January 8, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Catherine Charron Labier tells folktales learned from her grandfather Charrod and 
+                      great-grandfather LaChapelle, who were born in Quebec. LaChapelle was a "boatman" (he had a fleet of Champlain Canal 
+                      boats and hauled produce from the Champlain Valley to New York City), as was his son. Catherine's mother grew up on a canal boat. 
+                      Lachapelle lived with Catherine's family in the French community of Whitehall, New York. Charron was a farmer in West Haven, Vermont, 
+                      which is just across the Lake Champlain Sarrows from Whitehall, New York. Until she went to school Catherine Charron (Labier) 
+                      spoke only French. These family tales have remained in oral tradition. Catherine is the first generation to tell them outside her family.
+      </p>
+     </scopecontent>
+     <arrangement encodinganalog="351$b">
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+          <entry>
+           Description
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           <emph render="underline">
+            The Devil's Three Golden Hairs
+           </emph>
+          </entry>
+          <entry>
+           Rene falls in love with Gabrielle, wants to marry her. 
+                          Her father says that he must get Devil's three golden hairs. At first village, there is a dying apple tree, at second, the water is drying up, at the third. 
+                          Ferryman tells him Devil 
+                          lives in mountains. Ferryman wants to hand job in. Meets Devil's wife. Devil arrives, René hides. When he is asleep, she plucks a hair from 
+                          him - Devil tells her that the dying tree has a nest of snakes under it. She plucks another hair. Devil tells her that beavers have blocked 
+                          she river. She plucks another hair and he tells her that ferryman should leave next customer in the boat. Rene leaves and tells 
+                          ferryman what to do, then tells villagers about the dam, and the next villagers about the snakes. They all give him sacks of gold - 
+                          Devil is chasing him. He marries Rene. (Labier got the story from a 90-year-old French Canadian woman in Burlington, Vermont.
+          </entry>
+         </row>
+         <row>
+          <entry>
+           <emph render="underline">
+            René Beaudouin
+           </emph>
+          </entry>
+          <entry>
+           Fiddler. Plays for dance - see lights in wood. He gets the people inside and follows them 
+                          and disappeared. But the wind is the Devil begging Rene to stop playing fiddle (family story).
+          </entry>
+         </row>
+         <row>
+          <entry>
+           <emph render="underline">
+            John the Hunter
+           </emph>
+          </entry>
+          <entry>
+           John loves hunting. His mother is worried about the loup-garou. 
+                          He keeps going to the woods - is meeting a red-headed girl there. He tries to persuade her to meet his parents before All-Souls Day. She changes into 
+                          a fox - she is the loup-garou. He loses his soul. (family story)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           <emph render="underline">
+            André
+           </emph>
+          </entry>
+          <entry>
+           André goes out to get wood. Meets a girl and they spend the day together. She chops all the day's wood 
+                          with a magic spell. Next day the same thing happens but this time she chops 10 cords of wood by a spell. Next day the same. She 
+                          helps André kill a deer. Next day she helps him shoot ten turkeys. She makes him get lost in the woods - she has changed to an old hag - 
+                          it is the loup-garou.  Now the sound of the wolf is André calling to his parents. (family story)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           <emph render="underline">
+            Thérèse
+           </emph>
+          </entry>
+          <entry>
+           Thérèse is treated cruelly by her miserly father. He throws her out. She dies. He buries her in a poor coffin and buries her.
+                          One night there is a storm and a knocking on the door. He dies in storm. Neighbours find him dead on the bed. Thérèse's body had floated 
+                          onto the bed. They give her a good burial but he is then buried out by the tree. (Cajun story)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           <emph render="underline">
+            Marguerite
+           </emph>
+          </entry>
+          <entry>
+           Marguerite swims away with the whales. Marries a whale. Comes back a year later with a white 
+                          offspring. This is how the Beluga whale became white. (family story)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </arrangement>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-75
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       George Ward sings songs, in Rexford, New York,
+       <date localtype="inclusive" normal="1998-01-18">
+        January 18, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-01-08" unitdatetype="inclusive">
+       January 8, 1998
+      </unitdate>
+     </did>
+     <arrangement encodinganalog="351$b">
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "Everyday Dirt" (version of Bill the Weaver)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Gloucester Old Spot Pig" (written by Ward)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </arrangement>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-69
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Dick Richards sings and plays guitar, in 
+                  Rexford, NY,
+       <date localtype="inclusive" normal="1998-01-18">
+        January 18, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-01-18" unitdatetype="inclusive">
+       January 18, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Dick Richards (age 76), from Lake Lucerne, Saratoga, New York, accompanying himself on guitar. 
+                      Recorded at Rexford, New York.
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           00:15:32
+          </entry>
+          <entry>
+           "The Rumseller's Signboard"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:20:00
+          </entry>
+          <entry>
+           "Brian O'Lynn"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:64:30
+          </entry>
+          <entry>
+           "Two Little Orphans"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:37:22
+          </entry>
+          <entry>
+           "The Jam on Gerion's Rock" (incomplete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:38:50
+          </entry>
+          <entry>
+           "Little Rosewood Casket"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:40:41
+          </entry>
+          <entry>
+           "Granny's Old Armchair"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:43:48
+          </entry>
+          <entry>
+           "Teaching MacFaddon to Waltz"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:21:98
+          </entry>
+          <entry>
+           "Devil and the Farmer's Wife"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:21:24
+          </entry>
+          <entry>
+           "My Poodle Woodle Dog" (stops - forgets words)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:25:18
+          </entry>
+          <entry>
+           "The Blind Child"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:28:25
+          </entry>
+          <entry>
+           "My Poodle Woodle Dog"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:29:57
+          </entry>
+          <entry>
+           "Green Mossy Banks of the Lee" - one verse only
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:30:34
+          </entry>
+          <entry>
+           "To Make Sweet Mary His Bride" (fragment only of broken token ballad)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:31:34
+          </entry>
+          <entry>
+           "Butcher Boy"
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-69
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Various people sing and tell stories at a social 
+                  get-together at Riverview Orchards Rexford, New York,
+       <date localtype="inclusive" normal="1998-01-18">
+        January 18, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-01-18" unitdatetype="inclusive">
+       January 18, 1998
+      </unitdate>
+     </did>
+     <odd>
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           00:46:02
+          </entry>
+          <entry>
+           George Ward sings "Everyday Dirt" (Doc Watson version of Bill the Weaver - beginning missed)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:47:28
+          </entry>
+          <entry>
+           Greg Clarke (from Charlton, Saratoga) recites "Reincarnation" (monologue)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:49:20
+          </entry>
+          <entry>
+           Linda Crump (from Bought Corners, Saratoga Co) tells comic anecdote about her father
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:54:08
+          </entry>
+          <entry>
+           (Unidentified lady tells comic story)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           00:56:35
+          </entry>
+          <entry>
+           John Roberts (Brit living in the USA) sings "William Taylor" (Joseph Taylor version)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-70
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Various people sing and tell 
+                  stories at a social get-together at Riverview Orchards Rexford, New York (continuation of C742-69),
+       <date localtype="inclusive" normal="1998-01-18">
+        January 18, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-01-18" unitdatetype="inclusive">
+       January 18, 1998
+      </unitdate>
+     </did>
+     <odd>
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           01:02:10
+          </entry>
+          <entry>
+           Susan Trump sings "The Angel Gabriel" (accompanying herself on lap dulcimer)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:06:06
+          </entry>
+          <entry>
+           Vaughn Ward sings "Fourteen Ninety-Two" from Sara Cleveland repertoire. George Ward on guitar.
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:10:08
+          </entry>
+          <entry>
+           Catherine Labier tells story of "The Singing Bones" (Traditional tale from her Champlain Valley French 
+                      Canadian background - folk tale of which there are European versions)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:15:57
+          </entry>
+          <entry>
+           Colleen Cleveland sings "Andrew Bergine"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:22:20
+          </entry>
+          <entry>
+           Kathleen Gill recites "Happy Birthday Mr. Moon"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:28:40
+          </entry>
+          <entry>
+           Jamie Cleveland sings "My Bonny Bon Boy" (Lord Randall)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:31:20
+          </entry>
+          <entry>
+           Al Bain sings "I'm my Own Grandpa"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:33:40
+          </entry>
+          <entry>
+           Al and Kathy Bain sing "The Eastbound Train Was Crowded"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:36:05
+          </entry>
+          <entry>
+           Vaughn Ward sings "Busk Busk Bonnie Lassie" (Bonny Glen Shee) (learned from Belle Stewart)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:38:56
+          </entry>
+          <entry>
+           Linda Crump tells another anecdote about her father
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:46:17
+          </entry>
+          <entry>
+           Catherine Labier tells story of how the bears got into Canada
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:53:65
+          </entry>
+          <entry>
+           Ruth Olmstead of Rexford sings her mother's version of "The Fox" (incomplete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:55:00
+          </entry>
+          <entry>
+           Colleen and Jamie sing "The Heilan' Man" written by Matt McGinn from whom George Ward learned it in 1969. Jamie and 
+                      Colleen learned it from George (George Vaughn sings last verse)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:58:33
+          </entry>
+          <entry>
+           Catherine Labier tells tale of Devil and the Mirror (learned from her great-grandfather 
+                      LaChappelle)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:59:32
+          </entry>
+          <entry>
+           Vaughn sings "Call In and Out the Windows" (remembered from her childhood in the 
+                      Southwest/traditional in Arkansas, Oklahoma, Eastern Texas)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-76
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       Jim Cleveland sings songs prompted by Sara Cleveland's 
+                  old copies of songs,
+       <date localtype="inclusive" normal="1998-02-15">
+        February 15, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-02-15" unitdatetype="inclusive">
+       February 15, 1998
+      </unitdate>
+     </did>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "Barbary Allen" (2 verses only)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Golden Vanity" but is not sure that he has the tune right
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "I am a Roving Rambler"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Jam on Gerry's Rock" (2 verses only)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Handsome Cabin Boy" (complete and unprompted)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Sons of Freedom" (3 verses only)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Little Joe the Wrangler" (complete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Little Mohee" (starts it by reading words, but it is not his version, so he then sings his version complete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Banks of Red Roses" (1 verse and a chorus)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-77
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       Jim Cleveland sings songs prompted by Sara Cleveland's 
+                  old copies of songs,
+       <date localtype="inclusive" normal="1998-02-15">
+        February 15, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-02-15" unitdatetype="inclusive">
+       February 15, 1998
+      </unitdate>
+     </did>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "The Old Oak Tree" (2 verses)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Bad Company" (verse and a half)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Fate of Floyd Collins" (2 verses)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "I'm Dying for Someone to Love Me" (complete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Foggy, Foggy Dew" (not the words he knows)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Loving Hannah" (2 verses)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Just as the Sun went Down" (1 verse and a chorus)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "I'll be All Smiles Tonight" (complete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "I am a Rover" (complete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Jack and Joe" (complete"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Yo ho ho and a Bottle of Rum"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim sings "Three Men They Went a-Hunting"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim tells tall tale of being chased by coyotes
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "What will the Birds Do, Mother, in the Spring" (complete)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-77
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Colleen Cleveland sings songs,
+       <date localtype="inclusive" normal="1998-02-16">
+        February 16, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-02-16" unitdatetype="inclusive">
+       February 16, 1998
+      </unitdate>
+     </did>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           Colleen sings "The Woodsman's Alphabet"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Before Daylight in the Morning"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Every Rose grows Merry in Time" (James joins in chorus)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "The Mines of Irvingdale"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen tells stories from her grandmother: "Catch it, Bottle it, Paint it Green" [bawdy]; "Tim and the Giant"; 
+                      "Shiver and Shake" (another Tim story); "Mick and Pat" (cantefable)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-76
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       Jim Cleveland and his daughter, 
+                  Colleen Cleveland, sing songs at the house of Mr. and Mrs. Cleveland, Brant Lake, New York,
+       <date localtype="inclusive" normal="1998-02-18">
+        February 18, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-02-18" unitdatetype="inclusive">
+       February 18, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Jim Cleveland (age 74) and his daughter Colleen Cleveland (age 37) sing songs. 
+                      Colleen's nephew James (age 17) also sings. Colleen learned her songs from her grandmother Sara Cleveland.
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           Colleen sings "Greenwood Sidie" (The Cruel Mother)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Andrew Bergine"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim sings "James MacDonald" (one false start)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim sings "The Handsome Cabin Boy" (forgets one verse, remembers it and completes the song - later he sang it straight through)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Rumsheidity" (bawdy)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Across the Blue Mountains" (verse 2 as in "High Germany")
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen sings "Come all you maidens"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim sings "A Gay Spanish Maid"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Colleen and Jamie sing "Mushadorrinanon" (Kerry Recruit)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Jim sings "The Butcher Boy" (last words missed)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-71
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Phyllis Marks sings songs 
+                  at her home in Glenville, West Virginia, with Helena Triplett,
+       <date localtype="inclusive" normal="1998-03-07">
+        March 7, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-03-07" unitdatetype="inclusive">
+       March 7, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Songs sung by Phyllis Marks (age 70), in the company of Helena Triplett of Elkins, West Virginia.
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "Baby Fingers" ("Scatter Seeds of Kindness")
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-72
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Phyllis Marks sings songs at her home in Glenville, West Virginia, 
+                  with Helena Triplett,
+       <date localtype="inclusive" normal="1998-03-07">
+        March 7, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-03-07" unitdatetype="inclusive">
+       March 7, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Songs sung by Phyllis Marks (age 70), in the company of Helena Triplett of Elkins, West Virginia.
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "Barbary Allan"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "One Morning in Spring" (The Nightingale) (dog sneezes in middle of verse, so she starts again!)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Lord Lovell"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "House Carpenter"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Birthday Party"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Cherry Tree Carol"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Palefaces"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Lady Eleanor" (Lord Thomas and Fair Eleanor)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Bluebell"(Goodbye, my Bluebell)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Bluebell" (parody of above)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Mister Danger Back"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "There Was a Lady Gay" (Marrowbones)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Johnny Sands" (2 lines)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Pearl O'Brian"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "House Carpenter" (again)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Bonny Sweet Bessy"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Molly Bender" (Molly Vaughan)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "I am a Poor Wayfaring Stranger"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Mary-Jane's Come Home" (comic monologue)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-73
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       Rita Emerson sings songs, in the company of of 
+                  Helena Triplett of Elkins, and Phyllis Marks of Glenville, West Virginia,
+       <date localtype="inclusive" normal="1998-03-21">
+        March 21, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-03-21" unitdatetype="inclusive">
+       March 21, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rita Emerson (age 90).
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "The Dying Nun"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Bow Reynard"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Lord Lovell" (Knock at door - she stops and starts again)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Pearl Bryan"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "It's a long way to Tipperary"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "(Comic story about Mike and Pat)"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "King William" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "In the County of Kerry" (3 Rogues of Linn)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Drowsy Sleepers"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Rose Connelly"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Jam on Garry's Rock"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "There Was an Old Woman"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "There Goes a Red Bird Through the Window" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Skip to My Lou" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Two Young Couples Went Skating Away" (play party game)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-74
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Rita Emerson sings songs, in the company of of Helena 
+                  Triplett of Elkins, and Phyllis Marks of Glenville, West Virginia,
+       <date localtype="inclusive" normal="1998-03-21">
+        March 21, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-03-21" unitdatetype="inclusive">
+       March 21, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rita Emerson (age 90).
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="1">
+        <thead>
+         <row>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           "Weevily Wheat" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Old Dusty Miller" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Phillis Marks sings "Old Dusty Miller"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Ropeman" (Hangman)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           (I [Gwilym Davies] then sing "Joe Maybe" into the mike from a book - West Virginia version of Widdiecombe Fair)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Erin's Green Shore" (incomplete)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Wexford Girl" (incomplete - then speaks some of the verses)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Jonathon Jonas Solomon Saul" (comic song about names)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Close Your Little Eyes" (lullaby she wrote for her son)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           Phillis [Marks] sings "The Gypsy's Warning"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Tramp"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Little Mohia"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Jack and Jo"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "Pig in the Parlour" (play party game)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           "The Preacher and the Bear" (goes on to tell story)
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="digital-id">
+       C742-74
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       Russell Lehew (age 84) of Mannington, West Virginia, sings 
+                  and plays harmonica tunes,
+       <date localtype="inclusive" normal="1998-03-22">
+        March 22, 1998
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1998-03-22" unitdatetype="inclusive">
+       March 22, 1998
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Russell Lahew of Mannington, West Virginia, sings and plays harmonica tunes Songs and harmonica tunes 
+                      recorded from Russell Lahew (age 84) of Mannington, West Virginia.
+      </p>
+     </scopecontent>
+     <odd>
+      <table>
+       <tgroup cols="2">
+        <thead>
+         <row>
+          <entry>
+           Time
+          </entry>
+          <entry>
+           Content
+          </entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>
+           01:02:04
+          </entry>
+          <entry>
+           "With his Overshoes on and his Leggings" (His Old Grey Beard)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:14:03
+          </entry>
+          <entry>
+           "Dandoo"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:07:52
+          </entry>
+          <entry>
+           "Mother the Queen of my Heart"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:10:37
+          </entry>
+          <entry>
+           "Mary went a-Fishing"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:31:41
+          </entry>
+          <entry>
+           "Ticklish Reuben"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:15:42
+          </entry>
+          <entry>
+           "Hand me Down my Walking Cane"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:18:03
+          </entry>
+          <entry>
+           "Four Nights Drunk" (2 verses only)"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:19:33
+          </entry>
+          <entry>
+           "Billy Boy"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:21:33
+          </entry>
+          <entry>
+           (Snake anecdotes)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:23:28
+          </entry>
+          <entry>
+           "Soldier, Soldier Won't you Marry Me"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:27:32
+          </entry>
+          <entry>
+           "Barbary Allan" (but can't remember much of it)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:28:23
+          </entry>
+          <entry>
+           "Rambling Gambler"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:30:00
+          </entry>
+          <entry>
+           "Floyd Collins" (1 verse only)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:32:08
+          </entry>
+          <entry>
+           "Wreck of the Old 97" (harmonica)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:33:25
+          </entry>
+          <entry>
+           "Redwing" (harmonica)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:34:03
+          </entry>
+          <entry>
+           sings "It's a Long Way to Tipperary" (chorus only)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:34:41
+          </entry>
+          <entry>
+           "Turkey in the Straw" (harmonica)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:35:33
+          </entry>
+          <entry>
+           "Golden Slippers" (harmonica)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:36:00
+          </entry>
+          <entry>
+           sings "Butcher Boy"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:38:39
+          </entry>
+          <entry>
+           "Meet me Tonight in the Moonlight"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:40:51
+          </entry>
+          <entry>
+           "Little Mohee"
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:43:01
+          </entry>
+          <entry>
+           (1 verse bawdy song)
+          </entry>
+         </row>
+         <row>
+          <entry>
+           01:43:17
+          </entry>
+          <entry>
+           "Old Dan Tucker"
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </odd>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

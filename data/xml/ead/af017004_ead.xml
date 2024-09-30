@@ -1,0 +1,5463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af017004" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af017004
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Luiz Heitor Corrêa de Azevedo collection on Latin American Folklore
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2005/008
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton, Brian Oliver, and Karina dos Santos
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <date calendar="gregorian" era="ce">
+     October 2006
+    </date>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Library of Congress
+     <lb>
+     </lb>
+     American Folklife Center
+     <lb>
+     </lb>
+     Archive of Folk Culture
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2006-10">
+     October 2006
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2011655401" show="new">
+       https://lccn.loc.gov/2011655401
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2017">
+     2017
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 2005/008
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Luiz Heitor Corrêa de Azevedo collection on Latin American folklore
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1904/1986">
+     1904-1986
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1940/1960">
+     1940-1960
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1904/1986" unitdatetype="inclusive">
+    1904-1986
+   </unitdate>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Bulk Dates" normal="1940/1960" unitdatetype="bulk">
+    1940-1960
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    174 published items
+   </physdesc>
+   <origination label="Creator">
+    <name source="lcnaf">
+     <part>
+      Azevedo, Luiz Heitor Corrêa de, collector.
+     </part>
+    </name>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="por">
+     Portuguese (majority)
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="fre">
+     French
+    </language>
+    <language encodinganalog="041" langcode="ger">
+     German
+    </language>
+    <descriptivenote>
+     <p>
+      Portuguese (majority), Spanish, English, French, and German
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collected publications pertaining to Latin American folklore and musical traditions from the library of Luiz Heitor Corrêa de Azevedo, Brazilian folklorist and musicologist.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20190602164807.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Almeida, Aluísio de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Almeida, Renato.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Alvarenga, Oneyda.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Amorim, José Pimentel de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Andrade, Mário de, 1893-1945.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Araújo, Alceu Maynard.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Aretz, Isabel.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Avila, Floriano Maya d'
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Azambuja, Darcy, 1901-1970.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Azevedo, Fernando Corrêa de.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Azevedo, Luiz Heitor Corrêa de
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bastos, Rafael José de Menezes.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bettencourt, Gastão de, 1894-1962.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bezerra, Eduardo
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Boglár, Lajos
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brandão, Geraldo.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brandão, Théo.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brasileiro, Francisco.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brăiloiu, Constantin, 1893-1958.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bécker, Zahara Zaffaroni
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Carneiro, Edison.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Carvalho Neto, Paulo de, 1923-2003.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cascudo, Luís da Câmara, 1898-1986.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Castro, Zaíde Maciel de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Coruja, Antônio Alvares Pereira, 1806-1889.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Côrtes, J. C. Paixão.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Echenique, Sylvio da Cunha.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Eduardo, Octavio de Costa, 1919-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ferreira, Ascenso, 1895-1965.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ferretti, Sérgio Figueiredo.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Geisel, Amália Lucy.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gomes, André da Silva, 1752-1844.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gonçalves, Martin.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Halmos, István.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Herrera, Ataliva, 1888-1953.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hessel, Lothar, 1915-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hornbostel, Erich Moritz von, 1877-1935.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lamas, Dulce Martins.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Laytano, Dante de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lessa, Luís Carlos Barbosa.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      León, Argeliers.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lima, Rossini Tavares de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Linares, María Teresa.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Machado, Propício da Silveira.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Magalhães, Basílio de, 1874-1957.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Martins, Saul.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Martínez Furé, Rogelio, 1937-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Melo, Veríssimo de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Mendoza, Vicente T., 1894-1964.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Miranda, Nicanor.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Mussolini, Gioconda.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Neves, Guilherme Santos.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Oliveira, Clovis de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pardo Tovar, Andrés, 1911-1972.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Parreira, Roberto.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pereira Salas, Eugenio, 1904-1979.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Piazza, Walter F. (Walter Fernando), 1925-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pimentel, Altimar de Alencar, 1936-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pinto, Alexina de Magalhães
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Plath, Oreste, 1907-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Querino, Manuel, 1851-1923.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ramón y Rivera, Luis Felipe, 1913-1994.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ribeiro, Darcy.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ribeiro, Luís da Silva, 1882-1955.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ribeiro, Maria de Lourdes Borges.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Schmidt, Carlos Borges.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Shaffer, Kay.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Silva, Alcionilio Bruzzi Alves da, 1901-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Silva, José Calasans Brandão da.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Siqueira, Baptista, 1906-1992.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Souza, Yvonildo de.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Spalding, Walter, 1901-1976.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Teixeira, Humberto.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Thiéblot, Marcel Jules, 1924-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Thompson, Stith, 1885-1976.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Aymara Indians.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blacks--Brazil--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Brazilian literature--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Brazilian poetry--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Carnival.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Christmas--Folklore--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Brazil--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Latin America--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Epiphany--Folklore--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk drama, Brazilian--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk literature--Latin America--20th century--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Bolivia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Brazil--20th century--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Chile.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Colombia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Latin America--20th century--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Venezuela.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk poetry--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Argentina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Brazil--20th century--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Brazil--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Chile.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Congresses--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Ecuador.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Paraguay.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Uruguay.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklorists--Latin America.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kamaiurá Indians--Rites and ceremonies.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Brazil--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Musical instruments--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Nambicuara Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Opaye Indians.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Proverbs--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Saints--Folklore--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Santeria--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tepehua Indians.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Traditional medicine--Brazil.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brazil--Ethnology.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brazil--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brazil--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Venezuela--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Articles.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Bibliographies.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Poems.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Luiz Heitor Corrêa de Azevedo (1905-1992) is recognized as the most significant Brazilian musicologist of the twentieth century. As a professor and composer, he taught at major French, Latin American, and American universities. Azevedo worked with the Department of Cultural Affairs within UNESCO, and served as Chief of the Cooperation Services with International Cultural Organizations. The International Music Council (IMC), a UNESCO supported global network of experts working in the field of music, made him a Member of Honour, and he was awarded the UNESCO/International Music Council Music Prize in 1977.
+   </p>
+   <p>
+    Azevedo's involvement in folk culture began in 1937, leading to a chair in National Folklore at Rio de Janeiro's National Institute of Music. In 1941, he visited Washington, D.C., as a guest of the Pan-American Union and returned to Brazil with recording equipment loaned to him by the Library of Congress. He undertook expeditions throughout Brazil to document the variety of Brazilian folk music. These collections of recordings are now part of the Archive of Folk Culture at the American Folklife Center. In 1997, some of the songs were released by Rykodisc as
+    <title>
+     <part>
+      L. H. Corrêa de Azevedo: Music of Ceará and Minas Gerais
+     </part>
+    </title>
+    in the Library of Congress Endangered Music series.
+   </p>
+   <p>
+    Source: Souto Maior, Mário.
+    <title>
+     <part>
+      Dicionário de Folcloristas Brasileiros
+     </part>
+    </title>
+    . Goiânia, 2000.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection contains publications pertaining to Latin American folklore and musical traditions collected by Luiz Heitor Corrêa de Azevedo, Brazilian folklorist and musicologist. The collection comprises monographs, articles, bibliographies, conference proceedings, and other publications about folk music, musical instruments, popular music, dance, folklore, food traditions, proverbs, children's folklore, traditional and folk medicine, local religious celebrations (including Christmas, Epiphany, and Easter) and devotions to various saints, Cuban santeria, Afro-Brazilian traditions, and anthropological studies of indigenous people of Brazil, among other topics. Most publications are about Brazil but some are about folk culture in Argentina, Bolivia, Chile, Colombia, Cuba, Ecuador, Mexico, Paraguay, Puerto Rico, Uruguay, and Venezuela. Many of the publications are dedicated to topics that appear in the Brazilian tradition of
+    <emph render="italic">
+     literatura de cordel
+    </emph>
+    . The items often contain marginal notes by Azevedo and inscriptions from the authors to Azevedo.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The publications have been arranged in alphabetical order by author. Each publication was then assigned a unique identifying number and contains a flag indicating that unique number. Many of the publications contain inscriptions from authors and marginal notes by Azevedo. All of the items with inscriptions are noted in the bibliography.
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Collection is open for reseach. To request materials, please contact the Folklife Reading Room at
+    <ref href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+    . Duplication of the collection materials may be governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    In 1999, the Library of Congress purchased a large collection of material from the widow of Luiz Heitor Corrêa de Azevedo, Violeta Corrêa de Azevedo. Most of the collection went to the Music Division but Iêda Siqueira Wiarda of the Hispanic Division facilitated the transfer of the material related to folk traditions to the American Folklife Center in August 2005, with the assistance of Michael Taft and Sarah Bradley Leighton.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Luiz Heitor Corrêa de Azevedo collection on Latin American folklore (AFC 2005/008), American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Materials
+   </head>
+   <p>
+    Related collections of audio recordings and a photograph album created by Luiz Heitor Corrêa de Azevedo and others are in the American Folklife Center, Library of Congress:  Luiz Heitor Corrêa de Azevedo and E. Nogueira França recordings from Goiânia, Brazil (AFC 1943/015); Luiz Heitor Corrêa de Azevedo and E. Nogueira França recordings from Ceará, Brazil (AFC 1945/008); Luiz Heitor Corrêa de Azevedo and E. Silva Novo collection of folksongs of Minas Gerais, Brazil (AFC 1948/002); and Luiz Heitor Corrêa de Azevedo photograph album (AFC 2017/046). Related papers, including correspondence, are in the Luiz Heitor Corrêa de Azevedo collection, Music Division, Library of Congress.
+   </p>
+  </relatedmaterial>
+  <dsc dsctype="combined">
+   <head>
+    CONTAINER LIST
+   </head>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/1
+     </container>
+     <unittitle encodinganalog="245$a">
+      Acuña, Australia.
+      <title>
+       <part>
+        Los Bailes Coloniales
+       </part>
+      </title>
+      . [Place of publication, publisher, and date of publication not identified]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <title>
+       <part>
+        Los Bailes Coloniales
+       </part>
+      </title>
+      is divided in three parts. The first part describes the dance that is connected to three short poems. The second part presents the poems
+      <title>
+       <part>
+        "El Aire"
+       </part>
+      </title>
+      ,
+      <title>
+       <part>
+        "La Resbalosa" o "Refalosa,"
+       </part>
+      </title>
+      and
+      <title>
+       <part>
+        "Cuando."
+       </part>
+      </title>
+      The last part contains the musical nototation for each poem.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/2
+     </container>
+     <unittitle encodinganalog="245$a">
+      Almeida, Aluísio de.
+      <title>
+       <part>
+        142 Histórias Brasileiras Colhidas em São Paulo
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura,
+      <date>
+       1951
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of folkloric narratives from São Paulo that won an award from the National Institution of Folklore in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/3
+     </container>
+     <unittitle encodinganalog="245$a">
+      Almeida, Renato.
+      <title>
+       <part>
+        A Influência da Música Negra no Brasil
+       </part>
+      </title>
+      . Junta Distrital do Porto, no date. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A brief study on the influence of African music in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/4
+     </container>
+     <unittitle encodinganalog="245$a">
+      Almeida, Renato.
+      <title>
+       <part>
+        Música e Dança Folclóricas
+       </part>
+      </title>
+      . Rio de Janeiro: Campanha de Defesa do Folclore Brasileiro,
+      <date>
+       1968
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1968
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This brief study describes some of the characteristics of folk music and dance in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/5
+     </container>
+     <unittitle encodinganalog="245$a">
+      Alvarenga, Oneyda.
+      <title>
+       <part>
+        "Cateretês do Sul de Minas Gerais."
+       </part>
+      </title>
+      Em Separata da Revista do Arquivo Municipal, vol 30. Book 1 part 1. São Paulo: Departamento de cultura,
+      <date>
+       1937
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1937
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This study illustrates the various elements of the cateretê in Minas Gerais, Brazil. Cateretê is a dance characterized by dancing without touching based on an old tradition of fathers not allowing their daughters to dance arm in arm with their partners.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/6
+     </container>
+     <unittitle encodinganalog="245$a">
+      Amorim, José Pimentel de.
+      <title>
+       <part>
+        Medicina Popular em Alagoas: Rezas e Benzeduras nas Doenças e Ensalmos Outros
+       </part>
+      </title>
+      .  São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Medicina Popular... identifies the curandeiros (healers) of the state of Alagoas, who act as shamans among the general population. In addition to a brief introduction to the curandeiro, the book describes the prayers and the natural medicines used to treat illnesses.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/7
+     </container>
+     <unittitle encodinganalog="245$a">
+      Andrade, Mário de.
+      <title>
+       <part>
+        Popular Music and Song in Brazil.
+       </part>
+      </title>
+      Rio de Janeiro: Ministry of State for Foreign Affairs of Brazil, Division of Intellectual Co-operation,
+      <date>
+       1936
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1936
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short study about the popular music and song of Brazil. It includes lists of institutions in Brazil and other countries that keep and preserve Brazilian music material. The study also includes a discography and bibliographies of the music of the indigenous communities of Brazil and of popular Brazilian music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/8
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard.
+      <title>
+       <part>
+        A Congada Nasceu em Roncesvales: Especial para a Revista do Arquivo Municipal
+       </part>
+      </title>
+      .  São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educacão e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .  [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Using the celebration that happens in the city of Nazaré Paulista as an example, Araújo describes the meaning of the music, characters, and movements involved in the congada, a religious rite performed on the street.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/9
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard.
+      <title>
+       <part>
+        Alguns Ritos Mágicos: "Abusões," Feitiçaria e Medicina Popular
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura,
+      <date>
+       1958
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation of popular beliefs, rituals, and natural medicines collected in São Luís do Paraitinga, a rural community in the state of São Paulo, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/10
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard. "Carreira de Cavalos em Itapetininga há cincoenta anos."
+      <title>
+       <part>
+        Sociologia: Separata de Revista
+       </part>
+      </title>
+      XI no. 4 (1949): 1-10.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An overview of the horse racing tradition throughout history with a focus on the old practice of racing in São Paulo (Itapetininga).
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/11
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard and Vicente Aricó Júnior.
+      <title>
+       <part>
+        Cem melodias folclóricas: Documentário musical nordestino
+       </part>
+      </title>
+      . São Paulo: Ricordi Brasileira,
+      <date>
+       1957
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1957
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This book is the musical documentation portion of an extensive sociological study that took place in the rural community of Piaçaburu in the state of Alagoas, Brazil. It contains a collection of folkloric melodies sung by the locals "during their happy and sad moments, and religious ceremonies."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/12
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard.
+      <title>
+       <part>
+        Ciclo agrícola: Calendário Religioso e Magias Ligadas à Plantação
+       </part>
+      </title>
+      . São Paulo: Departamento de Educação e Cultura,
+      <date>
+       1957
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1957
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This book introduces the fictitious rural community of Freguesia do Falcão located in São Paulo, Brazil.The author uses this fictional example to describe the traditional agricultural cycle and religious calendar.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/13
+     </container>
+     <unittitle encodinganalog="245$a">
+      Araújo, Alceu Maynard.
+      <title>
+       <part>
+        Folia de Reis de Cunha
+       </part>
+      </title>
+      . São Paulo,
+      <date>
+       1949
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1949
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Araújo describes the traditional custom of Folia de Reis in Cunha, São Paulo, Brazil, which starts on the night of December 24th, and is performed by a group of people who sing and play musical instruments to celebrate the birth of Jesus.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/14
+     </container>
+     <unittitle encodinganalog="245$a">
+      Aretz, Isabel. "Correlacion entre las flautas de pan venezolanas y las andinas de alta cultura."
+      <title>
+       <part>
+        Sobretiro del Boletin Indigenista Venezolano
+       </part>
+      </title>
+      6 (1958): 111-118.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Comparison of the flautas de pan (flutes) used by indigenous groups living in Venezuela with those flutes used in Andean music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/15
+     </container>
+     <unittitle encodinganalog="245$a">
+      Aretz de Ramón y Rivera, Isabel; Luis Felipe Ramón y Rivera.
+      <title>
+       <part>
+        Resumen de un estudio sobre las expresiones negras en el folklore musical y coreográfico de Venezuela
+       </part>
+      </title>
+      . Institutos de Antropologia e Historia y de Filologia "Andres Bello," Facultad de Humanidades y Educación: Universidad Central de Venezuela,
+      <date>
+       no date
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      no date
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the African influence on the folkloric music and dance of Venezuela.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/16
+     </container>
+     <unittitle encodinganalog="245$a">
+      Avila, Floriano Maya d'.
+      <title>
+       <part>
+        O meio ambiente na obra de Alcides Maya 18
+       </part>
+      </title>
+      . Comissão Gaúcha de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An overview of the work of Alcides Maya, a writer from Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/17
+     </container>
+     <unittitle encodinganalog="245$a">
+      Azambuja, Darcy.
+      <title>
+       <part>
+        Principais lendas folclóricas do Rio Grande do Sul
+       </part>
+      </title>
+      . Rio de Janeiro: Edição da Comissão Gaúcha de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A lecture given at the Catholic University of Rio Grande do Sul which starts with three definitions of folklore and then describes the main folk legends of the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/18
+     </container>
+     <unittitle encodinganalog="245$a">
+      Azevedo, Fernando Corrêa de. "Fandango do Paraná."
+      <title>
+       <part>
+        Cadernos de Folclore
+       </part>
+      </title>
+      23 (1981): 3-50.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A description of the Brazilian tradition of Fandango do Paraná, a celebration in which the fishermen living along the coast of the state of Paraná, Brazil, perform various regional dances. Among the many dances performed during the Fandango, the article describes some examples such as Anu, Xará-Grande and Xarazinho.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/19
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bahia (Brazil: State). Superintendência de Difusão Cultural da Secretaria de Educação.
+      <title>
+       <part>
+        Caderno de Folclore Bahiano
+       </part>
+      </title>
+      1 (1953): 1-42.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of songs from the state of Bahia, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/20
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bastos, Rafael José de Menezes.
+      <title>
+       <part>
+        O "Payemeramaraka" Kamayurá – Uma Contribuição à Etnografia do Xamanismo do Alto Xingu
+       </part>
+      </title>
+      . São Paulo: Universidade de São Paulo Faculdade de Filosofia, Letras e Ciências Humanas Departamento de Ciências Sociais (Área de Antropologia),
+      <date>
+       1984/1985
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1984/1985
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Bastos describes the steps of the Payemeramaraka ritual among the indigenous residents of the Alto Xingu, in the state of Mato Grosso, Brazil, called Kamayurá. In this ethnographic work, the Payemeramaraka tradition, its meaning to the Kamayurá community, as well as the vocabulary and music involved in this ritual are documented.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/21
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bécker, Zahara Zaffaroni.
+      <title>
+       <part>
+        Poesía folklórica infantil del Uruguay: Contribución
+       </part>
+      </title>
+      . Montevideo: Centro de Estudios Folklóricos del Uruguay,
+      <date>
+       1956
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1956
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of children’s folk verses in Uruguay, as recalled by the author. There are no informants or investigation dates identified.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/22
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bettencourt, Gastão de.
+      <title>
+       <part>
+        A Baía e o Seu Folclore: Relicário de Tradições Portuguesas
+       </part>
+      </title>
+      . Coimbra: Coimbra Editora,
+      <date>
+       1951
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A discussion of the folklore of the state of Bahia, Brazil, and the Portuguese and African heritage that influences the state's culture.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/23
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bettencourt, Gastão de.
+      <title>
+       <part>
+        A Inspiração folclórica na poesia brasileira
+       </part>
+      </title>
+      . Coimbra Editora,
+      <date>
+       1954
+      </date>
+      . [Copy 1 has a photograph on cover and an inscription.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1954
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      On the influence of folklore on Brazilian poetry.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/24
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bettencourt, Gastão de.
+      <title>
+       <part>
+        A Inspiração folclórica na poesia brasileira
+       </part>
+      </title>
+      . Coimbra Editora,
+      <date>
+       1954
+      </date>
+      . [Copy 2 has blue cover and an inscription.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1954
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      On the influence of folklore on Brazilian poetry.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/25
+     </container>
+     <unittitle encodinganalog="245$a">
+      Bezerra, Eduardo.
+      <title>
+       <part>
+        Irmandade da cruz dos militares: Seus oragos, suas crises
+       </part>
+      </title>
+      . Rio de Janeiro,
+      <date>
+       1927
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1927
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <title>
+       <part>
+        Irmandade da Cruz dos Militares
+       </part>
+      </title>
+      was a military league founded in the seventeenth century after a small church was built on the coast of Rio de Janeiro as a symbol of this brotherhood. This book describes the six oragos, or saints, of the Cruz church and documents the league’s involvement in the historical changes of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/26
+     </container>
+     <unittitle encodinganalog="245$a">
+      Biblioteca Nacional (Brazil).
+      <title>
+       <part>
+        Catálogo de Livros sôbre Folclore Brasileiro
+       </part>
+      </title>
+      . Rio de Janeiro: Ministério da Educação e Cultura,
+      <date>
+       1957
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1957
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Catalog of books about Brazilian folklore that were exhibited during the celebration of the tenth anniversary of the National Folklorists Association.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/27
+     </container>
+     <unittitle encodinganalog="245$a">
+      Boglár, Lajos and István Halmos. "La Flûte Nasale Chez Les Indiens Nambicuara."
+      <title>
+       <part>
+        Acta Ethnographica Academiae Scientiarum Hungaricae
+       </part>
+      </title>
+      11 (1962): 437-446. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An essay about the construction, use, and music of the nasal flute used by the Nhambiquara or Nambicuara Indians from the Amazon Valley of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      1/28
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brailoiu, Constantin. "Le Folklore Musical."
+      <title>
+       <part>
+        Musica Aeterna II
+       </part>
+      </title>
+      (no date): 277-332. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Brailoiu discusses the concept of "musical folklore" and provides an analysis of songs with variants in other languages and cultures.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/29
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brandão, Geraldo.
+      <title>
+       <part>
+        Mogi das Cruzes: Monografia Folclórica
+       </part>
+      </title>
+      . São Paulo:  Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Research study conducted in Mogi das Cruzes, São Paulo. The city experienced an intense transformation and growth during the 1950s, and many traditions were lost. The author focused his work on the description of what was left of the Alvorada do Divino celebration.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/30
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brandão, Geraldo.
+      <title>
+       <part>
+        Notas sôbre a dança de São Gonçalo do Amarante
+       </part>
+      </title>
+      . [No other publication information found on this material.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication is a collection of mostly oral traiditions related to the cult of Saint Gonçalo. According to the author, the lack of written material sent him to different places such as Portugal and the southern state of Paraná, Brazil; includes a biography of Saint Gonçalo.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/31
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brandão, Théo. "Cavalhadas de Alagoas." Cadernos de Folclore 24 (no date): 3-43.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Cavalhadas de Alagoas is one of the oldest celebrations in the northeast of Brazil. Twelve horsemen perform the four parts of the celebration including a visit to the town's church, horse racing, equestrian demonstrations, and retreat.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/32
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brasileiro, Francisco.
+      <title>
+       <part>
+        Monografia folclórica sôbre o Rio das Garças
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura, 1951. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of the legends and myths of the garimpeiros, illegal gold miners living in the region of the River das Garças in the state of Mato Grosso, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/33
+     </container>
+     <unittitle encodinganalog="245$a">
+      Brazil. Secretaria de Cultura, Esportes e Turismo. Folclore de São Paulo, Brasil. São Paulo, Brasil: Secretaria de Cultura, Esportes e Turismo,
+      <date>
+       1969
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1969
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A brief description of different folklore expressions in the state of São Paulo, Brazil, divided into popular celebrations, traditional and popular dances, and art.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/34
+     </container>
+     <unittitle encodinganalog="245$a">
+      Campanha de Defesa do Folclore Brasileiro.
+      <title>
+       <part>
+        Defesa do folklore
+       </part>
+      </title>
+      . Rio de Janeiro,
+      <date>
+       1961
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1961
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Defesa do Folclore details the campaign of a national group of folklorists in Brazil to preserve the country’s folklore with the government's financial help.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/35
+     </container>
+     <unittitle encodinganalog="245$a">
+      Canta Brasil: Humberto Teixeira. Supp. 10 (no date): 3-47.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Humberto Teixeira was a famous composer who promoted the musical rhythms of northeastern Brazil, especially the Baião. This publication provides an overview of Teixeira's life and his music through pictures and lyrics.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/36
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Cursos de extensión: Curso de folklore general y del Brasil
+       </part>
+      </title>
+      . Copy 1. Brasileño: Instituto de cultura uruguayo,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short description of a course being taught on folklore of Brazil offered by the Cultural Institute Uruguay-Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/37
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Cursos de extensión: Curso de folklore general y del Brasil
+       </part>
+      </title>
+      . Copy 2. Brasileño: Instituto de cultura uruguayo,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short description of a course being taught on folklore of Brazil offered by the Cultural Institute Uruguay-Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/38
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Cursos de extensión: Curso de folklore general y del Brasil
+       </part>
+      </title>
+      . Copy 3. Brasileño: Instituto de cultura uruguayo,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short description of a course being taught on folklore of Brazil offered by the Cultural Institute Uruguay-Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/39
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de. Cursos de extensión:
+      <title>
+       <part>
+        Curso de folklore general y del Brasil
+       </part>
+      </title>
+      . Copy 4. Brasileño: Instituto de cultura uruguayo,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short description of a course being taught on folklore of Brazil offered by the Cultural Institute Uruguay-Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/40
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Diccionário del folklore ecuatoriano: Tratado del folklore ecuatoriano – I
+       </part>
+      </title>
+      . Quito: Editoral casa de la cultura ecuatoriana,
+      <date>
+       1964
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1964
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A dictionary of vocabulary of the folklore of Ecuador.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/41
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de. "El Problema del Folklore del Indio."
+      <title>
+       <part>
+        América Indígena
+       </part>
+      </title>
+      XIII no.3 (1953): 175-186. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Discusses issues related to "Indian folklore."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/42
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Folklore floridense: Contribucion
+       </part>
+      </title>
+      . Lima,
+      <date>
+       1957
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1957
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation oral traditions such as tongue twisters and popular games from the city of Florida in Uruguay. It also describes the traditional party of
+      <emph render="italic">
+       San Cono
+      </emph>
+      , celebrated in the same region.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/43
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Folklore minuano: Contribución
+       </part>
+      </title>
+      . Florianópolis: Comissão Catarinense de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <title>
+       <part>
+        Folklore minuano
+       </part>
+      </title>
+      relates to the traditions of the people of Minas in Uruguay. This publication illustrates the poetic, narrative, magic, and social traditions of the region.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/44
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carvalho Neto, Paulo de.
+      <title>
+       <part>
+        Técnica de Investigación Folklórica (Experiencias del Paraguay)
+       </part>
+      </title>
+      . Montevideo: El Siglo Ilustrado,
+      <date>
+       1956
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1956
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Techniques used in fieldwork in Paraguay.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/45
+     </container>
+     <unittitle encodinganalog="245$a">
+      Carneiro, Edison.
+      <title>
+       <part>
+        Folguedos tradicionais
+       </part>
+      </title>
+      . Rio de Janeiro: Conquista,
+      <date>
+       1974
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1974
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Carneiro gives a general picture of various expressions of Brazilian folklore. He describes traditional celebrations, dances, such as Batuque in Africa, and Samba in Brazil, the evolution of dances and musical instruments, and the samba-schools and carnival in Rio de Janeiro and Bahia.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/46
+     </container>
+     <unittitle encodinganalog="245$a">
+      Cascudo, Luis da Câmara.
+      <title>
+       <part>
+        Prelúdio da cachaça: Etnografia, História e Sociologia da aguardente no Brasil
+       </part>
+      </title>
+      . Belo Horizonte: Editora Itatiaia,
+      <date>
+       1986
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1986
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An ethnographic, historical, and sociological study about cachaça, Brazilian liquor made from sugarcane juice.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/47
+     </container>
+     <unittitle encodinganalog="245$a">
+      Cascudo, Luis da Câmara.
+      <title>
+       <part>
+        Tradición de un cuento brasileño
+       </part>
+      </title>
+      . Caracas,
+      <date>
+       1952
+      </date>
+      . [Inscribed on cover.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1952
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of a traditional Brazilian tale called "Persuasion." It comments on the origin of the story and includes examples of other versions of "Persuasion."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/48
+     </container>
+     <unittitle encodinganalog="245$a">
+      Castro, Enio de Freitas e.
+      <title>
+       <part>
+        As cavalhadas de Vacaria
+       </part>
+      </title>
+      . Pôrto Alegre: Impr. Oficial,
+      <date>
+       1954
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1954
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This monograph published during the National Convention of Folklore in 1954, describes a tradition called cavalhadas, which is a type of equestrian competition. This study shows the variation of cavalhadas in the states of Rio Grande do Sul and Paraná.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/49
+     </container>
+     <unittitle encodinganalog="245$a">
+      Castro, Zaíde Maciel de e Aracy do Prado Couto.
+      <title>
+       <part>
+        Folias de Reis
+       </part>
+      </title>
+      . São Paulo: Prefeitura do Município de São Paulo Secretaria de Educação e Cultura Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This overview of
+      <emph render="italic">
+       Folia de Reis
+      </emph>
+      was collected in two different areas of Rio de Janeiro, Caxias and Nova Iguaçu. The publication connects the past cultural exchange of these areas with the Distrito Federal region in Brazil, and describes the people involved in the
+      <emph render="italic">
+       Folia de Reis
+      </emph>
+      , the tradition itself, and some literature that inspired this performance.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/50
+     </container>
+     <unittitle encodinganalog="245$a">
+      Castro, Zaíde Maciel de e Aracy do Prado Couto. "Folias de Reis."
+      <title>
+       <part>
+        Cadernos de Folclore
+       </part>
+      </title>
+      16 (no date): 3-22.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This study focuses on twelve different
+      <emph render="italic">
+       Folia de Reis
+      </emph>
+      groups in Rio de Janeiro, who celebrate Christmas and the Epiphany between December 24 and January 6.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      2/51
+     </container>
+     <unittitle encodinganalog="245$a">
+      Castro, Zaíde Maciel de e Aracy do Prado Couto. "Folias de Reis."
+      <title>
+       <part>
+        Cadernos de Folclore
+       </part>
+      </title>
+      16 (1961): 7-82.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the tradition of
+      <emph render="italic">
+       Folia de Reis
+      </emph>
+      in Rio de Janeiro, Brazil, and the population's enactment of the trip made by the Three Kings to visit the infant Jesus in Bethlehem.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/52
+     </container>
+     <unittitle encodinganalog="245$a">
+      Centro de Pesquisas Folclóricas.
+      <title>
+       <part>
+        A Escola Nacional de Música e as pesquisas de folklore musical no Brasil
+       </part>
+      </title>
+      . Rio de Janeiro: Universidade do Brasil,
+      <date>
+       1943
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1943
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A description of the plans of the School of Music in Rio de Janeiro to investigate Brazilian popular music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/53
+     </container>
+     <unittitle encodinganalog="245$a">
+      Chiarini, João.
+      <title>
+       <part>
+        Cururu
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura,
+      <date>
+       1947
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1947
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <emph render="italic">
+       Cururu
+      </emph>
+      is the name given to the dispute, or poetry combat between the people,
+      <emph render="italic">
+       curueiros
+      </emph>
+      , engaged in this repetitive oral tradition. This publication offers the background of
+      <emph render="italic">
+       Cururu
+      </emph>
+      , discusses the vocabulary used in these disputes, presents pictures, and provides short biographies of some
+      <emph render="italic">
+       curueiros
+      </emph>
+      .
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/54
+     </container>
+     <unittitle encodinganalog="245$a">
+      Círculo Folclórico Luso Brasileiro do Liceu Literário Português. Rio de Janeiro: Liceu Literário Português,
+      <date>
+       1951
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This booklet celebrates the foundation of the association formed by Portuguese and Brazilian folklorists. It describes the purpose of the group, the plan to create a museum of folklore, as well as examples of folk tales and legends of both countries.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/55
+     </container>
+     <unittitle encodinganalog="245$a">
+      Colóquio Internacional de Estudos Luso-Brasileiros.
+      <title>
+       <part>
+        Uma festa de Xangô no Opô Afonjá
+       </part>
+      </title>
+      . Bahia: Universidade da Bahia,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A publication that was distributed to the participants of the Fourth International Convention of Portuguese and Brazilian Studies. It includes a brief description of the African-based religious practices in Bahia, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/56
+     </container>
+     <unittitle encodinganalog="245$a">
+      Comissão Nacional de Folclore.
+      <title>
+       <part>
+        II Semana Nacional de Folclore, 16 a 22 de agosto de 1949, São Paulo
+       </part>
+      </title>
+      . Meeting: Semana Nacional de Folclóre, 2d, São Paulo, Brazil,
+      <date>
+       1949
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1949
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A program of events from the "Second National Week" celebrating Brazilian folklore. Besides the list of activities, the program provides a brief summary of marujada and moçambique, two traditional dances of Portuguese and African origin, respectively.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/57
+     </container>
+     <unittitle encodinganalog="245$a">
+      Congresso Brasileiro de Folclore.
+      <title>
+       <part>
+        Anais [do] 1o Congresso brasileiro de folclore, Rio de Janeiro, de 22 a 31 de Agôsto de 1951
+       </part>
+      </title>
+      . Rio de Janeiro: Ministério das Relações Exteriores, Serviço de publicações,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A program of the events, lectures, and participants of the First Brazilian Congress of Folklore.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/58
+     </container>
+     <unittitle encodinganalog="245$a">
+      Conservatório Brasileiro de Música.
+      <title>
+       <part>
+        A Influência do Folclóre na Música Erudita
+       </part>
+      </title>
+      . Rio de Janeiro,
+      <date>
+       1951
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the influence of folklore on the classical music of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/59
+     </container>
+     <unittitle encodinganalog="245$a">
+      Conservatório Dramático e Musical de São Paulo.
+      <title>
+       <part>
+        Folclore Nacional: Referências sôbre fatos folclóricos de interêsse musical apresentadas em trabalhos realizados durante o ano de 1946
+       </part>
+      </title>
+      . São Paulo,
+      <date>
+       1947
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1947
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of traditional music and dances from different areas of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/60
+     </container>
+     <unittitle encodinganalog="245$a">
+      Conservatório Dramático e Musical de S. Paulo.
+      <title>
+       <part>
+        Folclore Nacional: Resultado de um inquérito sôbre mitos do Estado de São Paulo, realizado em setembro e outubro de 1947 – Duas congadas de S. Paulo e uma de Minas Gerais – "(Festa do Santo Rei," de Minas Gerais)
+       </part>
+      </title>
+      . São Paulo,
+      <date>
+       1948
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1948
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of legends, myths, and traditional dance festivities from the states of São Paulo and Minas Gerais in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/61
+     </container>
+     <unittitle encodinganalog="245$a">
+      Correa, Roberto Nunes.
+      <title>
+       <part>
+        Viola Caipira
+       </part>
+      </title>
+      . Brasília: MusiMed,
+      <date>
+       1983
+      </date>
+      . [Inscribed.]
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      According to the author, the main objective of this publication is to register as much information as possible about the viola caipira, a bowed stringed instrument that is slightly larger than a violin. The book has information about the origin of the viola, its characteristics, and some sheet music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/62
+     </container>
+     <unittitle encodinganalog="245$a">
+      Corrêa, Waldemar (Dino Desidério).
+      <title>
+       <part>
+        A Volta de Antônio Chimango. Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científíca e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 21 (1958): 13-28.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A political parody of an earlier publication titled Antonio Chimango by Ramiro Barcelos. This parody is considered part of the "traditional gaúcho movement" from Rio Grande do Sul and it was published during the 100th anniversary of the Farroupilha War in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/63
+     </container>
+     <unittitle encodinganalog="245$a">
+      Côrtes, J.C. Paixão e Luís Carlos Barbosa Lessa.
+      <title>
+       <part>
+        Manual de danças gaúchas
+       </part>
+      </title>
+      . Pôrto Alegre,
+      <date>
+       1956
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1956
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of extensive research conducted in 62 counties of Rio Grande do Sul, Brazil. The study is limited to the most typical and characteristic dances found in these areas.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/64
+     </container>
+     <unittitle encodinganalog="245$a">
+      Echenique, Sylvio da Cunha. Bruaca:
+      <title>
+       <part>
+        Coletanea de provérbios regionalistas
+       </part>
+      </title>
+      17. Comissão Gaúcha de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of regional proverbs from the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/65
+     </container>
+     <unittitle encodinganalog="245$a">
+      Eduardo, Otávio da Costa.
+      <title>
+       <part>
+        Aspectos do folclore de uma comunidade rural
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura,
+      <date>
+       1951
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Eduardo collected short stories with African roots from people living in the rural areas of Brazil. His book analyzes the tribal origins of these short stories, the reason they were preserved, and the modifications that happened after they arrived in Brazil. He compares this material with Afro-Brazilian folklore in other areas of the country.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/66
+     </container>
+     <unittitle encodinganalog="245$a">
+      <title>
+       <part>
+        Escola Nacional de Música, Classe de Folclore Nacional, Textos musicais para exemplificação: Melodias de Indios do Brasil (extraidas da "Rondônia" de Roquette-Pinto), I-II
+       </part>
+      </title>
+      . Prepared for Escola Nacional de Música.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of musical scores of Brazilian songs that were used in a folk music class at the National Music School in Rio de Janeiro, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/67
+     </container>
+     <unittitle encodinganalog="245$a">
+      <title>
+       <part>
+        Escola Nacional de Música, Classe de Folclore Nacional, Exemplos musicais: Fados Portugueses, II
+       </part>
+      </title>
+      . Prepared for Escola Nacional de Música.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of musical scores of Portuguese fados, such as Canção Joanina, Fado da Madrugada, and Fado Visconti, used in a folklore music class at the National Music School in Rio de Janeiro, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/68
+     </container>
+     <unittitle encodinganalog="245$a">
+      <title>
+       <part>
+        Escola Nacional de Música, Classe de Folclore Nacional, Textos musicais para exemplificação: Melodias Africanas, III
+       </part>
+      </title>
+      . Prepared for Escola Nacional de Música
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Scores for a group of African melodies such as
+      <title>
+       <part>
+        Canto de remadores (Costa dos Escravos)
+       </part>
+      </title>
+      , used in a folklore music class at the National Music School in Rio de Janeiro, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/69
+     </container>
+     <unittitle encodinganalog="245$a">
+      <title>
+       <part>
+        Escola Nacional de Música, Classe de Folclore Nacional, Textos musicais para exemplificação: Melodias recolhidas por Mário de Andrade (Ensaio sobre a Música Brasileira), IV
+       </part>
+      </title>
+      . Prepared for Escola Nacional de Música.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Musical scores of selections of regional melodies from various parts of Brazil collected by Mário de Andrade.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/70
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ferreira, Ascenço. "O Maracatú."
+      <title>
+       <part>
+        Arquivos
+       </part>
+      </title>
+      2 (1942): 1-22.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication describes the tradition of
+      <emph render="italic">
+       Maracatú
+      </emph>
+      in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/71
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ferretti, Sérgio, Valdelino Cécio, Joila Moraes, e Roldão Lima. "Tambor de Crioula."
+      <title>
+       <part>
+        Cadernos de Folclore
+       </part>
+      </title>
+      31 (1981): 3-59.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the tradition of
+      <emph render="italic">
+       Tambor de Crioula
+      </emph>
+      in the state of Maranhão, Brazil, which is characterized by a dance with African roots that praises Saint Benedito, known as the "black saint."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/72
+     </container>
+     <unittitle encodinganalog="245$a">
+      Fondo Nacional de las Artes. (Argentina).
+      <title>
+       <part>
+        Dia Mundial del Folklore
+       </part>
+      </title>
+      ,
+      <date>
+       1965
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1965
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A program listing the main events of the Second Folklore World Day held in Corrientes, Argentina.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/73
+     </container>
+     <unittitle encodinganalog="245$a">
+      Freitas, Luiz G. Gomes de. "Antigos Jogos Desportivos da Campanha."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científíca e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 10 (1957): 12-19.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This essay discusses the various traditional games played in the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/74
+     </container>
+     <unittitle encodinganalog="245$a">
+      Freitas, Luiz G. Gomes de. "Estâncias Antigas Veículos de Carga Cânhamo e Linho."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científíca e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 3 (1954): 41-85. [Inscribed on cover.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the folkloric significance of the old farming estates in the state of Rio Grande do Sul, Brazil. The author focuses on the different means of transport and the history of the linen industry.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/75
+     </container>
+     <unittitle encodinganalog="245$a">
+      Geisel, Amália Lucy; Raul Giovanni da Motta; Maia Isa; Fundação Nacional de Arte (Brazil).
+      <title>
+       <part>
+        Artesanato brasileiro. Rendas
+       </part>
+      </title>
+      . Rio de Janeiro: Edição FUNARTE,
+      <date>
+       1981
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1981
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A photographic study of the materials and techniques used by textile artisans.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      3/76
+     </container>
+     <unittitle encodinganalog="245$a">
+      Gonçalves, Martin. "Théâtre et Danses populaires du Brésil." La Danse: Revue Mensuelle Internationale 29 (1957): 19-26.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Description of the work of the Théâtre et Danses populaires du Brésil in preserving and documenting traditional Brazilian dances, with photographs of performances.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/77
+     </container>
+     <unittitle encodinganalog="245$a">
+      Halmos, I.
+      <title>
+       <part>
+        Melody and form in the music of the Nambicuara Indians (Mato Grosso, Brazil)
+       </part>
+      </title>
+      . Budapest,
+      <date>
+       1964
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1964
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the Nambicuara Indians by I. Halmos, which is based on the collection of Lajos Boglár, a Brazilian anthropologist, who visited the Nambicuara Indians in 1959.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/78
+     </container>
+     <unittitle encodinganalog="245$a">
+      Harcourt, Marguerite Béclard d'; Harcourt, Raoul d'.
+      <title>
+       <part>
+        La musique des Aymara sur les hauts plateaux boliviens
+       </part>
+      </title>
+      . Paris: Musée de L'homme,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      On the music, instruments, dances, and musicians of the Aymara Indians from the high plains of Bolivia.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/79
+     </container>
+     <unittitle encodinganalog="245$a">
+      Herrera, Ataliva.
+      <title>
+       <part>
+        Folklore y nativismo en la enseñanza primaria: Resolución del Consejo Nacional de Educación creando la Comision de Folklore y Nativismo
+       </part>
+      </title>
+      . República Argentina: Consejo Nacional de Educación,
+      <date>
+       1945
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1945
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      In this essay, Herrera emphasizes the importance of expanding the population's knowledge about folklore in Argentina, especially during the early school grades.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/80
+     </container>
+     <unittitle encodinganalog="245$a">
+      Hessel, Lothar.
+      <title>
+       <part>
+        Antenor Moraes: Escritor regionalista do Rio Grande do Sul
+       </part>
+      </title>
+      . Comissão Gaúcha de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A brief introduction of the writer Antenor Moraes, poet and social leader from Rio Grande do Sul, Brazil, with a short memoir written by Moraes himself.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/81
+     </container>
+     <unittitle encodinganalog="245$a">
+      Hornbostel, Erich Moritz von.
+      <title>
+       <part>
+        La musica de los Makuschí, Taulipáng y Yekuana
+       </part>
+      </title>
+      . Venezuela: Universidad Central de Venezuela, Facultad de Humanidades y Educación, no date. [Inscribed on the cover.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short study about the music and musical instruments from northern Brazil and Venezuela that were influenced by these three indigenous groups living in the region of the River Ventuari.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/82
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto Brasileiro de Educação Ciência e Cultura.
+      <title>
+       <part>
+        Correio do IBECC: Boletim Trimestral do Instituto Brasileiro de Educação, Ciência e Cultura
+       </part>
+      </title>
+      . 21 (1963): 1-31.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication summarizes the events of the fifth Brazilian Folklore Congress held in Fortaleza, Ceará in 1963.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/83
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto Brasileiro de Educação Ciência e Cultura.
+      <title>
+       <part>
+        Exposição de arte popular da semana folclórica
+       </part>
+      </title>
+      ,
+      <date>
+       1948
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1948
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This pamphlet was distributed during the celebration of the Folkloric week in Rio de Janeiro in 1948. The publication contains an introduction emphasizing the importance of preserving the country's traditions, illustrations of folkloric expressions, and includes a brief article discussing the word "folklore."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/84
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto Brasileiro de Geografia e Estatística, Departamento Estadual de Estatística.
+      <title>
+       <part>
+        O Boi de Mamão no Folclore Catarinense
+       </part>
+      </title>
+      . Série C (1949): 1-30.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <emph render="italic">
+       Boi de Mamão
+      </emph>
+      is a folkloric tradition in Brazil characterized by the visit and dance of a wood framed ox covered with fabric.
+      <emph render="italic">
+       Boi de Mamão
+      </emph>
+      is the name given in the state of Santa Catarina to the northeast tradition of
+      <emph render="italic">
+       bumba-meu-boi
+      </emph>
+      , also knowm in Paraná as boi-bumbá.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/85
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "Danza de la Candelaria."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      87 (Abril de 1958): 5-23.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Description of all aspects of this Venezuelan dance: the body movements, the music, the characters, and the ten movements in which the dance is divided.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/86
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "El Carite."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      81 (Febrero de 1956): 3-20.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <emph render="italic">
+       El Carite
+      </emph>
+      describes the ritual performance of fishing in Venezuela, including the lyrics, dances, and drawings of the costumes associated with this performance.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/87
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "El Mampulorio."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      84 (Diciembre de 1956): 3-14.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <emph render="italic">
+       El Mampulorio
+      </emph>
+      describes a game with music and dance that was performed by the general population in Venezuela after the death of a child. As a result of its endearing music and dance, the "El Mampulorio" tradition was transferred to schools. The book describes the lyrics, choreography, and characters involved in this practice.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/88
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "El Maremare."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      85 (Junio de 1957): 3-18.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Describes the choreography, music, and clothing related to the performance of
+      <emph render="italic">
+       el maremare
+      </emph>
+      in Venezuela. This practice originated from indigenous groups in Venezuela and was adopted by the general population.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/89
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "El Pájaro Guarandol."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      77 (Junio de 1955): 3-24.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Describes the elements involved in this traditional Venezuelan dance.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/90
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "La Burriquita."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      19 (Octubre de 1955): 5-23.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Describes the songs, body movements, and costumes used during this form of performance in Venezuela.
+      <emph render="italic">
+       La Burriquita
+      </emph>
+      has its origins in Europe, and it is performed mostly in carnivals and during Christmas.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/91
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "Los Chimichimitos." Revista Educación 82 (Abril de 1956): 5-19.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Describes the music, dance, and characters involved in this popular children's tradition of Venezuela.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/92
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto de Folklore (Venezuela). "Semejanza de los Pastores."
+      <title>
+       <part>
+        Revista Educación
+       </part>
+      </title>
+      91 (Noviembre de 1960): 3-34.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Describes
+      <emph render="italic">
+       Semejanza de los Pastores
+      </emph>
+      or
+      <emph render="italic">
+       Pastores de San Joaquín
+      </emph>
+      , a representation that happens in some areas in the state of Carabobo, Venezuela, to honor the birth of Jesus on the night of December 24.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/93
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto Interamericano de Etnomusicología y Folklore.
+      <title>
+       <part>
+        Biblioteca INIDEF
+       </part>
+      </title>
+      . Caracas, Venezuela. 1-8.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication introduces the Inter-American Institute of Ethnomusicology and Folklore in Venezuela. It describes the archives of the institution as well as its educational activities and publications.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/94
+     </container>
+     <unittitle encodinganalog="245$a">
+      Instituto Mexicano de Musicologia y Folklore.
+      <title>
+       <part>
+        Boletín Instituto Mexicano de Musicologia y Folklore
+       </part>
+      </title>
+      1 (1940): 1-72.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      The Mexican Institute of Musicology and Folklore presents articles about Mexican traditions such as music, a calendar listing the national celebrations, and literature.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/95
+     </container>
+     <unittitle encodinganalog="245$a">
+      Junqueira, Oswaldo Gomes. "A Farinhada."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científica e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 5 (1954): 271-273. [Inscribed on cover.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A brief description of
+      <emph render="italic">
+       Farinhada
+      </emph>
+      , the production of manioc flour, which takes place in the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/96
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lamas, Dulce Martins.
+      <title>
+       <part>
+        A Influência Portuguesa na Música Popular Brasileira
+       </part>
+      </title>
+      . Rio de Janeiro: Tese com que se apresenta Dulce Martins Lamas ao concurso de livre docência da cadeira de Folclore Musical, 1949. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Lamas examines the Portuguese influence on the popular music in Brazil with a focus on music from the rural regions of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/97
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lamas, Dulce Martins.
+      <title>
+       <part>
+        Contribuição de Portugal ao folclore musical brasileiro
+       </part>
+      </title>
+      . Rio de Janeiro: Jornal do Commercio – Rodrigues &amp; Cia, 1954. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Lamas writes about the Portuguese influence on the rhymes and lyrics found in Brazilian folklore.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/98
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lane, Frederico.
+      <title>
+       <part>
+        Armas e Técnicas de Briga nas Regiões Rurais de Sâo Paulo: (1. Prêmio no 6. Concurso de Mongrafias sôbre o Folclore Nacional, instituído em 1951 pela Discoteca Pública Municipal, do Departamento de Cultura, da Prefeitura do Município de São Paulo)
+       </part>
+      </title>
+      . São Paulo: Departamento de Cultura, 1958. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This monograph discusses the different weapons and techniques, including guns and knives, used by the rural population to protect themselves in fights.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/99
+     </container>
+     <unittitle encodinganalog="245$a">
+      Laytano, Dante de. "Lendas do Rio Grande do Sul"
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 9 (1956)
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Legends from Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/100
+     </container>
+     <unittitle encodinganalog="245$a">
+      Laytano, Dante de.
+      <title>
+       <part>
+        O Folclore do Rio Grande do Sul
+       </part>
+      </title>
+      . Pôrto Alegre, 1952. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short overview of folklore in the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/101
+     </container>
+     <unittitle encodinganalog="245$a">
+      Laytano, Dante de.
+      <title>
+       <part>
+        O Folclore do Rio Grande do Sul: Tradições Populares do Cíclo Agropastoril
+       </part>
+      </title>
+      . Pôrto Alegre, no date. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Focuses on the tradition of
+      <emph render="italic">
+       Pixuru
+      </emph>
+      that is practiced in the state of Rio Grande do Sul, Brazil, and entails the owner of a farm offering food to twenty of his friends and neighbors who in return spend the day planting crops in his farm.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/102
+     </container>
+     <unittitle encodinganalog="245$a">
+      Laytano, Dante de.
+      <title>
+       <part>
+        O Negro no Rio Grande do Sul: Separata de "Primeiro Seminário de Estudos Gaúchos
+       </part>
+      </title>
+      ."  Pôrto Alegre: Comissão Nacional de Folclore,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An in-depth study about the meaning of the Portuguese word
+      <emph render="italic">
+       negro
+      </emph>
+      used in Brazil to indicate the portion of the population with African roots. It also discusses whether this population existed in Rio Grande do Sul in the beginning of the exploration of the state.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/103
+     </container>
+     <unittitle encodinganalog="245$a">
+      León, Argeliers. "Elebwa: Una Divinidad de la Santería Cubana."
+      <title>
+       <part>
+        Abhandlungen und Berichte des Staatlichen Museums für Völkerkunde Dresden
+       </part>
+      </title>
+      21 (1962): 57-60.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A discussion of the role of the divine spirit, Elebwa, in the practice of
+      <emph render="italic">
+       santería
+      </emph>
+      . It also explains that
+      <emph render="italic">
+       santería
+      </emph>
+      is a pejorative term used to refer to the Afro-Cuban syncretic belief system that combines the beliefs of the West African Yoruba people with elements of worship from Roman Catholicism.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/104
+     </container>
+     <unittitle encodinganalog="245$a">
+      León, Argeliers.
+      <title>
+       <part>
+        El paso de elementos por nuestro folklore
+       </part>
+      </title>
+      . La Habana,
+      <date>
+       1952
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1952
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Elements of folklore that influenced the music in Cuba
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/105
+     </container>
+     <unittitle encodinganalog="245$a">
+      León, Argeliers.
+      <title>
+       <part>
+        El patrimonio folklórico musical cubano
+       </part>
+      </title>
+      . La Habana,
+      <date>
+       1952
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1952
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <title>
+       <part>
+        El patrimonio folklórico musical cubano
+       </part>
+      </title>
+      complements the publication
+      <title>
+       <part>
+        El paso de elementos por nuestro folklore
+       </part>
+      </title>
+      . According to the author of these materials, the book examines the roots and characteristics of musical expression in Cuban folklore.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/106
+     </container>
+     <unittitle encodinganalog="245$a">
+      León, Maria Teresa Linares de.
+      <title>
+       <part>
+        Ensayo sobre la influencia española en la musica cubana: Premio "Maria Teresa Garcia Montes de Giberga 1958
+       </part>
+      </title>
+      ." La Habana,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This brief essay discusses the Spanish influence on Cuban music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/107
+     </container>
+     <unittitle encodinganalog="245$a">
+      León, Maria Teresa Linares de.
+      <title>
+       <part>
+        Ensayo sobre la influencia africana en la musica de Cuba: Premio "Maria Teresa Garcia Montes de Giberga 1959
+       </part>
+      </title>
+      ." La Habana,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An essay on African influences on Cuban music since the colonization of the country.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/108
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lessa, Barbosa.
+      <title>
+       <part>
+        Índice do arquivo de danças brasileiras de Barbosa Lessa: 518 minutos de gravação em rotação 4.75 cm/seg
+       </part>
+      </title>
+      . São Paulo: Francisco Alves,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Index to sound recordings of Brazilian dance and music recorded by Barbosa Lessa.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/109
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lima, Rossini Tavares de.
+      <title>
+       <part>
+        Achegas ao estudo do romanceiro no Brasil
+       </part>
+      </title>
+      . São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico, 1959. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Analysis of ancient Iberian romances and Brazilian oral traditions collected by the author.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/110
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lima, Rossini Tavares de.
+      <title>
+       <part>
+        A malhação de Judas em São Paulo
+       </part>
+      </title>
+      . São Paulo, Prefeitura do Município de São Paulo, Secretaria de Educação, 1959. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A description of the tradition of beating and burning an effigy of Judas Iscariot. The practice of
+      <emph render="italic">
+       malhação de Judas
+      </emph>
+      occurs on the Holy Saturday of Holy Week, prior to Easter Sunday, and today it occurs mostly in the inner cities of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/111
+     </container>
+     <unittitle encodinganalog="245$a">
+      Lima, Rossini Tavares de.
+      <title>
+       <part>
+        Folguedos populares do Brasil: Maracatu, congada, moçambique, reisado, guerreiro, folia de reis, dança dos tapuios, cabocolinhos, caiapó, bumba-meu-boi e outros folguedos dos boi, chegança e fandango ou Marujada
+       </part>
+      </title>
+      . São Paulo: Ricordi,
+      <date>
+       1962
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1962
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documents a vast number of popular and traditional dances and celebrations from different areas of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      4/112
+     </container>
+     <unittitle encodinganalog="245$a">
+      Machado, Propício da Silveira.
+      <title>
+       <part>
+        Pereira Coruja: Vida e obra
+       </part>
+      </title>
+      16. Pôrto Alegre: Comissão Nacional Folclore do Instituto Brasileiro de Educação, Ciência e Cultura: Comissão Brasileira da Organização Educacional, Cientifica e Cultural das Nações Unidas, Unesco,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Conference proceedings honoring the life and work of Antônio Álvares Pereira Coruja, a politician, educator, and the author of the first regional vocabulary of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/113
+     </container>
+     <unittitle encodinganalog="245$a">
+      Magalhães, Basílio de, João da Silva Campos.
+      <title>
+       <part>
+        O folclore no Brasil: Com uma coletânea de 81 contos populares
+       </part>
+      </title>
+      . Rio de Janeiro: Imprensa Nacional,
+      <date>
+       1939
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1939
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of 81 popular short stories from the state of Bahia, with other aspects of the Brazilian folklore, such as the Native Indian and African contributions to the traditions of the country.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/114
+     </container>
+     <unittitle encodinganalog="245$a">
+      Martínez Furé, Rogelio.
+      <title>
+       <part>
+        Conjunto folklórico nacional
+       </part>
+      </title>
+      . La Habana: Consejo Nacional de Cultura, 1963. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of the musical and traditional manifestations of Cuban folklore. With a vast number of pictures, the book also includes short biographies of the people who were interviewed during the study.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/115
+     </container>
+     <unittitle encodinganalog="245$a">
+      Martins, Saul.
+      <title>
+       <part>
+        Artes e ofícios caseiros
+       </part>
+      </title>
+      . São Paulo: Prefeitura,
+      <date>
+       1959.
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959.
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication presents the diverse artwork created by the general Brazilian population inside their homes. Some of the examples are pottery, baked goods, baskets, and sewing. There is a vocabulary list in the book related to these traditions as well.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/116
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mélo, Veríssmo de.
+      <title>
+       <part>
+        Acalantos
+       </part>
+      </title>
+      . Edição da Revista, no date. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      The word
+      <emph render="italic">
+       acalanto
+      </emph>
+      refers to the act of cuddling and singing for a child while he/she falls asleep. This publication is a short compilation of these traditional songs and lullabies from Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/117
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mélo, Veríssmo de.
+      <title>
+       <part>
+        Superstições de São João
+       </part>
+      </title>
+      . Natal: Bando, 1949. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      One of a series of short studies on the folklore of the state of Rio Grande do Norte. This publication details the popular beliefs that are involved in the traditional celebration of São João, Saint John.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/118
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mello, Moraes.
+      <title>
+       <part>
+        Artistas do meu tempo: Seguidos de um estudo sobre Laurindo Rabello
+       </part>
+      </title>
+      . Rio de Janeiro: H. Garnier,  [Inscribed.]
+      <date>
+       1904
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1904
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Features some of the distinguished artists of 1904. The publication also gives detailed information about Laurindo Rabello, a writer and poet from Rio de Janeiro.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/119
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mendes, Eunice Evanira Pereira.
+      <title>
+       <part>
+        Contribuição para o estudo da modinha
+       </part>
+      </title>
+      . São Paulo: Prefeitura do Município de São Paulo, Divisão do Arquivo Histórico, 1959. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Origins and examples of
+      <emph render="italic">
+       modinha
+      </emph>
+      , popular songs in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/120
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mendoza, Vicente T.
+      <title>
+       <part>
+        El Folklore en Mexico: 1946-1949
+       </part>
+      </title>
+      . México,
+      <date>
+       1950
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1950
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short overview of the various initiatives and publications that were created to preserve and collect Mexican folklore between 1946 and 1949.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/121
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mendoza, Vicente T.
+      <title>
+       <part>
+        La música tradicional española en México
+       </part>
+      </title>
+      . Mexico,
+      <date>
+       1953
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1953
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short study about traditional Spanish music in Mexico.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/122
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mendoza, Vicente T. 1894-1964.
+      <title>
+       <part>
+        La música tradicional
+       </part>
+      </title>
+      4. Mexico: FCE, no date. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Research about the origins of traditional Mexican music prior to the arrival of the Spaniards with musical examples.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/123
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ministério da Educação e Cultura, Departamento de Assuntos Culturais, Fundação Nacional de Arte, Campanha de Defesa do Folclore Brasileiro.
+      <title>
+       <part>
+        Bibliografia Folclórica
+       </part>
+      </title>
+      4 (1979): 3-31.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Bibliography of publications related to different aspects of Brazilian folklore such as beliefs, language, arts, and music, among others.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/124
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ministério da Educação e Cultura – Campanha de Defesa do Folclore Brasileiro. Congresso Nacional do Samba.
+      <title>
+       <part>
+        Carta do Samba
+       </part>
+      </title>
+      , aprovada pelo I Congresso Nacional do Samba, 28de novembro/2 de dezembro de 1962.
+      <date>
+       1962
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1962
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Discussion of the problems of the evolving tradition of
+      <emph render="italic">
+       samba
+      </emph>
+      music in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/125
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ministério da Educação e Cultura Secretaria da Cultura Fundação Nacional de Arte, Instituto Nacional do Folclore.
+      <title>
+       <part>
+        Folclore Paranaense: Exposição – de 21 de Agosto a 29 de Novembro de 1981
+       </part>
+      </title>
+      .
+      <date>
+       1981
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1981
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This book describes a governmental initiative to give exposure to the different folklore   manifestations of the state of Paraná in Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/126
+     </container>
+     <unittitle encodinganalog="245$a">
+      Miranda, Nicanor.
+      <title>
+       <part>
+        O Congresso Internacional de Folclore
+       </part>
+      </title>
+      . São Paulo,
+      <date>
+       1940
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1940
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A summary of the activities and goals of the International Congress of Folklore in 1940. The pamphlet includes some examples of folkloric expressions from other parts of the world written in languages other than Portuguese.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/127
+     </container>
+     <unittitle encodinganalog="245$a">
+      Mussolini, Gioconda. .
+      <title>
+       <part>
+        Os "pasquins" do litoral norte de São Paulo e suas peculiaridades na Ilha de São Sebastião
+       </part>
+      </title>
+      <date>
+       1950
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1950
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <emph render="italic">
+       Pasquim
+      </emph>
+      is an old tradition in which a person would recite verses that he would create about different subjects and the audience would repeat. Considered mostly an oral tradition, pasquins represent the folkloric expression of the population living on the north coast of São Paulo. This study about the pasquins also includes the practice of the tradition on São Sebastião Island and along the coast of São Paulo.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/128
+     </container>
+     <unittitle encodinganalog="245$a">
+      Natal: Departamento de Imprensa.
+      <title>
+       <part>
+        Estatutos da Sociedade Brasileira de Folk-lore.
+       </part>
+      </title>
+      <date>
+       1949
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1949
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This short book lists the statutes of the Brazilian Society of Folklore.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/129
+     </container>
+     <unittitle encodinganalog="245$a">
+      Neves, Guilherme Santos. "Bandas de Congos."
+      <title>
+       <part>
+        Cadernos de Folclore.
+       </part>
+      </title>
+      30 (no date): 3-32.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication describes the origin, the musical instruments, and lyrics related to
+      <emph render="italic">
+       Bandas de Congos
+      </emph>
+      in the state of Espírito Santo, Brazil. The name
+      <emph render="italic">
+       Bandas de Congo
+      </emph>
+      refers to
+      <emph render="italic">
+       congo
+      </emph>
+      , an Afro-Brazilian name for the main musical instrument of this tradition, the drum.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/130
+     </container>
+     <unittitle encodinganalog="245$a">
+      Oliveira, Clovis de.
+      <title>
+       <part>
+        André da Silva Gomes (1752-1844): "O Mestre de Capela da Sé de São Paulo" – Obra premiada no Concurso de História promovido pelo Departamento Municipal de Cultura, de São Paulo, em 1946.
+       </part>
+      </title>
+      Cidade de São Paulo, 1954. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A biography of André da Silva Gomes, an important musician in the state of São Paulo who, among other things, founded the first choir of the Sé Cathedral.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/131
+     </container>
+     <unittitle encodinganalog="245$a">
+      O.N.D.A. Rosa de Ouro. Rio de Janerio,
+      <date>
+       no date.
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      no date.
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Rosa de Ouro was a musical program produced by Kleber Santos for a youth theatre in Rio de Janeiro featuring popular carioca (the city of Rio de Janeiro) music. This program from the performance contains short biographies of the performers.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      5/132
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pacheco, Jacy.
+      <title>
+       <part>
+        O cantor da vila: Documentos e episódios inéditos de vida de Nöel.
+       </part>
+      </title>
+      Rio de Janeiro: Edições Minerva,
+      <date>
+       1958
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1958
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A biography of Noel Rosa, a significant name in the Brazilian popular music of Rio de Janeiro during the 1950s. The book, written by Rosa's cousin, includes lyrics, pictures, and curiosities about the composer and singer.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/133
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pardo Tovar, Andrés.
+      <title>
+       <part>
+        Los cantares tradicionales del Baudo.
+       </part>
+      </title>
+      Bogotá, 1960. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation of traditional music of the region of Baudo in Colombia.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/134
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pardo Tovar, Andrés y Jesús Pinzón Urrea.
+      <title>
+       <part>
+        Rítmica y melódica del folclor chocoano.
+       </part>
+      </title>
+      Bogotá, 1961.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation of the rhythm and melodies of the folklore of the province of Choco in Colombia.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/135
+     </container>
+     <unittitle encodinganalog="245$a">
+      Parreira, Roberto; Vicente Salles; Fundação Nacional de Arte.
+      <title>
+       <part>
+        Artesanto brasileiro.
+       </part>
+      </title>
+      Rio de Janeiro: Edição FUNARTE,
+      <date>
+       1978
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1978
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      An overview of the techniques and materials used in Brazilian handicrafts.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/136
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pereira Salas, Eugenio.
+      <title>
+       <part>
+        La música de la Isla de Pascua.
+       </part>
+      </title>
+      Santiago de Chile: Instituto de Investigaciones Musicales,  [Inscribed.]
+      <date>
+       1947
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1947
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Salas offers a synthesis of the meaning of music in the spiritual life of the people who live on Easter Island off the coast of Chile (Isla de Pascua).
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/137
+     </container>
+     <unittitle encodinganalog="245$a">
+      Piazza, Walter F.
+      <title>
+       <part>
+        O Quicumbí.
+       </part>
+      </title>
+      Florianópolis: Comissão Catarinense de Folklore,
+      <date>
+       1954
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1954
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication details the movements, musical instruments, and lyrics related to the Quicumbí, a folkloric dance with African roots. The material was collected in Cachoeira, a small community in Florianópolis, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/138
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pimentel, Altimar de Alencar. "Barca da Paraíba."
+      <title>
+       <part>
+        Cadernos de Folclore
+       </part>
+      </title>
+      25 (no date): 3-71.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication describes the dramatic dance, of maritime origin, performed in the state of Paraíba, Brazil. The participants of this tradition push a barge from their headquarters to the front of the city's main church, and there, they sing songs and pray.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/139
+     </container>
+     <unittitle encodinganalog="245$a">
+      Pinto, Alexina de Magalhães.
+      <title>
+       <part>
+        Cantigas das creanças e do povo e dansas populares.
+       </part>
+      </title>
+      Rio de Janeiro: F. Alves,
+      <date>
+       1916
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1916
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A selection of mostly anonymous popular songs divided by categories, such as general songs, songs of the black people, songs and dances, etc.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/140
+     </container>
+     <unittitle encodinganalog="245$a">
+      Piza, Flávio de Toledo.
+      <title>
+       <part>
+        Estudo sobre o romance do soldado jogador.
+       </part>
+      </title>
+      São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Using the version from the state of Minas Gerais of the poem
+      <title>
+       <part>
+        "O Jogador na Igreja,"
+       </part>
+      </title>
+      Flávio Piza examines different aspects of this oral tradition. He also adds to his study the version of the same poem from other states in Brazil and from other countries, such as Argentina.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/141
+     </container>
+     <unittitle encodinganalog="245$a">
+      Plath, Oreste.
+      <title>
+       <part>
+        Alimentación y lenguaje popular.
+       </part>
+      </title>
+      Santiago de Chile, 1949. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of popular vocabulary related to food in Chile.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/142
+     </container>
+     <unittitle encodinganalog="245$a">
+      Plath, Oreste.
+      <title>
+       <part>
+        Folklore Chileno: Aspectos populares infantiles.
+       </part>
+      </title>
+      Santiago de Chile: La Universidad de Chile,
+      <date>
+       1946
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1946
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A study of children's folklore in Chile with analysees of songs, last names, and short stories that never end.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/143
+     </container>
+     <unittitle encodinganalog="245$a">
+      Prado, José Nascimento de Almeida.
+      <title>
+       <part>
+        Baile Pastoril no Sertão da Bahia.
+       </part>
+      </title>
+      São Paulo: Departamento de Cultura,  [Inscribed.]
+      <date>
+       1951
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1951
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Monograph on the pastoral dances of the backlands in the state of Bahia, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/144
+     </container>
+     <unittitle encodinganalog="245$a">
+      Prado, José Nascimento de Almeida.
+      <title>
+       <part>
+        Trabalhos fúnebres na roça.
+       </part>
+      </title>
+      São Paulo: Departamento de cultura, 1947. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of songs, prayers, and rituals involving the death and funerals of people in the southern area of São Paulo, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/145
+     </container>
+     <unittitle encodinganalog="245$a">
+      Querino, Manoel.
+      <title>
+       <part>
+        Artistas bahianos: Indicações biographicas.
+       </part>
+      </title>
+      Bahia: Officinas da Empreza "A Bahia," 1911.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Short biographies of artists, painters, sculptors, and musicians from the state of Bahia, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/146
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ramon Paradela, Emilio.
+      <title>
+       <part>
+        "Un vinten p'al Judas:" Contribución al folklore de Montevideo.
+       </part>
+      </title>
+      Montevideo: Centre de Estudios Folklóricis del Uruguay,
+      <date>
+       1965
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1965
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      The author of
+      <title>
+       <part>
+        Un vinten p'al Judas
+       </part>
+      </title>
+      explores the origin of the tradition of burning an effigy of Judas Iscariot in Latin America.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/147
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ramón y Rivera, Luis Felipe.
+      <title>
+       <part>
+        Problemas de la grabación y transcripción musical de los tambores.
+       </part>
+      </title>
+      Separata del II Tomo de Actas del XXXIII Congreso Internacional de Americanistas Celebrado en San José de Costa Rica del 20 al 27 de Julio de 1958 Impreso por la editorial Lehmann, no date. [Inscribed on cover.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A discussion of the problems involved in the recording and transcription of drum music.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/148
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ramón y Rivera, Luis Felipe. Supervivencia de la Polifonia Popular en Venezuela. Separata del II Tomo de Actas del XXXIII Congresso Internacional de Americanistas Celebrado en San José de Costa Rica del 20 al 27 de Julio de 1958 Impresso por la editorial Lehmann, no date.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A discussion of the support for the preservation of the cantos polifónicos from Venezuela.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/149
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ramón y Rivera, Luis Felipe.
+      <title>
+       <part>
+        Una interpretación psicológica del coplero popular.
+       </part>
+      </title>
+      Caracas, 1953. [Inscribed on cover.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A psychological interpretation of the
+      <emph render="italic">
+       copla
+      </emph>
+      , a poetic composition that, in general, is formed by four verses, and is the root of popular songs.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/150
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ramon y Rivera, Luis Felipe. "Aspectos del culto de Maria Lionza en el Distrito Bruzual, Estado Yaracuy."
+      <title>
+       <part>
+        Boletín indigenista venezolano.
+       </part>
+      </title>
+      6 (1958): 127-130.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      In this study, Luis Felipe Rivera reveals some of the elements associated with the myth of Maria Lionza in the Bruzual District of the state of Yaracuy in Venezuela. According to this myth, Maria Lionza appears to people and then performs favors in exchange for their souls.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/151
+     </container>
+     <unittitle encodinganalog="245$a">
+      Rangel, Welmann Galvão de França.
+      <title>
+       <part>
+        Algumas contribuições espanholas ao folclore paulista.
+       </part>
+      </title>
+      São Paulo: Departamento de Cultura, 1951. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      In this book, Rangel observes the Spanish influence on the folklore of the Catanduva area in the city of São Paulo, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/152
+     </container>
+     <unittitle encodinganalog="245$a">
+      <title>
+       <part>
+        Revista Sertaneja
+       </part>
+      </title>
+      no. 19 (1959): 3-70. [Note pages 31 and 48.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      <title>
+       <part>
+        Sertaneja
+       </part>
+      </title>
+      is a magazine that circulated between 1958-1959 in São Paulo and promoted the
+      <emph render="italic">
+       sertaneja
+      </emph>
+      (rural) music, singers, and stories of the provincial life in Brazil. There are notes on the cover of the magazine that point to two articles within the magazine. The first article,
+      <title>
+       <part>
+        Conferido a Alceu Maynard Araújo o prêmio "Brasiliana,"
+       </part>
+      </title>
+      is an interview with the Brazilian folklorist Alceu Maynard whose work was chosen to receive the
+      <emph render="italic">
+       Brasiliana
+      </emph>
+      award. The second article,
+      <title>
+       <part>
+        Sebastião das Dores O Fandangueiro
+       </part>
+      </title>
+      , was written by Alceu Maynard Araújo and describes the life of Sebastião Manuel dos Santos, a viola player known for his performances of the
+      <emph render="italic">
+       fandango
+      </emph>
+      in Itanhaém, São Paulo. The article also describes some of the typical dances and traditions of Itanhaém, such as
+      <emph render="italic">
+       Volta-Senhora
+      </emph>
+      and
+      <emph render="italic">
+       Pica-Pau
+      </emph>
+      .
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      6/153
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ribeiro, Darcy.
+      <title>
+       <part>
+        Notícia dos ofaié-chavante.
+       </part>
+      </title>
+      São Paulo, 1951. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short description of the time Darcy Ribeiro spent with the last two families of the indigenous group of Ofaié, who lived in the south of the state of Mato Grosso, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/154
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ribeiro, Luis da Silva. "Influência Portuguesa no Adagiário Gaúcho."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científíca e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 11 (1957): 32-52.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Discusses the Portuguese influence on the
+      <emph render="italic">
+       Adagiário Gaúcho
+      </emph>
+      from Rio Grande do Sul.
+      <emph render="italic">
+       Adagiário
+      </emph>
+      is a type of popular sentence, saying, or a proverb.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/155
+     </container>
+     <unittitle encodinganalog="245$a">
+      Ribeiro, Maria de Lourdes Borges.
+      <title>
+       <part>
+        Um grupo de moçambique de Aparecida do Norte.
+       </part>
+      </title>
+      São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This study describes the tradition of
+      <emph render="italic">
+       Moçambique
+      </emph>
+      within a particular group living in the district of São Roque in Aparecida do Norte, São Paulo. Besides detailing the dance, its movements and songs, the book includes many illustrations of the
+      <emph render="italic">
+       moçambique
+      </emph>
+      tradition.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/156
+     </container>
+     <unittitle encodinganalog="245$a">
+      São Paulo, Brazil (State). Departamento Estadual de Informações.
+      <title>
+       <part>
+        Cadernos de folklore
+       </part>
+      </title>
+      1,
+      <date>
+       1947
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1947
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of popular poems from the city of São Paulo, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/157
+     </container>
+     <unittitle encodinganalog="245$a">
+      Schmidt, Carlos Borges.
+      <title>
+       <part>
+        O pão da terra.
+       </part>
+      </title>
+      São Paulo: Prefeitura do Município de São Paulo, Secretaria de Educação e Cultura, Divisão do Arquivo Histórico,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      The history and usage of the manioc, a starchy root vegetable that is commonly used in Brazilian cooking.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/158
+     </container>
+     <unittitle encodinganalog="245$a">
+      Shaffer, Kay.
+      <title>
+       <part>
+        O berimbau-de-barriga e seus Toques.
+       </part>
+      </title>
+      Rio de Janeiro: Ministério da Educação e Cultura, Secretaria de Assuntos Culturais, Fundação Nacional de Arte, and Instituto Nacional do Folclore,
+      <date>
+       1976
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1976
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      The
+      <emph render="italic">
+       berimbau
+      </emph>
+      is a stringed musical instrument associated with the Afro-Brazilian martial art of
+      <emph render="italic">
+       capoeira
+      </emph>
+      . In this book, Shaffer explains the origin, the history, and the present use of this instrument in Bahia, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/159
+     </container>
+     <unittitle encodinganalog="245$a">
+      Silva, Alcionilio Brüzzi Alves da.
+      <title>
+       <part>
+        Discoteca etno-linguístico-musical das tribos dos rios Uaupés, Içana e Cauáburi.
+       </part>
+      </title>
+      [Inscribed.]São Paulo: Centro de Pesquisas de Iauareté, 1961.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A description of the traditional celebrations, music, musical instruments and general habits of the Indian tribes of the river Uaupés.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/160
+     </container>
+     <unittitle encodinganalog="245$a">
+      Silva, José Calasans Brandão da.
+      <title>
+       <part>
+        O sebastianismo no folclore de Canudos.
+       </part>
+      </title>
+      Bahia: Artes Gráficas,
+      <date>
+       1959
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1959
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A brief study about the influence of Sebastianismo in the folkore of the Canudos community in the state of Bahia, Brazil.
+      <emph render="italic">
+       Sebastianismo
+      </emph>
+      is a mystic movement that started in Portugal after the death of King Sebastião, and was used by a popular religious leader, Antonio Conselheiro, to convince the population of Canudos in Brazil to follow him. The
+      <emph render="italic">
+       Canudos
+      </emph>
+      movement exploded in war on November 1896, after the proclamation of Brazil as a republic in 1889. The conflict between Antonio Conselheiro's followers and the government led to the complete destruction of the
+      <emph render="italic">
+       Canudos
+      </emph>
+      community.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/161
+     </container>
+     <unittitle encodinganalog="245$a">
+      Simon, Michel. "A Propos Des "Danses Dramatiques" Brésiliennes."
+      <title>
+       <part>
+        Théâtre D'aujord'hui
+       </part>
+      </title>
+      , special issue (January – February 1959): 10-14. [Inscribed, p. 10.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication contains an essay about the elements of dance within the Brazilian folk traditions of
+      <emph render="italic">
+       pastoris
+      </emph>
+      ,
+      <emph render="italic">
+       chenganças
+      </emph>
+      , and
+      <emph render="italic">
+       reisados
+      </emph>
+      .
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/162
+     </container>
+     <unittitle encodinganalog="245$a">
+      Siqueira, Baptista.
+      <title>
+       <part>
+        Folclore humorístico.
+       </part>
+      </title>
+      Rio de Janeiro,
+      <date>
+       1946
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1946
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A collection of many short stories that have the same main character, Aleixo. In the northeast of Brazil, Aleixo became the name for any hero who never gives up, like Don Quijote de la Mancha.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/163
+     </container>
+     <unittitle encodinganalog="245$a">
+      Soares, Luci de Lourdes. "Notas a Lapis sôbre a Arqueologia Norte-Rio-Grandense."
+      <title>
+       <part>
+        Coleção Mossoroense
+       </part>
+      </title>
+      XV ser. B. no. 381 (1982): 3-32
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Observations about the archeology of the indigenous groups of Amerabas in the state of Rio Grande do Norte, Brazil. The book contains a map of distribution of these groups and photographs of artifacts and archeological findings.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/164
+     </container>
+     <unittitle encodinganalog="245$a">
+      Sociedad Folklórica de México.
+      <title>
+       <part>
+        Anuario de la Sociedad Folklorica de Mexico
+       </part>
+      </title>
+      3 (1942): 7-204.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Scholarly journal with articles on the definition of folklore, traditional games from Puerto Rico, and legends of the Zapotecas, an indigenous group from Mexico.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/165
+     </container>
+     <unittitle encodinganalog="245$a">
+      Sociedad Folklórica de México.
+      <title>
+       <part>
+        Anuario de la Sociedad Folklorica de Mexico
+       </part>
+      </title>
+      6 (1945): 213-408.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Scholarly journal with articles on poems, popular beliefs, and dances of Mexico.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/166
+     </container>
+     <unittitle encodinganalog="245$a">
+      Sociedad Folklórica de México.
+      <title>
+       <part>
+        Anuario de la Sociedad Folklorica de Mexico
+       </part>
+      </title>
+      6 (1950): 415-557.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Scholarly journal with articles on traditional food, customs, and celebrations of Mexico.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/167
+     </container>
+     <unittitle encodinganalog="245$a">
+      Sociedad Folklórica de México.
+      <title>
+       <part>
+        Anuario de la Sociedad Folklorica de Mexico
+       </part>
+      </title>
+      7 (1951): 7-142.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Scholarly journal with articles on songs, poems, and beliefs of Mexico.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/168
+     </container>
+     <unittitle encodinganalog="245$a">
+      Society of Ethnomusicology.
+      <title>
+       <part>
+        Ethnomusicology
+       </part>
+      </title>
+      11 no. 3 (1967): 267-292.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      This publication focuses on the music of the Tepehua tribe that is played during a ceremony called
+      <emph render="italic">
+       Halakiltúnti
+      </emph>
+      . These textless songs, during the
+      <emph render="italic">
+       Halakiltunti
+      </emph>
+      ritual, are believed to cure psychosomatic illness, secure rain, and restore harmony to daily life in the tribe.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/169
+     </container>
+     <unittitle encodinganalog="245$a">
+      Souza, Yvonildo de.
+      <title>
+       <part>
+        Influência negra na música brasileira.
+       </part>
+      </title>
+      Recife: Editora Nordeste, 1953. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A short study of the African influence on the music of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/170
+     </container>
+     <unittitle encodinganalog="245$a">
+      Spalding, Walter. "A Historia e o Povo: Costumes, Poesia e Lendas."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científíca e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 8 (1956): 67-101.
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Walter Spalding describes some of the popular poems, customs, and legends of the state of Rio Grande do Sul that were influenced by the history of Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/171
+     </container>
+     <unittitle encodinganalog="245$a">
+      Spalding, Walter. "Bibliografia do Folclore Rio Grandense do Sul."
+      <title>
+       <part>
+        Comissão Nacional de Folclore do I.B.E.C.C. Instituto Brasileiro de Educação, Ciência e Cultura – Comissão Brasileira da Organização Educacional, Científica e Cultural das Nações Unidas (UNESCO)
+       </part>
+      </title>
+      no. 4 (1954): 245-263. [Inscribed.]
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A bibliography of publications about folklore in the state of Rio Grande do Sul, Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/172
+     </container>
+     <unittitle encodinganalog="245$a">
+      Spalding, Walter.
+      <title>
+       <part>
+        Tradições gaúchas.
+       </part>
+      </title>
+      Pôrto Alegre: Edição da Comissão Sul-Riograndense de Folclore,
+      <date>
+       1957
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1957
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A description of the origin, traditions, and poems from the state of Rio Grande do Sul related to three elements, the house, the salt, and the rain.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/173
+     </container>
+     <unittitle encodinganalog="245$a">
+      Thieblot, Marcel Jules.
+      <title>
+       <part>
+        Fumo e Fumeiros no Brasil: Prequisa sôbre os plantadores de tabaco e os artesões do fumo nas regiões de São Paulo, Minas Gerais, Bahia (Recôncavo) Amazônia (Rondônia e Pará).
+       </part>
+      </title>
+      São Paulo: Brasileira de Folclore,
+      <date>
+       1988
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1988
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Research on the culture of the tobacco plantation in the Brazilian states of São Paulo, Minas Gerais, Bahia, Rondônia, and Pará.
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box-Item">
+      7/174
+     </container>
+     <unittitle encodinganalog="245$a">
+      Thompson, Stith. "Folklore in South America." Reprinted from
+      <title>
+       <part>
+        Journal of American Folklore,
+       </part>
+      </title>
+      <date>
+       1948
+      </date>
+      .
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      1948
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      A report of Thompson's trip to South America in 1948. He describes the folklorists he met and their field of work in the South American countries he visited, Bolivia, Argentina, and Brazil.
+     </p>
+    </scopecontent>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

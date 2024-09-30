@@ -1,0 +1,3487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af017001">
+   loc.afc/eadafc.af017001
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Omaha Indian interviews collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Nancy Yan, Kimberly Peach, and Kelly
+               Revak
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2016-12">
+     December 2016
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004659951" show="new">
+       https://lccn.loc.gov/2004659951
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing Archives:
+            a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2024-06">
+     June 2024
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Valda Morris
+    </agent>
+    <eventdescription>
+     Revised to update the box numbers for oversized
+               items.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2016-12">
+     December 2016
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid by encoded by Kelly Revak
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Omaha Indian interviews collection, 1999
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1999">
+     1999
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1999" unitdatetype="inclusive">
+    1999
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1999/014
+   </unitid>
+   <origination label="Creator(s)">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Jabbour, Alan
+     </part>
+    </persname>
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      McIntyre, Laurel
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 454
+            items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    3 containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    17 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    1 computer disk.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    26 sound tape reels :
+            analog, 7 1/2 and 3 3/4 ips ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    1 sound cassette (60 min.)
+            : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    184 photographs : negatives,
+            photographic prints, black and white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    22 photographs : prints,
+            black and white ; 8 x 10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    5 photographs : contact
+            sheets, black and white ; 8 x 10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    2 posters ; various
+            sizes
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="sio">
+     Omaha language
+    </language>
+    <language encodinganalog="041" langcode="eng">
+     English.
+    </language>
+    <descriptivenote>
+     <p>
+      Sound recordings in the Omaha language and in English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Manuscript, sound recordings, and graphic
+            materials collected by Alan Jabbour and Laurel McIntyre during four visits in 1999 to
+            Macy, Nebraska, in an effort to identify sound recordings and photographic images from
+            the American Folklife Center's Omaha Indian collections. Hethu’shka song translations
+            and contextual information were gathered in recorded interviews with Omaha tribe members
+            Rufus White, Elmer Blackbird, and Morgan Lovejoy.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Alan Jabbour and Laurel McIntyre conducted and recorded the interviews and took the
+            photographs in this collection for the American Folklife Center.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Laurel McIntyre processed the collection and managed the digitization of the materials.
+            Nancy Yan wrote the original draft of the finding aid in August 2002, including
+            materials not previously processed. Kimberly Peach completed the next draft of the
+            finding aid in November 2005. Finding aid was completed and encoded by Kelly Revak in
+            December 2016.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544$n">
+   <head>
+    Related Material
+   </head>
+   <p>
+    The present collection was a result of preparatory work on the
+    <emph render="italic">
+     Omaha Indian Music
+    </emph>
+    presentation, which is available at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000007" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000007
+    </ref>
+    . This online presentation contains
+            photographs and sound recordings featuring the traditional Omaha music from the 1983
+            Omaha harvest celebration pow-wow, the 1985 Hethu'shka Society concert at the Library of
+            Congress, and the wax cylinder recordings of Francis La Flesche and Alice Cunningham
+            Fletcher made from 1895 to 1897.
+   </p>
+   <p>
+    The present collection contains context, commentary and identifications related to the
+            following collections which are also included in the online presentation:
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2004695155" show="new">
+     1985 Neptune
+               Plaza Concert Series collection (AFC 1985/015)
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2013655329" show="new">
+     Alice C.
+               Fletcher and Francis La Flesche collection of Omaha cylinder recordings (AFC
+               1948/123)
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2015655384" show="new">
+     Alan
+               Jabbour/Omaha Indian interviews collection (AFC 1983/026: AFS 22620-22625)
+    </ref>
+   </p>
+   <p>
+    Omaha Indian Pow-Wow collection (AFC 1986/038)
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+            Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+    .
+   </p>
+   <p>
+    Listening copies of the recordings are available at the Folklife Reading Room and
+            excerpts are available online at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000007" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000007
+    </ref>
+    .
+   </p>
+   <p>
+    Reference copies of materials from this collection were given to the Omaha Branch of the
+            Nebraska Indian Community College (NICC).
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    Portions of this collection are available on the Library of Congress Web site in the
+            online collection
+    <emph render="italic">
+     Omaha Indian Music
+    </emph>
+    at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000007" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000007
+    </ref>
+    . Where available, links to
+            specific online content are available in the contents list of this finding aid.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+            [item, date, container number], Omaha Indian interviews collection (AFC 1999/014),
+            American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Manuscript, sound recordings, and graphic materials collected by Alan Jabbour and Laurel
+            McIntyre during four visits in 1999 to Macy, Nebraska, in an effort to identify sound
+            recordings and photographic images from the American Folklife Center's Omaha Indian
+            collections. This project was undertaken as part of the National Digital Library
+            Program's effort to obtain information on materials to be used in the
+    <emph render="italic">
+     Omaha Indian Music
+    </emph>
+    online presentation.
+   </p>
+   <p>
+    Hethu’shka song translations and contextual information were gathered in recorded
+            interviews with Omaha tribe members Rufus White, Elmer Blackbird, and Morgan Lovejoy.
+            The interviewees listened to and commented on sound recordings from the collections of
+            the American Folklife Center. These included Hethu’shka songs from the 1890s, the 1983
+            Omaha harvest celebration pow-wow, Alan Jabbour’s 1983 interview with John Turner, and
+            the Hethu’shka Society performance in the 1985 Neptune Plaza Concert Series at the
+            Library of Congress. The interviews are conducted by Alan Jabbour and Laurel McIntyre.
+            Dennis Hastings, director of the Omaha Tribal Historical Research Project, was consulted
+            throughout this project for help identifying subjects in photographs.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$b">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The manuscripts and graphic materials are arranged chronologically. Each roll of film
+            has been housed in an individual negative sleeve and prints from each roll of film are
+            housed and grouped together in individual folders. Original oversized posters are housed
+            in Box 2.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20200724132151.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Blackbird, Elmer
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hastings, Dennis.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jabbour, Alan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lovejoy, Morgan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McIntyre, Laurel
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      White, Rufus
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Hethu'shka Society.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Nebraska--Omaha Indian Reservation.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Indian veterans--Omaha Indian Reservation--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha dance.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha dialect.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Nebraska--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Religion.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Rites and ceremonies.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Omaha Indians--Songs and music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Powwow songs--Nebraska--Omaha Indian Reservation.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Powwows--Nebraska--Omaha Indian Reservation.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Macy (Neb.) event place.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Omaha Indian Reservation (Neb.)--Social life and customs--20th century.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Dance music.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Powwow songs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Contents List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aids.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       34 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative—Donation to Nebraska Indian
+                     Community College,
+       <date>
+        Summer 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Summer 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Gift documentation.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative—General Correspondence,
+       <date>
+        October 2, 1998-October 2, 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       October 2, 1998-October 2, 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       64 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Administrative correspondence regarding planning and follow-up of
+                     interviews.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative—Contracts,
+       <date>
+        June 21,
+                        1999-October 16, 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       June 21, 1999-October 16, 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       38 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Administrative correspondence, invoices, and contracts regarding hiring and
+                     payment for consultants.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative—Trip Reports–Jabbour, Alan,
+       <date>
+        April 1, 1999-October 1, 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 1, 1999-October 1, 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       12 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Short and final reports for each trip to Macy, Nebraska.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative—Trip Reports–McIntyre, Laurel,
+       <date>
+        April 1, 1999-August 1, 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 1, 1999-August 1, 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       31 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Short and final reports for each trip to Macy, Nebraska.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photograph Identification by Dennis
+                     Hastings.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       10 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Dennis Hastings notes and identifications of photographs from the 1983 Omaha
+                     Pow-Wow.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="poster_copies">
+       Poster copies.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 items.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Preservation photocopies of original posters.
+      </p>
+     </scopecontent>
+     <relatedmaterial>
+      <p>
+       <emph render="bold">
+        Related material:
+       </emph>
+       <ref actuate="onrequest" show="new" target="original_posters">
+        <emph render="italic">
+         Original Posters
+        </emph>
+       </ref>
+      </p>
+     </relatedmaterial>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings—Logs. SR001-SR027,
+       <date>
+        July
+                        2, 1999-October 1, 1999.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       July 2, 1999-October 1, 1999.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Final and draft copies of sound recording logs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings—Tape box photocopies.
+                     SR001-SR026.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of notes on the backs of sound recording containers.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Sound Recordings
+     </unittitle>
+     <physdesc encodinganalog="300">
+      26 7-inch reels, 1 60-minute audiocassette.
+     </physdesc>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Interview of Rufus White conducted by Alan
+                     Jabbour and Laurel McIntyre regarding recordings from AFC 1986/038, AFC
+                     1948/123, and AFC 1985/015,
+       <date>
+        July 20-23, 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       July 20-23, 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       25 sound tape reels
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes: Rufus White’s translations of Omaha and commentary on songs sung by
+                     the Host Drum and the Tai Piah Singers during the 1983 Omaha pow-wow (AFC
+                     1986/038); White’s commentary on ten Hethu’shka songs that are included on
+       <emph render="italic">
+        Omaha Indian Music
+       </emph>
+       (originally from AFC
+                     1948/123); White’s commentary on the performance by members of the Hethu'shka
+                     Society at a 1985 Library of Congress concert (AFC 1985/015); Information about
+                     Rufus’s family and John Turner; Tribal Council Chairman Elmer Blackbird
+                     comments about the Omaha language and biographical information.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR001
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 20, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 20, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 3 3/4 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Gourd Dance Song, Grand Entry Song
+                        (Call Numbers: AFC 1986/038: 0376-0388).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Gourd Dance Song (Call
+                           Number: AFC 1986/038: 0376)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0748" show="new">
+          AFC 1999/014:
+                              0748
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: The Gourd Dance Society was performing at the
+                           pow-wow. In the Kiowa Tribe of Oklahoma, gourd dance songs have been used
+                           for social gatherings. The Omaha have used them for birthday celebrations
+                           or as veterans' songs. Some gourd dance songs have words, and others do
+                           not. Three Gourd Dances, which were not recorded, preceded this song.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Gourd Dance Song (Call
+                           Number: AFC 1986/038: 0377)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0749" show="new">
+          AFC 1999/014:
+                              0749
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: The Gourd Dance Society was performing at the
+                           pow-wow. In the Kiowa Tribe of Oklahoma, gourd dance songs have been used
+                           for social gatherings. The Omaha have used them for birthday celebrations
+                           or as veterans' songs. Some gourd dance songs have words, and others do
+                           not. This song does not have words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Gourd Dance Song (Call
+                           Number: AFC 1986/038: 0378)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0750" show="new">
+          AFC 1999/014:
+                              0750
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: The Gourd Dance Society was performing at the
+                           pow-wow. In the Kiowa Tribe of Oklahoma, gourd dance songs have been used
+                           for social gatherings. The Omaha have used them for birthday celebrations
+                           or as veterans' songs. Some gourd dance songs have words, and others do
+                           not.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Gourd Dance Song (Call
+                           Number: AFC 1986/038: 0379)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0751" show="new">
+          AFC 1999/014:
+                              0751
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: The Gourd Dance Society was performing at the
+                           pow-wow. In the Kiowa Tribe of Oklahoma, gourd dance songs have been used
+                           for social gatherings. The Omaha have used them for birthday celebrations
+                           or as veterans' songs. Some gourd dance songs have words, and others do
+                           not.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Grand Entry Song (Call
+                           Number: AFC 1986/038: 0388)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0752" show="new">
+          AFC 1999/014:
+                              0752
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: The Gourd Dance Society was performing at the
+                           pow-wow. In the Kiowa Tribe of Oklahoma, gourd dance songs have been used
+                           for social gatherings. The Omaha have used them for birthday celebrations
+                           or as veterans' songs. Some gourd dance songs have words, and others do
+                           not.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR002
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 20, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 20, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Flag Song, Hethu’shka songs (Call
+                        Numbers: AFC 1986/038: 0389-0391).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Flag Song (Call Number: AFC
+                           1986/038: 0389)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0753" show="new">
+          AFC 1999/014:
+                              0753
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is one of two National Anthem songs that the
+                           Omaha sing. It welcomes veterans. A drum is used with this Flag Song. For
+                           another Flag Song that is used, there is not a drum. The Flag Song is, in
+                           general, only used during the annual pow-wow.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Flag Song (Call Number: AFC
+                           1986/038: 0389)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0754" show="new">
+          AFC 1999/014:
+                              0754
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When he went over there, he put up an
+                           American flag."
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0390)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0755" show="new">
+          AFC 1999/014:
+                              0755
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Get up and dance and enjoy yourself.
+                           Hurry up and get up." White compares the beat of the drum with the sound
+                           of buffalo. He refers to Charlie Edwards.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0390)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0756" show="new">
+          AFC 1999/014:
+                              0756
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Get up and dance." Notes from
+                           interview: This is a traditional song. White has heard this song sung
+                           during the Oklahoma pow-wow and tells of the connections that songs can
+                           bring about. Hearing the song made him feel like dancing.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0391)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0757" show="new">
+          AFC 1999/014:
+                              0757
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When I came to your village, I saw your
+                           spirit and was thinking of you. My spirit is still here." Notes from
+                           interview: The person who made the song cried as he sang it. He saw the
+                           spirit as he was singing.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on the Grand Entry
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0758" show="new">
+          AFC 1999/014:
+                              0758
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: Arena directors used to usher in dancers. There
+                           didn't used to be a Grand Entry. The Omaha started using a Grand Entry
+                           during the annual pow-wow around the early 1970s.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR003
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 20, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 20, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Hethu’shka songs (Call Numbers: AFC
+                        1986/038: 0392-0393).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0392)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0759" show="new">
+          AFC 1999/014:
+                              0759
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "The young man is coming home. Get
+                           something ready for him." Words include "God help us. Pity us. Thank you
+                           for the beautiful things that we can share with one another." Notes from
+                           interview: This song has a lot of meaning. The man made four stops before
+                           he returned to his people because he was proud that he could bring them
+                           food. He saved people's lives. He gave sick elderly people four
+                           spoonfulls of everything for four days. Today, things continue to be done
+                           four times. For example, four Hethu'shka (Warrior) Songs are sung at the
+                           beginning of each pow-wow program and the pow-wow lasts for four days.
+                           Emcee Clifford Wolfe, Sr., who was speaking during the song, was saying
+                           that it was really good to hear the old songs.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0393)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0760" show="new">
+          AFC 1999/014:
+                              0760
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When I got up, something was tapping my
+                           shoulder." Notes from interview: The wolves were hollering and woke the
+                           person up. The person was fasting, but he fell asleep during the last
+                           morning of the four days.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR004
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Whipman’s Song (Call Number: AFC
+                        1986/038: 0397), and information about his family and John Turner.
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Whipman's Song (Call Number:
+                           AFC 1986/038: 0397)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0761" show="new">
+          AFC 1999/014:
+                              0761
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Get up. Stand up." Notes from
+                           interview: This song is for the whipman, or the head man dancer. A long
+                           time ago, whipmen were called Omaha scouts. Three or four men used to
+                           encourage people to get up.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR005
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Tail Dancer’s Song, Pow-wow
+                        Princess, General Dancing, Hethu’shka songs (Call Numbers: AFC 1986/038:
+                        0398-0402).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tail Dancers' Song (Call
+                           Number: AFC 1986/038: 0398)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0762" show="new">
+          AFC 1999/014:
+                              0762
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is an honoring song without words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Pow-Wow Princess Song (Call
+                           Number: AFC 1986/038: 0399)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0763" show="new">
+          AFC 1999/014:
+                              0763
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "I'm coming. I'm coming to you." Notes
+                           from interview: This song was for Melanie Parker, the pow-wow princess.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on General Dancing Song (Call
+                           Number: AFC 1986/038: 0400)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0764" show="new">
+          AFC 1999/014:
+                              0764
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "The warriors are being honored." Notes
+                           from interview: This song has two words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0401)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0765" show="new">
+          AFC 1999/014:
+                              0765
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a song without words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0402)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0766" show="new">
+          AFC 1999/014:
+                              0766
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "God, look at me. It was hard for me to
+                           be a warrior." Notes from interview: One must be honored in order to be a
+                           warrior. This song has a lot of meaning for the Omahas.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR006
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Horses Are Afraid of the Enemy Song,
+                        General Dancing Song, Hethu’shka songs (Call Numbers: AFC 1986/038:
+                        0403-0405, 0413).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0403)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0767" show="new">
+          AFC 1999/014:
+                              0767
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a song without words. It is used to
+                           encourage people to dance.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on The Horses Are Afraid of the
+                           Enemy (Call Number: AFC 1986/038: 0404)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0768" show="new">
+          AFC 1999/014:
+                              0768
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "The enemies are coming. The horses are
+                           holding back. They don't want to go to fight the enemy."
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on General Dancing Song (Call
+                           Number: AFC 1986/038: 0413)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0769" show="new">
+          AFC 1999/014:
+                              0769
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is one of numerous "Sioux" songs.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR007
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Hethu’shka songs, Honoring Song,
+                        Horse Song, Contest Song Warm-Up (Call Numbers: AFC 1986/038: 0414-0415,
+                        0418-0420, 0438).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0414)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0770" show="new">
+          AFC 1999/014:
+                              0770
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a song without words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0415)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0771" show="new">
+          AFC 1999/014:
+                              0771
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Honoring Song (Call Number:
+                           AFC 1986/038: 0418)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0772" show="new">
+          AFC 1999/014:
+                              0772
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This song was intended to welcome other tribes.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Honoring Song (Call Number:
+                           AFC 1986/038: 0419)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0773" show="new">
+          AFC 1999/014:
+                              0773
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Horse Song (Call Number: AFC
+                           1986/038: 0420)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0774" show="new">
+          AFC 1999/014:
+                              0774
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is an older traditional war dance song. It
+                           does not have any words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Contest Song (Warm-Up) (Call
+                           Number: AFC 1986/038: 0438)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0775" show="new">
+          AFC 1999/014:
+                              0775
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a fast song!
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR008
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Contest Song, Hethu’shka songs,
+                        Half-Breed Song, Grand Finale, Grand Entry, Flag Song (Call Numbers: AFC
+                        1986/038: 0439-0440, 0446, 0451-0452, 0454-0458).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Hethu'shka Song (Call
+                           Number: AFC 1986/038: 0440)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0776" show="new">
+          AFC 1999/014:
+                              0776
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Pity him. They (the Omahas) wounded
+                           him." Notes from interview: There are two ways that this song could be
+                           sung. This is one of the four traditional songs sung at the beginning of
+                           the pow-wow, but its wording is a little different. This is sung from the
+                           point of view of the enemy.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Half-Breed Song (Call
+                           Number: AFC 1986/038: 0446)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0777" show="new">
+          AFC 1999/014:
+                              0777
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: Louie Saunsoci made this song for half-breeds. It
+                           was sung for Louie Dick.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Flag Song
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0778" show="new">
+          AFC 1999/014:
+                              0778
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When you went overseas, you made a
+                           stand so that the flag could be raised. When you returned, you brought
+                           the flag back. You saved our lives." Notes from interview: This song is
+                           usually sung at the end of a program; it is a quitting song.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Flag Song
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0779" show="new">
+          AFC 1999/014:
+                              0779
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Grand Finale
+                           Song
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0780" show="new">
+          AFC 1999/014:
+                              0780
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Stand up. We are going out."
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR009
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Hethu’shka Song, Tail Dancer’s Song
+                        (Call Numbers: AFC 1986/038: 0459-0460, 0462).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Song Sung in Place of the
+                           Whipman's Song (Call Number: AFC 1986/038: 0460)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0781" show="new">
+          AFC 1999/014:
+                              0781
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a song without words. The other drum was
+                           helping the Host Drum, and the Whipman's Song was not actually sung.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tail Dancers' Song (Call
+                           Number: AFC 1986/038: 0462)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0782" show="new">
+          AFC 1999/014:
+                              0782
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Get up and dance. Get up! Get up and
+                           dance!" Notes from interview: This is another song that was used for the
+                           tail dancers.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR010
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Tiny Tots’ Shawl Dance Contest Song,
+                        Junior Girls’ Shawl Dance, Tiny Tots’ Fancy Dance, Little Boys’ Fancy Dance,
+                        Junior Boys’ Fancy Dance (Call Numbers: AFC 1986/038: 0472, 0474-0475, 0477,
+                        0480-0481, 0483, 0485).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Shawl Dance
+                           Contest Song (Call Number: AFC 1986/038: 0472)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0783" show="new">
+          AFC 1999/014:
+                              0783
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Hurry up. Get up." Notes from
+                           interview: This song has two words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Girls' Shawl Dance
+                           Contest Song (Warm-Up) (Call Number: AFC 1986/038: 0474)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0784" show="new">
+          AFC 1999/014:
+                              0784
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Stand up. Get up." Notes from
+                           interview: This is a "straight traditional song" without words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Girls' Shawl Dance
+                           Contest Song (Call Number: AFC 1986/038: 0475)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0785" show="new">
+          AFC 1999/014:
+                              0785
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a really old song. The song was made for a
+                           medicine man who brought his wagon into the arena. He was grateful for
+                           the song and hollered around the drum four times. He gave gifts to
+                           everyone. John Turner sang a similar song.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Fancy Dance
+                           Contest Song (Call Number: AFC 1986/038: 0477)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0786" show="new">
+          AFC 1999/014:
+                              0786
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Run fast. Run as fast as you can. The
+                           people are whistling by." Notes from interview: This is a contest song
+                           that was made for fancy dancers. The horse was running and came to a
+                           complete stop, just as the fancy dancers do.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Fancy Dance
+                           Contest Song (Call Number: AFC 1986/038: 0480)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0787" show="new">
+          AFC 1999/014:
+                              0787
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Hurry up. Go as fast as you can. Get
+                           away from the one who is chasing." Notes from interview: Anyone,
+                           including non-Omahas, could request that this song be sung. It belongs to
+                           everybody.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Fancy Dance
+                           Contest Song (Call Number: AFC 1986/038: 0481)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0788" show="new">
+          AFC 1999/014:
+                              0788
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a Kiowa song. The man who made the song
+                           requested that the Host Drum sing it. He paid the singers, as is
+                           customary when a request is made.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Little Boys' Fancy Dance
+                           Contest Song (Call Number: AFC 1986/038: 0483)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0789" show="new">
+          AFC 1999/014:
+                              0789
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When you're getting out there, holler.
+                           When you're enjoying yourself, holler." Notes from interview: The song
+                           from which this contest song was made has two words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Boys' Fancy Dance
+                           Contest Song (Warm-Up) (Call Number: AFC 1986/038: 0485)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0790" show="new">
+          AFC 1999/014:
+                              0790
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is a song without words. It can be sung for
+                           anyone.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR011
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Junior Boys’ Fancy Dance, Song for
+                        All Dancers, Song for Paul Brill Special, Regular Pow-wow Song, Junior
+                        Girls’ Shawl Dance (Call Numbers: AFC 1986/038: 0486-0487, 0489, 0493-0494,
+                        0496).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Boys' Fancy Dance
+                           Contest Song (Call Number: AFC 1986/038: 0486)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0791" show="new">
+          AFC 1999/014:
+                              0791
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Duck and run. The enemy is throwing
+                           something at you. Run away as fast as you can." Notes from interview:
+                           This song has a lot of meaning to the Omahas.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Song for All of the Dancers
+                           (Call Number: AFC 1986/038: 0487)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0792" show="new">
+          AFC 1999/014:
+                              0792
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "I don't have any friends." Notes from
+                           interview: This song was made by an old man while he was fasting. He made
+                           the song for his grandson who now lives in Germany. It conveys that a
+                           person may not have friends when he or she is in a new place. It is a
+                           song that can be used for all dancers.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Song During Paul Brill
+                           Special (Call Number: AFC 1986/038: 0489)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0793" show="new">
+          AFC 1999/014:
+                              0793
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "God, watch over us. I am the warrior,
+                           but it is hard for me to take this position." Notes from interview: Paul
+                           Brill, who used to work on the Omaha reservation, requested this song.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Regular Pow-Wow Song (Call
+                           Number: AFC 1986/038: 0493)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0794" show="new">
+          AFC 1999/014:
+                              0794
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "You made the other tribes cry."
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on One More Song Before Dancers
+                           Clear the Arena (Call Number: AFC 1986/038: 0494)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0795" show="new">
+          AFC 1999/014:
+                              0795
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR012
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 21, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 21, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Little Boys’ Fancy Dance, Tiny Tots’
+                        Traditional Cloth Dance, Little Girls’ Traditional Cloth Dance, Junior
+                        Girls’ Traditional Cloth Dance, Little Boys’ Traditional Dance (Call
+                        Numbers: AFC 1986/038: 0498, 0502, 0504, 0506-0507, 0511, 0513).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Traditional Cloth
+                           Dance Contest Song (Warm-Up) (Call Number: AFC 1986/038:
+                           0501)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0796" show="new">
+          AFC 1999/014:
+                              0796
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "The people are making a circle and are
+                           protecting their little ones." ("This is just what buffalo do.").
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Tiny Tots' Traditional Dance
+                           Contest Song (Call Number: AFC 1986/038: 0511)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0797" show="new">
+          AFC 1999/014:
+                              0797
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "You're saying the things that I'm
+                           hollering out to you. You're praising us." Notes from interview: This
+                           song, like other contest songs, is relevant to specific age groups. Even
+                           if the contest song does not have words, it does have meaning.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Little Boys' Traditional
+                           Dance Contest Song (Warm-Up) (Call Number: AFC 1986/038:
+                           0513)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0798" show="new">
+          AFC 1999/014:
+                              0798
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "When you dance, make noise out there.
+                           Put your feet out there and run. Make all the noise you can." Notes from
+                           interview: This is a song without words.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Boys' Traditional
+                           Dance Contest Song (Call Number: AFC 1986/038: 0516)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0799" show="new">
+          AFC 1999/014:
+                              0799
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Warm-Up Song for Dancers
+                           (Call Number: AFC 1986/038: 0518)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0800" show="new">
+          AFC 1999/014:
+                              0800
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on General Dancing Song (Call
+                           Number: AFC 1986/038: 0520)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0801" show="new">
+          AFC 1999/014:
+                              0801
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR013
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Giveaway Song, Grand Finale, Grand
+                        Entry, Flag Song, Whipman’s Song, Tail Dancer’s Song, Junior Boys’
+                        Traditional Dance, Women’s Shawl, Women’s Traditional Cloth Dance (Call
+                        Numbers: AFC 1986/038: 0523, 0526, 0537-0542, 0544-0545, 0554, 0557-0558,
+                        0560-0561, 0563-0564).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Giveaway Song (Call Number:
+                           AFC 1986/038: 0523)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0802" show="new">
+          AFC 1999/014:
+                              0802
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: This is one of the oldest songs that is still sung
+                           by the Omahas. This is a song without words, with the exception of
+                           "sage." (Sage is used in the Native American Church.)
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Junior Boys' Traditional
+                           Dance Contest Song (Call Number: AFC 1986/038: 0558)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0803" show="new">
+          AFC 1999/014:
+                              0803
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "I'm coming into the arena. Watch me."
+                           Notes from interview: This is an old traditional song that was saved for
+                           a contest song during the pow-wow.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Women's Traditional Cloth
+                           Dance Contest Song (Call Number: AFC 1986/038: 0564)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0804" show="new">
+          AFC 1999/014:
+                              0804
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "He was riding a horse. He fell off the
+                           horse, and then he started running. The horses are waiting, and we have
+                           just returned from war. I'm coming. Look at me."
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR014
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Women’s Traditional Buckskin Dance,
+                        Sneak Up, Memorial Song for Mr. and Mrs. John Turner (Call Numbers: AFC
+                        1986/038: 0567-0569, 0572-0573).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Women's Traditional Buckskin
+                           Dance Contest Song (Call Number: AFC 1986/038: 0568)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0805" show="new">
+          AFC 1999/014:
+                              0805
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Rufus White translates the song: "Another tribe is standing there."
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Memorial Song for Mr. and
+                           Mrs. John Turner (Call Number: AFC 1986/038: 0572)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0806" show="new">
+          AFC 1999/014:
+                              0806
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Family Song of John and
+                           Susette Turner (Call Number: AFC 1986/038: 0573)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0807" show="new">
+          AFC 1999/014:
+                              0807
+         </ref>
+        </unitid>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Notes from interview: John Turner made this song for his children. Many
+                           families have their own songs that are used during specials.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR015
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Flute Song, Hethu’shka Song, Contest
+                        Song, Women’s Shawl Contest, Women’s Traditional Coth Dance, Fancy Dancers’
+                        Songs. (Call Numbers: AFC 1986/038: 0576-0580, 0583, 0585, 0587,
+                        0590-0593)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR016
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Fancy Dancers’ Contest Song,
+                        Traditional Dancers’ Contest Song, Contest Songs, Veterans Song, Farewell
+                        Song (Call Numbers: AFC 1986/038: 0594-0595, 0599-0600, 0603-0611, 0613,
+                        0616).
+       </p>
+      </scopecontent>
+      <c04 level="file">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Commentary on Farewell Song (Call Number:
+                           AFC 1986/038: 0616)
+        </unittitle>
+        <unitid label="Digital ID">
+         <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcomaha.0808" show="new">
+          AFC 1999/014:
+                              0808
+         </ref>
+        </unitid>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR017
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Family Song, Flag Song, Grand Finale
+                        Song, Grand Entry Song, Hethu’shka, Whipman’s Song, Tail Dancer’s Song, Song
+                        for Two Tail Dancers (Call Numbers: AFC 1986/038: 0619, 0621-0622,
+                        0627-0632, 0635-0636, 0639).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR018
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Green Corn Dance Song, Hethu’shka,
+                        Pow-wow Princess Candidate Song, Contest Song for Clowns, Men’s Fancy Dance
+                        Contest Song, Men’s Traditional Contest Song (Call Numbers: AFC 1986/038:
+                        0643, 0645-0647, 0651, 0653, 0655, 0657-0658, 0661).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR019
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1983 Omaha
+                        pow-wow songs,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes playback of and commmentary on Men’s Traditional Contest Song,
+                        Fancy Dance Songs, Contest Song for Clowns, Whipman’s Song, Song during Joe
+                        Harlan Jr. Special, Contest Song, Traditional Song for Everybody,
+                        announcement of Pow-wow Princess, an unidentified song (Call Numbers: AFC
+                        1986/038: 0662, 0664-0665, 0668-0672, 0674-0675, 0679, 0683, 0687-0688,
+                        0690, 0692, 0696-0697).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR020
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary pertaining to the
+                        ten Hethu’shka songs that are included on “Omaha Indian Music” (AFC L71),
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR021
+       </container>
+       <unittitle encodinganalog="245$a">
+        Omaha language translations by Rufus White
+                        continued.,
+        <date>
+         July 23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR022
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1985 Neptune
+                        Plaza Concert,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Up to 3rd Hethu’shka song.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR023
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1985 Neptune
+                        Plaza Concert,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Neptune Plaza Concert continued. 4th Hethu’shka song with commentary by
+                        Tribal Council Chairman Elmer Blackbird and Rufus White. Chairman Blackbird
+                        also talks about the Omaha language and provides biographical information
+                        about himself.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR024
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1985 Neptune
+                        Plaza Concert and Omaha language translations of 1983 pow-wow,
+        <date>
+         July
+                           23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Neptune Plaza Concert continued. Hollis Stabler’s story, most of first
+                        Hethu’shka song (38:28 on side B). Rufus White’s translations of Omaha
+                        spoken during the 1983 pow-wow and commentary.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR025
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White’s commentary on 1985 Neptune
+                        Plaza Concert and Omaha language translations of 1983 pow-wow,
+        <date>
+         July
+                           23, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 23, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 7 1/2 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Neptune Plaza Concert continued. Tail of first Hethu’shka song on Side B,
+                        Sneak Up, Buffalo Dance, Quitting Song, closing remarks/story by Rufus White
+                        and continued Omaha language translations of 1983 pow-wow with
+                        commentary.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Interview of Morgan Lovejoy interview conducted
+                     by Alan Jabbour and Laurel McIntyre regarding recordings from AFC 1985/015,
+       <date>
+        August 15, 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       August 15, 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Morgan Lovejoy comments on the invocation he delivered at the 1985 Library of
+                     Congress concert and then provides biographical information about himself. (In
+                     providing biographical information, he concentrated on his discovering that he
+                     had tuberculosis (in the fifth grade), his experience in WWII, and his job as a
+                     groundskeeper.)
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR026
+       </container>
+       <unittitle encodinganalog="245$a">
+        Morgan Lovejoy commentary on his invocation
+                        at 1985 Neptune Plaza Concert ,
+        <date>
+         August 15, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 15, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        sound tape reel, analog, 3 3/4 ips ; 7
+                        in.
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Interview of Rufus White conducted by Alan
+                     Jabbour and Laurel McIntyre regarding recordings from AFC 1983/026,
+       <date>
+        October 17, 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       October 17, 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 audio cassette
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rufus White translates the introduction that John Turner gave during the
+                     February 24, 1983 interview with Alan Jabbour. In addition, Rufus tells about
+                     how he (Rufus) learned to sing and play the drum.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <container localtype="tape">
+        AFC 1999/014: SR027
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rufus White translates the introduction that
+                        John Turner gave during the February 24, 1983 interview with Alan Jabbour,
+        <date>
+         October 17, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        October 17, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        60-minute audio cassette.
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Graphic Materials
+     </unittitle>
+     <physdesc encodinganalog="300">
+      8 pages of description, 5 contact sheets, 184 black
+                  and white negatives, 22 black and white 8x10 prints, 2 posters
+     </physdesc>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Logs
+      </unittitle>
+      <physdesc encodinganalog="300">
+       8 pages, 5 contact sheets
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Description of photographs regarding trip to Macy, Nebraska and work done at
+                     Library of Congress with contact sheets
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Negatives,
+       <date>
+        April 11,
+                        1999-October 17, 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       April 11, 1999-October 17, 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 sheets, 184 negatives
+      </physdesc>
+      <unitid label="Item IDs:">
+       AFC 1999/014: PH001-184
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images of American Folklife Center staff, Omaha tribal informants, during April
+                     through October 1999 trips to Macy, Nebraska as well as work spaces at the
+                     Library of Congress Photographed people include: Chairman Elmer Blackbird, Alan
+                     Jabbour, Rufus White, Nato Merrill, Dennis Hastings, Joy Neihardt, John G.
+                     Neihardt, Robin Neihardt, Chuck Trimble, Janyce Falcon Hunt, Laurel McIntyre,
+                     Edward R. Thomas, Linda Robinson, Rudi Mitchell, Therese Dunn, Nikki Zeichner,
+                     Maxine White, Rachel Howard, Christa Maher, Tom Bramel, Nathan Georgitis,
+                     Morgan Lovejoy, Charles Lovejoy, Peggy Bulger, Jim Hardin, Peter Bartis, Doris
+                     Craig, and Nora Yeh. Primarily photographed by Laurel McIntyre.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Prints
+      </unittitle>
+      <physdesc encodinganalog="300">
+       9 prints
+      </physdesc>
+      <unitid label="Roll Number:">
+       86120
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints from April 1999 trip to Macy, Nebraska. Photographer, Laurel McIntyre
+                     unless otherwise noted.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour and Rufus White in Tribal
+                        Administration Building,
+        <date>
+         April 12, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 12, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH004
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour, Rufus White, and Nato Merrill
+                        in Tribal Administration Building,
+        <date>
+         April 12, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 12, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 black and white 8 x 10 prints
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH005
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour and Dennis Hastings in library
+                        at Nebraska Indian Community College, Omaha branch,
+        <date>
+         April 12,
+                           1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 12, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH013
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Dennis Hastings in library at Nebraska Indian
+                        Community College, Omaha branch,
+        <date>
+         April 12, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 12, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH014
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Bancroft Cemetery with La Flesche grave
+                        sites,
+        <date>
+         April 11, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 11, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 black and white 8 x 10 prints
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH023
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Joy Neihardt, Laural McIntyre, and Janyce
+                        Falcon Hunt at the Neihardt Center,
+        <date>
+         April 11, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 11, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH027
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photographer, Alan Jabbour
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Chuck Trimble, Robin Neihardt, Janyce Falcon
+                        Hunt, and Alan Jabbour at the Neihardt Center,
+        <date>
+         April 11, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        April 11, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH028
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Prints
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 prints
+      </physdesc>
+      <unitid label="Roll Number:">
+       BR199- BR205
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints from July 1999 trip to Macy, Nebraska. Photographer, Laurel
+                     McIntyre.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Chairman Elmer Blackbird and Alan Jabbour in
+                        meeting room, Omaha Tribal Administration Building,
+        <date>
+         July 22,
+                           1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH043
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour and Rufus White in meeting room,
+                        Omaha Tribal Administration Building,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH048
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Rufus White in meeting room, Omaha Tribal
+                        Administration Building,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH050
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Rufus White and Alan Jabbour in meeting room,
+                        Omaha Tribal Administration Building,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH053
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Rufus White in meeting room, Omaha Tribal
+                        Administration Building,
+        <date>
+         July 22, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        July 22, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 black and white 8 x 10 prints
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH054, 56, 59
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Prints
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 prints
+      </physdesc>
+      <unitid label="Roll Number:">
+       1-87158
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints from August 1999 trip to Macy, Nebraska. Photographer, Laurel
+                     McIntyre.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Omaha Harvest Celebration Pow-wow,
+        <date>
+         August 13, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 13, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH083
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Macy, Nebraska, cemetery,
+        <date>
+         August 12,
+                           1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 12, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH111
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photographs—Prints
+      </unittitle>
+      <physdesc encodinganalog="300">
+       4 prints
+      </physdesc>
+      <unitid label="Roll Number:">
+       2-87158
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints from August 1999 trip to Macy, Nebraska. Photographer, Laurel
+                     McIntyre.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Morgan Lovejoy at the Lovejoy residence,
+                        Omaha,
+        <date>
+         August 15, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 15, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 black and white 8 x 10 prints
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH140
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour, Morgan Lovejoy, and Charles
+                        Lovejoy at the Lovejoy residence, Omaha,
+        <date>
+         August 15, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 15, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH142
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Alan Jabbour and Morgan Lovejoy at the
+                        Lovejoy residence, Omaha,
+        <date>
+         August 15, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 15, 1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black and white 8 x 10 print
+       </physdesc>
+       <unitid label="Item ID:">
+        AFC 1999/014: PH147
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a" id="original_posters">
+       Posters
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 posters
+      </physdesc>
+     </did>
+     <relatedmaterial>
+      <p>
+       <emph render="bold">
+        Related material:
+       </emph>
+       <ref actuate="onrequest" show="new" target="poster_copies">
+        <emph render="italic">
+         Poster copies
+        </emph>
+       </ref>
+      </p>
+     </relatedmaterial>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Poster - 1st Fundraising Handgame with Rufus
+                        White as head singer,
+        <date>
+         August 9, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 9, 1999
+       </unitdate>
+       <unitid label="Item ID:">
+        AFC 1999/014: GR001
+       </unitid>
+       <physdesc encodinganalog="300">
+        8.5 x 14 inches
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Poster - 195th Hethushka [sic] Annual
+                        Pow-Wow,
+        <date>
+         August 12-15, 1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        August 12-15, 1999
+       </unitdate>
+       <unitid label="Item ID:">
+        AFC 1999/014: GR002
+       </unitid>
+       <physdesc encodinganalog="300">
+        11 x 17 inches
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Electronic Media
+     </unittitle>
+     <physdesc encodinganalog="300">
+      1 computer zip disk.
+     </physdesc>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Electronic Media—Zip Disk.,
+       <date>
+        August 22,
+                        2000.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       August 22, 2000.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 computer zip disk.
+      </physdesc>
+      <unitid label="Item ID:">
+       AFC 1999/014: CF001
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Administrative files related to the creation and processing of the
+                     collection.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

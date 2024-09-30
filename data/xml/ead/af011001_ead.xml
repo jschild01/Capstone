@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1978 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1978/004
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by American Folklife
+			 Center
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695012" show="new">
+       https://lccn.loc.gov/2004695012
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-02">
+     March 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1978/004
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1978 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1977/1977">
+     1978
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1977/1977" unitdatetype="inclusive">
+    1978
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    8
+		  folders
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    13 sound tape reels:
+		  analog, 7 1/2 ips, double track, mono., 10 in.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    400 photographs: black
+		  and white, color
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041">
+     French
+    </language>
+    <language encodinganalog="041">
+     Gaelic
+    </language>
+    <language encodinganalog="041">
+     and
+		  Arabic
+    </language>
+    <descriptivenote>
+     <p>
+      English, 
+		  French, Gaelic,  and
+		  Arabic
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Documentation of the
+		  monthly 1978 Neptune Concert Series, which consists of manuscript materials,
+		  sound recordings, and photographs of performances of Irish music,
+		  French-Canadian folk music and contradance, Arab music and dance, bluegrass
+		  music, zydeco music, country music, and gospel music recorded live outdoors on
+		  Neptune Plaza in front of the Thomas Jefferson Building, Library of Congress,
+		  at concerts from April through September 1978, sponsored by the American
+		  Folklife Center and the National Council for the Traditional Arts.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1978 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, audio recordings, and graphic materials that
+		  document the 1978 concert series sponsored by the American Folklife Center. The
+		  annual series, which began in 1977, features the presentation of folk
+		  traditions from many cultures. The concerts took place on the Neptune Plaza at
+		  the front of the Jefferson Building of the Library of Congress between April
+		  and September. Adverse weather conditions sometimes forced the concerts
+		  indoors. The 1978 series was produced with the assistance of the National
+		  Council for the Traditional Arts.
+   </p>
+   <p>
+    The 1978 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="15*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="20*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="25*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 28
+       </entry>
+       <entry morerows="0">
+        Joe and Antoinette McKenna
+       </entry>
+       <entry morerows="0">
+        Ireland
+       </entry>
+       <entry morerows="0">
+        Irish music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 11
+       </entry>
+       <entry morerows="0">
+        Graham Townsend and Maple Sugar
+       </entry>
+       <entry morerows="0">
+        Canada
+       </entry>
+       <entry morerows="0">
+        French-Canadian music and contradance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 25
+       </entry>
+       <entry morerows="0">
+        The Arabic Dancers
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Middle Eastern music, stick dance, belly
+					 dance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 29
+       </entry>
+       <entry morerows="0">
+        Buck White and the Down Home Boys
+       </entry>
+       <entry morerows="0">
+        Tennessee
+       </entry>
+       <entry morerows="0">
+        Bluegrass and country music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 27
+       </entry>
+       <entry morerows="0">
+        The Lawtell Playboys
+       </entry>
+       <entry morerows="0">
+        Louisiana
+       </entry>
+       <entry morerows="0">
+        Zydeco music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 31
+       </entry>
+       <entry morerows="0">
+        John Ashby and the Old Time Virginia String
+					 Band
+       </entry>
+       <entry morerows="0">
+        Viginia
+       </entry>
+       <entry morerows="0">
+        Old-Time music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 28
+       </entry>
+       <entry morerows="0">
+        Mentrotone Baptist Church Singers
+       </entry>
+       <entry morerows="0">
+        Washington, D.C
+       </entry>
+       <entry morerows="0">
+        Gospel music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1978.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20210305082606.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ashby, John, 1915-1979
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McKenna, Antoinette
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McKenna, Joe
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Townsend, Graham
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      White, Buck
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Lawtell Playboys
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Mentrotone Baptist Church Singers
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      National Council for the Traditional Arts
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Louisiana--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Washington (D.C.)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arab Americans--Virginia--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arabs--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Belly dance music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Belly dance.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1971-1980.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--Tennessee.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Country music--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Middle East.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--Canada.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Canada.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, French--Louisiana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Irish--Ireland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      French-Canadians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Old-time music--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      String band music--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Zydeco music--Louisiana.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1978
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1978 Neptune Plaza Concert Series Collection (AFC 1978/004), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        box
+       </entry>
+       <entry morerows="0">
+        Folders 1, 2, 5, 8, 11, 13, 16, 18
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        13
+       </entry>
+       <entry morerows="0">
+        10" DT mono reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        LWO 12188 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12216 R1-2 [AFS 19281- 19282]
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12226 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12293 (not located as of 2/2011)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12332 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12388 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        LWO 12421 R1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        321
+       </entry>
+       <entry morerows="0">
+        negatives
+       </entry>
+       <entry morerows="0">
+        Envelopes 1-3, 5, 7, 8, 11
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        Folders 3, 6, 9, 12, 14, 17, 19
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        5x8 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        Folders 4, 7, 15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        5x7 black-and-white photographic
+					 print
+       </entry>
+       <entry morerows="0">
+        Folder 10
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        55
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        Envelopes 4, 6, 9-10
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document) and an article describing
+					 the Neptune Plaza Concert Series.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        2
+       </container>
+       <unittitle>
+        Joe and Antoinette McKenna, 4-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, press release, and news clipping.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        5
+       </container>
+       <unittitle>
+        Graham Townsend and Maple Sugar, 5-11-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        8
+       </container>
+       <unittitle>
+        The Arabic Dancers, 5-25-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers and press release.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        11
+       </container>
+       <unittitle>
+        Buck White and the Down Home Boys, 6-29-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        13
+       </container>
+       <unittitle>
+        The Lawtell Playboys, 7-27-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, news clippings, and a list of the ensemble's
+					 players.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        16
+       </container>
+       <unittitle>
+        John Ashby and the Old Time Virginia String Band,
+					 8-31-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers and news clippings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        18
+       </container>
+       <unittitle>
+        Mentrotone Baptist Church Singers, 9-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert fliers, news clipping, and correspondence.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reel Audio
+				  Tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12188 R1-2
+       </container>
+       <unittitle>
+        Joe and Antoinette McKenna, 4-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12216 R1-2
+       </container>
+       <container>
+        [AFS 19281- 19282]
+       </container>
+       <unittitle>
+        Graham Townsend and Maple Sugar, 5-11-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12226 R1-2
+       </container>
+       <unittitle>
+        The Arabic Dancers, 5-25-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12293
+       </container>
+       <unittitle>
+        Buck White and the Down Home Boys, 6-29-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" DT mono at 7.5 ips (not located as of 2/2011).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12332 R1-2
+       </container>
+       <unittitle>
+        The Lawtell Playboys, 7-27-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12388
+       </container>
+       <unittitle>
+        John Ashby and the Old Time Virginia String Band,
+					 8-31-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="LWO">
+        12421 R1-2
+       </container>
+       <unittitle>
+        Mentrotone Baptist Church Singers, 9-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        1
+       </container>
+       <unittitle>
+        Joe and Antoinette McKenna, 4-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (35 images).
+					 Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        2
+       </container>
+       <unittitle>
+        Graham Townsend and Maple Sugar, 5-11-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white contact sheets, 35 mm (70 images).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        3
+       </container>
+       <unittitle>
+        The Arabic Dancers, 5-25-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (37 images).
+					 Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        5
+       </container>
+       <unittitle>
+        Buck White and the Down Home Boys, 6-29-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (33 images).
+					 Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        7
+       </container>
+       <unittitle>
+        The Lawtell Playboys, 7-27-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (36 images).
+					 Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        8
+       </container>
+       <unittitle>
+        John Ashby and the Old Time Virginia String Band,
+					 8-31-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white contact sheets, 35 mm (74 images).
+					 Photographed by Howard W. Marshall.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        11
+       </container>
+       <unittitle>
+        Mentrotone Baptist Church Singers, 9-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (36 images).
+					 Photographer unkown.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Folders">
+        3-4
+       </container>
+       <unittitle>
+        Joe and Antoinette McKenna, 4-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (34 images) and two
+					 copies of two 5 x 8 black-and-white photoprints. Photographed by Carl
+					 Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folders">
+        6-7
+       </container>
+       <unittitle>
+        Graham Townsend and Maple Sugar, 5-11-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two copies of two black-and-white contact sheets, 35 mm (70
+					 images) and four 5 x 8 black-and-white photoprints. Photographed by Paula
+					 Johnson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folders">
+        9-10
+       </container>
+       <unittitle>
+        The Arabic Dancers, 5-25-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (37 images) in Folder
+					 9. One 5 x 7 black-and-white photoprint in Folder 10. Photographed by Carl
+					 Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        12
+       </container>
+       <unittitle>
+        Buck White and the Down Home Boys, 6-29-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (33 images).
+					 Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folders">
+        14-15
+       </container>
+       <unittitle>
+        The Lawtell Playboys, 7-27-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (36 images) and three
+					 5 x 8 black-and-white photoprints. Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        17
+       </container>
+       <unittitle>
+        John Ashby and the Old Time Virginia String Band,
+					 8-31-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white contact sheets, 35 mm (74 images).
+					 Photographed by Howard W. Marshall.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        19
+       </container>
+       <unittitle>
+        Mentrotone Baptist Church Singers, 9-28-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black-and-white contact sheet, 35 mm (36 images).
+					 Photographer unknown.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        4
+       </container>
+       <unittitle>
+        The Arabic Dancers, 5-25-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing 20. Photographed by Carl Fleischhauer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelope">
+        6
+       </container>
+       <unittitle>
+        Buck White and the Down Home Boys,
+					 6-29-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One holder containing eight. Photographed by Howard W.
+					 Marshall.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Envelopes">
+        9-10
+       </container>
+       <unittitle>
+        John Ashby and the Old Time Virginia String Band,
+					 8-31-78.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 27. Photographed by Howard
+					 W. Marshall.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd id="appendixa" localtype="add">
+   <head althead="Dance Content">
+    Appendix A: Dance
+		  Content
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="30*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="70*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Graham Townsend and Maple Sugar
+       </entry>
+       <entry morerows="0">
+        Presentation of French-Canadian folk dance
+					 and music, with audience participation in contradance. Photographs: Folders
+					 6-7; sound recordings: LWO 12216 R1-2 [AFS 19281 - AFS 19282].
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        The Arabic Dancers
+       </entry>
+       <entry morerows="0">
+        Arab music and dance presentation. Female
+					 dancer performs raks beledi (country dance) or raks sharqi (oriental dance).
+					 She also dances with a man dressed in traditional clothes and carrying a stick,
+					 although there is no documentation of him performing raks al tahtib (stick
+					 dance). Photographs and slides: Folders 9-10, Envelopes 3-4; sound recording:
+					 LWO 12226.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

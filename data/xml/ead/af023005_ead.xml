@@ -1,0 +1,4024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af023005">
+   loc.afc/eadafc.af023005
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Hmong Community Folklife and Documentation Project
+                    collection
+    </titleproper>
+    <author>
+     Prepared by Sara Ludewig
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2023">
+     2023
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2015655510" show="new">
+       https://lccn.loc.gov/2015655510
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-07">
+     July 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Sara Ludewig
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Hmong Community Folklife and Documentation Project collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1981/1986">
+     1981-1986
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1981/1986" unitdatetype="inclusive">
+    1981-1986
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2007/026
+   </unitid>
+   <origination label="Collector">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      International House of Philadelphia. Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 2,474
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    11
+                containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    0.5 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    698 photographs :
+                color transparencies ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    5 photographs : color
+                transparencies ; half frame 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    789 photographs : film
+                negatives, black and white ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    102 photographs : film
+                negatives, black and white ; 120 format
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    296 photographs : film
+                negatives, color ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    69 photographs :
+                prints, black and white ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    9 photographs :
+                prints, color ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    73 photographs :
+                contact sheets, black and white ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    59 sound cassettes :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    44 videocassettes (U-matic
+                video) : analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    2 videocassettes (VHS) :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    2 videocassettes (Betamax)
+                : analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    2 film reels (1 in.) :
+                analog
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <language encodinganalog="041" langcode="hmn">
+      Hmong
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English and Hmong.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of audio and video field
+                recordings and photographs documenting the Hmong community in Philadelphia,
+                Pennsylvania.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Donated by Catherine Jacobs, 2007.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Hmong Community Folklife and Documentation Project collection was processed by
+                Sara Ludewig in April 2023.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Hmong Community Folklife and Documentation Project collection is open to
+                research. To request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Hmong Community Folklife and Documentation Project
+                collection (AFC 2007/026), American Folklife Center, Library of Congress,
+                Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The Hmong Community Folklife and Documentation Project was a joint effort of the
+                Folklife Center of International House and the Hmong community in Philadelphia,
+                Pennsylvania from 1981 to 1986. The staff included community coordinator Chao Song,
+                project director Carole Boughter, media coordinator Barry Dornfeld, Ellen McHale,
+                Mal O'Connor, Sally Peterson, Margaret A. Mills, Yer Hang, Bee Lo, Moua Lo, Phua
+                Xiong, Hang Sai, Chakarin Sirirathasuk, and Mai Vang Xiong. The project was funded
+                by the National Endowment for the Arts Folk Arts Program, the Pennsylvania Council
+                for the Arts, CIGNA Foundation, and the Sun Company.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection contains audio and video field recordings and photographs documenting
+                the Hmong community in Philadelphia, Pennsylvania, between 1981 to 1986.
+                Documentation covers daily life; community celebrations including Hmong New Year
+                celebrations, baby naming ceremonies, and weddings; and traditional arts like paj
+                ntaub needlework, Hmong instruments, music, and dance. Interviews with community
+                members were conducted in Hmong and some have English summaries. Also included in
+                the collection are brochures, an index to the interviews, completed recording log
+                forms, photo logs, and copies of a documentary titled
+    <title>
+     <part>
+      Years Away from Laos: The Hmong in Philadelphia.
+     </part>
+    </title>
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Hmong Community Folklife and Documentation Project collection is organized in 6
+                series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1:
+                        Interviews
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10021">
+      Series 2:
+                        Community celebrations
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10058">
+      Series 3:
+                        Traditional arts
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10084">
+      Series 4:
+                        Community daily life
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10127">
+      Series 5:
+      <title>
+       <part>
+        Years Away from Laos: The Hmong in Philadelphia
+       </part>
+      </title>
+      documentary project
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10143">
+      Series 6: Project
+                        documentation
+     </ref>
+    </item>
+   </list>
+   <p>
+    Materials are arranged chronologically within each series.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20230417140355.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dornfeld, Barry, 1958-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      International House of Philadelphia. Folklife Center.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong (Asian people)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong Americans--Pennsylvania--Philadelphia--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong Americans--Pennsylvania--Philadelphia--Social life and
+                        customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hmong New Year--Pennsylvania--Philadelphia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Needlework, Hmong--Pennsylvania--Philadelphia.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Philadelphia (Pa.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Years away from Laos: the Hmong in Philadelphia
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Ethnographic films.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1:
+                        Interviews
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR58
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10002">
+       Interview component #1,
+                            Traung session,
+       <date localtype="inclusive" normal="1984-09-08">
+        September 8, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-08" unitdatetype="inclusive">
+       September 8, 1984
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR19
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10003">
+       Chao Song interview,
+       <date localtype="inclusive" normal="1984-09-16">
+        September 16,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-16" unitdatetype="inclusive">
+       September 16, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       ML 001
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR26, SR27, SR32, SR42
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10004">
+       Xia Kao Xiong interview,
+       <date localtype="inclusive" normal="1984-10-06">
+        October 6,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-10-06" unitdatetype="inclusive">
+       October 6, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       BL+ML 001, BL+ML
+                            002
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       4 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10005">
+       Xia Kao Xiong interview
+                            at his home,
+       <date localtype="inclusive" normal="1984-10-06">
+        October 6,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-10-06" unitdatetype="inclusive">
+       October 6, 1984
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2007/026: PH066
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       35 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR29, SR52, SR25
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10006">
+       Pang Kao Hang interview,
+       <date localtype="inclusive" normal="1984-11-17">
+        November 17,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-17" unitdatetype="inclusive">
+       November 17, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       ML+YH 001, ML+YH
+                            002
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       3 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR01, SR43, SR46, SR14, SR30
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10007">
+       Xia Kao Xiong interview,
+       <date localtype="inclusive" normal="1984-11-17">
+        November 17,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$g" normal="1984-11-17" unitdatetype="bulk">
+       November 17, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       BL+PX 003, BL+PX
+                            004
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       5 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10008">
+       Pang Kao Hang interview,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH002
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       32 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR18, SR47
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10009">
+       Pang Kao Hang interview,
+       <date localtype="inclusive" normal="1985-01">
+        January
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-01" unitdatetype="inclusive">
+       January 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       ML+YH 002, ML+YH
+                            003
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       2 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR04, SR41, SR07, SR40
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10010">
+       Va Cheng Hang interview,
+       <date localtype="inclusive" normal="1985-01-12">
+        January 12,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-01-12" unitdatetype="inclusive">
+       January 12, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       BL+PX 005, BL+PX
+                            006
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       4 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10011">
+       Yer's father interview,
+       <date localtype="inclusive" normal="1985-01-26">
+        January 26,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-01-26" unitdatetype="inclusive">
+       January 26, 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH049
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       13 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR33, SR23, SR12, SR57, SR08,
+                            SR22
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10012">
+       Va Cheng Hang interview,
+       <date localtype="inclusive" normal="1985-01-27">
+        January 27,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-01-27" unitdatetype="inclusive">
+       January 27, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       BL+PX 007, BL+PX 008,
+                            BL+PX 009
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       6 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR06, SR09, SR16, SR10, SR20,
+                            SR36
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10013">
+       Pang Xiong Sirirathasuk,
+                            Yee Vang Lo, and Mao Vang Xiong interview,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       YH+PX 001, YH+PX 002,
+                            YH+PX 003
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       6 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR15, SR24, SR45, SR48
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10014">
+       Men's group interview,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       ML+BL 001, ML+BL 002,
+                            ML+BL 003
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       4 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV23, MV24, MV25, MV26
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10015">
+       Men's group interview at
+                            St. Simeon's Church,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       4 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV18, MV19, MV20
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10016">
+       Women's group interview,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       3 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV21
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10017">
+       Women's group interview
+                            and music,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR05, SR44, SR34
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10018">
+       Tong Song Moua interview,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       ML+BL 004, ML+BL
+                            005
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       3 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV36
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10019">
+       Unknown participant
+                            interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV01, MV02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10020">
+       Unknown participant
+                            interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10021">
+      Series 2: Community
+                        celebrations
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10022">
+       Back Mountain Folk Fest,
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH028
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       4 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10023">
+       Hmong meeting for New
+                            Year Halloween party,
+       <date localtype="inclusive" normal="1984-11-10/1984-11-11">
+        November 10-11,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-10/1984-11-11" unitdatetype="inclusive">
+       November 10-11, 1984
+      </unitdate>
+      <unitid label="Items IDs">
+       AFC 2007/026: PH053
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       21 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR49
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10024">
+       New Year's preparation
+                            and dance rehearsal,
+       <date localtype="inclusive" normal="1984-11-22">
+        November 22, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-22" unitdatetype="inclusive">
+       November 22, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       PX+BL (SH)
+                            005
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR55
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10025">
+       Hmong New Year Huntington
+                            Park and I-House morning,
+       <date localtype="inclusive" normal="1984-11-23">
+        November 23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       BL+HS
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR50
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10026">
+       New Year's celebration
+                            I-House 3:00pm,
+       <date localtype="inclusive" normal="1984-11-23">
+        November
+                                23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       SP+HS 001
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR31
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10027">
+       New Year's Day and
+                            preparations,
+       <date localtype="inclusive" normal="1984-11-23">
+        November
+                                23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       PX+BL 007
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR51
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10028">
+       New Year's Day (first
+                            day),
+       <date localtype="inclusive" normal="1984-11-23">
+        November 23,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       PX+BL (SH)
+                            006
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10029">
+       New Year (1985) Hunting
+                            Park,
+       <date localtype="inclusive" normal="1984-11-23">
+        November 23,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH038
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       66 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10030">
+       New Year I-House,
+       <date localtype="inclusive" normal="1984-11-23">
+        November 23,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23" unitdatetype="inclusive">
+       November 23, 1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH050
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       10 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR37
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10031">
+       International House up to
+                            4:30pm/Hmong New Year,
+       <date localtype="inclusive" normal="1984-11-23/1984-11-24">
+        November 23-24,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-23/1984-11-24" unitdatetype="inclusive">
+       November 23-24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       PX
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR28, SR53, SR59
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10032">
+       New Year's celebration,
+       <date localtype="inclusive" normal="1984-11-24">
+        November 24,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-24" unitdatetype="inclusive">
+       November 24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       SP+HS+MOC, BD+MOC,
+                            SH
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       3 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10033">
+       New Year International
+                            House,
+       <date localtype="inclusive" normal="1984-11-24">
+        November 24,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-11-24" unitdatetype="inclusive">
+       November 24, 1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH054
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       21 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR13, SR21
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10034">
+       Tou Hang and Chou Lor's
+                            wedding,
+       <date localtype="inclusive" normal="1984-12-08">
+        December 8,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-12-08" unitdatetype="inclusive">
+       December 8, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carriers">
+       PX+BL 009, BL+PX
+                            (SH)
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       2 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10035">
+       Hmong New Year '84
+                            (Mills),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH007
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       25 color slides (35 mm); 5
+                            color slides (half frame 35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10036">
+       Hmong New Year '84
+                            (Peterson),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH008
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       43 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10037">
+       Hmong New Year '84
+                            (staff),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH009
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       29 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10038">
+       Hmong New Year '84
+                            (staff),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH010
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       23 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10039">
+       Hmong New Year '84
+                            (staff),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH011
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       16 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10040">
+       Hmong New Year '84
+                            (staff),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH012
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       37 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10041">
+       Hmong New Year '84
+                            (staff),
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH013
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       26 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10042">
+       Hmong New Year
+                            celebration,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH032
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       19 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10043">
+       Community events,
+       <date localtype="inclusive" normal="1984/1985">
+        circa
+                            1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       circa 1984-1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH081
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       19 black-and-white prints
+                            (various sizes); 3 color prints (various sizes)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10044">
+       Baby naming,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH005
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       37 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10045">
+       Baby naming party,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH024
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       28 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10046">
+       Baby naming party,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH025
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       19 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10047">
+       D.C. Inaugural party
+                            (Sirirathasuk),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH014
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       65 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10048">
+       Miscellaneous events,
+       <date localtype="inclusive" normal="1985">
+        circa
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH026
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       20 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10049">
+       Miscellaneous events,
+       <date localtype="inclusive" normal="1985">
+        circa
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH031
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       5 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10050">
+       Miscellaneous events,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH042
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       22 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10051">
+       Miscellaneous events,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH070
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       36 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10052">
+       New Year's,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH051
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       36 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10053">
+       New Year's party,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH056
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       11 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10054">
+       Wedding at Pan Yor Lo's,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH062
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       30 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10055">
+       Wedding at Pan Zer Lo's,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH055
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       30 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10056">
+       Youth Halloween party,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH043
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       46 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10057">
+       Youth Halloween party,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH067
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       6 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10058">
+      Series 3: Traditional
+                        arts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10059">
+       Traditional arts,
+       <date localtype="inclusive" normal="1984/1985">
+        circa
+                            1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       circa 1984-1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH082
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       4 black-and-white prints (8x10
+                            in.)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV07, MV08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10060">
+       Xia Kao storytelling,
+       <date localtype="inclusive" normal="1985-02-09">
+        February 9,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-09" unitdatetype="inclusive">
+       February 9, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10061">
+       Hmong craft ladies,
+       <date localtype="inclusive" normal="1985-02-10">
+        February 10,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-10" unitdatetype="inclusive">
+       February 10, 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH039
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       14 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV27, MV28
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10062">
+       Paj ntaub apprenticeship,
+       <date localtype="inclusive" normal="1985-03-23">
+        March 23,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-23" unitdatetype="inclusive">
+       March 23, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10063">
+       Craft sale paj ntaub
+                            (Westerman),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH006
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       31 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10064">
+       Paj ntaub apprenticeship
+                            PCA (Peterson),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH022
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       25 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10065">
+       Paj ntaub apprenticeship
+                            PCA (Sirirathasuk),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH023
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       30 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10066">
+       Paj ntaub for PCA
+                            apprenticeship application,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH004
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       8 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10067">
+       Sheboygan exhibit paj
+                            ntaub,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH001
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       10 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10068">
+       Craft sale,
+       <date localtype="inclusive" normal="1985">
+        circa 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH034
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       15 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10069">
+       Hmong textiles,
+       <date localtype="inclusive" normal="1985">
+        circa 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH027
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       7 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10070">
+       Hmong textiles,
+       <date localtype="inclusive" normal="1985">
+        circa 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH035
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       8 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10071">
+       Cambodian and Vietnamese
+                            dancers in D.C., Xing Choa-Sam's place,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH063
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       19 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10072">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH036
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10073">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH061
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10074">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH071
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       37 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10075">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH074
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       22 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10076">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH076
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       22 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10077">
+       Dance performance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH077
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       23 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10078">
+       Dancers in Christmas
+                            party,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH058
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       10 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10079">
+       Hmong textiles,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH073
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       22 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10080">
+       Hmong textiles,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH079
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       40 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10081">
+       Musical performances,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH047
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10082">
+       Talent show,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH072
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       37 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10083">
+       <title>
+        <part>
+         Thaum Ntuj Tsim Teb Raug
+        </part>
+       </title>
+       (
+       <title>
+        <part>
+         The Beginning of the World
+        </part>
+       </title>
+       ), ESL Level 1 (photocopy),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10084">
+      Series 4: Community daily
+                        life
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10085">
+       Lea School performance,
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH029
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       3 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10086">
+       Paley performance and
+                            sale,
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH030
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       10 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10087">
+       Exterior stills,
+       <date localtype="inclusive" normal="1984-09-13">
+        September 13,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-13" unitdatetype="inclusive">
+       September 13, 1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH080
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       32 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10088">
+       Yang's party and Vang Pao
+                            assistant having dinner at Pang's home,
+       <date localtype="inclusive" normal="1984-09-18">
+        September 18, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-18" unitdatetype="inclusive">
+       September 18, 1984
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH069
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       35 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR35
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10089">
+       Meeting and choose the
+                            new leader of the youth,
+       <date localtype="inclusive" normal="1984-12-02">
+        December 2, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-12-02" unitdatetype="inclusive">
+       December 2, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       YH 003
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10090">
+       Meeting of the old group
+                            people,
+       <date localtype="inclusive" normal="1984-12-02">
+        December 2,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-12-02" unitdatetype="inclusive">
+       December 2, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       YH 005
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR56
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10091">
+       The old group meeting and
+                            the youth group,
+       <date localtype="inclusive" normal="1984-12-02">
+        December 2, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-12-02" unitdatetype="inclusive">
+       December 2, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       YH 004
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10092">
+       Community daily life,
+       <date localtype="inclusive" normal="1984/1985">
+        circa
+                                1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       circa 1984-1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH083
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       3 color prints (various
+                            sizes); 26 black-and-white prints (8x10 in.)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10093">
+       Hmong store,
+       <date localtype="inclusive" normal="1985-02-09">
+        February 9,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-09" unitdatetype="inclusive">
+       February 9, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV04, MV05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10094">
+       Paua Xiong's violin
+                            lesson at Settlement Music School,
+       <date localtype="inclusive" normal="1985-02-09">
+        February 9, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-09" unitdatetype="inclusive">
+       February 9, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV09, MV10, MV11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10095">
+       Church service at
+                            Incarnation,
+       <date localtype="inclusive" normal="1985-02-10">
+        February
+                                10, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-10" unitdatetype="inclusive">
+       February 10, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       3 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: SR02, SR03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10096">
+       Hmong church service,
+       <date localtype="inclusive" normal="1985-02-10">
+        February 10,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-10" unitdatetype="inclusive">
+       February 10, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 sound cassettes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV12, MV13, MV14
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10097">
+       Pang Yer Lor and family
+                            at home,
+       <date localtype="inclusive" normal="1985-02-10">
+        February 10,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-10" unitdatetype="inclusive">
+       February 10, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       3 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10098">
+       Skating time,
+       <date localtype="inclusive" normal="1985-02-12">
+        February 12,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-12" unitdatetype="inclusive">
+       February 12, 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH068
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       29 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV15
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10099">
+       Hua Lor working with a
+                            computer at CCP; outside of Hmong store; young people in Yang's living
+                            room,
+       <date localtype="inclusive" normal="1985-02-23">
+        February 23,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-23" unitdatetype="inclusive">
+       February 23, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV16
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10100">
+       Card playing in Yang's
+                            house; Yang at cemetery,
+       <date localtype="inclusive" normal="1985-02-23/1985-02-24">
+        February 23-24,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-23/1985-02-24" unitdatetype="inclusive">
+       February 23-24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV17
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10101">
+       Yang in cemetery; driving
+                            scenes of Philadelphia (West); women's group interview,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV22
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10102">
+       Pang Xiong Sirirathasuk
+                            playing; work at Friday, Saturday, Sunday; men's group interview - St.
+                            Simeon's,
+       <date localtype="inclusive" normal="1985-02-24">
+        February 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-02-24" unitdatetype="inclusive">
+       February 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV29
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10103">
+       Chuck playing video game;
+                            Dua Cuang and Xia Kao at Italian Market, Philadelphia cityscape; youth
+                            meeting,
+       <date localtype="inclusive" normal="1985-03-23/1985-03-24">
+        March 23-24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-23/1985-03-24" unitdatetype="inclusive">
+       March 23-24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV33
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10104">
+       Hang Cua in office at St.
+                            Simeon's; Xia Kao and Dua Chang at home,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV31
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10105">
+       Outside of Tabernacle
+                            Church; taking Dua Chang's measurements (Pang Xiong); rock and roll at
+                            Sirirathasuk's house,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV32
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10106">
+       Rock and roll at
+                            Sirirathasuk's house,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV34
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10107">
+       Xia Kao and Dua Chang at
+                            home,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV30
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10108">
+       Youth meeting; outside of
+                            Faith Tabernacle Church,
+       <date localtype="inclusive" normal="1985-03-24">
+        March 24, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-03-24" unitdatetype="inclusive">
+       March 24, 1985
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10109">
+       House interiors
+                            (Sirirathasuk/Hang),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH003
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       28 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10110">
+       Roller skating party
+                            (Peterson),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH021
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       18 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs">
+       AFC 2007/026: MV49, MV50
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10111">
+       International House,
+       <date localtype="inclusive" normal="1986-07-29">
+        July 29,
+                            1986
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986-07-29" unitdatetype="inclusive">
+       July 29, 1986
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 video tapes
+                            (1-inch)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10112">
+       Hmong desk calendar,
+       <date localtype="inclusive" normal="1986">
+        1986
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1986" unitdatetype="inclusive">
+       1986
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of manuscripts; 23
+                            black-and-white prints (various sizes)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10113">
+       At Long M's party,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH059
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       38 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10114">
+       Break dancers,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH041
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       74 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10115">
+       Break dancers,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH078
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       21 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10116">
+       Community members,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH075
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       36 color negatives (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10117">
+       Daily life,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10118">
+       Exterior stills,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH045
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10119">
+       Exterior stills,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH060
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       6 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10120">
+       Exterior stills,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH065
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       20 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10121">
+       Game night,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH052
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       72 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10122">
+       January meeting and video
+                            training,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH057
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       16 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10123">
+       Media team working, Xai's
+                            dad,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH048
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       19 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10124">
+       Preparing food and
+                            practicing the dance,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH040
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       35 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10125">
+       Xai's and Chuck's houses
+                            (extra),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH064
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       27 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10126">
+       Xia Xao Zing's house,
+                            kids,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH037
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       34 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10127">
+      Series 5:
+      <title>
+       <part>
+        Years Away from Laos: The Hmong in Philadelphia
+       </part>
+      </title>
+      documentary project
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10128">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH015
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       8 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10129">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH016
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       16 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10130">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH017
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10131">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH018
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       11 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10132">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH019
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       12 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10133">
+       Video production stills
+                            (staff),
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH020
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       13 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10134">
+       Video production stills,
+       <date localtype="inclusive" normal="1985">
+        circa
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       circa 1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH033
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       5 color slides (35
+                            mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10135">
+       The team picking
+                            pictures,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH046
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       20 black-and-white negatives
+                            (35 mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10136">
+       Video production stills,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH044
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       6 black-and-white negatives
+                            (120 format)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV38
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10137">
+       Hmong language master
+                            copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV39
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10138">
+       Master copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV40, MV41
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10139">
+       Dub copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV42, MV43, MV44
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10140">
+       3/4" copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       3 videocassettes
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV45, MV46
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10141">
+       VHS copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (VHS)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV47, MV48
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10142">
+       Hmong language Beta II
+                            copy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 videocassettes
+                            (Betamax)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10143">
+      Series 6: Project
+                        documentation
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR17
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10144">
+       Experimental tape,
+       <date localtype="inclusive" normal="1984-09-16">
+        September 16,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-16" unitdatetype="inclusive">
+       September 16, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       BL
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10145">
+       Cassette logs and blank
+                            forms,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10146">
+       Cassette logs from
+                            binder,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10147">
+       Cassette logs, plus table
+                            of contents, index, and list of keywords,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10148">
+       Contact sheets,
+       <date localtype="inclusive" normal="1984/1985">
+        circa
+                            1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       circa 1984-1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH084
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       73 black-and-white contact
+                            sheets (various sizes)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10149">
+       Publicity photos,
+       <date localtype="inclusive" normal="1984/1985">
+        circa
+                            1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       circa 1984-1985
+      </unitdate>
+      <unitid label="Item IDs">
+       AFC 2007/026: PH085
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       20 black-and-white prints
+                            (various sizes); 3 color prints (5x7 in.)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR54
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10150">
+       Experimental tape,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10151">
+       Field notes,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10152">
+       Hmong Community Folklife
+                            and Documentation Project brochure,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: MV37
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10153">
+       Learning tape,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette
+                            (U-matic)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10154">
+       Photocopies of moving
+                            image carriers,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10155">
+       Slide logs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 folder of
+                            manuscripts
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unitid label="Item ID">
+       AFC 2007/026: SR39
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10156">
+       Training session tape
+                            recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <didnote encodinganalog="500" label="Note on carrier">
+       PX+BL 008
+      </didnote>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

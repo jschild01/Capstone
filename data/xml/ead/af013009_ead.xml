@@ -1,0 +1,4661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af013009">
+   loc.afc/eadafc.af013009
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     W. Dean Edwards collection
+    </titleproper>
+    <subtitle>
+     AFC 1995/015
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Judy Ng
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2007-08">
+     August 2007
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2007700239" show="new">
+       https://lccn.loc.gov/2007700239
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2013-09">
+     September 2013
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid edited and encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-03">
+     March 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Valda Morris
+    </agent>
+    <eventdescription>
+     Revised to add an item; a painting.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    W. Dean Edwards collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1946/2002">
+     1946-2002
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1946/2002" unitdatetype="inclusive">
+    1946-2002
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1995/015
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      W. Dean Edwards and Peg Edwards
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    2619 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    11 boxes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    71 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    25 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    4 sound tape reels : analog, 3 3/4 ips ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    19 videocassettes (VHS) : sound, color ; 1/2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 videocassette (U-Matic).
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    1128 photographs (44 folders, photographic prints,
+               negatives) : black-and-white,
+               color
+               +9 folders oversize, 1 painting.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials are in
+            English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection includes manuscripts,
+            photographs, sound recordings, and videotapes documenting the activities of a
+            traditional American square and contra dance group, the Fun Finders, from Colorado
+            Springs, Colorado from 1946 to 2002. Fun Finders was organized as an exhibition
+            square-dance group by W. Dean Edwards, who directed the group from the 1940s through the
+            1980s with his wife Peggy Edwards. Sound and videorecordings of square-dance calling and
+            instructional videos for square and contra dancing are included.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20210316085710.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Edwards, Peg
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Edwards, W. Dean, 1927-2005
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Fun Finders (Dance group)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="afset">
+     <part>
+      Contra dance.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Square dance music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Square dancing--Colorado.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Square dancing--Study and teaching.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Colorado Springs (Colo.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Paintings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts, II. Sound Recordings,
+               III. Graphic Images and IV. Moving Images.
+   </p>
+   <p>
+    Additionally, photocopies of oversize items are cross-referenced to originals housed
+               in Oversize Box 10.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    This collection was donated by W. Dean Edwards in 1992. Additional materials were
+               added in 2004.
+   </p>
+  </acqinfo>
+  <custodhist encodinganalog="561">
+   <head>
+    Custodial History
+   </head>
+   <p>
+    W. Dean Edwards donated the Fun Finders Instructional and Historical Videos set of
+               six videos to the American Folklife Center in 1993 to update versions of cassettes
+               donated in 1992. In 2004, the Folklife Center received additional materials from the
+               donor, including the bulk of the manuscripts and graphic images in the collection.
+   </p>
+  </custodhist>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Judy Ng in 2007. Valda Morris revised and encoded the
+               collection finding aid in EAD format in September 2013.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    The Dean and Peg Edwards collection which provides additional serials, audio and
+               visual documentation of the Fun Finders Square Dancing is housed at the Colorado
+               Springs Pioneers Museum. An online collection inventory is available from the Online
+               Archive of Colorado Pioneers Springs Museum:
+    <ref actuate="onrequest" href="https://www.cspm.org/finding-aidsinventories/dean-and-peg-edwards-collection/" show="new">
+     http://www.cspm.org/finding-aidsinventories/dean-and-peg-edwards-collection/
+    </ref>
+   </p>
+  </relatedmaterial>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Sound cassettes and videocassettes are stored in the Motion Picture, Broadcasting and
+               Recorded Sound Division (M/B/RS). Duplication of collection materials may be governed
+               by copyright and other restrictions. The collection is open for research. To request
+               materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    W. Dean Edwards Collection (AFC 1995/015), Archive of Folk Culture, American Folklife
+               Center, Library of Congress.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        71
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        Boxes 1-3
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        25
+       </entry>
+       <entry morerows="0">
+        audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015: SR01-SR05
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015: SR10-SR25
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        4
+       </entry>
+       <entry morerows="0">
+        7-inch reel-to-reel audio tapes
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015:SR26-SR29
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        537
+       </entry>
+       <entry morerows="0">
+        color prints
+       </entry>
+       <entry morerows="0">
+        Boxes 4-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        365
+       </entry>
+       <entry morerows="0">
+        black-and-white prints
+       </entry>
+       <entry morerows="0">
+        Boxes 4-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        255
+       </entry>
+       <entry morerows="0">
+        prints
+       </entry>
+       <entry morerows="0">
+        Boxes 4-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        contact sheet
+       </entry>
+       <entry morerows="0">
+        Boxes 4-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        222
+       </entry>
+       <entry morerows="0">
+        color negatives
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        39
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        videocassette (U-Matic)
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015: MV12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        19
+       </entry>
+       <entry morerows="0">
+        videocassettes (VHS)
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015: MV01-MV11
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        AFC 1995/015: MV13-MV20
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    W. Dean Edwards was born in La Junta, Colorado, in 1927. He was first introduced to
+            square dancing in 1939 through Acacia Park community dances in Colorado Springs,
+            Colorado. From 1946 to 1947, Edwards was a member of the Pikes Peak Square Dancers, an
+            exhibition dance group organized by Bob Cook. He began calling his first square dances
+            in the late 1940s and went on to win the Colorado State Champion Square Dance caller
+            contest each year from 1951-1955. In the late 1940s, he began organizing and directing
+            the activities of the traditional square dance group, the Fun Finders, which he and his
+            wife Peggy headed for more than forty years.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection includes manuscripts, photographs, sound recordings, and videotapes which
+            document the activities from 1946 to 2002 of a traditional American square and contra
+            dance group, the Fun Finders, from Colorado Springs, Colorado. Fun Finders was organized
+            as an exhibition square dance group by W. Dean Edwards, who directed the group from the
+            1940s through the 1980s with his wife Peggy Edwards. Sound and video recordings of
+            square dance calling and instructional videos for square and contra dancing are
+            included.
+   </p>
+   <p>
+    First organized by W. Dean Edwards in the late 1940s as an exhibition square dance
+            group, the Fun Finders, and its orchestra, the Hoedown-Aires, quickly grew and provided
+            a venue for hundreds of recreational folk dancers in the Colorado Springs community.
+            This collection documents Fun Finders callers and members, as well as recreational
+            dances from the early 1940s and the expansion of the group’s activities beginning in the
+            mid 1950s. Notable dances and activities are organized by event, including participation
+            in choreographing and calling the square dance scenes for the 1978 film,
+    <emph render="italic">
+     Comes a Horseman
+    </emph>
+    (starring Jane Fonda, James Caan, and Jason
+            Robards); dance programming at the Colorado Deaf and Blind School; exhibition dance
+            programming; and a retrospective exhibit of the Fun Finders at the Colorado Springs
+            Pioneers Museum in 2001.
+   </p>
+   <p>
+    Audio recordings in the collection include eight programs from the Fun Finders Square
+            Dance television show, which aired for three years on the local CBS and NBC affiliated
+            television stations KKTV and KRDO respectively during the 1950s; five duplicate
+            recordings used in the Fun Finders Instructional and Historical Videos; and thirteen
+            commercial recordings of square dance and contra music.
+   </p>
+   <p>
+    Graphic images in the collection include photographic images from all of the
+            recreational, instructional, and special programming events, including photo images of
+            dance partners and callers. Events #34 and #44, which would have been found in folders
+            41 and 53, were not submitted with the collection.
+   </p>
+   <p>
+    Video recordings include one 6-video set, Fun Finders Instructional and Historical
+            Videos, produced by Dean and his wife Peggy Edwards in the late 1980s and early 1990s as
+            a collaboration between the Fun Finders and the Colorado Springs 11th School District.
+            Also included are recordings of square dance events in Bancroft and Acacia Park in the
+            late 1980s and 7-Up promotional commercials, from the 1960s in Colorado Springs, one of
+            which features square dancing with W. Dean Edwards as the caller.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aid
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Information pertaining to the general use and contents of items within
+                     collection. Includes media logs and audio video inventory.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence and Fun Finders Group
+                     Information,
+       <date>
+        1954-2002
+       </date>
+      </unittitle>
+      <unitdate>
+       1954-2002
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence, General Education,
+       <date localtype="inclusive" normal="1981/2003">
+        1981-2003
+       </date>
+      </unittitle>
+      <unitdate normal="1981/2003" unitdatetype="inclusive">
+       1981-2003
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Includes black-and-white annotated photocopies of various photographs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence, Instruction Videos,
+       <date localtype="inclusive" normal="1995/2001">
+        1995-2001
+       </date>
+      </unittitle>
+      <unitdate normal="1995/2001" unitdatetype="inclusive">
+       1995-2001
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence between the years of 1995-2001. Includes black-and-white
+                     annotated photocopies of various photographs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence, Thank you cards
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       A mixture of handcrafted cards and commercially crafted cards,
+       <date>
+        1988-1993
+       </date>
+       . Inludes
+                     black-and-white annotated photocopies of various photographs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Diploma Lists,
+       <date localtype="inclusive" normal="1998/1992">
+        1988-1992
+       </date>
+      </unittitle>
+      <unitdate normal="1998/1992" unitdatetype="inclusive">
+       1988-1992
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Worksheet of recipients to receive diplomas.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Event Envelopes (#1-#51)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopies of original envelopes that contained information where the
+                     performances and the instructional classes were performed.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#1): Recreational, Acacia Park, early
+       <date localtype="inclusive" normal="1940/1950">
+        1940s-1950s
+       </date>
+      </unittitle>
+      <unitdate normal="1940/1950" unitdatetype="inclusive">
+       1940s-1950s
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Includes clippings and black-and-white annotated photocopies of photographs
+                     PH001-PH007.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#2): Special Program, Pikes Peak Square
+                     Dancers,
+       <date localtype="inclusive" normal="1946/1947">
+        1946-1947
+       </date>
+      </unittitle>
+      <unitdate normal="1946/1947" unitdatetype="inclusive">
+       1946-1947
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Clippings, promotional materials, and black-and-white annotated photocopies of
+                     photographs PH008-PH023.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#3): Special Program, Broadmoor Hotel,
+       <date>
+        1951
+       </date>
+      </unittitle>
+      <unitdate>
+       1951
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photograph PH024.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#4): Instructional, First Basic Class,
+       <date>
+        1948
+       </date>
+      </unittitle>
+      <unitdate>
+       1948
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs PH025-PH028.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#5): Special Program, Fun Finders
+                     (KRDO-13 show),
+       <date>
+        1955
+       </date>
+      </unittitle>
+      <unitdate>
+       1955
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH029-PH030.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#6): Recreational, Circle Y (local
+                     YMCA),  late
+       <date>
+        1940
+       </date>
+      </unittitle>
+      <unitdate>
+       1940
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH031-PH032, late 1940s.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#7): Group, Fun Finders Exhibition Team,
+       <date localtype="bulk">
+        1975, 1980
+       </date>
+      </unittitle>
+      <unitdate unitdatetype="bulk">
+       1975, 1980
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH033-PH092.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#8): Movie,
+       <emph render="italic">
+        Comes
+                        a Horseman
+       </emph>
+       , 1977
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings highlighting Dean Edwards and other local musicians
+                     providing old tunes and teaching square dancing to James Caan and Jane Fonda
+                     who starred in the movie,
+       <emph render="italic">
+        Comes a Horseman Wild and
+                        Free,
+       </emph>
+       which was filmed in Colorado. Black-and-white annotated
+                     photocopies of photographs PH093-PH184.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#9): Instructional, Circle Y (local
+                     YMCA), 1948-1950
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH185-PH0187.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#10): Recreational, Fun Finders
+                     Festival, mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH188-PH190.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#11): Recreational and Instructional,
+                     Fun Finders, Heart of the Rockies Group, 1948-1949
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH191.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#12): Recreational and Instructional,
+                     Fun Finders, Los Colorado Group, mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH192-PH195.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#13): Recreational and Instructional,
+                     Fun Finders, Fountain Colorado Group (1), mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clipping and black-and-white annotated photocopies of photographs
+                     PH196-PH201.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#14): Recreational and Instructional,
+                     Fun Finders, Fountain Colorado Group (2), 1978-1979
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, group information, 1 black-and-white print along with
+                     black-and-white annotated photocopies of photographs PH202-PH203.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#15): Special Program, Fun Finders,
+                     Crossroads, 1979-1980
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Clippings highlighting the Summer Crossroads Square Dance company.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#16): Recreational and Instructional,
+                     Fun Finders, Pueblo Colorado Group, mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH204-PH208.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#17): Instructional, Fun Finders, YMCA,
+                     mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH209-PH224.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#18): Recreational, Fun Finders,
+                     YMCA
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH225-PH227.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#19): Recreational and Instructional,
+                     Fun Finders, YWCA Clubhouse, mid 1950s
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH229, PH234-PH242,
+                     PH244-PH248. See folder 72 for negatives: PH228, PH230-PH233.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#20): Recreational and Instructional,
+                     Fun Finders, The Barn, 1957-1958
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH249, PH252-PH259. See
+                     folder 72 for negatives: PH250-PH251; PH254.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#21): Special Program, Fun Finders,
+                     Colorado Dance Festival, 1986
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH260-PH261.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#22): News Coverage, Fun Finders, Dance
+                     as Excercise, 1985
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH262-PH264.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#23): News Coverage, Fun Finders,
+                     Lincoln and Washington B-Days, 1985
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, a copy of
+       <emph render="italic">
+        Square Dancing
+       </emph>
+       ,
+                     August 1985, along with black-and-white annotated photocopies of photographs
+                     PH265-PH270.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#24): Recreation, Fun Finders Contra
+                     Photographs, undated
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH271-PH285.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/32
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#25): Reunion, Fun Finders, Old Tyme
+                     Fiddle and Dance #1, 1976
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newpspaper clippings and black-and-white annotated photocopies of photographs
+                     PH286-PH300.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#26): Reunion—Fun Finders 1978. Old Tyme
+                     Fiddle and Dance #2, 1978
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newpspaper clippings and black-and-white annotated photocopies of photographs
+                     PH301-PH319.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#27): Reunion, Fun Finders Old Tyme
+                     Fiddle and Dance #3, 1979
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence, clippings, reunion planning, and black-and-white annotated
+                     photocopies of photographs PH320-PH332.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#28): Reunion, Fun Finders Old Tyme
+                     Fiddle and Dance #4, 1980
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Correspondence, newsppaper clippings, reunion information, and black-and-white
+                     annotated photocopies of photographs PH333-PH353.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#29): Reunion, Fun Finders Old Tyme
+                     Fiddle and Dance #5, 1981
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, reunion information, and black-and-white annotated
+                     photocopies of photographs PH354-PH391.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/37
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#30): Exhibit, Fun Finders, Swing Your
+                     Partner, 2001-2002
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, exhibit information, black-and-white annotated photocopies
+                     of photographs PH392-PH399.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/38
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#31): Special Program, Fun Finders,
+                     Pioneer Museum Exhibit Collection, 2001
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Event flyers and black-and-white annotated photocopies of photographs
+                     PH400-PH409.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#32): Instructional, Fun Finders, 1st
+                     Christian Church,
+       <date localtype="inclusive" normal="1952/1964">
+        1975-1980
+       </date>
+      </unittitle>
+      <unitdate normal="1952/1964" unitdatetype="inclusive">
+       1975-1980
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH410-PH428.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/40
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#33): Special Program, Country’s
+                     Reminisce Hitch,
+       <date>
+        May 14, 1994
+       </date>
+      </unittitle>
+      <unitdate>
+       May 14, 1994
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, event information, and black-and-white annotated
+                     photocopies of photographs PH429-PH464.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/41
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#34): Not received
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Event not submitted by donor.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/42
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#35): Callers/Instructors, Fun finders
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Newspaper clippings, event information, and black-and-white annotated
+                     photocopies of photographs, PH465-PH500, from the 1940’s, 1958, 1978 and
+                     undated.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#36): Bands/Groups/Orchestras, Fun
+                     Finders
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs,
+                     PH501-PH534, from the 1940s, 1950s, 1978, 1980s, and 2002.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/44
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#37): Special Program, Mall of the
+                     Bluffs Promotion,
+       <date>
+        August 1977
+       </date>
+      </unittitle>
+      <unitdate>
+       August 1977
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Black-and-white annotated photocopies of photographs PH535-PH543.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/45
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#38): Special Program, Colorado Deaf and
+                     Blind School,
+       <date>
+        1948
+       </date>
+      </unittitle>
+      <unitdate>
+       1948
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs
+                     PH544-PH548.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/46
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#39): Special Program, East/West
+                     Sharing,
+       <date>
+        1979
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1979
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence, clippings, event information, and black-and-white annotated
+                     photocopies of photographs PH549-PH552.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/47
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#40): Recreational, Fun Finders,
+       <date localtype="inclusive" normal="1979/1999">
+        1979-1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1979/1999" unitdatetype="inclusive">
+       1979-1999
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs
+                     PH553-PH585.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#41): Recreational, Fun Finders,
+       <date>
+        1979
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1979
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence, clippings, event information, and black-and-white annotated
+                     photocopies of photographs PH586-PH594.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#42): Informational, Letters
+       <date>
+        1954-1997
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1954-1997
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence from various organizations and individuals thanking the Fun
+                     Finders for their participation in events.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/50
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#43): Informational, Music Book and
+                     Orchestra (1 of 3),
+       <date localtype="inclusive" normal="1954/1997">
+        1954-1997
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1997" unitdatetype="inclusive">
+       1954-1997
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bound 9 1⁄2 x 7 1⁄2 48-page Orchestra Roll Book.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/51
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#43): Informational, Music Book and
+                     Orchestra (2 of 3),
+       <date localtype="inclusive" normal="1987/1990">
+        1987-1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1987/1990" unitdatetype="inclusive">
+       1987-1990
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Orchestra and Auditions. (loose leaf notes)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/52
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#43): Informational, Music Book and
+                     Orchestra (3 of 3),
+       <date localtype="inclusive" normal="1987/1990">
+        1987-1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1987/1990" unitdatetype="inclusive">
+       1987-1990
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Band Member Contacts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/53
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#44): Not received
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Event not submitted by donor.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/54
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#45): Recreational and Instructional,
+                     Fun Finders, Madison Elementary School,
+       <date localtype="inclusive" normal="1980/1986">
+        1980-1986
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1986" unitdatetype="inclusive">
+       1980-1986
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white annotated photocopies of photographs PH595-PH598.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/55
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#46): Recreational, Fun Finders, Holmes
+                     Jr. High School,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white annotated photocopies of photographs PH599-PH606.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/56
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#47): Recreational, Fun Finders, Penrose
+                     Hospital,
+       <date>
+        Undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       Undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs
+                     PH607-PH609.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/57
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#48): Recreational and Instructional,
+                     Fun Finders, Elderhostel Programs,
+       <date localtype="inclusive" normal="1990/1993">
+        1990-1993
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1990/1993" unitdatetype="inclusive">
+       1990-1993
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence, event information, handouts, participant lists, and black and
+                     white annotated photocopies of photographs PH610-PH629.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#49): Special Program, Territory Days,
+       <date localtype="inclusive" normal="1985/1990">
+        1980-1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985/1990" unitdatetype="inclusive">
+       1980-1990
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clippings and black-and-white annotated photocopies of photographs PH630-PH638.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/59
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#50): Special Programs, Fun Finders,
+       <date>
+        1948, 1977-1979, 1982,
+                     1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1948, 1977-1979, 1982,
+                     1988
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes clippings and photographs PH639-PH670 for the following events :
+                     Broadmoor Hotel (1948); Home and Garden Show (1977); El Paso City Democratic
+                     Party (1977); National Campers and Hikers Association (1978); Daniels’ Motor
+                     Special (1979); Senior Citizens Crime Prevention Fair; National Association of
+                     Retired Federal Employees National Convention (1982); White House Ranch Special
+                     (1988); Western National Bank Special.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/60
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#51): Callers, Fun Finders,
+       <date>
+        1948, 1959, 1978 and undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1948, 1959, 1978 and undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white annotated photocopies of photographs PH671-PH685.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/61
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fun Finders Advertisements,
+       <date>
+        1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1959
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Telegraph and black-and-white print PH722.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/62
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fun Finders Information,
+       <date localtype="inclusive" normal="1940/1995">
+        1940-1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940/1995" unitdatetype="inclusive">
+       1940-1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clippings, handouts and black-and-white annotated photocopies of photographs
+                     PH723-PH747.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/63
+      </container>
+      <unittitle encodinganalog="245$a">
+       Information packet, Dean Edwards
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Information pertaining to Dean Edwards.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/64
+      </container>
+      <unittitle encodinganalog="245$a">
+       Information packet, Dean and Peg
+                     Edwards
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Information pertaining to the activites of the Fun Finders including
+                     certificates, articles and proposal to the hall of fame.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/65
+      </container>
+      <unittitle encodinganalog="245$a">
+       News Clippings,
+       <date>
+        1953-1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1953-1999
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/66
+      </container>
+      <unittitle encodinganalog="245$a">
+       Programs,
+       <date>
+        1950,
+                        1955 and undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1950,
+                        1955 and undated
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/67
+      </container>
+      <unittitle encodinganalog="245$a">
+       Published Materials
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Two booklets:
+       <emph render="italic">
+        An Architectural Walking Tour of Colorado
+                        Springs: A self guided journey through history, The Caller/Teacher
+                        Manual
+       </emph>
+       , accompanied by clippings of articles and black-and-white
+                     annotated photocopies of photographs PH748-PH756.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/68
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song Transcriptions (1/3)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Song notations and lyrics.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/69
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song Transcriptions (2/3)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Song notations and lyrics.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/70
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song Transcriptions (3/3)
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       DC and E Songbook, 2 copies [unpublished].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/71
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photocopies of the content information from the
+                     reel to reel tapes boxes, AFC 1995/015: SR006-SR09
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Audiocassettes
+       </emph>
+      </unittitle>
+      <physloc>
+       All following items stored offsite.
+      </physloc>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Elementary Fundamentals of Square Dancing
+                        (1/2)
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR01
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Elementary Fundamentals of Square Dancing
+                        (2/2)
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR02
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Elementary Fundamentals
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR03
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fundamentals II, (1/2)
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR04
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fundamentals II, (2/2)
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR05
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Early American Traditional Folk Dance: Henry
+                        Ford Era
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR06
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Early American Traditional Folk Dance:
+                        Western Cowboy; Pappy Shaw Era
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR07
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV, program 1 and 2
+        <date>
+         March 11, 1955
+        </date>
+       </unittitle>
+       <unitdate>
+        March 11, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR08
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV, program 3 and 4
+        <date>
+         March 25, 1955
+        </date>
+       </unittitle>
+       <unitdate>
+        March 25, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR09
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV, program 5 and 6
+        <date>
+         April 8, 1955
+        </date>
+       </unittitle>
+       <unitdate>
+        April 8, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR10
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV, program 7 and 8
+        <date>
+         April 22, 1955
+        </date>
+       </unittitle>
+       <unitdate>
+        April 22, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR11
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 1-2
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR12
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Pretty Lady 2. Varsouvianna 3. Skaters Waltz
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 1
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR13
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Pretty Lady (duplicate of SR10)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 2
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR14
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Varsouvianna 2. Skaters Waltz (duplicates of SR10)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 1
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR15
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Varsouvianna (version 2)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 2
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR16
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Varsouvianna (version 3)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders No. 4
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR17
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        1. Skaters Waltz (version 2)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Contra Lamp/Lady- Extended
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR18
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        (2 alternating songs, 7 alternations)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Contra Lamp/Lady- Extended
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR19
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        (2 alternating songs, 3 alternations; duplicate of SR16)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Contra
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR20
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Callison Hall Jig’
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Contra
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR21
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        ‘Joy Waltz Medley’
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        ‘Oxford Minuet Waltz’
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR22
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        ‘Tennessee Waltz’ and ‘Oh
+                        Suzanna’
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR23
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        ‘Ole Tyme Fiddle’
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR24
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        (repeat recording, 13 repetitions)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        ‘Boil the Cabbage’
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: SR25
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        (repeat recording, 13 repetitions)
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        7-inch reel-to-reel audio tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV: 1-2
+        <date>
+         1950, September 19, 1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950, September 19, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR26
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV: 3-4
+        <date>
+         1950, October 3, 1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950, October 3, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR27
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV: 5-6
+        <date>
+         1950, October 10, 1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950, October 10, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR28
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Fun Finders KRDO-TV: 7-8
+        <date>
+         1950, October 24, 1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1950, October 24, 1955
+       </unitdate>
+       <unitid label="ID">
+        AFC 1995/015: SR29
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Negatives
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/72
+       </container>
+       <unittitle>
+        Events
+       </unittitle>
+       <unitid label="ID">
+        AFC 1995/015: PH002
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH007
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH029 (copy negative)
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH122-PH141
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH142-161
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH162-PH181
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH182-184
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH196
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH197-PH199; PH201
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH202
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH209-210
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH228-PH233
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH239-PH243
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH250-PH252
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH253-PH254
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH563-PH578
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH677; PH686-PH689
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH694-PH707
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH708-PH720
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH797-PH800
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH843-PH867
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH888-PH901
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH913-PH925
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH926-PH937
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH962-PH985
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH1092-1100
+       </unitid>
+       <unitid label="ID">
+        AFC 1995/015: PH1101-1119
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Prints
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/73
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#1 - #3),
+        <date>
+         1940s-1950s
+        </date>
+       </unittitle>
+       <unitdate>
+        1940s-1950s
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 black-and-white and 2 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH001-024
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/74
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#4 - #6)
+        <date>
+         1948,
+        </date>
+        <date>
+         1940’s,
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1948,
+       </unitdate>
+       <unitdate>
+        1940’s,
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        54 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PPH025 - PH032
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/75
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#7),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        54 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH033 - PH092
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/76
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#8), undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        16 black-and-white and 11 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH093 - PH184
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/77
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#9 - #16),
+        <date>
+         1948-1950,
+        </date>
+        <date>
+         1957-1958,
+        </date>
+        <date>
+         1979 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1948-1950,
+       </unitdate>
+       <unitdate>
+        1957-1958,
+       </unitdate>
+       <unitdate>
+        1979 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 black-and-white prints and 1 color
+                           print
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH185 - PH208
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/78
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#17 - #18),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 black-and-white
+                        prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH209 - PH227
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/79
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#19 - #23),
+        <date>
+         1984 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1984 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        34 black-and-white
+                        prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH228 - PH270
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/80
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#24 - #26),
+        <date>
+         1976,
+        </date>
+        <date>
+         1978,
+        </date>
+        <date>
+         1993
+        </date>
+        <date>
+         1994 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1976,
+       </unitdate>
+       <unitdate>
+        1978,
+       </unitdate>
+       <unitdate>
+        1993
+       </unitdate>
+       <unitdate>
+        1994 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 black-and-white and 28 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH271 - PH319
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/81
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#27),
+        <date>
+         1976 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1976 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        13 black-and-white
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH320 - PH332
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/82
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#28),
+        <date>
+         1980 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1980 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 black-and-white
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH333 - PH353
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/83
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#29),
+        <date>
+         1981 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1981 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH354 - PH391
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/84
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#30 - #31),
+        <date>
+         2001-2002
+                           and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        2001-2002
+                           and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        18 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH392 - PH409
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/85
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#32),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 black-and-white and 5 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH410 - PH428
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/86
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#33),
+        <date>
+         1994
+                        and
+        </date>
+        undated
+       </unittitle>
+       <unitdate>
+        1994
+                        and
+       </unitdate>
+       <physdesc encodinganalog="300">
+        35 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH429 - PH464
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/87
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#35), late
+        <date>
+         1940s
+        </date>
+        <date>
+         1979 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1940s
+       </unitdate>
+       <unitdate>
+        1979 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        11 color prints and 22 black-and-white
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH465 - PH500
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/88
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#36),
+        <date>
+         1950s
+        </date>
+        <date>
+         1958
+        </date>
+        <date>
+         1976
+        </date>
+        <date>
+         1980-1981
+        </date>
+        <date>
+         1983 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1950s
+       </unitdate>
+       <unitdate>
+        1958
+       </unitdate>
+       <unitdate>
+        1976
+       </unitdate>
+       <unitdate>
+        1980-1981
+       </unitdate>
+       <unitdate>
+        1983 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        25 black-and-white prints and 9
+                           color
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH501 - PH534
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/89
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#37-40),
+        <date>
+         1977
+        </date>
+        <date>
+         1979,
+        </date>
+        <date>
+         1980,
+        </date>
+        <date>
+         1985,
+        </date>
+        <date>
+         1990s and
+        </date>
+        undated
+       </unittitle>
+       <unitdate>
+        1977
+       </unitdate>
+       <unitdate>
+        1979,
+       </unitdate>
+       <unitdate>
+        1980,
+       </unitdate>
+       <unitdate>
+        1985,
+       </unitdate>
+       <unitdate>
+        1990s and
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 black-and-white prints and 16 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH535 - PH585
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/90
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#41-47),
+        <date>
+         1986
+        </date>
+        <date>
+         1989 and
+        </date>
+        undated
+       </unittitle>
+       <unitdate>
+        1986
+       </unitdate>
+       <unitdate>
+        1989 and
+       </unitdate>
+       <physdesc encodinganalog="300">
+        7 black-and-white and 14 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH586 - PH609
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/91
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#48),
+        <date>
+         1992 and
+        </date>
+        undated
+       </unittitle>
+       <unitdate>
+        1992 and
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH610 - PH629
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/92
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#49 - #50),
+        <date>
+         1940s,
+        </date>
+        mid
+        <date>
+         1970s,
+        </date>
+        <date>
+         1978,
+        </date>
+        <date>
+         1985,
+        </date>
+        <date>
+         1988,
+        </date>
+        <date>
+         1990s and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1940s,
+       </unitdate>
+       <unitdate>
+        1970s,
+       </unitdate>
+       <unitdate>
+        1978,
+       </unitdate>
+       <unitdate>
+        1985,
+       </unitdate>
+       <unitdate>
+        1988,
+       </unitdate>
+       <unitdate>
+        1990s and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 black-and-white and 38 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH630 - PH670
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/93
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events (#51),
+        <date>
+         1949,
+        </date>
+        <date>
+         1952,
+        </date>
+        <date>
+         1978 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1949,
+       </unitdate>
+       <unitdate>
+        1952,
+       </unitdate>
+       <unitdate>
+        1978 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        9 black-and-white and 4 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH671 - PH685
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/94
+       </container>
+       <unittitle encodinganalog="245$a">
+        Correspondence,
+        <date>
+         2001 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        2001 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        34 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH686 – PH721
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/95
+       </container>
+       <unittitle encodinganalog="245$a">
+        Fun Finders Advertisements and Information,
+        <date>
+         1977,
+        </date>
+        <date>
+         1980s,
+        </date>
+        <date>
+         1990 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1977,
+       </unitdate>
+       <unitdate>
+        1980s,
+       </unitdate>
+       <unitdate>
+        1990 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 black-and-white and 4 color
+                           prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH722 – PH747
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/96
+       </container>
+       <unittitle encodinganalog="245$a">
+        from Published Materials,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        9 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH748 – PH756
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/97
+       </container>
+       <unittitle encodinganalog="245$a">
+        Early Fun Finders,
+        <date>
+         1940s and
+                           1950s
+        </date>
+       </unittitle>
+       <unitdate>
+        1940s and
+                           1950s
+       </unitdate>
+       <physdesc encodinganalog="300">
+        33 black-and-white
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH757 – PH789
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/98
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Events,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        52 black-and-white
+                        prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH790 – PH842
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/99
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance Partners (1 of 5),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        24 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH843 – PH887
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/100
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance Partners (2 of 5),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH888 – PH912
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/101
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance Partners (3 of 5),
+        <date>
+         1989
+        </date>
+       </unittitle>
+       <unitdate>
+        1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        6 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH913 – PH925
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/102
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance Partners (4 of 5),
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color print
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH926 – PH937
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/103
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance Partners (5 of 5),
+        <date>
+         1986,
+        </date>
+        <date>
+         1989 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1986,
+       </unitdate>
+       <unitdate>
+        1989 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        24 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH938 – PH961
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/104
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        22 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH962 - PH985
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/105
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH986 - PH999
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/106
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1000 - PH1004
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/107
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event: FBI Special,
+        <date>
+         1985 and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1985 and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        9 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1005 - PH1013
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/108
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event: Music Maestro,
+        <date>
+         1984
+                           and
+        </date>
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        1984
+                           and
+       </unitdate>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1014-PH1023
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/109
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        24 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1024-PH1047
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/110
+       </container>
+       <unittitle encodinganalog="245$a">
+        Indoor Event: Sons of Norway,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1048-PH1063
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/111
+       </container>
+       <unittitle encodinganalog="245$a">
+        Outdoor Event,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1064-PH1071
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/112
+       </container>
+       <unittitle encodinganalog="245$a">
+        Outdoor Event: Bear Creek Park,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        12 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1072-PH1083
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/113
+       </container>
+       <unittitle encodinganalog="245$a">
+        Outdoor Event,
+        <date>
+         1984
+        </date>
+       </unittitle>
+       <unitdate>
+        1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1084-PH1091
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/114
+       </container>
+       <unittitle encodinganalog="245$a">
+        Outdoor Event: Winslow Court,
+        <date>
+         1988
+        </date>
+       </unittitle>
+       <unitdate>
+        1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 color prints
+       </physdesc>
+       <unitid label="ID">
+        AFC 1995/015: PH1092-PH1123
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/115
+       </container>
+       <unittitle encodinganalog="245$a">
+        Events
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color prints;
+                        oversize
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Black-and-white annotated photocopies of photographs PH1124-PH1128.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/116
+       </container>
+       <unittitle>
+        original video jackets, MV01-MV06
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Painting
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        The
+        <emph render="italic">
+         old barn
+        </emph>
+        by Hal Hildebrand
+       </unittitle>
+       <physdesc label="Extent">
+        1 14.5 x 17.5 in. painting
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Framed painting of The
+        <emph render="italic">
+         old barn
+        </emph>
+        , built in 1929-30, at Rock Ledge Ranch-Heritage Site Colorado Springs, Colorado.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series IV: Moving Images
+     </unittitle>
+     <physloc>
+      All following items stored offsite.
+     </physloc>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       Fun Finders: Traditional Square Dancing
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 U-Matic
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV12
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Elementary Fundamentals
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 100
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV01
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Fundamentals II, Part 1
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 116
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV02
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Fundamentals II, Part 2
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 60
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV03
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       History in Action
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 50
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV04
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Living History
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 30
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV05
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Henry Ford Era
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 98
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV06
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Western Cowboy and ‘Pappy’ Shaw Era
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 94
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV07
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Event #40, Bancroft Park (Aug. 29,
+                     1989)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 123
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV08
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Event #41, The “Hoedown-Aires” perform in Acacia
+                     Park (Aug. 31, 1989)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 96
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV09
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Event #49, Bancroft Territory Days
+                     (1987)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 120
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV10
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Event #49, Bancroft Territory Days
+                     (1989)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 25
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV11
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       American Folk Dance Heritage (Pioneers’ Museum)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 7
+                        minutes 33 seconds
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV13
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Pioneers’ Museum b-roll, interviews, local TV
+                     news pieces
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 7
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV14
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       The [Reminisce] Hitch and Fun Finders (May 14,
+                     1994)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 120
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV15
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Copyright statements, [Reminisce] Hitch closing
+                     statement
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 3
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV16
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Introductory banners/Contra + Square
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 4
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV17
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Alexander Film Company (1960s 7-up
+                     commercials)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 6
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV18
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Alexander Film Company (1960s 7-up
+                     commercials)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 23
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV19
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Alexander Film Company (1960s car and 7-up
+                     commercials)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 VHS cassette, sound, color; 1/2 in. 57
+                        minutes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: MV20
+      </unitid>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Oversize Items
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/117
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#1 - #5)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/118
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#6 - #10)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/119
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#11 - #16)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/120
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#17 - #20)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/121
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#21 - #29)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/122
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#30 - #35)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/123
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#36 - #39)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/124
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events (#40 - #51)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/125
+      </container>
+      <unittitle encodinganalog="245$a">
+       Events
+      </unittitle>
+      <physdesc encodinganalog="300">
+       oversize
+      </physdesc>
+      <unitid label="ID">
+       AFC 1995/015: PH1124 – PH 1128
+      </unitid>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <index>
+   <head>
+    Index
+   </head>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #1: Recreational, Acacia Park
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #2: Special Program, Pikes Peak Square Dancers
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #3: Special Program, Broadmoor Hotel
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #4: Instructional, First Basic Class
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #5: Special Program, Fun Finders (KRDO-13 show)
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #6: Recreational, Circle Y (local YMCA)
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #7: Group, Fun Finders Exhibition Team
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #8: Movie, Comes a Horseman
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #9: Instructional, Circle Y (local YMCA)
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #10: Recreational, Fun Finders Festival
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #11: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #12: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #13: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #14: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #15: Special Program, Fun Finders Crossroads
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #16: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #17: Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #18: Recreational, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #19: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #20: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #21: Special Program, Fun Finders Colorado Dance Festival
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #22: News Coverage, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #23: News Coverage, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #24: Recreation, Fun Finders Contra
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #25: Reunion, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #26: Reunion, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #27: Reunion, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #28: Reunion, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #29: Reunion, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #30: Exhibit, Fun Finders Swing Your Partner
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #31: Special Program, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #32: Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #33: Special Program, Country’s Reminisce Hitch
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #34: (not received)
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #35: Callers/Instructors, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #36: Bands/Groups/Orchestras, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #37: Special Program, Mall of the Bluffs Promotion
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #38: Special Program, Colorado Deaf and Blind School
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #39: Special Program, East/West Sharing
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #40: Recreational, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #41: Recreational, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #42: Informational, Letters
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #43: Informational, Music Book and Orchestra
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #44: (not
+               received)
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #45: Recreational and Instructional, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #46: Recreational, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #47: Recreational, Fun Finders Penrose Hospital
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #48: Recreational and Instructional, Fun Finders Elderhostel
+               Programs
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #49: Special Program, Territory Days
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #50: Special Programs, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+   <indexentry>
+    <corpname>
+     <part>
+      Events #51: Callers, Fun Finders
+     </part>
+    </corpname>
+   </indexentry>
+  </index>
+ </archdesc>
+</ead>

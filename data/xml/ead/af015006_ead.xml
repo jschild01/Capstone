@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015006" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015006
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Gheorghe and Eugenia Popescu-Judetz
+               collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2015-05">
+     May 2015
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695180" show="new">
+       https://lccn.loc.gov/2004695180
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-05">
+     May 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kate Stewart
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Gheorghe and Eugenia Popescu-Judetz
+               collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1885/2010">
+     1885-2010
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1938/1972">
+     (bulk 1938-1972)
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1885/2010" unitdatetype="inclusive">
+    1885-2010
+   </unitdate>
+   <unitdate label="Bulk Dates" normal="1938/1972" unitdatetype="bulk">
+    (bulk 1938-1972)
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1990/022
+   </unitid>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Popescu-Judetz, Gheorghe, 1911-1972
+     </part>
+    </persname>
+   </origination>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Popescu-Judetz, Eugenia
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    20069 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    23 linear ft. (57 boxes)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    48 sound tape reels : analog, mono. ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    9 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    100 photographic prints : b&amp;w.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    1 photographic print : col.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    1 film reel of 1 (100 ft.) : si., b&amp;w ; 8 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    1 film reel of 1 (55 ft.) : si., b&amp;w ; 8 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    1 film reel of 1 (86 ft.) : si., b&amp;w ; 16 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    5 videocassettes of 5 (Hi-8) : sd., col. ; 8 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Artifacts)">
+    1 plaque.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Manuscripts in Romanian and English; some
+               programs also in French and German.
+            Sound recordings in Romanian and
+               Turkish.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    An ethnographic field collection of
+            manuscript materials, graphic images, sound recordings, and moving images that document,
+            for the most part, Romanian folk dance and music as well as costume, ritual, and
+            customs. Music arrangements, choreographic diagrams, photographs, and programs document
+            activities of the state dance companies, the Ciocîrlia and Perinitza Ensembles. Oral
+            history interviews with the donor recorded in 1995 complement the materials. Manuscript
+            material includes music arrangements, music transcriptions, dance notation, field notes,
+            choreographic diagrams, ethnographies, dance indexes, analyses of meter and rhythm, and
+            maps of dance distribution. Collection includes more than 2,000 notated folk dance
+            variants, more than 3,200 audio-recorded melodies and approximately 4,000 notated dance
+            melodies. The dance notation in this collection is a unique form developed by Gheorghe
+            Popescu-Judetz to record Romanian folk dance.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20180521173231.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Forner, Michelle
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Popescu-Judetz, Eugenia
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Popescu-Judetz, Eugenia--Ethnomusicological collections.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Popescu-Judetz, Gheorghe, 1911-1972
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Popescu-Judetz, Gheorghe, 1911-1972--Ethnomusicological collections.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Orchestra "Ciocîrlia"
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Choreographers--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Choreography--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Costume--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance companies--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance notation--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnology--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dance music--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing, Romanian--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Romanian--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Turkish--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Marriage customs and rites--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Turkish--Romania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wedding music--Romania.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Romania--Rites and ceremonies.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Romania--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Judetz folk dance notation.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Dance films.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Ethnographic films.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Filmed interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Maps.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Scores.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: I. 1990-1996 Accruals; II. Library of Congress
+               oral history and documentation about the collection; III. 1997 Accrual; IV. 2004-2011
+               Accruals.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Donated by Eugenia Popescu-Judetz 1990-2011.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    Eugenia Popescu-Judetz donated materials in 1990, 1995, 1996, 1997, 2004, and
+               2011.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    After the initial donation in 1990, the collection materials went largely unprocessed
+               until 1995. From 1995 to 1996, Michelle Forner processed both the 1990 and 1995
+               donations, and also conducted an oral history interview with Eugenia Popescu-Judetz.
+               In 1997, a third batch of materials was donated by Eugenia Popescu-Judetz to
+               accompany those belonging to Series I. These items were processed in 1998 by Steven
+               Pape and were labeled as Series III. Series IV materials were processed by Kate
+               Stewart.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Access restrictions apply; some or all content is stored offsite. To request
+               materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Gheorghe and Eugenia Popescu-Judetz collection (AFC 1990/022), Archive of Folk
+               Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Popescu-Judetz, Gheorghe; Eugenia Popescu-Judetz and James Roncevic, eds.
+    <title>
+     <part>
+      Judetz folk dance notation.
+     </part>
+    </title>
+    Pittsburgh, Pa. : Duquesne University
+            Tamburitzans, Institute of Folk Arts, 1979.
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Gheorghe Popescu-Judetz (1911-1972) was born in the village of Beleti-Negreşti, Muscel
+            district, in the Muntenia region of Romania. He became interested in traditional folk
+            dancing as a teenager and began performing as principal dancer with amateur ensembles in
+            Bucharest. He obtained degrees from several universities and entered the teaching
+            profession. In the 1930s and 1940s, he was leader of and dancer with a number of
+            organizations, including Asociaţia Alunelul, the Dance Group of Liga Culturală
+            Association, and the soldier dancers from the 30th Dorobantzi Army Unit. Gheorghe toured
+            with some of these groups nationally and abroad. From 1949 to 1966, he was the
+            choreographer and director of the Ciocîrlia Ensemble dance group and made a number of
+            foreign tours with them. Throughout the years, he also served as a guest choreographer
+            for other dance groups, as a professor of folk dance at various schools and seminars,
+            and as a jury member at national folk arts competitions. In 1948 he married Eugenia
+            Marisescu, who became his dance partner and research associate. In 1950 they won first
+            prize in the International Folk Dance Competition in Prague for excellence in character
+            dance performance.
+   </p>
+   <p>
+    Early in his career, Gheorghe became fascinated with his country's abundance of
+            traditional folk dances. Consequently, he dedicated his life to compiling a complete
+            catalog and ethnographic description of all Romanian dances and variations. With no
+            formal ethnographic training, he nonetheless conducted extensive fieldwork throughout
+            Romania between 1949 and 1972, often accompanied by a music transcriber, costume
+            designer, ensemble dancers, and Eugenia. He published some of his research in ten books
+            on folk dance (see "Related Publications") as well as in many journal and magazine
+            articles. Gheorghe received numerous artistic awards throughout his life and was honored
+            in 1957 with the title “Artist Emeritus of Romania” for his work in the field of folk
+            dance.
+   </p>
+   <p>
+    Eugenia Popescu-Judetz (1925-2011) was born in Giurgiu, a town on the Danube river in
+            the Muntenia region of Romania. Although she trained in classical ballet as a child,
+            Eugenia always had an interest in traditional folk dance, which increased after she
+            married. In her early career, she was a professional dancer and folk dance teacher with
+            the National Theatre Ballet of Bucharest. She also performed with the Opera Theater and
+            taught dance in the High School of the Arts and in the Folk Ensemble of Bucharest. For a
+            time she conducted research with the Romanian Folk Lore Institute, which gave her
+            valuable training for future fieldwork. From 1954 to 1970, she was ballet master and
+            choreographer of the Perinitza Folk Ensemble and toured internationally with them.
+            Throughout these years, she taught workshops for folk dance instructors and amateur
+            choreographers, created many choreographies for film and television, conducted field
+            research, and lectured in Europe.
+   </p>
+   <p>
+    As part of a cultural exchange program, Eugenia traveled to the United States in the
+            late 1960s to teach Romanian folk dance workshops. In 1973, she returned to the United
+            States on an invitation from the Duquesne University Tamburitzans in Pittsburgh, PA. She
+            became an adjunct professor at Duquesne and continued to teach and choreograph for the
+            Tamburitzans. Eugenia received a master of arts degree in theology from Duquesne
+            University and a doctorate in theatre criticism from the University of Pittsburgh.
+   </p>
+   <p>
+    For more detailed biographical information on the Popescu-Judetzes, see folder 16,
+            "Curriculum vitae," and folder 196, "Oral history interview."
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Materials in the Gheorghe and Eugenia Popescu-Judetz Collection span the years 1938 to
+            1974 and 1995, with the largest portion dating from 1950 to 1972. The collection is
+            arranged into two major groups or series, with a third series which serves as donated
+            supplementary material. Series I, the bulk of the collection, consists of the
+            documentary materials donated by Eugenia Popescu-Judetz in 1990 and 1995, and includes
+            manuscripts, sound recordings, graphic materials, and moving images. Series II consists
+            of material about the collection, primarily generated by the American Folklife Center at
+            the Library of Congress, such as manuscript material, sound recordings, graphic
+            materials, and moving images. Series III contains additional manuscripts, photographs,
+            and ephemera that were donated by Eugenia Popescu-Judetz in 1997.
+   </p>
+   <p>
+    The Popescu-Judetzes were Romanian dancers who worked primarily as choreographers and
+            teachers. Series I contains the accumulation of decades of Gheorghe's notes, research,
+            and choreographic work as well as examples of Eugenia's dance work and research. It
+            includes at least several thousand notated folk dance variants, more than 3,200
+            audio-recorded melodies, and approximately 4,000 notated dance melodies. The bulk of the
+            recordings resulted from fieldwork Gheorghe and his team conducted to collect Romanian
+            folk dance and music in all regions of the country. Gheorghe and Eugenia used these
+            materials primarily to create choreographic works for their government-sponsored
+            performance ensembles. They were also used to develop curricula for dance workshops; to
+            publish dance instruction books, to provide methods to teach Romanian character dance,
+            and to record an endangered traditional dance culture. In addition to documenting both
+            traditional Romanian folk dance, and the work of the Ciocîrlia and Perinitza Ensembles,
+            this collection also includes theoretical research, ethnographic descriptions, and a
+            unique dance notation system developed by the Popescu-Judetzs.
+   </p>
+   <p>
+    All the fieldwork materials are interrelated, though these relationships are not always
+            readily apparent. For example, for each dance variant notated, there probably exists a
+            music of transcription for the accompanying dance tune. There also may be a sound
+            recording of the dance tune or descriptive notes about it in the field notebooks.
+            Furthermore, the dance is probably described on an index card or found on a list created
+            by the Popescu-Judetzs. Although the majority of the dance tunes and dance variants are
+            inventoried, no concordance exists that links them together.
+   </p>
+   <p>
+    The breadth of materials in this collection demonstrates a progression of scholarly
+            research and performance development and provides insight into dance research and
+            performance in communist Romania. The manuscript materials range from rough field notes
+            describing folk dance variants in various villages to colored diagrams of choreographic
+            works staged for professional performance. Since the dance notations included progress
+            from early field sketches to publication-ready drawings of fully-notated dances, the
+            development of the dance notation system itself is also documented.
+   </p>
+   <p>
+    Series I
+   </p>
+   <p>
+    The original collection was donated to the Library of Congress first in 1990, with later
+            donations in 1995 and 2002, in batches that included parts of each subseries of
+            material. Hence, one shipment might contain some music arrangements and notebooks, while
+            another shipment included the rest of the arrangements and notebooks. The inventories
+            for the sound recordings and manuscript materials (such as the dance and music
+            notations) were prepared by Eugenia Popescu-Judetz to accompany each shipment. Since she
+            was able to spend more time on the initial inventories (which included written
+            introductions), the first parts of these documents are more detailed than later
+            addendums.
+   </p>
+   <p>
+    The field transcriptions of music in this collection are contained in notebooks and on
+            pages of sheet music. The 113 music notebooks are bound, paper volumes that contain
+            holographic scores and sketches of more than 3,000 Romanian dance tunes and songs
+            transcribed in the field between 1949 and 1972. The 40 sets of sheet music (referred to
+            by the donor as "music sheets") are bound and unbound sets of pages that contain more
+            than 250 melodies transcribed between 1950 and 1970. The notebooks and music sheets were
+            used to document songs performed on request in the villages and during on-going events
+            such as festivals. They record the work of the fieldwork team's music transcriber,
+            usually Grigore Suchici (fiddler) but also Constantin Arvinte (composer/music arranger
+            for the Ciocîrlia Ensemble). The transcriber notated the melody played with the dance
+            under study, either on the spot or later by listening to a field recording. Each book
+            and music sheet set contains a number of melodies. Later, under Gheorghe
+            Popescu-Judetz's direction, Arvinte and others used these materials to write
+            arrangements and scores for their ensemble stage performances. In fact, many pages
+            contain notes and references that were added later by Gheorghe.
+   </p>
+   <p>
+    The 50 musical arrangements in the collection represent compositions that were prepared
+            for performing purposes. They consist of harmonizations, scores, and compositions
+            created by various composers for dance performances of the Ciocîrlia and Perinitza
+            Ensembles, primarily based on fieldwork conducted by the Popescu-Judetzes. Some of the
+            arrangements were used for rehearsals and to teach Romanian folk dances and suites to
+            other dance ensembles.
+   </p>
+   <p>
+    The notation that documents the Romanian folk dance in this collection is found in the
+            field notebooks and notation files. Gheorghe created this unique system of notation out
+            of his need to record the dances in the field accurately and quickly, at villages,
+            festivals, and competitions. From 1949 to 1955, Gheorghe worked on a system that focused
+            on footwork, including the positions and movements of the passive (non-weight-bearing)
+            foot. The system could be used to make quick notes in the field or notate complete
+            dances. Gheorghe refined the system and used it in his choreography work for the
+            ensemble, published books, and teaching. Eugenia also used the notation for the same
+            purposes and continued to draw on it when teaching and choreographing Romanian folk
+            dance in the United States. After further developing the system, she published Judetz
+            Folk Dance Notation in 1979 (see folder 32).
+   </p>
+   <p>
+    Gheorghe Popescu-Judetz's 46 field notebooks are rich in dance notation and other
+            information. He used the notebooks, which date between 1950 and 1970, to document his
+            dance research and professional activities. They serve as the primary source of field
+            documentation and provide an insight into his life and creative process. Arranged in
+            random order (some volumes contain multiple years), the notebooks contain a variety of
+            information such as names and addresses of informants; quick sketches of dance notation
+            accompanied by written descriptions; notes from his participation on dance competition
+            juries; notes describing performance groups and dances at folk festivals; sketches of
+            costumes, textile patterns, and motifs; and descriptions of informants documented in
+            photographs. The notebooks also contain information relating to professional ensemble
+            activities, such as dance rehearsal schedules, casting lists, and production notes.
+   </p>
+   <p>
+    The 33 dance notation "files" (the donor's groupings) contain hundreds of leaves
+            primarily of notation and written descriptions of at least several thousand Romanian
+            folk dance variants, from rough drafts to final forms. They were created by Gheorghe
+            Popescu-Judetz between 1949 and 1972, either in the field or transcribed later, and
+            include camera-ready versions prepared by a cartographer for publication. The dances are
+            grouped mainly by region, and represent field work choreographed for the stage. Of
+            special note are seven files of caluş dance variants, and the staging diagrams for
+            choreographic works Gheorghe created for performing ensembles, predominantly
+            Ciocîrlia.
+   </p>
+   <p>
+    The dance notation files include materials other than notation. "Nunta la Beleţi," a
+            26-page, handwritten manuscript, describes a wedding ritual in Beleţi village
+            (Gheorghe's birthplace), Muscel district, as it was performed between 1900 and 1940.
+            Gheorghe formally researched this event between 1960 and 1964. The ethnographic
+            documentation includes descriptions of the participants, costuming, orations, dance,
+            music lyrics, and explanations of the rituals involved. "Mic Dictionar al Jocurilor
+            Populare din Zonele Folclorice Neamt si Bacau" (trans., Small Dictionary of Folk Dances
+            from Neamt in Bacau District) is a 421-page handwritten manuscript. Gheorghe wrote it as
+            part of a larger ethnographic work on the folk arts of the Bicaz-Neamt area, Moldavia,
+            that was never published. Drawn from his 17 years of research, it contains an
+            alphabetically-arranged description of almost 800 dance variants from the area,
+            including type of dance, posture, place, dance name synonyms, accompanying lyrics or
+            chants, etc. The collection also includes graphs, maps, and indexes intended to
+            accompany these dance variants. The last nine files in the series are devoted to
+            Gheorghe's work on the metric and rhythmic analysis of Romanian traditional dance. He
+            theorized that the roots of Romanian dance rhythms share a common origin with classical
+            Greek poetic meters. The files contain classifications of dance rhythms; taxonomic,
+            rhythmic, and metric diagrams; and specific dance examples.
+   </p>
+   <p>
+    One of Gheorghe Popescu-Judetz's goals was to make a general catalog of all Romanian
+            folk dances and their variants. To that end, with Eugenia's assistance, he drew on the
+            research described above to compile iterations of lists of dances on index cards and
+            paper sheets. Dances listed individually on index cards often include descriptive
+            information. At least 4,000 dances are listed. Some of this material appeared in the
+            glossaries and indexes of his published books.
+   </p>
+   <p>
+    The sound recordings in Series I were made in the field by Gheorghe and Eugenia
+            Popescu-Judetz between 1950 and 1972. They contain more than 3,200 melodies of Romanian,
+            Turkish, and East Indian folk and traditional music, with some informant interviews. The
+            bulk of the recordings are Romanian dance tunes, songs, and ballads performed by folk
+            musicians, singers, and ensembles from all regions of Romania and Yugoslavian Banat. The
+            collection also includes recordings made by Eugenia of Turkish folk music in Dobrudja,
+            Dervish ceremonies in Anatolia, and samples of folk and classical music in India.
+   </p>
+   <p>
+    The 118 graphic images in this series are primarily black-and-white photo prints of
+            various sizes and include some collages made of photo prints, drawings, postcards, and
+            text. They are arranged in five groups: fieldwork, Gheorghe Popescu-Judetz and the
+            Ciocîrlia Ensemble, portraits of the Popescu-Judetzes, sketches of the Doiul dance from
+            Banat, and Eugenia Popescu-Judetz. The images span the years 1938 to 1974, with the bulk
+            dating between 1950 and 1970. The collage pages, created by Gheorghe, were taken from
+            scrapbooks he kept to document fieldwork projects, dance competitions, and world dance
+            tours.
+   </p>
+   <p>
+    The moving images in the collection consist of three short, silent, black-and-white
+            films (two 8 mm and one 16 mm). They provide a glimpse of several dance styles and
+            costuming as well as views of the Romanian countryside.
+   </p>
+   <p>
+    Series II
+   </p>
+   <p>
+    Series II consists of materials about the collection generated by the Library of
+            Congress. It contains manuscript material, sound recordings, graphic materials, and
+            video recordings of the March 1995 interviews conducted by Michelle Forner with donor
+            Eugenia Popescu-Judetz. The interviews provide background information on the collection,
+            biographical information about the Popescu-Judetzes, and further insight into the
+            relationships between the materials in the collection.
+   </p>
+   <p>
+    Series III
+   </p>
+   <p>
+    Series III consists of additions donated in 1997 to complete the original collection in
+            Series I. Eugenia Popesu-Judetz submitted the remainder of the dance notations collected
+            by her and her husband. The series also contains fieldnotes organized into dance
+            indexes. There are also some materials such as postcards, photographs, publicity
+            pamphlets, and sheet music organized by Eugenia Popescu-Judetz into the category of
+            ephemera.
+   </p>
+   <p>
+    Series IV
+   </p>
+   <p>
+    Series IV contains materials donated by Eugenia Popescu-Judetz in 2004 and 2011, and
+            includes field notebooks with dance notation, writings by Eugenia Popescu-Judetz,
+            postcards, index cards with ethnographic notes by the linguist Bogdan Petriceicu Hasdeu
+            from 1885, and a plaque presented to Eugenia Popescu-Judetz in 1989 in memory of
+            Gheorghe Popescu-Judetz from the Duquesne University Tamburitzans.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: 1990-1996 Accruals
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Administrative Materials
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Collection guides,
+        <date localtype="inclusive" normal="1995/2002">
+         1995, 1998,
+                        2002
+        </date>
+       </unittitle>
+       <unitdate normal="1995/2002" unitdatetype="inclusive">
+        1995, 1998,
+                        2002
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/2-4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of music notebooks
+       </unittitle>
+       <physdesc encodinganalog="300">
+        200 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by notebook
+                        number.Includes melody title and genre, transcriber, place of recording,
+                        composer (if appropriate), instrument, singer/musician, and date of
+                        recording. See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx3">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of music sheets
+       </unittitle>
+       <physdesc encodinganalog="300">
+        16 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by sheet number. Each
+                        multi-leaved "sheet" contains a number of melodies. Includes transcriber,
+                        melody title, place of recording, musician, instrument, and date of
+                        recording. See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx4">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of music arrangements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        3 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by arrangement
+                        number. Includes name of arrangement, composer, and date of recording.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of field notebooks-dance
+                        notation
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by notebook
+                        number.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of dance notation files
+       </unittitle>
+       <physdesc encodinganalog="300">
+        17 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by file number.
+                        Includes descriptions of types of dances by region or dance style, title of
+                        dance or choreography, and/or general description of contents (i.e.,
+                        glossary, rhythmic diagrams). See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx2">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/9-11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventory of sound recordings
+       </unittitle>
+       <physdesc encodinganalog="300">
+        244 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. In numerical order by original tape
+                        number, with a listing of the reference copies. Includes melody title and
+                        genre, singers and/or musicians, place of recording, instruments, and date
+                        of recording. See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx1">
+         PDF
+        </ref>
+        copy of inventory. A list of corrections to the inventory
+                        is available in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Audiotape concordance
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Eugenia Popescu-Judetz. Concordance of original audiotapes and
+                        listening copies. Includes handwritten concordance prepared by Eugenia
+                        Popescu-Judetz without AFC numbers.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/13-14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Inventories of sound recordings by tape
+                        reel
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Prepared by Gheorghe and Eugenia Popescu-Judetz. Originals and photocopies
+                        of typed and handwritten sheets listing the contents of each audiotape reel.
+                        Originals were housed with the tape reels.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous inventories
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Inventories of dance indexes, photo prints, films, and published LPs (LPs
+                        transferred to Recorded Sound Division).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum vitae
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Curriculum vitae of Gheorghe Popescu-Judetz and Eugenia Popescu-Judetz.
+                        Prepared by Eugenia Popescu-Judetz. Includes miscellaneous biographical
+                        information.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Music Transcriptions
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2-6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Music notebooks,
+        <date localtype="inclusive" normal="1949/1972">
+         1949-1972
+        </date>
+       </unittitle>
+       <unitdate normal="1949/1972" unitdatetype="inclusive">
+        1949-1972
+       </unitdate>
+       <physdesc>
+        113 notebooks on 9 1⁄2 x 6 1⁄2 bound, score music
+                        paper
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Arranged numerically in the collector's order. Contain holograph sketches
+                        and scores of more than 3,000 melodies transcribed in the field.
+                        Predominantly dance tunes and songs. Identifying information includes melody
+                        title, transcriber, informant/musician, instruments, date, and place of
+                        recording (in Romanian). See Folders 2-4 for inventory and
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx3">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7-8
+       </container>
+       <container localtype="Folder">
+        17-23
+       </container>
+       <unittitle encodinganalog="245$a">
+        Music sheets,
+        <date localtype="inclusive" normal="1950/1970">
+         1950-1970
+        </date>
+       </unittitle>
+       <unitdate normal="1950/1970" unitdatetype="inclusive">
+        1950-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Forty sets of 9 1⁄2 x 14 bound and
+                           unbound, multiple-leaved music sheets
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Arranged numerically in the collector's order. Contain holographic sketches
+                        and scores of more than 250 melodies transcribed in the field. Predominantly
+                        dance tunes and songs. Identifying information includes melody title,
+                        transcriber, informant/musician, instruments, date and place of recording
+                        (in Romanian). See Folder 5 for inventory or
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx4">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        9-10
+       </container>
+       <container localtype="Folder">
+        24-31
+       </container>
+       <unittitle encodinganalog="245$a">
+        Musical arrangements,
+        <date localtype="inclusive" normal="1949/1969">
+         1949-1969
+        </date>
+       </unittitle>
+       <unitdate normal="1949/1969" unitdatetype="inclusive">
+        1949-1969
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Fifty sets of 9 1⁄2 x 14 bound and
+                           unbound, multiple-leaved sets of sheet music
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Arranged numerically in the collector's order. Contains holographic
+                        harmonizations and scores created for performances by Ciocîrlia and
+                        Perinitza Ensembles. Each score has a title, composer, and often the date of
+                        composition or transcription (in Romanian). See Folder 6 for inventory.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Dance Notation
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Field notebooks-dance notation,
+        <date localtype="inclusive" normal="1950/1970">
+         1950-1970
+        </date>
+       </unittitle>
+       <unitdate normal="1950/1970" unitdatetype="inclusive">
+        1950-1970
+       </unitdate>
+       <physdesc>
+        Forty-six bound (hard- and soft-covered) paper notebooks,
+                           predominantly 5 3/4 x 8".
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Arranged numerically in the collector's order. Used by Gheorghe
+                        Popescu-Judetz in the field. Contain his handwritten notes, dance notations,
+                        sketches, etc. (in Romanian). Contributions occasionally made by Eugenia
+                        Popescu-Judetz. See Folder 7 for inventory.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        16/32
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance notation books
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        One copy of
+        <title>
+         <part>
+          Judetz Folk Dance Notation
+         </part>
+        </title>
+        , created by Gheorghe
+                        Popescu-Judetz. Edited and revised by Eugenia Popescu-Judetz and James
+                        Rocevic. Pittsburgh PA: Duquesne University Tamburitzans, Institute of Folk
+                        Arts, 1979. GV1587.J82. Bound, paper-covered publication that explains the
+                        Judetz dance notation system. Includes notation exercises.
+       </p>
+       <p>
+        Popescu-Judetz, Gheorghe.
+        <title>
+         <part>
+          Brîul (Dance on Belt)
+         </part>
+        </title>
+        . Bucharest:
+                        Editura de Stat Pentru Literatura si Arta, 1956.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        16-24
+       </container>
+       <container localtype="Folder">
+        33-156
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance notation files,
+        <date localtype="inclusive" normal="1949/1952">
+         1949-1952
+        </date>
+       </unittitle>
+       <unitdate normal="1949/1952" unitdatetype="inclusive">
+        1949-1952
+       </unitdate>
+       <physdesc>
+        Thirty-three files of 8 1/4 x 11 3/4" paper sheets of dance
+                           notation and description
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mic Dictionar al Jocurilor Populare din Zonele Folclorice Neamt si Bacau
+                        (trans., Small Dictionary of Folk Dances from Neamt in Bacau District).
+                        Originals and photocopies. Arranged numerically by file number in the
+                        collector's order. Prepared by Gheorghe Popescu-Judetz. The bulk of the
+                        material is handwritten dance notation, from sketches and rough drafts
+                        through publication-ready final versions. Descriptive information may
+                        include name of dance/variant, place, informant, and date. Dance notations
+                        usually grouped by region or dance type. Files also contain choreography for
+                        performances, including staging diagrams; a manuscript of an ethnographic
+                        description of a wedding ritual (23 pages); a manuscript of a glossary of
+                        dances from Bicaz, Moldavia (421 pages); and classifications, diagrams, and
+                        analyses of rhythm and meter patterns (in Romanian). See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx2">
+         PDF
+        </ref>
+        copy of inventory.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Dance Index
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        25-26
+       </container>
+       <unittitle encodinganalog="245$a">
+        Index cards,
+        <date localtype="inclusive" normal="1950/1970">
+         1950-1970
+        </date>
+       </unittitle>
+       <unitdate normal="1950/1970" unitdatetype="inclusive">
+        1950-1970
+       </unitdate>
+       <physdesc>
+        Eight stacks of 6 x 4" sheets of paper containing information
+                           on individual dances.
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Arranged numerically in the collector's order, with several groupings by
+                        geographical region. Created by Gheorghe Popescu-Judetz, with some
+                        assistance from Eugenia and others. Primarily based on information collected
+                        in the field and documented in sources listed above. For the most part, each
+                        sheet contains handwritten or typed information on a single dance type,
+                        including variants, locations, and other descriptive information (in
+                        Romanian). The eighth stack (Box 26) consists of two-sided 8 x 11 3/4"
+                        sheets of thin paper, each containing handwritten copies of multiple index
+                        cards that since have been destroyed.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        27
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 1,
+        <date localtype="inclusive" normal="1965/1970">
+         1965-1970
+        </date>
+       </unittitle>
+       <unitdate normal="1965/1970" unitdatetype="inclusive">
+        1965-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Bound, alphabetically-tabbed 8 1⁄2 x 11
+                           3/4" volume
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Contains list of more than 4,000 dance names. Within each tabbed section,
+                        dance names and locations are listed in random order (in Romanian).
+                        Handwritten by Gheorghe Popescu-Judetz. Primarily based on information
+                        collected in the field and documented in other sources in the collection.
+                        Contains notes on informants and so forth in the back.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        28/167-168
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 2,
+        <date localtype="inclusive" normal="1954/1956">
+         1954-1956
+        </date>
+       </unittitle>
+       <unitdate normal="1954/1956" unitdatetype="inclusive">
+        1954-1956
+       </unitdate>
+       <physdesc encodinganalog="300">
+        34 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Manuscript listing of dances from Bicaz, in the Moldavia region. Typewritten
+                        with handwritten corrections (in Romanian). Based on materials collected in
+                        the field 1954 to 1956 and documented in other sources listed above. Dances
+                        indexed by name, place, and variants. Created by Gheorghe Popescu-Judetz to
+                        accompany unpublished volume on folk dances from the Bicaz area (see Folders
+                        113-136, 174-178).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        28/169-173
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listings 3-4
+       </unittitle>
+       <physdesc encodinganalog="300">
+        Two sets of paper sheets (one 8 1/2 x 11
+                           3/4" and one 6 x 8 1/2", respectively)
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Contains drafts and worksheets of dance listings from all regions.
+                        Handwritten by Gheorghe Popescu-Judetz (in Romanian).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Box-Folder">
+       28/174-178
+      </container>
+      <unittitle encodinganalog="245$a">
+       Graphs and Maps
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Two multi-paged, bound, handwritten graphs
+                        and three hand-drawn maps
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Contains analyses of dances from the Bicaz area (originals and photocopies).
+                     Prepared by Gheorghe Popescu-Judetz to accompany the manuscript on folk dances
+                     from this area (see folders 113-136, 167-168). The graphs depict
+                     characteristics of 213 dances (such as formation, positions, function,
+                     location) and the frequency by location of 90 dances, respectively. The maps
+                     portray 1) the "interference and circulation" of dances (transmission and
+                     dissemination), 2) the transmission of one dance type (ardelesc), and 3) zones
+                     of "interpenetration" (influences from other regions).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Box-Folder">
+       28/179-180
+      </container>
+      <unittitle encodinganalog="245$a">
+       Scenarios,
+       <date localtype="inclusive" normal="1960/1964">
+        1960-1964
+       </date>
+      </unittitle>
+      <unitdate normal="1960/1964" unitdatetype="inclusive">
+       1960-1964
+      </unitdate>
+      <physdesc encodinganalog="300">
+       Two handwritten
+                     manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Describing scenarios for two stage productions by Eugenia Popescu-Judetz (in
+                     Romanian). The Dobrudja Suite scenario was created in 1960 for the Perinitza
+                     Ensemble. The Moldavian Folk Theater scenario was created in 1964 for the
+                     Ciocîrlia Ensemble.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Box-Folder">
+       28/181-182
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dance Notes,
+       <date localtype="inclusive" normal="1966/1972">
+        1966-1972
+       </date>
+      </unittitle>
+      <unitdate normal="1966/1972" unitdatetype="inclusive">
+       1966-1972
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Draft of introduction to unpublished volume describing 200 folk dances from
+                     Olt, Muntenia region (in Romanian). Handwritten and typewritten by Gheorghe
+                     Popescu-Judetz, based on research conducted 1966-1972.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Ephemera
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/183-184
+       </container>
+       <unittitle encodinganalog="245$a">
+        Show programs,
+        <date localtype="inclusive" normal="1938/1974">
+         1938-1974
+        </date>
+       </unittitle>
+       <unitdate normal="1938/1974" unitdatetype="inclusive">
+        1938-1974
+       </unitdate>
+      </did>
+      <scopecontent>
+       <p>
+        Miscellaneous programs of performances in Romania and elsewhere of the
+                        Perinitza Ensemble and other groups that feature choreographic works by
+                        Gheorghe and Eugenia Popescu-Judetz. In Romanian, Turkish, French, German,
+                        and English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/185-188
+       </container>
+       <unittitle encodinganalog="245$a">
+        Show programs, Tamburitzans,
+        <date localtype="inclusive" normal="1971/1980">
+         1971-1980
+        </date>
+       </unittitle>
+       <unitdate normal="1971/1980" unitdatetype="inclusive">
+        1971-1980
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Performance programs of the Duquesne University Tamburitzans, 35th to 43rd
+                        seasons. Arranged chronologically. Includes choreographic works by Eugenia
+                        Popescu-Judetz.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/189
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publicity,
+        <date localtype="inclusive" normal="1968/1971">
+         1968-1971
+        </date>
+       </unittitle>
+       <unitdate normal="1968/1971" unitdatetype="inclusive">
+        1968-1971
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies of news clippings documenting the international activities of
+                        Eugenia Popescu-Judetz and the Perinitza Ensemble. In English, Finnish,
+                        French, and Turkish.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/190
+       </container>
+       <unittitle encodinganalog="245$a">
+        Printed music
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The music was used by the Popescu-Judetzes in workshops where they taught
+                        folk dances to teachers from folk art schools and to amateur
+                        choreographers.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/191-192
+       </container>
+       <unittitle encodinganalog="245$a">
+        Album jackets and sheet music
+                        covers
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Photocopies of published album jackets and sheet music covers of Romanian
+                        folk dance music. Original materials transferred to Recorded Sound Division.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/193
+       </container>
+       <unittitle encodinganalog="245$a">
+        Album notes
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies of portions of the booklets accompanying "Antologia Muzicii
+                        Populare Romanesti" (trans., Anthology of Romanian Folk Music), volumes one
+                        and two. Describes folk instruments, songs, dances, and customs in English.
+                        Original discs and booklets transferred to Recorded Sound Division.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/194-195
+       </container>
+       <unittitle encodinganalog="245$a">
+        Costume collection, Kent State
+                        University
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Accession reports and inventory lists from the Kent State University Museum
+                        collection of costumes, artifacts, and photographs donated by Eugenia
+                        Popescu-Judetz. Includes items on long-term loan from the Duquesne
+                        University Tamburitzans' Popescu-Judetz Collection of Romanian Costumes and
+                        Artifacts. Also includes two copies of the brochure, "The Romanian
+                        Exhibition," published by the Kent State University Museum that contains
+                        photographs of costumes donated by Eugenia Popescu-Judetz.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        29/201-202
+       </container>
+       <unittitle encodinganalog="245$a">
+        Writings
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Popescu-Judetz, Eugenia. “Disemic Features in the Romanian Folk Musical
+                        ‘Jienii.’” Jersey, Channel Islands: Dance Studies 17 (1993): 77-84. Dance
+                        notation used for article is in Folder 202. Popescu-Judetz, Eugenia. Sixty
+                        Folk Dances of Romania. Pittsburgh, Pennsylvania: Duquesne University
+                        Tamburitzans, Institute of Folk Arts, 1979. GV1685.P67
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings,
+       <date localtype="inclusive" normal="1950/1972">
+        1950-1972
+       </date>
+      </unittitle>
+      <unitdate normal="1950/1972" unitdatetype="inclusive">
+       1950-1972
+      </unitdate>
+      <physdesc>
+       Thirty-three 5" original reels; three 6" original reels; two 6
+                        and 3/4" original reels; thirteen 7" original reels
+      </physdesc>
+      <unitid label="ID">
+       AFC 1990/022: SR1-SR48
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original field recordings made by Gheorghe and Eugenia Popescu-Judetz. Arranged
+                     numerically in the collector's order. Listening copies are available in the
+                     Folklife Reading Room. See folders 9-11 for inventory or
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015006.apx1">
+        PDF
+       </ref>
+       copy of inventory.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Materials
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        30-32, 36-39
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original prints
+       </unittitle>
+       <physdesc>
+        117 original black-and-white photographic prints of various
+                           sizes and one color print
+       </physdesc>
+       <unitid label="ID">
+        AFC 1990/022: P1-P118
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Photographed by Gheorghe Popescu-Judetz and others. Arranged in rough
+                        chronological order in the following categories: fieldwork, Gheorghe
+                        Popescu-Judetz and Ciocîrlia Ensemble, portraits of Gheorghe and Eugenia
+                        Popescu-Judetz, series for sketches of the Doiul dance from Banat, and
+                        Eugenia Popescu-Judetz. See Folder 15 for inventory. Reference photographic
+                        prints and copy negatives are available.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        30, 32, 36
+       </container>
+       <container localtype="Folder">
+        198-200
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photocopies of original prints
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Moving Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Gheorghe Popescu-Judetz, in street clothes,
+                        demonstrating Brîul and Barbuncul dances,
+        <date localtype="inclusive" normal="1966">
+         1966
+        </date>
+       </unittitle>
+       <unitdate normal="1966" unitdatetype="inclusive">
+        1966
+       </unitdate>
+       <physdesc>
+        1 reel, 8 mm, 100 ft., silent, black and white film
+       </physdesc>
+       <unitid label="ID">
+        AFC 1990/022: MV6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Filmed by Marty Koenig in Dobrudja, Romania. Koenig later gave this copy of
+                        the film to Eugenia Popescu-Judetz.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Informants Liana Tircolea and Gheorghe
+                        Covaci, dressed in costume, demonstrate a couple dance, Suita de pe Somes,
+        <date localtype="inclusive" normal="1955">
+         1955
+        </date>
+       </unittitle>
+       <unitdate normal="1955" unitdatetype="inclusive">
+        1955
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 reel, 16 mm, 55 ft., silent, black and
+                           white film
+       </physdesc>
+       <unitid label="ID">
+        AFC 1990/022: MV7
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Filmed by Gheorghe Popescu-Judetz in Transylvania.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various informants in costume, outdoor
+                        scenes, and panoramic views,
+        <date localtype="inclusive" normal="1955">
+         1955
+        </date>
+       </unittitle>
+       <unitdate normal="1955" unitdatetype="inclusive">
+        1955
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 reel, 8 mm, 86 ft., silent, black and
+                           white film
+       </physdesc>
+       <unitid label="ID">
+        AFC 1990/022: MV8
+       </unitid>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Filmed by Gheorghe Popescu-Judetz in Moldavia, Muntenia, and Oltenia.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Oral History Interview with Eugenia
+                  Popescu-Judetz conducted by Michelle Forner,
+      <date localtype="inclusive" normal="1995">
+       1995
+      </date>
+     </unittitle>
+     <unitdate normal="1995" unitdatetype="inclusive">
+      1995
+     </unitdate>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       29/196
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscripts,
+       <date localtype="inclusive" normal="1995-03-28/1995-03-30">
+        March 28-30,
+                        1995
+       </date>
+      </unittitle>
+      <unitdate normal="1995-03-28/1995-03-30" unitdatetype="inclusive">
+       March 28-30,
+                        1995
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Questions, tape logs, and notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Nine audiocassettes
+      </physdesc>
+      <unitid label="ID">
+       AFC 1990/022: SR49-SR57
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       29/197
+      </container>
+      <unittitle encodinganalog="245$a">
+       Graphic Materials
+      </unittitle>
+      <physdesc encodinganalog="300">
+       One sheet of black and white 35 mm
+                        negatives (36 images), one 8 x 10" black and white contact sheet, and four
+                        black and white 8 x 10" photographic prints
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Moving Images
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Five videocassettes,
+                     hi8
+      </physdesc>
+      <unitid label="ID">
+       AFC 1990/022: MV1-MV5
+      </unitid>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: 1997 Accrual
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Box">
+       40-49
+      </container>
+      <container localtype="Folder">
+       203-254
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dance Notation
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Twenty-four files
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       These dance notation files were added to the collection to complement the files
+                     in folders 33-156. The new files contain dance descriptions, dance typologies,
+                     field notes, and costume documentation. There is a folder on chants and lyrics
+                     from Strigaturi and an ethnography on the folk dances of Oltenia. New Years
+                     customs are documented here as well as folk theater from Moldavia. Included are
+                     monographic descriptions from the Bicaz, Muntenia, Moldavia, and Dobrdja
+                     region.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Dance Index
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        51/255-258
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 5
+       </unittitle>
+       <physdesc encodinganalog="300">
+        397 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A list of the dance names from Moldavia, Pitra Neamt and Bacau areas and a
+                        dance dictionary/glossary from the Bicaz area.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        51/259-262
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 6
+       </unittitle>
+       <physdesc encodinganalog="300">
+        400 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance names and repertoire from Muntenia, Dobrudja, and Oltenia and a dance
+                        glossary of Briul.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        51/263-264
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 7
+       </unittitle>
+       <physdesc encodinganalog="300">
+        257 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance dictionaries from Dobrudja and Banat, repertoire lists from Banat, and
+                        dance glossaries from Muntenia and Arges.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        52/265-267
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 8
+       </unittitle>
+       <physdesc encodinganalog="300">
+        236 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance dictionary of Banat dances and repertoire lists from Dobrudja and
+                        Muntenia.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        52/268-270
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 9
+       </unittitle>
+       <physdesc encodinganalog="300">
+        252 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance repertoire from Bacau area, Moldavia. This listing also contains
+                        indexes of names from Piatra Neamt, Moldavia and dance lists from North
+                        Moldavia.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        52/271-274
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 10
+       </unittitle>
+       <physdesc encodinganalog="300">
+        313 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance repertoire lists from Muntenia, Pitesti, Dambovita, Faurei, Olt,
+                        Vedea, and Teleajen regions. This listing also holds an index/glossary of
+                        dances from Galati area.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        53/275
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 11
+       </unittitle>
+       <physdesc encodinganalog="300">
+        101 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance dictionary from Dobrudja, dance name lists from South Transylvania,
+                        and dance lists from Oltenia and Olt areas of Muntenia.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        53/276-277
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 12
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Index cards and repertoire lists from all regions.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        53/278
+       </container>
+       <unittitle encodinganalog="245$a">
+        Listing 13
+       </unittitle>
+       <physdesc encodinganalog="300">
+        98 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dance dictionary of the Bicaz area of Moldavia and graphs.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Ephemera
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/279
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Dances, described and notated, published in the magazine Cultura Poporului
+                        and Indrumatorul. Originals and duplications.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/280
+       </container>
+       <unittitle encodinganalog="245$a">
+        Portfolio
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Contains photographs, publicity, programs, and postcards.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/281
+       </container>
+       <unittitle encodinganalog="245$a">
+        Copies of printed materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        55
+       </container>
+       <unittitle encodinganalog="245$a">
+        Oversized materials
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Includes dance notations, dance index files, and ephemera
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series IV: 2004-2011 Accruals
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/282
+       </container>
+       <unittitle encodinganalog="245$a">
+        Field notebooks with dance notation from all
+                        regions,
+        <date localtype="inclusive" normal="1960">
+         1960
+        </date>
+       </unittitle>
+       <unitdate normal="1960" unitdatetype="inclusive">
+        1960
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/283
+       </container>
+       <unittitle encodinganalog="245$a">
+        Eugenia Popescu-Judetz, Three Comparative
+                        Essays on Turkish Music, published by Pan Yayincilik,
+        <date localtype="inclusive" normal="2010">
+         2010
+        </date>
+       </unittitle>
+       <unitdate normal="2010" unitdatetype="inclusive">
+        2010
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        54/284
+       </container>
+       <unittitle encodinganalog="245$a">
+        Musical postcards
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        56
+       </container>
+       <unittitle encodinganalog="245$a">
+        Index cards,
+        <date localtype="inclusive" normal="1885">
+         1885
+        </date>
+       </unittitle>
+       <unitdate normal="1885" unitdatetype="inclusive">
+        1885
+       </unitdate>
+       <physdesc>
+        33 envelopes
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Contains information on dance names, instruments, seasonal customs, rituals,
+                        weddings, costumes, clothing, objects, tools and games, from Muntenia,
+                        Moldavia, Oltenia, Banat, and Transylvania regions. Collected by the
+                        linguist Bogdan Petriceicu Hasdeu. His complete collection is housed at the
+                        Library of Romanian Academy.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Artifacts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        57
+       </container>
+       <unittitle encodinganalog="245$a">
+        Plaque,
+        <date localtype="inclusive" normal="1989">
+         1989
+        </date>
+       </unittitle>
+       <unitdate normal="1989" unitdatetype="inclusive">
+        1989
+       </unitdate>
+      </did>
+      <scopecontent>
+       <p>
+        Presented to Eugenia Popescu-Judetz in 1989 in memory of Gheorghe
+                        Popescu-Judetz for his lifelong dedication to Romanian Folk Dance from the
+                        Duquesne University Tamburitzans.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

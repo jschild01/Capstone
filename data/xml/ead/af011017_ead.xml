@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011017" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011017
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1990 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1990/012
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="1995-11">
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695160" show="new">
+       https://lccn.loc.gov/2004695160
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-09">
+     December 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1990/012
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1990 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1990/1990">
+     1990
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1990/1990" unitdatetype="inclusive">
+    1990
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    9
+		  folders
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    12 sound tape reels
+		  : analog, 7 1/2 ips, 2 track ; 10 in.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    3 sound tape reels :
+		  analog, 7 1/2 ips, 2 track ; 7 in.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    4 sound cassettes :
+		  analog.
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    143 photographs :
+		  negatives, black and white ; various sizes
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    92 slides :
+		  color
+   </physdesc>
+   <physdesc label="Extent (Graphic Materials)">
+    20 photographic
+		  prints : black and white, color ; 8 x 10 in. and smaller.
+   </physdesc>
+   <physdesc label="Extent (Moving Image)">
+    2 videocassettes (VHS) :
+		  sound, color ; 1/2 in.
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="hun">
+     Hungarian
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <language encodinganalog="041" langcode="yid">
+     Yiddish
+    </language>
+    <descriptivenote>
+     <p>
+      English,
+		  Hungarian,
+		  Spanish, and
+		  Yiddish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists
+		  of manuscript materials, sound recordings, photographs, and moving images
+		  documenting the performance of bluegrass music, klezmer music, Hungarian folk
+		  dance and music, Piedmont blues music, gospel music, and Afro-Cuban music and
+		  dance recorded live outdoors on Neptune Plaza in front of the Library of
+		  Congress.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1990 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, audio recordings, graphic materials, and moving
+		  images that document the 1990 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures. The concerts take place on the Neptune
+		  Plaza at the front of the Jefferson Building of the Library of Congress between
+		  April and September. Adverse weather conditions sometimes force the concerts
+		  indoors.
+   </p>
+   <p>
+    The 1990 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="1.00*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="1.68*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="1.50*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="1.84*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 19
+       </entry>
+       <entry morerows="0">
+        The Lynn Morris Band
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Bluegrass music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 17
+       </entry>
+       <entry morerows="0">
+        Henry Sapoznik and Klezmer Plus
+       </entry>
+       <entry morerows="0">
+        New York
+       </entry>
+       <entry morerows="0">
+        Klezmer music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 21
+       </entry>
+       <entry morerows="0">
+        Eletfa
+       </entry>
+       <entry morerows="0">
+        New Jersey
+       </entry>
+       <entry morerows="0">
+        Hungarian music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 19
+       </entry>
+       <entry morerows="0">
+        John Cephas and Phil Wiggins
+       </entry>
+       <entry morerows="0">
+        Maryland
+       </entry>
+       <entry morerows="0">
+        Piedmont blues
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 16
+       </entry>
+       <entry morerows="0">
+        True Tone Gospel Singers
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Gospel
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 20
+       </entry>
+       <entry morerows="0">
+        Otonowa
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Afro-Cuban music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1990.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20180705164240.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cephas, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jabbour, Alan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sapoznik, Henry
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Sapoznik, Henry--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Spottswood, Richard K. (Richard Keith)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wiggins, Phil
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Klezmer Plus (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Lynn Morris Band
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Otonowa (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      True Tones Gospel Singers
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      WAMU-FM (Radio station : Washington, D.C.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Életfa (Musical group)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--Piedmont (U.S. : Region)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cuban Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Hungary.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance orchestra music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance, Black--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing--Hungary.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Hungary.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Washington (D.C.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hungarian Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--New York (State)--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Klezmer music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--Cuba.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rumba (Dance)--Cuba.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Washington (D.C.) event place
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1990
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Neptune Plaza Concert Series, 1990
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Autographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1990 Neptune Plaza Concert Series Collection (AFC 1990/012), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        boxes
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1-3, 7, 10,15, 17-18, 20
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        12
+       </entry>
+       <entry morerows="0">
+        10" DT stereo reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 1-4, 10-17
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        7" DT mono reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 5-7 (interviews)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        original 60-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 18-19 (listening
+					 copies)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        original 90-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 8-9
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        60-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 10-11, 12-13 (listening
+					 copies)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        90-minute audiocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012: SR 1-2, 5-7, 10-11, 14-15
+					 (listening copies)
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        143
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 3-4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 4, 11, 19, 21
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        28
+       </entry>
+       <entry morerows="0">
+        8 x 10" black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3, 5-6, 8-9, 12-14, 16, 18,
+					 22
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        5 x 7" color photographic print
+       </entry>
+       <entry morerows="0">
+        FOLDER 22
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        92
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 1-2, 5-7
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Image
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        1/2" VHS color videocassettes
+       </entry>
+       <entry morerows="0">
+        AFC 1990/012:V1-2
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document), and an article
+					 describing the Neptune Plaza Concert Series.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        2-3
+       </container>
+       <unittitle>
+        The Lynn Morris Band, 4-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 news clippings, press releases, diagrams of instruments, concert log by Marsha
+					 Maguire and Greg Jenkins, photo logs, and three copies of an 8 x 10"
+					 black-and-white promotional photographic print.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        7
+       </container>
+       <unittitle>
+        Henry Sapoznik and Klezmer Plus, 5-17-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 press releases, news clippings, promotional materials, and photo logs.
+					 Performance in the Whittall Pavilion, Thomas Jefferson Building, Library of
+					 Congress.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        10
+       </container>
+       <unittitle>
+        Eletfa, 6-21-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log (logger unknown), press releases, news clippings, and promotional
+					 materials.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        15
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 concert log (logger unknown), press releases, news clippings, and promotional
+					 materials.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        17-18
+       </container>
+       <unittitle>
+        The True Tone Gospel Singers, 8-16-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 press releases, news clippings, promotional materials, and six copies of an 8 x
+					 10" black-and-white promotional photographic print.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        20
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Concert flier autographed by the performers, unsigned fliers,
+					 diagrams of instruments, maps of Africa, concert log (logger unknown), press
+					 releases, and news clippings.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reel Audio
+				  Tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 1-2
+       </container>
+       <unittitle>
+        The Lynn Morris Band, 4-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo SR1-2 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 3-4
+       </container>
+       <unittitle>
+        Henry Sapoznik and Klezmer Plus, 5-17-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Concert.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 5-7
+       </container>
+       <unittitle>
+        Henry Sapoznik and Klezmer Plus, 5-17-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three 7" at 7.5 ips of an interview of Henry Sapoznik
+					 conducted after the performance by Alan Jabbour, and others.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 10-11
+       </container>
+       <unittitle>
+        Eletfa, 6-21-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 12-13
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 14-15
+       </container>
+       <unittitle>
+        The True Tone Gospel Singers, 8-16-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips. Listening copy is available in
+					 the Folklife Reading Room.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 16-17
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT stereo at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Audio Cassettes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 8-9
+       </container>
+       <unittitle>
+        Henry Sapoznik and Klezmer Plus, 5-17-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 90-minute (recorded concurrently with reel-to-reels).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="AFC">
+        1990/012: SR 18-19
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 60-minute (recorded concurrently with reel-to-reels).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        3
+       </container>
+       <unittitle>
+        The True Tone Gospel Singers, 8-16-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black-and-white 35 mm (75 images). Photographed
+					 by Greg Jenkins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPE">
+        4
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black-and-white 35 mm (68 images). Photographed
+					 by David Taylor.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        4-6
+       </container>
+       <unittitle>
+        The Lynn Morris Band, 4-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three black-and-white 35 mm contact sheets (71 images) and
+					 five 8 x 10" black-and-white photographic prints. Photographed by Jim
+					 Higgins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        8-9
+       </container>
+       <unittitle>
+        Henry Sapoznik and Klezmer Plus, 5-17-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Five 8 x 10" black-and-white photographic prints (one
+					 publicity). Photographers unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        11-14
+       </container>
+       <unittitle>
+        Eletfa, 6-21-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Four black-and-white 35 mm contact sheets (108 images) and
+					 seven 8 x 10" black-and-white photographic prints. Photographer unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        16
+       </container>
+       <unittitle>
+        John Cephas and Phil Wiggins, 7-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 8 x 10" black-and-white photoprint. Photographer
+					 unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDER">
+        19
+       </container>
+       <unittitle>
+        The True Tone Gospel Singers, 8-16-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white 35 mm contact sheets (75 images).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="FOLDERS">
+        21-22
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black-and-white 35 mm contact sheets (68 images,
+					 photographed by David Taylor), two 8 x 10" black-and-white photographic prints
+					 and one 5 x 7" color photographic print (photographer unknown).
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPES">
+        1-2
+       </container>
+       <unittitle>
+        The Lynn Morris Band, 4-19-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two holders containing a total of 38. Photographed by Greg
+					 Jenkins.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="ENVELOPES">
+        5-7
+       </container>
+       <unittitle>
+        Otonowa, 9-20-90.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Three holders containing a total of 54. Photographed by David
+					 A. Taylor.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: MOVING IMAGE
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1990/012:V1
+      </container>
+      <unittitle>
+       Eletfa, 6-21-90.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One 1/2" VHS color of excerpts from the concert. Copy of
+				  videocassette filmed by Terrence Lisbeth.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="AFC">
+       1990/012:V2
+      </container>
+      <unittitle>
+       John Cephas and Phil Wiggins, 7-19-90; The True Tone
+				  Gospel Singers, 8-16-90; and Otonowa, 9-20-90.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       One 1/2" VHS color of excerpts from the concerts. Filmed by
+				  Terrence Lisbeth.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    <emph>
+     Appendix A: Dance Content
+    </emph>
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="1.00*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="4.23*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Eletfa
+       </entry>
+       <entry morerows="0">
+        Hungarian-American group of musicians,
+					 singers, and dancers present traditional music and dance from Hungary. They
+					 perform a range of dances from many regions, including Transylvania (see
+					 concert log for names of specific dances and regions). Print material and
+					 photographs: FOLDERS 10-14; sound recordings: AFC 1990/012:SR 10-11; videotape
+					 excerpts: AFC 1990/012:V1.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Otonowa
+       </entry>
+       <entry morerows="0">
+        Cuban immigrant group presents traditional
+					 Afro-Cuban dance and music. They demonstrate several rumba style dances: the
+					 columbia, a men's solo dance, and guaguanco, a couple dance. Print materials,
+					 photographs, and slides: FOLDERS 20-22, ENVELOPES 5-7; sound recordings: AFC
+					 1990/012:SR 16-19; videotape excerpts: AFC 1990/012:V2.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

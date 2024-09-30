@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Goathland, North Yorkshire, sword dance photograph
+               collection, ca. 1912-1950
+    </titleproper>
+    <subtitle>
+     AFC 1983/007
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1994-09">
+     September 1994
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695195" show="new">
+       https://lccn.loc.gov/2004695195
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-01">
+     January 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Goathland, North Yorkshire, sword dance
+            photograph collection,
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1912/1950">
+     ca. 1912-1950
+    </date>
+    .
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1912/1950" unitdatetype="inclusive">
+    ca. 1912-1950
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1983/007
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Goathland Plough Stots
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Graphic materials)">
+    7 photographic prints : black and white; 6 1/2 x 4 1/2
+               in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in
+            English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    A collection of black-and-white
+            photographic prints, circa 1912 to 1950 of the Plough Stots Long Sword team from
+            Goathland, North Yorkshire, England, in candid shots, formal poses, and in dance
+            performance. Includes images of long swords, costumes, musical instruments, and the
+            characters of Bessy (or Betty), Poss (Toss Pot) and Old Man. The identity of the
+            photographer is unknown.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20240205153639.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Goathland Plough Stots.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Goathland Plough Stots.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Costume--England--Goathland--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance costume--England--Goathland--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing, English--England--Goathland--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Folk dancing--England--Goathland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Morris dance--England--North Yorkshire--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mumming--England--North Yorkshire--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Musical instruments--England--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Plough Monday--England--Goathland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rapper (Dance)--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sword-dance--England--Goathland--Photographs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Goathland (England)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Former title: Morris dance photograph collection
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: Series 1: Photographs.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Donated by Wendy Grossman; 1983.
+   </p>
+  </acqinfo>
+  <custodhist encodinganalog="561">
+   <head>
+    Custodial History
+   </head>
+   <p>
+    The photographs were given to Wendy Grossman by Gordon Norman of Beverley,
+               England.
+   </p>
+  </custodhist>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Collection processed by Michelle Forner.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the photographs may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Goathland, North Yorkshire, Sword Dance Photograph Collection (AFC 1983/007) Archive
+               of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    In 1922, the Goathland Plough Stots were revived from local memory by Frank W. Dowson,
+            who is identified in notes (as "Dawson") on the reverse of some of these photographs.
+            The Goathland Plough Stots is one of Yorkshire's traditional long sword dance teams of 6
+            to 8 dancers, who perform a dance that ends with swords in the formation of a "lock",
+            which in this case resembles a Star of David. The teams traditionally dance in January
+            on Plough Monday, the Monday following the feast of Epiphany, and at other times during
+            the year.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    A collection of photographs of the Plough Stots Long Sword team from Goathland, North
+            Yorkshire, England in candid shots, formal poses, and in dance performance. Includes
+            images of long swords, costume, and musical instruments.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Photographs,
+      <date localtype="inclusive" normal="1912/1950">
+       1912-1950
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1912/1950" unitdatetype="inclusive">
+      1912-1950
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes seven 6 1/2" x 4 1/2" black and white photographs of the Plough Stots
+                  Long Sword team from Goathland, North Yorkshire, England. Descriptive notes were transcribed from the reverse of the photographs.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       Sword dance performance
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P1
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sword dance performance. "The side in the 30s or 40s. More poss. after Second
+                     World War. Goatland [sic] (Plough Stots). Note Dawson far left."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       "Bessie" and "Old Man" posing next to crowd
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P2
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       "Bessie" and "Old Man" posing next to crowd. "About 1930. Goatland (Plough
+                     Stots) Long Sword (North Yorks.). Bessy (Betty) and Old Man. Poss (Toss
+                     Pot)."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       Posed shot of group (approximately 20 people)
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P4
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Posed shot of group (approximately 20 people)."Frank Dawson who collected and
+                     reformed the side after the First World War. First on left. Goatland (Plough
+                     Stots). Long Sword North Yorks. At a time when the play was done. Play lost in
+                     a fire."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       Group walking up a path towards camera (approximately 16 people)
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P5
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Group walking up a path towards camera (approximately 16 people). "Goatland
+                     (Plough Stots) North Yorkshire. About 1950 going into Brekmole [or Brekhole].
+                     Walking tour."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       Posed shot of group in front of building (approximately 9 people)
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P6
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Posed shot of group in front of building (approximately 9 people). "About
+                     1945-6. North Yorks. Goatland (Plough Stots)."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle>
+       Posed shot of group in front of building (approximately 16 people)
+      </unittitle>
+      <unitid label="ID">
+       AFC 1983/007:P7
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Posed shot of group in front of building (approximately 16 people). "Goatland
+                     Long Sword (Plough Stots). Pre First World War. Approx. 1912."
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af010001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af010001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Mary Sheppard Burton
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2006/005
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton,
+			 with the assistance of Valda Morris-Slack
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2006-09">
+     September 2006
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2007700232" show="new">
+       https://lccn.loc.gov/2007700232
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-02">
+     February 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Valda Morris-Slack
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 2006/005
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Mary Sheppard Burton
+		  Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1993/2006">
+     1993-2006
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1993/2006" unitdatetype="inclusive">
+    1993-2006
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    3
+		  folders of manuscript material including 1 pamphlet (12 p.)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Artifacts)">
+    12
+		  hooked rugs : hand-dyed wool on 12-thread count linen ; circa 45 x 69 in. and
+		  smaller
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    3
+		  VHS videocassettes: sound, color; 1/2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Images)">
+    1
+		  folder of 25 4 x 6 in. color photographic prints and negatives
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Burton, Mary Sheppard
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection contains
+		  hooked rugs and documentation of the craftsmanship of rug hooking artist, Mary
+		  Sheppard Burton, of Germantown, Maryland. Her
+    <emph render="italic">
+     Tell Me
+		  ‘Bout Series
+    </emph>
+    consists of 12 rugs created between 1993 and 2005 that
+		  interpret the history of her family.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection consists of twelve rugs hooked with hand-dyed wool on
+		  12-thread-count linen titled the
+    <emph render="italic">
+     Tell Me ‘Bout
+		  Series
+    </emph>
+    created by Mary Sheppard Burton from Germantown, Maryland. The
+		  rugs, which were created between 1993 and 2005, depict stories of rural life
+		  and historical events experienced by different members of Burton’s family.
+		  These stories, some of which have been passed down for generations, include
+		  scenes of life on the Chesapeake Bay and surrounding areas in Maryland. Burton
+		  retold this family history as bedtime stories for her four children. She
+		  designed and made this series of hooked rugs which artistically retold the
+		  stories. Color photographs of Mary Sheppard Burton with American Folklife
+		  Center director Peggy A. Bulger were taken by David A. Taylor in 2006. Burton
+		  was interviewed at her home by Theadocia Austen and Carl Lindahl, circa 2001.
+		  During the interview Burton gave a tour of her house, describing the history of
+		  the various rooms and the many pieces of art on display throughout her
+		  house.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Mary Sheppard Burton was born in 1922 in Salisbury, Maryland. Burton,
+		  who became a textile artist and teacher, was no stranger to the art as a child
+		  since both her great grandmother and grandmother were rug hookers. From 1973 to
+		  1988 Burton taught classes on designing, dyeing, color theory, hook art and
+		  traditional hooking techniques at various schools and colleges throughout the
+		  United States. Occasionally Burton also taught private classes at her home in
+		  Maryland. Her students were diverse, from ninth-grade students to adults as
+		  well as the mentally challenged. The individuals who studied under Burton were
+		  not only based in the United States but also came from England and Israel.
+		  During this period she lectured extensively and exhibited her pieces throughout
+		  the United States, Canada, and Japan. Burton was instrumental in developing the
+		  guidelines and standards for rug hooking and judging hooked rugs at local and
+		  international competitions.
+   </p>
+   <p>
+    In 1981, Burton’s dedication and love for the art led her to research
+		  the hand dyeing of textiles and the color retention of dyes by experimenting
+		  with vegetable dyes used by earlier generations. She experimented with the
+		  different effects that light has upon yarn. Burton used dyeing techniques that
+		  were not commonly used by textile artists. Burton studied the historical
+		  origins of rug hooking, starting her research at the Metropolitan Museum of Art
+		  in New York, continuing at the Textile Museum in Canada in 1996, and in Nova
+		  Scotia in 1997.
+   </p>
+   <p>
+    In 1994, Burton co-founded the International Guild of Hand-hooked Rug
+		  Makers (TIGHER) and in 1996 was awarded an antique pewter loving cup for
+		  outstanding devotion and service to the organization.
+   </p>
+   <p>
+    For her outstanding accomplishments in the art, Mary Sheppard Burton
+		  has received many awards. She was the first non-Canadian recipient of two of
+		  the highest awards given by the Ontario Hooking Craft Guild: Best in Show for
+		  Creativity and Craftsmanship and Best in Show for Artistic Presentation of Work
+		  and Originality.
+   </p>
+   <p>
+    In 2002, she co-authored a book on creativity in textile arts,
+    <emph render="italic">
+     A Passion for the Creative Life: Textiles to Lift the
+		  Spirit,
+    </emph>
+    with Mary Ellen Cooper. She died on July 1, 2010.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20160426170318.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Austen, Theadocia Millich
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Burton, Mary Sheppard--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Burton, Mary Sheppard.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lindahl, Carl, 1947-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Families in art.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Narrative art, American--Chesapeake Bay Region (Md. and Va.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pictorial rugs--Chesapeake Bay Region (Md. and Va.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rugs, Hooked--Maryland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Storytelling in art.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Textile artists--Maryland--Interviews.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Germantown (Montgomery County, Md.)
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Family portraits.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Footsteps on history, tell me 'bout series.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Tell me 'bout series.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings).
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Pictorial rugs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The manuscripts and photographs (PH01-PH25) are housed in Box 1.The
+		  rugs, with the exception of the two rugs on display, are housed in customized
+		  boxes.
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    The manuscripts, photographs, and reference copies of videotapes MV01
+		  and MV02 are available upon request in the Folklife Reading Room. MV03 is
+		  damaged and unplayable. The original hooked rugs are stored offsite for
+		  preservation. Consult reference staff in the Folklife Reading Room about
+		  viewing the rugs. As of Febrary 2011, two rugs from the collection are on
+		  display in the American Folklife Center in the Jefferson Building: Rug 3,
+    <emph render="italic">
+     The Secret Place
+    </emph>
+    , and Rug 10,
+    <emph render="italic">
+     First Meals on Wheels
+    </emph>
+    .
+   </p>
+  </accessrestrict>
+  <altformavail>
+   <head>
+    Online Content
+   </head>
+   <p>
+    The entire series of rugs
+               can be viewed on the American Folklife website at
+    <ref href="https://www.loc.gov/folklife/msburton/index.html">
+     http://www.loc.gov/folklife/msburton/index.html
+    </ref>
+    .
+               Copyright restrictions apply.
+   </p>
+  </altformavail>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The twelve hooked rugs were donated to the American Folklife Center by
+		  Mary Sheppard Burton on March 2, 2006.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Cite as: Mary Sheppard Burton Collection (AFC 2006/005), Archive of
+		  Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="25*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="55*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="20*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        BOX 1, FOLDERS 1-3
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        50
+       </entry>
+       <entry morerows="0">
+        25 color photographs; 25 color negatives
+       </entry>
+       <entry morerows="0">
+        BOX 1, FOLDER 4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Artifacts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        12
+       </entry>
+       <entry morerows="0">
+        hand-dyed wool 45x60 inches and
+					 smaller
+       </entry>
+       <entry morerows="0">
+        BOXES 2-13
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        VHS videocassettes
+       </entry>
+       <entry morerows="0">
+        MV01-MV03
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Manuscript Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Finding Aid (This document)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       1
+      </container>
+      <container localtype="Folder">
+       2
+      </container>
+      <unittitle>
+       “Footsteps on History, Tell Me ‘Bout Series: Family
+				  Portraits.”
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Mary Sheppard Burton. Undated. 6 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       1
+      </container>
+      <container localtype="Folder">
+       3
+      </container>
+      <unittitle>
+       Photograph Log: PH01-PH25
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       1
+      </container>
+      <container localtype="Folder">
+       4
+      </container>
+      <unittitle>
+       Photographs and Negatives: PH01-PH25
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photographs taken by David A. Taylor on March 2, 2006. 25 color
+				  photographs, 25 color negatives.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Artifacts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle>
+       Rug 1.
+       <emph render="italic">
+        When Pa Was Young - Skating
+				  the Bay
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug displays an image of Mary Sheppard Burton’s grandfather,
+				  Edward Sampson Phipps, skating across the Chesapeake Bay.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 1993-1994. Dimensions: 45 x 69
+				  inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <unittitle>
+       Rug 2.
+       <emph render="italic">
+        When Pa Was Young - The
+				  Tool Fetcher
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug displays an image of Edward Sampson Phipps, Mary
+				  Sheppard Burton’s grandfather, who dove into the Susquehanna River retrieving
+				  the tools that had been dropped into the river by the workmen who were
+				  constructing the bridge above the river.
+       <emph render="italic">
+        Tell Me ‘Bout
+				  Series
+       </emph>
+       , 1993. Dimensions: 46.5 x 32.5 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle>
+       Rug 3.
+       <emph render="italic">
+        The Secret Place
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug displays an image of Alice Phipps, Mary Sheppard
+				  Burton’s mother, in a tree with an apple and reading a book. This was her
+				  mother’s secret place.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 1994.
+				  Dimensions: 43.75 x 52.25 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle>
+       Rug 4.
+       <emph render="italic">
+        Strawberry Capital of the
+				  World
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug depicts images from the town of Pittsville, Maryland,
+				  where Burton’s father John Raymond Sheppard grew up.
+       <emph render="italic">
+        Tell
+				  Me ‘Bout Series
+       </emph>
+       , 1994-1995. Dimensions: 62 x 43 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle>
+       Rug 5.
+       <emph render="italic">
+        When Dad Was Two
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug depicts the image of a two-year-old Charles Burton, Mary
+				  Sheppard Burton’s husband, head first in the snow. He was accidently given
+				  grape wine instead of grape juice.
+       <emph render="italic">
+        Tell Me ‘Bout
+				  Series
+       </emph>
+       , 1995. Dimensions: 44.25 x 33 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle>
+       Rug 6.
+       <emph render="italic">
+        The Bushel Basket
+				  Hat
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug displays the image of Alice Phipps, Burton’s mother, as
+				  she flew upside down in a plane in a bushel basket hat. The rug also displays
+				  the image of the hat as it falls from the sky.
+       <emph render="italic">
+        Tell Me
+				  ‘Bout Series
+       </emph>
+       , 1996. Dimensions: 49.5 x 59.5 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle>
+       Rug 7.
+       <emph render="italic">
+        A Chicken in Every
+				  Pot
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug displays Charles Burton, Mary’s Sheppard Burton’s
+				  husband, as he climbed a tree to witness the inauguration of Herbert Hoover.
+				  The rug also displays images of chickens and roosters. The rug refers to
+				  Hoover’s famous promise of “a chicken in every pot.”
+       <emph render="italic">
+        Tell
+				  Me ‘Bout Series
+       </emph>
+       , 1996. Dimensions: 66 x 44 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle>
+       Rug 8.
+       <emph render="italic">
+        Fox Hunting at Sycamore
+				  Hollow
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug depicts images of men on horses at Sycamore Hollow in
+				  Montgomery County, Maryland. In the center Burton weaves a landmark barn which
+				  dates back to 1838.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 1998.
+				  Dimensions: 66 x 44 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       10
+      </container>
+      <unittitle>
+       Rug 9.
+       <emph render="italic">
+        Chicken Fishin’
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Nellie Blaine Lankford was Mary Sheppard Burton’s mother-in-law.
+				  The rug depicts the images of Nellie and her sister Anna in Tyaskin, Maryland.
+				  The two would feed the chickens kernels that were attached to the end of a
+				  fishing line.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 1999.
+				  Dimensions: 39 x 46 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       11
+      </container>
+      <unittitle>
+       Rug 10.
+       <emph render="italic">
+        The First Meals on
+				  Wheels
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Alice Phipps, Mary Sheppard Burton’s mother, would deliver food
+				  to the sick. This rug shows Alice on a bike along with other landmarks in
+				  Salisbury, Maryland.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 1999.
+				  Dimensions: 42 x 58 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       12
+      </container>
+      <unittitle>
+       Rug 11.
+       <emph render="italic">
+        Day’s End on the
+				  Sinepuxent Bay
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Richard Dale, a relative of Mary Sheppard Burton, is depicted
+				  steering a sailboat on the Maryland coast. Richard Dale fought against pirates
+				  and also assisted in defending the island of Bermuda against the British.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 2000. Dimensions: 19.25 x
+				  34.5 inches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       13
+      </container>
+      <unittitle>
+       Rug 12.
+       <emph render="italic">
+        When Mom was Wee, Mary
+				  Sheppard Burton’s Story
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The rug depicts images of the Model A Ford, along with pigs on a
+				  farm and a little girl who represents Mary Sheppard Burton’s mother.
+       <emph render="italic">
+        Tell Me ‘Bout Series
+       </emph>
+       , 2005. Dimensions: 44.2 x 31
+				  inches.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Moving Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="MV">
+       01
+      </container>
+      <unittitle>
+       Tape 1 of 2
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview with Mary Sheppard Burton at her home in Germantown,
+				  Md. Undated. 1 VHS videocassette.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="MV">
+       02
+      </container>
+      <unittitle>
+       Tape 2 of 2
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview with Mary Sheppard Burton at her home in Germantown,
+				  Md. Undated. 1 VHS videotape.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="MV">
+       03
+      </container>
+      <unittitle>
+       Tape of Mary Burton talking about her rugs. June 8,
+				  2000.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview with Mary Sheppard Burton at her home in Germantown,
+				  Md. Undated 1 VHS videotape. [Unplayable - Damaged]
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

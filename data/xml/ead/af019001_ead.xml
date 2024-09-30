@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper>
+     Magdalena Nowacka-Jannotta Wycinanki Polish Papercutting
+                    Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2000/005
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Judy Ng
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <date calendar="gregorian" era="ce" normal="2007-07">
+     July 2007
+    </date>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Library of
+                    Congress
+     <lb>
+     </lb>
+     American Folklife Center
+     <lb>
+     </lb>
+     Archive of Folk Culture
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2007">
+     2007
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2017655204" show="new">
+       https://lccn.loc.gov/2017655204
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019">
+     2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Magdalena Nowacka-Jannotta wycinanki
+                Polish papercutting collection
+    <date altrender="Span Dates" localtype="inclusive" normal="1964/2000">
+     1964-2000
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Span Dates" normal="1964/2000" unitdatetype="inclusive">
+    1964-2000
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="590" label="ID No." repositorycode="US-DLC">
+    AFC
+                2000/005
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Nowacka-Jannotta, Magdalena
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    9 containers + 1 oversize item in map case.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    127 cut-paper works : black and white, color ; 45 x 55
+                    cm and smaller.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    19 photographic prints : black and white, color ;
+                    various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    72 slides : color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    1 videocassette (VHS) : sound, color ; 1/2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    manuscripts 6 folders.
+   </physdesc>
+   <langmaterial label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="pol">
+     Polish
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials predominantly in English with some Polish.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center,  Library of
+                    Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of 127 wycinanki, Polish
+                paper cuts, created by Magdalena Nowacka-Jannotta (Magdalena Gilinski) and other
+                artists including Krystyna Lis and Malwina Lis, Grazyna Gladka, Maria
+                Brzozowska-Kosinska, Henryka Lus, Stanislawa Kosiorkowa, Czeslawa Kaczynska,
+                Apolonia Nowak, M. Dzik, Janina Strycharska-Wanrykowicz, Bieguszewska, Grzegora
+                Justyna, Staniskawa Bulsin, Stanislawa Nowakoloska, Stanislawa Niespusin, Prusaczek
+                Stanislawa and unidentified artists, from 1964-2005, and undated. The wycinanki in
+                this collection highlight the papercutting styles of the Kurpie and Łowicz
+                regions of Poland. Wycinanki from the Kurpie region feature one color star-shaped
+                designs ranging from eight to sixty-four repeats (gwiazda) or designs created on one
+                fold (leluja). Łowicz-style wycinaki are distinguished by the technique of
+                using a basic design, which is later embellished with overlaid cutouts of
+                multi-colored paper. In addition to gwiazda that feature roosters and flower
+                designs, these include floral designs that are symmetrical across a center vertical
+                line (kodra). Other papercuts in this collection include such Polish folk art motifs
+                as the Tatra mountains, mountain dancers, weddings, and the Madonna. In addition to
+                traditional Polish papercuts, the collection includes Magdalena Nowacka-Jannotta's
+                cut-paper works influenced by Southwest and Native American art with images of
+                stylized lizards, snakes, thunderbirds, desert animals, kachinas, and Navajo
+                motifs.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20190212101419.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gilinsky, Magdalena, 1934-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk art--Poland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kurpie--Poland--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Paper work--Poland--Masovia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Paper work--Poland--Łowicz.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Paper work--Southwest, New.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polish American artists--Arizona.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polish Americans--Social life and customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Poland--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Magdalena Gilinski wycinanki Polish papercutting collection
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Cut-paper works.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Cut-paper works.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement of the Papers
+   </head>
+   <p>
+    The manuscripts and graphic images are arranged chronologically and maintain any
+                    pre-existing order created by Magdalena Nowacka-Jannotta. The papercuts have
+                    been numbered according to existing inventory lists provided by the donor.
+                    Original papercuts listed in Nowacka-Jannotta's May 17, 2005, correspondence
+                    were numbered first and are followed by color photocopy reproductions listed in
+                    her September 16, 2000, correspondence. Papercuts have been grouped and housed
+                    by size.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Donated by Magdalena Nowacka-Jannotta, September 2000 and May 2005. A papercut
+                    depicting the Library of Congress' Jefferson Building was added to the
+                    collection during Nowacka-Jannotta's visit to the Archive in 2006.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Judy Ng, July 2007.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                    restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the
+                    Folklife Reading Room at
+    <ref href="https://hdl.loc.gov/loc.afc/folklife.home">
+     http://hdl.loc.gov/loc.afc/folklife.home
+    </ref>
+    .
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Magdalena Nowacka-Jannotta wycinanki Polish papercutting collection (AFC
+                    2000/005), Archive of Folk Culture, American Folklife Center, Library of
+                    Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Magdelena Nowacka-Jannotta was born and raised prior to the start of World War II in
+                Warsaw, Poland. As a child, her mother, who used papercut templates in her detailed
+                embroidery work, introduced her to the art of creating her own patterns. After the
+                war broke out, Nowacka-Jannotta and her mother were sent to two German prison camps
+                for displaced Polish citizens, at which point she contracted tuberculosis. After the
+                war, she was sent to the Tatra mountains to live with a sheepherding family and
+                recuperate her health. Several years later, she returned to her family, who had been
+                resettled in Sulejowek due to her father's anti-communist views.
+   </p>
+   <p>
+    After graduating high school, Nowacka-Jannotta studied sinology at Warsaw University,
+                and also took the opportunity to visit with local wycinanki master artists in the
+                Kurpie and Lowicz regions of Poland. With the encouragement of one of her professors
+                and her father, she applied for and received a scholarship to study linguistics at
+                UCLA. After completing her graduate degree, marriage and her husband's career
+                brought her to Washington, D.C., where she became a part-time interpreter for the
+                State Department. Still creating wycinanki on the side, she was eventually
+                discovered by Ralph Rinzler, the assistant secretary of the Smithsonian Institution,
+                who later invited her to teach classes through the Smithsonian Associates program.
+                Nowacka-Jannotta was subsequently employed by the Smithsonian's Folklife Festival
+                and performing arts divisions and later found a position as the program and events
+                coordinator at the American Folklife Center at the Library of Congress.
+   </p>
+   <p>
+    In 1990, Nowacka-Jannotta relocated to Tucson, Arizona, where she continued to create
+                wycinanki and Southwest inspired papercuts. Her artwork has appeared in local and
+                international exhibitions and is included in the permanent collection of the
+                American Center of Polish Culture in Washington, D.C.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content Note
+   </head>
+   <p>
+    This collection consists of correspondence with the donor regarding the collection,
+                biographical information on the artist and donor, Magdalena Nowacka-Jannotta,
+                biographical information on wycinanki artists Czeslawa Kaczynska and Apolonia Nowak,
+                and a published step-by-step instructional booklet by Nowacka-Jannotta
+                    (
+    <title>
+     <part>
+      Wycinanki: The Art of Polish Papercutting
+     </part>
+    </title>
+    ). It also includes 127
+                original papercuts, 13 photographic prints demonstrating a papercut, 6 prints
+                documenting the donation of the collection, 71 digital images and 72 reference
+                slides of selected papercuts in the collection, and a step-by-step VHS cassette,
+                    (
+    <title>
+     <part>
+      Wycinanki: Polish Papercutting
+     </part>
+    </title>
+    ).
+   </p>
+   <p>
+    Wycinanki, the Polish craft of paper cutouts, first originated with sheepherders and
+                became a popularized folk art in the mid-1800s. Wycinanki are traditionally folded
+                and cut freehand into intricate, symmetrical shapes inspired by nature or yearly
+                events such as Easter and Christmas. They often feature birds, flowers, trees, small
+                animals, and abstract star designs and were traditionally used as household
+                decorations to be affixed to walls and roof beams.
+   </p>
+   <p>
+    The wycinanki in this collection highlight the papercutting styles of the Kurpie and
+                Lowicz regions of Poland. Wycinanki from the Kurpi region feature one color
+                star-shaped designs ranging from eight to sixty-four repeats (
+    <emph render="italic">
+     gwiazda
+    </emph>
+    ) or designs created on one fold (
+    <emph render="italic">
+     leluja
+    </emph>
+    ). Lowicz style wycinaki are distinguished by the technique of
+                using a basic design, which is later embellished with overlaid cutouts of
+                multi-colored paper. In addition to
+    <emph render="italic">
+     gwiazda
+    </emph>
+    that
+                heavily feature roosters and flower designs, these include floral designs that are
+                symmetrical across a center vertical line (
+    <emph render="italic">
+     kodra
+    </emph>
+    ).
+                Other papercuts in this collection feature such Polish folk art motifs as the Tatra
+                mountains, mountain dancers, weddings, and the Madonna.
+   </p>
+   <p>
+    In addition to traditional Polish papercuts, the collection includes Southwest and
+                Native American influenced papercuts created by Nowacka-Jannotta. These depict
+                stylized lizards, snakes, thunderbirds, desert animals, kachinas, and Navajo
+                motifs.
+   </p>
+   <p>
+    Papercut artists in the collection include: Magdalena Nowacka-Jannotta, Krystyna and
+                Malwina Lis, Grazyna Gladka, Maria Brzozowska-Kosinska, Henryka Lus, Stanislawa
+                Kosiorkowa, Czeslawa Kaczynska, Apolonia Nowak, M. Dzik, Janina
+                Strycharska-Wanrykowicz, Bieguszewska, Grzegora Justyna, Staniskawa Bulsin,
+                Stanislawa Nowakoloska, Stanislawa Niespusin, and Prusaczek Stanislawa.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <thead valign="bottom">
+    <row>
+     <entry morerows="0">
+      Container
+     </entry>
+     <entry morerows="0">
+      Contents
+     </entry>
+    </row>
+   </thead>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/1
+     </container>
+     <unittitle encodinganalog="245$a">
+      Collection Guide.
+     </unittitle>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/2
+     </container>
+     <unittitle encodinganalog="245$a">
+      Correspondence.
+      <lb>
+      </lb>
+      Correspondence between
+                        Magdalena Nowacka-Jannotta and Folklife Center staff.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      10 pages.
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/3
+     </container>
+     <unittitle encodinganalog="245$a">
+      Biographical Information: Magdalena
+                        Nowacka-Jannotta.
+      <lb>
+      </lb>
+      Clipping, handouts, and resume.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      4 pages.
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/4
+     </container>
+     <unittitle encodinganalog="245$a">
+      Biographical Information: Other artists.
+      <lb>
+      </lb>
+      Information on Czeslawa Kaczynska (handout) and Apolonia Nowak
+                        (clipping).
+     </unittitle>
+     <physdesc encodinganalog="300">
+      4 pages.
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/5
+     </container>
+     <unittitle encodinganalog="245$a">
+      Published Materials.
+      <lb>
+      </lb>
+      <title>
+       <part>
+        Wycinanki:
+                            The Art of Polish Papercutting
+       </part>
+      </title>
+      by Magdalena Nowacka-Jannotta
+                        (booklet, 36 pages);
+      <title>
+       <part>
+        Crizmac 2000
+       </part>
+      </title>
+      (product catalog, 66
+                        pages).
+     </unittitle>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/6
+     </container>
+     <unittitle encodinganalog="245$a">
+      Papercuts.
+      <lb>
+      </lb>
+      Report generated from the
+                        collection's database, which includes descriptions and images of all
+                        papercuts in the collection. For original papercuts, see Box 2-9.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29 pages.
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/7
+     </container>
+     <unittitle encodinganalog="245$a">
+      Photographic Prints: Papercutting
+                        Demonstrations.
+      <lb>
+      </lb>
+      10 black and white 5 x 7 in. photographic prints
+                        documenting papercutting techniques (no date); 2 color 4 x 6 in. photo
+                        prints of Nowacka-Jannotta papercutting at the Tohono Chul Park Wild Flowers
+                        Festival Demo (April 2006); 1 color 4 x 6 in. photographic print documenting
+                        papercutting techniques (2005).
+     </unittitle>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/8
+     </container>
+     <unittitle encodinganalog="245$a">
+      Photographic Prints: Donation of Collection.
+      <lb>
+      </lb>
+      Taken at the American Folklife Center during the donation of materials
+                        to Nowacka-Jannotta's collection (2005-05-17).
+     </unittitle>
+     <physdesc encodinganalog="300">
+      6 color 4 x 6 in. photographic prints
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/9
+     </container>
+     <unittitle encodinganalog="245$a">
+      Color Slides.
+      <lb>
+      </lb>
+      71 duplicate images of
+                        digital images on the CD-ROM (CF01); 1 duplicate image of papercut
+                        GR127.
+     </unittitle>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box-folder">
+      1/10
+     </container>
+     <unittitle encodinganalog="245$a">
+      Contact Sheet.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      71 color images of papercuts found on the
+                            CD-ROM (CF01).
+     </physdesc>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      2
+     </container>
+     <unittitle encodinganalog="245$a">
+      One rooster
+      <lb>
+      </lb>
+      Lowicz style; by Henryka Lus.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 20.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR010
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Small round design
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Henryka Lus.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      19.6 x 19.6 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR011
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 20.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR025
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.5 x 21.3 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR026
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Czeslawa
+                        Kaczynska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      28 x 20.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR027
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Fraciska
+                        Kulas.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      24.3 x 11.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR028
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Fraciska
+                        Kulas.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      24.2 x 12 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR029
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 21.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR030
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Purple design
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17.2 x 17.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR045
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Green design
+      <lb>
+      </lb>
+      Kurpie style; by Prusaczek
+                        Stanislawa.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17.2 x 17.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR046
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Brown design
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17 x 17 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR047
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Black design
+      <lb>
+      </lb>
+      Kurpie style; by Prusaczek
+                        Stanislawa.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17.2 x 17.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR048
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red design
+      <lb>
+      </lb>
+      Kurpie style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17.2 x 17.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR049
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Black design
+      <lb>
+      </lb>
+      Kurpie style; by Prusaczek
+                        Stanislawa.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17.2 x 17.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR050
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.8 x 21.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR052
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.8 x 21.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR053
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.6 x 20.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR054
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.5 x 29.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR055
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30.3 x 22.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR056
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Double leluja in red
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.5 x 27.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR060
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Small round with eight repeats
+      <lb>
+      </lb>
+      By
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30.4 x 22.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR063
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Small green circle
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      24.2 x 20.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR064
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Blue circle with 8 repeats
+      <lb>
+      </lb>
+      Lowicz style;
+                        by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30.4 x 22.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR066
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two reindeer
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      11.4 x 11.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR089
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two blue ladies
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      11.5 x 11.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR091
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Orange mountain and desert
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      12 x 12 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR092
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red tree
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      15 x 14 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR093
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Green tree
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      15 x 14 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR094
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Blue circle design
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      18 x 18 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR095
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two cats and birds
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      17 x 17 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR096
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Five flowers
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      15 x 20 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR099
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Three large and six small flowers
+      <lb>
+      </lb>
+      Lowicz
+                        style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      19.7 x 29 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR100
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      3
+     </container>
+     <unittitle encodinganalog="245$a">
+      Colored abstract in a circle
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Maria Brzozowska-Kosinska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.9 x 30.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR006
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Colored abstract in a circle
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Maria Brzozowska-Kosinska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.9 x 30.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR007
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Colored abstract in a circle
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Maria Brzozowska-Kosinska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.9 x 30.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR008
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters in a circle looking opposite
+      <lb>
+      </lb>
+      Lowicz style; by Henryka Lus.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      33.1 x 33.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR012
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters in a circle looking opposite
+      <lb>
+      </lb>
+      Lowicz style; by Henryka Lus.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      33.1 x 33.4 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR013
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Bluebells in a circle
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Henryka Lus.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      33 x 33.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR014
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters in a square
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Stanislawa Kosiorkowa.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      24.7 x 25.4 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR015
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Large leluja in red
+      <lb>
+      </lb>
+      Kurpie style; by
+                        Apolonia Novak.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      35 x 17 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR018
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Birds
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30 x 30 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR021
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Birds
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR022
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Birds
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30.8 x 31 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR023
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Czeslawa
+                        Kaczynska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.6 x 15 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR031
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Czeslawa
+                        Kaczynska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.5 x 16 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR032
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Black circle with 32 repeats in green
+      <lb>
+      </lb>
+      Lowicz style; by M. Dzik.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      32.8 x 32.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR033
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two peacocks
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      32.9 x 33.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR034
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Blue and brown flowers circle
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Bieguszewska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR036
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two ribbons and brown circle
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Szafranska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      35.1 x 27.4 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR037
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Poppys and blue flowers
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Grzegora Justyna.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27 x 27 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR038
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Big red flower and two purple flowers in green
+                        vase
+      <lb>
+      </lb>
+      Lowicz style; by Stanislawa Bulsin.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR 039
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      4
+     </container>
+     <unittitle encodinganalog="245$a">
+      Red and blue flowers in a small red vase
+      <lb>
+      </lb>
+      Lowicz style; by Grzegora Justyna.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.3 x 25.3 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR040
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Blue and two red flowers in a green vase
+      <lb>
+      </lb>
+      Lowicz style; by Stanislawa Nowakowska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR041
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Purple and two orange flowers in a green vase
+      <lb>
+      </lb>
+      Lowicz style; by Stanislawa Niespusin.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR042
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Brown tree of life
+      <lb>
+      </lb>
+      Lowicz style; by
+                        unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.8 x 27.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR043
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Black circle with 16 repeats in purple and
+                        green
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      32.7 x 32.7 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR044
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Leluja form
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      36.7 x 27.6 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR051
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Tatra Mountains design
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      38.8 x 28.2 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR058
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Happy Birthday to Sam
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.2 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR059
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Village girls
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      36.1 x 33.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR061
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Yellow and orange circle with 16 repeats
+      <lb>
+      </lb>
+      Lowicz style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.8 x 25.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR065
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two small peacocks
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      38 x 27.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR067
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Orange circle with 16 repeats
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      35 x 28 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR068
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red circle with 8 repeats
+      <lb>
+      </lb>
+      Lowicz style;
+                        by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.7 x 25.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR069
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Large leluja of Arizona Gambel quail
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30.5 x 22.6 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR072
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circles in pink with 8 repeats
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.8 x 25.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR075
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circles in pink with 8 repeats
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.9 x 25.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR076
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two medium roosters
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      30 x 30 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR079
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Green circle design
+      <lb>
+      </lb>
+      By unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29 x 29 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR097
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circle within a square
+      <lb>
+      </lb>
+      Lowicz style; by
+                        unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      31.5 x 32 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR101
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      5
+     </container>
+     <unittitle encodinganalog="245$a">
+      Tatra dancers
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR084
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Lizards form Arizona
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.8 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR085
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      San Xavier Mission
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR102
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circle in square design
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR104
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish mountain dancers #2
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR105
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Navajo "The Pollen Boy"
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR106
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Thunderbirds
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR107
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish Tatra design #1
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR108
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish Tatra design #2
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR109
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Happy Birthday My Grandson
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR110
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Stylized kachinas
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR111
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red roosters in a circle
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR112
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Lizards
+      <lb>
+      </lb>
+      By Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR113
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      After Mimbres--two goats
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR114
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Water snakes
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR115
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Parzenica (Tatra shirt pin)
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR116
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish mountain dancers #1
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR117
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish wedding
+      <lb>
+      </lb>
+      Kurpie style; by Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      27.9 x 43.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR118
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      After Mimbres--birds and flowers
+      <lb>
+      </lb>
+      By
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.6 x 27.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR119
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.6 x 27.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR120
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Polish Christmas in Arizona
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.6 x 27.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR121
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Yellow flowers in a Circle
+      <lb>
+      </lb>
+      Gwiazda style;
+                        by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      21.6 x 27.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR122
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Green wrapping paper
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      60.8 x 91.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR125
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red wrapping paper
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      60.8 x 91.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR126
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      6
+     </container>
+     <unittitle encodinganalog="245$a">
+      Roosters in a circle
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Krystyna and Malwina Lis.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.8 x 39.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR002
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Roosters in a circle
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Grazyna Gladka.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.8 x 39.6 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR003
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two peacocks
+      <lb>
+      </lb>
+      Lowicz style; by Grazyna
+                        Gladka.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.9 x 39.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR004
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Flowery garland with roosters
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Grazyna Gladka.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25 x 50 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR005
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two big roosters
+      <lb>
+      </lb>
+      Lowicz style; by Maria
+                        Brzozowska-Kosinska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.8 x 40.1 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR009
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circle in blue
+      <lb>
+      </lb>
+      Kurpie style; by Czeslawa
+                        Kaczynska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      15 x 23 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR017
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Black Madonna
+      <lb>
+      </lb>
+      Kurpie style; by Apolonia
+                        Nowak.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      34.5 x 28.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR019
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Large purple circle
+      <lb>
+      </lb>
+      Kurpie style; by
+                        unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      40 x 39.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR020
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      7
+     </container>
+     <unittitle encodinganalog="245$a">
+      Birds
+      <lb>
+      </lb>
+      Lowicz style; by unknown.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      37.3 x 37.7 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR024
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters
+      <lb>
+      </lb>
+      Lowicz style; by Janina
+                        Strycharska-wanrykowicz.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      41.9 x 41.7 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR035
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Manora
+      <lb>
+      </lb>
+      By Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      35.5 x 42 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR057
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Red abstract
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      40.6 x 41 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR062
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Large multicolored circle with 4 red repeats
+      <lb>
+      </lb>
+      Lowicz style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      36.9 x 32.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR070
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Large brown circle with 32 repeats
+      <lb>
+      </lb>
+      Kurpie
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      45.7 x 42.8 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR071
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Abstract circle with 12 repeats
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      40.5 x 35.3 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR073
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Placemat bookmarks
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      25.7 x 42.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR074
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Abstract circle with 12 repeats
+      <lb>
+      </lb>
+      By
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      32 x 35.4 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR077
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      8
+     </container>
+     <unittitle encodinganalog="245$a">
+      Abstract circle with 6 repeats
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      40.4 x 35.4 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR078
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two large roosters
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      51.3 x 41.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR080
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Circle in a square
+      <lb>
+      </lb>
+      Lowicz style; by
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      39.9 x 39.9 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR081
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two birds looking like a butterfly
+      <lb>
+      </lb>
+      Lowicz
+                        style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      33.5 x 33.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR082
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters and flowers with garland
+      <lb>
+      </lb>
+      Lowicz style; by Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      29.3 x 57 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR083
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Two roosters
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      46.5 x 46.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR086
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Crizmac sample on demo tape #3
+      <lb>
+      </lb>
+      By
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      41 x 50 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR 087
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Crizmac sample on demo tape #2
+      <lb>
+      </lb>
+      By
+                        Magdalena Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      41 x 50 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR 088
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Folded black tree with birds
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      28 x 14.5 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR 090
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="box">
+      9
+     </container>
+     <unittitle encodinganalog="245$a">
+      Wycinanki: the Art of Polish Paper Cutting by
+                        Magdalena Nowacka-Jannotta.
+      <lb>
+      </lb>
+      By unknown
+     </unittitle>
+     <physdesc encodinganalog="300">
+      24 x 18 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR098
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Demo for Crizmac video 2
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      41 x 50 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR123
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Demo for Crizmac video 3
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      41 x 50 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR124
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Library of Congress
+      <lb>
+      </lb>
+      By Magdalena
+                        Nowacka-Jannotta.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      45 x 55 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR 127
+     </unitid>
+    </did>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container>
+      Oversize (map case)
+     </container>
+     <unittitle encodinganalog="245$a">
+      Large leluja in green
+      <lb>
+      </lb>
+      Kurpie style; by
+                        Czeslawa Kaczynska.
+     </unittitle>
+     <physdesc encodinganalog="300">
+      19 x 25 cm.
+     </physdesc>
+     <unitid label="Item-ID">
+      AFC 2000/005: GR016
+     </unitid>
+    </did>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

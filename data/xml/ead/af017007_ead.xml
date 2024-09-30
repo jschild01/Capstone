@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af017007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af017007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Earl Crabb collection
+    </titleproper>
+    <subtitle>
+     AFC 2016/048
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2017-12">
+     December 2017
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2017655335" show="new">
+       https://lccn.loc.gov/2017655335
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018-01">
+     January 2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Earl Crabb collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1953/2015">
+     1953-2015
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1953/2015" unitdatetype="inclusive">
+    1953-2015
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2016/048
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Crabb, Earl, collector.
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 5076 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    55 sound tape reels : analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    5 sound tape reels : analog ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    1 sound tape reel : analog ; 4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    1 sound tape reel : analog ; 3 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    1 sound cassette : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic images)">
+    approximately 2000 photographs : film, negatives, black and
+               white, color and color transparencies; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic images)">
+    636 contact sheets : black and white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic images)">
+    11 binders of photographic prints : black and white ; 8 x
+               10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic images)">
+    approximately 600 photographic prints, some matted : black
+               and white, color ; 4 in. x 5 in. to 20 in. x 24 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic images)">
+    approximately 25 posters, drawings, and brush and ink
+               artworks.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Electronic media)">
+    1 mini data cartridge (3M 2120)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    1752 items.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     In English.
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of photographs, audio
+            recordings, ephemera, flyers, and programs which document the east and west coast folk
+            and rock music scenes during the 1960s and 1970s including the Sky River Rock Festival,
+            the Indian Neck Folk Festival, and various concerts. Photographs represent Earl Crabb's
+            documentation of music events and his studio work. Earl Crabb photographed
+            weight-lifting, fashion, album and magazine covers, circus performers, theater events,
+            as well as people, markets, cities, and events in countries around the world. Ephemera
+            includes flyers from folk clubs such as Cafe Yana in Boston, Massachusetts; Club 47 in
+            Cambridge, Massachusetts; and the Freight and Salvage coffeehouse in Berkeley,
+            California. Collection includes editions of Broadside magazine, Hootenanny, and the
+            Philadelphia Folksong Society's Tune Up, which advertised these events. Of special
+            interest are photographs from the Sky River Rock Festival, 1968-1970, in Washington
+            State, and early editions of "Humbead's Revised Map of the World" produced in Berkeley,
+            California. Sixty-two audio recordings in the collection, made during the 1960s and
+            1970s, include concert and coffeehouse performances by the Cleanliness and Godliness
+            Skiffle Band, Wayne Smith and Ry Cooder, Tom Danaher, Dave and Megan Marash, Styx River
+            Ferry, Hank Bradley, Ace Martel, Erik Frandsen, Jim and Jesse McReynolds; a recording of
+            author Joseph Campbell, and others; some recordings are unidentified.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020131100.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bradley, Hank (Fiddler)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Campbell, Joseph, 1904-1987
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cooder, Ry
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Crabb, Earl, 1941-2015
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Crabb, Earl, 1941-2015.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Danaher, Thomas J.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Frandsen, Erik, 1946-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marash, Dave
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marash, Megan
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Cleanliness and Godliness Skiffle Band
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Humbead Enterprises.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Jim and Jesse
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      Sky River Rock Festival.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Coffeehouses--California--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Coffeehouses--Massachusetts--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Documentary photography.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music festivals--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk musicians--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music,--1961-1970.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rock music festivals--Washington (State)--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rock music--West (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rock musicians--Photographs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Berkeley (Calif.)
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Concerts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Ephemera.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts; II. Sound Recordings;
+               III. Photographs; IV. Artifacts.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Cindy Crabb, Giselle Shepatin; 2016, 2017.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access to recordings may be restricted. To request
+               materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Earl Crabb collection (AFC 2016/048), Archive of Folk Culture, American Folklife
+               Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Earl Crabb, photographer, computer programmer, entrepreneur. He designed on-line-banking
+            programs for Bank of America, the first touch screen program for a Canadian tourist
+            bureau, bank security, and investment software for financial institutions. He was
+            involved in the 1960s traditional and folk music scene as a producer, photographer, and
+            organizer. From 1968 until his death, he was owner of Humbead Enterprises, creating and
+            publishing posters (including, with Rick Shubb, "Humbead's Revised Map of the World,"
+            "El Hashish," and "Enantiodromia"). In addition he worked as an actor, an artist (under
+            a pseudonym), and as a sound engineer, claiming to be the first person to record Bob
+            Dylan in front of an audience. He provided support to such artistic endeavors as the San
+            Francisco Mime Troupe and the Pickle Family Circle, as well as other performers and
+            artists. He majored in economics at Williams College from 1959-1964. Born September 6,
+            1941 in Le Sueur, Minnesota; he died February 20, 2015 in San Francisco, California.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of photographs, audio recordings, ephemera, flyers, and programs which
+            document the east and west coast folk and rock music scenes during the 1960s and 1970s
+            including the Sky River Rock Festival, the Indian Neck Folk Festival, and various
+            concerts. Photographs represent Earl Crabb's documentation of music events and his
+            studio work. Earl Crabb photographed weight-lifting, fashion, album and magazine covers,
+            circus performers, theater events, as well as people, markets, cities, and events in
+            countries around the world. Ephemera includes flyers from folk clubs such as Cafe Yana
+            in Boston, Massachusetts; Club 47 in Cambridge, Massachusetts; and the Freight and
+            Salvage coffeehouse in Berkeley, California. Collection includes editions of Broadside
+            magazine, Hootenanny, and the Philadelphia Folksong Society's Tune Up, which advertised
+            these events. Of special interest are photographs from the Sky River Rock Festival,
+            1968-1970, in Washington State, and early editions of "Humbead's Revised Map of the
+            World" produced in Berkeley, California. Sixty-two audio recordings in the collection,
+            made during the 1960s and 1970s, include concert and coffeehouse performances by the
+            Cleanliness and Godliness Skiffle Band, Wayne Smith and Ry Cooder, Tom Danaher, Dave and
+            Megan Marash, Styx River Ferry, Hank Bradley, Ace Martel, Erik Frandsen, Jim and Jesse
+            McReynolds; a recording of author Joseph Campbell, and others; some recordings are
+            unidentified.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence and contacts,
+       <date>
+        1964-2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1964-2000
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Each item or group of items (materials from one envelope) is housed in a
+                     separate bond paper folder. Materials include correspondence sent to Earl
+                     Crabb, ranging from generic event reminders to a postcard from Tandy Beal (for
+                     10 years the artistic director of the Pickle Family Circus), a handwritten
+                     letter from "Mac" (probably Mac Wiseman), a handwritten letter from Mary
+                     DuShane (the original fiddler with the Powdermilk Biscuit Band, which played on
+                     the "Prairie Home Companion" radio show), and a handwritten contact list of
+                     names and phone numbers for various individuals (including Jim Kweskin, Jack
+                     Elliott, John Hammond, and others).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Preliminary drawings and lists for "Humbead's
+                     Revised Map of the World,"
+       <date>
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1967-1968
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Envelope with drawings and legal instructions regarding intellectual
+                     rights.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Recording contract,
+       <date>
+        October 5, 1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       October 5, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Contract between Vanguard records and the Cleanliness and Godliness Skiffle
+                     Band.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyers, calendars, and programs (originals),
+                     folder 1 of 2,
+       <date>
+        1960s-1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Individual events such as the annual fiddlers's conventions in Berkeley, event
+                     calendars for Freight and Salvage, and programs for events such as the Concert
+                     of Folk Music, presented by the Williams Motorcycle Club, and flyers for
+                     groups, such as the San Francisco Mime Troupe, and for clubs on both U.S.
+                     coasts such as Café Yana, Moon-Cussler, Golden Vanity, and Club 47.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyers, calendars, and programs (originals),
+                     folder 2 of 2,
+       <date>
+        1960s-1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See notes for folder 1/4.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyers and calendars (photocopies)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies sent to Earl Crabb, with notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Printed and handwritten documents
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A few pages of handwritten notes, and for the most part printed documents such
+                     as lyrics, a backstage pass for the 1967 Berkeley Folk Music Festival,
+                     informational flyers, a printout of Pete Frame's Berkeley music "family tree"
+                     (replacing a photocopied and taped version that arrived with the collection),
+                     programs for the memorial tribute to Earl Crabb, newspaper and magazine
+                     clippings, and related materials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscript materials from sound recording
+                     containers
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscript materials from photo
+                     albums
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Items delivered with photographic materials but with no direct association to
+                     them. Includes a fragmented flyer for Club 47, Inc., business cards (including
+                     one for Earl Crabb, from E/Soft), and two copies of "Humbead's Revised Map of
+                     the World" (8 in. x 10 in. and 5 3/4 in. 7 1/4 in.).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song lists for sound recordings (folder 1 of 4),
+       <date>
+        1960s-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Various versions and degrees of completion for a list of sound recordings in
+                     the collection. A few pages are handwritten, and the rest typed, dittoed, or
+                     printed from a computer document. According to one set of lists dated 1998, the
+                     recordings were "recently" found in the attic, assumed to be Earl Crabb's
+                     home.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song lists for sound recordings (folder 2 of 4),
+       <date>
+        1960s-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See notes for folder 2/2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song lists for sound recordings (folder 3 of 4),
+       <date>
+        1960s-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See notes for folder 2/2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Song lists for sound recordings (folder 4 of 4),
+       <date>
+        1960s-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960s-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See notes for folder 2/2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Broadside
+        </part>
+       </title>
+       ,
+       <date>
+        1962-1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1962-1964
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issue numbers 5, 33, 40, and 45, and one unnumbered compilation
+                     issue.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Broadside
+        </part>
+       </title>
+       , vol. II,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issue numbers 8 (two copies), 9, 10, 13 (cover only), 15, 18, 19, 23,
+                     and 20. Some issues are incomplete.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Broadside
+        </part>
+       </title>
+       vol. III,
+       <date>
+        1964-1965
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1964-1965
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issue numbers 1-8 (two copies of issue 2), 14-15, 17-19, and
+                     22-25.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Broadside
+        </part>
+       </title>
+       , vol. IV,
+       <date>
+        1965
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1965
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issue numbers 1-3, 5-6, 8-9.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Hootenanny
+        </part>
+       </title>
+       ,
+       <date>
+        1963-1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963-1964
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       4 magazine issues; not all are complete.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Tune Up
+        </part>
+       </title>
+       ,
+       <date>
+        1963-1964
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963-1964
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issues vol. 2, no 1; vol. 2, no. 2; October 1964, and November
+                     1964.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Rolling Blunder Review
+        </part>
+       </title>
+       ,
+       <date>
+        1987-1989
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1987-1989
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Magazine issue numbers 5 and 9-12.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Periodicals (folder 1 of 2),
+       <date>
+        1960-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Periodicals covering music industry and business subjects, with some of general
+                     interest.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Periodicals (folder 2 of 2),
+       <date>
+        1960-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1960-1990s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for folder 3/5.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Catalogs
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A catalog for County Records and Publications, and a catalog from the store
+                     Archie McPhee.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Sound recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Indian Neck Folk Festival. Original ID number:
+                     1,
+       <date>
+        May 6, 1961
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 6, 1961
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Left Bank shows, Indian Neck Folk Festival
+                     (1961), and dubs of commercial recordings. Original ID number: 4,
+       <date>
+        circa 1961
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1961
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Williams Motorcycle Club concert, at Adams
+                     Memorial Theatre, Williamstown, MA. Original ID number: 6,
+       <date>
+        November 10, 1962
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       November 10, 1962
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog, 4
+                        track, stereo ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR04
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 7
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 10
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR06
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dubs of commercial recordings. Original ID
+                     number: 11
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR07
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 12
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR08
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 13
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR09
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 17
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Some dubs of commercial recordings, and some
+                     that may be original. Original ID number: 23
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dubs of commercial recordings. Original ID
+                     number: 28
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 30
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 44 on reel, 70 on tape
+                     box
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 60 on reel, 61 on tape
+                     box
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR15
+      </container>
+      <unittitle encodinganalog="245$a">
+       David and Megan Marash. Original ID number:
+                     60
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 5
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 71
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR17
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Farinas" written on tape reel; probably Richard
+                     and Mimi Fariña. "Skiffle Band Earl's Crab Joint" written on tape reel;
+                     probably Cleanliness and Godliness Skiffle Band, performing at Earl's Crab
+                     Joint. Original ID number: 72
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 75
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 100
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 101
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 102
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 104
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original ID number: 110
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleanliness and Godliness Skiffle
+                     Band
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleanliness and Godliness Skiffle
+                     Band
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleanliness and Godliness Skiffle Band; possibly
+                     a radio broadcast
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 3
+                        1/4 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleanliness and Godliness Skiffle Band; possibly
+                     recorded in Berkeley, California in the 1960s
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wayne Smith and Ry Cooder
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wilson, Shubb, and Shubb
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog, 7
+                        1/2 ips, 1/4 track, stereo ; 5 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Tom Danaher
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 5
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dave and Megan Marash
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 4
+                        in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Relax Your Mind
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        My World Is Dust
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Cow Cow Yickey
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR32
+      </container>
+      <unittitle encodinganalog="245$a">
+       Odds and ends
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester and acetate) :
+                        analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interviews: Grand Ole Opry, Nashville,
+       <date>
+        1976
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fiddle lesson 1) Richard Green 2) Peter Stampfel
+                     (of Holy Modal Rounders)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester and acetate) :
+                        analog 7 1/2 ips (part 1), 3 3/4 ips (part 2) ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Styx River Ferry [band], in concert at Freight
+                     and Salvage
+       <date localtype="inclusive" normal="1968/1970">
+        1968-1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968/1970" unitdatetype="inclusive">
+       1968-1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hank Bradley
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR37
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hank Bradley - banjo pieces. Philco Radio
+                     Time
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR38
+      </container>
+      <unittitle encodinganalog="245$a">
+       Philco Radio Time
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Arlo Guthrie, "Crevasse"
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR40
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dynamite Annie Johnston and guitar. Johnston
+                     played with the Cleanliness and Godliness Skiffle Band
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR41
+      </container>
+      <unittitle encodinganalog="245$a">
+       Zason C.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR42
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ace Martel, tape 1,
+       <date>
+        1977
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR43
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ace Martel, tape 2,
+       <date>
+        1977
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR44
+      </container>
+      <unittitle encodinganalog="245$a">
+       Various recordings,
+       <date>
+        circa 1953-1962
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1953-1962
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Martin and Lewis in a studio while recording
+                        publicity releases for one of their pictures entitled "The Caddy" (circa
+                        1953)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Wally Cox yodeling backwards
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Frank Ifield, "I Remember You" (circa
+                        1962)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Annie Master (continued on Side
+                        2)
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR45
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mark S. and Paul Hecht
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR46
+      </container>
+      <unittitle encodinganalog="245$a">
+       Campbell [?] - end on 1L
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR47
+      </container>
+      <unittitle encodinganalog="245$a">
+       Joseph Campbell: "Myths of Alienation and
+                     Rapture," at the Esalen Institute,
+       <date>
+        1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jerry Foster, Lloyd Williams, Butch Waller at
+                     Sandy Rothman's house
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR49
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified recording
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR50
+      </container>
+      <unittitle encodinganalog="245$a">
+       Erik Frandsen
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR51
+      </container>
+      <unittitle encodinganalog="245$a">
+       Erik Frandsen #2
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR52
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified recording
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR53
+      </container>
+      <unittitle encodinganalog="245$a">
+       Branford 2:1,
+       <date>
+        1961
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1961
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR54
+      </container>
+      <unittitle encodinganalog="245$a">
+       1L: Jim and Jesse McReynolds. 1R: Jimmy
+                     Martin
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR55
+      </container>
+      <unittitle encodinganalog="245$a">
+       Steve Mann,
+       <date>
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR56
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hopeless Fore; Sakar Marsh
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR57
+      </container>
+      <unittitle encodinganalog="245$a">
+       John Sl[??],
+       <date>
+        May 10, 1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       May 10, 1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dub of commercially-released Dylan Thomas
+                     recordings
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR59
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified recording
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (polyester) : analog ; 5
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR60
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dave and Megan Marash
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Dr. Jazz
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        J.C. Holmes Blues
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Sweet Mary Blues
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Cow Cow Yickey
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Relax Your Mind
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR61
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified recording
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item_id">
+       AFC 2016/048: SR62
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified recording
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate) : analog ; 7
+                        in.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: Graphic materials
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Photographic materials
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Sub-subseries 1: Negatives
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <container localtype="boxes">
+         4-5
+        </container>
+        <unittitle encodinganalog="245$a">
+         Black-and-white negatives,
+         <date>
+          circa 1960s
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f">
+         circa 1960s
+        </unitdate>
+        <physdesc encodinganalog="300">
+         2 boxes
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         366 35mm negative strips, with a few strips of 120mm negatives, 136 4 in.
+                           x 5 in. frames, and 9 individual frames measuring approximately 2 1/2 in.
+                           x 3 1/2 in. The individual images were originally housed in the pressed
+                           paper box (see the Artifact series for more details). The black and white
+                           positive of "Humbead's Revised Map of the World" is accompanied by paper
+                           prints of the same image.
+        </p>
+       </scopecontent>
+      </c04>
+      <c04 level="item">
+       <did>
+        <container localtype="box">
+         6
+        </container>
+        <unittitle encodinganalog="245$a">
+         Color negatives and positives
+        </unittitle>
+        <physdesc encodinganalog="300">
+         1 box
+        </physdesc>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         28 35mm color negative strips and 13 4 in. x 5 in. color positives, 9 of
+                           which are versions of the image that ultimately was used for the El
+                           Hashish poster.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="boxes">
+        7-9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sub-subseries 2: Contact sheets and
+                        prints
+       </unittitle>
+       <physdesc encodinganalog="300">
+        3 boxes
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        636 contact sheets; all but one are black and white. Almost all contact
+                        sheets are for 35mm film, with a few examples of 120mm, 4 in. x 5 in., and
+                        various other sizes. The prints measure 8 in. x 10 in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="boxes">
+        10-13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sub-subseries 3: Prints (from
+                        binders)
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 boxes
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        359 prints received in binders. They have been rehoused in their original
+                        order within each box. All but one are unmatted. The prints range in size
+                        from 4 in. x 6 in. to 8 in. x 10 in. (the latter size represents the
+                        majority of prints).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="boxes">
+        14-16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sub-subseries 4: Prints (unmatted,
+                        loose)
+       </unittitle>
+       <physdesc encodinganalog="300">
+        3 boxes
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        These prints were received from the donor loose and ungrouped. 152 prints;
+                        only a few are in color (in Box 16: 19 4 in. x 6 in. and one approximately 8
+                        in. x 11 in.).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="boxes">
+        17-18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sub-subseries 5: Large prints (matted and
+                        unmatted)
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 boxes
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        109 prints; most are affixed to rigid paper mounts. All but one of the 24
+                        unmounted prints are black and white. 5 mounted prints are in color. The
+                        items range in size from a 6 1/4 in. x 10 in. print affixed to a 7 3/4 in. x
+                        10 in. mat, to a 7 in x 9 1/2 in. print affixed to a 10 1/2 in. x 15 in.
+                        mat. All unmounted prints are 11 in. x 14 in.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Graphic and photographic materials
+                     (oversize)
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Flyers
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        4 flyers. Two copies of a Moon-Cusser Coffee House concert flyer (Ramblin'
+                        Jack Elliott and the Charles River Valley Boys; 9 1/2 in. x 12 1/2 in.), a
+                        flyer advertising Lester Flatt and Earl Scruggs and the Foggy Mountain Boys
+                        (9 in. x 10 1/2 in.), and an announcement (in color) for a production of
+                        "Three Penny Opera," staged at Adams Memorial Theatre (6 1/4 in. x 26 1/2
+                        in.).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Posters
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 small posters printed on cardboard (multiple copies of some items).
+                        Announcements for events sponsored by the Williams Motorcycle Club (which
+                        Crabb helped to start), a concert to raise money for the March on
+                        Washington, and other music events. Items range in size from 11 in. x 14 in.
+                        to 14 in. x 22 in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications,
+        <date>
+         circa 1970s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1970s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two issues of
+        <title>
+         <part>
+          Earth Times
+         </part>
+        </title>
+        (April 1970 and May 1970), a
+                        foldout newsprint publication with information about the 1970 Sky River Rock
+                        Festival, and other publications.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Unmatted photos
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        23 black and white photos; 16 in. x 20 in. Includes duplicates for almost
+                        all photos in this folder.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Matted photos
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Three large-format photos on rigid supports (two portraits of individuals
+                        and one photo of a general store interior). Sizes range from 12 1/2 in. x 18
+                        in. to 15 in. x 19 1/4 in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Posters,
+        <date>
+         1969-1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1969-1970
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Three copies each of the 1969 and the 1970 versions of "Humbead's Revised
+                        Map of the World," two copies of the Enantiodromia poster, with Jim
+                        Bamford's image (copyright 1969), and 2 copies of the El Hashish poster
+                        (copyright 1970). Measurements range from 17 in. x 22 in. to 17 1/2 in. x 23
+                        in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Berkeley 80's
+        <date>
+         circa 1970s-1980s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa 1970s-1980s
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Spreadsheet in black marker on paper with a workflow intended to the make
+                        fun of the process of gauging the probability of an event. The spreadsheet
+                        was updated at some point from the 1970s to the 1970s (in various places on
+                        the item). Item is oblong, measuring 12 1/4 in. x 40 in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        19/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Oversize items (printed)
+        <date>
+         1962; undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1962; undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A small poster of a painting of Dave Fredrickson, by Carl Kasten (circa
+                        1962), and a bumper sticker with the phrase, "Campbell Coe is a myth."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        20/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Subseries C: Art works
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        2 brush and ink art works, unframed.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <container localtype="box">
+      20
+     </container>
+     <unittitle encodinganalog="245$a">
+      Series IV: Artifacts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paper box
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2016/048: AR01
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       One multicolored, pressed paper box with a detachable lid. The lid has a raised
+                     image of a dolphin.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Binder
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2016/048: AR02
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       3-ring binder with the logo of E/Soft, a software company started by Earl
+                     Crabb.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Tape box for AFC 2016/048: SR22
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2016/048: AR03
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape box kept as an example of the original sound recording containers.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

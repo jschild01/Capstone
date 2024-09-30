@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af014003">
+   loc.afc/eadafc.af014003
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Paula Morin collection: Honest horses,
+               wild horses in the Great Basin, 1999-2001
+    </titleproper>
+    <subtitle>
+     AFC 2013/038
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Valda Morris
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2014-06">
+     June 2014
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2013655496" show="new">
+       https://lccn.loc.gov/2013655496
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2014-06">
+     June 2014
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-01">
+     January 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Valda Morris
+    </agent>
+    <eventdescription>
+     Revised to incorporate accural.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Paula Morin collection: Honest horses,
+            wild horses in the Great Basin,
+    <date altrender="Span Dates" localtype="inclusive" normal="1999/2001">
+     1999-2001
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="260$c" label="Inclusive Dates" normal="1999/2001" unitdatetype="inclusive">
+    1999-2001
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2013/038
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Morin, Paula, 1945-
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1459 items; 2 containers; 5 linear inches.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic)">
+    1377 photographs (negatives) : film, black &amp;
+               white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic)">
+    21 photographic prints (giclee prints, handcolored) :
+               inkjet, color ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    2.5 linear inches.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     In English.
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of photographic documentation
+            of wild horse herds in the Nevada Great Basin made by Paula Morin during her work for
+            the Nevada Arts Council, 1999-2001. The photographs were exhibited by the Nevada Arts
+            Council in an exhibiton titled, "Honest Horses: A Portrait of the Mustang in Nevada's
+            Great Basin." The collection includes 21 prints described by the artist as giclee prints
+            made from handpainted black-and-white photographs; one print log, and related publicity
+            materials.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20201202122110.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="100" relator="creator" source="lcnaf">
+     <part>
+      Morin, Paula, 1945- photographer.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Nevada Arts Council
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Horses--Nevada--1990-2000.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wild horses--Great Basin--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wild horses--Nevada--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wilderness areas--Nevada--Photographs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Nevada.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Honest horses, wild horses in the Great Basin
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Inkjet prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Negatives.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is divided into two series: Manuscripts and graphic images. The negatives and contact sheets are in a binder, described as Box 2 in the container list.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The Paula Morin collection was purchased by the American Folklife Center in 2013.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Valda Morris processed and encoded the collection finding aid in EAD format in April
+               2014.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Related interviews conducted by Paula Morin for the exhibition are in the Nevada Arts Council "Honest Horses" exhibition
+               collection (AFC 2014/019).
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Paula Morin collection: Honest horses, wild horses in the Great Basin (AFC 2013/038),
+               Archive of Folk Culture, American Folklife Center, Library of Congress, Washington,
+               D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Publication
+   </head>
+   <bibref>
+    Morin, Paula.
+    <title>
+     <part>
+      Honest horses : wild horses in the Great Basin
+     </part>
+    </title>
+    (Reno: University of Nevada Press, c2006)
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Paula Morin is a photographer and oral historian specializing in the photography of wild horses of
+            the Great Basin region of the American West. For more than a decade, she has studied wild horses and conducted interviews about the horses' impact on the ecology and cultural landscape of Nevada.
+   </p>
+   <p>
+    Born in Hollywood, California, and raised in San Francisco, Morin’s admiration for horses was first inspired by her father, who was raised in Montana. They attended many horse races and polo matches during her
+            childhood. Morin graduated magna cum laude from Southern Oregon University and later pursued post-graduate
+            studies in photographic history and cultural anthropology. She became an independent photographer and field researcher and pursued an interest in the nineteenth-century
+            technique of hand-painted black-and-white photography.
+   </p>
+   <p>
+    In 1999, Morin received a Rural Community Arts Assistance Grant from the National Endowment for the Arts and the U.S. Forest Service which resulted in the 
+            exhibition Honest Horses: A Portrait of the Mustang in Nevada's Great Basin, supported by the Nevada Arts Council.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of photographic documentation of wild horse herds in the Nevada Great Basin
+            made by Paula Morin during her work for the Nevada Arts Council, 1999-2001.
+   </p>
+   <p>
+    The manuscript materials include exhibition documentation, a narrative history of wild
+            horses in the Great Basin, background information on the Nevada Touring Initiative, and
+            a teaching module. Also included is a handwritten print log with details about the creation of the giclee prints.
+   </p>
+   <p>
+    The
+            graphic images include 21 giclee prints, plus more than 1300 black-and-white photographs
+            depicting wild horses in the Great Basin region, as well as other images taken during
+            Morin's fieldwork.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aid
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nevada Touring Initiative: Traveling
+                     Exhibit
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Administratrive information pertaining to the Nevada Touring Initiative.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Promotional Materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Postcards, flyers, book jackets and schedule of exhibits.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Newsletter,
+       <date localtype="inclusive" normal="2001">
+        September 2001
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2001" unitdatetype="inclusive">
+       September 2001
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Telling the Story of Nevada's Wild Horses State Spotlight: National Assembly of
+                     State Arts Agencies
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Print log: Honest Horses
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Detailed processing and image development notes.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wild Horses of the Great Basin
+      </unittitle>
+      <physdesc encodinganalog="300">
+       21 giclee
+                     prints
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Montgomery Pass and Granite Mountain,
+       <date localtype="inclusive" normal="1999">
+        June
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       June
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Granite Mountain,
+       <date localtype="inclusive" normal="1999">
+        June 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       June 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 3 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Augusta Mountains,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified location,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified location,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified location,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified location,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       McCoy, Hole in the Wall,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       McCoy, Hole in the Wall,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       McCoy, Hole in the Wall,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Gary Garvasta,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       McCoy, Hole in the Wall,
+       <date localtype="inclusive" normal="1999">
+        August 15,
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       August 15,
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 3 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Stone Cabin and Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September
+                        1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                        1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 4 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles and Stone Cabin Valley,
+       <date localtype="inclusive" normal="1999">
+        September 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Stone Cabin,
+       <date localtype="inclusive" normal="1999">
+        September 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 2 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September 1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September 1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reneilles,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Seven Troughs,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 4 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Seven Troughs,
+       <date localtype="inclusive" normal="1999">
+        September
+                     1999
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1999" unitdatetype="inclusive">
+       September
+                     1999
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jim Gianola and Follow: Five Horses,
+       <date localtype="inclusive" normal="2000">
+        January 1,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 1,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 6 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Edwards Creek Valley and Alpine Mountains,
+       <date localtype="inclusive" normal="2000">
+        January
+                        16, 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January
+                        16, 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Edwards Creek Valley,
+       <date localtype="inclusive" normal="2000">
+        January 16,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 16,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 7 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified location,
+       <date localtype="inclusive" normal="2000">
+        January 16,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 16,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Edwards Creek Valley,
+       <date localtype="inclusive" normal="2000">
+        January 16,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 16,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bryan Neubert: Cowboy Poetry,
+       <date localtype="inclusive" normal="2000">
+        January 27,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 27,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bryan Neubert: Cowboy Poetry,
+       <date localtype="inclusive" normal="2000">
+        January 27,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January 27,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Las Vegas,
+       <date localtype="inclusive" normal="2000">
+        February 3,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       February 3,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet 7 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Las Vegas,
+       <date localtype="inclusive" normal="2000">
+        February 3,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       February 3,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 3 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Las Vegas,
+       <date localtype="inclusive" normal="2000">
+        February 3,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       February 3,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nanny Kent (2/6) and Red Rock Canyon (2/23),
+       <date localtype="inclusive" normal="2000">
+        March
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       March
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Red Rock Canyon,
+       <date localtype="inclusive" normal="2000">
+        March 23,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       March 23,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Las Vegas: Red Rock Canyon and blue Moon Horses,
+       <date localtype="inclusive" normal="2000">
+        March
+                        23, 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       March
+                        23, 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 7 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Red Rock Conversation Area,
+       <date localtype="inclusive" normal="2000">
+        March 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       March 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       IL Ranch,
+       <date localtype="inclusive" normal="2000">
+        April 12,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       April 12,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact and 7 negative
+                     strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Owhyee,
+       <date localtype="inclusive" normal="2000">
+        April 12,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       April 12,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Owhyee (4/12) and Newark Valley (5/10),
+       <date localtype="inclusive" normal="2000">
+        April-May 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       April-May 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ely-Newark Valley
+       <date localtype="inclusive" normal="2000">
+        May 9,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       May 9,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ely-Newark Valley
+       <date localtype="inclusive" normal="2000">
+        May 10,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       May 10,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clan Alpine (5/25) and Newark Valley (5/9),
+       <date localtype="inclusive" normal="2000">
+        January
+                        16, 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       January
+                        16, 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 5 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bald Mountain (May) Bookkeeper Springs (6/1),
+       <date localtype="inclusive" normal="2000">
+        May-June 2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       May-June 2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs,
+       <date localtype="inclusive" normal="2000">
+        June 1,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 1,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact shet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs,
+       <date localtype="inclusive" normal="2000">
+        June 1,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 1,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 5 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs,
+       <date localtype="inclusive" normal="2000">
+        June 1,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 1,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs,
+       <date localtype="inclusive" normal="2000">
+        June 1,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 1,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs: Emergency gather,
+       <date localtype="inclusive" normal="2000">
+        June 12,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 12,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs: Emergency gather,
+       <date localtype="inclusive" normal="2000">
+        June 12,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 12,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs: Emergency gather,
+       <date localtype="inclusive" normal="2000">
+        June 12,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 12,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 2 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bookkeeper Springs: Emergency gather,
+       <date localtype="inclusive" normal="2000">
+        June 12,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       June 12,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 6 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fish Creek and Owhyee gather,
+       <date localtype="inclusive" normal="2000">
+        July 6,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       July 6,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 7 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Antelope Valley,
+       <date localtype="inclusive" normal="2000">
+        July 6,
+                     2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       July 6,
+                     2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 2 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Antelope Valley and Fish Creek,
+       <date localtype="inclusive" normal="2000">
+        July 6,
+                        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       July 6,
+                        2000
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 contact sheet and 4 negative
+                        strips
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

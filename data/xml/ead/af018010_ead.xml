@@ -1,0 +1,3759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018010">
+   loc.afc/eadafc.af018010
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Brooklyn Rediscovery Folklife Study Project collection
+    </titleproper>
+    <author>
+     Prepared by Maya Lerman
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2018-10">
+     October 2018
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2017655400" show="new">
+       https://lccn.loc.gov/2017655400
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing Archives:
+            a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2024-03">
+     March 2024
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added previously unprocessed color negatives.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018-10">
+     October 2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Maya Lerman
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Brooklyn Rediscovery Folklife Study Project
+            collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1980/1983">
+     1980-1983
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1980/1983" unitdatetype="inclusive">
+    1980-1983
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2017/035
+   </unitid>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Posen, I. Sheldon
+     </part>
+    </persname>
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Miska, Maxine
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    5310 items received in ;
+            21 containers ; 7 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    15 linear in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    500 documents.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    6 sound tape reels :
+            analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    3 sound cassettes :
+            analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    984 photographs : film,
+            negatives, black and white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    61 photographs : film,
+            negatives, color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    169 photographic prints :
+            black and white ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    23 photographic prints ;
+            color ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    approximately 3588 slides
+            : color ; 35 mm.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection materials in English and possibly other languages.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Fieldwork for the Brooklyn Rediscovery
+            Folklife Study Project undertaken and coordinated by Sheldon Posen and Maxine Miska,
+            1980-1983. The project surveyed and recorded traditions in Brooklyn, New York, on behalf
+            of the Brooklyn Educational and Cultural Alliance (BECA) documenting ethnic foodways,
+            neighborhood events, private celebrations, street life and play, store fronts, music,
+            folk theater, religious events, urban sports and pastimes. Ethnic groups include African
+            Americans, diasporic Jews (including Hassidic), Greek Americans, Italian Americans,
+            Polish Americans, Puerto Ricans, West Indian Americans, Irish Americans, Chinese
+            Americans, and Ukrainian Americans. The annual West Indian Carnival in Prospect
+            Park/Eastern Parkway was documented in-depth. Joseph Sciorra and Sheldon Posen
+            documented the Our Lady of Mount Carmel giglio tradition with photographs by Martha
+            Cooper. Sheldon Posen also photographed the dancing of the giglio in New Jersey. The
+            collection includes photographs of Greek Easter celebrations, Sukkot and Etrog Market,
+            and documentation of exhibitions about Brooklyn folklife.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Ira Sheldon Posen; Donation; 2017, 2018.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Maya Lerman.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+            request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Brooklyn Rediscovery Folklife Study Project collection (AFC 2017/035), Archive of Folk
+            Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Fieldwork for the Brooklyn Rediscovery Folklife Study Project undertaken and coordinated
+            by Sheldon Posen and Maxine Miska, 1980-1983. The project surveyed and recorded
+            traditions in Brooklyn, New York, on behalf of the Brooklyn Educational and Cultural
+            Alliance (BECA) documenting ethnic foodways, neighborhood events, private celebrations,
+            street life and play, store fronts, music, folk theater, religious events, urban sports
+            and pastimes. Ethnic groups include African Americans, diasporic Jews (including
+            Hassidic), Greek Americans, Italian Americans, Polish Americans, Puerto Ricans, West
+            Indian Americans, Irish Americans, Chinese Americans, and Ukrainian Americans. The
+            annual West Indian Carnival in Prospect Park/Eastern Parkway was documented in-depth.
+            Joseph Sciorra and Sheldon Posen documented the Our Lady of Mount Carmel giglio
+            tradition with photographs by Martha Cooper. Sheldon Posen also photographed the dancing
+            of the giglio in New Jersey. The collection includes photographs of Greek Easter
+            celebrations, Sukkot and Etrog Market, and documentation of exhibitions about Brooklyn
+            folklife.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Brooklyn Rediscovery Folklife Study Project collection is organized in 5 series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1: Giglio,
+                  Italian American traditions, 1980-1983
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10002">
+      Series 2: Jewish
+                  traditions, 1981-1983
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10003">
+      Series 3: West Indian
+                  American traditions, 1980-1983
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10004">
+      Series 4: Brooklyn
+                  community traditions, 1980-1983
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10005">
+      Series 5: Folklife Study
+                  related materials, 1980-1983
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20221216101706.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cooper, Martha
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Miska, Maxine
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Posen, I. Sheldon
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sciorra, Joseph
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Brooklyn Educational &amp; Cultural Alliance
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Manteo Sicilian Marionette Theatre.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      West Indian American Day Carnival Association.
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      West Indian American Day Carnival Parade (Brooklyn, N.Y.)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American quiltmakers--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Caribbean Americans--New York (State)--New York--Social life and
+                  customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Chinese Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm.">
+     <part>
+      Christmas--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Costumes--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Easter eggs--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Easter--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Epiphany--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Festivals--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Greek Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hasidim--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Irish Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian American Catholics--New York (State)--New York--Social life and
+                  customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Italian Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jewish marriage customs and rites--New York (State)--New
+                  York--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--New York (State)--New York--Religious life.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Parades--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Parades--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polish Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Puerto Ricans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Puerto Ricans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Puppets--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Purim--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="afset">
+     <part>
+      Religious festivals--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sicilian Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sukkot--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ukrainian Americans--New York (State)--New York--Social life and
+                  customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Weddings--1980-1990--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      West Indian Americans--New York (State)--New York--Social life and
+                  customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brooklyn (New York, N.Y.)--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brooklyn (New York, N.Y.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Brooklyn Educational and Cultural Alliance (BECA) Brooklyn Rediscovery Folklife
+                  Study Project
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Aerial photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Documentary photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Photographs--Color--1980-1990.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1: Giglio, Italian American
+                  traditions,
+      <date localtype="inclusive" normal="1980/1983">
+       1980-1983
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+      1980-1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Manuscripts and photographs documenting the Giglio Feast, a religious festival and
+                  street fair. The Giglio Feast usually opens the week after the 4th of July, and
+                  runs for 12 days including the feast day of Our Lady of Mount Carmel on July 16th,
+                  in Williamsburg, Brooklyn. The feast pays homage to the patron saint, San Paolino
+                  or Saint Paulinus, of Nola, Italy, and culminates with dancing the giglio, a huge
+                  flower-laden steeple of wood, more than 80 feet in height, carried through the
+                  streets on the shoulders of hundreds of men. Field work by Sheldon Posen, Maxine
+                  Miska, Joseph Sciorra, and Martha Cooper.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio field notes (folder 1),
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Joe Sciorra field notes about the Giglio Feast. Includes index cards with
+                     locations and neighborhoods.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio field notes (folder 2),
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 5 black-and-white contact
+                     sheets
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes planning field notes, program for 93rd Annual Feast of Our Lady of
+                     Mount Carmel and Saint Paulinus, and contact sheets 180-1, 180-3, 180-4,
+                     18186-2, 18186-3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio research,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 1 black-and-white photographic
+                     print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes "Notes for Elliot Willensky, 1982 (for exhibit)," which includes notes
+                     about the hierarchy, participants, and roles of Giglio.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio research,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 23 color photographic
+                     prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes planning field notes, notes about Sheldon Posen and Joseph Sciorra
+                     article/book, and articles, programs for 93rd Annual Feast of Our Lady of Mount
+                     Carmel and Saint Paulinus. Includes 23 color photographs of the Giglio
+                     procession.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Library research,
+       <date localtype="inclusive" normal="1982/1985">
+        1982-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982/1985" unitdatetype="inclusive">
+       1982-1985
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence, handwritten notes, photocopies of articles and book chapters
+                     about the festival in honor of Saint Paulinus/Giglio Feast in Nola, Italy, and
+                     in Brooklyn.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Research,
+       <date localtype="inclusive" normal="1983">
+        1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983" unitdatetype="inclusive">
+       1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correpondence, handwritten notes, poem, and program for 95th Annual Feast of
+                     Our Lady of Mount Carmel and Saint Paulinus.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Originals and duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/18-10/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Scenes from the neighborhood surrounding
+                     the Giglio Feast event. Mostly duplicates. 18 color negatives (35mm) were
+                     relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10007">
+        Box
+                        5, Folder 2.
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mixed content. Originals and
+                     duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/28-12/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals and duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals and duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/38
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper (and possibly also, Sheldon Posen). Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/41
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/42
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       15/46
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1982/1983">
+        1982-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982/1983" unitdatetype="inclusive">
+       1982-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       15/48-17/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Originals and duplicates. Mixed
+                     content. Mostly for Brooklyn Folklife presentation.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       17/49-20/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mostly originals. Mixed
+                     content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       20/52-21/52
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/55
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1984">
+        1980-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1984" unitdatetype="inclusive">
+       1980-1984
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Some photographs likely by Sheldon Posen; others are captures of historical
+                     photographs of Giglio Feast, church, and families.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/57
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/59
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/44
+      </container>
+      <unittitle encodinganalog="245$a">
+       Giglio and church,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bronx Giglio,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Old Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Color photographs of black-and-white photographs from older Giglio events.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       New Jersey Giglio,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Questionnaire,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Questionnaire for participants of the Feast of St. Paulinus and the Giglio.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Slide show,
+       <date localtype="inclusive" normal="1981/1984">
+        1981-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1984" unitdatetype="inclusive">
+       1981-1984
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Paper titled, "'It's in the Blood:' Dancing the Giglio in Brooklyn," with
+                     edits, notes, and correspondence.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 3 black-and-white photographic prints
+                     (8x10)
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Research notes, correspondence, newspaper clippings, pamphlet from Giglio
+                     exhibit at the Brooklyn Historical Society, and still images relating to the
+                     Giglio. 3 35mm color slides were relocated to Box 21/61(numbered 61_001,
+                     61_002, 61_003), 2 black-and-white copy negatives (35mm) and 6 black-and-white
+                     negatives (35mm) were relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10006">
+        Box 4, Folder 1
+       </ref>
+       , and 6 color negatives (35mm)
+                     were relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10007">
+        Box 5, Folder 1
+       </ref>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous,
+       <date localtype="inclusive" normal="1980/1989">
+        circa 1980s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1989" unitdatetype="inclusive">
+       circa
+                     1980s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       37 color negatives (35mm)
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Unidentified scenes from the Giglio festival. Photographer is unknown. Roll
+                     number: A059910. See also
+       <ref actuate="onrequest" show="replace" target="ref_id10007">
+        Box 5.
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10002">
+      Series 2: Jewish traditions,
+      <date localtype="inclusive" normal="1981/1983">
+       1981-1983
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+      1981-1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Manuscripts, photographs, and sound recordings about Jewish, specifically Hasidic,
+                  holidays and traditions. Includes documentation of a Hasidic Lubavitcher (movement
+                  of Hasidic Judaism) wedding, as well as materials about the Sukkot, Purim, and
+                  Passover holidays.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Matza making,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 58 black-and-white photographic
+                     prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white photographic prints by Martha Cooper and "The Worlds of
+                     Brooklyn Matza Making," an edited paper by Sheldon Posen about matza making
+                     foodways traditions. Includes notes and script of play about matza making.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       8/12-9/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brooklyn Matza making,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/3-4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic Lubavitcher wedding I,
+       <date localtype="inclusive" normal="1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 69 black-and-white photographic
+                     prints; 18 black-and-white contact sheets.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes Hasidic (Lubavitch) wedding invitation and prayer book from wedding,
+                     as well as a story board about a Hasidic wedding. Black-and-white photographic
+                     prints and negatives of a Hasidic wedding, including images of the Kabbalat
+                     Panim (greeting of the bride and groom), the Chupah (canopy), and dancing.
+                     Contact sheet roll numbers 21042-1-21042-11; 21058-1-21057-7. 612
+                     black-and-white negatives (35mm) were relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10006">
+        Box 4, Folder 2
+       </ref>
+       : roll numbers
+                     21042-1-21042-11; 21058-1-21057-7.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic Lubavitcher wedding II,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 16 black-and-white phographic prints;
+                     10 contact sheets.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs of women taken by Martha Cooper; photographs of men taken by
+                     Sheldon Posen. Contact sheet roll numbers 21139-2, 21139-4, 21139-6, 21139-7,
+                     21139-8; 21042-3, 21042-5; 21160-1, 21160-3, 21160-4. 274 black-and-white
+                     negatives (35mm) were relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10006">
+        Box 4, Folder 3
+       </ref>
+       : roll numbers 21139-2, 21139-4,
+                     21139-6, 21139-7, 21139-8; 21160-1, 21160-3, 21160-4.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR008
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic wedding conversation I,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 cassette tape
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hassidic wedding conversation, tape 1. Conversation with Mordechai and Tsivia.
+                     MBRS shelf number: RYQ 2409
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       SR009
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic wedding conversation II,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 cassette tape
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hassidic wedding conversation, tape 2. Conversation with Mordechai and Tsivia.
+                     MBRS shelf number: RYQ 2410
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasids and chickens,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       21 black-and-white photographic prints; 4
+                     black-and-white contact sheets.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographic material by Martha Cooper of kapparot ceremony, ritual between
+                     Rosh Hashana and Yom Kippur to transfer a person's sins to a chicken. Contact
+                     sheet roll numbers 17195-1, 17195-2, 17195-3; 17272. 90 black-and-white
+                     negatives (35mm) were relocated to
+       <ref actuate="onrequest" show="replace" target="ref_id10006">
+        Box 4, Folder 4
+       </ref>
+       : roll numbers 17195-1, 17195-2,
+                     17195-3; 5826-3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot, Essex Street Market,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Photographs of the Essex Street
+                     Market in preparation for the Sukkot holiday. Includes documentation of a
+                     Hasidic Lubavitcher wedding, as well as materials about Sukkot, Purim, and
+                     Passover.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Originals and duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/28-12/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals and duplicates. Mixed
+                     content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/33-13/33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals and duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/40
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/45-15/45
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       15/47
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       20/50
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/53
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Images from a market selling Lulav and
+                     Etrog (likely Essex Street Market), two of the Four Species used during the
+                     Jewish holiday of Sukkot.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sukkot and tabernacle,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mostly duplicates. Sukkot traditions and
+                     an ornate Jewish temple (tabernacle).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       7/06
+      </container>
+      <unittitle encodinganalog="245$a">
+       Purim,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Purim,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/22-11/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hebrew writing,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Ushpizin.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/39-14/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic content,
+       <date localtype="inclusive" normal="1980/1981">
+        1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       1980-1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hasidic content,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper and Sheldon Posen. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10003">
+      Series 3: West Indian American
+                  traditions,
+      <date localtype="inclusive" normal="1980/1983">
+       1980-1983
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+      1980-1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Manuscript and photographs relating to the West Indian Day Parade, or, Carnival,
+                  (organized by the West Indian American Day Carnival Association), an annual
+                  celebration held on American Labor Day that celebrates the history, culture,
+                  music, food, and people from Caribbean countries.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brooklyn Carnival research,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Notes, articles, program books, exhibit guide, writings, research, and
+                     correspondence related to the West Indian-American Carnival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carnival lights,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper of the West Indian Carnival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Photographs of music, dance, and costume
+                     construction.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/22-11/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Costume making,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Photographs of ornate costumes,
+                     steel drum ensemble (Sonics steel orchestra), and events honoring Bob
+                     Marley.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/29
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Ornate costumes and steel drum
+                     ensemble.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/32
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Carnival,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Constructing ornate costumes, decorations
+                     for parade.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       12/33-13/33
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. West Indian American Day Carnival
+                     Association (WIADCA) festival with indoor and outdoor stage, ornate
+                     decorations, and steel drum ensemble.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/38
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper (and possibly also, Sheldon Posen). Ornate
+                     costumes and dance with accordion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/40
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Ornate costumes and steel drum
+                     ensemble.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper and Sheldon Posen. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/45-15/45
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Costume making for West Indian American
+                     Day Carnival Association (WIADCA) festival (West Indian Day Parade).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       15/47
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       15/48-17/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Originals and duplicates. Mixed
+                     content. Mostly for Brooklyn Folklife presentation.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       17/49-20/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mostly originals. Mixed
+                     content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/56
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian Day Parade,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Costume making, parade, steel drums.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/39-14/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       West Indian content,
+       <date localtype="inclusive" normal="1980/1981">
+        1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       1980-1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10004">
+      Series 4: Brooklyn community
+                  traditions,
+      <date localtype="inclusive" normal="1980/1983">
+       1980-1983
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+      1980-1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Manuscripts, photographs, and sound recordings about a range of communities and
+                  immigrant traditions in Brooklyn, such as that of Ukrainians, Greeks, Chinese,
+                  Irish, and Puerto Rico. Includes documentation of exhibits that Posen, Sciorra,
+                  and Cooper put together, as well as material relating to Brooklyn business
+                  establishments.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ukrainian Christmas,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes documenting Ukrainian Christmas traditions of the Savchak family,
+                     including foodways and gift giving.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/60
+      </container>
+      <unittitle encodinganalog="245$a">
+       Greek Easter,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely be Sheldon Posen. Originals. Photographs of Greek Easter, or
+                     Christo Anesti.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Afro-American quilting,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Field notes and descriptions of interviews about African American quilts and
+                     children's games. Fieldworker, Deborah Finley-Jackson.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       7/08
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chinese,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen. Qingming festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       8/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Irish Clann Éireann,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Originals and duplicates. Mixed
+                     content (includes Giglio, Purim, Easter, Candy Store, Chruszik, Irish Pipe
+                     Band).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       14/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       Irish content,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper and Sheldon Posen. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/56
+      </container>
+      <unittitle encodinganalog="245$a">
+       Irish content,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       8/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Polish, Easter eggs, Chruscik,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Mostly or all originals. Easter egg painting and baking chruscik.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR001
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican music, session 1,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Musicians: Sergio Ortiz (vocal), Jose Rivera (cuatro), Ismael Natel (guitar),
+                     Diego Diaz (quirro), Genaro Cruz (conga), Maria Ortiz (coro, vocal).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR002
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican music, session 2,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Musicians: Sergio Ortiz (vocal), Jose Rivera (cuatro), Ismael Natel (guitar),
+                     Diego Diaz (quirro, maracas), Genaro Cruz (conga), Maria Ortiz (vocal),
+                     Benjamin Soto (guiro, coro).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR003
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican music, session 3,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Musicians: Sergio Ortiz (vocal), Jose Rivera (cuatro), Ismael Natel (guitar),
+                     Diego Diaz (quirro), Genaro Cruz (conga).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR004
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican, 3 kings, part 1,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Part 1. St. Michael's.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR005
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican, 3 kings, part 2,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Part 2. St. Michael's.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR006
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican "kitchen music,"
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Musicians: Sergio Ortiz (vocal, guitar), Maria Ortiz (vocal), Benjamin Soto
+                     (guirro).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2017/035: SR007
+      </container>
+      <unittitle encodinganalog="245$a">
+       Puerto Rican, Jibaro music,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sergio Ortiz and band.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous Brooklyn slides,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs mostly by Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/04
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous Brooklyn slides,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs mostly by Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       6/05-7/05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous Brooklyn slides,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper. Mixed content.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       7/07
+      </container>
+      <unittitle encodinganalog="245$a">
+       Candy store; Bay Ridge,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Shedon Posen; all or mostly originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       7/09-8/09
+      </container>
+      <unittitle encodinganalog="245$a">
+       Aerials: Brooklyn, Manhattan,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen. Aerial views of Brooklyn and Manhattan.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Stick ball,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen. Mostly or all originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Store fronts; Ukrainian Christmas,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs mostly or all by Sheldon Posen. Mixed content, including Jewish,
+                     Ukrainian, Bay Ridge Fish Market, as well as walls and murals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       11/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brooklyn Posters,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       20/50
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Ritual Journeys" signs,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Signs about communities in Brooklyn.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       20/51
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Making Brooklyn Home" signs,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Signs about communities in Brooklyn.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       9/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified content,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       10/22-11/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Christmas traditions,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Sheldon Posen and Martha Cooper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Christmas traditions,
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs likely by Sheldon Posen. Originals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/37
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Manteo Ancona"; marionettes from Manteo Family
+                     Sicilian Marionette Theater
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. From original slide: "Papa Manteo's Marionettes."
+                     Photographs of elaborate puppets/figurines.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       21/54
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Manteo,"
+       <date localtype="inclusive" normal="1980/1982">
+        1980-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1982" unitdatetype="inclusive">
+       1980-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Manteo Family Sicilian Marionette Theater. Photographs by Martha Cooper.
+                     Marionettes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-group">
+       13/39-14/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mixed content,
+       <date localtype="inclusive" normal="1980/1981">
+        1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       1980-1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       35mm color slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs by Martha Cooper. Mixed content, including documentation of Irish,
+                     Chinese, West Indian, and Italian communities.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10005">
+      Series 5: Folklife Study related
+                  materials,
+      <date localtype="inclusive" normal="1980/1983">
+       1980-1983
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+      1980-1983
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Manuscripts, including field notes, papers, calendars, clippings, and
+                  administrative forms, relating to the Brooklyn Rediscovery Folklife Study
+                  Project.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Conversations,
+       <date localtype="inclusive" normal="1981/1982">
+        1981-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1982" unitdatetype="inclusive">
+       1981-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Notes from conversations with folklorists, subject specialists, and librarians
+                     about the Brooklyn Rediscovery Folklife Study Project collection, potential
+                     communities to study, and potential fieldworkers, informants, and other
+                     contacts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Field notebooks,
+       <date localtype="inclusive" normal="1981/1983">
+        1981-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981/1983" unitdatetype="inclusive">
+       1981-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       3 small field notebooks with notes, observations, recipes, event listings,
+                     traditions, and contact names and organizations.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clippings,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Newspaper clippings and program booklets about Brooklyn's immigrant
+                     communities, neighborhoods, and traditions and practices.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brooklyn calendar,
+       <date localtype="inclusive" normal="1980/1983">
+        1980-1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1983" unitdatetype="inclusive">
+       1980-1983
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts; 1 black-and-white photographic
+                     print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lists of upcoming Brooklyn festivals and celebrations to investigate, including
+                     specific locations. One black-and-white photographic print of "old Brooklyn"
+                     (Myrtle St.), undated.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Staub regionality/Brooklyn,
+       <date localtype="inclusive" normal="1980/1981">
+        1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       1980-1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Shalom Staub paper "Toward a Theory of Regionality: the Case of the Urban
+                     Region, Brooklyn, USA" and correspondence from Staub.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brooks MacNamara paper,
+       <date localtype="inclusive" normal="1982-05">
+        May 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-05" unitdatetype="inclusive">
+       May
+                     1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Brooks MacNamara presentation (including slide numbers) about traditional folk
+                     performances and theater.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Archives: accessioning forms,
+       <date localtype="inclusive" normal="1980/1981">
+        1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       1980-1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes Sheldon Posen and Ricki Rosen's photo logs, correspondence with Neil
+                     Rosenberg, examples of documentation from American Folklife Center Field Survey
+                     Projects, and article about how to file and store photographic slides.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound recording documentation,
+       <date localtype="inclusive" normal="1982-02">
+        February, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-02" unitdatetype="inclusive">
+       February, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       manuscripts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes notes that correspond with SR001.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10006">
+       Black-and-white
+                     negatives
+      </unittitle>
+      <physdesc encodinganalog="300">
+       984 black-and-white negatives (35mm)
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10007">
+       Color negatives
+      </unittitle>
+      <physdesc encodinganalog="300">
+       61 color negatives (35mm)
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

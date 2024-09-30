@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af013011">
+   loc.afc/eadafc.af013011
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Blue Ridge Parkway Folklife Project
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 1982/009
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Lucy M. Long
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1982-09">
+     September 1982
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695008" show="new">
+       https://lccn.loc.gov/2004695008
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-07">
+     July 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     PDF appendix moved into hierarchical component for display purposes
+               and publication date amended to match PDF date (Farrah Cundiff).
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2013-12">
+     December 2013
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kate Stewart
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Blue Ridge Parkway Folklife Project collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1977/1981">
+     1977-1981
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1977/1981" unitdatetype="inclusive">
+    1977-1981
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1982/009
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      National Park Service
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    13 linear ft.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    161 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    428 sound tape reels :
+            analog, various speeds ; 5 and 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    39 sound cassettes (60 and
+            90 min. each) : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    2 sound discs : analog, 33
+            1/3 rpm ; 12 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    circa 25,000 photographs
+            : black and white, color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    114 photographic prints :
+            black and white.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    14 videocassettes (U-Matic) :
+            sound, color ; 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    1 wooden puzzle.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists of sound
+            recordings, video recordings, photographs, manuscripts, sheet music, printed ephemera,
+            artifacts, administrative records, and ethnographers' field notes related to the 1978
+            Blue Ridge Parkway Project field survey, conducted by the American Folklife Center,
+            Library of Congress, in cooperation with the National Park Service, in and around an
+            area of the Blue Ridge Parkway at the Virginia and North Carolina border. The project
+            documented old-time music, tales, hunting and hunting stories, farming, tobacco
+            cultivation and auctions, vernacular architecture, quilting, foodways (including drying,
+            canning, and baking), religious music and beliefs, as well as dance events featuring
+            square dancing and flatfoot dancing. Recordings and photographs document local music
+            (including concerts, fiddlers' contests, and music in homes), community events, church
+            services and baptisms, local radio programs, and interviews with white and African
+            American residents. .
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20210608130954.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Adler, Thomas A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bryan, Mamie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Choate, Donna
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cruise, Crystal
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Eiler, Lyntha Scott
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Eiler, Lyntha Scott. Blue Ridge harvest: a region's folklife in
+                  photographs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Eiler, Terry
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fleischhauer, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jabbour, Alan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jarrell, Tommy, 1901-1985
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Johnson, Geraldine Niva, 1940-2016
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marshall, Howard W.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mullen, Patrick B., 1941-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Owen, Blanton, 1945-1998
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Owen, Margaret Counts
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Patton, Ila, 1905-2001
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ray, Roxie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Richardson, Larry (Banjoist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Severt, Carrie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Shockley, Maggie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stanley, Lura, 1906-1984
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Todd, Zenna, 1916-2012
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wilson, Joe, 1938-2015
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wolfe, Charles K.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wolfe, Charles K. Children of the heav'nly king.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wolfe, Charles K. Selected sound recordings from the Blue Ridge Parkway
+                  Folklife Project
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Blue Ridge Parkway Folklife Project.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. National Park Service
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American quiltmakers--North Carolina--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American quilts--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Baptists--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1971-1980.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Community life--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Crazy quilts--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Food habits--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fox hunting--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Holiness churches--Appalachian Region, Southern.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Material culture--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Primitive Baptists--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Quilting--Patterns.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Quiltmakers--Blue Ridge Mountains--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Quilts--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Square dancing--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      String band music--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--Blue Ridge Mountains.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tobacco farmers--Blue Ridge Mountains--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vernacular architecture--Blue Ridge Mountains.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Appalachian Region--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Appalachian Region--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Blue Ridge Mountains--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Blue Ridge Mountains--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      North Carolina--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Virginia--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Process of field research : final report on the Blue Ridge Parkway Folklife
+                  Project.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Almanacs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Religious radio programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sermons.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts; II. Sound Recordings;
+            III. Graphic Images; IV. Moving Images.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was acquired as a project sponsored by the American Folklife Center and
+            the National Park Service.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Lucy M. Long in 1982.
+   </p>
+  </processinfo>
+  <originalsloc encodinganalog="535">
+   <head>
+    Location of Originals
+   </head>
+   <p>
+    The original sound recordings are stored at the National Audiovisual Conservation
+            Center.
+   </p>
+  </originalsloc>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the recorded materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Access restrictions apply; some or all content stored offsite. To request materials,
+            please contact the Folklife Reading Room at
+            http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    Selected interviews and images from the collection on Blue Ridge quilters and
+            quiltmaking are presented in "Quilts and Quiltmaking in America, 1978-1996," an online
+            resource at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000018">
+     http://hdl.loc.gov/loc.afc/collafc.af000018
+    </ref>
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Blue Ridge Parkway Folklife Project collection (AFC 1982/009), Archive of Folk Culture,
+            American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Publications
+   </head>
+   <bibref>
+    Eiler, Lyntha Scott; Terry Eiler; and Carl Fleischhauer, eds.
+    <title>
+     <part>
+      Blue Ridge Harvest : A Region's Folklife in Photographs
+     </part>
+    </title>
+    . Washington, D.C. : Library of Congress, 1981. Catalog record:
+    <ref actuate="onrequest" href="http://lccn.loc.gov/80607940">
+     http://lccn.loc.gov/80607940
+    </ref>
+    . Available online at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afcpub.80607940">
+     http://hdl.loc.gov/loc.afc/afcpub.80607940
+    </ref>
+   </bibref>
+   <bibref>
+    Wolfe, Charles K., ed.
+    <title>
+     <part>
+      Children of the Heav’nly King
+     </part>
+    </title>
+    (AFS L69/70) Washington, D.C. : Library of Congress Recording Laboratory, 1981.
+            Catalog record:
+    <ref actuate="onrequest" href="http://lccn.loc.gov/2012617636">
+     http://lccn.loc.gov/2012617636
+    </ref>
+   </bibref>
+   <bibref>
+    Wolfe, Charles K., ed.
+    <title>
+     <part>
+      Selected Sound Recordings from the Blue Ridge Parkway Folklife Project
+     </part>
+    </title>
+    .
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The Blue Ridge Parkway Folklife Project was sponsored by the American Folklife Center at
+            the Library of Congress in cooperation with the National Park Service. It spanned the
+            years 1978 to 1981 and involved three phases: pre-fieldwork, fieldwork, and
+            post-fieldwork. The pre- fieldwork phase occurred between February and August 1978 and
+            involved identifying the section of the Parkway to study, choosing field team members,
+            and preparing a background research document. The fieldwork took place primarily during
+            August and September 1978 and was conducted by ten folklorists and photographers.
+   </p>
+   <p>
+    This field team included the folklorists Charles K. Wolfe (Middle Tennessee State
+            University), Geraldine Johnson (Strayer College), Patrick B. Mullen (Ohio State
+            University), Blanton Owen (Ferrum College), Margaret Counts Owen (Ferrum College), and
+            Thomas A. Adler (Indiana University), and photographers Terry Eiler and Lynthia Scott
+            Eiler (Ohio University). Carl Fleischhauer and Howard W. Marshall of the American
+            Folklife Center also assisted. The fieldwork included an intern program designed to
+            train selected Park Service employees in folklife study. Although each team member was a
+            specialist in some area of folklife or folklore, all members, except Margaret Owen who
+            focused on dance traditions, acted as generalists and documented a variety of folk
+            traditions. The materials they gathered are diverse and cover a variety of topics. The
+            subjects best represented in the collection are religious services and music, folk
+            narrative, folk architecture, quilting, foodways, tobacco culture, secular music, folk
+            dance, and fox hunting.
+   </p>
+   <p>
+    The post-fieldwork phase lasted through 1981 and involved preparing the project's final
+            products. A final report,
+    <emph render="italic">
+     The Process of Field Research
+    </emph>
+    ,
+            which summarized the project's findings and recommendations, was presented to the
+            National Park Service. Two publications were produced: the book,
+    <emph render="italic">
+     Blue Ridge Harvest
+    </emph>
+    , edited by Terry Eiler, Lyntha Scott Eiler, and Carl
+            Fleischhauer, and the two-LP album set,
+    <emph render="italic">
+     Children of the Heav'nly
+               King
+    </emph>
+    , edited by Charles Wolfe. In addition, several fieldworkers wrote essays
+            on particular topics. The collection was arranged and housed in the Archive of Folk
+            Culture at the Library of Congress, and a large body of duplicate materials was
+            presented to the Parkway for use as a reference archive.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection consists of sound recordings, video recordings, photographs, manuscripts,
+            sheet music, printed ephemera, artifacts, administrative records, and ethnographers'
+            field notes related to the 1978 Blue Ridge Parkway Project field survey, conducted by
+            the American Folklife Center, Library of Congress, in cooperation with the National Park
+            Service. The survey examined folklife in and around an area of the Blue Ridge Parkway in
+            Grayson, Carroll, Floyd, and Patrick Counties in Virginia, and Alleghany, Wilkes and
+            Surry Counties in North Carolina. The project documented old-time music, tales, hunting
+            and hunting stories, farming, tobacco cultivation and auctions, vernacular architecture,
+            quilting, foodways (including drying, canning, and baking), religious music and beliefs,
+            as well as dance events featuring square dancing and flatfoot dancing. Recordings and
+            photographs document local music (including concerts, fiddlers' contests, and music in
+            homes), community events, church services and baptisms, local radio programs, and
+            interviews with white and African American residents.
+   </p>
+   <p>
+    The field notes record the fieldworkers' activities, impressions, and interpretations
+            of the phenomena they observed. As such, they provide a context for the project
+            photographs, sound recordings, and moving images. The collection includes approximately
+            400 pages of field notes and 100 pages of interview report forms. About 500 pages of
+            logs accompany the photographs, sound recordings, and moving images. These logs identify
+            the subjects of photographs or outline the contents of recordings. They also provide
+            dates, names, and places of documentation. The collection includes two American Folklife
+            Center publications based on these materials and a final report presented to the
+            National Park Service:
+    <emph render="italic">
+     The Process of Field Research, Final Report
+               on the Blue Ridge Parkway Folklife Project
+    </emph>
+    by Carl Fleischhauer and Charles
+            Wolfe (1981).
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      PDF Inventory,
+      <date localtype="inclusive" normal="1982-09">
+       September 1982
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1982-09" unitdatetype="inclusive">
+      September 1982
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      See
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af013011.apx">
+       PDF inventory
+      </ref>
+      .
+     </p>
+    </scopecontent>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    Container List
+   </head>
+   <p>
+    See
+    <ref href="https://hdl.loc.gov/loc.afc/eadafc.af013011.apx">
+     PDF inventory
+    </ref>
+    of
+            the collection materials, prepared in September 1982.
+   </p>
+  </odd>
+ </archdesc>
+</ead>

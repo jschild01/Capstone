@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af012007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af012007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Diana Cohen Hopi Religion Collection
+    </titleproper>
+    <subtitle>
+     AFC 1978/003
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle	Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+					Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1994-09">
+     September 1994
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695178" show="new">
+       https://lccn.loc.gov/2004695178
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2012-12">
+     December 2012
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Diana Cohen Hopi Religion
+					Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1974">
+     1974
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1974" unitdatetype="inclusive">
+    1974
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="050" label="Call No." repositorycode="US-DLC">
+    AFC 1978/003
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Cohen, Diana
+     </part>
+    </corpname>
+   </origination>
+   <physdesc label="Extent (Sound Recordings)">
+    1 sound recording (90 min.) : analog, 7 1/2 ips, stereo. ; 10 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials are in English
+				and Hopi  .
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+					Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    A sound recording of songs and discussion
+				about aspects of Hopi religion, including dance. It was made by Diana Cohen in the
+				spring of 1974 in Second Mesa, Arizona, and documents an informal gathering of
+				families at the home of Ferrell Secakuku, leader of his village, songwriter, and
+				dancer.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020130429.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Becker, Diana
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Secakuku, Ferrell
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hopi dance--Arizona.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hopi Indians--Arizona--Religion.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hopi Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hopi Indians--Rites and ceremonies.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Snake dance--Arizona.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Second Mesa (Ariz. : Mesa)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is organized by format into the following series: I. Sound
+					Recordings.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was donated by Diana Cohen in 1978.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Michelle Forner in 1994. Valda Morris revised and
+					encoded the collection finding aid in EAD in December 2012.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+					restrictions. Collection is open for research. To request materials, please
+					contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Diana Cohen Hopi Religion Collection (AFC 1978/003), Archive of Folk Culture,
+					American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection consists of one 90-minute audio recording of songs and discussions
+				about different aspects of Hopi religion which was recorded by Diana Cohen in the
+				spring of 1974 in Second Mesa, Arizona. The recording documents an informal
+				gathering of families at the home of Ferrell Secakuku who is a songwriter, snake
+				dancer, and owner of the Second Mesa store. In the recording, which is in both
+				English and Hopi, Secakuku describes his experiences in kiva ceremonies, as a
+				kachina dancer, clown, and member of the Snake clan. Also present was Perry Honanie,
+				Sr. who served in the United States Army in World War II as a Hopi code talker.
+   </p>
+   <p>
+    The recording captures Secakuku demonstrating different types of chants and
+				dance songs accompanied by drumming. He translates various phrases
+				and explains their significance and symbolism. The explanations are not always clearly
+				audible. In addition, an unidentified person plays banjo and sings several
+				 song fragments as well as one bird song in English. A question-and-answer
+				session follows during which Secakuku offers an explanation also
+				recounts some Hopi origin stories.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="file">
+    <did>
+     <unitid>
+      AFS 19976; LWO 16532
+     </unitid>
+     <unittitle encodinganalog="245$a">
+      Sound recording of songs and discussions about different aspects of Hopi religion, recorded by Diana Cohen in the spring of
+      <date normal="1974">
+       1974
+      </date>
+      in Second Mesa, Arizona.
+     </unittitle>
+     <unitdate datechar="creation" encodinganalog="245$g" normal="1974">
+      1974
+     </unitdate>
+     <physdesc encodinganalog="300$a">
+      1 sound recording (90 min.) : analog, 7 1/2 ips, stereo. ; 10 in.
+     </physdesc>
+    </did>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

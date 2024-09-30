@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015002" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015002
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Discoteca Pública Municipal de São Paulo
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 1943/001
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner and Stephanie A. Hall
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1995">
+     1995
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695166" show="new">
+       https://lccn.loc.gov/2004695166
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-02">
+     February 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kate Stewart
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Discoteca Pública Municipal de São Paulo
+               collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1937/1943">
+     1937-1943
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1937/1943" unitdatetype="inclusive">
+    1937-1943
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1943/001
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Discoteca Oneyda Alvarenga (Centro Cultural São Paulo)
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Alvarenga, Oneyda
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1184 items; 4 containers; 2 linear
+               feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    7 folders (1 box).
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound recordings)">
+    215 sound discs : analog, 78 rpm ; 10 in., 12 in., 16
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic materials)">
+    359 photographic prints : black and white ; 2 3/4 in. x 1
+               3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic materials)">
+    259 photographic prints : black and white ; 3 1/2 in. x 4
+               3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving images)">
+    1 film reel (1445 ft.) : silent, black and white ; 16
+               mm.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Manuscripts in Portuguese and
+               English. Sound recordings in Portuguese, native
+               Brazilian languages, and Afro-Brazilian languages.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    An ethnographic field collection of sound
+            recordings, moving images, photographs, and accompanying materials that document
+            religious and secular music, dance, and ritual in the northeastern Brazilian states of
+            Maranhão, Pará, Paraíba, Pernambuco, and also the state of São Paulo. Fieldwork was
+            conducted in northeastern Brazil in 1937-1938, some audio recordings were accessioned in
+            1950. The collection includes correspondence between Harold Spivacke, then chief of the
+            Music Division of the Library of Congress and Oneyda Alvarenga, Director of the
+            Discoteca Pública Municipal de São Paulo (1941-1943), now Discoteca Oneyda Alvarenga
+            (Centro Cultural São Paulo). Photographs document field research and include images of
+            musical instruments and costumes in the museum in São Paulo. Silent black-and-white 16
+            mm film is comprised of 14 film rolls including footage of carnaval in Recife,
+            Pernambuco; footage from Belém do Pará; most was filmed in Paraíba.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20160121090711.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Alvarenga, Oneyda
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Alvarenga, Oneyda--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Spivacke, Harold, 1904-1977
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Spivacke, Harold, 1904-1977--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Discoteca Oneyda Alvarenga (Centro Cultural São Paulo)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blacks--Brazil, Northeast--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Carnival songs--Brazil--Recife.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Carnival--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Children's songs--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Costume--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Portuguese--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, Portuguese--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Musical instruments--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Rites and ceremonies--Brazil, Northeast.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Portuguese--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Work songs--Brazil.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Brazil, Northeast--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      São Paulo (Brazil)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts; II. Sound Recordings;
+               III. Graphic Materials in 3 albums; IV. Moving Images.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Exchange project with the Discoteca Publica Municipal, São Paulo, Brazil; 1943,
+               1950.
+   </p>
+  </acqinfo>
+  <originalsloc encodinganalog="535">
+   <head>
+    Location of Originals
+   </head>
+   <p>
+    Original recordings collected by and housed at the: Discoteca Oneyda Alvarenga;
+               Centro Cultura, São Paulo, Rua Vergueiro, 1000, São Paulo, SP 01504000, Brazil.
+   </p>
+  </originalsloc>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the recorded materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Discoteca Pública Municipal de São Paulo Collection (AFC 1943/001), Archive of Folk
+               Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    <title>
+     <part>
+      Catálogo histórico-fonográfico
+     </part>
+    </title>
+    , Discoteca
+            Oneyda Alvarenga, Centro Cultural São Paulo [São Paulo, Brazil] : Centro Cultural São
+            Paulo, Secretaria Municipal de Cultura, Prefeitura de São Paulo, 1993.
+   </bibref>
+   <bibref>
+    Alvarenga, Oneyda, ed.
+    <title>
+     <part>
+      Catálago Ilustrado do Museu Folclórico, Vol 2
+     </part>
+    </title>
+    . São Paulo, Brazil: Discoteca Pública
+            Municipal, 1950. The Discoteca's museum catalog, comprised of 235 photographs of artifacts and
+            corresponding descriptive notes. The photographs of artifacts in the collection are
+            primarily reproductions of those in the catalog. In addition, the introduction to the
+            volume may provide background on the fieldwork when the collection was gathered.
+   </bibref>
+   <bibref>
+    Alvarenga, Oneyda, ed.
+    <title>
+     <part>
+      Melodias Registradas por Meios Não-Mecânicos
+     </part>
+    </title>
+    . São Paulo, Brazil: Discoteca Publica Municipal,
+            1946. M1689.S3M4. The companion volume to the museum holdings that catalogs the Discoteca's recorded music
+            collection. It features a list of titles, extensive notes, and some sheet music.
+   </bibref>
+   <p>
+    The following is a series of notes the Discoteca published on their music archive,
+            divided into a rough typology of music and dance. These works may provide more
+            information on the recordings accessioned in 1950:
+   </p>
+   <bibref>
+    Discoteca Publica Municipal de São Paulo.
+    <title>
+     <part>
+      Babassue: discos FM 39 a FM 51
+     </part>
+    </title>
+    . São Paulo: Discoteca Publica, 1950. ML156.4.F6S4
+   </bibref>
+   <bibref>
+    Discoteca Publica Municipal de São Paulo.
+    <title>
+     <part>
+      Catimbo: discos FM 28-B a FM 38
+     </part>
+    </title>
+    . São Paulo: Discoteca Publica, 1949. ML156.4F6S43
+   </bibref>
+   <bibref>
+    Discoteca Publica Municipal de São Paulo.
+    <title>
+     <part>
+      Cheganca de Marujos: discos FM 72 e 73, 82-B a 86, 97 a 104
+     </part>
+    </title>
+    . São Paulo: Discoteca Publica, 1955. ML156.4.F6S433
+   </bibref>
+   <bibref>
+    Discoteca Publica Municipal de São Paulo.
+    <title>
+     <part>
+      Tambor-de-Mina e Tambor-de-Crioulo: discos FM 15 a 28-A
+     </part>
+    </title>
+    . São Paulo: Discoteca Publica, 1948. ML156.4F6S45
+   </bibref>
+   <bibref>
+    Discoteca Publica Municipal de São Paulo.
+    <title>
+     <part>
+      Xango: discos FM 1 a 14
+     </part>
+    </title>
+    . São Paulo: Discoteca Publica, 1949. ML156.4.F6S47
+   </bibref>
+   <bibref>
+    Recordings were issued as a 6 CD set in 2006 titled:
+    <title>
+     <part>
+      Missão de pesquisas folclóricas : música tradicional do Norte e Nordeste
+     </part>
+    </title>
+    , 1938 / [Mário de Andrade] (SESC SP: Prefeitura da Cidade
+            de São Paulo, Secretaria Municipal de Cultura, Centro Cultural São Paulo, 2006).
+   </bibref>
+   <bibref>
+    Selected recordings were released on CD as:
+    <title>
+     <part>
+      The Discoteca collection
+     </part>
+    </title>
+    (Salem, Mass.: RCD 10403 Rykodisc).
+   </bibref>
+  </bibliography>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Dance Concordance
+   </head>
+   <table>
+    <tgroup align="left" cols="5">
+     <colspec colname="1" colnum="1" colwidth="25*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="20*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="10*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="10*">
+     </colspec>
+     <colspec colname="5" colnum="5" colwidth="20*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Dance
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Photograph Numbers
+       </entry>
+       <entry morerows="0">
+        Film Numbers
+       </entry>
+       <entry morerows="0">
+        Audio Reel Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Babussué (Feitiçaria)
+       </entry>
+       <entry morerows="0">
+        Belem (Pará)
+       </entry>
+       <entry morerows="0">
+        334-359
+       </entry>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        AFS 7557-7563; AFS 7570; AFS 7572-7576
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Brinquedo da Barca
+       </entry>
+       <entry morerows="0">
+        Torrelandia (Paraíba)
+       </entry>
+       <entry morerows="0">
+        133-147
+       </entry>
+       <entry morerows="0">
+        7
+       </entry>
+       <entry morerows="0">
+        AFS 7473-7479
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Bumba-meu-boi
+       </entry>
+       <entry morerows="0">
+        Patos (Paraíba)
+       </entry>
+       <entry morerows="0">
+        15-19, 237
+       </entry>
+       <entry morerows="0">
+        2(?)
+       </entry>
+       <entry morerows="0">
+        AFS 7504-7505; AFS 7507-7508
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Bumba-meu-boi
+       </entry>
+       <entry morerows="0">
+        Belem (Pará)
+       </entry>
+       <entry morerows="0">
+        263-282
+       </entry>
+       <entry morerows="0">
+        14
+       </entry>
+       <entry morerows="0">
+        AFS 7535-7552; AFS 7557
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Caboclinhos
+       </entry>
+       <entry morerows="0">
+        Itabaiana (Paraíba)
+       </entry>
+       <entry morerows="0">
+        42-59
+       </entry>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        AFS 7437
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Caboclinhos Indios Africanos
+       </entry>
+       <entry morerows="0">
+        Torrelandia (Paraíba)
+       </entry>
+       <entry morerows="0">
+        1-6
+       </entry>
+       <entry morerows="0">
+        4, 9(?)
+       </entry>
+       <entry morerows="0">
+        ---
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Caboclinhos Indios Tupí-Guarani do Rogi
+       </entry>
+       <entry morerows="0">
+        Torrelandia (Paraíba)
+       </entry>
+       <entry morerows="0">
+        111-132
+       </entry>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        AFS 7472
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Catimbó (Feitiçaria)
+       </entry>
+       <entry morerows="0">
+        João Pessôa (Paraíba)
+       </entry>
+       <entry morerows="0">
+        78-110
+       </entry>
+       <entry morerows="0">
+        6, 9
+       </entry>
+       <entry morerows="0">
+        AFS 7467-7470
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Côco
+       </entry>
+       <entry morerows="0">
+        Baia da Traição (Paraíba)
+       </entry>
+       <entry morerows="0">
+        69-77
+       </entry>
+       <entry morerows="0">
+        13
+       </entry>
+       <entry morerows="0">
+        AFS 7462-7466
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Côco de Róda
+       </entry>
+       <entry morerows="0">
+        Itabaiana (Paraíba)
+       </entry>
+       <entry morerows="0">
+        30-41
+       </entry>
+       <entry morerows="0">
+        13(?)
+       </entry>
+       <entry morerows="0">
+        AFS 7433-7436; AFS 7438-7440
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Reis de Congo
+       </entry>
+       <entry morerows="0">
+        Pombal (Paraíba)
+       </entry>
+       <entry morerows="0">
+        20-29
+       </entry>
+       <entry morerows="0">
+        10
+       </entry>
+       <entry morerows="0">
+        AFS 7586
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Tambô de criôlo
+       </entry>
+       <entry morerows="0">
+        São Luis (Maranhão)
+       </entry>
+       <entry morerows="0">
+        314-333
+       </entry>
+       <entry morerows="0">
+        14
+       </entry>
+       <entry morerows="0">
+        ---
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Tambô de mina (Feitiçaria)
+       </entry>
+       <entry morerows="0">
+        São Luis (Maranhão)
+       </entry>
+       <entry morerows="0">
+        283-312
+       </entry>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        AFS 7480-7492
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Toré
+       </entry>
+       <entry morerows="0">
+        São Francisco (Paraíba)
+       </entry>
+       <entry morerows="0">
+        60-68
+       </entry>
+       <entry morerows="0">
+        ---
+       </entry>
+       <entry morerows="0">
+        AFS 7461
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Oneyda Alvarenga (1911-1984) was a Brazilian journalist, poet, and ethnomusicologist.
+            She attended the Music and Drama Conservatory of São Paulo and was a student of Mário de
+            Andrade and Dinah and Claude Levi-Strauss. In 1935 she became the director of the
+            Discoteca Pública de São Paulo and was a founding member of the Sociedade de Etnografia
+            e Folclore.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Discoteca Publica Municipal de São Paulo Collection consists of sound recordings,
+            film, photographs, and some manuscript material documenting the music and dance of
+            primarily Afro-Brazilians in northeast Brazil in the late 1930s. Accessioned in 1943 and
+            1950, it is the product of a four-year correspondence between Oneyda Alvarenga, Director
+            of the Discoteca, and Harold Spivacke, then Chief of the Music Division at the Library
+            of Congress, that resulted in an exchange of folklore materials. It represents one of
+            the first ethnographic compilations of music, dance, and ritual from this area,
+            presenting a view of the cultural life in those states before the modernizing influences
+            that followed World War II and the growth of tourism. The collection also provides an
+            example of the way fieldwork in Brazil was conducted at the time and includes visual
+            documentation of a fieldworker making sound recordings.
+   </p>
+   <p>
+    The music and dance in the collection includes work songs, songs without dance, dance
+            dramas, ritual ceremonies, solo dances, group dances, songs for children's games,
+            instrumentals, and songs and dances performed at Carnaval. They reflect the diversity of
+            cultural influences in the region: European (Portuguese), Afro-Brazilian, and native
+            Indians. For example, the bumba meu boi dance drama portrays the misfortunes of a prize
+            bull that a cattle rancher has obtained to improve his herd. It is of Portuguese origin
+            with added Brazilian elements. The caboclinho is a Carnaval group of Afro-Brazilians
+            that parade dressed as Amerindians, performing imitative dances to music provided by
+            Afro-Brazilian instruments.
+   </p>
+   <p>
+    The materials span the years 1938 to 1943, with the largest portion documented in 1938.
+            The collection is divided into four series by format: manuscripts, sound recordings,
+            graphic materials, and moving images. These materials offer access to the events by
+            providing visual and oral documentation.
+   </p>
+   <p>
+    An inventory provided by the Discoteca (in Portuguese) provides information about the
+            audio recordings and accompanying photographs. A concordance in Appendix A links the
+            audio recordings, photographs, and films for identified events. Besides documenting the
+            events, the photographic prints include images of artifacts, including musical instruments and
+            dance costumes, photographed after they were taken to the Discoteca. Books and notes
+            published by the Discoteca and cataloged by the Library of Congress may provide further
+            insight into the holdings.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Archive of Folk Culture administrative
+                     materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Collection guide, accession log, copy of the project authorization, publicity
+                     and administration.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1941-11/1943-09">
+        November 1941 to September
+                        1943
+       </date>
+      </unittitle>
+      <unitdate normal="1941-11/1943-09" unitdatetype="inclusive">
+       November 1941 to September
+                        1943
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Arranged chronologically. Consists of original correspondence primarily between
+                     Harold Spivacke, Chief, Division of Music, Library of Congress, and Oneyda
+                     Alvarenga, Chief, Discoteca Publica Municipal de São Paulo, Brazil
+                     (correspondence from Alvarenga in Portuguese and translated upon receipt into
+                     English). The content mainly concerns the transfer of materials between the two
+                     entities and budgetary matters. Also includes internal Library memoranda and
+                     correspondence between the Library and other federal agencies concerning the
+                     allotment of monies for the project and transportation of materials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lists and descriptions
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Originals and copies of material provided by the Discoteca (in Portuguese).
+                     Includes a list of audio recordings by genre, a six-page description of dance
+                     and song types, and a list of titles identifying the fourteen silent films.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/4-5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Audio recordings inventory
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of the original, typed cards provided by the Discoteca (in Portuguese)
+                     for discs 1-199 (AFS 7399-7597). Information includes date and location of
+                     recording, song titles, informants, instruments, photographic concordance, and
+                     additional notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/6-7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeves
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of portions of original disc sleeves that contained numbering
+                     information. AFS 7399-7556, 7560.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       1 (loose)
+      </container>
+      <unittitle encodinganalog="245$a">
+       Audio recordings inventory
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original versions of cards contained in Folders 4-5
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries I: Music recorded in the states of
+                     Maranhão, Pará, Paraíba, Pernambuco, and São Paulo
+      </unittitle>
+      <physdesc encodinganalog="300">
+       189 12" and 10 16" discs
+      </physdesc>
+      <unitid label="Discs">
+       AFS 7399-AFS 7597
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015002.apx4">
+        PDF
+       </ref>
+       of the original, typed cards provided by the Discoteca in
+                     Portuguese for discs 1-199 (AFS 7399-7597) and
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015002.apx3">
+        PDF
+       </ref>
+       of listening log in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries II: Music acquired in 1950 from the
+                     Discoteca
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 10" and 13 12" discs
+      </physdesc>
+      <unitid label="Discs">
+       AFS 9813-AFS 9828
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015002.apx1">
+        PDF
+       </ref>
+       of listening log in English.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Albums">
+       1-2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Subseries I: Fieldwork Photographs
+      </unittitle>
+      <physdesc encodinganalog="245$a">
+       359 black and white photographic prints (2 3/4" x
+                        2 3/4")
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The photographs document the fieldwork and audio recordings, arranged
+                     numerically and roughly grouped geographically. Copies of original envelopes
+                     that contained the photographs precede each set, and provide identifying
+                     information in Portuguese. For more information, see audio recordings
+                     inventory and dance concordance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <container localtype="Albums">
+       2-3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Subseries II: Museum Photographs
+      </unittitle>
+      <physdesc encodinganalog="300">
+       259 black and white photographic prints (3 1/2" x 4
+                        3/4")
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs of museum pieces housed in the Discoteca. Includes images of
+                     musical instruments and dance costumes. At the time of accessioning, no list or
+                     description was provided. For more information, see bibliography.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series IV: Moving Images
+     </unittitle>
+     <unitid label="Film">
+      FCA 8123
+     </unitid>
+     <physdesc encodinganalog="300">
+      1 reel, 16 mm, 1445 ft., silent, black and
+                     white reference print compilation of the 14 original 16 mm
+                  reels.
+     </physdesc>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documents the music, dance, and ritual found on audio recordings and in
+                  photographs. Housed in the Motion Picture Division. See
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015002.apx2">
+       PDF
+      </ref>
+      in Portuguese of the contents of each original reel, also found
+                  in Folder 3. See also the Dance Concordance. FRA 6479-6480 (duplicate negatives);
+                  FRA 6338 (archival positive).
+     </p>
+    </scopecontent>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

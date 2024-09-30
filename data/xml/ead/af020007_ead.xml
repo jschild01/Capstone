@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af020007">
+   loc.afc/eadafc.af020007
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Felipe Hinojosa collection of interviews with
+                    Latino Mennonites
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Ying-Ting "Serena" Chiu, Valda Morris,
+                    and Marcia K. Segal
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2020-09">
+     September 2020
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2016655296" show="new">
+       https://lccn.loc.gov/2016655296
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="http://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-09">
+     September 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+                    Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Felipe Hinojosa collection of interviews
+                with Latino Mennonites
+    <date altrender="Span Dates" localtype="inclusive" normal="2003/2009">
+     2003-2009
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Span Dates" normal="2003/2009" unitdatetype="inclusive">
+    2003-2009
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2016/042
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Hinojosa, Felipe, 1977-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    44 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    2 linear feet.
+   </physdesc>
+   <physdesc label="Extent (sound recordings)">
+    44 sound cassettes : analog.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <language encodinganalog="041" langcode="spa">
+      Spanish
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English and Spanish.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+                        Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of field recordings of
+                approximately 85 hours of oral history interviews with about 20 Latino Mennonites in
+                South Texas, Puerto Rico, Kansas, and Indiana. Topics of the interviews include
+                religious and ethnic community formation; the politics of cultural, religious, and
+                ethnic identity; civil rights and social justice; and interactions between
+                evangelical and mainstream religious groups.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Felipe Hinojosa; Donation; 2016.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Felipe Hinojosa collection of interviews with Latino Mennonites was processed by
+                Marcia K. Segal in 2016.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Felipe Hinojosa collection of interviews with Latino Mennonites is open to
+                research. To request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Felipe Hinojosa collection of interviews with Latino
+                Mennonites (AFC 2016/042), Archive of Folk Culture, American Folklife Center, Library
+                of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Published in: Hinojosa, Felipe. Latino Mennonites: Civil Rights, Faith, and Evangelical Culture (Baltimore: Johns Hopkins University Press, 2014)
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Dr. Felipe Hinojosa is an Associate Professor of History at Texas A&amp;M University.
+                His interests include Latina/o and Mexican American studies, American religion,
+                social movements, gender, and comparative race and ethnicity. His publications
+                include,
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2013027716" show="new">
+     <emph render="italic">
+      Latino Mennonites: Civil Rights, Faith, and Evangelical
+                        Culture
+     </emph>
+     (2014)
+    </ref>
+    and
+    <emph render="italic">
+     Apostles of Change: Latino Radical Politics, Church Occupations, and the Fight
+                    to Save the Barrio
+    </emph>
+    (2021).
+   </p>
+   <p>
+    Hinojosa was born in the border town of Brownsville, Texas. He grew up as a Mennonite
+                in the church his parents founded in South Texas. Throughout his upbringing as a
+                Mexican American evangélico, Hinojosa was faced with questions not only about his
+                own religion but also about broader issues of Latino evangelicalism, identity, and
+                civil rights politics. In the late 1990s, Hinojosa met Neftali Torres, a Puerto
+                Rican Mennonite pastor, at a gathering of Mexican Mennonite pastors. At the
+                gathering, Torres discussed the Minority Ministries Council (MMC), a small
+                multi-ethnic group of Latino and African American Mennonites, who operated in the
+                Mennonite Church from 1968 to 1973. Hinojosa became interested in the
+                narrative of black and brown Mennonites who worked to open the doors of the church
+                to minorities. For the next 15 years, Hinojosa began to reconstruct the history
+                through a series of oral histories in South Texas, Puerto Rico, Kansas, and Indiana, and Chicago.
+   </p>
+   <p>
+    Hinojosa received his PhD in history from the University of Houston in 2009, MA in
+                history from the University of Texas Rio Grande Valley (2004), and a BA in English
+                from Fresno Pacific University (1999). In 2015 he won the Américo Paredes Book
+                Award by the Center for Mexican American Studies at South Texas College.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection documents 15 years of research Felipe Hinojosa's conducted within the
+                community of the Latino Mennonites from South Texas, Puerto Rico, Kansas, and
+                Indiana. The oral histories which were conducted between 2003-2009, consists of 22
+                interviews including Neftali Torres, the pastor who inspired Hinojosa to trace the
+                history of the Latino Mennonite Church. The interviews culminated in his book,
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2013027716" show="new">
+     <emph render="italic">
+      Latino Mennonites: Civil Rights, Faith, and Evangelical
+                        Culture
+     </emph>
+     (2014)
+    </ref>
+    . These oral histories document the forgotten
+                history of the Mennonites and tell the story of the preachers who turned social
+                justice advocates transforming the Mennonite Church from the grassroots. In his
+                book, Hinojosa traces the Latino presence within the Mennonite Church, from the
+                origins of Mennonite missions in Latino communities to the conflicted relationship
+                between the Mennonite Church, the California farmworker movements, and the rise of
+                Latino evangelical politics in the United States. He also analyzed how the politics
+                of the Chicano, Puerto Rican, and black freedom struggles of the 1960s and 1970s
+                civil rights movements captured the imagination of Mennonite leaders who belonged to
+                a church known more for rural and peaceful agrarian life than for social
+                protest.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Felipe Hinojosa collection of interviews with Latino Mennonites has one series:
+                1. Interviews with Latino Mennonites, circa 2003-2009.
+   </p>
+   <p>
+    The interviews are arranged alphabetically by the interviewee’s last name.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20200909085343.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hinojosa, Felipe, 1977-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Civil rights--Religious aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--History--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Indiana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Kansas.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic American Mennonites--Texas.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--Civil rights.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--Social conditions.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Race relations--Religious aspects--Mennonites.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Middle West, event place.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Puerto Rico, event place.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Texas, event place.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Interviews with Latino Mennonites, circa
+                        2003-2009
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR01 - SR02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Ted Chapa, tapes 1-2,
+       <date localtype="inclusive" normal="2007-01-22">
+        January 22,
+                            2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-01-22" unitdatetype="inclusive">
+       January 22, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR03 - SR05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Paul Conrad and Ann Conrad,
+                            tapes 1-3,
+       <date localtype="inclusive" normal="2007-04-21">
+        April 21,
+                                2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-04-21" unitdatetype="inclusive">
+       April 21, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       New Carlisle, Ohio. Possibly recorded on another date.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR06 - SR10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Lupe DeLeón, tapes
+                            1-2
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR11 - SR12
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Seferina DeLeón, tapes 1-2,
+       <date localtype="inclusive" normal="2007-04-21">
+        April 21,
+                                2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-04-21" unitdatetype="inclusive">
+       April 21, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Goshen, Indiana
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR13
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Ruperto "Tito" Guedea,
+       <date localtype="inclusive" normal="2007-05-03">
+        May 3,
+                            2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-05-03" unitdatetype="inclusive">
+       May 3, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR14
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Samuel Hernandez
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 60 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Goshen, Indiana
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR15
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Jose Enrique
+                            Jimenez
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR16
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Hector Lugo
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Puerto Rico
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR17
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       Rolando Mireles,
+       <date localtype="inclusive" normal="2003-09-16/2003-09-17">
+        September
+                                16-17, 2003
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2003-09-16/2003-09-17" unitdatetype="inclusive">
+       September 16-17, 2003
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR18
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       Rolando Mireles,
+       <date localtype="inclusive" normal="2004-02-10">
+        February 10,
+                            2004
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2004-02-10" unitdatetype="inclusive">
+       February 10, 2004
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR19 - SR20
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Jesus "Chuy" Navarro, tapes
+                            1-2,
+       <date localtype="inclusive" normal="2007-01-21">
+        January 21,
+                                2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-01-21" unitdatetype="inclusive">
+       January 21, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Robstown, Texas
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR21
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       Enrique Ortiz
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR22 - SR23
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Jose Ortiz, tapes
+                            1-2
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 60 min.; 1 sound cassette,
+                            90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR24 - SR25
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Ricardo Peña, tapes 1-2,
+       <date localtype="inclusive" normal="2003-07-15">
+        July 15,
+                            2003
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2003-07-15" unitdatetype="inclusive">
+       July 15, 2003
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR26
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       Ricardo Peña,
+       <date localtype="inclusive" normal="2003-08-14">
+        August 14,
+                            2003
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2003-08-14" unitdatetype="inclusive">
+       August 14, 2003
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR27
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Ricardo Peña; Yolanda
+                            Villareal,
+       <date localtype="inclusive" normal="2004-01-08">
+        January 8,
+                                2004
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2004-01-08" unitdatetype="inclusive">
+       January 8, 2004
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR28
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       Yolanda Villareal,
+       <date localtype="inclusive" normal="2004-01-08">
+        January 8,
+                            2004
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2004-01-08" unitdatetype="inclusive">
+       January 8, 2004
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR29 - SR32
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       John Powell, tapes 1-4,
+       <date localtype="inclusive" normal="2007-04-26">
+        April 26,
+                                2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-04-26" unitdatetype="inclusive">
+       April 26, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR33 - SR34
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       Alfredo Tagle, tapes 1-2,
+       <date localtype="inclusive" normal="2003-09-04">
+        September 4,
+                                2003
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2003-09-04" unitdatetype="inclusive">
+       September 4, 2003
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR35
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       Gracie Torres,
+       <date localtype="inclusive" normal="2007-06-20">
+        June 20,
+                            2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-06-20" unitdatetype="inclusive">
+       June 20, 2007
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lourdes Café, Puerto Rico.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR36 - SR39
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10022">
+       Neftali Torres, tapes 1-4,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR40 - SR41
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Rosario Vallejo and Perfecta
+                            DeLeón, tapes 1-2,
+       <date localtype="inclusive" normal="2006-12-28">
+        December 28, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-12-28" unitdatetype="inclusive">
+       December 28, 2006
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 60 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rosario's home in Mathis, Texas.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR42
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10024">
+       Rosario Vallejo,
+       <date>
+        February
+       </date>
+      </unittitle>
+      <unitdate>
+       February
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette, 90 min.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rosario's home in Mathis, Texas. Possibly recorded in 2007.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Tape ID">
+       AFC 2016/042: SR43 - SR44
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10025">
+       John Ventura, tapes 1-2,
+       <date localtype="inclusive" normal="2009-09-14">
+        September 14,
+                                2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2009-09-14" unitdatetype="inclusive">
+       September 14, 2009
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound cassettes, 90 min.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af014001">
+   loc.afc/eadafc.af014001
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     South-Central Georgia Folklife Project
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 1982/010
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Lucy M. Long
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1982-04">
+     April 1982
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2010655308" show="new">
+       https://lccn.loc.gov/2010655308
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-07">
+     July 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     PDF appendix moved into hierarchical component for display purposes,
+               and publication date amended to match PDF date (Farrah Cundiff).
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2014-03">
+     March 2014
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kate Stewart
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    South-Central Georgia Folklife Project collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1977/1982">
+     1977-1982
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1977">
+     bulk 1977
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1977/1982" unitdatetype="inclusive">
+    1977-1982
+   </unitdate>
+   <unitdate label="Bulk Dates" normal="1977" unitdatetype="bulk">
+    bulk 1977
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1982/010
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress), collector.
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Abraham Baldwin Agricultural College, sponsor.
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    24,855 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    13 containers.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    6.5 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    152 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    179 sound tape reels :
+            analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    1 sound tape reel : analog
+            ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    196 sound cassettes :
+            analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    8 videocassettes (U-Matic) :
+            sound, color ; 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (still images)">
+    circa 14,000 film negatives :
+            black-and-white ; 35 mm and 2 1/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (still images)">
+    circa 7400 slides and
+            transparencies : color ; 35 mm and 2 1/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (still images)">
+    31 drawings : pen-and-ink ;
+            various sizes.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of documentary materials
+            resulting from an ethnographic field research project conducted by the American Folklife
+            Center in eight counties of south central Georgia, and at Mt. Zion, Georgia, in July and
+            August 1977 in cooperation with the Arts Experiment Station of Abraham Baldwin
+            Agricultural College. Topics of research were hymn singing, vernacular architecture,
+            foodways, jokes, and stories from the region. Includes documentation of the exhibition
+            "Folk Art and Folk Life," at the Library of Congress, and proposed publication projects
+            to 1982.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20230720105801.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Adler, Thomas A.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Blackmarr, Syd
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Coelho, Dennis
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Finster, Howard, 1916-2001.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fleischhauer, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Forester, Laura Pope, 1873-1953.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hamrick, Raymond C.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jabbour, Alan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lightfoot, William E. (William Edwin), 1940-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marshall, Howard W.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McGraw, Hugh.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Nyerere, Julius K., 1922-1999--Photographs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Robinson, Beverly J.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      St. EOM, 1908-1986--Photographs.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stanley, David, 1942-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Abraham Baldwin Agricultural College
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      South Georgia Sacred Harp Singing Convention.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American children's games--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American quiltmakers--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Georgia--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Georgia--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Agriculture--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Baptist church buildings--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1971-1980.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Boats--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cemeteries--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Choral societies--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Documentary photography--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fiddle tunes--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fishing--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Food habits--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gopher tortoise--Georgia--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymn festivals--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Methodist church buildings--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Old-time music--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Outsider art--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Quilts--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sculpture--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Shape-note singing--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Singing games--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tobacco farms--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vernacular architecture--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Worship programs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Ben Hill County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Berrien County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Colquitt County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Cook County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Georgia--Social life and customs--Pictorial works--Photographs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Georgia--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Grady County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Irwin County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Tift County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Turner County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Washington (D.C.) event place.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Worth County (Ga.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Southern folk pottery: the Meaders family tradition
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Aerial photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Bluegrass music.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Essays.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Gospel music.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Hymns.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sermons.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is arranged into the following series: I. Administration; II. Collected
+            Publications and Ephemera; III. Documentation--Fieldnotes; IV.
+            Dcoumentation--Suplemental Information; V. Documentation--Photographic--Black and White;
+            VI. Documentation--Photographic--Color; VII. Documentation--Sound Recordings; VIII.
+            Documentation--Videotapes; IX. Final Products; X. Photographic Exhibit; XI. Proposed
+            Book.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Accessioned; 1982.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Lucy M. Long in 1982.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Additional materials related to the exhibition of Howard Finster’s work at the Library
+            of Congress in 1978 are found in the Howard Finster collection (AFC 1984/016).
+   </p>
+  </relatedmaterial>
+  <separatedmaterial encodinganalog="544">
+   <head>
+    Separated Material
+   </head>
+   <p>
+    The hymnbooks were separated from the collection.
+   </p>
+  </separatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+            restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The collection is open for research use; access is restricted, some or all materials are
+            stored offsite. To request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    South-Central Georgia Folklife Project collection (AFC 1982/010), Archive of Folk
+            Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Selected photographs from this collection are published in
+    <title>
+     <part>
+      Sketches of South Georgia folklife
+     </part>
+    </title>
+    , edited by Carl Fleischhauer and Howard W. Marshall (Washington, D.C. : Library
+            of Congress, 1977).
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The South-Central Georgia Folklife Project was a joint undertaking of the American
+            Folklife Center, Library of Congress and the Arts Experiment Station of Abraham Baldwin
+            Agricultural College in Tifton, Georgia conducted during six weeks in the summer of
+            1977. The eight-county area chosen for the study is in the center of the "Wiregrass"
+            region of Georgia. The research team based in Tifton included six fieldworkers from the
+            American Folklife Center, and the director, Alan Jabbour; as well as Syd Blackmarr,
+            director of the Arts Experiment Station, and Dennis Coelho who later served as
+            folklorist-in-residence at the Arts Experiment Station.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of documentary materials resulting from an ethnographic field research
+            project conducted by the American Folklife Center in eight counties of south central
+            Georgia, and at Mt. Zion, Georgia, in July and August 1977 in cooperation with the Arts
+            Experiment Station of Abraham Baldwin Agricultural College. Topics of research were hymn
+            singing, vernacular architecture, foodways, jokes, and stories from the region. Subjects
+            of photographs include people interviewed for the project; copies of their family
+            photographs; vernacular houses, barns, and outbuildings, including log buildings; tools,
+            furniture, birdhouses, and yard art; wells; tobacco curing, harvesting, warehouses,
+            auctions, farms, and tobacco workers; peanut, cotton, soybean, corn, and wheat fields;
+            crop dusting; churches; religious services, including baptisms; prayers, sermons, hymn
+            singing, tent revivals; church suppers; barbecue cooking; breakfasts; quilts, crochet,
+            and basket work; woodcarving; vernacular boats, boat repair, and boat building; fishing;
+            graveyards, gravesites and markers; grocery stores, restaurants, dry goods stores, a
+            barber shop, business and roadside signs; a piano repair shop; aerial photographs;
+            gathering wild herbs; trees, landscapes; swamps, rivers; box turtles, catfish, cattle,
+            and dogs. A focus of the fieldwork was hymn singing conventions and gospel singing of
+            white and black residents. The collection includes photographs and sound recordings of
+            Hugh McGraw, Raymond Hamrick, J. C. Cooper, and others leading sacred harp singing;
+            other congregational and gospel singing groups; African American children's games,
+            singing games, handclapping, hambone; fiddle, guitar, piano, and banjo players. Includes
+            photographs of sculpture, paintings, and gardens at Pope's Museum, Pelham, Georgia,
+            featuring the sculpture and artwork of Laura Pope Forrester who died in 1953. Includes
+            photographs of President Nyerere of Tanzania visiting Abraham Baldwin Agricultural
+            College, August 9, 1977. Also Includes photographs of the reception held for the
+            exhibition "Folk Art and Folk Life," at the Library of Congress, with Dr. and Mrs.
+            Daniel Boorstin; Rosalynn Carter, Amy Carter, Mrs. Mary Beth Busbee, J. Michael
+            Carrigan, Jr., Don Yoder, and Rev. Howard Finster, January 26, 1978, and photographs of
+            the exhibition, February, 1978. Includes additional photographs of a seminar held in the
+            Whittall Pavilion, Library of Congress, March 17, 1978, titled "Southern Folk Pottery:
+            The Meaders Family Tradition," with Lanier Meaders, Mrs. Cheever Meaders, John Burrison,
+            and Ralph Rinzler. More photographs of south Georgia cemeteries were taken by Dennis
+            Coelho, Georgia state folklorist, in the summer of 1979. 31 pen-and-ink drawings of
+            buildings and floor plans were made by Howard Marshall. Includes documentation of the
+            exhibition, and proposed publication projects to 1982.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      PDF Inventory,
+      <date localtype="inclusive" normal="1982-04">
+       April 1982
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1982-04" unitdatetype="inclusive">
+      April
+                  1982
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      See
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af014001.apx">
+       PDF inventory
+      </ref>
+      .
+     </p>
+    </scopecontent>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    Container List
+   </head>
+   <p>
+    See
+    <ref href="https://hdl.loc.gov/loc.afc/eadafc.af014001.apx">
+     PDF inventory
+    </ref>
+    of
+            the collection materials, prepared in April 1982.
+   </p>
+  </odd>
+ </archdesc>
+</ead>

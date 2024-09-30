@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019002" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019002
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Jun-ichi Yamada Collection of Bluegrass
+               Recordings
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2008/024
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Adam Crandell, Megan Halsband, and Marcia K.
+               Segal
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2010-03">
+     March
+               2010
+    </date>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Library of Congress
+     <lb>
+     </lb>
+     American Folklife Center
+     <lb>
+     </lb>
+     Archive of Folk Culture
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2010655366" show="new">
+       https://lccn.loc.gov/2010655366
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019">
+     2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 2008/024
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Jun-ichi Yamada collection of bluegrass
+            recordings
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1958/1976">
+     1958-1976
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1972/1976">
+     1972-1976
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1958/1976" unitdatetype="inclusive">
+    1958-1976
+   </unitdate>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Bulk Dates" normal="1972/1976" unitdatetype="bulk">
+    1972-1976
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center,  Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    290 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    approx. 150 manuscripts
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    137 sound tape reels : analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    1 photographic print : color ; 3.25 in. x 4.75 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    2 artifacts
+   </physdesc>
+   <origination label="Creator">
+    <persname source="lcnaf">
+     <part>
+      Yamada, Jun-ichi, collector.
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="jpn">
+     Japanese
+    </language>
+    <descriptivenote>
+     <p>
+      English and Japanese
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of audio recordings made at
+            various bluegrass festivals and performances in the United States by Jun-ichi Yamada
+            from 1972 to 1976 in Georgia, Illinois, Indiana, Kentucky, Maryland, North Carolina,
+            Pennsylvania, Virginia, and a few other unspecified geographic locations. The festivals
+            include Carlton Haney's Bluegrass Festival at Watermelon Park, Berryville, Virginia;
+            Bluegrass Music Festival in Bluegrass Park, Camp Springs, North Carolina; the Newgrass
+            Festival of 1974; the Wise County Shrine Club Bluegrass Festival; the 2nd Carter Stanley
+            Memorial Festival, McClure, Virginia; the 7th Annual Culpeper Bluegrass and Folk Music
+            Festival, Culpeper, Virginia; Bill Monroe's Bluegrass Festival, Bean Blossom, Indiana;
+            Old Time Family Bluegrass Festival, Callaway, Maryland; Georgia State Bluegrass Music
+            Festival, Lavonia, Georgia; Bluegrass Bonanza Showcase, Indian Springs, Maryland; and
+            the Indian Springs Bluegrass Festival, Hagerstown, Maryland. Instrumentals and songs are
+            performed with banjo, dobro, double bass, guitar, mandolin, and fiddle accompaniment,
+            among other instruments. Tape containers included partial documentation--lists of
+            performers and titles for some tape reels. Collection also includes copies of festival
+            flyers, one photograph, and other ephemera. A few lists and annotations are in
+            Japanese.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of audio recordings made at various bluegrass festivals and performances in
+            the United States by Jun-ichi Yamada from 1972 to 1976 in Georgia, Illinois, Indiana,
+            Kentucky, Maryland, North Carolina, Pennsylvania, Virginia, and a few other unspecified
+            geographic locations. The festivals include Carlton Haney's Bluegrass Festival at
+            Watermelon Park, Berryville, Virginia; Bluegrass Music Festival in Bluegrass Park,
+            Campsprings, North Carolina; the Newgrass Festival of 1974; the Wise County Shrine Club
+            Bluegrass Festival; the 2nd Carter Stanley Memorial Festival, McClure, Virginia; the 7th
+            Annual Culpeper Bluegrass and Folk Music Festival, Culpeper, Virginia; Bill Monroe's
+            Bluegrass Festival, Bean Blossom, Indiana; Old Time Family Bluegrass Festival, Callaway,
+            Maryland; Georgia State Bluegrass Music Festival, Lavonia, Georgia; Bluegrass Bonanza
+            Showcase, Indiansprings, Maryland; and the Indiansprings Bluegrass Festival, Hagerstown,
+            Maryland. Instrumentals and songs are performed with banjo, dobro, double bass, guitar,
+            mandolin, and fiddle accompaniment, among other instruments. Tape containers included
+            partial documentation--lists of performers and titles for some tape reels. Collection
+            also includes copies of festival flyers, one photograph, and other ephemera. A few lists
+            and annotations are in Japanese.
+   </p>
+   <p>
+    Various performers including J. D. Crowe, Jim Eanes, Billy Edwards, Bill Emerson, Lester
+            Flatt, Jimmy Gaudreau, Bill Harrell, Tex Logan, Jimmy Martin, Del McCoury, Jesse
+            McReynolds, Jim McReynolds, Bill Monroe, Ricky Skaggs, Red Smiley, Carl Story, Don
+            Stover, Fiddling "Tater" Tate, Cliff Waldron, Doc Watson, Chubby Wise, and Mac Wiseman.
+            Some of the performing groups include Blue Grass Boys, Blue Ridge Boys, Blue Sky Boys,
+            Clinch Mountain Boys, Country Gentlemen, Country Grass, Country Store, Dixie Bluegrass
+            Boys, Dixie Gentlemen, Dixie Pals, II Generation, Lilly Brothers, McCormick Brothers,
+            New Grass Revival, New Shades of Grass, New South, Osborne Brothers, Rice Brothers,
+            Seldom Scene, Shenandoah Cut-Ups, and Sunny Mountain Boys were on the programs for these
+            festivals.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    From 1972 to 1976, Jun-ichi Yamada—a Japanese material scientist and bluegrass
+            enthusiast—recorded various bluegrass concerts and festivals in the eastern United
+            States, ranging as far south as Georgia and as far north as Pennsylvania. It is unknown
+            whether Yamada's time in the U.S. was continuous or periodic. While in the U.S. he
+            stayed with Walter Saunders, an author who contributed articles to
+    <title>
+     <part>
+      Bluegrass
+               Unlimited
+     </part>
+    </title>
+    and wrote liner-notes for bluegrass recordings. He also visited
+            with Marion Kuykendall, the wife of Peter V. ("Pete") Kuykendall—a bluegrass musician,
+            historian, and editor and general manager of
+    <title>
+     <part>
+      Bluegrass Unlimited
+     </part>
+    </title>
+    .
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20210105164352.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Adcock, Eddie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Adcock, Martha
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Allen, Red, 1930-1993
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Baker, Billy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Baker, Kenny, 1926-2011
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bartenstein, Fred, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Blackwell, Curtis
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Clifton, Bill
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Collins, Randall
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Duffey, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Eanes, Jim
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Edwards, Billy (Banjoist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emerson, Bill
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Flatt, Lester
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gaudreau, Jimmy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Green, Joe
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Harrell, Bill
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Keith, Bill, 1939-2015
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Logan, Tex
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Magaha, Mack
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Martin, Benny
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Martin, Jimmy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McCoury, Del, 1939-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McReynolds, Jesse
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McReynolds, Jim
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Monroe, Bill, 1911-1996
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Monroe, James, 1953-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Moore, Charlie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Morgan, Tom (Bassist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rawlings, Bill (Vocalist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Reno, Ronnie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rice, Tony, 1951-2020
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Richardson, Larry (Banjoist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rowan, Peter, 1942-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sizemore, Herschel
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Skaggs, Ricky
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Smiley, Red, 1925-1972
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sparks, Larry
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stanley, Ralph
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Story, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stover, Don, 1928-1996
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Stuart, Joe
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Tate, Fiddling "Tater"
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Trischka, Tony, 1949-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Val, Joe, 1926-1985
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Vernon, Bill, 1937-1996
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wakefield, Frank
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Waldron, Cliff
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Warren, Paul (Fiddler)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Watson, Doc
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      White, Roland
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Whitley, Keith
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wise, Chubby
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wiseman, Mac
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Wood, Al, 1937-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Yamada, Jun-ichi
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Yarbrough, Rual
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--Indiana.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--Maryland.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass festivals--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1951-1960.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1961-1970.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1971-1980.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass musicians--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: 1. Manuscripts; 2. Sound Recordings; 3. Graphic
+               Materials; 4 Artifacts. Manuscript materials consist of incomplete performer and song
+               title lists that were included in their respective 7 in. reel-to-reel boxes. Sound
+               recordings have retained the original order in which they were received. With one
+               exception (noted in the container list section), the original order grouped
+               recordings together thematically (i.e., by festival, venue, etc.), but not
+               chronologically. Most of the graphic materials were originally located with a sound
+               recording (in a 7 in. reel-to-reel box).
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Donated by Hideo Nagai; 2008.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Adam Crandell, Megan Halsband, and Marcia K. Segal.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+               request materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Jun-ichi Yamada collection of bluegrass recordings (AFC 2008/024), Archive of Folk
+               Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aid and spreadsheet of information
+                     captured from reel-to-reel boxes.
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       Spreadsheet is organized by sound recording and includes performer and song
+                     title list (when available), all hand-written text on each box and reel, media
+                     information (brand, physical description, and present condition), and
+                     miscellaneous notes.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Administrative materials.
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       Includes the preliminary collection report, shipping labels, customs, and
+                     copies of email correspondence between Tōru Mitsui and Michael Taft.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Packing lists (printouts of scanned images).
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       Print-outs of scanned images from the 7 in. reel-to-reel boxes in the
+                     collection.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photocopies of housings for audio recordings.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Manuscript materials accompanying audio
+                     recordings.
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       Includes manuscript materials that document track listings and other
+                     information for SR001-SR010, SR017, SR021-SR022, SR033, SR037, SR039, SR045,
+                     SR063-SR064, and SR091
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyer for Bill Monroe's 6th Annual Bluegrass
+                     Festival in Beanblossom, Indiana, at Brown County Jamboree Park from
+       <date localtype="inclusive">
+        June
+                        11-18, 1972
+       </date>
+       , with a list of performers.
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       June
+                        11-18, 1972
+      </unitdate>
+     </did>
+     <odd>
+      <p>
+       Includes notices about a barbecue bean day, various contests, and that the
+                     camping site has electricity.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyer for the Fourth Annual Georgia State
+                     Bluegrass Festival,
+       <date localtype="inclusive">
+        July 22 thru July 30, 1972
+       </date>
+       , in Lavonia, Georgia, Shoal
+                     Creek Country Music Park, with a list of performers.
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 22 thru July 30, 1972
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyer for the Fall Indian Springs Bluegrass
+                     Festival, Indian Springs Campground in Hagerstown, Maryland,
+       <date localtype="inclusive">
+        Sept. 14-16, 1973
+       </date>
+       ,
+                     with a list and pictures of performers.
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       Sept. 14-16, 1973
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Flyer in Japanese (which appears to be
+                     advertising home security services).
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kentucky Fried Chicken cardboard advertisements
+                     featuring cherry blossom trees.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Two copies.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series 2: Sound Recordings
+     </unittitle>
+    </did>
+    <odd>
+     <p>
+      NB: All recordings are original with the exception of SR121-137, which are
+                  duplications of recordings not made by Yamada.
+     </p>
+    </odd>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR001-009
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney and John Miller's Berryville
+                     Bluegrass Festival (Watermelon Park, Berryville, Virginia),
+       <date localtype="inclusive">
+        July 7-9, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 7-9, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       SR043 is a recording of this same festival, and chronologically it comes after
+                     SR009.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR010-016
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney and John Miller's Berryville
+                     Bluegrass Festival (Watermelon Park, Berryville, Virginia),
+       <date localtype="inclusive">
+        July 5-8, 1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 5-8, 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR017-022
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney and John Miller's Berryville
+                     Bluegrass Festival, Watermelon Park, Berryville, Virginia),
+       <date localtype="inclusive">
+        July 4-7, 1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 4-7, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR023-027
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney and John Miller's Berryville
+                     Bluegrass Festival (Watermelon Park, Berryville, Virginia),
+       <date localtype="inclusive">
+        July 1-4, 1976
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 1-4, 1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR028-035
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney's Pennsylvania Bluegrass Festival
+                     (Crazy Horse Campground, Gettysburg, Pennsylvania),
+       <date localtype="inclusive">
+        August 18-20, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       August 18-20, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR036-041
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney's Pennsylvania Bluegrass Festival
+                     (Crazy Horse Campground, Gettysburg, Pennsylvania),
+       <date localtype="inclusive">
+        August 16-18, 1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       August 16-18, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR042
+      </container>
+      <unittitle encodinganalog="245$a">
+       Titled "No Where," Indian Springs, Maryland,
+       <date localtype="inclusive">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR043
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carlton Haney and John Miller's Berryville
+                     Bluegrass Festival (Watermelon Park, Berryville, Virginia),
+       <date localtype="inclusive">
+        August 1-2, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       August 1-2, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       Continuation of the same festival recorded on SR001-009, and chronologically it
+                     comes after SR009.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR044
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unidentified
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR045
+      </container>
+      <unittitle encodinganalog="245$a">
+       J. D. Crowe &amp; the New South at Holiday Inn
+                     (Lexington, Kentucky),
+       <date localtype="inclusive">
+        October 24, 1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       October 24, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR046-051
+      </container>
+      <unittitle encodinganalog="245$a">
+       New Grass Festival (Camp Springs, North
+                     Carolina),
+       <date localtype="inclusive">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR052
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bluegrass Music Festival (Camp Springs, North
+                     Carolina),
+       <date localtype="inclusive">
+        September 1-3,
+                        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       September 1-3,
+                        1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR053-054
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bluegrass Music Festival (Camp Springs, North
+                     Carolina),
+       <date localtype="inclusive">
+        September 2-5,
+                        1976
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       September 2-5,
+                        1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR055-057
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bluegrass Music Festival (Camp Springs, North
+                     Carolina),
+       <date localtype="inclusive">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR058
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Blue Sky Boys, unidentified location and
+                     date.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR059-061
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Wise Country Shrine Club Bluegrass Festival
+                     (Wise, Virginia),
+       <date localtype="inclusive">
+        July 3-4,
+                        1975
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 3-4,
+                        1975
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR062-070
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carter Stanley Memorial Bluegrass Festival
+                     (McClure, Virginia),
+       <date localtype="inclusive">
+        May
+                        26-28, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       May
+                        26-28, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR071-075
+      </container>
+      <unittitle encodinganalog="245$a">
+       J. D. Crowe at the Red Slipper Lounge,
+       <date localtype="inclusive">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR076-078
+      </container>
+      <unittitle encodinganalog="245$a">
+       Culpeper Bluegrass Festival (Culpeper,
+                     Virginia),
+       <date localtype="inclusive">
+        June 10-11,
+                        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       June 10-11,
+                        1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR079-083
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bill Monroe's Bluegrass Festival (Beanblossom,
+                     Indiana),
+       <date localtype="inclusive">
+        June 11-18,
+                        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       June 11-18,
+                        1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR084-092
+      </container>
+      <unittitle encodinganalog="245$a">
+       Old Time Family Bluegrass Festival (Callaway,
+                     Maryland),
+       <date localtype="inclusive">
+        August 24-26,
+                        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       August 24-26,
+                        1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR093-099
+      </container>
+      <unittitle encodinganalog="245$a">
+       Georgia State Bluegrass Festival (Lavonia,
+                     Georgia),
+       <date localtype="inclusive">
+        July 22-30,
+                        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       July 22-30,
+                        1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR107-116
+      </container>
+      <unittitle encodinganalog="245$a">
+       Indian Springs Bluegrass Festival (Hagerstown,
+                     Maryland),
+       <date localtype="inclusive">
+        September 14-16,
+                        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       September 14-16,
+                        1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR117-118
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Country Store at Williams' Restaurant in
+                     Virginia,
+       <date localtype="inclusive">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR119-120
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Country Store at Red Fox Inn,
+       <date localtype="inclusive">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR121-129
+      </container>
+      <unittitle encodinganalog="245$a">
+       Various performers in Camp Springs, (North
+                     Carolina), Shade Gap (Pennsylvania), Beanblossom (Indiana), Fairfield
+                     (Pennsylvania), and at the University of Illinois,
+       <date localtype="inclusive">
+        1958-1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1958-1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       Dubbed from an earlier recording not made by Yamada.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="item-id">
+       AFC 2008/024: SR130-137
+      </container>
+      <unittitle encodinganalog="245$a">
+       Don Reno &amp; Red Smiley (and others) at Camp
+                     Springs (North Carolina), Berryville (Virginia), and Shade Gap (Pennsylvania),
+       <date localtype="inclusive">
+        1969-1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+       1969-1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 sound tape reels : analog ; 7 in.
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       Dubbed from an earlier recording not made by Yamada.
+      </p>
+     </odd>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series 3: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       One 3.25 in. x 4.75 in. color photographic print
+                     of an unidentified Asian roofline in the foreground with a skyscraper in the
+                     background.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series 4: Artifacts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Two plastic audio tape containers, one each for
+                     SR118 and 120, with Japanese handwriting and stamp marks. Loose in box.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

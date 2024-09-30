@@ -1,0 +1,3908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af016002" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af016002
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Men’s Lives Documentation Project Interviews
+    </titleproper>
+    <subtitle>
+     AFC 1998/015
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Rona Razon and Judy Ng
+     <lb>
+     </lb>
+     March 2007
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Archive of Folk Culture, American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2007-03">
+     March 2007
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2015655361" show="new">
+       https://lccn.loc.gov/2015655361
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2016-06">
+     June 2016
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Men’s Lives Documentation Project Interviews
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1981/1985">
+     1981-1985
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1981/1985" unitdatetype="inclusive">
+    1981-1985
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1998/015
+   </unitid>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    5 linear feet (11 boxes), including 4050 manuscripts, 130 sound recordings, and 2 graphic materials.
+   </physdesc>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Eilertsen, John, interviewer.
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    manuscripts : 3,025 file cards.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    122 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Images)">
+    2 reels microfilm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    6 boxes.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="fre">
+     French.
+    </language>
+    <descriptivenote>
+     <p>
+      English  and
+            French.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Original documentation of the history and maritime occupational culture of a small fishing community from South Fork, Long Island, New York.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20160711164747.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      De Menil, Adelaide
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Eilertsen, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Lester, Stewart
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Rock Foundation Trust
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Atlantic menhaden fisheries--Atlantic Coast (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Eel fisheries--New York (State)--Long Island.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--New York (State)--Long Island.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fishers--New York (State)--Long Island--History.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fishers--New York (State)--Long Island--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Seining--New York (State)--Long Island.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      East End (Long Island, N.Y.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection has been arranged by format into the following series: Manuscripts, Sound Recordings, and Graphic Images.  All sound recordings indicated in the donor’s log have been assigned unique AFC ID numbers and the original order of the collection has been retained.  For several interviews a transcript is included, but the corresponding sound recording was not received with the collection.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The Men’s Lives Documentation Project collection was acquired by the Library of Congress’ Prints and Photographs Division in 1996. In 1997, the photographs and the oral history interview audio recordings, transcripts, and subject access note cards were separated and the latter were transferred to the Archive of Folk Culture, American Folklife Center.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by staff of the American Folklife Center.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access to recordings may be restricted. To request materials, please contact the Folklife Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact. Duplication of collection materials may be governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Men’s Lives documentation project interviews (AFC 1998/015), Archive of Folk Culture, American Folklife Center, Library of Congress,  Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Material
+   </head>
+   <p>
+    Original project photographs (circa 140,000 prints) are located in the Library of Congress, Prints and Photographs Division; unprocessed in PR 13 CN 1996:063.
+   </p>
+  </relatedmaterial>
+  <bibliography encodinganalog="581">
+   <head>
+    Publications
+   </head>
+   <bibref>
+    Matthiessen, Peter.
+    <title>
+     <part>
+      Men's Lives: The Surfmen and Baymen of the South Fork
+     </part>
+    </title>
+    .  New York: Rock Foundation, 1986.
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    The Rock Foundation is a philanthropic institution founded by Adelaide de Menil, a photographer and cultural documentarian.  John Eilertsen is a folklorist and was executive director of the Bridgehampton Historical Society at the time of this project.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The materials in this collection were produced as part of the Men’s Lives project, sponsored by Adelaide de Menil and The Rock Foundation, to document the occupational culture, lifestyle, and heritage of a small fishing community of surfmen and baymen on the East End of Long Island.  This collection includes oral history interviews and interview transcripts, notes, and a file card index of interview excerpts, field notes, and subject headings.  Related ephemera include a publicity file of English and French language press coverage of the Men’s Lives exhibition.
+   </p>
+   <p>
+    In 1981, a local fisherman and photographer, Doug Kuntz, expressed the desire to document his local East End community of fishers on South Fork, Long Island, whose traditions can be traced back three hundred years to its original settlement during the seventeenth century.  Adelaide de Menil encouraged Kuntz to pursue the project and invited seven other photographers and writer Peter Matthiessen to document the community. The materials gathered during the following four years became the source material for the Men’s Lives traveling exhibition and for Matthiessen’s book
+    <title>
+     <part>
+      Men's Lives: The Surfmen and Baymen of the South Fork
+     </part>
+    </title>
+    (1986).
+   </p>
+   <p>
+    Between 1981 and 1985, individuals from the fishing community participated in interviews covering all aspects of maritime commercial fishing and included occupational culture, lifestyle, and heritage in their discussions.  Family history is particularly well documented in this collection, as multiple members of the Lester and King families were interviewed, many more than once.  These interviews were conducted by folklorist John Eilertsen and include the following maritime topics: handlining, gill netting, eeling, dragging, cod fishing, sport fishing, sword fishing, shell fishing, menhaden fishery, long lining, lobster fishing, haul seining, decoys (gunning and trapping), wind weather and tide boats, net mending and rope splicing, whaling, trap fishing, shipping and selling, income and expenses, and legislation and politics.
+   </p>
+  </scopecontent>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="25*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="25*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="25*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="25*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Series I: Manuscripts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        105
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1-6
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3,025
+       </entry>
+       <entry morerows="0">
+        note cards
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 8
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Series II: Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        130
+       </entry>
+       <entry morerows="0">
+        audio cassettes
+       </entry>
+       <entry morerows="10">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Series III: Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        rolls of microfilm
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 7
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Collection Finding Aid
+      </unittitle>
+      <physdesc encodinganalog="300">
+       16 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Tape Index and Logs
+      </unittitle>
+      <physdesc encodinganalog="300">
+       96 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/3
+      </container>
+      <unitid label="ID">
+       SR001/A101.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Edwards, Joshua B. and Smith, Nat
+      </unittitle>
+      <physdesc encodinganalog="300">
+       13 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/4
+      </container>
+      <unitid label="ID">
+       SR002-SR003/A102-A103.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Smith, Nat
+      </unittitle>
+      <physdesc encodinganalog="300">
+       26 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/5
+      </container>
+      <unitid label="ID">
+       SR004-SR005/A104-A105.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Edwards, Captain Jack
+      </unittitle>
+      <physdesc encodinganalog="300">
+       44 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/6
+      </container>
+      <unitid label="ID">
+       SR006/A106.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Wood, V. Jarvis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       41 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Suffolk County Maritime Folklife Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/7
+      </container>
+      <unitid label="ID">
+       SR007/A107.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Tyler, Ben
+      </unittitle>
+      <physdesc encodinganalog="300">
+       33 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife; coot shooting.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/8
+      </container>
+      <unitid label="ID">
+       SR008-SR009/A108-A109.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and family
+      </unittitle>
+      <physdesc encodinganalog="300">
+       51 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Suffolk County Maritime Folklife Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/9
+      </container>
+      <unitid label="ID">
+       SR010-SR011/A110-A111.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart; Willing, Don; and Collins, John
+      </unittitle>
+      <physdesc encodinganalog="300">
+       53 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Suffolk County Maritime Folklife Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/10
+      </container>
+      <unitid label="ID">
+       SR012-SR013/A112-A113.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and family.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       43 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Suffolk County Maritime Folklife Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/11
+      </container>
+      <unitid label="ID">
+       SR015/1002.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Collins, John Jr.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       26 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife; Sea Food Producers co-op.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/12
+      </container>
+      <unitid label="ID">
+       SR016/1003.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Semb, Andy
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Life history, dragging, haul seining, bunker fishing, net mending.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/13
+      </container>
+      <unitid label="ID">
+       SR017/1004.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Dellappolla, Steve
+      </unittitle>
+      <physdesc encodinganalog="300">
+       65 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Life history, Amagansett, scalloping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/14
+      </container>
+      <unitid label="ID">
+       SR020/1006.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Knobel, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       48 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Life history, gill netting, etc.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/15
+      </container>
+      <unitid label="ID">
+       SR021/1007.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Milton
+      </unittitle>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/16
+      </container>
+      <unitid label="ID">
+       SR022/1008.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Osborne, Dave and Alisha
+      </unittitle>
+      <physdesc encodinganalog="300">
+       50 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Wainscott, cod fishing.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/17
+      </container>
+      <unitid label="ID">
+       SR023-SR024/1009.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Madge and Gail; and Lester, Stewart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       74 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Family home movies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/18
+      </container>
+      <unitid label="ID">
+       SR025/1010.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript –Halsey, Ellen
+      </unittitle>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/19
+      </container>
+      <unitid label="ID">
+       SR026/1011.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Vetault, Robert
+      </unittitle>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/20
+      </container>
+      <unitid label="ID">
+       SR027/1012.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Milton
+      </unittitle>
+      <physdesc encodinganalog="300">
+       53 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/21
+      </container>
+      <unitid label="ID">
+       SR028/1013.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – King, Danny
+      </unittitle>
+      <physdesc encodinganalog="300">
+       40 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/22
+      </container>
+      <unitid label="ID">
+       SR029/1014.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Bennett, Brentford
+      </unittitle>
+      <physdesc encodinganalog="300">
+       30 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/23
+      </container>
+      <unitid label="ID">
+       SR030/1015.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Richard
+      </unittitle>
+      <physdesc encodinganalog="300">
+       56 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/24
+      </container>
+      <unitid label="ID">
+       SR031/1016.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Havens, Benny
+      </unittitle>
+      <physdesc encodinganalog="300">
+       41 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/25
+      </container>
+      <unitid label="ID">
+       SR032/1017.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Vorpahl, Stuart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       46 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/26
+      </container>
+      <unitid label="ID">
+       SR033/1018.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Zucco, Tony
+      </unittitle>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/27
+      </container>
+      <unitid label="ID">
+       SR038/1022.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       47 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife; scalloping.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/28
+      </container>
+      <unitid label="ID">
+       SR041-SR042/1025.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       51 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/29
+      </container>
+      <unitid label="ID">
+       SR048-SR049/1030-1031.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and Ted
+      </unittitle>
+      <physdesc encodinganalog="300">
+       32 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/30
+      </container>
+      <unitid label="ID">
+       SR049/1031, Side 3.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and Ted
+      </unittitle>
+      <physdesc encodinganalog="300">
+       33 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/31
+      </container>
+      <unitid label="ID">
+       SR050-SR051/1032-1033.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom and Brown, Harold
+      </unittitle>
+      <physdesc encodinganalog="300">
+       52 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/32
+      </container>
+      <unitid label="ID">
+       SR051/1033, Side 3.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom and Brown, Harold
+      </unittitle>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/33
+      </container>
+      <unitid label="ID">
+       SR057-SR058/1039-1040.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stewart, Lester and de Menil, Adelaide
+      </unittitle>
+      <physdesc encodinganalog="300">
+       67 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/34
+      </container>
+      <unitid label="ID">
+       SR058/1040, Side 2.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stewart, Lester and de Menil, Adelaide
+      </unittitle>
+      <physdesc encodinganalog="300">
+       17 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/35
+      </container>
+      <unitid label="ID">
+       SR058/1040, Side 3.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stewart, Lester and de Menil, Adelaide
+      </unittitle>
+      <physdesc encodinganalog="300">
+       37 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/36
+      </container>
+      <unitid label="ID">
+       SR059/1041, Side 1.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stewart, Lester and Ted
+      </unittitle>
+      <physdesc encodinganalog="300">
+       16 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lifting traps.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/37
+      </container>
+      <unitid label="ID">
+       SR060/1042, Side 3.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stewart, Lester and Ted
+      </unittitle>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lifting traps.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/38
+      </container>
+      <unitid label="ID">
+       SR061/1043.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – de Graff, Gail Lester
+      </unittitle>
+      <physdesc encodinganalog="300">
+       39 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/39
+      </container>
+      <unitid label="ID">
+       SR063-SR064/1045-1046.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Wood, V. Jarvis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       36 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/40
+      </container>
+      <unitid label="ID">
+       SR067/1049.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Milton
+      </unittitle>
+      <physdesc encodinganalog="300">
+       40 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/41
+      </container>
+      <unitid label="ID">
+       SR069/1051.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Ruth
+      </unittitle>
+      <physdesc encodinganalog="300">
+       26 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/42
+      </container>
+      <unitid label="ID">
+       SR070/1052.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – de Castro, Harry and Uster, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       32 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/43
+      </container>
+      <unitid label="ID">
+       SR072-SR073/1053-1054.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom and Cathy
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lifting eel traps.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/44
+      </container>
+      <unitid label="ID">
+       SR074/1055.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom and school children
+      </unittitle>
+      <physdesc encodinganalog="300">
+       9 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Eeling.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/45
+      </container>
+      <unitid label="ID">
+       SR075/1056.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Wood, V. Jarvis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       77 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/46
+      </container>
+      <unitid label="ID">
+       SR076/1057.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and school children from Riverhead
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/47
+      </container>
+      <unitid label="ID">
+       SR077/1058.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Richard and children
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/48
+      </container>
+      <unitid label="ID">
+       SR078/1059.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom and Whalen, Richard
+      </unittitle>
+      <physdesc encodinganalog="300">
+       55 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Northwest woods.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/49
+      </container>
+      <unitid label="ID">
+       SR079/1060.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – King, Dan; Havens, Fred; Buttonow, Tom; and Olszewski, Joe
+      </unittitle>
+      <physdesc encodinganalog="300">
+       24 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Dan King’s crew.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/50
+      </container>
+      <unitid label="ID">
+       SR080/1061.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Calvin and Eames, Don Jr.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       61 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/51
+      </container>
+      <unitid label="ID">
+       SR081/1062.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       9 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife; ice stories.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/52
+      </container>
+      <unitid label="ID">
+       SR082/1063.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Leo, Arnold
+      </unittitle>
+      <physdesc encodinganalog="300">
+       35 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/53
+      </container>
+      <unitid label="ID">
+       SR083-SR084/1064-1065.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Pagliughi, Don
+      </unittitle>
+      <physdesc encodinganalog="300">
+       77 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/54
+      </container>
+      <unitid label="ID">
+       SR085-SR086/1066-1067.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Mickey; Lester, Tom; and Lowen, Brad
+      </unittitle>
+      <physdesc encodinganalog="300">
+       97 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/55
+      </container>
+      <unitid label="ID">
+       SR087/1068.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Michael
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Terkel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/56
+      </container>
+      <unitid label="ID">
+       SR088/1069.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Captain Frank
+      </unittitle>
+      <physdesc encodinganalog="300">
+       47 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/57
+      </container>
+      <unitid label="ID">
+       SR089/1070.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Micahel; Lester, Tom; and Vorpahl, Stuart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       38 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/58
+      </container>
+      <unitid label="ID">
+       SR090/1071.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Eames, Mary and Donald Jr.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/59
+      </container>
+      <unitid label="ID">
+       SR091/1072.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Leland, Linda
+      </unittitle>
+      <physdesc encodinganalog="300">
+       37 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/60
+      </container>
+      <unitid label="ID">
+       SR092/1073.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Diane
+      </unittitle>
+      <physdesc encodinganalog="300">
+       40 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/61
+      </container>
+      <unitid label="ID">
+       SR093/1074.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Duryea, Perry Jr.
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Montauk and Fort Pond Bay
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/62
+      </container>
+      <unitid label="ID">
+       SR094/1075.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Cathy
+      </unittitle>
+      <physdesc encodinganalog="300">
+       42 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/63
+      </container>
+      <unitid label="ID">
+       SR095/1076.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – King, Marsha
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/64
+      </container>
+      <unitid label="ID">
+       SR096/1077.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       30 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Turtle fykes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/65
+      </container>
+      <unitid label="ID">
+       SR097/1078.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Stern, Richard
+      </unittitle>
+      <physdesc encodinganalog="300">
+       49 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/66
+      </container>
+      <unitid label="ID">
+       SR098-SR099/1079-1080.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Al and Lowen, Brad
+      </unittitle>
+      <physdesc encodinganalog="300">
+       66 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/67
+      </container>
+      <unitid label="ID">
+       SR100/1081.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Erickson, John and Lester, Stewart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       60 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Swordfishing.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/68
+      </container>
+      <unitid label="ID">
+       SR101/1082.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and Collins, John Jr.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Commercial dock.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/69
+      </container>
+      <unitid label="ID">
+       SR 103/1083.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Leedham, Louis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       33 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/70
+      </container>
+      <unitid label="ID">
+       SR104/1084.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Havens, Fred and Carol
+      </unittitle>
+      <physdesc encodinganalog="300">
+       31 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/71
+      </container>
+      <unitid label="ID">
+       SR105/1085.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart and Ted
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/72
+      </container>
+      <unitid label="ID">
+       SR106/1086.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Edwards, Captain Jack and Carpentier, Ralph
+      </unittitle>
+      <physdesc encodinganalog="300">
+       49 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/73
+      </container>
+      <unitid label="ID">
+       SR 107/1087.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Ammon, Elisha
+      </unittitle>
+      <physdesc encodinganalog="300">
+       48 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Montauk.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/74
+      </container>
+      <unitid label="ID">
+       SR108/1088.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Daniels, Albert
+      </unittitle>
+      <physdesc encodinganalog="300">
+       39 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/75
+      </container>
+      <unitid label="ID">
+       SR109/1089.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Bennett, Walter
+      </unittitle>
+      <physdesc encodinganalog="300">
+       30 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Discusses taped interview of Frank Lester.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/76
+      </container>
+      <unitid label="ID">
+       SR110/1089-b.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Bennett, Walter
+      </unittitle>
+      <physdesc encodinganalog="300">
+       37 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/77
+      </container>
+      <unitid label="ID">
+       SR111/1089-c.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Bennett, Walter
+      </unittitle>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/78
+      </container>
+      <unitid label="ID">
+       SR112/1090.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Francis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       46 pages..
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/79
+      </container>
+      <unitid label="ID">
+       SR113/1091.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart
+      </unittitle>
+      <physdesc encodinganalog="300">
+       34 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pin hooking porgies.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/80
+      </container>
+      <unitid label="ID">
+       SR114/1092.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Paine, Sydney and Carpentier, Ralph
+      </unittitle>
+      <physdesc encodinganalog="300">
+       61 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/81
+      </container>
+      <unitid label="ID">
+       SR115-SR116/1093-1094.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Behan, John
+      </unittitle>
+      <physdesc encodinganalog="300">
+       73 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Public hearing of bass bill.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/82
+      </container>
+      <unitid label="ID">
+       SR117/1095.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Wood, Jarvis and Richard
+      </unittitle>
+      <physdesc encodinganalog="300">
+       59 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/83
+      </container>
+      <unitid label="ID">
+       SR120/1097.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lyke, Bill.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       30 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Montauk.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/84
+      </container>
+      <unitid label="ID">
+       SR121/1098.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Wood, Jarvis and Lester, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       19 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/85
+      </container>
+      <unitid label="ID">
+       SR122/1099.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Stewart.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       29 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/86
+      </container>
+      <unitid label="ID">
+       SR123/1100.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Prohaska, Tony.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       35 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/87
+      </container>
+      <unitid label="ID">
+       SR124/1101.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – King, Doug
+      </unittitle>
+      <physdesc encodinganalog="300">
+       27 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/88
+      </container>
+      <unitid label="ID">
+       SR125/1102.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Carpentier, Ralph
+      </unittitle>
+      <physdesc encodinganalog="300">
+       15 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/89
+      </container>
+      <unitid label="ID">
+       SR126/1103.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lafoe, Sally and Syversten, Jenny (nee Lester)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       56 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       5/90
+      </container>
+      <unitid label="ID">
+       SR127/1104.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, Milton and Mattheissen, Peter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       47 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/91
+      </container>
+      <unitid label="ID">
+       SR128/1105.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Syversten, Jenny (nee Lester).
+      </unittitle>
+      <physdesc encodinganalog="300">
+       32 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/92
+      </container>
+      <unitid label="ID">
+       SR129/1106.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Whalen, Richard.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       34 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/93
+      </container>
+      <unitid label="ID">
+       SR130/1107.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Miller, George Syd.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/94
+      </container>
+      <unitid label="ID">
+       SR131/1108.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Syversten, Jenny (nee Lester) and Lafoe, Sally
+      </unittitle>
+      <physdesc encodinganalog="300">
+       60 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/95
+      </container>
+      <unitid label="ID">
+       SR132/1109.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Robert
+      </unittitle>
+      <physdesc encodinganalog="300">
+       61 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/96
+      </container>
+      <unitid label="ID">
+       SR133/1110.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Buttonow, Tom
+      </unittitle>
+      <physdesc encodinganalog="300">
+       33 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/97
+      </container>
+      <unitid label="ID">
+       SR134/1111.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Lewis
+      </unittitle>
+      <physdesc encodinganalog="300">
+       42 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/98
+      </container>
+      <unitid label="ID">
+       SR135/1112.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Eames, Don Sr.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       36 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/99
+      </container>
+      <unitid label="ID">
+       SR136/1113.
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Transcript – Lester, Harry
+      </unittitle>
+      <physdesc encodinganalog="300">
+       36 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       East Hampton Maritime Folklife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/100
+      </container>
+      <unittitle encodinganalog="245$a">
+       Short Essays – Lester, Bill
+      </unittitle>
+      <physdesc encodinganalog="300">
+       21 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Three short essays: “Bill Lester, in his own words”; “Bill Lester, Bonacker”; and “Fish, in and out of water.”
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/101
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notecard Set
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of original notecard containers.  See Box 8 for cards.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/102
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notecard Set – Excerpts from interviews
+      </unittitle>
+      <physdesc encodinganalog="300">
+       43 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of notecards created by donor.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/103
+      </container>
+      <unittitle encodinganalog="245$a">
+       Men’s Lives Exhibition – Publicity
+      </unittitle>
+      <physdesc encodinganalog="300">
+       91 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Press clippings, releases, and related material gathered by the donor.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/104
+      </container>
+      <unittitle encodinganalog="245$a">
+       Baymen’s Newsletter – 1974 to 1978
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       13 issues
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       6/105
+      </container>
+      <unittitle encodinganalog="245$a">
+       Printed ephemera
+      </unittitle>
+      <physdesc encodinganalog="300">
+       22 pages.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clearwater Navigator (Jan/Feb 1988); Suffolk Historian (Vol. 7, No. 1; 1982); Marine Education Leaflet No. 11, The Gulf Menhaden; and Daily Pound-Net Catch Chart.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notecard Set
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Notecard index to oral history interviews.  Lifestyle and Heritage sections include quotations from interviews.  Topics indexed include: cod fishing, dragging, eeling, fishing, gill netting, hand lining, sport fishing, sword fishing, shell fishing, menhaden fishery, long lining, lobster fishing, haul seining, decoys (gunning and trapping), wind, weather and tide boats, net mending and rope splicing, whaling, trap fishing, dramatic experiences, legislation and politics, income and expenses, and shipping and selling.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="ID">
+       SR001-SR053
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Original oral history interviews
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ID">
+       SR054-SR098
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Original oral history interviews
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ID">
+       SR099-SR146
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Original oral history interviews
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       7/106
+      </container>
+      <unittitle encodinganalog="245$a">
+       Microfilm #1 – Contact Sheet (1/2)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       7/107
+      </container>
+      <unittitle encodinganalog="245$a">
+       Microfilm #1 – Contact Sheet (2/2)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       22 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       7/108
+      </container>
+      <unittitle encodinganalog="245$a">
+       Microfilm #2 – Contact Sheet (1/1)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       16 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       7/109
+      </container>
+      <unittitle encodinganalog="245$a">
+       Microfilm #1 and Microfilm #2
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Individually boxed microfilms
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+  <odd localtype="index">
+   <head>
+    Appendix A: List of Interviews
+   </head>
+   <table frame="none">
+    <tgroup cols="2">
+     <colspec align="left" colname="1" colnum="1" colwidth="50*">
+     </colspec>
+     <colspec align="left" colname="2" colnum="2" colwidth="50*">
+     </colspec>
+     <thead>
+      <row>
+       <entry colname="1">
+        Tape Number
+       </entry>
+       <entry colname="2">
+        Contents
+       </entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry colname="1">
+        SR001/A-101
+       </entry>
+       <entry colname="2">
+        Edwards, Joshua B. and Smith, Nat.  11 July 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR002/A-102
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR003/A-103
+       </entry>
+       <entry colname="2">
+        Smith, Nat.  14 July 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR004/A-104
+       </entry>
+       <entry colname="2">
+        Edwards, Captain Jack.  12 August 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR005/A-105
+       </entry>
+       <entry colname="2">
+        Edwards, Captain Jack.  12 August 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR006/A-106
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR007/A-107
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR008/A-108
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR009/A-109
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR010/A-110
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Collins, Johnny.  31 August 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR010/A-110
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Collins, Johnny.  31 August 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR011/A-111
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR012/A-112
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR013/A-113
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR014/1001
+       </entry>
+       <entry colname="2">
+        Paine, Sydney.  18/[15] October 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR014/1001
+       </entry>
+       <entry colname="2">
+        Paine, Sydney.  18/[15] October 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR015/1002
+       </entry>
+       <entry colname="2">
+        Collins, John Jr.  21 October 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR016/1003
+       </entry>
+       <entry colname="2">
+        Semb, Andy.  4 November 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR017/1004
+       </entry>
+       <entry colname="2">
+        Dellapolla, Steve.  8 November 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR018/1004
+       </entry>
+       <entry colname="2">
+        Dellapolla, Steve.  8 November 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR019/1005
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR020/1006
+       </entry>
+       <entry colname="2">
+        Knobel, Tom.  3/[5] December 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR021/1007
+       </entry>
+       <entry colname="2">
+        Miller, Milton.  12 December 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR022/1008
+       </entry>
+       <entry colname="2">
+        Osborne, Dave and Alisha.  2 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR023/1009
+       </entry>
+       <entry colname="2">
+        Stewart, Madge and Gail.  2 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR024/1009
+       </entry>
+       <entry colname="2">
+        Lester, Stewart.  2 January 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR025/1010
+       </entry>
+       <entry colname="2">
+        Halsey, Ellen.  6 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR026/1011
+       </entry>
+       <entry colname="2">
+        Vetault, Robert.  13 January 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR027/1012
+       </entry>
+       <entry colname="2">
+        Miller, Milton.  18 January 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR028/1013
+       </entry>
+       <entry colname="2">
+        King, Danny.  27 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR029/1014
+       </entry>
+       <entry colname="2">
+        Bennett, Brentford.  28 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR030/1015
+       </entry>
+       <entry colname="2">
+        Lester, Richard.   28 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR031/1016
+       </entry>
+       <entry colname="2">
+        Havens, Benny. 28 January 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR032/1017
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR033/1018
+       </entry>
+       <entry colname="2">
+        Zucco, Tony.  10 February 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR034/1019
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Lowen, Brad.  15 February 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR035/1020
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Lowen, Brad.  15 February 1982. Tape Side 3
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR036/1021
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR037/1022
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  28 February 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR038/1022
+       </entry>
+       <entry colname="2">
+        Lester, Stewart. 4 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR039/1023
+       </entry>
+       <entry colname="2">
+        Lester, Stewart. 4 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR040/1024
+       </entry>
+       <entry colname="2">
+        Wood, Jarvis; Richard, Tom; and Lester, Stewart.  3 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR041/1025
+       </entry>
+       <entry colname="2">
+        Lester, Stewart.  18 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR042/1025
+       </entry>
+       <entry colname="2">
+        Lester, Stewart.  18 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR043/1026
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  29 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR044/1026
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  29 March 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR045/1027
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  12 April 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR046/1028
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  12 April 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR047/1029
+       </entry>
+       <entry colname="2">
+        Lester, Tom. 23 April 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR048/1030
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Ted.  5 Mary 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR049/1031
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Ted.  5 Mary 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR050/1032
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Brown, Harold.  14 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR051/1033
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Brown, Harold.  14 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR052/1034
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Brown, Harold; Field, Bruce.  10 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR053/1035
+       </entry>
+       <entry colname="2">
+        Lester, Tom, et al.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR054/1036
+       </entry>
+       <entry colname="2">
+        Lester, Tom, et al.  16 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR055/1037
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Field, Bruce.  17 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR056/1038
+       </entry>
+       <entry colname="2">
+        Lester, Tom, et al.  17 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR057/1039
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and de Menil, Adelaide.  22 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR058/1040
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and de Menil, Adelaide.  22 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR059/1041
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Ted.  26 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR060/1042
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Ted.  26 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR061/1043
+       </entry>
+       <entry colname="2">
+        de Graff, Gail Lester.  27 May 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR062/1044
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  11 June 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR063/1045
+       </entry>
+       <entry colname="2">
+        Wood, Jarvis.  19 June 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR064/1046
+       </entry>
+       <entry colname="2">
+        Wood, Jarvis.  19 June 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR065/1047
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  30 June 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR066/1048
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  30 June 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR067/1049
+       </entry>
+       <entry colname="2">
+        Miller, Milton.  22 August 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR068/1050
+       </entry>
+       <entry colname="2">
+        Lester, Ruth.  8 July 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR069/1051
+       </entry>
+       <entry colname="2">
+        Lester, Ruth.  15 July 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR070/1052
+       </entry>
+       <entry colname="2">
+        de Castro, Harry and Uster, Tom.  28 July 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR071/1052
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Cathy.  27 October 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR072/1053
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR073/1054
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Cathy.  27 October 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR074/1055
+       </entry>
+       <entry colname="2">
+        Lester, Tom and school children.  5 November 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR075/1056
+       </entry>
+       <entry colname="2">
+        Wood, Jarvis.  5 November 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR076/1057
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and school children from Riverhead.  5/[8] November 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR077/1058
+       </entry>
+       <entry colname="2">
+        Lester, Richard and children.  5 November 1982
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR078/1059
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Whalen, Richard.  5 January 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR079/1060
+       </entry>
+       <entry colname="2">
+        Havens, Fred; Buttonow, Tom; and Olszewski, Joe.  17 January 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR080/1061
+       </entry>
+       <entry colname="2">
+        Lester, Calvin and Eames, Don Jr.  24 January 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR081/1062
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR082/1063
+       </entry>
+       <entry colname="2">
+        Leo, Arnold.  31 January 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR083/1064
+       </entry>
+       <entry colname="2">
+        Pagliughi, Don.  February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR084/1065
+       </entry>
+       <entry colname="2">
+        Pagluighi, Don.  February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR085/1066
+       </entry>
+       <entry colname="2">
+        Lester, Rom; Lowen, Brad; and Miller, Mickey.  23 February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR086/1067
+       </entry>
+       <entry colname="2">
+        Lester, Tom; Lowen, Brad; and Miller, Mickey.  23 February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR087/1068
+       </entry>
+       <entry colname="2">
+        Miller, Michael.  14 February 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR088/1069
+       </entry>
+       <entry colname="2">
+        Lester, Captain Frank.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR089/1070
+       </entry>
+       <entry colname="2">
+        Miller, Michael; Lester, Tom; and Vorpahl, Stuart. 1 March 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR090/1071
+       </entry>
+       <entry colname="2">
+        Eames, Mary and Donald Jr.  22 March 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR091/1072
+       </entry>
+       <entry colname="2">
+        Leland, Linda.  24 March 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR092/1073
+       </entry>
+       <entry colname="2">
+        Lester, Diane.  25 May 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR093/1074
+       </entry>
+       <entry colname="2">
+        Duryea, Perry Jr.  29 April 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR094/1075
+       </entry>
+       <entry colname="2">
+        Lester, Cathy.  29 April 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR095/1076
+       </entry>
+       <entry colname="2">
+        King Marsha.  6 June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR096/1077
+       </entry>
+       <entry colname="2">
+        Lester, Tom.  June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR097/1078
+       </entry>
+       <entry colname="2">
+        Stern, Richard.  19 June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR098/1079
+       </entry>
+       <entry colname="2">
+        Lester, Al and Lowen, Brad.  22 May 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR099/1080
+       </entry>
+       <entry colname="2">
+        Lester, Albey and Lowen, Brad.  22 May 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR100/1081
+       </entry>
+       <entry colname="2">
+        Erickson, John and Lester, Stewart.  24 June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR101/1082
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Collins, John Jr.  June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR102/1083
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Collins, Johnny.  31 August 1981
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR103/1083
+       </entry>
+       <entry colname="2">
+        Leedham, Louis.  28 June 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR104/1084
+       </entry>
+       <entry colname="2">
+        Havens, Fred and Carol.  22 July 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR105/1085
+       </entry>
+       <entry colname="2">
+        Lester, Stewart and Ted.  July 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR106/1086
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR107/1087
+       </entry>
+       <entry colname="2">
+        Ammon, Elisha.  9 August 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR108/1088
+       </entry>
+       <entry colname="2">
+        Daniels, Albert.  23 August 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR109/1089
+       </entry>
+       <entry colname="2">
+        Bennett, Walter.  16 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR110/1089-b
+       </entry>
+       <entry colname="2">
+        Bennett, Walter.  17 November 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR111/1089-c
+       </entry>
+       <entry colname="2">
+        Bennett, Walter.  13 December 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR112/1090
+       </entry>
+       <entry colname="2">
+        Lester, Francis.  20 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR113/1091
+       </entry>
+       <entry colname="2">
+        Lester, Stewart.  3 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR114/1092
+       </entry>
+       <entry colname="2">
+        Paine, Sydney and Carpentier, Ralph.  26 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR115/1093
+       </entry>
+       <entry colname="2">
+        Behan, John.  3 November 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR116/1094
+       </entry>
+       <entry colname="2">
+        Behan, John.  3 November 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR117/1095
+       </entry>
+       <entry colname="2">
+        Wood, Jarvis and Richard.  20/[25] October 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR118/1096
+       </entry>
+       <entry colname="2">
+        B., Captain Joshua; Edwards, Jack; and Carpentier, Ralph.  9 August 198[3]
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR119/1096
+       </entry>
+       <entry colname="2">
+        Public hearing at the East Hampton Town Planning Board. 30 November 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR120/1097
+       </entry>
+       <entry colname="2">
+        Lyke, Bill.  12 December 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR121/1098
+       </entry>
+       <entry colname="2">
+        Lester, Tom and Wood, Jarvis.  26 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR122/1099
+       </entry>
+       <entry colname="2">
+        Lester, Stewart.  26 September 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR123/1100
+       </entry>
+       <entry colname="2">
+        Prohaska, Tony.  23 December 1983
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR124/1101
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR125/1102
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR126/1103
+       </entry>
+       <entry colname="2">
+        Tape not received
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR127/1104
+       </entry>
+       <entry colname="2">
+        Miller, Milton and Mattheissen, Peter.  20 January 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR128/1105
+       </entry>
+       <entry colname="2">
+        Syversten, Jenny (nee Lester).  11 February 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR129/1106
+       </entry>
+       <entry colname="2">
+        Whalen, Richard.  5 March 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR130/1107
+       </entry>
+       <entry colname="2">
+        Miller, George Syd.  5 March 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR131/1108
+       </entry>
+       <entry colname="2">
+        Syversten, Jenny (nee Lester) and Lafoe, Sally.  14 March 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR132/1109
+       </entry>
+       <entry colname="2">
+        Lester, Robert.  4 April 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR133/1110
+       </entry>
+       <entry colname="2">
+        Buttonow, Tom.  9 April 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR134/1111
+       </entry>
+       <entry colname="2">
+        Lester, Lewis.  10 April 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR135/1112
+       </entry>
+       <entry colname="2">
+        Eames, Don Sr.  26 May 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR136/1113
+       </entry>
+       <entry colname="2">
+        Lester, Harry.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR137/1114
+       </entry>
+       <entry colname="2">
+        Stoudinger, Al and Lester, Tom.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR138/1115
+       </entry>
+       <entry colname="2">
+        Conklin, Clifford.  27 June 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR139/1116
+       </entry>
+       <entry colname="2">
+        Beckwith, Ed and Joanne.  27 June 1984
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR140
+       </entry>
+       <entry colname="2">
+        D.C. Bass meeting.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR141
+       </entry>
+       <entry colname="2">
+        John Cronin, D.C. Bass.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR142
+       </entry>
+       <entry colname="2">
+        Lester, Bill.  10 June 1986
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR143
+       </entry>
+       <entry colname="2">
+        Leo, Arnold and de Menil, Adelaide.  14 August 1986
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR144
+       </entry>
+       <entry colname="2">
+        de Menil, Adelaide.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR145
+       </entry>
+       <entry colname="2">
+        East Hampton Town Marine Museum.
+       </entry>
+      </row>
+      <row>
+       <entry colname="1">
+        SR146
+       </entry>
+       <entry colname="2">
+        14 March 1976
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

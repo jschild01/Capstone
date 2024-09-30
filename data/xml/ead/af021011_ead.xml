@@ -1,0 +1,6100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021011">
+   loc.afc/eadafc.af021011
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Linda Pershing "Ribbon around the Pentagon" collection
+    </titleproper>
+    <author>
+     Prepared by Farrah Cundiff
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2022">
+     2022
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2018655237" show="new">
+       https://lccn.loc.gov/2018655237
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-07">
+     July 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Removed textiles' "unprocessed" notes from container list and
+                    accessrestrict; added box numbers to textiles; made copy edits (Farrah
+                    Cundiff).
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-06">
+     June 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Farrah Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Linda Pershing "Ribbon around the Pentagon" collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1984/2018">
+     1984-2018
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1985/1989">
+     1985-1989
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1984/2018" unitdatetype="inclusive">
+    1984-2018
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1985/1989" unitdatetype="bulk">
+    1985-1989
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2018/007
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Pershing, Linda
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 1,606 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    8 containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    4 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    approximately 288
+                pages
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    5 photographic prints
+                : black-and-white ; 4 x 5 in., 5 x 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    131 photographic
+                prints : color ; 3 1/2 x 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    971 photographic
+                transparencies : color ; 35mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    4 photographic
+                transparencies : color ; 4 x 5 1/2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    1 photographic
+                negative : black-and-white ; 4 x 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    102 photographic
+                negatives : color ; 35mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    4 videocassettes (VHS) :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (recorded sound)">
+    50 audiocassettes :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (recorded sound)">
+    30 microcassettes :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    9 fabric panels :
+                approximately 17 x 45 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    1 cleaning
+                microcassette
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of ethnographic research
+                data about Justine Merritt's "Ribbon around the Pentagon" project and subsequent
+                related events. Includes several original Ribbon panels, audio interviews with
+                participants, photographs of various Ribbon project events, video of lectures and
+                documentaries, questionnaire responses, and signed copies of publications written by
+                the collector.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Linda Pershing; Donation; 2018.
+   </p>
+  </acqinfo>
+  <custodhist encodinganalog="561">
+   <head>
+    Custodial History
+   </head>
+   <p>
+    All Ribbon panels, many photographs, and some documents in the collection were
+                created by Ribbon project panel makers, primarily in the United States, between 1984
+                and 1989. Linda Pershing began collecting these materials from panel makers and
+                Ribbon project founding officers in 1985 or 1986, and they remained in her
+                possession until their donation to the American Folklife Center in 2018. Linda
+                Pershing created all audio recordings, some photographs, and some documents, which
+                remained in her possession until their donation in 2018.
+   </p>
+  </custodhist>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    Additional Ribbon panels may be accrued in the future.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Linda Pershing "Ribbon around the Pentagon" collection was processed by Farrah
+                Cundiff in 2021 and 2022.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    <ref actuate="onrequest" href="https://twudigital.contentdm.oclc.org/digital/collection/p1281coll7/id/1154/rec/3" show="new">
+     The Ribbon Records (Mss 043), Texas Woman's University
+    </ref>
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+   <p>
+    Materials in the collection were generated by various creators. Some materials are
+                copies. Known creators are named in this finding aid whenever possible. Materials
+                with no creator attribution require further research to determine rights and
+                origin.
+   </p>
+   <p>
+    The public may use materials created by Linda Pershing, except that the public may
+                not use them for personal gain or to make a profit.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Linda Pershing "Ribbon around the Pentagon" collection is open to research. To
+                request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Linda Pershing "Ribbon around the Pentagon"
+                collection (AFC 2018/007), American Folklife Center, Library of Congress,
+                Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Linda Pershing is a folklorist with a focus on women's experiences and feminist
+                theory, peace and justice activism, feminist pedagogy, folklore studies, and the
+                politics of culture.
+   </p>
+   <p>
+    For six years following the "Ribbon around the Pentagon" event which took place in
+                the summer of 1985, Pershing traveled around the country to interview Ribbon project
+                participants at their homes, photograph Ribbon panels, and collect qualitative
+                research data about the project. She wrote about her ethnographic research of the
+                Ribbon project in her essay
+    <title>
+     <part>
+      Peace Work out of Piecework: Feminist Needlework Metaphors and the Ribbon
+                        around the Pentagon
+     </part>
+    </title>
+    (1993) and in her books
+    <title>
+     <part>
+      Sew to Speak: The Fabric Art of Mary Milne
+     </part>
+    </title>
+    (1995) and
+    <title>
+     <part>
+      The Ribbon around the Pentagon: Peace by Piecemakers
+     </part>
+    </title>
+    (1996).
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The "Ribbon around the Pentagon" ceremony was a grass-roots public art event and
+                anti-nuclear peace demonstration which took place in Washington, D.C., on August 4,
+                1985 (the weekend before the 40th anniversary of the atomic bombing of Hiroshima,
+                Japan). Activists protesting nuclear arms created hand-made fabric panels which
+                depicted the things that would be lost in the event of a nuclear disaster. Panels
+                showcased a variety of fiber arts including embroidery, quilting, garment sewing,
+                fabric painting, knitting, weaving, appliqué, and needlework. The panels were tied
+                together to form a 15-mile long "Ribbon," and the Ribbon was wrapped around the
+                Pentagon, the Capitol, and the Lincoln and Washington Memorials by demonstrators
+                holding the panels they created.
+   </p>
+   <p>
+    The collection primarily consists of the opinions of participants and the imagery of
+                Ribbon panels. Collection materials include several original Ribbon panels,
+                photographs of Ribbon panels, photographs of events which took place after the
+                original 1985 demonstration, video of lectures and documentaries, audio interviews
+                with project founders and participants, and questionnaire responses. All Ribbon
+                panels, most documents, and many photographs in the collection were created by
+                Ribbon project participants, primarily in the United States, between 1984 and 1989.
+                All audio recordings and many photographs were created by Linda Pershing between
+                1985 and 1989.
+   </p>
+   <p>
+    The materials in this collection refer to the original ceremony and related
+                activities which took place from 1984 to 1989 as "the Ribbon project."
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Linda Pershing "Ribbon around the Pentagon" collection is organized into five
+                series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10001">
+      Series 1: Justine
+                        Merritt
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10044">
+      Series 2: Mary
+                        Milne
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10059">
+      Series 3: Other Ribbon
+                        project participants
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10197">
+      Series 4: Research
+                        materials
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10206">
+      Series 5: Donation
+                        notes
+     </ref>
+    </item>
+   </list>
+   <p>
+    Two subjects stand out due to the depth of documentation and their prominence in
+                Linda Pershing's publications: Ribbon project founder Justine Merritt; and project
+                participant Mary Milne. Most materials related to these subjects have been arranged
+                in distinct groupings for ease of reference.
+   </p>
+   <p>
+    Photographs are listed with the date they were taken; when that is unknown, the
+                photograph development or copy date is listed.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20220520154822.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hollis, Susan T., Feminist theory and the study of folklore. 1993.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Merritt, Justine, 1924-2009--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Merritt, Justine, 1924-2009. Cup of cool water.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Milne, Mary, 1955- --Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pershing, Linda
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pershing, Linda. Sew to speak. 1995.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Antinuclear movement--United States--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Catholic women artists--United States--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Craftivism--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fabric pictures--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk art.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Material culture.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Needlework--Social aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Nuclear disarmament--United States--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Textile artists--United States--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Textile crafts--Political aspects--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Women and peace--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Washington (D.C.)
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Justine Merritt,
+      <date localtype="inclusive" normal="1984/1989">
+       1984-1989
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1984/1989" unitdatetype="inclusive">
+      1984-1989
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Taped interviews and lectures, photos, an original textile Ribbon panel, and
+                        a documentary video about Justine Merritt, the founder of the Ribbon
+                        project. Much of Linda Pershing's book
+      <title>
+       <part>
+        The Ribbon around the Pentagon: Peace by Piecemakers
+       </part>
+      </title>
+      (1996) focused on Justine Merritt and included references to the
+                        materials in this series. The series combines tapes recorded by Linda
+                        Pershing with photos and videos she collected from other sources. The Ribbon
+                        panel is an original work created by Justine Merritt.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Justine Merritt
+                            interviews
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR015
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10003">
+        Justine Merritt
+                                interview, St. John's University, Collegeville, MN,
+        <date localtype="inclusive" normal="1986-04-25">
+         April 25, 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04-25" unitdatetype="inclusive">
+        April 25, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR016
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10004">
+        Justine Merritt
+                                interview, Denton, TX (1 of 3),
+        <date localtype="inclusive" normal="1987-04-26">
+         April 26, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-26" unitdatetype="inclusive">
+        April 26, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR017
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10005">
+        Justine Merritt
+                                interview, Denton, TX (2 of 3),
+        <date localtype="inclusive" normal="1987-04-26">
+         April 26, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-26" unitdatetype="inclusive">
+        April 26, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR018
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10006">
+        Justine Merritt
+                                interview, Denton, TX (3 of 3),
+        <date localtype="inclusive" normal="1987-04-26">
+         April 26, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-26" unitdatetype="inclusive">
+        April 26, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR019
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10007">
+        Justine Merritt
+                                interview, Austin, TX,
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR020
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10008">
+        Justine Merritt
+                                interview, June Thompson's house, Redwood City, CA,
+        <date localtype="inclusive" normal="1988-06-06">
+         June 6, 1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-06-06" unitdatetype="inclusive">
+        June 6, 1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR021
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10009">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (1 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR022
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10010">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (2 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR023
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10011">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (3 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Side A of SR023. See also
+        <ref target="ead10092">
+         Side B
+        </ref>
+        .
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR024
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10012">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (4 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR025
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10013">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (5 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Side B of SR025. See also
+        <ref target="ead10039">
+         Side A
+        </ref>
+        .
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR026
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10014">
+        Justine Merritt
+                                interview, Linda Pershing's house, Austin, TX (6 of 6),
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         April 18 to
+                                    19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Ribbon panels by Justine
+                            Merritt
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR001
+       </unitid>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10016">
+        Ribbon panel, "Names,"
+        <date localtype="inclusive" normal="1985">
+         circa 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+        circa 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (17 3/4 x 33 1/2 in.;
+                                embroidery)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Justine Merritt
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Fourth 'names' panel with names of
+                                people she would hate to lose in a nuclear war, embroidered. Many
+                                were people she met as she traveled the U.S. promoting the project.
+                                Justine said that she left the bottom empty to symbolize the people
+                                who would come into her life in the future. See p. 90 in Pershing's
+                                book."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10017">
+        Photo of Justine Merritt
+                                holding one of her "names" panels,
+        <date localtype="inclusive" normal="1984/1989">
+         circa 1984 to 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984/1989" unitdatetype="inclusive">
+        circa 1984 to 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 black-and-white negative (4 x 5
+                                in.)
+       </physdesc>
+       <physdesc encodinganalog="300">
+        1 black-and-white photographic print (5 x
+                                7 in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH001
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10019">
+        Photos of Justine
+                                Merritt's "map" Ribbon panel,
+        <date localtype="inclusive" normal="1987-05">
+         developed May 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-05" unitdatetype="inclusive">
+        developed May 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH002
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10020">
+        Photos of Justine
+                                Merritt and others viewing Justine's "names" panel at Linda
+                                Pershing's house in Austin, TX,
+        <date localtype="inclusive" normal="1989-04-18/1989-04-19">
+         circa April 18 to 19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-18/1989-04-19" unitdatetype="inclusive">
+        circa April 18 to 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        37 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographs attributed to Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       Justine Merritt
+                            lectures
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV002
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10022">
+        Justine Merritt lecture,
+                                St. John's University, Collegeville, MN,
+        <date localtype="inclusive" normal="1986-04-24">
+         April 24, 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04-24" unitdatetype="inclusive">
+        April 24, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recording attributed to Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR001
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10023">
+        Justine Merritt lecture,
+                                St. John's University, Collegeville, MN,
+        <date localtype="inclusive" normal="1986-04-24">
+         April 24, 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04-24" unitdatetype="inclusive">
+        April 24, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR002
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10024">
+        Justine Merritt
+                                presentation, St. John's University, Collegeville, MN (1 of 2),
+        <date localtype="inclusive" normal="1986-04-25">
+         April 25,
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04-25" unitdatetype="inclusive">
+        April 25, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR003
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10025">
+        Justine Merritt
+                                presentation, St. John's University, Collegeville, MN (2 of 2),
+        <date localtype="inclusive" normal="1986-04-25">
+         April 25,
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04-25" unitdatetype="inclusive">
+        April 25, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH003
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10026">
+        Photos of Justine
+                                Merritt lecturing with panels,
+        <date localtype="inclusive" normal="1986-05">
+         developed May 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-05" unitdatetype="inclusive">
+        developed May 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR004
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10027">
+        Justine Merritt
+                                presentation, Ribbon party at Linda Pershing's house, Austin, TX (1
+                                of 2),
+        <date localtype="inclusive" normal="1986-07-29">
+         July 29,
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-07-29" unitdatetype="inclusive">
+        July 29, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR005
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10028">
+        Justine Merritt
+                                presentation, Ribbon party at Linda Pershing's house, Austin, TX (2
+                                of 2),
+        <date localtype="inclusive" normal="1986-07-29">
+         July 29,
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-07-29" unitdatetype="inclusive">
+        July 29, 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR006
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10029">
+        Justine Merritt
+                                presentation, meeting of the Austin Stitchery Guild, Austin, TX,
+        <date localtype="inclusive" normal="1987-01-29">
+         January 29,
+                                    1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-01-29" unitdatetype="inclusive">
+        January 29, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV003
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10030">
+        Justine Merritt lecture,
+                                Texas Woman's University, Denton, TX,
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recording attributed to Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR007
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10031">
+        Justine Merritt lecture,
+                                St. John's University, Collegeville, MN,
+        <date localtype="inclusive" normal="1987-04-26/1987-04-27">
+         April 26 to 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-26/1987-04-27" unitdatetype="inclusive">
+        April 26 to 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR008
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10032">
+        Justine Merritt
+                                presentation, Denton, TX (1 of 4),
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR009
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10033">
+        Justine Merritt
+                                presentation, Denton, TX (2 of 4),
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR010
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10034">
+        Justine Merritt
+                                presentation, Denton, TX (3 of 4),
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR011
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10035">
+        Justine Merritt
+                                presentation, Denton, TX (4 of 4),
+        <date localtype="inclusive" normal="1987-04-27">
+         April 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-27" unitdatetype="inclusive">
+        April 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 microcassette (60 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10036">
+        Photos of Justine
+                                Merritt lecturing with panels,
+        <date localtype="inclusive" normal="1987-05">
+         developed circa May 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-05" unitdatetype="inclusive">
+        developed circa May 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        7 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH004
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10037">
+        Photos of Justine
+                                Merritt lecturing with panels,
+        <date localtype="inclusive" normal="1987-05">
+         developed May 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-05" unitdatetype="inclusive">
+        developed May 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV004
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10038">
+        Justine Merritt lecture,
+                                St. Edward's University, Austin, TX,
+        <date localtype="inclusive" normal="1989-04-19">
+         April 19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-19" unitdatetype="inclusive">
+        April 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recording attributed to Linda Pershing
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        First recording on MV004. See also
+        <ref target="ead10184">
+         second
+        </ref>
+        and
+        <ref target="ead10058">
+         third
+        </ref>
+        recordings.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR025
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10039">
+        Justine Merritt lecture,
+                                St. Edward's University, Austin, TX,
+        <date localtype="inclusive" normal="1989-04-19">
+         April 19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-19" unitdatetype="inclusive">
+        April 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Side A of SR025. See also
+        <ref target="ead10013">
+         Side B
+        </ref>
+        .
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR012
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10040">
+        Justine Merritt
+                                presentation, Austin Women's Peace House, Austin, TX,
+        <date localtype="inclusive" normal="1989-04-19">
+         April 19, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04-19" unitdatetype="inclusive">
+        April 19, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       Audio program featuring
+                            Justine Merritt
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR013
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10042">
+        <title>
+         <part>
+          A Cup of Cool Water: Meditations on the Life of
+                                        Christ
+         </part>
+        </title>
+        (1 of 2),
+        <date localtype="inclusive">
+         n.d.
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+        n.d.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Presented by Justine Merritt,
+         </part>
+        </name>
+        <name>
+         <part>
+          © Creative Core
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR014
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10043">
+        <title>
+         <part>
+          A Cup of Cool Water: Meditations on the Life of
+                                        Christ
+         </part>
+        </title>
+        (2 of 2),
+        <date localtype="inclusive">
+         n.d.
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+        n.d.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Presented by Justine Merritt,
+         </part>
+        </name>
+        <name>
+         <part>
+          © Creative Core
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10044">
+      Series 2: Mary Milne,
+      <date localtype="inclusive" normal="1987/1990">
+       1987-1990
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1987/1990" unitdatetype="inclusive">
+      1987-1990
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Taped interviews, photos, and a documentary video about Mary Milne, a
+                        prolific participant of the Ribbon project and the subject of Linda
+                        Pershing's book
+      <title>
+       <part>
+        Sew to Speak: The Fabric Art of Mary Milne
+       </part>
+      </title>
+      . The series consists primarily of audiotapes and photographs
+                        created by Linda Pershing. The video documentary was produced by Mary
+                        Milne.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10045">
+       Mary Milne
+                            interviews
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR027
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10046">
+        Mary Milne interview
+                                (standard questions), Ithaca, NY (1 of 3),
+        <date localtype="inclusive" normal="1989-05-03">
+         May 3, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+        May 3, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR028
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10047">
+        Mary Milne interview
+                                (special questions), Ithaca, NY (2 of 3),
+        <date localtype="inclusive" normal="1989-05-03">
+         May 3, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+        May 3, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: SR029
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10048">
+        Mary Milne interview,
+                                Ithaca, NY (3 of 3),
+        <date localtype="inclusive" normal="1989-05-03">
+         May 3, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+        May 3, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette (90 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Recorded by Linda Pershing
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Side A of SR029. See also
+        <ref target="ead10116">
+         Side B
+        </ref>
+        .
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10049">
+       Ribbon panels, artworks,
+                            studio, and home of Mary Milne
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH005
+       </unitid>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10050">
+        Photos of Mary Milne,
+                                her daughter, and her artwork,
+        <date localtype="inclusive" normal="1988/1990">
+         circa 1988 to 1990
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988/1990" unitdatetype="inclusive">
+        circa 1988 to 1990
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 color transparencies (4 x 5 1/2
+                                in.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Mary Milne
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH006
+       </unitid>
+       <container localtype="box">
+        7
+       </container>
+       <container localtype="box-folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10051">
+        Photos of Mary Milne's
+                                panels and 1985 calendar
+        <title>
+         <part>
+          Can't Kill the Spirit
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1989-05-03/1989-05-04">
+         May 3 to May 4, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-04" unitdatetype="inclusive">
+        May 3 to May 4, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        45 color negatives (35mm)
+       </physdesc>
+       <physdesc encodinganalog="300">
+        85 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10053">
+        Photos of Ribbon panels
+                                made by Mary Milne,
+        <date localtype="inclusive" normal="1989-05-03/1989-05-04">
+         May 3 to May 4, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-04" unitdatetype="inclusive">
+        May 3 to May 4, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        6 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH007
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10054">
+        Photos of Mary Milne,
+                                her panels, and views of Ithaca, NY,
+        <date localtype="inclusive" normal="1989-05-03/1989-05-04">
+         May 3 to May 4, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-04" unitdatetype="inclusive">
+        May 3 to May 4, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH008
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10055">
+        Photos of a Ribbon panel
+                                by Mary Milne and a view of Ithaca Commons in Ithaca, NY,
+        <date localtype="inclusive" normal="1989-05-03/1989-05-04">
+         May 3 to
+                                    May 4, 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-04" unitdatetype="inclusive">
+        May 3 to May 4, 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH009
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10056">
+        Additional photos of
+                                Ribbon panels by Mary Milne and 1985 calendar
+        <title>
+         <part>
+          Can't Kill the Spirit
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1994-08">
+         developed
+                                    August 1994
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1994-08" unitdatetype="inclusive">
+        developed August 1994
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Linda Pershing
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10057">
+       Video program featuring Mary
+                            Milne
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV004
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10058">
+        <title>
+         <part>
+          Fabricollage
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1987">
+         1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987" unitdatetype="inclusive">
+        1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Produced by Mary Milne
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Third recording on MV004. See also
+        <ref target="ead10038">
+         first
+        </ref>
+        and
+        <ref target="ead10184">
+         second
+        </ref>
+        recordings.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10059">
+      Series 3: Other Ribbon project
+                        participants,
+      <date localtype="inclusive" normal="1984/1989">
+       1984-1989
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1984/1989" unitdatetype="inclusive">
+      1984-1989
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Taped interviews, photographs of events, photographs of Ribbon panels,
+                        original textile Ribbon panels, documentary videos, study data about the
+                        Ribbon project, and photo submissions to a book publisher. This series
+                        combines audiotapes recorded by Linda Pershing with photographs, video
+                        recordings, study data, and book submissions that she collected from other
+                        sources. The materials in this series are referenced throughout Linda
+                        Pershing's book,
+      <title>
+       <part>
+        The Ribbon around the Pentagon: Peace by Piecemakers
+       </part>
+      </title>
+      (1996). Most materials about Justine Merritt and Mary Milne have
+                        been removed to separate series above for ease of use, except for the
+                        Subseries "Ribbon events" which depicts all participants including Merritt
+                        and Milne.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10060">
+       Ribbon project
+                            interviews
+      </unittitle>
+     </did>
+     <c03 level="recordgrp">
+      <did>
+       <unittitle encodinganalog="245$a" id="ead10061">
+        California
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR030
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10062">
+         Sherry Lowe and
+                                    Betty Mihalaros interview, Oakland, CA (1 of 2),
+         <date localtype="inclusive" normal="1988-06-04">
+          June 4,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-04" unitdatetype="inclusive">
+         June 4, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR031
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10063">
+         Sherry Lowe and
+                                    Betty Mihalaros interview, Oakland, CA (2 of 2),
+         <date localtype="inclusive" normal="1988-06-04">
+          June 4,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-04" unitdatetype="inclusive">
+         June 4, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR032
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10064">
+         Alexandra Genetti
+                                    interview, Portola Valley, CA (1 of 2),
+         <date localtype="inclusive" normal="1988-06-05">
+          June 5,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-05" unitdatetype="inclusive">
+         June 5, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR033
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10065">
+         Alexandra Genetti
+                                    interview, Portola Valley, CA (2 of 2),
+         <date localtype="inclusive" normal="1988-06-05/1988-06-06">
+          June 5
+                                        to 6, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-05/1988-06-06" unitdatetype="inclusive">
+         June 5 to 6, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR034
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10066">
+         Ed and Miriam Cone
+                                    interview, Castro Valley, CA,
+         <date localtype="inclusive" normal="1988-06-06">
+          June 6, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-06" unitdatetype="inclusive">
+         June 6, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR035
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10067">
+         Kjerstin Walker
+                                    interview, Berkeley, CA (1 of 2),
+         <date localtype="inclusive" normal="1988-06-07">
+          June 7, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-07" unitdatetype="inclusive">
+         June 7, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR035. See also
+         <ref target="ead10069">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR036
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10068">
+         Kjerstin Walker
+                                    interview, Berkeley, CA (2 of 2),
+         <date localtype="inclusive" normal="1988-06-07">
+          June 7, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-07" unitdatetype="inclusive">
+         June 7, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         First recording on Side A of SR036.
+                                    See also the
+         <ref target="ead10070">
+          second recording on Side A,
+                                        plus all of Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR035
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10069">
+         Miriam Weber
+                                    interview, San Francisco, CA,
+         <date localtype="inclusive" normal="1988-06-07">
+          June 7, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-07" unitdatetype="inclusive">
+         June 7, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side A of SR035. See also
+         <ref target="ead10067">
+          Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR036
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10070">
+         Audrey Keller
+                                    interview, Palo Alto, CA,
+         <date localtype="inclusive" normal="1988-06-08">
+          June 8, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-08" unitdatetype="inclusive">
+         June 8, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Second recording on Side A, plus all
+                                    of Side B, on SR036. See also the
+         <ref target="ead10068">
+          first
+                                        recording on Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR037
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10071">
+         Ruth Anne "Ra" Black
+                                    interview, Mountain View, CA,
+         <date localtype="inclusive" normal="1988-06-07">
+          June 7, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-07" unitdatetype="inclusive">
+         June 7, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR038
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10072">
+         Madeline Mason
+                                    interview, Oakland, CA,
+         <date localtype="inclusive" normal="1988-06-08">
+          June 8, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-08" unitdatetype="inclusive">
+         June 8, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR039
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10073">
+         Bill Thompson
+                                    interview, Redwood City, CA (1 of 2),
+         <date localtype="inclusive" normal="1988-06-08">
+          June 8,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-08" unitdatetype="inclusive">
+         June 8, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR040
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10074">
+         Bill Thompson
+                                    interview, Redwood City, CA (2 of 2),
+         <date localtype="inclusive" normal="1988-06-08">
+          June 8,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-08" unitdatetype="inclusive">
+         June 8, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side A of SR040. See also
+         <ref target="ead10075">
+          Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR040
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10075">
+         Jo Imlay interview,
+                                    San Francisco, CA (1 of 2),
+         <date localtype="inclusive" normal="1988-06-09">
+          June 9, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-09" unitdatetype="inclusive">
+         June 9, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR040. See also
+         <ref target="ead10074">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR041
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10076">
+         Jo Imlay interview,
+                                    San Francisco, CA (2 of 2),
+         <date localtype="inclusive" normal="1988-06-09">
+          June 9, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-09" unitdatetype="inclusive">
+         June 9, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR042
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10077">
+         Jo Ann Yates
+                                    interview, San Francisco, CA,
+         <date localtype="inclusive" normal="1988-06-09">
+          June 9, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-09" unitdatetype="inclusive">
+         June 9, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR043
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10078">
+         Eileen Drath
+                                    interview, Portola Valley, CA,
+         <date localtype="inclusive" normal="1988-06-10">
+          June 10, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-10" unitdatetype="inclusive">
+         June 10, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR044
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10079">
+         June Thompson
+                                    interview, Redwood City, CA,
+         <date localtype="inclusive" normal="1988-06-12">
+          June 12, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-06-12" unitdatetype="inclusive">
+         June 12, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="recordgrp">
+      <did>
+       <unittitle encodinganalog="245$a" id="ead10080">
+        Colorado
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR045
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10081">
+         Mary Jo Peterson
+                                    interview, Denver, CO (1 of 2),
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR046
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10082">
+         Mary Jo Peterson
+                                    interview, Denver, CO (2 of 2),
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side A of SR046. See also
+         <ref target="ead10083">
+          Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR046
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10083">
+         Ramona Elizalde
+                                    interview, Denver, CO (1 of 2),
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR046. See also
+         <ref target="ead10082">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR047
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10084">
+         Ramona Elizalde
+                                    interview, Denver, CO (2 of 2),
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR048
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10085">
+         Alice Coleman
+                                    interview, Denver, CO,
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR049
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10086">
+         Lucile Merritt
+                                    interview, Denver, CO,
+         <date localtype="inclusive" normal="1986-03-22">
+          March 22, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-22" unitdatetype="inclusive">
+         March 22, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side A of SR049. See also
+         <ref target="ead10089">
+          Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR050
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10087">
+         Mary Frances Jaster
+                                    interview, Denver, CO (1 of 2),
+         <date localtype="inclusive" normal="1986-03-24">
+          March 24, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-24" unitdatetype="inclusive">
+         March 24, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR051
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10088">
+         Mary Frances Jaster
+                                    interview, Denver, CO (2 of 2),
+         <date localtype="inclusive" normal="1986-03-24">
+          March 24, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-24" unitdatetype="inclusive">
+         March 24, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR049
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10089">
+         Pat Hutchinson
+                                    interview, Denver, CO (1 of 2),
+         <date localtype="inclusive" normal="1986-03-25">
+          March 25, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-25" unitdatetype="inclusive">
+         March 25, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR049. See also
+         <ref target="ead10086">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR052
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10090">
+         Pat Hutchinson
+                                    interview, Denver, CO (2 of 2),
+         <date localtype="inclusive" normal="1986-03-25">
+          March 25, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-25" unitdatetype="inclusive">
+         March 25, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR053
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10091">
+         Jean Cronin
+                                    interview, Denver, CO (1 of 2),
+         <date localtype="inclusive" normal="1986-03-21">
+          March 21, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-21" unitdatetype="inclusive">
+         March 21, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR023
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10092">
+         Jean Cronin
+                                    interview, Denver, CO (2 of 2),
+         <date localtype="inclusive" normal="1986-03-21">
+          March 21, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-03-21" unitdatetype="inclusive">
+         March 21, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR023. See also
+         <ref target="ead10011">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: PH010
+        </unitid>
+        <container localtype="box">
+         2
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10093">
+         Photos of Trish
+                                    Jacket, Jackie Gallero, Elizabeth and Bernie Mantey, Liva
+                                    Pacheco, Debbie Wilmer, and Adela Quintana, and views of
+                                    Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-11/1988-11-15">
+          November 11 to 15,
+                                        1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-11/1988-11-15" unitdatetype="inclusive">
+         November 11 to 15,
+                                    1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         23 color transparencies (35mm
+                                    slides)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR054
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10094">
+         Trish Jacket
+                                    interview, Ignacio, CO (1 of 2),
+         <date localtype="inclusive" normal="1988-11-11">
+          November 11, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-11" unitdatetype="inclusive">
+         November 11, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR055
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10095">
+         Trish Jacket
+                                    interview, Ignacio, CO (2 of 2),
+         <date localtype="inclusive" normal="1988-11-11">
+          November 11, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-11" unitdatetype="inclusive">
+         November 11, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR056
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10096">
+         Jackie Gallero
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-11">
+          November 11, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-11" unitdatetype="inclusive">
+         November 11, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR057
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10097">
+         Bernie Mantey
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-11">
+          November 11, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-11" unitdatetype="inclusive">
+         November 11, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR058
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10098">
+         Elizabeth Mantey
+                                    interview, Ignacio, CO (1 of 2),
+         <date localtype="inclusive" normal="1988-11-12">
+          November 12, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-12" unitdatetype="inclusive">
+         November 12, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR059
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10099">
+         Elizabeth Mantey
+                                    interview, Ignacio, CO (2 of 2),
+         <date localtype="inclusive" normal="1988-11-12">
+          November 12, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-12" unitdatetype="inclusive">
+         November 12, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR060
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10100">
+         Vera Sage interview,
+                                    Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-13">
+          November 13, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-13" unitdatetype="inclusive">
+         November 13, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR061
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10101">
+         Liva Pacheco
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-13">
+          November 13, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-13" unitdatetype="inclusive">
+         November 13, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR062
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10102">
+         Maria Valdez
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-14">
+          November 14, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-14" unitdatetype="inclusive">
+         November 14, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR063
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10103">
+         Adela Quintana
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-14">
+          November 14, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-14" unitdatetype="inclusive">
+         November 14, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR064
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10104">
+         Debbie Wilmer
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-14">
+          November 14, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-14" unitdatetype="inclusive">
+         November 14, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR065
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10105">
+         Beverly Lyons
+                                    interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-11-15">
+          November 15, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-11-15" unitdatetype="inclusive">
+         November 15, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR066
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10106">
+         Lillian Valencia
+                                    phone interview, Ignacio, CO,
+         <date localtype="inclusive" normal="1988-12-04">
+          December 4, 1988
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1988-12-04" unitdatetype="inclusive">
+         December 4, 1988
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="recordgrp">
+      <did>
+       <unittitle encodinganalog="245$a" id="ead10107">
+        District of
+                                Columbia
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR067
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10108">
+         Marie Grosso
+                                    interview, Washington, D.C.,
+         <date localtype="inclusive" normal="1986-05-20">
+          May 20, 1986
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1986-05-20" unitdatetype="inclusive">
+         May 20, 1986
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="recordgrp">
+      <did>
+       <unittitle encodinganalog="245$a" id="ead10109">
+        New York
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: PH012
+        </unitid>
+        <container localtype="box">
+         2
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10110">
+         Photos of Erica
+                                    Kimball Weiss and another Ribbon panel maker, with panels, in
+                                    Ithaca, NY,
+         <date localtype="inclusive" normal="1989-05-03/1989-05-06">
+          May 3 to 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-06" unitdatetype="inclusive">
+         May 3 to 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         21 color transparencies (35mm
+                                    slides)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR068
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10111">
+         Ruth Kahn interview,
+                                    Ithaca, NY (1 of 2),
+         <date localtype="inclusive" normal="1989-05-03">
+          May 3, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+         May 3, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR069
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10112">
+         Ruth Kahn interview,
+                                    Ithaca, NY (2 of 2),
+         <date localtype="inclusive" normal="1989-05-03">
+          May 3, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+         May 3, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         First recording on Side A of SR069.
+                                    See also the
+         <ref target="ead10113">
+          second recording on Side A,
+                                        plus all of Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR069
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10113">
+         David Kay interview,
+                                    Ithaca, NY,
+         <date localtype="inclusive" normal="1989-05-03">
+          May
+                                        3, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03" unitdatetype="inclusive">
+         May 3, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Second recording on Side A, plus all
+                                    of Side B, on SR069. See also the
+         <ref target="ead10112">
+          first
+                                        recording on Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <container localtype="box-folder">
+         1/5
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10114">
+         Photos of Erica
+                                    Kimball Weiss, Ribbon panels, and a view of Ithaca Commons in
+                                    Ithaca, NY,
+         <date localtype="inclusive" normal="1989-05-03/1989-05-06">
+          May 3 to 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-06" unitdatetype="inclusive">
+         May 3 to 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         4 color photographic prints (3 1/2 x
+                                    5 in.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: PH011
+        </unitid>
+        <container localtype="box">
+         2
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10115">
+         Photos of Erica
+                                    Kimball Weiss and another Ribbon panel maker, with panels, in
+                                    Ithaca, NY,
+         <date localtype="inclusive" normal="1989-05-03/1989-05-06">
+          May 3 to 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-03/1989-05-06" unitdatetype="inclusive">
+         May 3 to 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         15 color transparencies (35mm
+                                    slides)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR029
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10116">
+         Erica Kimball Weiss
+                                    interview, Ithaca, NY (1 of 2),
+         <date localtype="inclusive" normal="1989-05-06">
+          May 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-06" unitdatetype="inclusive">
+         May 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR029. See also
+         <ref target="ead10048">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR070
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10117">
+         Erica Kimball Weiss
+                                    interview, Ithaca, NY (2 of 2),
+         <date localtype="inclusive" normal="1989-05-06">
+          May 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-06" unitdatetype="inclusive">
+         May 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side A of SR070. See also
+         <ref target="ead10118">
+          Side B
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR070
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10118">
+         Lois Lounsbery
+                                    interview, Ithaca, NY (1 of 2),
+         <date localtype="inclusive" normal="1989-05-06">
+          May 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-06" unitdatetype="inclusive">
+         May 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+        <didnote encodinganalog="500">
+         Side B of SR070. See also
+         <ref target="ead10117">
+          Side A
+         </ref>
+         .
+        </didnote>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR071
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10119">
+         Lois Lounsbery
+                                    interview, Ithaca, NY (2 of 2),
+         <date localtype="inclusive" normal="1989-05-06">
+          May 6, 1989
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1989-05-06" unitdatetype="inclusive">
+         May 6, 1989
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+     </c03>
+     <c03 level="recordgrp">
+      <did>
+       <unittitle encodinganalog="245$a" id="ead10120">
+        Texas
+       </unittitle>
+      </did>
+      <c04 level="file">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: PH013
+        </unitid>
+        <container localtype="box">
+         2
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10121">
+         Photos of Ariadne
+                                    "Ari" Wright with her panels,
+         <date localtype="inclusive" normal="1985-11">
+          developed November 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-11" unitdatetype="inclusive">
+         developed November 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         5 color transparencies (35mm
+                                    slides)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR072
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10122">
+         Ariadne "Ari" Wright
+                                    interview, Austin, TX,
+         <date localtype="inclusive" normal="1985-11-29">
+          November 29, 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-11-29" unitdatetype="inclusive">
+         November 29, 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR073
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10123">
+         Anne Long interview,
+                                    Austin, TX (1 of 2),
+         <date localtype="inclusive" normal="1985-12-04">
+          December 4, 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-12-04" unitdatetype="inclusive">
+         December 4, 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR074
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10124">
+         Anne Long interview,
+                                    Austin, TX (2 of 2),
+         <date localtype="inclusive" normal="1985-12-04">
+          December 4, 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-12-04" unitdatetype="inclusive">
+         December 4, 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="file">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: PH014
+        </unitid>
+        <container localtype="box">
+         2
+        </container>
+        <unittitle encodinganalog="245$a" id="ead10125">
+         Photos of Mary Beard
+                                    with her panels,
+         <date localtype="inclusive" normal="1985-12">
+          developed December 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-12" unitdatetype="inclusive">
+         developed December 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         12 color transparencies (35mm
+                                    slides)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Photographs attributed to Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR075
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10126">
+         Mary Beard
+                                    interview, Austin, TX (1 of 2),
+         <date localtype="inclusive" normal="1985-12-06">
+          December 6, 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-12-06" unitdatetype="inclusive">
+         December 6, 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR076
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10127">
+         Mary Beard
+                                    interview, Austin, TX (2 of 2),
+         <date localtype="inclusive" normal="1985-12-06">
+          December 6, 1985
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1985-12-06" unitdatetype="inclusive">
+         December 6, 1985
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR079
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10128">
+         June and Bill
+                                    Thompson interview, Linda Pershing's house, Austin, TX (1 of 4),
+         <date localtype="inclusive" normal="1987-03-24/1987-03-25">
+          March 24 to 25, 1987
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1987-03-24/1987-03-25" unitdatetype="inclusive">
+         March 24 to 25, 1987
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR078
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10129">
+         June and Bill
+                                    Thompson interview, Linda Pershing's house, Austin, TX (2 of 4),
+         <date localtype="inclusive" normal="1987-03-24/1987-03-25">
+          March 24 to 25, 1987
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1987-03-24/1987-03-25" unitdatetype="inclusive">
+         March 24 to 25, 1987
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR080
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10130">
+         June and Bill
+                                    Thompson interview, Linda Pershing's house, Austin, TX (3 of 4),
+         <date localtype="inclusive" normal="1987-03-24/1987-03-25">
+          March 24 to 25, 1987
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1987-03-24/1987-03-25" unitdatetype="inclusive">
+         March 24 to 25, 1987
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 microcassette (60 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+      <c04 level="item">
+       <did>
+        <unitid label="Item-ID">
+         AFC 2018/007: SR077
+        </unitid>
+        <unittitle encodinganalog="245$a" id="ead10131">
+         June and Bill
+                                    Thompson interview, Linda Pershing's house, Austin, TX (4 of 4),
+         <date localtype="inclusive" normal="1987-03-24/1987-03-25">
+          March 24 to 25, 1987
+         </date>
+        </unittitle>
+        <unitdate encodinganalog="245$f" normal="1987-03-24/1987-03-25" unitdatetype="inclusive">
+         March 24 to 25, 1987
+        </unitdate>
+        <physdesc encodinganalog="300">
+         1 audiocassette (90 min.)
+        </physdesc>
+        <origination>
+         <name>
+          <part>
+           Recorded by Linda Pershing
+          </part>
+         </name>
+        </origination>
+       </did>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10132">
+       Ribbon panels
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR002
+       </unitid>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10133">
+        Ribbon panel, "Organdy
+                                apron,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before
+                                    August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 1/4 x 35 1/4 in.;
+                                appliqué)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Lucile Miller
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Lucile (spelled with one 'L') Miller,
+                                Justine Merritt's mother, organdy apron panel, applique, Denver, CO.
+                                Lucile said in an interview with Linda Pershing that the apron
+                                represented the many years she was a homemaker and mother, roles
+                                that she valued. See pp. 198-9 in Pershing's book."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR003
+       </unitid>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10134">
+        Ribbon panel, "Madre de
+                                los Oprimidos,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 x 45 in.; embroidery and
+                                appliqué)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Sister Maria Louisa Valdez
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Sister Maria Louisa Valdez, OLVM,
+                                Mora, NM. Madre de los Oprimidos, Ayúdanos a Alcanzar le Libertad
+                                Perdida (Mother of the Oppressed, Help Us Restore or Reclaim Lost
+                                Liberty), embroidered and applique. The Mexican legend of the Our
+                                Lady of Guadalupe appearing to Juan Diego. See p. 128 in Pershing's
+                                book."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR004
+       </unitid>
+       <container localtype="box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10135">
+        Ribbon panel, "My Dog,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before August
+                                    1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 3/4 x 34 1/2 in.;
+                                paint)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Unknown
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "My Dog. Presumably painted by a child.
+                                No name or place or date. (Is the dog in the blue hillside or
+                                water?)."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR005
+       </unitid>
+       <container localtype="box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10136">
+        Ribbon panel, "Dancing
+                                lobsters,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before
+                                    August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (17 1/4 x 37 1/2 in.;
+                                knitted)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Penelope Day
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Penelope Day, Nantucket, MA. Dancing
+                                lobsters, knitted or woven. Inscription on the back: 'I live in a
+                                beautiful parts of the country, on the island of Nantucket, thirty
+                                miles out at sea. I felt that my piece should be representative of
+                                something native to Nantucket and the natural beauty and special
+                                conditions that exist here as they don't anywhere else on Earth. I
+                                wanted to do something for children, something fun. They are our
+                                future and it is too terrible to live without hope for tomorrow.
+                                --Penelope Day.' See pp. 126-7 of Pershing's book."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR006
+       </unitid>
+       <container localtype="box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10137">
+        Ribbon panel, "Hot air
+                                balloons and flowers,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 x 40 3/4 in.;
+                                needlework)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Sister Madeleine J. Perkins
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Sister Madeleine J. Perkins, RSM,
+                                Chicago, IL. Hot air balloons and flowers. Inscription on the back:
+                                'Hot air balloons - excitement, fun, color, freedom; Flowers -
+                                nature, beauty, creation, sweet scents; People to enjoy it all!; O
+                                God, help us to work for world peace!!'"
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR007
+       </unitid>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10138">
+        Ribbon panel, "Peace
+                                Sign and Spirit Mask,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 3/4 x 35 3/4 in.;
+                                appliqué)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Fred Janvrin
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Fred Janvrin ... Anchorage, Alaska.
+                                Peace Sign and Spirit Mask. Inscription on the back: ... A peace
+                                sign trying to be a Spirit Mask. This piece reflects my fondness for
+                                Alaskan Native art and spirit masks in particular with their
+                                feathers blowing in the wind. Also marked: 'P.M. 2 of 21,' and 'NRC
+                                44.'"
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR008
+       </unitid>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10139">
+        Ribbon panel, "Weaving
+                                is Peaceful,"
+        <date localtype="inclusive" normal="1985-08-04">
+         before
+                                    August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        before August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 1/2 x 38 in.; woven
+                                sampler)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Kerstin Tribby
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Kerstin Tribby, Ithaca, NY. Weaving is
+                                Peaceful, woven sampler."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: AR009
+       </unitid>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10140">
+        Ribbon panel,
+                                "Constellations,"
+        <date localtype="inclusive" normal="1985-03-08">
+         March 8, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-03-08" unitdatetype="inclusive">
+        March 8, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 textile (18 1/4 x 36 3/4 in.;
+                                embroidery, appliqué, and quilting)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Made by Jane Van De Bogart
+         </part>
+        </name>
+       </origination>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "Jane Van De Bogart, 3-8-85, Woodstock,
+                                NY. Constellations. Embroidered, applique, and quilted. Written on
+                                the back: 'The night sky has been an endless source of wonder...of
+                                worlds beyond me...of something to aspire higher for...of
+                                fascination.' Also written on the back: 'Jane Van De Bogart April
+                                1985.'"
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH015
+       </unitid>
+       <container localtype="box">
+        7
+       </container>
+       <container localtype="box-folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10141">
+        Photos of Ribbon panels
+                                by Ariadne "Ari" Wright, Phyllis Ochs, and other Ribbon makers,
+        <date localtype="inclusive" normal="1984/1989">
+         circa 1984 to
+                                    1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984/1989" unitdatetype="inclusive">
+        circa 1984 to 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        42 color negatives (35mm)
+       </physdesc>
+       <physdesc encodinganalog="300">
+        21 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10143">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1985-05">
+         developed May
+                                    1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-05" unitdatetype="inclusive">
+        developed May 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH016
+       </unitid>
+       <container localtype="box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10144">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1986-03">
+         developed March
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-03" unitdatetype="inclusive">
+        developed March 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        120 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH017
+       </unitid>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10145">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1986-04">
+         developed April
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04" unitdatetype="inclusive">
+        developed April 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        65 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH018
+       </unitid>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10146">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1986-05">
+         developed May
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-05" unitdatetype="inclusive">
+        developed May 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        15 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH019
+       </unitid>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10147">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1984-06">
+         circa June
+                                    1984
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984-06" unitdatetype="inclusive">
+        circa June 1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        23 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by June Thompson
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH020
+       </unitid>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10148">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1987-04">
+         developed April
+                                    1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04" unitdatetype="inclusive">
+        developed April 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        31 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographs attributed to June Thompson
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH021
+       </unitid>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10149">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1988-02">
+         developed February
+                                    1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-02" unitdatetype="inclusive">
+        developed February 1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        159 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH022
+       </unitid>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10150">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1988-03">
+         developed March
+                                    1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-03" unitdatetype="inclusive">
+        developed March 1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        30 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH023
+       </unitid>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10151">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1989-04">
+         developed April
+                                    1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-04" unitdatetype="inclusive">
+        developed April 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        37 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH024
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10152">
+        Photos of Ribbon panels,
+        <date localtype="inclusive" normal="1989-07">
+         developed July
+                                    1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-07" unitdatetype="inclusive">
+        developed July 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        9 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH025
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10153">
+        Photos of Ribbon panels,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH026
+       </unitid>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10154">
+        Photos of Ribbon panels
+                                (partial frames),
+        <date localtype="inclusive" normal="1986-04/1988-02">
+         developed between April 1986 and
+                                    February 1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-04/1988-02" unitdatetype="inclusive">
+        developed between April 1986 and February
+                                1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        12 color negatives (35mm)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10155">
+       Ribbon events
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographs depicting the original "Ribbon around the Pentagon" ceremony
+                            in Washington, D.C., as well as the other events leading up to and
+                            following the ceremony between 1984 and 1989. Listed
+                            chronologically.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10156">
+        Photos of Justine
+                                Merritt, Lucile Merritt, Mary Frances Jaster, Mary Jo Peterson, and
+                                other Ribbon panel makers at an unidentified event,
+        <date localtype="inclusive" normal="1984/1989">
+         circa 1984 to
+                                    1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984/1989" unitdatetype="inclusive">
+        circa 1984 to 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 black-and-white photographic prints (4
+                                x 5 in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH027
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10157">
+        Photo of David Kay and
+                                other Ribbon panel makers working on panels at Ithaca Commons in
+                                Ithaca, NY,
+        <date localtype="inclusive" normal="1984-06">
+         June
+                                    1984
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984-06" unitdatetype="inclusive">
+        June 1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographs attributed to Mary Milne
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH028
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10158">
+        Photo of a Ribbon
+                                ceremony in New York, NY,
+        <date localtype="inclusive" normal="1985-05">
+         May 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-05" unitdatetype="inclusive">
+        May 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH029
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10159">
+        Photos of an
+                                unidentified Ribbon event,
+        <date localtype="inclusive" normal="1985-06">
+         circa June 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-06" unitdatetype="inclusive">
+        circa June 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH030
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10160">
+        Photo of an unidentified
+                                Ribbon event,
+        <date localtype="inclusive" normal="1985-06">
+         June
+                                    1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-06" unitdatetype="inclusive">
+        June 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10161">
+        Photos of Justine
+                                Merritt at the "Ribbon around the Pentagon" ceremony in Washington,
+                                D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4,
+                                    1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Judy Holzer and Carol Karnitsky
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH031
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10162">
+        Photos of Justine
+                                Merritt at the "Ribbon around the Pentagon" ceremony in Washington,
+                                D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4,
+                                    1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10163">
+        Photo of David Kay
+                                displaying a panel by Mary Milne at the "Ribbon around the Pentagon"
+                                ceremony in Washington, D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color photographic print (3 1/2 x 5
+                                in.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Mary Milne
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH032
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10164">
+        Photo of David Kay and
+                                other Ribbon panel makers at the "Ribbon around the Pentagon"
+                                ceremony in Washington, D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Mary Milne
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH033
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10165">
+        Photos of the "Ribbon
+                                around the Pentagon" ceremony in Washington, D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        25 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10166">
+        Photos of the "Ribbon
+                                around the Pentagon" ceremony in Washington, D.C.,
+        <date localtype="inclusive" normal="1985-08-04">
+         August 4, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08-04" unitdatetype="inclusive">
+        August 4, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 color photographic prints (3 1/2 x 5
+                                in.)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH034
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10167">
+        Photo of Ribbon panels
+                                displayed at Ithaca Commons in Ithaca, NY,
+        <date localtype="inclusive" normal="1985-08">
+         August 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08" unitdatetype="inclusive">
+        August 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH035
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10168">
+        Photos of Justine
+                                Merritt, Mary Frances Jaster, and other Ribbon panel maker at
+                                unidentified event,
+        <date localtype="inclusive" normal="1986-05">
+         developed May 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-05" unitdatetype="inclusive">
+        developed May 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH036
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10169">
+        Photos of a Hands Across
+                                America march,
+        <date localtype="inclusive" normal="1986-05">
+         developed May 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-05" unitdatetype="inclusive">
+        developed May 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH037
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10170">
+        Photos of Ribbon panels
+                                exhibited at the Textile Museum in Washington, D.C.,
+        <date localtype="inclusive" normal="1986-06">
+         June 1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-06" unitdatetype="inclusive">
+        June 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        101 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Linda Pershing's description: "In 1986 artists Joan Monastero and
+                                Anita Wetzel curated an impressive exhibit of one hundred Ribbon
+                                panels at the Textile Museum in Washington, D.C. These slides are
+                                photos of that exhibition."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH038
+       </unitid>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10171">
+        Photos of Ribbon panels
+                                exhibited at the Textile Museum in Washington, D.C. (partial
+                                frames),
+        <date localtype="inclusive" normal="1986-06">
+         June
+                                    1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986-06" unitdatetype="inclusive">
+        June 1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 color negatives (35mm)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH039
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10172">
+        Photos of Ribbon panels
+                                on display around McElroy Fountain in Oakland, CA,
+        <date localtype="inclusive" normal="1987-04">
+         developed April
+                                    1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04" unitdatetype="inclusive">
+        developed April 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH040
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10173">
+        Photos of Ribbon panels
+                                on display around McElroy Fountain in Oakland, CA,
+        <date localtype="inclusive" normal="1987-04">
+         developed April
+                                    1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04" unitdatetype="inclusive">
+        developed April 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographs attributed to June Thompson
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH041
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10174">
+        Photos of Ribbon panels
+                                exhibited in the Blagg-Huey Library atrium at Texas Woman's
+                                University in Denton, TX,
+        <date localtype="inclusive" normal="1987-04-26/1987-04-27">
+         April 26 to 27, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-04-26/1987-04-27" unitdatetype="inclusive">
+        April 26 to 27, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        22 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH042
+       </unitid>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10175">
+        Photos of the Peace Fair
+                                in Austin, TX,
+        <date localtype="inclusive" normal="1987-05">
+         May
+                                    1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-05" unitdatetype="inclusive">
+        May 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        18 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH043
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10176">
+        Photos of Ribbon panels
+                                exhibited at the 9th National Conference of the National Women's
+                                Studies Association, "Weaving Women's Colors: A Decade of
+                                Empowerment," at Spelman College in Atlanta, GA,
+        <date localtype="inclusive" normal="1987-06-24/1987-06-28">
+         June 24 to
+                                    28, 1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-06-24/1987-06-28" unitdatetype="inclusive">
+        June 24 to 28, 1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        25 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH044
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10177">
+        Photos of the Betty
+                                Mihalaros award ceremony in honor of Justine Merritt in San
+                                Francisco, CA,
+        <date localtype="inclusive" normal="1988-06-04/1988-06-05">
+         June 4 to 5, 1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-06-04/1988-06-05" unitdatetype="inclusive">
+        June 4 to 5, 1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        33 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Mary Milne
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH045
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10178">
+        Photos of the Betty
+                                Mihalaros award ceremony in honor of Justine Merritt in San
+                                Francisco, CA,
+        <date localtype="inclusive" normal="1988-06-04/1988-06-05">
+         June 4 to 5, 1988
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1988-06-04/1988-06-05" unitdatetype="inclusive">
+        June 4 to 5, 1988
+       </unitdate>
+       <physdesc encodinganalog="300">
+        18 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH046
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10179">
+        Photo of a small
+                                gathering with Justine Merritt in Ithaca, NY,
+        <date localtype="inclusive" normal="1989-07">
+         developed July
+                                    1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1989-07" unitdatetype="inclusive">
+        developed July 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10180">
+       Video programs featuring the
+                            "Ribbon around the Pentagon" ceremony
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV001
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10181">
+        <title>
+         <part>
+          Ribbon 'Round the Pentagon
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1984">
+         1984
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+        1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Produced by Barb Britain
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        First recording on MV001. See also
+        <ref target="ead10182">
+         second
+        </ref>
+        recording.
+       </didnote>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV001
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10182">
+        <title>
+         <part>
+          The Peace Ribbon
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1986">
+         1986
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1986" unitdatetype="inclusive">
+        1986
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Produced by David Sabbath
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Second recording on MV001. See also
+        <ref target="ead10181">
+         first
+        </ref>
+        recording.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10183">
+       Video program featuring
+                            other quilting activism projects
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: MV004
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10184">
+        <title>
+         <part>
+          A Stitch for Time: The Boise Peace Quilt Project
+         </part>
+        </title>
+        ,
+        <date localtype="inclusive" normal="1987">
+         1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987" unitdatetype="inclusive">
+        1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 videocassette (120 min.)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Produced by Nigel Noble
+         </part>
+        </name>
+       </origination>
+       <didnote encodinganalog="500">
+        Second recording on MV004. See also
+        <ref target="ead10038">
+         first
+        </ref>
+        and
+        <ref target="ead10058">
+         third
+        </ref>
+        recordings.
+       </didnote>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10185">
+       Copies of study data
+                            collected by Gabriella Miller and Carol Cockrell,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 folders
+      </physdesc>
+      <origination>
+       <name>
+        <part>
+         Designed by Gabriella Miller and Carol Cockrell
+        </part>
+       </name>
+      </origination>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Each folder contains the compiled responses to one question from a
+                            questionnaire created by Texas Woman's University researchers Gabriella
+                            Miller and Carol Cockrell. The researchers had the questionnaire printed
+                            in a 1985 issue of
+       <title>
+        <part>
+         Ribbon Newsletter
+        </part>
+       </title>
+       , and participants joined the study by returning their responses
+                            in the mail. Participants are anonymized as numbers 1-805.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10186">
+        Question 1
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/13
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10187">
+        Question 9
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/14
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10188">
+        Question 10
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10189">
+        Question 12
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10190">
+        Question 13
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/17
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10191">
+        Question 14
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/18
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10192">
+        Question 17
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10193">
+       Statements and photos
+                            submitted to Lark Books
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A selection of 35mm slides and submission forms sent to the publisher
+                            Lark Books by Ribbon panel makers, for inclusion in the book
+       <title>
+        <part>
+         The Ribbon: A Celebration of Life
+        </part>
+       </title>
+       (1985).
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/19
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10194">
+        Forms submitted to Lark
+                                Books,
+        <date localtype="inclusive" normal="1985-01/1985-05-17">
+         circa
+                                    January to May 17, 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-01/1985-05-17" unitdatetype="inclusive">
+        circa January to May 17, 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 folder
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Written by Eileen R. Gavel, Martha Obenshain, Ethelyn G.
+                                        Ormondroyd, Nancy Perry, Jane J. Smith, and anonymous
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH047
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10195">
+        Photos of panels and
+                                events submitted to Lark books,
+        <date localtype="inclusive" normal="1984-05-08/1985-05">
+         May 8, 1984 to May 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984-05-08/1985-05" unitdatetype="inclusive">
+        May 8, 1984 to May 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        5 color transparencies (35mm
+                                slides)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographs attributed to Ethelyn G. Ormondroyd, Nancy
+                                        Perry, Jane J. Smith, and anonymous
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH048
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10196">
+        Photo of panels and
+                                events submitted to Lark books / Eileen R. Gavel,,
+        <date localtype="inclusive" normal="1985-05-05/1985-05-17">
+         developed
+                                    May 1985
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-05-05/1985-05-17" unitdatetype="inclusive">
+        developed May 1985
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 color transparency (35mm
+                                slide)
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          Photographed by Jim Provine
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10197">
+      Series 4: Research materials,
+      <date localtype="inclusive" normal="1985/1995">
+       1985-1995
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1985/1995" unitdatetype="inclusive">
+      1985-1995
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Original output from Linda Pershing's research. This series includes
+                        photographs originally collected from other sources but curated by Linda
+                        Pershing for her teaching lectures. Includes copies of Linda Pershing's
+                        scholarly publications on the Ribbon project. Also includes one cleaning
+                        microcassette.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10198">
+       Teaching
+                            materials
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH049
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10199">
+        "Excellent slides for
+                                presentations,"
+        <date localtype="inclusive" normal="1985-08/1989">
+         circa August 1985 to 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08/1989" unitdatetype="inclusive">
+        circa August 1985 to 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        12 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unitid label="Item-ID">
+        AFC 2018/007: PH050
+       </unitid>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10200">
+        "Ribbon slides for class
+                                talks,"
+        <date localtype="inclusive" normal="1985-08/1989">
+         circa
+                                    August 1985 to 1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1985-08/1989" unitdatetype="inclusive">
+        circa August 1985 to 1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        36 color transparencies (35mm
+                                slides)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10201">
+       Publications
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10202">
+        <title>
+         <part>
+          Feminist Theory and the Study of Folklore
+         </part>
+        </title>
+        , edited by Susan Tower Hollis, Linda Pershing, M. Jane
+                                Young,
+        <date localtype="inclusive" normal="1993">
+         1993
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1993" unitdatetype="inclusive">
+        1993
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 monograph, signed by Linda
+                                Pershing
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          © University of Illinois Press
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10203">
+        <title>
+         <part>
+          Sew to Speak: The Fabric Art of Mary Milne
+         </part>
+        </title>
+        , by Linda Pershing,
+        <date localtype="inclusive" normal="1995">
+         1995
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1995" unitdatetype="inclusive">
+        1995
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 monograph, signed by Linda
+                                Pershing
+       </physdesc>
+       <origination>
+        <name>
+         <part>
+          © University Press of Mississippi
+         </part>
+        </name>
+       </origination>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10204">
+       Miscellaneous research
+                            materials
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10205">
+        Cleaning
+                                microcassette
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 cleaning microcassette
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10206">
+      Series 5: Donation notes,
+      <date localtype="inclusive" normal="2018">
+       2018
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="2018" unitdatetype="inclusive">
+      2018
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Notes written by Linda Pershing at the time of the collection's donation to
+                        the American Folklife Center at the Library of Congress. The notes were
+                        interspersed with materials as labels. The information from the notes has
+                        been incorporated into this finding aid.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/20
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10207">
+       Linda Pershing's donation
+                            notes,
+       <date localtype="inclusive" normal="2018-05-14">
+        circa May 14,
+                                2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-14" unitdatetype="inclusive">
+       circa May 14, 2018
+      </unitdate>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <bibliography>
+   <head>
+    Bibliography
+   </head>
+   <p>
+    <emph render="bold">
+     Published works in this collection
+    </emph>
+   </p>
+   <bibref>
+    Merritt, Justine.
+    <title>
+     <part>
+      A Cup of Cool Water: Meditations on the Life of Christ.
+     </part>
+    </title>
+    Creative Core, n.d.
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/95012151" show="new">
+     Pershing,
+                    Linda.
+     <title>
+      <part>
+       Sew to Speak : The Fabric Art of Mary Milne.
+      </part>
+     </title>
+     Jackson : University Press of Mississippi, 1995.
+    </ref>
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/93018645" show="new">
+     Tower
+                    Hollis, Susan, Linda Pershing, and M. Jane Young (eds.).
+     <title>
+      <part>
+       Feminist Theory and the Study of Folklore.
+      </part>
+     </title>
+     Urbana : University of Illinois Press, 1993.
+    </ref>
+   </bibref>
+   <p>
+    <emph render="bold">
+     Other related publications
+    </emph>
+   </p>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/85080922" show="new">
+     Lark Books
+                    staff, Marianne Philbin (eds.).
+     <title>
+      <part>
+       The Ribbon : A Celebration of Life.
+      </part>
+     </title>
+     Asheville, N.C. : Lark Books, 1985.
+    </ref>
+   </bibref>
+   <bibref>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/95032486" show="new">
+     Pershing,
+                    Linda.
+     <title>
+      <part>
+       The Ribbon around the Pentagon : Peace by Piecemakers.
+      </part>
+     </title>
+     Knoxville : University of Tennessee Press, 1996.
+    </ref>
+   </bibref>
+  </bibliography>
+ </archdesc>
+</ead>

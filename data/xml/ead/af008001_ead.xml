@@ -1,0 +1,3749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-3" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af008001">
+   loc.afc/eadafc.af008001
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Sara L. M. Davis Collection on Tai Lüe
+               Culture
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2006/004
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton and Charlotte
+               Cushman
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2008-08">
+     August
+               2008
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2008700350" show="new">
+       https://lccn.loc.gov/2008700350
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2024-03">
+     March 2024
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Collection summary extents reformatted and item IDs updated by Farrah
+               Cundiff.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2009-08">
+     August 2009
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+               Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2008-10">
+     October 2008
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 2006/004
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Sara L. M. Davis Collection on Tai Lüe
+            Culture
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1997/2005">
+     1997-2005
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1997/2005" unitdatetype="inclusive">
+    1997-2005
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 1690
+            items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    approximately 400 pages (16
+            folders)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    982 photographic prints :
+            color, black and white ; 3 x 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    184 slides :
+            color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    70 sound cassettes :
+            analog ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    4 sound discs : digital ;
+            4 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    9 videocassettes (Hi-8) :
+            digital, sound, color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    2 videocassettes (MiniDV) :
+            digital, sound, color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 videocassette (VHS) :
+            sound, color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    7 video discs (VCD) : sound,
+            color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (objects)">
+    1 flute : bamboo, metal
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (objects)">
+    1 textile
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (objects)">
+    29 wax candles
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Davis, Sara L. M. (Sara Leila Margaret), 1967-
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="khb">
+     Lü
+    </language>
+    <language encodinganalog="041" langcode="zho">
+     Chinese
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in English, Lü, and Chinese languages.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of ethnographic field
+            recordings, photographs, and manuscripts documenting Tai Lüe religious rituals; oral
+            narrative traditions; popular songs; poetry; performances for tourists; interviews with
+            poets and singers; and some local audio and video recordings collected in Sipsongpanna
+            (Xishuangbanna), Yunnan Province, China, by anthropologist Sara L. M. Davis from 1997 to
+            2005 for her dissertation, published as Song and Silence: Ethnic Revival on China’s
+            Southwest Borders, Columbia University Press, 2005. The collection includes some
+            materials documenting Tai people and traditions in Burma.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    This ethnographic collection is based on the original field work that anthropologist
+            Sara L. M. Davis conducted in Sipsongpanna (Xishuangbanna in Chinese), Yunnan Province,
+            China, and in Kengtung, Shang State, Burma [Myanmar], between 1997 and 2003. The
+            multi-format materials in this collection document Tai Lüe religious rituals, epic oral
+            narratives, popular songs and performances for tourists, as well as interviews with oral
+            poets and popular singers. They consist of her field notes, audio and video recordings,
+            graphic images in the form of photographs and slides, and books published in Yunnan.
+            This research formed the basis of Davis’s book,
+    <title localtype="simple">
+     <part>
+      Song and Silence: Ethnic Revival on China's Southwest Borders
+     </part>
+    </title>
+    (Columbia University Press, 2005). Davis originally traveled to China's
+            southwest borders to conduct doctoral research on ethnic minority folklore, focusing
+            primarily on oral narrative poetry, known as Tai Lüe
+    <emph render="italic">
+     changkhap
+    </emph>
+    or skilled chants. (As used by Davis,
+    <emph render="italic">
+     changkhap
+    </emph>
+    may refer to the genre or to the performers or singers of
+    <emph render="italic">
+     changkhap
+    </emph>
+    .) She was based in the subtropical area of
+            Sipsongpanna in the southwestern region of China, bordering Burma and Laos. Davis lived
+            in Jinghong, the capital of this region, from 1997 to 1998 and made subsequent visits to
+            the area through 2003.
+   </p>
+   <p>
+    The political challenges of being in a border region of China were immediately evident,
+            and Davis found that many people were initially reluctant to speak openly with her.
+            Instead, she encountered government-sanctioned performances that were marketed primarily
+            to tourists and did not reflect the traditions she had come to document. Davis's field
+            notes offer considerable detail about her experiences staying in monasteries, attending
+            local festivals, and making connections with people in the area. Her search for oral
+            storytellers revealed a growing underground ethnic revival movement. The efforts of
+            young Tai Lüe monks and activists were helping to fuel a resurgence of Tai Lüe Buddhism
+            and an increasing interest in their language and cultural traditions.
+   </p>
+   <p>
+    The manuscript portion of the collection includes photocopies of Davis's field notes
+            from September 1997 through July 1998; photo, audio, and video logs; song texts in Tai
+            Lüe with some transcriptions into English; articles by Ai No; concert posters (1998); a
+            2001 calendar, and Davis's book,
+    <title localtype="simple">
+     <part>
+      Song and Silence: Ethnic Revival on China's Southwest Borders
+     </part>
+    </title>
+    (Columbia University Press, 2005). In addition, 47 volumes of publications
+            (1980-2004) were donated with the collection. There are a total of 1,166 graphic images,
+            including 981 3"x5" color photographs, 184 35-mm color slides, and 1 black-and-white
+            photograph, primarily of temples, festivals and ceremonies, and local scenery. Sara
+            Davis took 397 of the color photographs between 1997 and 2001. Wilson Wong took 583
+            photographs and all 184 of the slides, showing the seventeenth-century temple, Wat Pan
+            Gaew, and the eighth-century temple, Wat Gang, both of which are in Meng Lian. The
+            images are exterior and interior views of the temple, including murals, architectural
+            details, and the living quarters of the monks.
+   </p>
+   <p>
+    The sound recordings consist of 68 audiocassette tapes, 2 microcassettes, and 2 CDs.
+            They document Tai Lüe religious rituals, epic oral narratives, popular songs, local
+            festivals, and performances for tourists, as well as conference proceedings and
+            interviews with oral poets and popular singers. The majority of the materials are in Tai
+            Lüe, although some are in Chinese and some are in English. Thirty-one of these are
+            Davis's field recordings, two are field recordings by other people, thirty-four are
+            commercially produced, and seven of them are from what is known as the "grey market,"
+            tapes that had been previously recorded and were purchased at local markets, but they
+            were not necessarily professionally produced. These recordings include those that were
+            purchased at a stall in the Meng Hun Sunday morning market; those that were purchased at
+            the Tai New Year festivities; and Tai language popular music from Burma, mostly 1970s
+            era; and
+    <emph render="italic">
+     changkhap
+    </emph>
+    , which Davis bought in a Gasa shop in
+            the town center. Many of the commercially produced materials were published by the
+            Yunnan Music Video Publishing House and produced by the literary arts bureau of the TV
+            station; some were produced by the Chinese government, and a number are recordings of
+            Tai Lüe music that were given to Davis by Tai Lüe people in Yunnan.
+   </p>
+   <p>
+    The moving images are comprised of 12 videocassettes of various sizes and 9 VCDs ["Video
+            Compact Disks" containing moving pictures and sound]. The majority of the videocassettes
+            are Davis's recordings of religious rituals, festivals, and a tourist dance show. There
+            are 8 commercial recordings, and 2 tapes of Davis being interviewed by the staff of the
+            American Folklife Center in 2005. The artifacts in the collection are a bamboo flute
+            with metal reed, woven Tai Lüe cloth, and a bundle of handmade wax candles.
+   </p>
+   <p>
+    The original notes and headings used by Sara Davis have been transcribed in the finding
+            aid. Researchers should be aware that this finding aid uses both of the English
+            transliteration forms for the region in which Davis conducted her research -
+            Sipsongpanna, the Tai Lüe transliteration into English; and Xishuangbanna, the Chinese
+            transliteration into English. The Library of Congress authority heading is
+            Xishuangbanna, but Davis uses both forms of the transliteration in her field notes and
+            on her folder headings. In her published book,
+    <title localtype="simple">
+     <part>
+      Song and Silence: Ethnic Revival on China's Southwest Borders
+     </part>
+    </title>
+    , she made the editorial decision to use the Tai Lüe transliteration,
+            Sipsongpanna.
+   </p>
+   <p>
+    Similarly,
+    <emph render="italic">
+     Tai
+    </emph>
+    and
+    <emph render="italic">
+     Dai
+    </emph>
+    , both
+            forms of the English transliteration of the Chinese cultural group, are used in this
+            collection and finding aid.
+    <emph render="italic">
+     Tai
+    </emph>
+    is the Tai language
+            transliteration into English and
+    <emph render="italic">
+     Dai
+    </emph>
+    is the Chinese
+            transliteration into English. The Lü language, the Library of Congress authority heading
+            for the language represented in this collection, is also known as the Lüe language and
+            the Tai Lü language. Davis uses Tai Lüe for both the language and the people.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Sara M. L. Davis earned her Ph.D. at the University of Pennsylvania in East Asian
+            Studies and in Folklore and Folklife. She conducted field research in Xishuangbanna,
+            China in 1997-1998, and has returned several times since then. She has been affiliated
+            with Yale University and University of California, Los Angeles, where she was a visiting
+            scholar, and she was formerly a researcher for Human Rights Watch on China. Davis has
+            contributed to publications including
+    <emph render="italic">
+     Far Eastern Economic
+               Review
+    </emph>
+    , the
+    <emph render="italic">
+     Wall Street Journal
+    </emph>
+    ,
+    <emph render="italic">
+     International Herald Tribune
+    </emph>
+    , and
+    <emph render="italic">
+     Modern
+               China
+    </emph>
+    . She is currently the executive director of Asia Catalyst and lives in
+            New York City.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20180703103006.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Davis, Sara L. M. (Sara Leila Margaret), 1967-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Buddhist architecture--China--Xishuangbanna Daizu
+                  Zizhizhou--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Buddhist temples--China--Xishuangbanna Daizu Zizhizhou--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnographic films--China--Xishuangbanna Daizu Zizhizhou.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--China--Xishuangbanna Daizu Zizhizhou.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lü language--China--Xishuangbanna Daizu Zizhizhou.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Oral tradition--China--Xishuangbanna Daizu Zizhizhou.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--China--Xishuangbanna Daizu Zizhizhou.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tai (Southeast Asian people)--Burma--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tai (Southeast Asian people)--China--Xishuangbanna Daizu
+                  Zizhizhou--Poetry.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tai (Southeast Asian people)--China--Xishuangbanna Daizu Zizhizhou--Social life
+                  and customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Xishuangbanna Daizu Zizhizhou (China)--Ethnic relations.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Xishuangbanna Daizu Zizhizhou (China)--Folklore.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Xishuangbanna Daizu Zizhizhou (China)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection has been arranged by format into the following series: Manuscripts,
+            Graphic Images, Sound Recordings, Moving Images, and Artifacts. Davis kept a detailed
+            log of her photographs, sound and video recordings, and her original order has been
+            preserved, although unique AFC ID numbers have been assigned to individual items. She
+            assigned numbers to the photographs she herself took according to a system of "P"
+            followed by a Roman numeral. This numbering system has been used to label each folder of
+            photographs, but individual prints have been labeled using AFC ID numbers (PH0001,
+            PH0002, etc.). Davis also used her own system to label sound recordings, using "AU,"
+            followed by sequential letters of the alphabet, and numbers to indicate multiple items
+            within a given series (for example, AU-M1, AU-M2, etc. are a series of narrative legends
+            that were purchased from the television station in Yunnan). While this order has been
+            preserved, AFC has assigned ID numbers, SR01, SR02, etc. Davis used "V" followed by a
+            number to organize moving images; and AFC has retained the numbers but used the preface
+            "MV."
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted. Physical access to the
+            collection is available at the Folklife Reading Room of the American Folklife Center.
+            Restrictions may apply concerning the use, duplication, or publication of items in this
+            collection. Consult a reference librarian in the Folklife Reading Room for specific
+            information about this collection.
+   </p>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+            restrictions. Please refer to the AFC web site for information on ordering copies of
+            unpublished recordings (
+    <ref actuate="onrequest" href="https://www.loc.gov/folklife/recordering.html" show="replace">
+     http://www.loc.gov/folklife/recordering.html
+    </ref>
+    ) and photographic materials (
+    <ref actuate="onrequest" href="https://www.loc.gov/folklife/photo_ordering.html" show="replace">
+     http://www.loc.gov/folklife/photo_ordering.html
+    </ref>
+    ).
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Sara L. M. Davis donated this collection to the American Folklife Center on February 28,
+            2006. The collection was initially processed by Sarah Bradley Leighton in the spring of
+            2006, continued by Judy Ng and Charlotte Cushman in November 2007. The finding aid begun
+            in 2006 has been completed and encoded in 2008 by Nora Yeh.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Sara L. M. Davis Collection on Tai Lüe Culture (AFC 2006/004), Archive of Folk Culture,
+            American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <p>
+    Davis, Sara L. M.,
+    <title localtype="simple">
+     <part>
+      Song and Silence: Ethnic Revival on China's Southwest Borders.
+     </part>
+    </title>
+    New York: Columbia University Press, 2005.
+   </p>
+   <p>
+    Benjamin Botkin Lecture Series,
+    <title localtype="simple">
+     <part>
+      Song and Silence: Ethnic Revival on China's Southwest Borders
+     </part>
+    </title>
+    , lecture by Sara L. M. Davis (AFC 2005/041) December 13, 2005.
+   </p>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        16
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Boxes 1&amp;2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        981
+       </entry>
+       <entry morerows="0">
+        3x5 color photographs
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Boxes 2&amp;3
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        184
+       </entry>
+       <entry morerows="0">
+        35 mm color slides
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 3
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        black-and-white photograph
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        68
+       </entry>
+       <entry morerows="0">
+        audiocassettes
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: SR001-SR036; SR038-SR051; SR053-SR054;
+                        SR057-SR072
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        microcassettes
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: SR037, SR052
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        CDs
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: SR055, SR056
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        9
+       </entry>
+       <entry morerows="0">
+        Hi-8 videocassettes, color, sound
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: MV01-MV08, MV10
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        Mini-DV videocassettes, color, sound
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: MV11, MV12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        VHS videocassette, color, sound
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: MV09
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        9
+       </entry>
+       <entry morerows="0">
+        VCDs, color, sound
+       </entry>
+       <entry morerows="0">
+        NAVCC
+       </entry>
+       <entry morerows="0">
+        AFC 2006/004: MV13-MV21
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Artifacts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        flute
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        Tai Lüe textile
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        29
+       </entry>
+       <entry morerows="0">
+        handmade wax candles
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Administrative Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       01
+      </container>
+      <unittitle>
+       Finding Aid for this collection.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       02
+      </container>
+      <unittitle>
+       Field Notes I. September 1997 - November 20, 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopy of the first field notebook kept by Sara Davis. 160 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       03
+      </container>
+      <unittitle>
+       Field Notes II. December 1997 - February 21, 1998
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopy of the second field notebook kept by Sara Davis. 169 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       04
+      </container>
+      <unittitle>
+       Field Notes III. February 21, 1998 - April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopy of the third field notebook kept by Sara Davis. 239 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       05
+      </container>
+      <unittitle>
+       Field Notes IV. May 1998 - July 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopy of the fourth field notebook kept by Sara Davis. 197 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       06
+      </container>
+      <unittitle>
+       Photograph, Video, Audio Logs. September 1997 - July 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopy of the logs kept by Sara Davis to record the contents, date, and
+                     location of field photographs, and collected videos and audio recordings. 96
+                     pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       07
+      </container>
+      <unittitle>
+       Song text - Aye (Bo) Saut. "Dharma in ten lives." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Song text written in Tai Lüe with English notes and translations. 11 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       08
+      </container>
+      <unittitle>
+       Song Text - Aye (Bo) Saut. "Man's explanation of city-state."
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Song text written in Tai Lüe with English notes and translations. 11 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       09
+      </container>
+      <unittitle>
+       Transcribed song lyrics - Khanan Zhuai. "Praise for prince."
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed song lyrics written in Tai Lüe with English notes and translations.
+                     4 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle>
+       Transcribed song lyrics - Sithat Auk Boht. From 1998 recording.
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed song lyrics written in Tai Lüe with English notes and translations.
+                     28 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       11
+      </container>
+      <unittitle>
+       Articles - Ai No. Circa 1997-1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Photocopies of articles written in Chinese and Tai Lüe by author, Ai No, expert
+                     on Tai Lüe culture and folklore. 186 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       12
+      </container>
+      <unittitle>
+       Concert Posters - Sai Sang Mao, Xishaungbanna, 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Advertising a concert in Xishaungbanna of Sai Sang Mao, a famous Burmese Tai
+                     performer. 7 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       13
+      </container>
+      <unittitle>
+       Calendar by Wat Pajay in Sipsongbanna, 2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Monthly flip calendar for the year 2001 printed in Chinese and Tai Lüe with
+                     photographs. 7 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       14
+      </container>
+      <unittitle>
+       Davis, Sara L. M.
+       <title localtype="simple">
+        <part>
+         Song and Silence: Ethnic Revival on China's Southwest Borders
+        </part>
+       </title>
+       . New York: Columbia University Press, 2005.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       200 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       15
+      </container>
+      <unittitle>
+       Flyers from Sara L. M. Davis Benjamin Botkin Lecture. December 13,
+                     2005.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       3 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       16
+      </container>
+      <unittitle>
+       Photocopies of covers, title pages, and copyright information page of
+                     published material with Chinese translation. 1980-2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Item No. 1 - Item No. 20.
+      </p>
+      <p>
+       Published material is printed in Chinese and Tai Lüe with some English
+                     translations. 63 pages.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle>
+       Photocopies of covers, title pages, and copyright information page of
+                     published material with Chinese translation. 1988-2004.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Item No. 21 - Item No. 47.
+      </p>
+      <p>
+       Published material is printed in Chinese and Tai Lüe with some English
+                     translations. 72 pages.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Graphic Materials
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      [NOTE: Photographs in the PIII, PVII, and PXIII series are not included by
+                  donor.]
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       18
+      </container>
+      <unittitle>
+       PH0001-PH0076: PI. November 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Monk initiation ceremony in Da Menglong, Xishuangbanna.
+      </p>
+      <p>
+       76 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       19
+      </container>
+      <unittitle>
+       PH0077-PH0084: PII. October 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Minority Atmosphere Park.
+      </p>
+      <p>
+       8 color prints. Photographer: Sara L. M. Davis.
+      </p>
+      <p>
+       [NOTE: Photographs in the PIII series are not included by donor.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       20
+      </container>
+      <unittitle>
+       PH0085-PH0102: PIV. December 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Jinghong, general.
+      </p>
+      <p>
+       18 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       21
+      </container>
+      <unittitle>
+       PH0103-PH0129: PV. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Dai wedding, Dai Singer, Festival, Buddhist parade.
+      </p>
+      <p>
+       27 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       22
+      </container>
+      <unittitle>
+       PH0130-PH0136: PVI. February 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Moonshine still near Ganlanba and monk initiation.
+      </p>
+      <p>
+       7 color prints. Photographer: Sara L. M. Davis.
+      </p>
+      <p>
+       [NOTE: Photographs in the PVII series are not included by donor.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       23
+      </container>
+      <unittitle>
+       PH0137-PH0186: PVIII. February 10, 1998 - February 11,
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Khu ba ceremony in Da Menglong, Xishuangbanna.
+      </p>
+      <p>
+       50 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       24
+      </container>
+      <unittitle>
+       PH0187-PH0259: PIX. March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Temples in Meng Zhe, Xishaungbanna.
+      </p>
+      <p>
+       73 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       25
+      </container>
+      <unittitle>
+       PH0260-PH0307: PX. March 11, 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Temples in Meng Lian.
+      </p>
+      <p>
+       48 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       26
+      </container>
+      <unittitle>
+       PH0308-PH0318: PXI. March 14, 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Young singers in Ganlanda/Meng Ham, Xishuangbanna.
+      </p>
+      <p>
+       11 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       27
+      </container>
+      <unittitle>
+       PH0319-PH0332: PXII. April 14, 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Dragon boat races and song texts.
+      </p>
+      <p>
+       14 color prints. Photographer: Sara L. M. Davis.
+      </p>
+      <p>
+       [NOTE: Photographs in the PXIII series are not included by donor.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       28
+      </container>
+      <unittitle>
+       PH0333-PH0358: PXIV. January 1999.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Kunming Nationalities Theme Park.
+      </p>
+      <p>
+       26 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       29
+      </container>
+      <unittitle>
+       PH0359-PH0368: PXV. June 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Construction of Jinghong superhighway.
+      </p>
+      <p>
+       10 color prints. Photographer: Sara L. M. Davis.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       30
+      </container>
+      <unittitle>
+       PH0369-PH0404. June 2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tourism and hotel construction.
+      </p>
+      <p>
+       36 color prints. Photographer: Sara L. M. Davis.
+      </p>
+      <p>
+       [NOTE: These photographs were not assigned a roman numeral within the previous
+                     series.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="folder">
+       31
+      </container>
+      <unittitle>
+       PH0405-PH0409. Former palace of Tai Lüe prince of Kengtung, Burma.
+                     Circa 2001. Sara Davis with a singer. June 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       4 color prints. 1 black-and-white photograph.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       32
+      </container>
+      <unittitle>
+       PH0410-PH0489. Seventeenth-century temple, Wat Pan Gaew in Meng Lian,
+                     Sipsongpanna. (1 of 2). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       People, exterior, architectural details of roof, doors, windows.
+      </p>
+      <p>
+       80 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       33
+      </container>
+      <unittitle>
+       PH0490-PH0564. Seventeenth-century temple, Wat Pan Gaew in Meng Lian,
+                     Sipsongpanna. (2 of 2). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior windows and walls (writing and parts of murals). Interior pillars,
+                     ceiling, writing on wall, kitchen, drums.
+      </p>
+      <p>
+       75 color prints. Photographer: Wilson Wong
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       34
+      </container>
+      <unittitle>
+       PH0565-PH0672. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. (1 of 3). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior architectural details of roof, doors, windows. Interior pillars,
+                     ceiling, area for worship.
+      </p>
+      <p>
+       108 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       35
+      </container>
+      <unittitle>
+       PH0673-PH0776. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. (2 of 3). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior pillars and murals.
+      </p>
+      <p>
+       104 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       36
+      </container>
+      <unittitle>
+       PH0777-PH0872. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. (3 of 3). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior murals and living quarters.
+      </p>
+      <p>
+       96 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       37
+      </container>
+      <unittitle>
+       PH0873-PH0936. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. (1 of 2). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior of buildings, murals, doors. Interior ceilings and pillars.
+      </p>
+      <p>
+       64 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       38
+      </container>
+      <unittitle>
+       PH0937-PH0992. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. (2 of 2). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Living quarters and monks.
+      </p>
+      <p>
+       56 color prints. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       39
+      </container>
+      <unittitle>
+       PH0993-PH1030. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior of buildings, roofs, doors, stone carvings.
+      </p>
+      <p>
+       38 color slides. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       40
+      </container>
+      <unittitle>
+       PH1031-PH1068. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Murals.
+      </p>
+      <p>
+       38 color slides. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       41
+      </container>
+      <unittitle>
+       PH1069-PH1166. Eighth-century temple, Wat Gang in Meng Lian,
+                     Sipsongpanna. March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Exterior of buildings, murals, windows, doors, ceilings, pillars, stone
+                     carving.
+      </p>
+      <p>
+       98 color slides. Photographer: Wilson Wong.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       42
+      </container>
+      <unittitle>
+       Photo documentation accompanying MV 09.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="folder">
+       43
+      </container>
+      <unittitle id="fol43">
+       Photo documentation of artifacts.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      [NOTE: No AU-I or AU-V assigned by donor.]
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR001
+      </unitid>
+      <unittitle>
+       AU-A Yi Guang's Home. October 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Singing, flute.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR002
+      </unitid>
+      <unittitle>
+       AU-B Da Menglong Monk Initiation Parties. November 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Performed in homes of young boys undergoing initiation as monks.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR003
+      </unitid>
+      <unittitle>
+       AU-C Gasa, Sipsongpanna. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview and song with Khana Zhuai, Sipsongpanna's most famous singer.
+                     (Recorded outside, several translators interpreting. Humming from recorder.)
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR004
+      </unitid>
+      <unittitle>
+       AU-D Wat Ba Jie, Jinghong. Temple Tai-language popular music festival,
+                     9-10pm. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "New Star" is backup band.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR005
+      </unitid>
+      <unittitle>
+       AU-E Continuation of above, 10-11pm. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR006
+      </unitid>
+      <unittitle>
+       AU-F Continuation of above, 11-12 pm. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR007
+      </unitid>
+      <unittitle>
+       AU-G Continuation of above, 2nd day, afternoon. January
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR008
+      </unitid>
+      <unittitle>
+       AU-H Continuation of above, 2nd day, 9-10 pm. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+      <p>
+       [NOTE: No AU-I assigned by donor.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR009
+      </unitid>
+      <unittitle>
+       AU-J Continuation of above, 2nd day, 10-11 pm. January
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR010
+      </unitid>
+      <unittitle>
+       AU-K Da Menglong, Sipsongpanna. (1 of 2). February 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Performance by
+       <emph render="italic">
+        Changkhap
+       </emph>
+       .
+      </p>
+      <p>
+       Competition of two singers on occasion of six monks' ascension to "khu ba"
+                     status; performed on temple grounds
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR011
+      </unitid>
+      <unittitle>
+       AU-L Da Menglong, Sipsongpanna - continuation. (2 of 2). February 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Performance by
+       <emph render="italic">
+        Changkhap
+       </emph>
+       .
+      </p>
+      <p>
+       Competition of two singers on occasion of six monks' ascension to "khu ba"
+                     status; performed on temple grounds
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR012
+      </unitid>
+      <unittitle>
+       AU-M1. Sung by Ai Gaen, Yi Awn, narrative legend (1 of 2).
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR013
+      </unitid>
+      <unittitle>
+       AU-M2. Sung by Ai Gaen, Yi Awn, narrative legend (2 of 2). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR014
+      </unitid>
+      <unittitle>
+       AU-M3. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       "Sithat Auk Boht" sung by Yi Guang, Ai Khang Yay - narrative legend.
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR015
+      </unitid>
+      <unittitle>
+       AU-M4. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       "Wei Sian Tala." Sung by Yi Guang, Ai Sang, and Ai Gaew - narrative legend.
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR016
+      </unitid>
+      <unittitle>
+       AU-M5. "Nang Gin Bu." - narrative legend (1 of 2). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR017
+      </unitid>
+      <unittitle>
+       AU-M6. "Nang Gin Bu." - narrative legend (2 of 2). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR018
+      </unitid>
+      <unittitle>
+       AU-M7 "Nang Gin Bu." Sung by Ai Kham Lust, Yi Guang Nuoy, Yi Diew (1 of
+                     2). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR019
+      </unitid>
+      <unittitle>
+       AU-M8 "Nang Gin Bu." Sung by Ai Kham Lust, Yi Guang Nuoy, Yi Diew (2 of
+                     2). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+      </p>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR020
+      </unitid>
+      <unittitle>
+       AU-M9 Duet-duels. A: Sung by Yi Awn, Ai Kham Yay. B: Sung by Yi Guang
+                     Nuoy, Yi Diew. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR021
+      </unitid>
+      <unittitle>
+       AU-M10 Housewarming Songs sung by Yi Guang Nuoy, Ai Khang Yay (1 of 2).
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR022
+      </unitid>
+      <unittitle>
+       AU-M11 Housewarming Songs sung by Yi Guang Nuoy, Ai Khang Yay (2 of 2).
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR023
+      </unitid>
+      <unittitle>
+       AU-M12 "Zhet Da Pa" sung by Yi Guang, Ai Khang Yay. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR024
+      </unitid>
+      <unittitle>
+       AU-M13 "Ew Da Ho" sung by Ai Kham Lust, Yi Guang. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR025
+      </unitid>
+      <unittitle>
+       AU-M14 "Pam Tai" sung by Ai Khang Yay, Yi Guang. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR026
+      </unitid>
+      <unittitle>
+       AU-M15 "Sipsawug Lai Sii" sung by Ai Khang Yay, Yi Guang. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR027
+      </unitid>
+      <unittitle>
+       AU-M16 "Ga Peut" sung by Ai Kham Lust, Yi Guang. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by the literary arts bureau of Sipsongpanna People's Broadcasting
+                     Corporation.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR028
+      </unitid>
+      <unittitle>
+       AU-N Music by Ai Sam with New Star Band; lyrics by Ai Han Liang.
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded in Burma, for Yunnan Audio Visual Production, Co. in cooperation with
+                     Wat Ba Jie.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR029
+      </unitid>
+      <unittitle>
+       AU-O Bo Saut (flute and singer); Ai Neun Ew (singer); Yi Euy Siang
+                     (singer); Yi Siang (singer). March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded in Ganlanha, Yunnan.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR030
+      </unitid>
+      <unittitle>
+       AU-P1 Meng Zhe (singer with guitar). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Purchased at a stall in the Meng Hun Sunday morning market.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR031
+      </unitid>
+      <unittitle>
+       AU-P2 Burmese singer with Tai guitar. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Purchased at a stall in the Meng Hun Sunday morning market.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR032
+      </unitid>
+      <unittitle>
+       AU-P3 Burmese singer - popular music - Chye Ju Kaba.
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Purchased at a stall in the Meng Hun Sunday morning market.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR033
+      </unitid>
+      <unittitle>
+       AU-P4. Sipsongpanna (Xishuangbanna). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+       <emph render="italic">
+        Changkhap
+       </emph>
+       with Tai violin.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR034
+      </unitid>
+      <unittitle>
+       AU-P5. Sipsongpanna (Xishuangbanna). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+       <emph render="italic">
+        Changkhap
+       </emph>
+       with guitar.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR035
+      </unitid>
+      <unittitle>
+       AU-P6. Sipsongpanna (Xishuangbanna). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+       <emph render="italic">
+        Changkhap
+       </emph>
+       with guitar.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR036
+      </unitid>
+      <unittitle>
+       AU-P7. Sipsongpanna (Xishuangbanna). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Series Title: Minzu Yishu Zhi Hua: Minge. [Flowers of Ethnic Arts: Folksongs]
+                     Tai Zu Minge [Tai Ethnic Folksongs].
+       <emph render="italic">
+        Changkhap
+       </emph>
+       with
+       <emph render="italic">
+        erhu
+       </emph>
+       /violin.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR037
+      </unitid>
+      <unittitle>
+       AU-Q Ai Kham Ngeun. Interview regarding Tai popular music. March
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute microcassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR038
+      </unitid>
+      <unittitle>
+       AU-R1 Tai Love Songs (male/female duet/duels with
+       <emph render="italic">
+        erhu
+       </emph>
+       ). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Purchased at Tai New Year Festivities.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR039
+      </unitid>
+      <unittitle>
+       AU-R2 Tai Lüe group songs with guitar. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       [Taped over English course tape]. Purchased at Tai New Year Festivities.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR040
+      </unitid>
+      <unittitle>
+       AU-S1 Wat Ba Jie. New Year's Concert at Temple (9-10 pm) (1 of 3). Ma
+                     Ha Liang, MC. Ai Kham Ngeun, MC. Various singers. April 1998
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Ma Ha Liang, MC. Ai Kham Ngeun, MC. Various singers.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR041
+      </unitid>
+      <unittitle>
+       AU-S2 Continuation of above (10-11pm) (2 of 3). April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR042
+      </unitid>
+      <unittitle>
+       AU-S3 Continuation of above (11-12 pm) (3 of 3). April
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR043
+      </unitid>
+      <unittitle>
+       AU-T Ga Len. Narrative Song. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Purchased in Burma.
+      </p>
+      <p>
+       60-minute audiocassette tape.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR044
+      </unitid>
+      <unittitle>
+       AU-U Aini Folk Songs. April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape. Field recording by community organizer for German
+                     environmental project.
+      </p>
+      <p>
+       [NOTE: No AU-V assigned by donor.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR045
+      </unitid>
+      <unittitle>
+       AU-W "Sipsongpanna (Xishuangbanna) Fengqing Atmosphere." 1992.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Han language songs written and produced by Banna artists in Jinghong, sponsored
+                     by state government.
+      </p>
+      <p>
+       Includes song titles and texts in Chinese.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR046
+      </unitid>
+      <unittitle>
+       AU-X1 Zai Sang Mao (Burmese Tai singer). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Bought in Gasa shop in town center.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR047
+      </unitid>
+      <unittitle>
+       AU-X2 Zai Sang Mao (Burmese Tai singer). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Bought in Gasa shop in town center.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR048
+      </unitid>
+      <unittitle>
+       AU-X3 "Heun mai." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Housewarming songs from Meng Yawng, Burma.
+      </p>
+      <p>
+       Singers unknown.
+      </p>
+      <p>
+       Bought in Gasa shop in town center.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR049
+      </unitid>
+      <unittitle>
+       AU-X4 "12 Husbands, 12 Wives." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Sipsawng paw, sipsawng mae - from Meng Yawng, Burma.
+      </p>
+      <p>
+       Singer unknown.
+      </p>
+      <p>
+       Bought in Gasa shop in town center.
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR050
+      </unitid>
+      <unittitle>
+       AU-Y1 Ai Siang Zai [in Chinese] (1 of 2). June 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview regarding popular music history in Banna region, Burmese influences,
+                     cultural issues, sinification, language, and new popular music movement.
+      </p>
+      <p>
+       Recorded in temple grounds - background noise of talk, work, chanting, music,
+                     drums, etc.
+      </p>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR051
+      </unitid>
+      <unittitle>
+       AU-Y2 Continuation of above (2 of 2) June 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR052
+      </unitid>
+      <unittitle>
+       AU-Z Mae Zhai Yay (singer), Ai No (reporter), and Sara Davis. June
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Interview regarding
+       <emph render="italic">
+        changkhap
+       </emph>
+       singer's life.
+      </p>
+      <p>
+       Ganlanba, Sipsongpanna (Xishuangbanna), Yunnan.
+      </p>
+      <p>
+       60-minute microcassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR053
+      </unitid>
+      <unittitle>
+       AU-AA Dubii Pat - Recital of sutra at Wat Ba Jie. July
+                     1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Pan Basangha. The Hunter's Questions.
+      </p>
+      <p>
+       60-minute audiocassette tape.
+      </p>
+      <p>
+       Dubii Sing field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR054
+      </unitid>
+      <unittitle>
+       AU-BB1 "My Hometown is the Most Beautiful." 1999.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recording of Tai Lüe folksongs. Sung by
+       <emph render="italic">
+        changkhap
+       </emph>
+       .
+      </p>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR055
+      </unitid>
+      <unittitle>
+       AU-BB9 "Yunnan Minyue: Hulu Si" [Bottle Gourd of Instrument]. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Titles in Chinese.
+      </p>
+      <p>
+       CD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR056
+      </unitid>
+      <unittitle>
+       AU-BB10 "Music of Small Ethnic Groups in Yunnan II." May
+                     1994.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       CD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR057
+      </unitid>
+      <unittitle>
+       AU-CC3 Tai popular music by Hsai Mae. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR058
+      </unitid>
+      <unittitle>
+       AU-CC4 Tai popular music by Hsai Mae. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR059
+      </unitid>
+      <unittitle>
+       AU-CC5 Tai
+       <emph render="italic">
+        changkhap
+       </emph>
+       epic "Nang Gin Bu"
+                     (Lady eats crab). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       From Shang State, Burma.
+      </p>
+      <p>
+       60-minute audiocassette tape.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR060
+      </unitid>
+      <unittitle>
+       AU-CC6 Tai
+       <emph render="italic">
+        changkhap
+       </emph>
+       epic "Nang Gin Bu"
+                     (Lady eats crab). Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       From Shang State, Burma.
+      </p>
+      <p>
+       60-minute audiocassette tape.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR061
+      </unitid>
+      <unittitle>
+       AU-CC7 February 2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Telephone interview in Tai Lüe and English with singer Hsai Hseng Mao.
+      </p>
+      <p>
+       Recorded in New Haven, Connecticut.
+      </p>
+      <p>
+       90-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR062
+      </unitid>
+      <unittitle>
+       AU-DD1 Proceedings of conference on ethnic culture in Sipsongpanna
+                     (Xishuangbanna). Chiang Mai University, Chiang Mai, Thailand. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR063
+      </unitid>
+      <unittitle>
+       AU-DD2 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR064
+      </unitid>
+      <unittitle>
+       AU-DD3 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR065
+      </unitid>
+      <unittitle>
+       AU-DD4 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR066
+      </unitid>
+      <unittitle>
+       AU-DD5 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR067
+      </unitid>
+      <unittitle>
+       AU-DD6 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR068
+      </unitid>
+      <unittitle>
+       AU-DD7 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR069
+      </unitid>
+      <unittitle>
+       AU-DD8 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR070
+      </unitid>
+      <unittitle>
+       AU-DD9 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR071
+      </unitid>
+      <unittitle>
+       AU-DD10 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: SR072
+      </unitid>
+      <unittitle>
+       AU-DD11 Continuation of above. July 2002.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute audiocassette tape field recording.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Moving Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV01
+      </unitid>
+      <unittitle>
+       <emph render="italic">
+        Changkhap
+       </emph>
+       songs.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Yi Guang's house. October 1997.
+      </p>
+      <p>
+       Ganlanba scenery. Man Suan Man temple. November 1997.
+      </p>
+      <p>
+       Jingha scenery. January 1998.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV02
+      </unitid>
+      <unittitle>
+       Ganlanba: Full Moon Festival. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Gasa: Ban Gong Mai wedding.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV03
+      </unitid>
+      <unittitle>
+       Wat Ba Jie. January 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Annual Festival to celebrate freedom of religion: parade, popular music
+                     concert, monk graduation ceremony, etc.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV04
+      </unitid>
+      <unittitle>
+       Wat Ba Jie: Monk graduation. January 1998. Temples. March 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV05
+      </unitid>
+      <unittitle>
+       Jinghong Water-splashing Festival. (Day One) April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Dragonboat Races.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV06
+      </unitid>
+      <unittitle>
+       Jinghong Water-splashing Festival. (Day Two) April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Buddhist procession.
+      </p>
+      <p>
+       Temple festival.
+      </p>
+      <p>
+       Washing Buddha.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV07
+      </unitid>
+      <unittitle>
+       Continuation of above. April 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Rockets.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV08
+      </unitid>
+      <unittitle>
+       Monk promotion from "pa" (novices) to "du" (senior monks). June 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Meng Ham (Ban Ling), Ganlanba.
+      </p>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV09
+      </unitid>
+      <unittitle>
+       Sipsongpanna State First "Tai Regional Cup" December 1997.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Competition - Tai language, popular song, concert.
+      </p>
+      <p>
+       VHS videocassette commercial recording.
+      </p>
+      <p>
+       <emph render="italic">
+        See Folder 42
+       </emph>
+       for photo documentation of this item
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV10
+      </unitid>
+      <unittitle>
+       Tourist dance show at the Sipsongpanna (Xishuangbanna) Guesthouse.
+                     Binguan, China. June 2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       60-minute Hi-8 videocassette field recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV11
+      </unitid>
+      <unittitle>
+       Interview with Sara L. M. Davis, conducted by David Taylor (1 of 2).
+                     December 13, 2005.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Mini-DV videocassette.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV12
+      </unitid>
+      <unittitle>
+       Interview with Sara L. M. Davis, conducted by Nora Yeh (2 of 2).
+                     December 13, 2005.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Mini-DV videocassette.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV13
+      </unitid>
+      <unittitle>
+       AU-BB2 "Tai Xiang Qing." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tai Karaoke with lyric sheet in Tai Lüe and Chinese.
+      </p>
+      <p>
+       Published by Yunnan Audio Visual Production, Co.
+      </p>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV14
+      </unitid>
+      <unittitle>
+       AU-BB3 "Tai Zimu Ge." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tai Karaoke featuring two older
+       <emph render="italic">
+        changkhap
+       </emph>
+       (Yu
+                     Guang, Aye Jian) and two younger
+       <emph render="italic">
+        changkhap
+       </emph>
+       (E Anu
+                     Xiang or Yu Wen Xiang and Aye Kham Jian) singing fusion.
+      </p>
+      <p>
+       Tai Lüe
+       <emph render="italic">
+        changkhap
+       </emph>
+       /popular music - includes the
+                     song "akhala" or "Tai alphabet."
+      </p>
+      <p>
+       Song titles and liner notes are in Tai Lüe and Chinese.
+      </p>
+      <p>
+       CD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV15
+      </unitid>
+      <unittitle>
+       AU-BB4 "Taiyu aiqing gechu." 2001.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tai Karaoke features former monk/songwriter Khanan Lsang (was Maha Liang).
+      </p>
+      <p>
+       CD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV16
+      </unitid>
+      <unittitle>
+       AU-BB5 "Poshui jie de zhufu." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tai Karaoke with titles in Tai Lüe and Chinese.
+      </p>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV17
+      </unitid>
+      <unittitle>
+       AU-BB6 "Wodejiaxiang zui meili." [My Hometown is the Most Beautiful.]
+                     Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Tai Nationality Folksong singer: Yu Wangnan. Liner notes in English and
+                     Chinese.
+      </p>
+      <p>
+       VCD version of BB1.
+      </p>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV18
+      </unitid>
+      <unittitle>
+       AU-BB7 Untitled videorecording. 1998.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Government-produced for tourists.
+      </p>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV19
+      </unitid>
+      <unittitle>
+       AU-BB8 "Xue Tiao Min Lu Wu." Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       For teaching Tai folk dance. Liner notes in Chinese.
+      </p>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV20
+      </unitid>
+      <unittitle>
+       AU-CC1 "Tai VCD Karaoke Vol. 1." 2000.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item ID">
+       AFC 2006/004: MV21
+      </unitid>
+      <unittitle>
+       AU-CC2 Tai Khun from Kengtung. Undated.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       VCD. Commercial recording.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Artifacts
+     </unittitle>
+     <didnote>
+      [
+      <ref target="fol43">
+       <emph render="italic">
+        See Folder 43
+       </emph>
+      </ref>
+      for photo documentation of artifacts in Box 3.]
+     </didnote>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle>
+       Bamboo flute with metal reed.
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/004: AR01
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle>
+       Woven Tai Lüe cloth.
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/004: AR02
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle>
+       Bundle of 29 handmade wax candles.
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/004: AR03
+      </unitid>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af006007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af006007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Penne Laingen Yellow Ribbon
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1991/017
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2006-02">
+     February 2006
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004659952" show="new">
+       https://lccn.loc.gov/2004659952
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-04">
+     April 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2006-09">
+     September 2006
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Amarantha Dyuaaxchs
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1991/017
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Penne Laingen Yellow
+		  Ribbon Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1979/1991">
+     1979-1991
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1979/1991" unitdatetype="inclusive">
+    1979-1991
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    3
+		  linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    4 boxes (containing 15 folders of
+		  manuscript material; 7 sound recordings; 63 unique graphic images; 1
+		  videocassette; 1 computer disk; 6 artifacts)
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Laingen, Penne
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Laingen, L.
+			 Bruce
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Parsons, Gerald
+			 E.
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection comprises
+		  Penne Laingen's yellow ribbon marking the year her husband Bruce Laingen was
+		  held hostage in Tehran, Iran, during the Iran hostage crisis from 1979 to 1981;
+		  plus a 1991 interview with the Laingens and related documentation.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20180703102841.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Laingen, L. Bruce
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Laingen, L. Bruce.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Laingen, Penne
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Laingen, Penne.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Parsons, Gerald E., 1940-1995
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Iran Hostage Crisis, 1979-1981--Personal narratives.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Persian Gulf War, 1991--United States--Anecdotes.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ribbons--Symbolic aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ribbons--United States--Folklore.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Yellow ribbon collection, 1979-1991.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Artifacts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    The collection is open for research. Duplication of the collection
+		  materials may be governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Penne and Bruce Laingen donated their yellow ribbon to the Library of
+		  Congress on July 2, 1991. Additional materials were collected by employees of
+		  the American Folklife Center.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Penne Laingen Yellow Ribbon Collection (AFC 1991/017), Archive of Folk
+		  Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography>
+   <head>
+    Bibliography
+   </head>
+   <p>
+    Laingen, L. Bruce.
+    <title localtype="simple" render="italic">
+     <part>
+      Yellow Ribbon: The Secret Journal of Bruce
+		  Laingen.
+     </part>
+    </title>
+    Washington: Brassey's (US), 1992.
+   </p>
+   <p>
+    Letters of L. Bruce Laingen, 1980 (MSS6085). Forms part of the
+		  Miscellaneous Manuscripts collection in the Manuscript Division, Library of
+		  Congress, Washington, D.C.
+   </p>
+   <p>
+    "New Yellow Ribbon Tradition," An online presentation on the American
+		  Folklife Center web site, http://www.loc.gov/folklife/ribbons/index.html
+   </p>
+   <p>
+    Santino, Jack. "Apply a Ribbon Magnet to the Ole Humvee: The Yellow
+		  Ribbon Tradition Reborn."
+    <title localtype="simple" render="italic">
+     <part>
+      Folklife Center News
+     </part>
+    </title>
+    , 27, no. 3, Summer
+		2005.
+   </p>
+   <p>
+    "Yellow Ribbon" subject files in the American Folklife Reading Room,
+		  Library of Congress, Washington, D.C.
+   </p>
+  </bibliography>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    In 1979, Penne (Penelope) Laingen tied a yellow ribbon around a tree
+		  in front of her Bethesda, Maryland home when her husband, Bruce, was among
+		  those taken hostage in the United States Embassy in Tehran, Iran. The Laingens
+		  donated this yellow ribbon to the Library of Congress in 1991. The collection
+		  contains sound recordings and a photograph from that donation ceremony. Other
+		  recordings include an interview with Bruce and Penne Laingen conducted by
+		  American Folklife Center reference specialist, Gerald E. Parsons, on April 15,
+		  1991. During the interview, the Laingens discussed their experiences during the
+		  hostage crisis and their use of the yellow ribbon and the symbolic significance
+		  it acquired. The collection also contains photographs of the Laingens taken
+		  during this interview and photographs of yellow ribbon displays during the
+		  Persian Gulf War in 1991.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Penne (Penelope) Laingen is the wife of Bruce Laingen who was serving
+		  as the charge d'affaires of the United States Embassy in Tehran when Iranian
+		  student revolutionaries seized the Embassy on November 4, 1979, and held the
+		  staff hostage until January 20, 1981. A few days after Bruce was taken hostage,
+		  Penne Laingen hung a yellow ribbon around a tree in the yard of her Bethesda,
+		  Maryland home as a symbol of support for her husband and the other American
+		  hostages. She did this as a way to bolster her own strength and that of their
+		  three sons throughout the crisis.
+   </p>
+  </bioghist>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by
+		  Format
+   </head>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="30*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="35*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="20*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        15
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        Folders 1-15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        7-inch reel to reel audiotapes
+       </entry>
+       <entry morerows="0">
+        Box 2
+       </entry>
+       <entry morerows="0">
+        SR01-SR03
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3
+       </entry>
+       <entry morerows="0">
+        audiocassettes
+       </entry>
+       <entry morerows="0">
+        Box 2
+       </entry>
+       <entry morerows="0">
+        SR04-SR06
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        10-inch reel audiotape
+       </entry>
+       <entry morerows="0">
+        Box 2
+       </entry>
+       <entry morerows="0">
+        SR07
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheet
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH001
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        28
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH001, PH002
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        black-and-white prints
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH002, PH003
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        21
+       </entry>
+       <entry morerows="0">
+        color prints
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH004-PH024
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        21
+       </entry>
+       <entry morerows="0">
+        color negatives
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH004-PH024
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        11
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH002, PH025-PH034
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        color posters
+       </entry>
+       <entry morerows="0">
+        Map case
+       </entry>
+       <entry morerows="0">
+        GR01
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        videocassette (VHS), sound, color
+       </entry>
+       <entry morerows="0">
+        Box 2
+       </entry>
+       <entry morerows="0">
+        MV01
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Electronic Media
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        3.5-inch computer disk
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        CF01
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Artifacts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        novelty and display items
+       </entry>
+       <entry morerows="0">
+        Box 3
+       </entry>
+       <entry morerows="0">
+        AR01-AR05
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        oilcloth ribbon
+       </entry>
+       <entry morerows="0">
+        Box 4
+       </entry>
+       <entry morerows="0">
+        AR06
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Finding Aid. 8 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Correspondence - American Folklife Center and
+				 Laingens. February to July 1991. 8 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle>
+       Santino, Jack. "Yellow Ribbons and Seasonal Flags: The
+				 Folk Assemblage of War." The Journal of American Folklore, 105, no. 415,
+				 (Winter 1992): 19-33. Drafts with comments and published version. 120
+				 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       Yellow Ribbon articles by Gerald Parsons, American
+				 Folklife Center reference specialist. 1981, 1991. 12 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle>
+       "Laingens Present Yellow Ribbon to LC."
+       <title localtype="simple" render="italic">
+        <part>
+         Library of Congress Gazette
+        </part>
+       </title>
+       , 2,
+				 no. 28 (July 12, 1991): 3. (2 copies). 16 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle>
+       "Original Yellow Ribbon Given to LC."
+       <title localtype="simple" render="italic">
+        <part>
+         Library of Congress Information
+					Bulletin
+        </part>
+       </title>
+       , 50, no. 14, (July 15, 1991): 263. (5 copies). 50
+				 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle>
+       Parker, Barbara. "Penne Laingen's Wait."
+       <title localtype="simple" render="italic">
+        <part>
+         Washington Post
+        </part>
+       </title>
+       , (Monday,
+				 December 10, 1979). 2 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       8
+      </container>
+      <unittitle>
+       Collected Articles: Significance of the Color Yellow.
+				 1979-1981. 15 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       9
+      </container>
+      <unittitle>
+       Yellow Ribbon Acquisition Ceremony. Administrative
+				 Material. July 2, 1991. 42 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle>
+       Yellow Ribbon Acquisition Ceremony. Press Coverage.
+				 July 2, 1991. 17 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       11
+      </container>
+      <unittitle>
+       Yellow Ribbons and "No Greater Love" (Humanitarian
+				 Organization). 1980-1990. 17 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       12
+      </container>
+      <unittitle>
+       Information regarding GR01 - Poster of Foshay Tower.
+				 1981. 2 leaves.
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       [Original poster located in Reading Room map case.]
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       13
+      </container>
+      <unittitle>
+       Sound Recording Logs: SR01, SR02, SR03. Penne and
+				 Bruce Laingen interviewed on April 15, 1991, by Gerald Parsons. 13
+				 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       14
+      </container>
+      <unittitle>
+       Sound Recording Transcript: SR01, SR02, SR03. Penne
+				 and Bruce Laingen interviewed on April 15, 1991, by Gerald Parsons. Transcript
+				 by Peggy Yocom. 10 leaves.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       15
+      </container>
+      <unittitle>
+       Moving Image Log: MV01. WRC Yellow Ribbon. Recording
+				 of the WRC, NBC News 4 nightly broadcast of the six o'clock news in Washington,
+				 DC featuring the Laingen yellow ribbon donation to the Library of Congress.
+				 July 2, 1991. 1 leaf.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+     <didnote>
+      Note: All contents have been removed from Box 2 and are
+				 shelved separately.
+     </didnote>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR01
+      </container>
+      <unittitle>
+       Penne and Bruce Laingen interviewed on April 15, 1991,
+				 by Gerald Parsons. Tape 1 of 3. One 7-inch reel recorded in stereo at 7.5
+				 ips.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR02
+      </container>
+      <unittitle>
+       Penne and Bruce Laingen interviewed on April 15, 1991,
+				 by Gerald Parsons. Tape 2 of 3. One 7-inch reel recorded in stereo at 7.5
+				 ips.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR03
+      </container>
+      <unittitle>
+       Penne and Bruce Laingen interviewed on April 15, 1991,
+				 by Gerald Parsons. Tape 3 of 3. One 7-inch reel recorded in stereo at 7.5
+				 ips.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR04
+      </container>
+      <unittitle>
+       Recording of "Tie a Yellow Ribbon Round the Ole Oak
+				 Tree" sung by Tony Orlando and Dawn. Commercial recording dubbed on 1
+				 audiocassette.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR05
+      </container>
+      <unittitle>
+       Recording of "She wore a yellow ribbon" sung by Mrs.
+				 Byron Coffin, Sr. of Alameda, CA. Recorded by Sidney Robertson Cowell in April
+				 1939. Dubbed on 1 audiocassette. Accessible online at
+       <ref href="https://hdl.loc.gov/loc.afc/collafc.af000002">
+        http://hdl.loc.gov/loc.afc/collafc.af000002
+       </ref>
+       .
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR06
+      </container>
+      <unittitle>
+       Recordings of versions of "Tie a Yellow Ribbon Round
+				 the Ole Oak Tree" by Roger Williams and Andre Kostelanetz. Commercial recording
+				 dubbed on 1 audiocassette.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       SR07
+      </container>
+      <unittitle>
+       Recording of the donation of the original yellow
+				 ribbon to the Library of Congress in the Librarian's office, 6th Floor Madison
+				 Building, Washington, D.C. on July 2, 1991. One 10-inch sound tape reel
+				 recorded at 7.5 ips, 2 tracks.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       16
+      </container>
+      <unittitle>
+       Photograph: PH001 (contact sheet and
+				 negatives).
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Twenty-eight images of Penne and Bruce Laingen at their
+				 Bethesda, Maryland home during their interview with Gerald Parsons. April 15,
+				 1991. One black-and-white contact sheet, 8 x 10 in. Five black-and-white
+				 negative strips with twenty-eight frames.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle>
+       Photograph: PH002 (print, slide, and
+				 negative).
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       An image of Bruce and Penne Laingen holding up the yellow
+				 ribbon around a tree in their Bethesda, Maryland yard. April 15, 1991. One
+				 black-and-white print, 8 x 10 in. One black-and-white negative strip with one
+				 frame. One color 35 mm slide of the same image.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       18
+      </container>
+      <unittitle>
+       Photograph: PH003 (print).
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       An image of Penne Laingen presenting the original yellow
+				 ribbon to Librarian of Congress, James H. Billington. July 2, 1991. One
+				 black-andwhite print, 8 x 10 in.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       19
+      </container>
+      <unittitle>
+       Photographs: PH004 - PH024 (prints and negatives).
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Twenty-one images of yellow ribbons displayed in Maryland and
+				 Virginia during the Persian Gulf War, 1991. Photographer not known. Twenty-one
+				 color prints, 3 x 5 in. Six color negative strips with twenty-one frames.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       20
+      </container>
+      <unittitle>
+       Slides: PH025 - PH034
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Ten images of Penne and Bruce Laingen at their Bethesda,
+				 Maryland home during their interview with Gerald Parsons. April 15, 1991. Ten
+				 color slides, 35 mm.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       Map Case
+      </container>
+      <container localtype="item">
+       GR01
+      </container>
+      <unittitle>
+       Two copies of a color poster
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Foshay Tower at 821 Marquette Ave., Minneapolis, Hennepin
+				 County, Minnesota tied with an enormous yellow ribbon. 1981. Two color posters,
+				 21 x 30 in. [See Reading Room Map Case]
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: Moving Images
+     </unittitle>
+     <didnote>
+      Note: All contents have been removed from Box 2 and are
+				 shelved separately.
+     </didnote>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <container localtype="item">
+       MV01
+      </container>
+      <unittitle>
+       WRC Yellow Ribbon. Moving image of the WRC, NBC News 4
+				 nightly broadcast of the six o'clock news in Washington, DC, featuring the
+				 Laingen yellow ribbon donation to the Library of Congress. July 2, 1991. One
+				 videocassette (VHS) in color with sound. See Folder 15 for the Moving Image
+				 Log.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series V: Artifacts
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="item">
+       AR01
+      </container>
+      <unittitle>
+       "God Bless America" pin featuring an American flag and
+				 a yellow ribbon. February 25, 1991. One novelty pin, 2 in.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="item">
+       AR02
+      </container>
+      <unittitle>
+       "Yellow Ribbon Cocktail" sticks made in the shape of a
+				 ribbon. Undated. Eight novelty plastic sticks, 7 in.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="item">
+       AR03
+      </container>
+      <unittitle>
+       "Free the Hostages" yellow ribbon pin framed by No
+				 Greater Love, a humanitarian organization that claims to have spearheaded the
+				 yellow ribbon campaign during the Iran hostage crisis. November 4, 1979
+				 ­January 20, 1981. One framed item, 6 x 6 x 1.25 in.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="item">
+       AR04
+      </container>
+      <unittitle>
+       "Tie a Yellow Ribbon Round the Ole Oak Tree" yellow
+				 ribbon display sign. Undated. One poster mounted on a plastic display stand, 8
+				 x 10 in.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <container localtype="item">
+       AR05
+      </container>
+      <unittitle>
+       Mounted photograph of Bruce and Penne Laingen holding
+				 up their original yellow ribbon in the yard of their Bethesda, Maryland home.
+				 April 15, 1991. One color photograph mounted on a plastic display stand, 5.5 x
+				 8 in.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <container localtype="item">
+       AR06
+      </container>
+      <unittitle>
+       The original yellow ribbon hung by Penne Laingen in
+				 honor of her husband, Bruce Laingen, while he was held hostage in Iran.
+				 1979-1981. One oilcloth ribbon, 21 x 44 in.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series VI: Electronic Media
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       21
+      </container>
+      <unittitle>
+       Computer Disk: CF01
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Administrative files related to the collection. One computer
+				 disk.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

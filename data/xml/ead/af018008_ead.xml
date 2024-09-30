@@ -1,0 +1,4677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018008">
+   loc.afc/eadafc.af018008
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Sol Biderman Collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Judy Ng, July 2007;
+     <lb>
+     </lb>
+     Karina dos
+                    Santos, 2009-2010 and Nora Yeh, 2010
+     <lb>
+     </lb>
+     Revised by Catherine Hiebert Kerst and
+                    Margaret Kruesi, August 2011
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2007-10">
+     October 2007
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2011655397" show="new">
+       https://lccn.loc.gov/2011655397
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2024-06">
+     June 2024
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Oversized materials added by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-01">
+     January 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Collection Number revised by Farrah Cundiff
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+                    ead3_converter_mfer.xsl : Michael Ferrando, Library of
+                    Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018">
+     2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Sol Biderman Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1958/2003">
+     1958-2003
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1958/2003" unitdatetype="inclusive">
+    1958-2003
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2006/019
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Biderman, Sol
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 1741
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    approximately 1314 pages
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    326 chapbooks
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    3 sound tape reels :
+                analog, 7 1⁄2 ips, mono. ; 3 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    70 wood block prints :
+                black and white ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    1 photographic print :
+                black and white ; 7 x 9 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    6 posters : color,
+                black and white ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent graphic materials)">
+    3 postcards : color ;
+                various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (objects)">
+    14 crucifixes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (objects)">
+    4 wooden boxes
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="por">
+     Portuguese
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <language encodinganalog="041" langcode="ita">
+     Italian
+    </language>
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in Portuguese, Spanish, Italian and English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Brazilian chapbooks, xilogravuras
+                woodblock illustrations and woodblocks, sound recordings and additional research
+                material on the subject of Brazilian
+    <emph render="italic">
+     literatura de
+                    cordel
+    </emph>
+    collected by Sol Biderman. The collection also includes a play,
+                poems, and other writings by Biderman along with his collection of Chicano
+    <emph render="italic">
+     corridos
+    </emph>
+    and poems.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Sol Biderman; Purchase; 2006.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Judy Ng. Assistance with Portuguese language provided
+                by Karina Dos Santos and Ieda Wiarda.
+   </p>
+  </processinfo>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <list>
+    <item>
+     Brazilian woodcut prints collection (AFC 1999/033)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2011655396">
+      http://lccn.loc.gov/2011655396
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     David A. Taylor collection of literatura de cordel (AFC 2008/001)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2011655372">
+      http://lccn.loc.gov/2011655372
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     José Neistein collection of woodcuts and chapbooks from Brazil (AFC 2011/068)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2014655220">
+      http://lccn.loc.gov/2014655220
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     Henrique Vieira Leite collection of Brazilian literatura de cordel (AFC
+                    2007/025)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2008700391">
+      http://lccn.loc.gov/2008700391
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     Literatura de cordel Brazilian chapbook collection, 1930-2015 (AFC 1970/002)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2006700204">
+      http://lccn.loc.gov/2006700204
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     Mary C. Karasch collection of literatura de cordel, 1975-2007 (AFC 2011/023)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2011655394">
+      http://lccn.loc.gov/2011655394
+     </ref>
+     <lb>
+     </lb>
+    </item>
+    <item>
+     Some religious topoi in Anglo-American and Luso-Brazilian folk literature,
+                    1977 / Sol Biderman (AFC 1977/042)
+     <lb>
+     </lb>
+     <ref href="https://lccn.loc.gov/2009655427">
+      http://lccn.loc.gov/2009655427
+     </ref>
+    </item>
+   </list>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access to recordings and some fragile materials may
+                be restricted. To request materials, please contact the Folklife Reading Room at
+    <ref href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    A database containing bibliographic information for the chapbooks in the collection
+                is also available by contacting the Folklife Reading Room.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Sol Biderman collection (AFC 2006/019), American
+                Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Born in Dallas, Texas in 1936, Sol Biderman has taught literature at universities in
+                California; Genoa and Naples, Italy; and São Paulo, Brazil. He is the author of
+    <title>
+     <part>
+      Bring Me to the Banqueting House
+     </part>
+    </title>
+    and the plays
+    <title>
+     <part>
+      When Elvis Met Che in Denver
+     </part>
+    </title>
+    ,
+    <title>
+     <part>
+      To Kill a Mandarin
+     </part>
+    </title>
+    , and
+    <title>
+     <part>
+      Unabomber Hotel
+     </part>
+    </title>
+    .
+   </p>
+   <p>
+    Biderman's interest in the
+    <emph render="italic">
+     cordel
+    </emph>
+    tradition dates to his
+                tenure at the Faculdade de Filosofia de Marilia in São Paulo, Brazil in the 1960s,
+                when he first began to collect chapbooks and meet the
+    <emph render="italic">
+     cordelistas
+    </emph>
+    who wrote them. In 1970, he donated a substantial portion of
+                his chapbook collection to the Library of Congress (AFC 1970/002), which has
+                continued to acquire literatura de cordel through the Library of Congress Office in
+                Rio.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Sol Biderman Collection is comprised of Biderman's writings, research materials,
+                and primary sources for his studies of folk literature including 326 Brazilian
+                chapbooks published between 1958 and 2003, with related materials from other
+                countries, including Mexico and Italy.
+   </p>
+   <p>
+    The collection includes material on performance, narratives, and Brazilian chapbook
+                illustrating traditions. Three sound recordings, some of which were taped in
+                Pernambuco, Rio Grande do Norte, and Ceara in 1967-1968, capture the recitation of
+                the
+    <emph render="italic">
+     cordel
+    </emph>
+    poems "Beira Mar" and "Galope a Beira Mar."
+                Artifacts and xilogravuras in the collection include a selection of wooden boxes by
+                Guilherme de Faria (a.k.a. Alma Welt); a series of fourteen woodblocks depicting the
+                crucifixion of Christ by João Antonio de Barros; woodblock prints from the
+    <title>
+     <part>
+      Via Sacra
+     </part>
+    </title>
+    series by José Costa Leite; and selected photographs from Inocêncio da
+                Costa Niquel's (Mestre Noza) woodblock
+    <title>
+     <part>
+      Via Sacra
+     </part>
+    </title>
+    series, plus other woodblock prints and posters advertising Biderman's
+                plays. Chapbook authors include: João Martins de Athayde, Abraão Batista, J. (José)
+                Borges, Rodolfo Coelho Cavalcante, Guilherme de Faria, Raimundo Santa Helena,
+                Franklin de C. Machado, José Pacheco, Apolônio Alves dos Santos, and Minelvino
+                Francisco Silva, among others.
+   </p>
+   <p>
+    Biderman's writings, including a play, poems, and articles form part of the
+                Manuscripts series in the collection. Included are a selection of Chicano
+    <emph render="italic">
+     corridos
+    </emph>
+    and poems written by members of the Teatro
+                Campesino and students of the Universidad Autonomia de Mexico in 1970-1972. Student
+                poems were collected during the time Sol Biderman taught Chicano and English
+                Literature at San Jose State University.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is arranged by format into the following series: Series 1:
+                Manuscripts; Series 2: Sound Recordings; Series 3: Graphic Materials; Series 4:
+                Artifacts. The chapbooks, graphic images, and artifacts have been arranged by
+                author/creator last name and have been assigned unique numbers. Chapbooks originally
+                housed in wooden boxes crafted by Guilherme de Faria were later added to the end of
+                the chapbook range that was already alphabetized (EP001 to EP283), and can be found
+                in Boxes 6-7 (EP284 to EP326). For an inventory of chapbooks, please see Appendix A.
+                Published materials donated with the collection have been transferred to the Library
+                of Congress General Collections.
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="xseries01">
+      Series 1:
+                        Manuscripts
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="xseries02">
+      Series 2: Sound
+                        Recordings
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="xseries03">
+      Series 3: Graphic
+                        Materials
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="xseries04">
+      Series 4:
+                        Artifacts.
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20221020125954.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Barros, João Antonio de, 1935-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Biderman, Sol
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Faria, Guilherme de
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Leite, José Costa
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Niquel, Inocêncio da Costa, 1897-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      American poetry--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Brazilian poetry--Brazil--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Chapbooks, Brazilian--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Corridos--Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Crucifixion in art.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Brazil.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk literature, Brazilian--Brazil--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk poetry, Brazilian.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular literature--Brazil--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wood-engraving--Brazil.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Chapbooks.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Literatura de cordel.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Poems.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Wood blocks (printing blocks).
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Woodcuts.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="xseries01">
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aid.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       22 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Donor correspondence.
+       <lb>
+       </lb>
+       Email
+                            correspondence providing background information on the sound recordings
+                            and Chicano poems in the collection.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Labeled envelopes:
+                            Photocopies.
+       <lb>
+       </lb>
+       Photocopies of envelopes used to ship collection
+                            materials to the Library of Congress.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbook-related material: "O Cangaço na
+                            Cultura e na Realidade Brasileira"
+       <lb>
+       </lb>
+       Universidade de São Paulo course
+                            syllabus and bibliography,
+       <date>
+        1966.
+       </date>
+      </unittitle>
+      <unitdate>
+       1966.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       30 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbook-related material: "Verdedeira
+                            Historia de Imperatriz Porcina"
+       <lb>
+       </lb>
+       Photocopy of chapbook tale. 31
+                            pages.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbook-related material: "Casamento
+                            Infeliz;" "D. Inez de Castro;" "Prefeis de Bandarra;" and "Prefeis de
+                            Beato"
+       <lb>
+       </lb>
+       Photocopies of chapbook tales.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       74 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicano/Mexican-related material:
+                            Poems
+       <lb>
+       </lb>
+       Poems collected in 1970-1972 from members of Teatro Campesino
+                            and students of the Universidad Autonomia de Mexico.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       22 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicano/Mexican-related material:
+       <title>
+        <part>
+         El Corrido Mexicano
+        </part>
+       </title>
+       (excerpts)
+       <lb>
+       </lb>
+       Photocopied excerpts from the book edited by
+                            Vicente T. Mendoza.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicano/Mexican-related material:
+       <title>
+        <part>
+         El Corrido Mexicano
+        </part>
+       </title>
+       (excerpts)
+       <lb>
+       </lb>
+       Photocopied excerpts from another book of
+       <emph render="italic">
+        corridos
+       </emph>
+       .
+      </unittitle>
+      <physdesc encodinganalog="300">
+       61 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Published/bound materials: Chapbook covers
+                            (EP001-EP326)
+       <lb>
+       </lb>
+       Photocopies of covers of chapbooks in Boxes 3-7.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       168 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Published/bound materials:
+       <title>
+        <part>
+         Primeira Coletãnea de Cordel
+        </part>
+       </title>
+       ;
+       <title>
+        <part>
+         Morte e Vida Severina
+        </part>
+       </title>
+       ; and
+       <title>
+        <part>
+         O Chamado de Deus na Terra Pela Sagrada Eucaristia
+        </part>
+       </title>
+       .
+       <lb>
+       </lb>
+       Collection of five chapbooks by João Antonio de Barros;
+       <title>
+        <part>
+         The Death and Life of Severina
+        </part>
+       </title>
+       by João Cabral de Melo Neto; and
+       <title>
+        <part>
+         The Call of God in the Land of Christ
+        </part>
+       </title>
+       by Francisco de Andrade.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       242 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Published/bound materials:
+       <title>
+        <part>
+         Dicionário de Flores
+        </part>
+       </title>
+       ,
+       <title>
+        <part>
+         Folhas e Frutas
+        </part>
+       </title>
+       and
+       <title>
+        <part>
+         Tradições Paulistas Congadas
+        </part>
+       </title>
+       .
+       <lb>
+       </lb>
+       A dictionary of flowers, leaves, and fruits, no author,
+                            Livraria Teixeira, São Paulo, no date. A history of the Congadas
+                            festival honoring Saint Benedict, no author, Divisão de Turismo e
+                            Diversões Públicas, São Paulo,
+       <date>
+        1944.
+       </date>
+      </unittitle>
+      <unitdate>
+       1944.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       49 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Inventory separation list: photocopies of
+                            items sent to the Library of Congress' General Collections
+       <lb>
+       </lb>
+       List of
+                            books and photocopies of book covers.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       98 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings:
+       <title>
+        <part>
+         The Beatification of Carmen Miranda
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Play written by Sol Biderman, typescript.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       42 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings:
+       <title>
+        <part>
+         Catálogo de Literatura de Cordel
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Catalog of chapbooks held at the Faculdade de Filosofia, Ciências
+                            e Letras de Marília and at the Library of Congress by Sol Biderman,
+                            unpublished typescript,
+       <date>
+        1970.
+       </date>
+      </unittitle>
+      <unitdate>
+       1970.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       79 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings:
+       <title>
+        <part>
+         O Messias e o Fim do Mundo na Literatura de Cordel
+        </part>
+       </title>
+       <lb>
+       </lb>
+       <title>
+        <part>
+         Christ and the End of the World in Cordel Literature
+        </part>
+       </title>
+       by Sol Biderman, unpublished typescript,
+       <date>
+        1979.
+       </date>
+      </unittitle>
+      <unitdate>
+       1979.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       121 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings:
+       <title>
+        <part>
+         What Shall I Do In Summer? and other poems
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Signed book of poems by Sol Biderman, self published, Rio de
+                            Janeiro,
+       <date>
+        1961.
+       </date>
+      </unittitle>
+      <unitdate>
+       1961.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       39 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings:
+       <title>
+        <part>
+         Contos da Alma
+        </part>
+       </title>
+       <lb>
+       </lb>
+       <title>
+        <part>
+         Songs of Alma
+        </part>
+       </title>
+       by Alma Welt (pseudonym of Guilherme de Faria). One copy each
+                            of the unpublished and published manuscript, Editora Palavras e Gestos,
+                            São Paulo,
+       <date>
+        2004.
+       </date>
+      </unittitle>
+      <unitdate>
+       2004.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       175 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings.
+       <lb>
+       </lb>
+       Information on
+                            sound recordings in the collection.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Artifacts.
+       <lb>
+       </lb>
+       Information on artifacts
+                            in the collection.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbooks
+       <lb>
+       </lb>
+       EP001 – EP080.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbooks
+       <lb>
+       </lb>
+       EP081 – EP160.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbooks
+       <lb>
+       </lb>
+       EP161 – EP240.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbooks
+       <lb>
+       </lb>
+       EP241 – EP300.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chapbooks
+       <lb>
+       </lb>
+       EP301 – EP326.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="xseries02">
+      Series 2: Sound Recordings
+     </unittitle>
+    </did>
+    <odd>
+     <p>
+      Three sound recordings are original reel-to-reel 3-inch tapes; mono. double
+                        track; 7 1⁄2 ips. The tapes of Brazilian Literatura de cordel e cantadores
+                        nordestinos were recorded in Pernambuco, Rio Grande do Norte, and Ceara, in
+                        1967-1968. They capture the recitation of the cordel ballad rhythms "Beira
+                        Mar" and "Galope a Beira Mar" etc., and other rhythms no longer sung. Sung
+                        by Joaquim Batista de Sena, Jose Mota, Manuel Morais, Natal; Jose João dos
+                        Santos (who went by the pseudonym of Azulao), Rio; and Francisco Genuíno
+                        (Natal).
+     </p>
+    </odd>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 2006/019: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A (12 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       Selections:
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        1. Italian by unidentified person (probably a poem)
+       </item>
+       <item>
+        2. Dante Aleghiere's
+        <emph render="italic">
+         Vita Nova
+        </emph>
+        ,
+                                recited by a man in Italian
+       </item>
+       <item>
+        3. Song sung in Spanish by a woman
+       </item>
+      </list>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Side B (12.5 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       All in Italian by the same man from 1A.
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        1. Italian [poem; no title]
+       </item>
+       <item>
+        2.
+        <emph render="italic">
+         Portame il girasole
+        </emph>
+       </item>
+       <item>
+        3. [no title]
+       </item>
+       <item>
+        4.
+        <emph render="italic">
+         Languila
+        </emph>
+       </item>
+       <item>
+        5.
+        <emph render="italic">
+         Falsetto
+        </emph>
+       </item>
+       <item>
+        6.
+        <emph render="italic">
+         Da Mediterraneo
+        </emph>
+       </item>
+       <item>
+        7. Giuseppe Ungarette's Tutto ó Per tutto
+       </item>
+       <item>
+        8.
+        <emph render="italic">
+         Matino
+        </emph>
+       </item>
+       <item>
+        9.
+        <emph render="italic">
+         Nongridate Piu
+        </emph>
+       </item>
+       <item>
+        10.
+        <emph render="italic">
+         Pasararondile
+        </emph>
+       </item>
+       <item>
+        11. Francesco Petrarca [author] [no title]
+       </item>
+       <item>
+        12. [no title]
+       </item>
+      </list>
+     </odd>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 2006/019: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A (6 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       All in Portuguese
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        1. Short ballad [no title] by 2 men, probably João Firmino and
+                                Joāo Adriano
+       </item>
+       <item>
+        2. Galope à Beira Mar; João Firmino and Joāo Adriano,
+                                singers
+       </item>
+       <item>
+        3. Quadrăo na Beira Mar
+       </item>
+      </list>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Side B (6 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       All in Portuguese
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        1. Lyrics by Priest Geraldo
+       </item>
+       <item>
+        2. Singers [names unknown] sing music
+       </item>
+       <item>
+        3. Religious music: 3 parts of a Catholic mass
+       </item>
+       <item>
+        1) Entrance of the Priest / Beginning of Mass
+       </item>
+       <item>
+        2) Ofertōrio – Offertory
+       </item>
+       <item>
+        3) Comunhão – Communion
+       </item>
+      </list>
+     </odd>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 2006/019: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A (12 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       All in Portuguese
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        State: Ceará (Fortaleza)
+       </item>
+       <item>
+        Singers: João Firmino and Adriano
+       </item>
+       <item>
+        I. [No title]
+       </item>
+       <item>
+        II. Quadrão
+       </item>
+       <item>
+        III. Quadrão da Beira Mar
+       </item>
+      </list>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Side B 12 minutes)
+      </unittitle>
+     </did>
+     <odd>
+      <p>
+       All in Portuguese
+      </p>
+      <list listtype="unordered" mark="circle">
+       <item>
+        Martelo Agalopado (Decassílabo)
+       </item>
+       <item>
+        State: Ceará (Fortaleza)
+       </item>
+       <item>
+        Singers: Adriano and Firmino
+       </item>
+       <item>
+        I. Martelo Agalopado (Decassílabo)
+       </item>
+       <item>
+        II. Galope na Beira do Mar
+       </item>
+      </list>
+     </odd>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="xseries03">
+      Series 3: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints by Jota
+                            Barros
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR01
+      </unitid>
+      <physdesc encodinganalog="300">
+       Original print, black and white, 8 1⁄2 x 12
+                            1⁄4 in., signed 1982
+      </physdesc>
+      <unitid label="Item ID">
+       AFC 2006/019: GR02 (copy)
+      </unitid>
+      <physdesc encodinganalog="300">
+       Photocopy of Jota Barros image. See OS01 for
+                            original print.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints by Guilherme de
+                            Faria
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR03-GR20
+      </unitid>
+      <physdesc encodinganalog="300">
+       Original prints, black and white, 8 1⁄2 x 12
+                            1⁄4 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints by Guilherme de Faria
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR20 (copy 2) - GR37
+      </unitid>
+      <physdesc encodinganalog="300">
+       Original prints, black and white, 8 1⁄2 x 12
+                            1⁄4-in.
+      </physdesc>
+      <unitid label="Item ID">
+       AFC 2006/019: GR38 (copy)
+      </unitid>
+      <physdesc encodinganalog="300">
+       Cover of a chapbook authored by Guilherme de
+                            Faria. See OS01 for original drawing.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints by José Costa Leite
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR39-GR53
+      </unitid>
+      <physdesc encodinganalog="300">
+       Complete set of original prints from the
+                            illustrator's
+       <emph render="italic">
+        Via Sacra
+       </emph>
+       series, black and
+                            white, 6 x 8 1⁄2 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints by Mestre Noza (Niquel,
+                            Inocêncio da Costa, 1897-1983)
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR54-GR63
+      </unitid>
+      <physdesc encodinganalog="300">
+       Selected images from the illustrator's
+       <emph render="italic">
+        Via Sacra
+       </emph>
+       series. 10 photographic print
+                            images, black and white, 7 x 9 1⁄2 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblock prints, anonymous
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR64-GR68 and AFC 2006/019:
+                            PH01
+      </unitid>
+      <physdesc encodinganalog="300">
+       6 photographic print images, black and white,
+                            7 x 9 in.
+      </physdesc>
+      <unitid label="Item ID">
+       AFC 2006/019: GR69-GR70
+      </unitid>
+      <physdesc encodinganalog="300">
+       2 back-to-back print images
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       8/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Postcards.
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR71-GR73
+      </unitid>
+      <physdesc encodinganalog="300">
+       3 blank picture postcards
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle>
+       Print by Jota Barros
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR02
+      </unitid>
+      <physdesc>
+       1 16 1⁄4 x 20 in. black-and-white woodblock print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cover from chapbook authored by Guilherme
+                            de Faria
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR38
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 20 x 28 in. color drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Bring Me to the Banqueting House
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR74
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 8 1⁄2 x 11 1⁄2 in. black-and-white
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         When Elvis Met Che
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR75
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 11 3⁄4 x 16 1⁄2 in. black-and-white
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         To Kill a Mandarin
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR76
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 11 1⁄2 x 16 1⁄2 in. color poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Beatification of Carman Miranda
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR77
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 11 1⁄2 x 16 1⁄2 in. color poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Beatification of Carman Miranda: Carmen Pulls it Off
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: GR78
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 11 x 17 in. color poster
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="xseries04">
+      Series 4: Artifacts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woodblocks carved by Jota Barros, from
+                     the series on the crucifixion of Christ
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: AR1 – AR14
+      </unitid>
+      <physdesc encodinganalog="300">
+       14 woodblocks, 4 1⁄2 x 5 1⁄4 x 1⁄4 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Handmade wooden boxes by Guilherme de
+                            Faria
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2006/019: AR15 – AR18
+      </unitid>
+      <physdesc encodinganalog="300">
+       4 handmade wooden box containers, 8 x 6 x 3
+                            1⁄4 in.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    Appendix A: Inventory of Chapbooks
+   </head>
+   <p>
+    Indexed by the last name of the first author of the chapbook. The EP number is the
+                location of the chapbook in the collection containers.
+   </p>
+   <table>
+    <tgroup cols="2">
+     <colspec align="left" colname="1" colnum="1" colwidth="10*">
+     </colspec>
+     <colspec align="left" colname="2" colnum="2" colwidth="90*">
+     </colspec>
+     <thead>
+      <row>
+       <entry colname="1">
+        EP#
+       </entry>
+       <entry colname="2">
+        Author/Title
+       </entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>
+        001
+       </entry>
+       <entry>
+        Alencar, Antônio Sena, 1928- A carta que chegou ao céu. Como foi
+                                remetida e a resposta vinda do céu.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        002
+       </entry>
+       <entry>
+        Alencar, Antônio Sena, 1928- História da Cecília A Jovem
+                                Morta/Viva.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        078
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- A Volta de Lampião ao
+                                Inferno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        080
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Encontro do Presidente Tancredo
+                                com o Presidente Getúlio Vargas no Céu.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        081
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Jesus Cristo e o mestre dos
+                                Mestres.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        082
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- O Amor que venceu a
+                                Morte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        083
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- O mofino que virou
+                                valente.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        084
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- O sacrificio do amor ou o noivo
+                                ressussitado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        085
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Os Cabras de Lampião.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        086
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Os Conselhos do Destino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        087
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Os Dois Amigo Leais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        088
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Os três Conselhos da
+                                Sorte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        089
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Peleja de Zé do Caixão com o
+                                Diabo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        090
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Rufino, O Rei do Barulho.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        091
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- Zé Baiano, Vida e Morte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        092
+       </entry>
+       <entry>
+        Almeida Filho, Manoel d', 1914- De cangaceiro a Santo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        003
+       </entry>
+       <entry>
+        Almofala, Raimundo Ferreira de. Peleja de Raimundo Ferreira de
+                                Almofala com Mariano José da Silva / Cego Mariano.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        004
+       </entry>
+       <entry>
+        Amaral, Firmino Teixeira do. Peleja ao Cego Aderaldo com Zé
+                                Pretinho.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        005
+       </entry>
+       <entry>
+        Amaral, Firmino Teixeira do. Peleja do Cego Aderaldo com Zé
+                                Pretinho do Tucum.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        006
+       </entry>
+       <entry>
+        Amorim, Siqueira de. O Reino do Catimbó e o Caboclo
+                                Mamador.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        007
+       </entry>
+       <entry>
+        Arêda, Francisco Sales de. A pobresa em reboliço e os paus de
+                                arara do norte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        008
+       </entry>
+       <entry>
+        Arêda, Francisco Sales de. O Negrão do Paraná e o Seringueiro do
+                                Norte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        009
+       </entry>
+       <entry>
+        Athayde, Heitor. Historia de Barba Azul / Heitor Martins de
+                                Athayde.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        010
+       </entry>
+       <entry>
+        Athayde, João Martins de. A Batalha de Oliveiros com
+                                Ferrabraz.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        011
+       </entry>
+       <entry>
+        Athayde, João Martins de. A Prisão de Oliveiros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        012
+       </entry>
+       <entry>
+        Athayde, João Martins de. Discrição do Beijo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        013
+       </entry>
+       <entry>
+        Athayde, João Martins de. Entre o Amor e a Espada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        014
+       </entry>
+       <entry>
+        Athayde, João Martins de. História da Donzela Teodora.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        015
+       </entry>
+       <entry>
+        Athayde, João Martins de. História do Capitão do Navio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        016
+       </entry>
+       <entry>
+        Azevedo, Téofilo de. A Vida de Guimãres Rosa.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        017
+       </entry>
+       <entry>
+        Azevedo, Téofilo de. Zé Côco do Riachão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        018
+       </entry>
+       <entry>
+        Barros, Homero do Rêgo. O Carnaval de Pernambuco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        019
+       </entry>
+       <entry>
+        Barros, Homero do Rêgo. Visita do Santo Papa ao Recife.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        020
+       </entry>
+       <entry>
+        Barros, João Antonio de, 1935- Lampião e Maria Bonita no Paraíso.
+                                Tentados por Satanás / Jotabarros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        021
+       </entry>
+       <entry>
+        Barros, João Antonio de, 1935- Peleja de Guaiatã de Coqueiro com
+                                Sebasto do Rio Grande / Jotabarros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        022
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918. A Batalha de Oliveiros com
+                                Ferrabrás, A Prisão de Oliveiros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        023
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918. Estória do Reino da Pedra
+                                Fina, Moizaniel e Angeltrina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        024
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918 História da Donzela
+                                Teodora.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        025
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918. Juvenal e o Dragão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        026
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918. Os Martírios de Genoveva.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        027
+       </entry>
+       <entry>
+        Barros, Leandro Gomes de, 1865-1918. Os Sofrimentos de
+                                Alzira.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        028
+       </entry>
+       <entry>
+        Batista, Abraão. A morte de Padre Silvino e o significado da fé,
+                                ou do amor.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        029
+       </entry>
+       <entry>
+        Batista, Abraão. A Vingança do diabo. depois da Apresentação de
+                                Chacrinha no Inferno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        030
+       </entry>
+       <entry>
+        Batista, Abraão. As Profecias do Padre Cícero.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        031
+       </entry>
+       <entry>
+        Batista, Abraão. As Professias Sobre o Papa e o fim do
+                                Mundo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        032
+       </entry>
+       <entry>
+        Batista, Abraão. Nascimento, Vida e Morte de uma Coroa.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        033
+       </entry>
+       <entry>
+        Batista, Abraão. Uma apresentação de Chacrinha no
+                                inferno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        034
+       </entry>
+       <entry>
+        Boccaccio, Giovanni, 1313-1375. A Mulher que queria ser
+                                Égua.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        035
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- A chegada da prostituta no céu / J.
+                                Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        036
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- A descrição dos cornos / J.
+                                Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        037
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- A desventura de um corno ganancioso / J.
+                                Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        038
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- A Moça que virou jumenta porque falou de
+                                topless com Frei Damião / J. Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        039
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- Como evitar a Aids / J. Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        040
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- Domiciano e Rosete ou O viajante da
+                                sorte / J. Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        041
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- Exemplo do filho que matou os Pais para
+                                ficar com a aposentadoria / J. Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        042
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- Nazaré e Damião, o triunfo do amor entre
+                                a vingança e a morte / J. Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        043
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- O valor que o peido tem / J.
+                                Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        044
+       </entry>
+       <entry>
+        Borges, J. (José), 1935- Luiz, José. Dicionario da Amizade / J.
+                                Borges.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        247
+       </entry>
+       <entry>
+        Borges, Severino. Peleja de Severino Borges com Patativa do
+                                Norte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        248
+       </entry>
+       <entry>
+        Borges, Severino. Peleja de Severino Borges com Patativa do
+                                Norte.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        045
+       </entry>
+       <entry>
+        Brandão, Sátiro Xavier. A triste sorte de Jovelina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        046
+       </entry>
+       <entry>
+        Brandão, Sátiro Xavier. O exemplo da Mocidade.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        229
+       </entry>
+       <entry>
+        Caboclo e Silva, Manoel, 1916- Jesus, São Pedro e o Ferreiro Rei
+                                dos Jogadores.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        230
+       </entry>
+       <entry>
+        Caboclo e Silva, Manoel, 1916- O Casamento da Porca com Zé da
+                                Lasca.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        231
+       </entry>
+       <entry>
+        Caboclo e Silva, Manoel, 1916- O Valente Cascavel do Sertão
+                                Alagoano.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        232
+       </entry>
+       <entry>
+        Caboclo e Silva, Manoel, 1916- Manassés e Marilí Entre a Luta e o
+                                Amor.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        047
+       </entry>
+       <entry>
+        Cabral, João Firmino, 1940- O Monstro sem Alma.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        048
+       </entry>
+       <entry>
+        Câmara, Teodoro Ferraz da. História de Rosa de Milão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        050
+       </entry>
+       <entry>
+        Campos, Francisco de Souza. As Aventuas de Carlos e o Amor de
+                                Zulmirinha.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        051
+       </entry>
+       <entry>
+        Caretta, Walter José. Um amor e dois destinos.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        052
+       </entry>
+       <entry>
+        Carioca, Inacio. Romance de João Cambadinho e a Princesa do reino
+                                de Mira-Mar.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        054
+       </entry>
+       <entry>
+        Carmo, Luiz Ferreira do. A Morte que abalou o mundo. O
+                                Assassinato do Presidente Kennedy.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        055
+       </entry>
+       <entry>
+        Carvalho, Elias A. de. Folheto sobre o 1.o congresso dos poetas
+                                da lietratura de cordel.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        056
+       </entry>
+       <entry>
+        Carvalho, João Gomes de. Na Marcha dos Tempos.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        057
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. A Chegada de Lampião no
+                                Céu / Trovador B.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        058
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. A crueldade dos donos de
+                                terras para com os pobres lavradores / Trovador B.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        059
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. A Moça que Bateu na Mãe e
+                                Virou Cachorra / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        060
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. A Vida do Santo Papa João
+                                Paulo II / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        061
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. ABC da Minha Terra /
+                                Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        062
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Antonio Conselheiro O
+                                Santo Guerreiro de / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        063
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Cuíca de Santo Amaro. O
+                                Poeta Popular que Conheci / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        064
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Maceió do Tempo do Major
+                                Bonifácio / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        065
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. O Encontro de Rodolfo
+                                Cavalcante com Lampião Virgulino / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        066
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. O filho que Levantou Falso
+                                á Mãe e Virou Bicho / Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        067
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Os Canarinhos de Deus /
+                                Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        068
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Senhor Deus dos Exilados /
+                                Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        069
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986. Tudo na Terra tem Fim /
+                                Trovador Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        070
+       </entry>
+       <entry>
+        Cavalcante, Rodolfo Coelho, 1919-1986; Ramos, José Crispim. A
+                                Peleja de Rodolfo Cavalcante com Caboquinho da Bahia / Trovador
+                                Brasileiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        072
+       </entry>
+       <entry>
+        Cavenaghi, Hélio, 1927-, ed. Festa da Bicharada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        073
+       </entry>
+       <entry>
+        Cavenaghi, Hélio, 1927-, ed. O Exemplo do Menino que Falou no
+                                Ventre da Mãe.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        074
+       </entry>
+       <entry>
+        Cordeiro, José. Estória do Reino da Pedra Azul (Grande Romance de
+                                Luta e Amôr, Encantos e Mistérios).
+       </entry>
+      </row>
+      <row>
+       <entry>
+        075
+       </entry>
+       <entry>
+        Costa, Luiz da. História do Papagaio Misterioso e os Sofrimentos
+                                de Jobão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        076
+       </entry>
+       <entry>
+        Cristo Rei, João de, 1900-1983. Profecia de Frei Vidal da Penha
+                                para o ano 1966.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        077
+       </entry>
+       <entry>
+        Cristo Rei, João de, 1900-1983. Um Sonho Misterioso de Padrinho
+                                Cícero Romão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        071
+       </entry>
+       <entry>
+        Dila, José Cavalcanti e Ferreira. Dila o Ex-Cangaceiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        094
+       </entry>
+       <entry>
+        Evangelista, João Lucas. As Aventuras de João
+                                Desmantelado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        296
+       </entry>
+       <entry>
+        Faria, Guilherme de. Máximas do Trovador Sertanejo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        322
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Candiléia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        316
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Dívida Herdada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        297
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Doralice.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        323
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Dupla Sertaneja ou "A Valsa de
+                                Mefisto".
+       </entry>
+      </row>
+      <row>
+       <entry>
+        298
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Encantada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        299
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Fauna da Cratera (Para as
+                                Crianças de Vargem Grande).
+       </entry>
+      </row>
+      <row>
+       <entry>
+        284
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Jaqueira Maldita.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        285
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Justiça Seca.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        300
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Noite de Guarda.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        286
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Noiva Malfadada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        287
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Teia Cordel.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        324
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Tocaia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        317
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Travessia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        288
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance da Vidência.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        318
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance das Três Léguas.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        301
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Alcoviteiro do Rei.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        289
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Bambúrrio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        302
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Bobo da Aldeia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        303
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Cavalo de Pau.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        304
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Cordelista.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        319
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Coronel e a Donzela ou Conto de
+                                Fadas do Sertão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        305
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Cunhado Inesperado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        290
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Diabo da Borda da Mata.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        306
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Laço de Amor Eterno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        307
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Leitâozinho.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        291
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Narciso do Sertão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        308
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Padre Apaixonado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        292
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Palhaço.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        293
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Rei da Grota.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        309
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Retorno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        325
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Tuím ou "O Legado da Gerusa."
+       </entry>
+      </row>
+      <row>
+       <entry>
+        320
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance do Vaqueiro Rei.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        310
+       </entry>
+       <entry>
+        Faria, Guilherme de. Romance dos Tipos do Sertão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        311
+       </entry>
+       <entry>
+        Faria, Guilherme de. Quadras e Quintas do Trovador
+                                Sertanejo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        312
+       </entry>
+       <entry>
+        Faria, Guilherme de. Sonetos da Sertaneja.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        313
+       </entry>
+       <entry>
+        Faria, Guilherme de. Um Outro Pavão Misterioso.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        321
+       </entry>
+       <entry>
+        Faria, Guilherme de. Trovas Pícaras.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        326
+       </entry>
+       <entry>
+        Faria, Guilherme de. Trovas Pícaras III.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        095
+       </entry>
+       <entry>
+        Felipe, Cícero. O Mundo em Desespero ou a Corrução de Hoje em
+                                Dia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        096
+       </entry>
+       <entry>
+        Ferreira, Barros. O Cavaleiro sem Igual.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        099
+       </entry>
+       <entry>
+        Freire, João Lopes. O menor Abandonado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        107
+       </entry>
+       <entry>
+        Jardim, Roberto. Verses by
+        <emph render="italic">
+         José Roberto
+                                    Telarolli
+        </emph>
+        . Meu nome é Zé.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        108
+       </entry>
+       <entry>
+        Leite, José Costa. As Proezas de Zé Peitica.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        109
+       </entry>
+       <entry>
+        Leite, José Costa. Narciso e Iracema: O Rei dos Romances.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        110
+       </entry>
+       <entry>
+        Lima, João Ferreira de. Almanaque de Pernambuco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        111
+       </entry>
+       <entry>
+        Lima, João Ferreira de. História de Mariquinha e José de Souza
+                                Leão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        112
+       </entry>
+       <entry>
+        Lima, João Ferreira de. O Pinto Pelado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        194
+       </entry>
+       <entry>
+        Lima, João Severiano. A Criança que Nasceu Com as Únhas Pintadas
+                                (Falou na Hora que Nasceu) / João Severiano.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        113
+       </entry>
+       <entry>
+        Lima, José Carlos de. Mudança do Pobre e Casa Alugada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        114
+       </entry>
+       <entry>
+        Lima, José Carlos de. Vicente e Branca Flôr.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        115
+       </entry>
+       <entry>
+        Lima, Silvino Pirauá de, 1848-1913. História de Zezinho e
+                                Mariquinha.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        116
+       </entry>
+       <entry>
+        Lima, Silvino Pirauá de, 1848-1913. O Capitão do Navio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        117
+       </entry>
+       <entry>
+        Lima, Toni de. O Efeito da Cachaça.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        118
+       </entry>
+       <entry>
+        Lima, Toni de. O Ultimo Aviso do Padre Cicero ou a Visão de um
+                                Poéta.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        119
+       </entry>
+       <entry>
+        Lira, Luiz Rodrigues de. O Rapaz que Virou Bicho Porque Surrou a
+                                Mãe Dele / Luiz de Lira.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        120
+       </entry>
+       <entry>
+        Macedo, Téo. O Grande Encontro em París de Nazaré Pereira com
+                                Luiz.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        130
+       </entry>
+       <entry>
+        Machado, Franklin de C. A Formiga e a Cigarra: A Velha e Nova
+                                Fábulas / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        131
+       </entry>
+       <entry>
+        Machado, Franklin de C. A Volta do Pavão Misterioso / Franklin
+                                Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        132
+       </entry>
+       <entry>
+        Machado, Franklin de C. Carta de um Pau-de Arara--Apaixonado pra
+                                sua Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        133
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Casamento da Raposa Com o Cão. Noiva /
+                                Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        134
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Crioulo Doido que era--Um Poeta
+                                Popular. Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        135
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Frio de São Paulo Está Desmorlaizado.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        136
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Japonês que Ficou Roxo Pela Mulata.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        137
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Papa vem dar um Santo ao Brasil: São
+                                José de Anchieta. Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        138
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Papai Noel do Filinho Cordel. Noiva /
+                                Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        139
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Parto Artificial da Cabocla Liberada.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        140
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Santo Jumento No Reino dos Céus. Noiva
+                                / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        141
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Urubu e o Cágado com Seus Dois Casos.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        142
+       </entry>
+       <entry>
+        Machado, Franklin de C. O Vaqueiro que se Tornou Astronauta.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        143
+       </entry>
+       <entry>
+        Machado, Franklin de C. Testamento de Judas pela Semana Santa.
+                                Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        144
+       </entry>
+       <entry>
+        Machado, Franklin de C. Tubarões Queriam Nadar na Lagoa de
+                                Pituaçu Noiva / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        145
+       </entry>
+       <entry>
+        Machado, Franklin de C. Um Marco Feito a Maxado Nordestino Noiva
+                                / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        146
+       </entry>
+       <entry>
+        Machado, Franklin de C. Vaquejada de Sete Peões prá Derrubar uma
+                                Mineira / Franklin Maxado Nordestino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        258
+       </entry>
+       <entry>
+        Marques Sobrinho, José. A Alegria dos Velhos e o Valor do
+                                Síndicato.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        124
+       </entry>
+       <entry>
+        Melo, Vicente Vitorino de. Discussão dum Crente com um
+                                Cachaceiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        125
+       </entry>
+       <entry>
+        Montalvão, Reinaldos de. História do Carlos Magno.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        126
+       </entry>
+       <entry>
+        Moreira, Flávio Fernandes. Poços da Morte do Bairro
+                                Pantanal.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        128
+       </entry>
+       <entry>
+        Neto, Manoel Barauna. História Completa e Rimada do Herói João de
+                                Calais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        129
+       </entry>
+       <entry>
+        Nobre, João Damasceno. O Quengo de Pedro Malazarte no Fazendeiro
+                                / Amador Silvestre.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        152
+       </entry>
+       <entry>
+        Oliveira, Cosme Damião Vieira de, 1938- A Tragédia no Fundo do
+                                Mar e o Assassinato do Camarão / Catapora.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        148
+       </entry>
+       <entry>
+        Oliveira, Severino Gonçalves de. A Profecia de Frei Bernando
+                                Descrevendo os Sinaes do Fim da Era.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        149
+       </entry>
+       <entry>
+        Oliveira, Severino Gonçalves de. Cidrão e Helena.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        150
+       </entry>
+       <entry>
+        Oliveira, Severino Gonçalves de. O Menino que Nasceu
+                                Barbado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        151
+       </entry>
+       <entry>
+        Oliveira, Severino Gonçalves de; Arêda, Francisco Sales de. As
+                                Perguntas do Rei e as Respostas de Camões.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        127
+       </entry>
+       <entry>
+        Oliveira Neto, José, 1933- Saudação a Jovem-Guarda, Dicionário
+                                dos Namorados.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        153
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. A Beata que viu meu Padrinho Cícero
+                                Sexta-feira da Paixão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        155
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. A Intriga do Cachorro Com o
+                                Gato.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        156
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. A Mulher No Lugar do Homem.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        157
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. A Propaganda de um Matuto com um Balaio
+                                de Maxixe.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        158
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. Debate de Lampião com São
+                                Pedro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        159
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. Estoria de Grinaura e
+                                Sebastião.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        160
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. História de Vicente e Josina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        161
+       </entry>
+       <entry>
+        Pacheco, José, 1890-1954. Os Sofrimentos de Jesus Cristo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        162
+       </entry>
+       <entry>
+        Panelas, Oliveira de. Interrogação / Oliveira Francisco de
+                                Panelas.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        163
+       </entry>
+       <entry>
+        Parafuso, João. O Encontro da Velha que Vendia Tobaco com o
+                                Matuto que Vendia Fumo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        164
+       </entry>
+       <entry>
+        Pequeno, José. O Depoimento que o Matuto deu ao Delegado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        259
+       </entry>
+       <entry>
+        Pereira Sobrinho, Manoel, 1918- A Princesa do Reino da Pedra
+                                Fina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        165
+       </entry>
+       <entry>
+        Pontes, José Alves. O Assassinato de João Caetano e a Vingança do
+                                seu Filho Oliveiros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        166
+       </entry>
+       <entry>
+        Rei, H. As Duas Mulheres Valentes.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        167
+       </entry>
+       <entry>
+        Rei, H. Estoria da Princesa Cristina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        121
+       </entry>
+       <entry>
+        Resende, José Camelo de Melo. As Grandes Aventuras de Armando e
+                                Rosa. Conhecidos por "Côco Verde 'e' Melancia".
+       </entry>
+      </row>
+      <row>
+       <entry>
+        122
+       </entry>
+       <entry>
+        Resende, José Camelo de Melo. Côco Verde e Melancia ou Armando e
+                                Rosa.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        123
+       </entry>
+       <entry>
+        Resende, José Camelo de Melo. Entre o Amor e a Espada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        049
+       </entry>
+       <entry>
+        Resende, José Camelo de Melo. Estória de Aprígio Coutinho e
+                                Neusa.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        093
+       </entry>
+       <entry>
+        Romero Escalada, Roberto. Los Misterios del Sertão en el Arte de
+                                los Grabadores Populares del Nordeste de Brasil.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        169
+       </entry>
+       <entry>
+        Rouxinol, Pedro. Rei Orgulhoso na Hora da Refeição.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        170
+       </entry>
+       <entry>
+        Salles, Chico. Nordestino Carioca: A Saga do Cordel.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        101
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Devastar O Brasil?....Aqui pra
+                                Vocês!.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        102
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Malvinas.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        103
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Seios Nus.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        104
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Shakespeare, Cultura Inglesa.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        105
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Tragédia de Cubatão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        106
+       </entry>
+       <entry>
+        Santa Helena, Raimundo. Tristão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        171
+       </entry>
+       <entry>
+        Santos, Antônio Teodoro dos. O Jogador na Igreja.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        172
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. A Briga de Chico Torto com Salustrino
+                                Pancada.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        173
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. As Grandes Enchentes de 1979 No Norte
+                                Fluminense do Rio de Janeiro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        174
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. Bom Tempo Não Volta Mais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        175
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. História de Jeca Tatu.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        176
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Divórcio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        177
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Homem que Veio do Céu.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        178
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Jogador que Quebrou as Imagens,
+                                Porque não Ganhou no Bicho.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        179
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Menino da Porteira.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        180
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Menino do Pião.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        181
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. O Poeta e a Cigana.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        182
+       </entry>
+       <entry>
+        Santos, Apolônio Alves dos. Visita do Santa Papa ao Brasil e Sua
+                                Palestra com o Presidente João Figueiredo em 30 de Junho de 1980.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        183
+       </entry>
+       <entry>
+        Santos, Enéias Tavares, 1931- A Briga de Dois Matutos por causa
+                                de um / Enéias Tavares dos Santos.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        184
+       </entry>
+       <entry>
+        Santos, Enéias Tavares, 1931- A Verdadeira História de Chico
+                                Xavier/ Enéias Tavares dos Santos.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        188
+       </entry>
+       <entry>
+        Santos, José João dos, 1932- Um Drama nas Selvas ou Zé Vicente e
+                                / Azulão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        185
+       </entry>
+       <entry>
+        Santos, Manoel Camilo dos, 1905- A Estrêlla da Poesia: O Romance
+                                do Pavão Misterioso.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        186
+       </entry>
+       <entry>
+        Santos, Romildo. O Terrivel Castigo Para os Ladrões que Foram
+                                Roubar Frei Damião.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        187
+       </entry>
+       <entry>
+        Santos, Valeriano Felix dos. A Mulher que se Casou Dezoito Vêzes
+                                ....
+       </entry>
+      </row>
+      <row>
+       <entry>
+        189
+       </entry>
+       <entry>
+        Sena, Joaquim Batista de. A Filha Noiva do Pai ou Amôr, Culpa e
+                                Perdão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        190
+       </entry>
+       <entry>
+        Sena, Joaquim Batista de. A Volta de Jânio Quadros.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        191
+       </entry>
+       <entry>
+        Sena, Joaquim Batista de. História do Breve fim do mundo...juízo
+                                da carta de Santa Lúcia e as profecias do Padre Julio Maria.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        192
+       </entry>
+       <entry>
+        Sena, Joaquim Batista de. O Lobisomem do Alto do Bode.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        193
+       </entry>
+       <entry>
+        Sena, Joaquim Batista de. Pecado de Adão e Eva.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        053
+       </entry>
+       <entry>
+        Severino Carlos. A Imagem num Caranguejo ou a Voz da
+                                Profecia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        195
+       </entry>
+       <entry>
+        Severino José, 1932- Acidentes no Trabalho no Ramo da
+                                Construção.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        197
+       </entry>
+       <entry>
+        Silva, Antônio Eugênio da. O Cavaleiro Roldão.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        198
+       </entry>
+       <entry>
+        Silva, Antônio Ferreira da; Guriatan. Rogaciano e
+                                Angelita.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        199
+       </entry>
+       <entry>
+        Silva, Caetano Cosme da. O Assassino da Honra ou a Louca no
+                                Jardim.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        200
+       </entry>
+       <entry>
+        Silva, Cícero Vieira da. A Escrava Nordestina / Moco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        201
+       </entry>
+       <entry>
+        Silva, Cícero Vieira da. A Filha de um Pirata Entre a Espada e a
+                                Sorte / Moco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        202
+       </entry>
+       <entry>
+        Silva, Cícero Vieira da. Discussão de Mocó e Azulão / Moco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        203
+       </entry>
+       <entry>
+        Silva, Cícero Vieira da. Os Sofrimentos de Eliza ou os Prantos de
+                                uma Espôsa / Moco.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        204
+       </entry>
+       <entry>
+        Silva, Delarme Monteiro. O Enjeitado de Orion.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        205
+       </entry>
+       <entry>
+        Silva, Expedito Ferreira da, 1933- A Visita de sua Santidade o
+                                Papo João Paulo II ao Rio e ao Brasil.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        206
+       </entry>
+       <entry>
+        Silva, Expedito Ferreira da, 1933- Os Clamores da
+                                Carestia.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        207
+       </entry>
+       <entry>
+        Silva, Expedito Ferreira da, 1933- Silva, Expedíto F.. A Volta do
+                                Padre Cícero Romão Batísta.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        208
+       </entry>
+       <entry>
+        Silva, Expedito Ferreira da, 1933- Silva, Expedíto F.. O Marido
+                                que Trocou a Mulher por uma Garrafa de Aguardente.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        209
+       </entry>
+       <entry>
+        Silva, Expedito Sebastião da, 1928-1997. O Prêmio da
+                                Inocência.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        210
+       </entry>
+       <entry>
+        Silva, Geraldo Rodrigues da. Meu Prédio é Muito Lindo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        211
+       </entry>
+       <entry>
+        Silva, João José da. A Fera de Petrolina.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        212
+       </entry>
+       <entry>
+        Silva, João José da. O Boiadeiro Valente.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        213
+       </entry>
+       <entry>
+        Silva, João José da. O Castelo do Diabo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        214
+       </entry>
+       <entry>
+        Silva, João José da. O Triunfo da Pequena.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        215
+       </entry>
+       <entry>
+        Silva, João José da. Palavras do Padre Cícero Sobre a Guerra
+                                Nucleal.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        216
+       </entry>
+       <entry>
+        Silva, João José da. Valdemar e Irene.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        097
+       </entry>
+       <entry>
+        Silva, João Melquíades Ferreira da. Historia do Valente Sertanejo
+                                Zé Garcia / João Melquíades Ferreira.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        098
+       </entry>
+       <entry>
+        Silva, João Melquíades Ferreira da. Ferreira, Romance do Pavão
+                                Mysterioso História Completa / João Melquíades Ferreira.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        217
+       </entry>
+       <entry>
+        Silva, João Vicente da. Exemplo da Moça que Virou Cobra Porque
+                                Falou do Padre Cícero.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        218
+       </entry>
+       <entry>
+        Silva, José Bernardo da. O Nascimento do Reverendo Padre Cicero
+                                Romão Batista.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        219
+       </entry>
+       <entry>
+        Silva, José Bernardo da. A Pranteada Morte do Rvdmo. Padre Cícero
+                                Romão Batista.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        220
+       </entry>
+       <entry>
+        Silva, José Bernardo da. Historia de de Mariana e o Capitão do
+                                Navio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        221
+       </entry>
+       <entry>
+        Silva, José Bernardo da. História do Roberto do Diabo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        222
+       </entry>
+       <entry>
+        Silva, José Bernardo da. O Casamento de Lusbel: E os Sofrimentos
+                                de Maria Alice e seu Triunfo Ajudado Pelo seu Anjo da Grarda -- 1o
+                                volume.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        223
+       </entry>
+       <entry>
+        Silva, José Bernardo da. O Casamento de Lusbel: E os Sofrimentos
+                                de Maria Alice e seu Triunfo Ajudado Pelo seu Anjo da Grarda -- 2o
+                                volume.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        224
+       </entry>
+       <entry>
+        Silva, José Bernardo da. O Defensor da Honra ou João Miguel e
+                                Mariline.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        225
+       </entry>
+       <entry>
+        Silva, José Bernardo da. O Nascimento do Pe. Cícero Romão
+                                Batista.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        226
+       </entry>
+       <entry>
+        Silva, José Bernardo da. Pedrinho e Julinha.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        227
+       </entry>
+       <entry>
+        Silva, José Bernardo da. Romance de João de Calae.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        228
+       </entry>
+       <entry>
+        Silva, José Bernardo da. Um Grande Fenômeno no Maranhão. Uma
+                                Porca que teve 14 porcos e um elefante.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        233
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. A Discussão de um
+                                Protestante com um Romeireo do Bom Jesus / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        234
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. A Peleja Real de Pedro e
+                                João Bandeira no Congresso de Repentistas em Brasilia / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        235
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. A Raiva dos Inimigos do
+                                Papa João Paulo II com sua Chegada no Brasil / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        236
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. A Vida de S. Cristóvão / O
+                                Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        237
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. Antônio Conselheiro e a
+                                Guerra de Canudos / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        238
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. História do Gigante
+                                Quebra-Osso e o Castelo Mal-Assombrado / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        239
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. História do Valente João
+                                Acaba-Mundo e a Serpente Negra / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        240
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. História do Valente
+                                Joaquim Azougue o Terror da Zona de Jacobina / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        241
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999.O Almôço de Zé Grilo na
+                                Casa de Chico Cancãozinho / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        242
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. O Encontro de 2 Faladores:
+                                Minelvino Fracisco Silva e Lucilio Miranda Bastos / O Trovador
+                                Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        243
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. O Encontro de Lampião com
+                                o Padre Cícero no Ceu / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        244
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. O Gigante da Montanha
+                                Assombrosa / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        245
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. O Papa do Diabo que
+                                Apareceu no Estado de / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        246
+       </entry>
+       <entry>
+        Silva, Minelvino Francisco, 1926-1999. Uma Explicação aos
+                                Romeiros e a mudança das Promessas / O Trovador Apóstolo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        249
+       </entry>
+       <entry>
+        Silva, Severino Cesãrio da. A Velhice Dando Adeus a
+                                Mocidade.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        250
+       </entry>
+       <entry>
+        Silva, Severino Milanês da. Estoria das Três Princesas
+                                Encantadas.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        251
+       </entry>
+       <entry>
+        Silva, Severino Milanês da. Estória de Rosa e Maximiano.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        196
+       </entry>
+       <entry>
+        Silva, Severino Milanês da‏. História do Valentão do Mundo /
+                                Severino Milanez.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        252
+       </entry>
+       <entry>
+        Silva, Severino Milanês da. O Príicipe do Barro Branco e a
+                                Princesa do Vai Não Torna.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        253
+       </entry>
+       <entry>
+        Soares, José, 1914-1981. A Cobra de 2 Pés e a Porca que deu Cria
+                                a um Cachorro / Poeta Reporter.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        254
+       </entry>
+       <entry>
+        Soares, José, 1914-1981. Feitos da Revolução e Reformas Políticas
+                                / Poeta Reporter.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        255
+       </entry>
+       <entry>
+        Soares, José, 1914-1981. Kung-fu e Satanás Arrancando uma Botija
+                                / Poeta Reporter.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        256
+       </entry>
+       <entry>
+        Soares, José, 1914-1981. O Juda que Falou / Poeta
+                                Reporter.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        257
+       </entry>
+       <entry>
+        Soares, José, 1914-1981. Os Milagres de Frei Damião / Poeta
+                                Reporter.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        260
+       </entry>
+       <entry>
+        Souza, Arlindo Pinto de, 1927- As Astúcias de Camões.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        261
+       </entry>
+       <entry>
+        Souza, Paulo Teixeira de, 1928- O Milagre da Medicina Através da
+                                Caridade.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        262
+       </entry>
+       <entry>
+        Souza, Paulo Teixeira de, 1928- Vida, Paixão e Morte de Mané
+                                Garrincha: A Alegria do Povo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        263
+       </entry>
+       <entry>
+        Tellaroli, José Roberto. A Rebelão do Diabo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        264
+       </entry>
+       <entry>
+        Teodoro, Lourdes, 1946- Fabiano Teimosia / Maria de Lourdes
+                                Teodoro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        265
+       </entry>
+       <entry>
+        Torres, José Antonio. O Velho que Enganou o Diabo /
+        <title>
+         <part>
+          Zé Catolé
+         </part>
+        </title>
+        .
+       </entry>
+      </row>
+      <row>
+       <entry>
+        100
+       </entry>
+       <entry>
+        Valdeck de Garanhuns. Tem Papa na Área ....
+       </entry>
+      </row>
+      <row>
+       <entry>
+        266
+       </entry>
+       <entry>
+        Venâncio. Brasil de Todos os Povos.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        267
+       </entry>
+       <entry>
+        Viana, Raví-Raimundo. Visita do Papa ao Brasil.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        147
+       </entry>
+       <entry>
+        Vila Nova, José. O Sertanejo Antônio Cobra Choca.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        294
+       </entry>
+       <entry>
+        Welt, Alma. Hai-Kais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        295
+       </entry>
+       <entry>
+        Welt, Alma. Sonetos Secretos (Sonetos Narrativos).
+       </entry>
+      </row>
+      <row>
+       <entry>
+        314
+       </entry>
+       <entry>
+        Welt, Alma. Ciranda dos Animais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        315
+       </entry>
+       <entry>
+        Welt, Alma. O Circo (poemas).
+       </entry>
+      </row>
+      <row>
+       <entry>
+        268
+       </entry>
+       <entry>
+        Zenio, Francisco, 1955- As Bravuras de um Herói e o Triunfo do
+                                Amor.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        269
+       </entry>
+       <entry>
+        Zenio, Francisco, 1955- Ribeiro, Edgley. A Devassidão do
+                                Mundo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        269
+       </entry>
+       <entry>
+        Zenio, Francisco, 1955- Ribeiro, Edgley. A Devassidão do
+                                Mundo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        270
+       </entry>
+       <entry>
+        Zenio, Francisco, 1955- Ribeiro, Edgley. A Vida no Outro
+                                Mundo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        168
+       </entry>
+       <entry>
+        Zenio, Francisco, 1955- O Reino do Principe Ribamar da Beira /
+                                autores: Edgley Ribeiro; Francisco Zenio.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        271
+       </entry>
+       <entry>
+        Zepraxédi, 1916- A Mãe do Deputado.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        272
+       </entry>
+       <entry>
+        Zepraxédi, 1916- Um Cangaceiro Diferente, Antônio
+                                Silvino.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        273
+       </entry>
+       <entry>
+        n/a. História da Imperatriz Porcina. Mulher de Lobório, Imperador
+                                de Roma.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        274
+       </entry>
+       <entry>
+        n/a. História de Dona Inês de Castro.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        275
+       </entry>
+       <entry>
+        n/a. História do Célebre Navegador João de Calais.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        276
+       </entry>
+       <entry>
+        n/a. História do Imperador Carlos Magno e dos Doze Pares de
+                                França.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        277
+       </entry>
+       <entry>
+        n/a. História Jurandir Salvarani O Carcará de Itapevi.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        278
+       </entry>
+       <entry>
+        n/a. O Fim do Mundo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        279
+       </entry>
+       <entry>
+        n/a. O Messias Prometido.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        280
+       </entry>
+       <entry>
+        n/a. Oração de Santo Lenho de N. Senhor Jesus Cristo.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        281
+       </entry>
+       <entry>
+        n/a. Os Passados de Gregório.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        281
+       </entry>
+       <entry>
+        n/a. Os Passados de Gregório.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        282
+       </entry>
+       <entry>
+        n/a. Peleja de Minelvino Francisco Silva com Manoel Peixoto
+                                Almeida.
+       </entry>
+      </row>
+      <row>
+       <entry>
+        283
+       </entry>
+       <entry>
+        n/a. Roberto Il Diavolo con Stenterello: Cantastorie, condannato
+                                alla forca, scudiero per caso e tormentato dall'ombre.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>

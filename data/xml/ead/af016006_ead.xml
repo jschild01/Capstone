@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af016006" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af016006
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Lou Gordon collection
+    </titleproper>
+    <subtitle>
+     AFC 2010/031
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2016-08">
+     August 2016
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2016655265" show="new">
+       https://lccn.loc.gov/2016655265
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2016-08">
+     August 2016
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Lou Gordon collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1953/2006">
+     1953-2006
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1953/1960">
+     1953-1960
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1953/2006" unitdatetype="inclusive">
+    1953-2006
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1953/1960" unitdatetype="bulk">
+    1953-1960
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2010/031
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Gordon, Lou, 1915-2006
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1 box plus 1 oversized folder
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    manuscripts: 31 folders
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     In English.
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Manuscript materials, including programs,
+            newspaper clippings, handbills, programs, small posters, and black-and-white
+            photographs, documenting Swapping Song Fair, a folk music production company and concert
+            series founded in New York City in 1955 by Lou Gordon and Paddy Clancy, which produced a
+            Musical Tribute to Woody Guthrie in 1956, and Folk Song '59. The collection documents
+            musical and other events in the folk music revival in New York City during the
+            1950s.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Anne Gordon; 2010.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Lou Gordon collection (AFC 2010/031), Archive of Folk Culture, American Folklife
+               Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Louis H. Gordon was a union organizer, harmonica player, and folk music producer. He and
+            Patrick (Paddy) Clancy formed Swapping Song Fair in 1955, a folk music production
+            company that staged concerts in New York City Town Hall and Carnegie Hall and other
+            venues. He served as a sergeant with the Combat Engineers in the 7th Army in Europe
+            during World War II. He was a trustee of the Woody Guthrie Children's Trust Fund; was
+            born in 1915 in Brooklyn, New York; married to Anne Gordon; and died March 25, 2006 at
+            his home in Millbrook, New York.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20190602164514.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gordon, Lou, 1915-2006
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Guthrie, Woody, 1912-1967.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pickow, George
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Swapping Song Fair.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Concerts--1950-1960.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Concerts--New York (State)--New York.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk musicians--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lctgm">
+     <part>
+      Musicians--1950-1960.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--United States--1951-1960--History and criticism.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      New York (N.Y.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Swapping Song Fair collection
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Manuscript materials, including programs, newspaper clippings, handbills, programs,
+            small posters, and black-and-white photographs, documenting Swapping Song Fair, a folk
+            music production company and concert series founded in New York City in 1955 by Lou
+            Gordon and Paddy Clancy, which produced "A Musical Tribute to Woody Guthrie" in 1956, and
+            Folk Song '59. The collection documents musical and other events in the folk music
+            revival in New York City during the 1950s.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Background information
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        "A brief history of Swapping Song
+                        Fair"
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        An overview, written by Anne Gordon.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lou Gordon's obituary,
+        <date localtype="inclusive" normal="2006-03-29">
+         March 29,
+                           2006
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2006-03-29" unitdatetype="inclusive">
+        March 29,
+                           2006
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 page
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A photocopied obituary from the
+        <title>
+         <part>
+          Times Herald-Record.
+         </part>
+        </title>
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Swapping Song Fair
+      </unittitle>
+      <physdesc encodinganalog="300">
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        "The wise have not spoken"
+                           (program)
+        <date>
+         circa
+                        1953
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa
+                        1953
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Letter from Cynthia Gooding Ozbekkan to Lou
+                        Gordon (photocopy),
+        <date localtype="inclusive" normal="1954-04-26">
+         April 26, 1954
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1954-04-26" unitdatetype="inclusive">
+        April 26, 1954
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Ozbekkan expresses disappointment that Guy Carawan will performing at a
+                        Swapping Song Fair concert.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swapping Song Fair: Folk Songs of Israel,
+        <date>
+         circa mid-1950s
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        circa mid-1950s
+       </unitdate>
+       <physdesc encodinganalog="300">
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Handbill for the concert, featuring Theodore Bikel and Cynthia Gooding. 2
+                        copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Cancelled cheques,
+        <date localtype="inclusive" normal="1954/1955">
+         1954-1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1954/1955" unitdatetype="inclusive">
+        1954-1955
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Cheques written to various people and organizations from the account of
+                        Swapping Song Fair, and signed by Lou Gordon. Drawn on two banks: the Corn
+                        Exchange Bank Trust Company, the First National City Bank of New York, and
+                        (later) the National City Bank of New York. Recipients include Jean Ritchie,
+                        George Pickow, Oscar Brand, Frank Warner, Trio Productions, Jack Elliott
+                        (Ramblin' Jack Elliott), Brownie McGhee, Guy Carawan, Jo Mapes, and others.
+                        The cheques have been endorsed by the recipients (or possibly their
+                        representatives).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Artists and dates,
+        <date localtype="inclusive" normal="1956">
+         1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956" unitdatetype="inclusive">
+        1956
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A two-page list of artists and (presumably) the dates scheduled to perform
+                        at Swapping Song Fair.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swapping Song Fair: concert program,
+        <date localtype="inclusive" normal="1956-11-02">
+         November 2, 1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-11-02" unitdatetype="inclusive">
+        November 2, 1956
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The program also has a copy of the mailed concert announcement. 2 copies of
+                        the program and the announcement (total of four items).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swapping Song Fair: handbills,
+        <date localtype="inclusive" normal="1956/1957">
+         1956-1957;
+                           undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956/1957" unitdatetype="inclusive">
+        1956-1957;
+                           undated
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Handbills for various Swapping Song Fair concerts.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Calendar of events (newspaper clippings),
+        <date localtype="inclusive" normal="1954/1955">
+         circa 1954-1955
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1954/1955" unitdatetype="inclusive">
+        circa 1954-1955
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings of event calendar listings that included Swapping Song
+                        Fair concerts; most of the items are very small, (about 1 in. x 1/2 in.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publicity and reviews
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Small articles in various newspapers announcing upcoming Swapping Song Fair
+                        concerts or reviewed events that had taken place.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swapping Song Fair: flyer for May
+                        events
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The flyer notes the events have moved from Circle in the Square back to
+                        Cherry Lane Theatre.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Drawing of a woman,
+        <date localtype="inclusive" normal="1957-04-13">
+         circa April
+                           13, 1957
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1957-04-13" unitdatetype="inclusive">
+        circa April
+                           13, 1957
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Pencil drawing by an unidentified artist, on the back of an announcement of
+                        a Swapping Song Fair concert featuring Martha Schlamme, held on April 13,
+                        1957.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries C: Woody Guthrie
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The March 17, 1966, tribute was presented by Swapping Song Fair.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        A Musical Tribute to Woody Guthrie: Bound for
+                        Glory - handbills,
+        <date localtype="inclusive" normal="1956">
+         1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956" unitdatetype="inclusive">
+        1956
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Three copies of the handbill, plus a note from Anne Gordon regarding the
+                        concert location.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        A Musical Tribute to Woody Guthrie: Bound for
+                        Glory - ticket,
+        <date localtype="inclusive" normal="1956-03-17">
+         March 17, 1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+        March 17, 1956
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        An orchestra-seat ticket for the event.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/17
+       </container>
+       <unittitle encodinganalog="245$a">
+        A Musical Tribute to Woody Guthrie: Bound for
+                        Glory - program and script,
+        <date localtype="inclusive" normal="1956-03-17">
+         March 17, 1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+        March 17, 1956
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        An original program and a photocopy of the script.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Memo from Harold Leventhal,
+        <date localtype="inclusive" normal="1966-04-08">
+         April 8,
+                           1966
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1966-04-08" unitdatetype="inclusive">
+        April 8,
+                           1966
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Unsigned memo to Toshi and Pete Seeger, and Lou Gordon, regarding the
+                        Conservation Service Award awarded to Woody Guthrie and presented to his
+                        family. Typed on the letterhead of the Guthrie Children's Trust Fund, the
+                        memo is accompanied by several sheets of the trust fund's letterhead.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/19
+       </container>
+       <unittitle encodinganalog="245$a">
+        "The Saga of Woody Guthrie",
+        <date localtype="inclusive" normal="1966-05-01">
+         May 1,
+                           1966
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1966-05-01" unitdatetype="inclusive">
+        May 1,
+                           1966
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Section 2 of the Sunday News (New York), with a cover story about
+                        Guthrie.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/20
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Woody Guthrie Newsletter
+         </part>
+        </title>
+        (special issue),
+        <date localtype="inclusive" normal="1966-06">
+         June 1966
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1966-06" unitdatetype="inclusive">
+        June 1966
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The Conservation Award given to Guthrie is the focus of the cover story.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Woody Guthrie memorial concert: script,
+        <date localtype="inclusive" normal="1968-01">
+         circa
+                           January 1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1968-01" unitdatetype="inclusive">
+        circa
+                           January 1968
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A script for the January 18 rehearsal, before the January 20 concert, with a
+                        cover letter to all participants from Millard Lampell.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/22
+       </container>
+       <unittitle encodinganalog="245$a">
+        <title>
+         <part>
+          Bravo
+         </part>
+        </title>
+        magazine (vol. VII, no.
+                        5CH),
+        <date localtype="inclusive" normal="1968">
+         1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+        1968
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The feature article in the Carnegie Hall magazine is "A Musical Tribute to
+                        Woody Guthrie."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/23
+       </container>
+       <unittitle encodinganalog="245$a">
+        Drawings of Woody Guthrie
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two copies of undated drawings by an unidentified artist.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries D: Folk Song '59
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Folk Song '59: invoice,
+        <date localtype="inclusive" normal="1959-03-31">
+         March 31,
+                           1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-03-31" unitdatetype="inclusive">
+        March 31,
+                           1959
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/25
+       </container>
+       <unittitle encodinganalog="245$a">
+        Folk Song '59: Carnegie Hall program,
+        <date localtype="inclusive" normal="1959-04-03">
+         April 3, 1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+        April 3, 1959
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two copies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/26
+       </container>
+       <unittitle encodinganalog="245$a">
+        Folk Song '59: tickets,
+        <date localtype="inclusive" normal="1959-04-03">
+         April 3,
+                           1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+        April 3,
+                           1959
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Four tickets for the second-tier box
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/27
+       </container>
+       <unittitle encodinganalog="245$a">
+        Folk Song '59: signed receipts,
+        <date localtype="inclusive" normal="1959-04-03">
+         April 3,
+                           1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+        April 3,
+                           1959
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Three receipts for payment for their performance at the concert: Muddy
+                        Waters (McKinley Morganfield), Mike Seeger, and Memphis Slim.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/28
+       </container>
+       <unittitle encodinganalog="245$a">
+        Telegram from Logan English to Alan Lomax and
+                        Lou Gordon,
+        <date localtype="inclusive" normal="1959-04-03">
+         April 3, 1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+        April 3, 1959
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Logan English sends congratulations on the evening of the Folk Song '59
+                        concert.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Folk Song '59: announcement of the commercial
+                        recording,
+        <date localtype="inclusive" normal="1959-04-04">
+         April 4, 1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-04" unitdatetype="inclusive">
+        April 4, 1959
+       </unitdate>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        A clipping from Cash Box, announcing an upcoming commercial release by
+                        United Artists of the concert.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries E: Oversized materials
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        1/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        A Musical Tribute to Woody Guthrie: Bound for
+                        Glory,
+        <date localtype="inclusive" normal="1956-03-17">
+         March 17, 1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+        March 17, 1956
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        1/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swapping Song Fair: poster,
+        <date localtype="inclusive" normal="1956-05-12">
+         May 12,
+                           1956
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1956-05-12" unitdatetype="inclusive">
+        May 12,
+                           1956
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 3/4 in. x 10 3/4 in. or
+                           smaller
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        1/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        Folksong '59 [sic],
+        <date localtype="inclusive" normal="1959-04-03">
+         April 3,
+                           1959
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+        April 3,
+                           1959
+       </unitdate>
+       <physdesc encodinganalog="300">
+        13 1/2 in. x 9 in. or
+                        smaller
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Photographs
+     </unittitle>
+     <physdesc encodinganalog="300">
+     </physdesc>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH01,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Woody Guthrie takes a bow. "Bound for Glory" tribute concert to honor Woody
+                     Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH02,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Woody Guthrie standing and possibly speaking; Nora Guthrie seated at far left.
+                     "Bound for Glory" tribute concert to honor Woody Guthrie, held at the Pythian
+                     Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH03,
+       <date localtype="inclusive" normal="1954">
+        1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954" unitdatetype="inclusive">
+       1954
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 1/2 in. x 9 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Tom Clancy, Lou Gordon, Pat Clancy, Robin Roberts, and Phil
+                     Raiguel. Photographed by George Pickow. In performance at Cherry Lane Theatre,
+                     New York. PH03 and PH04 are the same image, with more or less the same details
+                     (due to how the images were printed).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH04,
+       <date localtype="inclusive" normal="1954">
+        1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954" unitdatetype="inclusive">
+       1954
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 1/2 in. x 9 1/2 in. or
+                     smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for PH03.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH05,
+       <date localtype="inclusive" normal="1954/1955">
+        1954 or
+                     1955
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1955" unitdatetype="inclusive">
+       1954 or
+                     1955
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 1/2 in. x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Seated, left to right: Tom Clancy, Jean Ritchie, and Oscar Brand. Standing: Pat
+                     Clancy. In performance during a Swapping Song Fair concert. Photographed by
+                     George Pickow. Cherry Lane Theatre, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH06,
+       <date localtype="inclusive" normal="1954">
+        1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954" unitdatetype="inclusive">
+       1954
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 1/2 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: unidentified bagpiper and Robin Roberts. In performance during a
+                     Swapping Song Fair concert, Cherry Lane Theatre, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH07,
+       <date localtype="inclusive" normal="1954/1955">
+        1954 or
+                     1955
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1955" unitdatetype="inclusive">
+       1954 or
+                     1955
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 1/2 in. x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Oscar Brand and Jean Ritchie. In performance during a Swapping Song Fair
+                     concert. Photographed by George Pickow. Cherry Lane Theatre, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH08,
+       <date localtype="inclusive" normal="1954/1955">
+        1954 or
+                     1955
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1955" unitdatetype="inclusive">
+       1954 or
+                     1955
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 1/2 in. x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Lou Gordon, Oscar Brand, and Jean Ritchie. In performance during
+                     a Swapping Song Fair concert. Photographed by George Pickow. Cherry Lane
+                     Theatre, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH09,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 1/2 in. x 8 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Pat Clancy, Oscar Brand, Jean Ritchie, and Tom Clancy. In
+                     performance during a Swapping Song Fair concert. Photographed by George Pickow.
+                     Cherry Lane Theatre, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH10,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 5 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lee Hays and Earl Robinson. At the "Bound for Glory" tribute concert to honor
+                     Woody Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH11,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 8 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Lee Hays, Earl Robinson, Pete Seeger, and Robin Roberts. At the
+                     "Bound for Glory" tribute concert to honor Woody Guthrie, held at the Pythian
+                     Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH12,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Foreground: Pete Seeger. Background, left to right: Earl Robinson, Robin
+                     Roberts (obscured), and Jimmy Gavin. At the "Bound for Glory" tribute concert
+                     to honor Woody Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH13,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Ed McCurdy, the Kossoy Sisters (partially obscured), Pete
+                     Seeger, Robin Roberts, and Erik Darling (?). At the "Bound for Glory" tribute
+                     concert to honor Woody Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH14,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 5 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Ed McCurdy, the Kossoy Sisters (partially obscured), Pete Seeger
+                     (obscured), Robin Roberts, Rev. Gary Davis, Earl Robinson, and Erik Darling
+                     (?). At the "Bound for Glory" tribute concert to honor Woody Guthrie, held at
+                     the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH15,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rev. Gary Davis. At the "Bound for Glory" tribute concert to honor Woody
+                     Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH16,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Rev. Gary Davis, Earl Robinson, and Erik Darling (?). At the
+                     "Bound for Glory" tribute concert to honor Woody Guthrie, held at the Pythian
+                     Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH17,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Foregrand: Ed McCurdy. Lee Hays may be in the background. At the "Bound for
+                     Glory" tribute concert to honor Woody Guthrie, held at the Pythian Temple, New
+                     York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH18,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 1/2 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Left to right: Nora Guthrie, Toshi Seeger, Arlo Guthrie, Woody Guthrie, and
+                     Marjorie Guthrie (?). At the "Bound for Glory" tribute concert to honor Woody
+                     Guthrie, held at the Pythian Temple, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH19,
+       <date localtype="inclusive" normal="1956-03-17">
+        March 17,
+                     1956
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1956-03-17" unitdatetype="inclusive">
+       March 17,
+                     1956
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 in. x 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Seated: Pete Seeger. Standing: the Kossoy Sisters. At the "Bound for Glory"
+                     tribute concert to honor Woody Guthrie, held at the Pythian Temple, New
+                     York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH20,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH21,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH22,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH23,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH24,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH25,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH26,
+       <date localtype="inclusive" normal="1959-04-03">
+        April 3,
+                     1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1959-04-03" unitdatetype="inclusive">
+       April 3,
+                     1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 in. x 6 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folk Song '59, held at Carnegie Hall, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH27,
+       <date localtype="inclusive" normal="1950/1959">
+        circa 1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950/1959" unitdatetype="inclusive">
+       circa 1950s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Publicity photo of Robin Roberts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH28,
+       <date localtype="inclusive" normal="1950/1959">
+        circa 1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950/1959" unitdatetype="inclusive">
+       circa 1950s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Publicity photo of Jean Ritchie.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH29,
+       <date localtype="inclusive" normal="1960">
+        1960
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960" unitdatetype="inclusive">
+       1960
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Cisco Houston, in performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       AFC 2010/031: PH30,
+       <date localtype="inclusive" normal="1954">
+        1954
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954" unitdatetype="inclusive">
+       1954
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 in. x 10 in. (the sheet); 3 in. x 3 in.
+                        (each image)
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Swapping Song Fair. Images include Oscar Brand, Frank Warner, Pat Clancy, Phil
+                     Raguel, and Robin Roberts. Photographed by George Pickow. Black-and-white
+                     contact sheet with 11 frames; possibly shot with 120mm film.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

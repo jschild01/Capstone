@@ -1,0 +1,6658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af013007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af013007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Tom Raymond Collection
+    </titleproper>
+    <subtitle>
+     AFC 2009/029
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Valda Morris
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+					Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2013-06">
+     June 2013
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2012655503" show="new">
+       https://lccn.loc.gov/2012655503
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2013-06">
+     June 2013
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Tom Raymond collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1984/2003">
+     1984-2003
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="260$c" label="Inclusive Dates" normal="1984/2003" unitdatetype="inclusive">
+    1984-2003
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2009/029
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Raymond, Tom, 1947-
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    2 manuscript folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    12,437 photographs: color and black-and-white
+					transparencies, slides, negatives ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    14 linear feet.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Collection material in
+					English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in
+					English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+					Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of photographs taken by Tom
+				Raymond documenting storytellers and audiences at the annual National Storytelling
+				Festival, Jonesborough, Tennessee, from circa 1984 to 2003. Most are 35 mm color
+				slides and negatives. The collection documents the major storytellers and performers
+				at the festival with more than 1,500 photographs of storyteller Ray Hicks taken at
+				the festival over the years and at his home in Beech Mountain, North
+				Carolina.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20240401124757.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Aaron, Moses, 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Aoki, Brenda Wong.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Armstrong, Jennifer (Musician)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ball, Patrick.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Barton, Bob, 1939-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Basinger, John.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Beekman, Jeannine Pasini.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bias-Insignares, Harriette.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Birch, Carol (Carol L.)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Black, Judith.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bloch, Muriel, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bok, Gordon.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brother Blue.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bruchac, Joseph, 1942-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brummett, Curt.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Burch, Mildred.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cabral, Len.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Campbell, John, 1933-2006.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cotter, Michael, 1931-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Creed, Robert Payson, 1925-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Davis, Donald, 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Deedy, Carmen Agra.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Del Negro, Janice.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Del Seamonds, Leeny.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      DeSpain, Pleasant.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ducey, Gay.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Elliott, Douglas B.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ellis, Elizabeth, 1943-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ellis, Rex M., 1951-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ferlatte, Diane.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Flodin, Lucinda.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Forest, Heather.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Frederick, Dennis, 1950-2005.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Freeman, Barbara, 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gillman, Jackson, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gore, Al, 1948-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Goss, Linda.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Graham, Len.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Grear, Joyce.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hamilton, Mary, 1952-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Harley, Bill, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hayes, Joe.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hicks, Ray, 1922-2003.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Holloway, Martha.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Holt, David, 1946-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Horner, Beth.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Izard, Anne.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Jojo, Kala.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Jones, Francis Firebrace.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Juditz, Vicki.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Keding, Dan.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Kikuchi-Yngojo, Robert.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Klein, Susan, 1951-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Koram, Jamal.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Larkin, Chuck, 1931-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lenihan, Edmund.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lepp, Bil, 1970-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lieberman, Syd, 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lipman, Doug.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lloyd, Angela, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Locke, Kevin.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Loya, Olga.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Lupton, Hugh.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      May, Jim, 1947-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McBride-Smith, Barbara, 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McConnell, Doc.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McCutcheon, John, 1952-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McGill, Alice.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Mitchell, Waddie, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Mooney, William.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Moses, Johnny.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Norfolk, Bobby, 1951-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Novak, David.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Nwanga, Namu.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      O'Callahan, Jay.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      O'Halloran, Susan.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      O'Neal, John, 1940-2019.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Orunamamu.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Parent, Michael.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pennington, Lee.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Phillips, Utah.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Pinkerton, J. G. "Paw Paw", 1926-2008.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ramsey, Buck.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Raymond, Tom, 1947-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Regan-Blake, Connie, 1947-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Reneaux, J. J., 1955-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rogers, Gamble.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rogers, Sally, 1954-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ross, Gayle.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rubright, Lynn, 1936-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Sanfield, Steve.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Schimmel, Nancy.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Schram, Peninnah.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Seeger, Pete, 1919-2014.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Simms, Laura.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Smith, Jimmy Neil.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Smith, Mary Carter.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Spelman, Jon, 1942-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Stivender, Ed, 1946-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Taylor, Rangimoana.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Teare, Billy.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Thomas, Taffy.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Thomason, Dovie.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Timpanelli, Gloria.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Torrence, Jackie.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Umolu, Mary H. (Mary Harden)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Watkins, Kel.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Weakley, Tom.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Weir, Liz.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Wilson, Madafo Lloyd.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Windham, Kathryn Tucker.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Zarzyski, Paul.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Eth-Noh-Tec (Performing group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      International Storytelling Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      National Storytelling Festival.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Storycrafters.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Storyweavers.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Taifa (Performing group)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--Tennessee--Jonesborough.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Storytellers--United States--Photographs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Storytelling festivals--Tennessee--Jonesborough.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Jonesborough (Tenn.)
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Photographs of the annual National Storytelling Festival, 1984-2012
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Contact sheets.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Digital photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Documentary photography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Film negatives.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Film transparencies.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by subject and then by format into the following Series: I.
+					Manuscripts; II. Storytellers Performances; III. Various Storytellers; IV.
+					Events.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Tom Raymond donated the collection to the American Folklife Center in 2009.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Valda Morris with assistance from Sara Cleto,
+					Briel Kobak, Abby MacLean, and Amie Pleasant, 2011-2012. Valda Morris revised
+					and encoded the finding aid in June 2013.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Materials
+   </head>
+   <p>
+    The International Storytelling Collection (AFC 2001/008) has manuscript, sound,
+					graphic and visual documentation related to this collection.
+   </p>
+   <p>
+    Tom Raymond's early 1980s photographs of the National Storytelling Festival are
+					included in the American Folklife Center's International Storytelling Collection
+					(AFC 2001/008).
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+					restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be
+					restricted. To request materials, please contact the Folklife Reading Room at
+					http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Tom Raymond Collection (AFC 2009/029), Archive of Folk Culture, American Folklife
+					Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <p>
+    Images of the storytellers pictured this collection can be found in Tom Raymond's
+				book,
+    <emph render="italic">
+     Timeless voices: Images of the International
+					Storytelling Festival.
+    </emph>
+    International Storytelling Press of the
+				International Storytelling Association, 1997.
+   </p>
+  </bibliography>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscripts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        Folders
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        10,608
+       </entry>
+       <entry morerows="0">
+        Color slides
+       </entry>
+       <entry morerows="0">
+        Box 1-9, 12-13
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1,243
+       </entry>
+       <entry morerows="0">
+        Color reversals
+       </entry>
+       <entry morerows="0">
+        Box 10-11, 14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        429
+       </entry>
+       <entry morerows="0">
+        Negatives
+       </entry>
+       <entry morerows="0">
+        Box 10-11, 14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        103
+       </entry>
+       <entry morerows="0">
+        Photographic Prints
+       </entry>
+       <entry morerows="0">
+        Box 15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        54
+       </entry>
+       <entry morerows="0">
+        Contact sheets
+       </entry>
+       <entry morerows="0">
+        Box 15
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Tom Raymond, the official photographer for the International Storytelling Festival
+				from 1980-2009, began working with the International Storytelling Center, formerly
+				known as the National Association for the Preservation and Perpetuation of
+				Storytelling (NAPPS), beginning in circa 1980. In 1983, Raymond established Fresh
+				Air Photo, a commercial photography and post production studio based in Johnson
+				City, Tennessee.
+   </p>
+   <p>
+    Raymond first pursued a medical career. He earned a B.S. at the University of
+				Tennessee in Knoxville. He later obtained his M.S. at East Carolina University in
+				Greenville, North Carolina, and a Ph.D. in biological science at the Bowman Gary
+				School of Medicine at Wake Forest University in Winston-Salem. Three postdoctoral
+				positions followed at the University of Iowa, the University of Oregon Health
+				Sciences Center, and the Massachusetts Institute of Technology. In 1978, Raymond
+				joined the faculty of the Department of Internal Medicine at East Tennessee State
+				University.
+   </p>
+   <p>
+    Raymond's career in photography began as an undergraduate at the University of
+				Tennessee (UT) while he was working for
+    <emph render="italic">
+     The Daily
+					Beacon
+    </emph>
+    , a student publication. He earned several awards for
+				photojournalism while at UT, but photography was put on hold while he pursued a
+				career in academic medicine. Having published more than 60 peer-reviewed articles in
+				scientific journals and presented his research at meetings throughout the United
+				States and abroad, he resigned from UT in 1987 to pursue photography full-time as
+				the owner of Fresh Air Photo.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Tom Raymond Collection documents the performances of international and national
+				storytellers at the International Storytelling Festival in Jonesborough, Tennessee.
+				The collection primarily consists of graphic images which span 20 years, 1983-2003.
+				Raymond's photographs of International storyteling performances prior to 1983 are
+				found in the International Storytelling Collection (AFC 2001/008).
+   </p>
+   <p>
+    The bulk of the collection contains color slides, but also includes negatives, color
+				reversal film, contact sheets and photographic prints. The images mainly capture the
+				on-stage performances of the featured tellers but also capture the storytellers on
+				the grounds of the festival as well as publicity photographs of storytellers.
+   </p>
+   <p>
+    Of note in the collection are Raymond’s 1500 photos of Appalachian storyteller Ray
+				Hicks from Beech Mountain, North Carolina. Also in the collection is Raymond's
+				documentation of Hicks' Home Going Service when he passed away in 2003.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding aid
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       28th Annual International Storytelling
+							Festival Program of Events
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Photographs of Storyteller
+						Performances
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      The International Storytelling Festival unless
+					otherwise noted, 1983-2003
+     </p>
+    </scopecontent>
+    <c02 level="series">
+     <did>
+      <unittitle>
+       Color slides
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Aaron, Moses
+       </unittitle>
+       <unitid label="afc id">
+        MA:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Moses Aaron, Australian storyteller, onstage. 6 color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        African Women: Orunamamu and Umolu,
+								Mary H.
+       </unittitle>
+       <unitid label="afc id">
+        AW:PH1-PH73
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Orunamamu (Mary Beth Washington) and Mary Umolu, performing at
+								Swappin’ Ground. 73 35mm color slides. (1 business card of Mary H.
+								Umolu, Ph.D.).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Aoki, Brenda Wong
+       </unittitle>
+       <unitid label="afc id">
+        BWA:PH1-PH79
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Brenda Wong Aoki, Asian-American storyteller, onstage. 79 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Armstrong, Jennifer
+       </unittitle>
+       <unitid label="afc id">
+        JA:PH1-PH47
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jennifer Armstrong offstage on the grounds. 47 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ball, Patrick
+       </unittitle>
+       <unitid label="afc id">
+        PB:PH1-PH51
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Patrick Ball, California-born Celtic harpist and storyteller, onstage
+								and offstage on the grounds. 51 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Barton, Bob
+       </unittitle>
+       <unitid label="afc id">
+        BB:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bob Barton, Canadian storyteller, in candid shot on the grounds. 1
+								35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Basinger, John
+       </unittitle>
+       <unitid label="afc id">
+        JB:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        John Basinger, Connecticut storyteller and professor emeritus of
+								theater and sign at Three River Community College, offstage on the
+								grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Beekman, Jeannine Pasini
+       </unittitle>
+       <unitid label="afc id">
+        JPB:PH1-PH48
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jeannine Pasini Beekman, Louisiana storyteller, onstage. 48 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bias-Insignares, Harriette
+       </unittitle>
+       <unitid label="afc id">
+        HAI:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Harriette Bias-Insignares along with Jackie Torrence offstage on the
+								grounds. 5 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Birch, Carol
+       </unittitle>
+       <unitid label="afc id">
+        CB:PH1-PH66
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Carol Birch onstage and offstage on the grounds. 66 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Black, Judith
+       </unittitle>
+       <unitid label="afc id">
+        JB:PH1-PH128
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Judith Black, Pittsburgh-born storyteller, onstage and at the Ghost
+								Stories segment. 128 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bloch, Muriel
+       </unittitle>
+       <unitid label="afc id">
+        MB:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Muriel Bloch, French storyteller, offstage on the grounds. 1 35mm
+								color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bok, Gordon
+       </unittitle>
+       <unitid label="afc id">
+        GB:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gordon Bok, a native of Maine, onstage. 2 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Brother Blue (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        BB:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Brother Blue street performer, actor and musician performing at
+								Swappin’ Ground and on Main Street, Jonesborough, Tennessee. 200
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Brother Blue (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        BB:PH201-PH232
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        32 35mm color slides and 1 business card.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bruchac, Joseph
+       </unittitle>
+       <unitid label="afc id">
+        JB:PH01-PH42
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Joseph Bruchac, from the Adirondack mountain foothills, onstage and
+								offstage on the grounds. 42 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/19
+       </container>
+       <unittitle encodinganalog="245$a">
+        Brummett, Curt
+       </unittitle>
+       <unitid label="afc id">
+        CB:PH01-PH29
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Curt Brummett, cowboy storyteller from Clovis, New Mexico, onstage.
+								29 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Burch, Milbre
+       </unittitle>
+       <unitid label="afc id">
+        MB:PH01-PH88
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Milbre Burch, a native of Atlanta, Georgia, onstage and offstage on
+								the grounds. 88 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        1/21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Cabral, Len
+       </unittitle>
+       <unitid label="afc id">
+        LC:PH1-PH75
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Len Cabral, of Cape Verdean ancestry, onstage and offstage on the
+								grounds. 75 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Campbell, John and Len
+								Graham
+       </unittitle>
+       <unitid label="afc id">
+        CG:PH1-PH62
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        John Campbell and Len Graham, an Irish duo onstage. 62 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/23
+       </container>
+       <unittitle encodinganalog="245$a">
+        Cotter, Michael
+       </unittitle>
+       <unitid label="afc id">
+        MC:PH1-PH35
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Michael Cotter, third generation farmer, onstage. 35 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/24
+       </container>
+       <unittitle encodinganalog="245$a">
+        Creed, Robert Payson
+       </unittitle>
+       <unitid label="afc id">
+        RPC:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Robert Creed offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/25
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Donald Davis, retired minister from southern Appalachia, onstage. 200
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/26
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/27
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH401-PH572
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        172 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/28
+       </container>
+       <unittitle encodinganalog="245$a">
+        Deedy, Carmen Agra
+       </unittitle>
+       <unitid label="afc id">
+        CD:PH1-PH119
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Carmen Deedy, Cuban-born, onstage. 119 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Del Negro, Janice
+       </unittitle>
+       <unitid label="afc id">
+        JDN:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Janice Del Negro, New York-born, onstage. 10 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/30
+       </container>
+       <unittitle encodinganalog="245$a">
+        Del Seamonds, Leeny
+       </unittitle>
+       <unitid label="afc id">
+        LDS:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Leeny Del Seamonds, Philadelphia-born, onstage. 10 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        DeSpain, Pleasant
+       </unittitle>
+       <unitid label="afc id">
+        PDS:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Pleasant DeSpain offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/32
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ducey, Gay
+       </unittitle>
+       <unitid label="afc id">
+        GD:PH1-PH51
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gay Ducey, children's librarian in Oakland, California, onstage. 51
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Elliott, Doug B.
+       </unittitle>
+       <unitid label="afc id">
+        DE:PH1-PH81
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doug Elliot onstage and offstage on the grounds. 81 35mm color
+								slides
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/34
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis, Austin H
+       </unittitle>
+       <unitid label="afc id">
+        AE:PH1-PH62
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Austin Ellis performing at Swappin’ Ground. 62 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/35
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis, Elizabeth
+       </unittitle>
+       <unitid label="afc id">
+        EE:PH01-PH03
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Elizabeth Ellis onstage and offstage on the grounds. 3 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        2/36
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis, Rex
+       </unittitle>
+       <unitid label="afc id">
+        RE:PH01-PH180
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Rex Ellis onstage and at Swappin' Ground. 80 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/37
+       </container>
+       <unittitle encodinganalog="245$a">
+        Eth-Noh-Tec (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        ENT:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Eth-Noh-Tec (Nancy Wang and Robert Kikuchi-Yngojo) signing autographs
+								and onstage. 200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/38
+       </container>
+       <unittitle encodinganalog="245$a">
+        Eth-Noh-Tec (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        ENT:PH201-PH274
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Eth-Noh-Tec (Nancy Wang and Robert Kikuchi-Yngojo) onstage. 74 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/39
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ferlatte, Diane
+       </unittitle>
+       <unitid label="afc id">
+        DF:PH1-PH4
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Diane Ferlatte offstage performance and candid shots on the grounds.
+								4 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/40
+       </container>
+       <unittitle encodinganalog="245$a">
+        Forest, Heather
+       </unittitle>
+       <unitid label="afc id">
+        HF:PH1-PH40
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Heather Forest onstage. 40 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/41
+       </container>
+       <unittitle encodinganalog="245$a">
+        Freeman, Barbara
+       </unittitle>
+       <unitid label="afc id">
+        BF:PH1-PH7
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Barbara Freeman onstage and offstage on the grounds. 7 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/42
+       </container>
+       <unittitle encodinganalog="245$a">
+        Gillenwater-McConnell,
+								Hannah
+       </unittitle>
+       <unitid label="afc id">
+        HG:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Hannah Gillenwater-McConnell offstage on the grounds. 1 35mm color
+								slide
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/43
+       </container>
+       <unittitle encodinganalog="245$a">
+        Gillman, Jackson, 1954
+       </unittitle>
+       <unitid label="afc id">
+        JG:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackson Gillman offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/44
+       </container>
+       <unittitle encodinganalog="245$a">
+        Goss, Linda
+       </unittitle>
+       <unitid label="afc id">
+        LG:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Linda Goss offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/45
+       </container>
+       <unittitle encodinganalog="245$a">
+        Grear, Joyce
+       </unittitle>
+       <unitid label="afc id">
+        JG:PH1-PH195
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Joyce Grear onstage and at Swappin’ Ground. 195 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/46
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hamilton, Mary
+       </unittitle>
+       <unitid label="afc id">
+        MH:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Mary Hamilton offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/47
+       </container>
+       <unittitle encodinganalog="245$a">
+        Harley, Bill, 1954
+       </unittitle>
+       <unitid label="afc id">
+        BH:PH1-PH77
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bill Harley onstage. 77 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/48
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hayes, Joe
+       </unittitle>
+       <unitid label="afc id">
+        JH:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Joe Hayes offstage on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/49
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(1/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage and offstage on the grounds. 200 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/50
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003 (2/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage, offstage on the grounds and at Swappin’ Ground.
+								200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        3/51
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(3/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH401-PH600
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage solo, onstage with his wife Rosa, performing at
+								Swappin’ Ground and in candid shots on the grounds. 200 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/52
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(4/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH601-PH800
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage, at Swappin’ Ground, at The Log Cabin, including
+								being interviewed and pictured among Festival goers on the grounds.
+								200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/53
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(5/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH801-PH1000
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage, at Swappin’ Ground and at The Log Cabin. 200 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/54
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(6/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH1001-PH1200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage, signing autographs, performing at Doc McConnell’s
+								Old Medicine wagon and at Swappin’ Ground. The Hicks family is also
+								pictured performing on the grounds. 200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/55
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(7/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH: PH1201-PH1358
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray and Rosa Hicks onstage and Rosa Hicks in candid shots on the
+								grounds. 158 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/56
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(8/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH: PH1359-PH1499
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks at his home in Beech Mountain, North Carolina, October
+								2000. 141 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/57
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+								(9/9)
+       </unittitle>
+       <unitid label="afc id">
+        RH: PH1500-PH1514
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Tribute to Ray Hicks with Rosa Hicks, Connie Regan Blake and others
+								inside a Festival Tent. 15 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/58
+       </container>
+       <unittitle encodinganalog="245$a">
+        Holloway, Martha
+       </unittitle>
+       <unitid label="afc id">
+        MH:PH1-PH28
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Martha Holloway performing offstage. 28 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/59
+       </container>
+       <unittitle encodinganalog="245$a">
+        Holt, David
+       </unittitle>
+       <unitid label="afc id">
+        DH:PH1-PH95
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        David Holt onstage and offstage on the grounds. 95 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/60
+       </container>
+       <unittitle encodinganalog="245$a">
+        Horner, Beth
+       </unittitle>
+       <unitid label="afc id">
+        BH:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Beth Horner onstage. 18 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/61
+       </container>
+       <unittitle encodinganalog="245$a">
+        Izard, Anne
+       </unittitle>
+       <unitid label="afc id">
+        AI:PH1-PH4
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Anne Izard onstage. 4 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/62
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jenkins, Robert "Bob"
+       </unittitle>
+       <unitid label="afc id">
+        RJ:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Robert "Bob" Jenkins onstage and offstage on the grounds. 20 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/63
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jojo, Kala
+       </unittitle>
+       <unitid label="afc id">
+        KJ:PH1-PH50
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Kala Jojo onstage. 50 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        4/64
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jones, Francis Firebrace
+       </unittitle>
+       <unitid label="afc id">
+        FF:PH1-PH8
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Francis Firebrace Jones onstage. 8 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/65
+       </container>
+       <unittitle encodinganalog="245$a">
+        Juditz, Vicki
+       </unittitle>
+       <unitid label="afc id">
+        VJ:PH1-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Vicki Juditz onstage. 22 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/66
+       </container>
+       <unittitle encodinganalog="245$a">
+        Keding, Dan
+       </unittitle>
+       <unitid label="afc id">
+        DK:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Dan Keding onstage. 19 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/67
+       </container>
+       <unittitle encodinganalog="245$a">
+        Klein, Susan
+       </unittitle>
+       <unitid label="afc id">
+        SK:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Susan Klein onstage and interacting with crowds inside a festival
+								tent and on the grounds. 10 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/68
+       </container>
+       <unittitle encodinganalog="245$a">
+        Koram, Baba Jamal
+       </unittitle>
+       <unitid label="afc id">
+        ΒJK:PH1-PH66
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Baba Jamal Koram onstage. 66 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/69
+       </container>
+       <unittitle encodinganalog="245$a">
+        Larkin, Chuck
+       </unittitle>
+       <unitid label="afc id">
+        CL:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Chuck Larkin onstage, interacting with the crowd and in candid shots
+								on the grounds. 10 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/70
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lenihan, Edmund (Eddie)
+       </unittitle>
+       <unitid label="afc id">
+        EL:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Eddie Lenihan in candid shot on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/71
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lepp, Bill
+       </unittitle>
+       <unitid label="afc id">
+        BL:PH1-PH13
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bill Lepp performing onstage and interacting with crowds on the
+								grounds. 133 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/72
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lieberman, Syd
+       </unittitle>
+       <unitid label="afc id">
+        SL:PH1-PH104
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Syd Lieberman onstage. 104 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/73
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lipman, Doug
+       </unittitle>
+       <unitid label="afc id">
+        DL:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doug Lipman in candid shot on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/74
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lloyd, Angela
+       </unittitle>
+       <unitid label="afc id">
+        AL:PH1-PH45
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Angela Lloyd performing onstage and offstage on the grounds. 45 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/75
+       </container>
+       <unittitle encodinganalog="245$a">
+        Locke, Kevin
+       </unittitle>
+       <unitid label="afc id">
+        KL:PH1-PH25
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Kevin Locke onstage. 25 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/76
+       </container>
+       <unittitle encodinganalog="245$a">
+        Loya, Olga
+       </unittitle>
+       <unitid label="afc id">
+        OL:PH1-PH40
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Olga Loya onstage. 40 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/77
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lupton, Hugh
+       </unittitle>
+       <unitid label="afc id">
+        HL:PH1-PH13
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Hugh Lupton onstage. 13 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/78
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lwanga, Namu
+       </unittitle>
+       <unitid label="afc id">
+        NL:PH1-PH95
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Namu Lwanga along with audience participation onstage. 63 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/79
+       </container>
+       <unittitle encodinganalog="245$a">
+        May, Jim, 1947-
+       </unittitle>
+       <unitid label="afc id">
+        JM:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jim May performing onstage and offstage on the grounds. 19 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/80
+       </container>
+       <unittitle encodinganalog="245$a">
+        McBride-Smith, Barbara
+       </unittitle>
+       <unitid label="afc id">
+        BMS:PH1-PH104
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Barbara McBride-Smith onstage. 104 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/81
+       </container>
+       <unittitle encodinganalog="245$a">
+        McConnell, Doc (1\2)
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doc McConnell onstage, at the “Old Medicine Show” and at the Swappin’
+								Ground. 200 color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/82
+       </container>
+       <unittitle encodinganalog="245$a">
+        McConnell, Doc (2\2)
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH201-PH357
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doc McConnell performing at the “Old Medicine Show,” the Swappin’
+								Ground, and on the grounds interacting with the crowd and signing
+								autographs. 157 color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        5/83
+       </container>
+       <unittitle encodinganalog="245$a">
+        McCutcheon, John
+       </unittitle>
+       <unitid label="afc id">
+        JMC:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        John McCutcheon onstage. 20 color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/84
+       </container>
+       <unittitle encodinganalog="245$a">
+        McGill, Alice
+       </unittitle>
+       <unitid label="afc id">
+        AMG:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Alice McGill in candid shot on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/85
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mitchell, Dennis
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH1-PH33
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Dennis Mitchell performing at Swappin’ Ground. 33 35mm color
+								slides
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/86
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mitchell, Waddie
+       </unittitle>
+       <unitid label="afc id">
+        WM:PH1-PH85
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Waddie Mitchell onstage, Swappin’ Ground and in candid shots on the
+								grounds. 85 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/87
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mooney William
+       </unittitle>
+       <unitid label="afc id">
+        BM:PH1-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bill Mooney onstage. 17 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/88
+       </container>
+       <unittitle encodinganalog="245$a">
+        Moses, Johnny
+       </unittitle>
+       <unitid label="afc id">
+        JM:PH1-PH42
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Johnny Moses onstage, interacting with the audience and in candid
+								shots on the grounds. 42 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/89
+       </container>
+       <unittitle encodinganalog="245$a">
+        Norfolk, Bobby
+       </unittitle>
+       <unitid label="afc id">
+        BN:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bobby Norfolk onstage, performing offstage and in candid shots on the
+								grounds. 18 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/90
+       </container>
+       <unittitle encodinganalog="245$a">
+        Novak, David
+       </unittitle>
+       <unitid label="afc id">
+        DN:PH1-PH44
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        David Novak onstage. 44 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/91
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage, at Doc McConnell’s "Old Medicine Show,"
+								interacting with crowds and in candid shots on the grounds. 200 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/92
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage interacting with crowds. 200 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/93
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH401-403
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage and in candid shots on the grounds. 3 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/94
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Halloran, Susan
+       </unittitle>
+       <unitid label="afc id">
+        SO:PH1-PH8
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Susan O’Halloran onstage. 8 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/95
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Neal, John, 1940- (Jones, Junebug
+								Jabbo)
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        John O'Neal, (Junebug Jabbo) onstage. 19 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/96
+       </container>
+       <unittitle encodinganalog="245$a">
+        Parent, Michael
+       </unittitle>
+       <unitid label="afc id">
+        MP:PH1-PH7
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Michael Parent onstage and in candid shots on the grounds. 7 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/97
+       </container>
+       <unittitle encodinganalog="245$a">
+        Parker, Michael "Mac"
+       </unittitle>
+       <unitid label="afc id">
+        MMP:PH1-PH25
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Mac Parker onstage. 25 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/98
+       </container>
+       <unittitle encodinganalog="245$a">
+        Pierce, Maggie
+       </unittitle>
+       <unitid label="afc id">
+        MKP:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Maggie Pierce onstage. 5 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/99
+       </container>
+       <unittitle encodinganalog="245$a">
+        Pennington, Lee
+       </unittitle>
+       <unitid label="afc id">
+        LP:PH1-PH25
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Lee Pennington onstage and in candid shots on the grounds. 25 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/100
+       </container>
+       <unittitle encodinganalog="245$a">
+        Phillips, Utah
+       </unittitle>
+       <unitid label="afc id">
+        UP:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Utah Phillips in candid shot on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/101
+       </container>
+       <unittitle encodinganalog="245$a">
+        Pinkerton, J.G. “Paw Paw”
+       </unittitle>
+       <unitid label="afc id">
+        MKP:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        J. G. "Paw Paw" Pinkerton onstage. 15 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/102
+       </container>
+       <unittitle encodinganalog="245$a">
+        Portman, June
+       </unittitle>
+       <unitid label="afc id">
+        JP:PH1-PH35
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        June Portman onstage. 35 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/103
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ramsey, Buck
+       </unittitle>
+       <unitid label="afc id">
+        BR:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Buck Ramsey onstage. 5 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/104
+       </container>
+       <unittitle encodinganalog="245$a">
+        Regan-Blake, Connie (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        CR-B:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Connie Regan-Blake is half of the storytelling duo team of the
+								Folktellers, who resides in North Carolina. Her stories range from
+								hilarious traditional Appalachian Mountain tales to poignant
+								true-life drama. 200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        6/105
+       </container>
+       <unittitle encodinganalog="245$a">
+        Regan-Blake, Connie (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        CR-B:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/106
+       </container>
+       <unittitle encodinganalog="245$a">
+        Regan-Blake, Connie (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        CR-B:PH401-PH449
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        49 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/107
+       </container>
+       <unittitle encodinganalog="245$a">
+        Reneaux, J. J.
+       </unittitle>
+       <unitid label="afc id">
+        JJR:PH1-PH41
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        J. J. Reneaux onstage and in candid shots on the grounds. 41 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/108
+       </container>
+       <unittitle encodinganalog="245$a">
+        Roadside Theatre (Organization:
+								Washington, D.C.)
+       </unittitle>
+       <unitid label="afc id">
+        RT:PH1-PH13
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Roadside Theatre company onstage. 13 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/109
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rocha, Antonio
+       </unittitle>
+       <unitid label="afc id">
+        AR:PH1-PH71
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Antonio Rocha onstage. 71 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/110
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rogers, Gamble
+       </unittitle>
+       <unitid label="afc id">
+        JGR:PH1-PH75
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gamble Rogers, native of Florida and teller of philosophical humor
+								performing onstage. 75 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/111
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rogers, Sally
+       </unittitle>
+       <unitid label="afc id">
+        SR:PH1-PH30
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Sally Rogers onstage and in candid shots. 30 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/112
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ross, Gayle
+       </unittitle>
+       <unitid label="afc id">
+        GR:PH1-PH33
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gayle Ross onstage, signing autographs and in candid shots on the
+								grounds. 33 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/113
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rubright, Lynn
+       </unittitle>
+       <unitid label="afc id">
+        LR:PH1-PH94
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Lynn Rubright onstage. 94 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/114
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sacre, Antonio
+       </unittitle>
+       <unitid label="afc id">
+        AS:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Antonio Sacre onstage. 10 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/115
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sanfield, Steve
+       </unittitle>
+       <unitid label="afc id">
+        SS:PH1-PH27
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Steve Sanfield onstage and in candid shots on the grounds. 27 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/116
+       </container>
+       <unittitle encodinganalog="245$a">
+        Schimmel, Nancy
+       </unittitle>
+       <unitid label="afc id">
+        NS:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Nancy Schimmel in candid shot on the grounds. 1 35mm color slide.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/117
+       </container>
+       <unittitle encodinganalog="245$a">
+        Schram, Penninah
+       </unittitle>
+       <unitid label="afc id">
+        PS:PH1-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Penninah Schram onstage. 22 35mm color slides
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/118
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sea Island Singers (Georgia Sea Island
+								Singers)
+       </unittitle>
+       <unitid label="afc id">
+        GSIS:PH1-PH63
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Sea Island Singers, onstage and performing at the Swappin’ Ground. 63
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/119
+       </container>
+       <unittitle encodinganalog="245$a">
+        Seeger, Pete
+       </unittitle>
+       <unitid label="afc id">
+        PPS:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Publicity photographs of Pete Seeger. 2 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/120
+       </container>
+       <unittitle encodinganalog="245$a">
+        Simms, Laura
+       </unittitle>
+       <unitid label="afc id">
+        LS:PH1-PH144
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Laura Simms onstage interacting with the audience and in candid shots
+								on the grounds. 144 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/121
+       </container>
+       <unittitle encodinganalog="245$a">
+        Smith, Jimmy Neil
+       </unittitle>
+       <unitid label="afc id">
+        JNS:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Portraits photographs of Jimmy Neil Smith. 19 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/122
+       </container>
+       <unittitle encodinganalog="245$a">
+        Smith, Mary Carter
+       </unittitle>
+       <unitid label="afc id">
+        MCS:PH1-PH40
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Mary Carter Smith performing in the gazebo at Ghost Stories and in
+								candid shots on the grounds. 40 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/123
+       </container>
+       <unittitle encodinganalog="245$a">
+        Spelman, Jon
+       </unittitle>
+       <unitid label="afc id">
+        JS:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jon Spelman performing offstage and in candid shots on the grounds. 2
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/124
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed (1/4)
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ed Stivender performing onstage and offstage on the grounds, also
+								performing at the Fringe Festival in downtown Jonesborough and
+								signing autographs. 200 35mm slides: 164 color and 36 black and
+								white slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        7/125
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed (2/4)
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH201-400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/126
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed (3/4)
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH401-PH600
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ed Stivender performing at the Fringe Festival and in candid shots on
+								the grounds. 200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/127
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed (4/4)
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH601-PH613
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        13 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/128
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storycrafters (Barry Marshall and Jeri
+								Burns)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH1-PH25
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Storycrafters onstage. 25 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/129
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storyweavers (Lucinda Flodin, Dennis
+								Frederick)
+       </unittitle>
+       <unitid label="afc id">
+        SW:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Storyweavers onstage. 19 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/130
+       </container>
+       <unittitle encodinganalog="245$a">
+        Taifa
+       </unittitle>
+       <unitid label="afc id">
+        TA:PH1-PH85
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Taifa onstage. 85 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/131
+       </container>
+       <unittitle encodinganalog="245$a">
+        Taylor, Rangimoana
+       </unittitle>
+       <unitid label="afc id">
+        RT:PH1-PH45
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Rangimoana Taylor onstage. 45 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/132
+       </container>
+       <unittitle encodinganalog="245$a">
+        Teare, Billy
+       </unittitle>
+       <unitid label="afc id">
+        BT:PH1-PH16
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Billy Teare onstage. 16 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/133
+       </container>
+       <unittitle encodinganalog="245$a">
+        Thomas, Taffy
+       </unittitle>
+       <unitid label="afc id">
+        TT:PH1-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Taffy Thomas onstage. 17 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/134
+       </container>
+       <unittitle encodinganalog="245$a">
+        Thomason, Dovie
+       </unittitle>
+       <unitid label="afc id">
+        DT:PH1-PH16
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Dovie Thomason onstage. 16 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/135
+       </container>
+       <unittitle encodinganalog="245$a">
+        Timpanelli, Gloria
+       </unittitle>
+       <unitid label="afc id">
+        GT:PH1-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gloria Timpanelli onstage. 22 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/136
+       </container>
+       <unittitle encodinganalog="245$a">
+        Torrence, Jackie (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        JT:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackie Torrence onstage, interacting with the crowd and signing
+								autographs and in candid shots on the ground. 200 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/137
+       </container>
+       <unittitle encodinganalog="245$a">
+        Torrence, Jackie (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        JT:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/138
+       </container>
+       <unittitle encodinganalog="245$a">
+        Torrence, Jackie (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        JT:PH401-PH441
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackie Torrence onstage and in candid shots on the grounds. 40 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/139
+       </container>
+       <unittitle encodinganalog="245$a">
+        Watkins, Kel
+       </unittitle>
+       <unitid label="afc id">
+        AKW:PH1-PH24
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Kel Watkins displaying images of string games. 24 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/140
+       </container>
+       <unittitle encodinganalog="245$a">
+        Weakley, Tom
+       </unittitle>
+       <unitid label="afc id">
+        TW:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Tom Weakley onstage. 12 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/141
+       </container>
+       <unittitle encodinganalog="245$a">
+        Weir, Liz
+       </unittitle>
+       <unitid label="afc id">
+        LW:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Liz Weir onstage, interacting with other storytellers and performing
+								at the Fringe Festival. 12 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/142
+       </container>
+       <unittitle encodinganalog="245$a">
+        Williams, Michael
+       </unittitle>
+       <unitid label="afc id">
+        MW:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Michael Williams in candid shot on the grounds. 1 35mm color
+								slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/143
+       </container>
+       <unittitle encodinganalog="245$a">
+        Wilson, Madafo Lloyd
+       </unittitle>
+       <unitid label="afc id">
+        LW:PH1-PH42
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Lloyd Wilson performing at Swappin’ Ground. 42 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/144
+       </container>
+       <unittitle encodinganalog="245$a">
+        Windham, Katherine
+       </unittitle>
+       <unitid label="afc id">
+        KTW:PH1-PH118
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Katherine Windham onstage and interacting with the crowd. 118 35mm
+								color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        8/145
+       </container>
+       <unittitle encodinganalog="245$a">
+        Wolkstein, Diane
+       </unittitle>
+       <unitid label="afc id">
+        DW:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Diane Wolkstein in candid shot on the grounds. 1 35mm color slide
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/146
+       </container>
+       <unittitle encodinganalog="245$a">
+        Young, Judy Dockrey
+       </unittitle>
+       <unitid label="afc id">
+        JDY:PH1-PH93
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Judy Young performing on the lawn of Christopher Taylor Log Cabin. 93
+								35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/147
+       </container>
+       <unittitle encodinganalog="245$a">
+        Young, Yvonne
+       </unittitle>
+       <unitid label="afc id">
+        YY:PH1-PH45
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Yvonne Young performing at Swappin' Ground. 45 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/148
+       </container>
+       <unittitle encodinganalog="245$a">
+        Zarzyski, Paul
+       </unittitle>
+       <unitid label="afc id">
+        PZ:PH1-PH38
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Paul Zarzyski onstage. 38 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        9/149
+       </container>
+       <unittitle encodinganalog="245$a">
+        Unidentified Storytellers
+       </unittitle>
+       <unitid label="afc id">
+        US:PH1-PH27
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        27 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Reversal Film And
+							Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/150
+       </container>
+       <unittitle encodinganalog="245$a">
+        Adams, Sheila Kay
+       </unittitle>
+       <unitid label="afc id">
+        SKA:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Sheila Kay Adams onstage at the Library Tent, 2004. 3 panoramic color
+								negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/151
+       </container>
+       <unittitle encodinganalog="245$a">
+        Aoki, Brenda Wong
+       </unittitle>
+       <unitid label="afc id">
+        BWA:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Brenda Wong Aoki onstage and publicity photographs. 5 35mm negatives
+								strips and 9 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/152
+       </container>
+       <unittitle encodinganalog="245$a">
+        Birch, Carol
+       </unittitle>
+       <unitid label="afc id">
+        CB:PH1-PH14
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Carol Birch onstage. 5 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/153
+       </container>
+       <unittitle encodinganalog="245$a">
+        Black, Judith, Buck Ramsey and Joyce
+								Grear
+       </unittitle>
+       <unitid label="afc id">
+        JB:PH1-PH37
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Judith Black, Buck Ramsey and Joyce Grear onstage. 13 35mm color
+								negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/154
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bragg, Bernard
+       </unittitle>
+       <unitid label="afc id">
+        BEB:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bernard Bragg portrait photographs. 2 matted 60mm color reversal
+								films.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/155
+       </container>
+       <unittitle encodinganalog="245$a">
+        Burch, Mildred
+       </unittitle>
+       <unitid label="afc id">
+        MB:PH1-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Mildred Burch onstage, 1994. 6 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/156
+       </container>
+       <unittitle encodinganalog="245$a">
+        Cabral, Len
+       </unittitle>
+       <unitid label="afc id">
+        LC:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Len Cabral publicity photograph. 1 60mm color reversal film (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/157
+       </container>
+       <unittitle encodinganalog="245$a">
+        Clafin, Willy
+       </unittitle>
+       <unitid label="afc id">
+        CW:PH1-PH06
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Willy Clafin onstage at the College Street Tent, 2004. 3 panoramic
+								negative film strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/158
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Donald Davis onstage at the Theater Tent, 2004. 9 panoramic negative
+								strips
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/158
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH19-PH24
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Donald Davis and Tim Tingle onstage at the College Street and Library
+								Tent. 6 panoramic negatives strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/158
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH25-PH31
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Donald Davis onstage. 7 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/158
+       </container>
+       <unittitle encodinganalog="245$a">
+        Davis, Donald
+       </unittitle>
+       <unitid label="afc id">
+        DD:PH32-PH33
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        2 35mm color reversal film (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/159
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dockery, Judy
+       </unittitle>
+       <unitid label="afc id">
+        JDY:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Judy Dockery performing at Swappin’ Ground. 10 60mm color reversal
+								film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/160
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis Elizabeth, 1943, and Ross,
+								Gayle
+       </unittitle>
+       <unitid label="afc id">
+        EEGR:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Elizabeth Ellis onstage. 6 35mm color reversal film (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/161
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis, Rex and Jay
+								O’Callahan
+       </unittitle>
+       <unitid label="afc id">
+        RE:PH1-PH4
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Rex Ellis and Jay O'Callahan onstage. 4 35mm color reversal film
+								(matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/161
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ellis, Rex and Jay
+								O’Callahan
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH5-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Rex Ellis and Jay O'Callahan onstage at the College Street Tent . 3
+								panoramic negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/162
+       </container>
+       <unittitle encodinganalog="245$a">
+        Eth-Noh-Tech
+       </unittitle>
+       <unitid label="afc id">
+        ENT:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Eth-Noh-Tech onstage. 1 matted 35mm color reversal.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/162
+       </container>
+       <unittitle encodinganalog="245$a">
+        Eth-Noh-Tech
+       </unittitle>
+       <unitid label="afc id">
+        ENT:PH2-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Eth-Noh-Tech onstage, 1995. 6 35mm color negative strips
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/163
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jones, Francis Firebrace
+       </unittitle>
+       <unitid label="afc id">
+        FF:PH1-PH47
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Francis Firebrace Jones onstage. 47 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/164
+       </container>
+       <unittitle encodinganalog="245$a">
+        Gillman, Jackson
+       </unittitle>
+       <unitid label="afc id">
+        JG:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackson Gillman onstage. 1 matted 35mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/165
+       </container>
+       <unittitle encodinganalog="245$a">
+        Harley, Bill
+       </unittitle>
+       <unitid label="afc id">
+        BH:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bill Harley publicity photograph. 1 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/166
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray, 1922-2003
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH1-PH81
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks onstage, offstage and interacting with the crowd. 81 color
+								reversal film: 14 35mm and 67 60mm (matted and unmatted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/167
+       </container>
+       <unittitle encodinganalog="245$a">
+        Holloway, Martha
+       </unittitle>
+       <unitid label="afc id">
+        MH:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Martha Halloway performing offstage. 20 60mm color reversal film (5
+								matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/168
+       </container>
+       <unittitle encodinganalog="245$a">
+        Holt, David
+       </unittitle>
+       <unitid label="afc id">
+        DH:PH1-PH7
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        David Holt onstage. 7 35mm color negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/169
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jenkins, Robert, Bob
+       </unittitle>
+       <unitid label="afc id">
+        RJ:PH1-PH11
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bob Jenkins onstage. 11 35mm color negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/170
+       </container>
+       <unittitle encodinganalog="245$a">
+        Keams, Geri
+       </unittitle>
+       <unitid label="afc id">
+        GK:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Geri Keams onstage. 1 35mm negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/171
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ledbetter, Gwenda
+       </unittitle>
+       <unitid label="afc id">
+        GL:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gwenda Ledbetter onstage. 1 35mm color negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/172
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lieberman, Syd
+       </unittitle>
+       <unitid label="afc id">
+        SL:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Syd Lieberman onstage. 1 35mm color negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/173
+       </container>
+       <unittitle encodinganalog="245$a">
+        Locke, Kevin
+       </unittitle>
+       <unitid label="afc id">
+        KL:PH1-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Kevin Locke onstage. 9 35mm color reversal film, 7 negative strips, 1
+								panoramic negative strip.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/174
+       </container>
+       <unittitle encodinganalog="245$a">
+        Lwanga, Namu
+       </unittitle>
+       <unitid label="afc id">
+        NL:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Namu Lwanga onstage. 1 35mm color negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/175
+       </container>
+       <unittitle encodinganalog="245$a">
+        McCutcheon, John
+       </unittitle>
+       <unitid label="afc id">
+        JMC:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        John McCutcheon onstage. 12 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/176
+       </container>
+       <unittitle encodinganalog="245$a">
+        McBride-Smith, Barbara
+       </unittitle>
+       <unitid label="afc id">
+        BMS:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Barbara McBride-Smith onstage. 3 35mm color negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/177
+       </container>
+       <unittitle encodinganalog="245$a">
+        McConnell, Doc
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH1-PH8
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doc McConnell performing his "Old Medicine Show" on the grounds at
+								Christopher Log Cabin, 1992. 8 color reversal film (Panoramic).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/177
+       </container>
+       <unittitle encodinganalog="245$a">
+        McConnell, Doc
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH:9-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doc McConnell performing his "Old Medicine Show" in the court yard,
+								International Storytelling Center. 10 60mm color reversal film
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/177
+       </container>
+       <unittitle encodinganalog="245$a">
+        McConnell, Doc
+       </unittitle>
+       <unitid label="afc id">
+        DM:PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Doc McConnell onstage, 1995. 1 matted 35mm negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/178
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mitchell, Waddie, 1950 and Don
+								Edwards
+       </unittitle>
+       <unitid label="afc id">
+        WMDE:PH1-PH36
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Waddie Mitchell and Don Edwards onstage. 9 35mm negative strips
+								reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/179
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mooney William
+       </unittitle>
+       <unitid label="afc id">
+        BM:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bill Mooney onstage. 6 panoramic negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/180
+       </container>
+       <unittitle encodinganalog="245$a">
+        Moses, Johnny and Martha
+								Holloway
+       </unittitle>
+       <unitid label="afc id">
+        JM:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Johnny Moses onstage. 3 60mm color reversal film and 2 35mm color
+								negatives (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/180
+       </container>
+       <unittitle encodinganalog="245$a">
+        Moses, Johnny and Martha
+								Holloway
+       </unittitle>
+       <unitid label="afc id">
+        JM:PH6-PH11
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Johnny Moses along with Martha Holloway onstage, 1995. 6 35mm
+								negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/181
+       </container>
+       <unittitle encodinganalog="245$a">
+        Norfolk, Bobby
+       </unittitle>
+       <unitid label="afc id">
+        BN:PH1-PH31
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Bobby Norfolk offstage on the grounds. 31 60mm color reversal film;
+								(4 matted)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/182
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay
+       </unittitle>
+       <unitid label="afc id">
+        JO: PH1-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage. 9 35 mm color negatives (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/182
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage. 2 panoramic color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/183
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay, Hannah O’Callahan and
+								Tim Tingle
+       </unittitle>
+       <unitid label="afc id">
+        JOJT:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage at the Theater Festival Tent, 2004. 3
+								panoramic negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/183
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay, Hannah O’Callahan and
+								Tim Tingle
+       </unittitle>
+       <unitid label="afc id">
+        JOJT:PH7-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan and his daughter performing inside the College Street
+								Tent at the 2004, International Storytelling Festival in
+								Jonesborough, Tennessee. 3 panoramic negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/183
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay, Hannah O’Callahan and
+								Tim Tingle
+       </unittitle>
+       <unitid label="afc id">
+        JOJT:PH13-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan and Tim Tingle performing inside the Theater Festival
+								Tent at the 2004, International Storytelling Festival in
+								Jonesborough, Tennessee. 3 panoramic negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/183
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay, Hannah O’Callahan and
+								Tim Tingle
+       </unittitle>
+       <unitid label="afc id">
+        JOJT:PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O’Callahan onstage. 1 panoramic negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/184
+       </container>
+       <unittitle encodinganalog="245$a">
+        Parker “Mac” Michael and Brummett,
+								Curt
+       </unittitle>
+       <unitid label="afc id">
+        MMP:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Mac Parker onstage, 1994. 2 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/184
+       </container>
+       <unittitle encodinganalog="245$a">
+        Parker “Mac” Michael and Brummett,
+								Curt
+       </unittitle>
+       <unitid label="afc id">
+        CB:PH6-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Curt Brummitt onstage, 1994. 2 35mm color reversal film
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/185
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rauch, Debbie
+       </unittitle>
+       <unitid label="afc id">
+        DR:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Debbie Rauch onstage. 10 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/186
+       </container>
+       <unittitle encodinganalog="245$a">
+        Regan-Blake, Connie, 1947 and Barbara
+								Freeman
+       </unittitle>
+       <unitid label="afc id">
+        CR-BBF:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Connie Regan-Blake and Barbara Freeman onstage. 6 60mm color reversal
+								film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/187
+       </container>
+       <unittitle encodinganalog="245$a">
+        Raynor-Pershin, Laura
+       </unittitle>
+       <unitid label="afc id">
+        LPR:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Laura Pershin-Raynor onstage. 3 panoramic negative film strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/188
+       </container>
+       <unittitle encodinganalog="245$a">
+        Reneaux, J.J.
+       </unittitle>
+       <unitid label="afc id">
+        JJR:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        J. J. Reneaux onstage. 2 35mm color negatives (matted).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/189
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rocha, Antonio
+       </unittitle>
+       <unitid label="afc id">
+        AR:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Antonio Rocha onstage at the Theater Festival Tent, 2004. 6 panoramic
+								negative film strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/189
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rocha, Antonio
+       </unittitle>
+       <unitid label="afc id">
+        AR:PH13-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Antonio Rocha onstage. 12 60mm negatives
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/190
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rogers, Gamble
+       </unittitle>
+       <unitid label="afc id">
+        GR:PH1-PH35
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gamble Rogers onstage. 35 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/190
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rogers, Gamble
+       </unittitle>
+       <unitid label="afc id">
+        GR:PH36-PH59
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gamble Rogers and M. Williams onstage, 1988. 24 60mm color reversal
+								film
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/191
+       </container>
+       <unittitle encodinganalog="245$a">
+        SCALA
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH1-PH54
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Various storytellers onstage and offstage on the grounds. 54 60mm
+								color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/192
+       </container>
+       <unittitle encodinganalog="245$a">
+        Seeger Pete
+       </unittitle>
+       <unitid label="afc id">
+        PS:PH1-PH2:
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Pete Seeger publicity photographs. 2 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/193
+       </container>
+       <unittitle encodinganalog="245$a">
+        Smith, Jimmy Neil
+       </unittitle>
+       <unitid label="afc id">
+        JNS:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jimmy Neil Smith portrait photographs. 6 60mm color reversal film; 2
+								matted.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/194
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH1-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ed Stivender onstage. 22 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/194
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stivender, Ed
+       </unittitle>
+       <unitid label="afc id">
+        ES:PH23
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ed Stivender onstage. 1 60mm color reversal film
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/195
+       </container>
+       <unittitle encodinganalog="245$a">
+        Tinh (Mahoney, Tinh)
+       </unittitle>
+       <unitid label="afc id">
+        TI:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Tinh onstage at the Creekside Festival Tent, 2004. 3 panoramic
+								negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/196
+       </container>
+       <unittitle encodinganalog="245$a">
+        Torrence, Jackie
+       </unittitle>
+       <unitid label="afc id">
+        JT:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackie Torrence onstage. 17 60mm color reversal film and 5 35mm color
+								negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/196
+       </container>
+       <unittitle encodinganalog="245$a">
+        Torrence, Jackie
+       </unittitle>
+       <unitid label="afc id">
+        JT:PH6-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jackie Torrence onstage, 1992. 4 56 x 112 mm color reversal
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/197
+       </container>
+       <unittitle encodinganalog="245$a">
+        Washington, Donna
+       </unittitle>
+       <unitid label="afc id">
+        DW:PH1-PH6:
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Donna Washington onstage. 3 panoramic negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        10/198
+       </container>
+       <unittitle encodinganalog="245$a">
+        Zarzyski, Paul
+       </unittitle>
+       <unitid label="afc id">
+        PZ:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Paul Zarzyski onstage. 2 35mm color negatives.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: Photographs of Various Storytellers
+     </unittitle>
+    </did>
+    <c02 level="series">
+     <did>
+      <unittitle>
+       Color Reversal Film And Negatives
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/199
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(1/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH53
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        53 60mm black and white negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/200
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(2/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        9 panoramic negative film and 10 60mm reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/201
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(3/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        20 60mm reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/202
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(4/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH3
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        2 60mm color reversal film and 1 35mm color negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/203
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (5/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH43
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        43 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/204
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(6/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH7
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        7 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/205
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(7/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH20
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        20 56 x 112 mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/206
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (8/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        17 strips 35mm color reversal film and 1 matted.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/207
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (9/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH87
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        87 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/208
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(10/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        19 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/209
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers
+								(11/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH5
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        5 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        11/210
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (12/12)
+       </unittitle>
+       <unitid label="afc id">
+        VS:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        18 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series IV: Photographs of Events
+     </unittitle>
+    </did>
+    <c02 level="series">
+     <did>
+      <unittitle>
+       Color Slides
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/211
+       </container>
+       <unittitle encodinganalog="245$a">
+        Children Storytelling
+       </unittitle>
+       <unitid label="afc id">
+        CS:PH1-PH64
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        64 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/212
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Fringe Festival (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        TF:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm slides: 180 color and 20 black and white.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/213
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Fringe Festival (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        TF:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/214
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Fringe Festival (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        TF: PH401-PH451
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        51 35mm slides: 34 color and 17 black and white.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/215
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ghost Stories (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        GS:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/216
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ghost Stories (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        GS:PH201-PH254
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        54 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/217
+       </container>
+       <unittitle encodinganalog="245$a">
+        Native American Indians
+       </unittitle>
+       <unitid label="afc id">
+        NAI:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        6 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/218
+       </container>
+       <unittitle encodinganalog="245$a">
+        International Storytelling Center,
+								2003
+       </unittitle>
+       <unitid label="afc id">
+        ISC:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        19 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        12/219
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes
+								(1/4)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH1-PH200
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/220
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes
+								(2/4)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH201-PH400
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/221
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes
+								(3/4)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH401-600
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        200 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/222
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes
+								(4/4)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH601-PH657
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        57 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/223
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swappin’ Ground
+       </unittitle>
+       <unitid label="afc id">
+        SG:PH1-PH72
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        72 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        13/224
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swatches
+       </unittitle>
+       <unitid label="afc id">
+        SW:PH1-PH71
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        71 35mm color slides.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Reversal Film And
+							Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/225
+       </container>
+       <unittitle encodinganalog="245$a">
+        Al Gore Event, 1995 (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        AGE:PH1-PH19
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Al Gore’s 1995 visit to the International Storytelling Festival. 19
+								black and white negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/226
+       </container>
+       <unittitle encodinganalog="245$a">
+        Al Gore Event, 1995 (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        AGE:PH1-PH40
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Al Gore’s 1995 visit to the International Storytelling Festival,
+								along with images of Ray Hicks. 40 35mm negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/227
+       </container>
+       <unittitle encodinganalog="245$a">
+        Doc McConnell’s Old Time Medicine
+								Show
+       </unittitle>
+       <unitid label="afc id">
+        DMO:PH1-PH30
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        30 panoramic film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/228
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Fringe Festival (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        FF:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        6 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/229
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Fringe Festival (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        FF:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        9 color reversal film, 7 60mm color reversal film, 1 35mm color
+								negative and 1 panoramic film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/230
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ghost Stories (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        GH:PH1-PH104
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        104 color reversal film: 20 matted; 84 60mm, 38 panoramic and 1 35mm
+								negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/231
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ghost Stories (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        GH:PH1-PH13
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        13 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/232
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray (Funeral
+								Service)
+       </unittitle>
+       <unitid label="afc id">
+        RHF:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        18 60mm negative film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/233
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray (Beech Mountain,
+								N.C.)
+       </unittitle>
+       <unitid label="afc id">
+        RHB:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        10 panoramic color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/234
+       </container>
+       <unittitle encodinganalog="245$a">
+        International Storytelling Center,
+								Yarnspinner Party, October 1994
+       </unittitle>
+       <unitid label="afc id">
+        YP94:PH1-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        9 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/235
+       </container>
+       <unittitle encodinganalog="245$a">
+        International Storytelling Center,
+								Yarnspinner Party, October, 1995
+       </unittitle>
+       <unitid label="afc id">
+        YP95:PH1-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        17 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/236
+       </container>
+       <unittitle encodinganalog="245$a">
+        International Storytelling Center,
+								Open House
+       </unittitle>
+       <unitid label="afc id">
+        OH:PH1-PH9
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        9 35mm black and white negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/237
+       </container>
+       <unittitle encodinganalog="245$a">
+        Kripsy Kreme
+       </unittitle>
+       <unitid label="afc id">
+        KK:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        18 panoramic negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/238
+       </container>
+       <unittitle encodinganalog="245$a">
+        Resource Tent, 1995
+       </unittitle>
+       <unitid label="afc id">
+        RT95:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        6 35mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/239
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds, (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        12 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/240
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds, (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        SC:PH13-PH48
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        36 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/241
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								1994
+       </unittitle>
+       <unitid label="afc id">
+        SCS94:PH1-PH28
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        28 color reversal film: 15 60mm color reversal film and 13 panoramic
+								film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/242
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								2001
+       </unittitle>
+       <unitid label="afc id">
+        SCS01:PH1-PH30
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        30 60mm negatives.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/243
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								(1/3)
+       </unittitle>
+       <unitid label="afc id">
+        SCS1:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Crowds attending the International Storytelling Festival and Main St.
+								Jonesborough, Tennessee. 12 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/244
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								(2/3)
+       </unittitle>
+       <unitid label="afc id">
+        SCS2:PH3-PH24
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ariel and ground view of Main Street Jonesborough, Tennessee. 12 60mm
+								color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/245
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								Jonesborough, Tennessee (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        SCS3:PH25-PH28
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Scenes in Jonesborough, Tennessee. 4 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/246
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, street
+								and scenes(1/4)
+       </unittitle>
+       <unitid label="afc id">
+        STS1:PH1-PH7
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        7 60mm color reversal film and 1 35mm negative.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/247
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, street
+								and scenes (2/4)
+       </unittitle>
+       <unitid label="afc id">
+        STS2:PH8-PH17
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Showcases the different Railroad, Creekside, College Street, Library
+								tents and more. 105 color film: 10 60mm color reversal film and 95
+								panoramic film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/248
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, street
+								and scenes (3/4)
+       </unittitle>
+       <unitid label="afc id">
+        STS3:PH18-PH89
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        72 panoramic film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/249
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling crowds and street scenes,
+								Storytelling tents (4/4)
+       </unittitle>
+       <unitid label="afc id">
+        STS4:PH90-PH93
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        64 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/250
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, Tent In
+								The Park
+       </unittitle>
+       <unitid label="afc id">
+        TN:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        10 35mm color negative strips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/251
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, Various
+								(1/3)
+       </unittitle>
+       <unitid label="afc id">
+        STV1:PH1-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        10 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/252
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, Various
+								(2/3)
+       </unittitle>
+       <unitid label="afc id">
+        STV2:PH11-PH28
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        18 panoramic black and white film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/253
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling festival tents, Various
+								(3/3)
+       </unittitle>
+       <unitid label="afc id">
+        STV3:PH29-PH67
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        39 60mm black and white film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        14/254
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swappin’ Ground, 1995
+       </unittitle>
+       <unitid label="afc id">
+        SG95:PH1-PH27
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        27 60mm color reversal film.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/255
+       </container>
+       <unittitle encodinganalog="245$a">
+        Biltmore Estate (Event)
+       </unittitle>
+       <unitid label="afc id">
+        BE:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Architectural photograph. 2 8x10 black-and-white print.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/256
+       </container>
+       <unittitle encodinganalog="245$a">
+        Midnight Cabaret, 1997
+								(Event)
+       </unittitle>
+       <unitid label="afc id">
+        MC97:PH1-PH37
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Waddie Mitchell and Don Edwards onstage at the Midnight Cabaret,
+								1997. 37 4x6 color prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/257
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mujuru, Ephat
+       </unittitle>
+       <unitid label="afc id">
+        EM:PH1-PH3
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ephat Mujuru onstage. 2 5x7 and 1 8x10 black-and-white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/258
+       </container>
+       <unittitle encodinganalog="245$a">
+        O’Callahan, Jay
+       </unittitle>
+       <unitid label="afc id">
+        JO:PH1-PH3
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Jay O'Callahan performing in front of Doc McConnell’s wagon. 3 5x7
+								black and white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/259
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ross, Gayle
+       </unittitle>
+       <unitid label="afc id">
+        GR:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Gayle Ross, onstage. 1 8x10 black and white.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/260
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rubright, Lynn
+       </unittitle>
+       <unitid label="afc id">
+        LR:PH1-PH8
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Lynn Rubright onstage. 8 5x7 black and white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/261
+       </container>
+       <unittitle encodinganalog="245$a">
+        Storytelling exhibit
+       </unittitle>
+       <unitid label="afc id">
+        SE:PH1-PH12
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Various storytellers onstage and offstage on the grounds. 11 8x10 and
+								1 5x7 black and white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/262
+       </container>
+       <unittitle encodinganalog="245$a">
+        Swappin' Ground
+       </unittitle>
+       <unitid label="afc id">
+        SW:PH1-PH3
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Ray Hicks and Storytelling audience at the Swappin' Ground. 2 8x10
+								and 1 5x7 black and white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/263
+       </container>
+       <unittitle encodinganalog="245$a">
+        Timpanelli, Goya
+       </unittitle>
+       <unitid label="afc id">
+        GT:PH1
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Goya Timpanelli onstage. 1 5x7 black and white print.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/264
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (1/2)
+       </unittitle>
+       <unitid label="afc id">
+        VS1:PH1-PH18
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Various storytellers onstage and offstage on the grounds along with
+								interacting with audience. 14 black and white prints: 4 5x7 and 10
+								8x10.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/265
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (2/2)
+       </unittitle>
+       <unitid label="afc id">
+        VS2:PH19-PH32
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        14 8x10 black and white prints.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/266
+       </container>
+       <unittitle encodinganalog="245$a">
+        Young, Judy
+       </unittitle>
+       <unitid label="afc id">
+        JY:PH1-PH4
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Judy Young onstage. 4 8x10 black and white print.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Contact Sheets
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/267
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hicks, Ray
+       </unittitle>
+       <unitid label="afc id">
+        RH:PH1-PH2
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contact sheets which also includes Jackie Torrence. 2 black and white
+								contact sheets.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/268
+       </container>
+       <unittitle encodinganalog="245$a">
+        Krispy Kreme
+       </unittitle>
+       <unitid label="afc id">
+        KK:PH1-PH3
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contact sheets displaying the Krispy Donuts trailer in the town of
+								Jonesbourough, Tennessee. 3 contact sheets.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/269
+       </container>
+       <unittitle encodinganalog="245$a">
+        NAPPS staff and storytellers,
+								1984
+       </unittitle>
+       <unitid label="afc id">
+        NS84:PH1-PH4
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contacts sheets of NAPPS staff, now ISC, and Storytellers attending
+								an event and performing. 4 contact sheets.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/270
+       </container>
+       <unittitle encodinganalog="245$a">
+        International National Storytelling
+								Festival
+       </unittitle>
+       <unitid label="afc id">
+        NSF:PH1-PH22
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Scenes from the International National Storytelling Festival. 22
+								color prints (various sizes).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/271
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (1/3)
+       </unittitle>
+       <unitid label="afc id">
+        VS1:PH1-PH6
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contact sheets of various storytellers such as David Holt, Ed
+								Stivender and more onstage. 6 color contact sheets.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/272
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (2/3)
+       </unittitle>
+       <unitid label="afc id">
+        VS2:PH7-PH10
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contact Sheets of various storytellers onstage. 4 color contact
+								sheets.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box-folder">
+        15/273
+       </container>
+       <unittitle encodinganalog="245$a">
+        Various Storytellers (3/3)
+       </unittitle>
+       <unitid label="afc id">
+        VS3:PH11-PH23
+       </unitid>
+      </did>
+      <scopecontent>
+       <p>
+        Contact sheets of various storytellers including Doc Mc Connell’s
+								"Old Medicine Show." 13 color contact sheets.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

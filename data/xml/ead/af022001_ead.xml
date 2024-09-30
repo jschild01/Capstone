@@ -1,0 +1,4749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af022001">
+   loc.afc/eadafc.af022001
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Vodou religious expression in Haiti collected by Odette Mennesson
+                    Rigaud, Milo Rigaud, and Shirley Keller
+    </titleproper>
+    <author>
+     Prepared by Marcia K. Segal
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2022-07">
+     July 2022
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2019655314" show="new">
+       https://lccn.loc.gov/2019655314
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-12">
+     December 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Marcia Segal updated the extents and revised date encoding, and
+                    links to two external collections.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-08">
+     August 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Farrah Cundiff revised bioghist encoding.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-07">
+     July 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Vodou religious expression in Haiti
+                collected by Odette Mennesson Rigaud, Milo Rigaud, and Shirley Keller
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1944/1985">
+     1944-1985
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1944/1985" unitdatetype="inclusive">
+    1944-1985
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2019/041
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Rigaud, Milo, 1904-1981, collector
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Mennesson-Rigaud, Odette, collector
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    104 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    1 folder (21
+                sheets)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    1 sound tape reel :
+                analog ; 10 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    11 sound tape reels :
+                analog ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    1 sound tape reel :
+                analog ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    50 sound wire reels :
+                analog ; 3 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    17 audiocassettes :
+                analog
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 videocassette (Hi-8) :
+                sound, color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 DVD-R : sound,
+                color
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 file : digital, sound,
+                color ; .vob
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="hat">
+      Haitian French Creole
+     </language>
+     <language encodinganalog="041" langcode="fre">
+      French
+     </language>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in French, Haitian French Creole, and English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection includes audio
+                documentation of religious expression in Haiti, circa 1940s-1950s.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Scott Keller; Donation; 2019.
+   </p>
+  </acqinfo>
+  <custodhist encodinganalog="561">
+   <head>
+    Custodial History
+   </head>
+   <p>
+    Shirley Keller received the wire recordings from Odette Mennesson Rigaud on an
+                unspecified date.
+   </p>
+  </custodhist>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal in 2021-2022.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Materials
+   </head>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2017655203" show="new">
+     Diane
+                    Wolkstein collection (AFC 2016/057)
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://www.bu.edu/library/gotlieb-center/" show="new">
+     Maya Deren Collection (#515),
+                    Howard Gotlieb Archival Research Center, Boston University.
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://finding-aids.lib.unc.edu/20266/" show="new">
+     Shirley Keller Collection (#20266-z), Southern Folklife Collection, The Wilson
+                    Library, University of North Carolina at Chapel Hill.
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://www.bhshaiti.org/" show="new">
+     Fonds Odette
+                    Mennesson Rigaud/Milo Rigaud, Bibliothèque Haïtienne des Spiritains,
+                    Port-au-Prince, Haiti.
+    </ref>
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The collection is open to research. To request materials, please contact the
+                Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Vodou religious expression in Haiti collected by
+                Odette Mennesson Rigaud, Milo Rigaud, and Shirley Keller, American Folklife Center,
+                Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <bioghist encodinganalog="545">
+    <head>
+     Odette Mennesson-Rigaud
+    </head>
+    <p>
+     Odette Mennesson-Rigaud (1907-1990) was born in France and became a Haitian
+                    citizen following her marriage to Milo Rigaud (in New York City, on January 10,
+                    1935). She became an ethnographer of Vodou, and was a noted photographer in her
+                    own right.
+    </p>
+   </bioghist>
+   <bioghist encodinganalog="545">
+    <head>
+     Milo Rigaud
+    </head>
+    <p>
+     Milo Rigaud (1904-1981) was born in Port au Prince, Haiti, where he spent the
+                    greater part of his life studying Vodou traditions. In Haiti he also studied
+                    law, and in France ethnology, psychology, and theology. The involvement of Vodou
+                    in the political struggle of Haitian Blacks for independence was one of his main
+                    concerns.
+    </p>
+   </bioghist>
+   <bioghist encodinganalog="545">
+    <head>
+     Shirley Keller
+    </head>
+    <p>
+     Shirley Keller (-2017) of New Jersey was a white folk singer and musician who
+                    played guitar, Appalachian dulcimer, auto harp, and banjo. In the 1980s and
+                    1990s, Keller hosted a weekly radio program on WFDU FM Radio and later a cable
+                    television show in New Jersey and New York called "The Folk People." She
+                    interviewed guest folk musicians and artists, who also performed in the
+                    studio.
+    </p>
+   </bioghist>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection includes audio documentation of religious expression in Haiti, circa
+                1940s-1950s, as well as an audio interview with Shirley Keller about her work on the
+                book
+    <title>
+     <part>
+      The Magic Orange Tree
+     </part>
+    </title>
+    and a video of a presentation she gave with Angus Gillespie on vodou
+                traditions. The wires appear to be the source recordings for the 1953 Rigaud book
+    <title>
+     <part>
+      La tradition voudoo et le voudoo haïtien : (son temple, ses mystères, sa
+                        magie)
+     </part>
+    </title>
+    . Most of the sound tape recordings are compiled dubs of wire recordings.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is organized in four series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10001">
+      Series 1:
+                        Manuscripts
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10003">
+      Series 2:
+                        Vodou-related recordings
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10060">
+      Series 3: Various
+                        sound recordings
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ead10075">
+      Series 4: Dubbed
+                        commercial recordings
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20220705162900.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gaither, Edmund B.--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gillespie, Angus K., 1942-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Keller, Shirley (Guitarist)
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Keller, Shirley (Guitarist)--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Mennesson-Rigaud, Odette
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Mennesson-Rigaud, Odette--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Rigaud, Milo, 1904-1981
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Robinson, Rudy, 1937-1987--Interviews.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Drum music--Haiti.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Haiti.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Percussion music--Haiti.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vodou music--Haiti.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vodou--Haiti.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vodou--Rituals--Haiti.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Haiti--Religion.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Haiti--Religious life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Milo and Odette Rigaud Haiti recordings
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1:
+                        Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Documents related to the
+                            collection,
+       <date localtype="inclusive" normal="1940/1949">
+        1940s
+       </date>
+       ,
+       <date localtype="inclusive" normal="2001">
+        after 2001
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940/1949" unitdatetype="inclusive">
+       1940s
+      </unitdate>
+      <unitdate encodinganalog="245$f" normal="2001" unitdatetype="inclusive">
+       after 2001
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes documentation from sound recording containers, original and
+                            photocopied instructions on how to use a wire recorder, a handwritten
+                            note from Odette Rigaud to Shirley Keller, and a handwritten letter from
+                            Odette Rigaud to an unidentified person (implicitly identified as
+                            Shirley Keller, see
+       <ref target="ead10090">
+        afc2019041_dc001_aip_01
+       </ref>
+       for details).
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10003">
+      Series 2: Vodou-related
+                        recordings
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Information transcribed from audio containers and carriers has been edited
+                        for clarity (e.g., some abbreviations have been expanded). Tape recordings
+                        seem to be primarily dubs of wire recordings, and as such the audio quality
+                        reflects the original recording, as well as any imperfections introduced in
+                        the dubbing process.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR001
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01063
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:10:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 1 / Passe / Concher Ciceron / Au Revoir / [?]onper debut [?]
+                            ajartes [?] 10' c[?] / de rondeau II a fin / milieu en fin excellents /
+                            Rerecording sur tape No 6-7
+      </p>
+      <p>
+       Box lid: 1 Tape 6-7 / 60' / Concher Ciceron
+      </p>
+      <p>
+       Written on the wire spool: passé / Concher Ciceron / rerecorded tape
+                            6-7
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR002
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01064
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:08:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel 1: 21 / concher Ciceron / [?] - 8' / tape rerecording No 7
+      </p>
+      <p>
+       Box panel 2: 21 / Odette Rigaud / 21
+      </p>
+      <p>
+       Box lid: Concher Ciceron 8 / Tape 7 / 21
+      </p>
+      <p>
+       Written on the wire spool: passé / Concher Ciceron 4 / 8' 2 / rerecording
+                            son tape [?]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR003
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01065
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:55:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: I - Ciceron son des differentés danses / Rada / 55'
+      </p>
+      <p>
+       Box lid: Ciceron son Rada / 55' approx.
+      </p>
+      <p>
+       Written on the wire spool: 55' / I / Ciceron son des diverses danses
+                            Rada
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR004
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01066
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       One of the spool
+                            flanges is chipped; the piece accompanies the spool.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Ciceron 30' / son differentes danses / Congo - Petro /
+                            Pangole
+      </p>
+      <p>
+       Box lid: Ciceron sons Congo - Petro 30'
+      </p>
+      <p>
+       Written on the wire spool: II Ciceron sons differéntés danses / Congo -
+                            Petro / 30'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR005
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01067
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (approx.
+                            00:20:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: passé 10' ca Ciceron à revoir chantes divers 10' / 10'
+                            vierge
+      </p>
+      <p>
+       Box lid: Ciceron chantes divers
+      </p>
+      <p>
+       Written on the wire spool: efforce 20' / [?]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR006
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01068
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:04:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Ciceron 4' / bohoun / bohoun / appel [?]ondé [?] morts / Songs
+                            of the Dead
+      </p>
+      <p>
+       Box lid: Ciceron - bohouns
+      </p>
+      <p>
+       Written on the wire spool: Cicéron - bohouns
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR007
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01069
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (Silvertone,
+                            approx. 00:13:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: effacé / 13' 15' / Ciceron - histoires / [?] jais bien / -[?]
+                            chien jappé / -[?] mu[?] pas fait par[?] / -[?] couleure r[?]
+      </p>
+      <p>
+       Box lid: Ciceron - histoires 2
+      </p>
+      <p>
+       Written on the wire spool (front): histoires Ciceron 13'
+      </p>
+      <p>
+       Written on the wire spool (back): effacé 13'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR008
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3578
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:48:00) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content fades in about 00:00:19. A male singer (probably Cicéron),
+                            with multiple voices singing at times. Conversations can be heard in the
+                            background. The recording includes the following instruments: drums, a
+                            rattle, a whistle, and perhaps other instruments. Some hand clapping can
+                            be heard. The audio crackles intermittently, probably from the source
+                            recording. The recording fades in and out at times, and ends abruptly.
+                            The tape was probably was dubbed from one or more wire recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Rerecording 1 Concher Ciceron 50' [?] sur [?] 7
+      </p>
+      <p>
+       Information from the donor (written on the tape box): Tape 6 to cassette
+                            6 / April 1982 by Shirley Keller / Odette was Voodoo [sic] Priestess
+                            from 1950's / Voodoo [sic] from wire recordings of Odette Rigaud of Port
+                            au Prince Haiti
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR009
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3579
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:48:00) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content fades in about 00:00:07. Male singer (probably Cicéron), with
+                            multiple voices singing at times. The recording includes drums, metal
+                            percussion, a rattle, and perhaps other instruments. Some hand clapping
+                            can be heard. The recording fades in and out at times, and ends
+                            abruptly. The tape was probably was dubbed from one or more wire
+                            recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Rerecording (1) Concher Ciceron (suite) 10' / Rerecording (2)
+                            Concher Ciceron 8' / Rerecording (3) Canzo Ciceron (début) / 7 - should
+                            be 5
+      </p>
+      <p>
+       Information from the donor (written on the tape box): Re-recorded on to
+                            Cassette #7 May 1982 by Shirley Keller
+      </p>
+      <p>
+       Written on the tape reel flange: Rerecorded on to Cassette #7 May 1982 by
+                            Shirley Keller
+      </p>
+      <p>
+       Accompanying documentation: Rerecording (1) Concher Ciceron (suite) 10' /
+                            Rerecording (2) Concher Ciceron 8' / Re-recording (3) / Canzo Ciceron
+                            (début)
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR010
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3580
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:48:00) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content starts at 00:00:05. Speech and a cappella singing, with some
+                            conversation and laughter, and possibly recitations. A baby can be heard
+                            crying occasionally. Some hand clapping can be heard. The recording
+                            includes drums can be heard; there may be other instruments played. The
+                            recording ends abruptly. The recording ends abruptly. Dubbed from one or
+                            more source recordings (probably wires).
+      </p>
+      <p>
+       The note "Made on Ito's machine (Webster)" is probably a reference to
+                            Teiji Ito, composer and drummer, who met Maya Deren in 1955 and traveled
+                            with her to Haiti. He may have loaned the wire recorder to the
+                            Rigauds.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel [listed thus]:
+      </p>
+      <p>
+       Rerecording (M) V - commencé sur 4
+      </p>
+      <p>
+       Zaca Titon et Julia chants
+      </p>
+      <p>
+       arrivée de Ogon - Julia Ogon
+      </p>
+      <p>
+       Zaca Titon - venue Ogon [erased word] Titon
+      </p>
+      <p>
+       chants Wago paroles Issange [?] [duege Malo?]
+      </p>
+      <p>
+       Venue de entretoutt
+      </p>
+      <p>
+       Histoires Entre toutt - Chants
+      </p>
+      <p>
+       Titon Martinique "Sina"
+      </p>
+      <p>
+       Titon Martinique "Jouda [?]porte" "Amude" [?]
+      </p>
+      <p>
+       Titon Martinique A l'assant
+      </p>
+      <p>
+       Titon Martinique Erzulie Dantor
+      </p>
+      <p>
+       O loa rele Loas o Dantor javné[?]
+      </p>
+      <p>
+       Avanncé[?] o Z'arezs[?] non d'leau
+      </p>
+      <p>
+       Recordist's note:
+      </p>
+      <p>
+       Made on Ito's machine (Webster) [wire recorder]
+      </p>
+      <p>
+       Tape leader:
+      </p>
+      <p>
+       Head - Debut. Rerecording No 5. Vodou. 2e rerecording (M) V
+      </p>
+      <p>
+       Accompanying documentation:
+      </p>
+      <p>
+       11 wire / 2 copies sur tape moins 1 (priere) no 8 manqour [?] - reste in
+                            Boston / Rerecording 3 [?] [?] de Canzo Ciceron / et 19 non mis sur
+                            tape
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR011
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3581
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:25:30) : analog, 7 1/2 ips; full track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content starts about 00:00:05. Two male voices; the first sings in a
+                            yodeling style. It is unclear which is Ciceron. Other male voices sing
+                            in the background. Later in the recording, mixed voices sing in the
+                            background. A man sings in a hiccuping style. The recording includes
+                            drums, rattles, and other percussion can be heard. There is some hand
+                            clapping. Dubbed from one or more source recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel:
+      </p>
+      <p>
+       8 (note de 7) erreur
+      </p>
+      <p>
+       Rerecording (3) Canzo Ciceron (suite)
+      </p>
+      <p>
+       15' de prieré battemént de me[?]
+      </p>
+      <p>
+       a la fin priere catholique
+      </p>
+      <p>
+       priere G[?] [?] mache
+      </p>
+      <p>
+       [?] a la fin du wire du Canzo 3.
+      </p>
+      <p>
+       Rerecording (4) canzo Ciceron début (priere) 20 minutes
+      </p>
+      <p>
+       From the leader tape: fin Tape 8 Rerecording Canzo Ciceron 3 (suite) et
+                            no 4 (debut)
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR012
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01070
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:52:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 52 / Emmanuel / 3 Parreun Cain Hounfor / 4 Damballah Oueddo /
+                            4 Viré Damballah Oueddo / 5 Wo je rele [further details on the box
+                            panel; Legba is one of the names]
+      </p>
+      <p>
+       Box lid: Emmanuel Vodon - rois / 52'
+      </p>
+      <p>
+       Written on the wire spool: Emmanuel chants 52' Chants Sortu de Bande
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR013
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01071
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, 00:15:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       While the wire's
+                            duration is pre-printed on the spool as 15 minutes in duration, the
+                            accompanying documentation suggests the recording is 30 minutes
+                            long.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Bande Emmanuel - 30' / mascaron / r'aras / Quinbe [?] jes
+                            Cagré [?] / 2
+      </p>
+      <p>
+       Written on the wire spool: Bande Emmanuel - 30' / mascaron / r'aras
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR014
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01072
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:52:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       While the wire's
+                            duration is pre-printed on the spool as 30 minutes in duration, the
+                            accompanying documentation suggests the recording is 52 minutes
+                            long.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Box panel 1: No. I / Manger Ste Terre / 52' / à garder rec[?]
+                            priere -- Box panel 2: Odette Rigaud
+      </p>
+      <p>
+       Box lid: Manger Ste Terre / 52' / no I / à revoir
+      </p>
+      <p>
+       Written on the wire spool: Manger St Terre I / 52'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR015
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01073
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel 1: passé rerecording I [further details on the box panel] /
+                            tape rerecording no 1 et 2
+      </p>
+      <p>
+       Box panel 2: rerecording
+      </p>
+      <p>
+       Box lid: 3 / Tape 1-2 / Rerecording I / Rada
+      </p>
+      <p>
+       Written on the wire spool: passé re recording I
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR016
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01074
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:15:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Tape recording no 4 / Rerecording IV I / 5' o madia ové / 3
+                            1/2 Jambé Calfon / 4 Miro Miba / 4 1/2 Panama'm Tombé Congo /
+                            Rerecording IV 1 Tape 4
+      </p>
+      <p>
+       Box lid: Tape 4 / Rerecording IV - 1
+      </p>
+      <p>
+       Written on the wire spool: Rerecording IV / I chants et tambours
+                            Petro?
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR017
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01075
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (unknown
+                            duration) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: rerecording IV 2 / 4 Nago drawd / 4 1/2 Guede Crabigne [?] / 4
+                            1/2 Wago / 3 1/2 Congo / 4 Aux chases [?] / Rerecording sur tape no
+                            4
+      </p>
+      <p>
+       Box lid: Tape 4 / Rerecording IV - 2 / 8
+      </p>
+      <p>
+       Written on the wire spool: rerecording IV 2 tambourines
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR018
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01076
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Canzo III / a [?] [?] prier[?] jusque 55' / jusque 28'
+                            Rerecording sur tape no 8 et 28 ags [?] / tape rerecording no 8
+      </p>
+      <p>
+       Box lid: 3 / Tape 7 8 / Canzo III
+      </p>
+      <p>
+       Written on the wire spool: 3 / Canzo III rerecording sur tape 7-8
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR019
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10022">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01077
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 4' / 2 chants de travailleurs
+      </p>
+      <p>
+       Box lid: 10 / 2
+      </p>
+      <p>
+       Written on the wire spool: 4' / 2 chants travailleurs
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR020
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01078
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago; approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 1 / 5 / Chants de Travailleurs each 10' / Prie non jo [?] /
+                            [further details on the box panel]
+      </p>
+      <p>
+       Box lid: 1 / 10 / 9 / 5 / chants de travailleurs
+      </p>
+      <p>
+       Written on the wire spool: Chants des travailleurs / each 10'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR021
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10024">
+       Sound recording,
+       <date localtype="inclusive" normal="1949-11-02">
+        November 2, 1949
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1949-11-02" unitdatetype="inclusive">
+       November 2, 1949
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01079
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Guedés (Lorgina) / sur assez long apres mon Antoine
+      </p>
+      <p>
+       Box lid: 5 / Guédés - 2 Novembre 1949
+      </p>
+      <p>
+       Written on the wire spool: Guédés - Lorgina / 2 Novèmbre
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR022
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10025">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01080
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Box panel 1: 1/ Odette Ligilia Andoclés 4' / histoire Man
+                            Bellande 11' / Milo A[?] 1950 5' / [?]issa etc 8' -- Box panel 2: Lizila
+                            Andoclés / Man Bellande / 15'
+      </p>
+      <p>
+       Box lid: 1 / Lizila Andoclés / Man Bellande / Milo / 28'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR023
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10026">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01081
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:15:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       "Bobine" is a reel;
+                            probably a reference to the wire spool.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: a garder / Bobine II / Debut manger Hounter / 31' + 10' de 4
+                            (B) / Manger Hountor / Bobine II / 31 10' 3 / Odette Rigaud
+      </p>
+      <p>
+       Written on the wire spool: III 31' Hounter (A) a garder / + 10' des
+                            grande 4 - (B)
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR024
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10027">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01082
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago; approx. 00:15:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Bobine III / 31' / a garder / 4 / Fin Manger Hountor (C)
+      </p>
+      <p>
+       Written on the wire spool: Manger Hountor (C) / 31' / 4
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR025
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10028">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01083
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel :
+                            analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Antoinette 10' / [?] Congo [?] / Antoinette
+      </p>
+      <p>
+       Written on the wire spool: Antoinette / 1 [?]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR026
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10029">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01084
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: passé vierge
+      </p>
+      <p>
+       Written on the wire spool: Milo 25'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR027
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10030">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01085
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago; approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: [??] B[?] Guede / Banda / Malu / Famille Nada / [?] / Jodon
+                            [?] (divers) / Odette Rigaud
+      </p>
+      <p>
+       Written on the wire spool: Belecon [further details on the spool]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR028
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10031">
+       Sound recording,
+       <date localtype="inclusive" normal="1950">
+        1950
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950" unitdatetype="inclusive">
+       1950
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01086
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago; approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Lorgina [??] / Guedes Lorgina 1950
+      </p>
+      <p>
+       Written on the wire spool: Guedes Lorgina 1950
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR029
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10032">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3582
+      </unitid>
+      <physdesc encodinganalog="300">
+       1 sound tape reel (acetate, 00:48:05) :
+                            analog, 7 1/2 ips, half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins about 00:00:08. Singing with mixed voices. On
+                            different songs, a man (possibly more than one man) leads singing, with
+                            a sung response from mixed voices. Later in the recording conversations
+                            can be heard. The recording includes drums, a rattle, a sound like a
+                            cowbell, an unidentified wind instrument. Songs start and end abruptly.
+                            The tape was probably was dubbed from one or more wire recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Information from the donor (written on the tape box): Tape 2 to cassette
+                            2 April 1982 by Shirley Keller
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR030
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10033">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01087
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Rerecording III [?] 40' / [??] / Rerecording III Tape 3
+      </p>
+      <p>
+       Written on the wire spool: Rerecording III
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR031
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10034">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3583
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel (acetate,
+                            00:48:00) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins about 00:00:06. At times a man sings the lead (almost
+                            certainly more than one man sings lead, at different times), with a
+                            group of mixed voices. Vocal whoops, possibly by a woman, can be heard.
+                            The recording includes drums, rattles, and other percussion (both wood
+                            and metal). The tape was probably was dubbed from one or more wire
+                            recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 3A / [more details in pencil here] / Voodoo [sic] - Rigaud
+      </p>
+      <p>
+       Written on the tape reel flange: Head (debut) Rerecording ([?]) 4 -
+                            [?]
+      </p>
+      <p>
+       Information from the donor (written on the tape box): Tape 3A to cassette
+                            April 1982 by Shirley Keller
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR032
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10035">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 3584
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel (acetate,
+                            00:47:33) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins at 00:00:25. Primarily mixed voices, with occasional
+                            lead vocals by a woman and by a man. The recording includes drums and
+                            other percussion. The sound fades in and out on occasion. Hand-clapping
+                            can be heard towards the end of the recording. The recording ends
+                            abruptly. The tape was probably was dubbed from one or more wire
+                            recordings.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Rerecording (M) 1 / [more details here]
+      </p>
+      <p>
+       Written on the tape reel flange: Side A: 5 1/2 signalé Agoné / 2 1/2
+                            cinna ou cinna / 6' Fai guon [?] neve s[?] yanquilé [?] neve [?] can / 5
+                            african [?] [?] legba Beni da o alyzan aluzan [?] marché / 4 1/2 voco
+                            atissan / 3 Coco Coco / 6 Demballah Aveddo [?] / 4 creol' o vodoines [?]
+                            Side B: 7 Rèle l.ment [?] . 1 manhaver [?] / 3 salve legba é / 3 Keke
+                            salve legba
+      </p>
+      <p>
+       Information from the donor (written on the tape box): 3 / Tape 3 to
+                            cassette April 1982 by Shirley Keller / Wire Rerecordings from Madame
+                            Odette Rigaud - P-au-P. [Port au Prince] Haiti year? 1950s / Bob Avedon
+                            made these / Voodoo [sic] tapes from wire Recordings
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR033
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10036">
+       Sound recording,
+       <date localtype="inclusive" normal="1980-11-12">
+        November 12, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-11-12" unitdatetype="inclusive">
+       November 12, 1980
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4059
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel (backcoated
+                            polyester and polyester, 00:19:05) : analog, 7 1/2 ips, half track, mono
+                            ; 5 3/4 in.
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       The tape is an
+                            edited combination of regular and backcoated stocks. The backcoated
+                            sections have sticky shed syndrome. The tape was baked before
+                            transfer.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins at 00:00:04. Michael Richards interviews Shirley
+                            Keller on Radio Metropol (Haiti). Subjects include the Appalachian
+                            dulcimer, the autoharp, Keller's family, educational, and professional
+                            backgrounds, her feelings about Haiti (as this was her second visit),
+                            her interest in preserving Haitian culture, the book she recently worked
+                            on with Diane Wolkstein (
+       <title>
+        <part>
+         The Magic Orange Tree, and Other Haitian Folktales
+        </part>
+       </title>
+       ), the meaning of the book title, the publication history of
+                            the book, how the stories were gathered from various homes, the impact
+                            of television and radio on storytelling, an explanation of folk music
+                            and the meaning of songs, the difference between country music and folk
+                            music, the history of her working relationship with Paul Cadwell and
+                            Charlie Wright (a recording of "Music Is A Treat" is played at this
+                            point), kazoos, Keller's meeting with Tiroro (also Ti Roro; Raymond
+                            Baillargau, dancer/drummer); a recording of his drumming is played (but
+                            edited out of this recording), Keller's radio program ("The Folk
+                            People"), locations where she has played in Haiti and the response she
+                            received, her hope to collect more music in Haiti to present to the
+                            American people, and her invitation to Michael Richards to appear on her
+                            show.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Imperial / 12 Nov 1980 / Shirley Keller interview / Haiti /
+                            894 595 / Refrains de demain 80/11 / 28' 00" 7 1/2 i.p.s. Francais
+                            28.5.1980 / Philo Anjlach [?] [?] / Tiroro died 1 year ago 1979
+      </p>
+      <p>
+       Written on the tape reel flange: Shirley Keller interview 2/27/81
+      </p>
+      <p>
+       Information from the donor (written on the tape box): Interviewer -
+                            Michael Richards 11-12-80 / Tiroro died 1 year ago 1979
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR034
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10037">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4060
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel (acetate,
+                            00:48:00) : analog, 7 1/2 ips; half track, mono ; 7 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins at 00:00:07. A man sings a cappella, and soon after
+                            with drum accompaniment. One song has a chorus of children singing. One
+                            song seems to be entirely one man singing a capella, and is cut off
+                            abruptly. Singing also includes mixed adult voices. Conversations can be
+                            heard but the voices are almost unintelligible (as a result of low audio
+                            quality). There is occasional sound distortion, either from the source
+                            recording's condition, or possibly because the mic was too close to the
+                            instruments as they were being played. The recording ends abruptly.
+                            Instruments played include drums, metal percussion, and whistles.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: [??] Congo [further details on the box panel] / Haiti - Rigaud
+                            - Voodoo [sic] / Head - (debut Rerecording (M) Lil Etudes [?] - IV
+      </p>
+      <p>
+       Written on the tape reel flange: Tape 4 to cassette 4
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR035
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10038">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYE 8034
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:32:30, Side B: 00:29:10) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: The content begins at 00:00:09. A man sings to drum
+                            accompaniment. In another song, men sing lead vocals, to mixed chorus
+                            accompaniment. Instruments played include drums, a stringed instrument
+                            (possibly a guitar)
+      </p>
+      <p>
+       Side B: The content begins at 00:00:09. This side seems to be a
+                            continuation from Side A, with a man singing to stringed instrument
+                            accompaniment, with at least one extended solo on the instrument.
+                            Instruments played include a stringed instrument (possibly a guitar) and
+                            drums.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: IIA #6 / Voodoo [sic] ceremonies
+                            recorded on wire by Odette Rigaud / put onto digital master - made by
+                            Bob Avedon - Park Ridge, N.J.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR036
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10039">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RAA 66287
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel (polyester,
+                            00:11:00) : analog, 7 1/2 ips; half-track, stereo and mono ; 10
+                            in.
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This tape was
+                            received without an individual tape box.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Shirley Keller records herself speaking into a tape recorder, and uses
+                            another recorder to play back music performances and parts of Vodou
+                            ceremonies. She talks about Haitian drumming and her first experience
+                            attending a Vodou ceremony, in 1975. She mentions Diane (probably Diane
+                            Wolkstein) and Marie (otherwise unidentified). At 00:06:56 she mentions
+                            Milo Rigaud.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Written on the tape reel flange: Voodoo [sic]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR037
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10040">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYF 1129
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:42:00, Side B: 00:45:34) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: The content begins about 00:00:13. People are speaking while
+                            instruments are being played. For more than one song, a man leads the
+                            singing for a chorus of mixed voices. A dog can be heard barking. There
+                            are instances of hand clapping. The recording ends abruptly. Instruments
+                            played include drums, metal percussion, and rattles.
+      </p>
+      <p>
+       Side B: The content begins about 00:00:20. One man and sometimes two men
+                            lead a group of mixed voices in song, accompanied by rattles and drums.
+                            At one point a chicken can be heard clucking. The recording ends
+                            abruptly. Instruments played include drums, rattles, and metal
+                            percussion.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Box panel: Side A: I #3 / Side B: #4 #5
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR038
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYF 8606
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:32:30, Side B: 00:18:00) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       SR038,
+       <ref target="ead10042">
+        SR039
+       </ref>
+       , and
+       <ref target="ead10043">
+        SR040
+       </ref>
+       have identical content.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: The content begins about 00:00:15. Vocal performances. Musical
+                            instruments include drums and metal percussion. The recording ends
+                            abruptly.
+      </p>
+      <p>
+       Side B: The content begins about 00:00:05. Mixed voices, sometimes with a
+                            leader, perform songs. Conversations can be heard. Musical instruments
+                            include drums, rattles and other percussion, and whistles. The recording
+                            ends abruptly.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Box panel: Side A: III #7 / Side B: #7, continued
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR039
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10042">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYH 8997
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:32:31, Side B: 00:18:00) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       <ref target="ead10041">
+        SR038
+       </ref>
+       , SR039, and
+       <ref target="ead10043">
+        SR040
+       </ref>
+       have identical content.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Box panel: Side A: III #7 / Side B: #7, continued
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR040
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10043">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYL 4397
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:32:36, Side B: 00:18:00) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       <ref target="ead10041">
+        SR038
+       </ref>
+       ,
+       <ref target="ead10042">
+        SR039
+       </ref>
+       , and SR040 have identical content.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Box panel: Side A: III #7 / Side B: #7, continued
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR041
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10044">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYL 4476
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:47:00, Side B: 00:41:40) : analog, 1 7/8 ips, half track,
+                            mono
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: The content begins about 00:00:23. Mixed voices, sometimes with a
+                            leader, perform songs. Hand clapping can be heard. At 00:33:19 a woman
+                            says "chants des travailleurs" (worker's songs); this may be Marie
+                            Rigaud. At 00:41:34 a horn honks twice (possibly a car passing by). The
+                            recording ends abruptly. Musical instruments include drums, metal
+                            percussion, and rattles.
+      </p>
+      <p>
+       Side B: The content begins about 00:00:06. Mixed voices, sometimes with a
+                            leader, perform songs. Hand clapping can be heard. There are occasional,
+                            brief conversations. The recording ends abruptly. Musical instruments
+                            include drums, rattles, and metal percussion
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: 100 / [Side] B
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR042
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10045">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYL 9619
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (00:30:30) :
+                            analog, 1 7/8 ips, half track, mono
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Content begins about 00:00:08. The first two songs are sung by two
+                            different men, possibly with one woman singing in the background. The
+                            balance of the recording has mixed voices, sometimes with a leader, who
+                            perform songs. From about 00:10:48-00:12:17 a woman sings solo and a
+                            cappella. Conversations can be heard. Audio distortion from the source
+                            recording towards the end of the tape. The recording ends abruptly.
+                            Musical instruments played include drums, rattles, metal percussion, and
+                            whistles.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: Voodoo [sic] - Rigaud tape - #?
+                            [sic]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR044
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10047">
+       Sound recording,
+       <date localtype="inclusive" normal="1972-04-21">
+        April 21, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-04-21" unitdatetype="inclusive">
+       April 21, 1972
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4061
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:55:00) : analog, 3 3/4 ips, full track mono ; 7 in.
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       Aircheck date:
+                            April 21, 1972.
+      </didnote>
+      <didnote encodinganalog="500" label="Archivist's note">
+       The recording has
+                            commercial breaks, editorials, and other parts of the recording
+                            unrelated to the interview from about 00:00:05-00:05:10,
+                            00:11:50-00:15:10, 00:24:24-00:31:41, 00:41:52-00:43:45, and
+                            00:52:03-00:55:00 (end).
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Bruce Lee interviews Odette Rigaud about various topics related to
+                            Vodou. She talks about her association with Vodou, Vodou as a religion
+                            and not black magic, her interest in African sculpture and religion, the
+                            exhibit of her photographs at the Elma Lewis Center, Vodou in Haiti, the
+                            perception of Vodou as black magic, the role of missionaries in
+                            developing this perception, Haiti as a colony and the perception of
+                            colonists about Vodou, elements of Christianity in Vodou, lwa (spirits)
+                            as emanations from God. Rudy Robinson (a professional photographer) and
+                            Barry Gaither are introduced. Barry's connection with the Elma Lewis
+                            Center exhibition was to work with Odette Rigaud for two weeks to select
+                            images for the show, and the time and effort involved in discussions and
+                            the selection process. Barry Gaither, the director of the art teaching
+                            program at the center, and is also the curator and director for the
+                            museum program of the National Center of Afro-American Artists (which
+                            includes the Elma Lewis School of Fine Arts) talks about "Ah-Haiti:
+                            Glimpses of Voodoo [sic] " (the exhibit's title) and the focus on Vodou
+                            as a series topic, details about the exhibit, plans for a traveling
+                            exhibit, publication of the book
+       <title>
+        <part>
+         Secrets of Vodou
+        </part>
+       </title>
+       in English, and access to the center. The guests respond to
+                            questions called in by listeners. Part 1 effectively ends at 00:52:03.
+      </p>
+      <p>
+       The show spans three recordings in the collection (regardless of the
+                            documentation that accompanies the tapes); this is part 1. See
+       <ref target="ead10049">
+        SR046
+       </ref>
+       for part 2 and
+       <ref target="ead10048">
+        SR045
+       </ref>
+       for part 3. See
+       <ref target="ead10050">
+        SR047
+       </ref>
+       for
+                            a dub of part 1.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Rigaud / Bay St Forum / 1
+      </p>
+      <p>
+       Information from the donor (written on the tape box): 12 / 12-1 Boston,
+                            Mass. Radio station WEEI Interview of Odette M. Rigaud on the Bruce Lee
+                            Show. 1 Hour - 3 3/4 speed / transferred to cassette #12 by Shirley
+                            Keller 5-9-82
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR046
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10049">
+       Sound recording,
+       <date localtype="inclusive" normal="1972-04-21">
+        April 21, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-04-21" unitdatetype="inclusive">
+       April 21, 1972
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4063
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:59:46) : analog, 3 3/4 ips, full track mono ; 7 in.
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       The date noted is
+                            the aircheck date.
+      </didnote>
+      <didnote encodinganalog="500" label="Archivist's note">
+       The recording has
+                            commercial breaks, news reports, and other parts of the recording
+                            unrelated to the interview from about 00:00:06-00:05:14,
+                            00:12:10-00:13:23, 00:17:07-00:19:52, 00:24:21-00:25:02,
+                            00:29:11-00:30:16, 00:30:53-00:33:43, 00:33:56-00:35:00,
+                            00:43:29-00:44:01 00:56:01-00:59:46 (end). The tape has audio gaps at
+                            00:29:06 and at 00:44:01, as if it has been edited to exclude content.
+                            This tape may be a dub copy of the original recording.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Continuation of the Bruce Lee show, beginning at 00:05:15. A story is
+                            continued, regarding a young Puerto Rican girl who traveled to Haiti and
+                            was healed by lwa. The panel discusses the nature of healing and the
+                            role of lwa, and discuss lwa with a man who call in to the show. Rigaud
+                            explains the how the word "Vodou" is used in Haiti (the name of the
+                            religion and also as an adjective). A woman calls the show and asks
+                            Rigaud about a particular ceremony she witnessed in Haiti, and asked
+                            Rigaud to explain the ceremony. Rigaud suggested that she may have
+                            witnessed a ceremony presented for the benefit of tourists. Another
+                            caller asks for guidance if someone is using Vodou to gain control over
+                            her. Rigaud recommends she pray to her own deity for protection. She
+                            responds to a caller who asks about elements of Vodou practice that he
+                            has observed. Barry Gaither gives an overview of the exhibit at the Elma
+                            Lewis Center. The panel discusses the perception of Vodou in America.
+                            They talk with a caller concerned about her teenage son; it turns out
+                            there was no relationship between her inquiry and Vodou. The recording
+                            ends abruptly.
+      </p>
+      <p>
+       See
+       <ref target="ead10047">
+        SR044
+       </ref>
+       for part 1 of the show and
+       <ref target="ead10048">
+        SR045
+       </ref>
+       for part 3.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Interview with Odette Rigaud by Bruce Lee - 1972 WEEI. I think
+                            this should be played after tape 12 and 13 is played after this for
+                            connect [?] [?].
+      </p>
+      <p>
+       Information from the donor (written on the tape box): 1-2 Re-recorded on
+                            to cassette #14 by Shirley Keller - May 1982. Subject, continued from
+                            tape 13
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR045
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10048">
+       Sound recording,
+       <date localtype="inclusive" normal="1972-04-21">
+        April 21, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-04-21" unitdatetype="inclusive">
+       April 21, 1972
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4062
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (acetate,
+                            00:27:44) : analog, 3 3/4 ips, full track mono ; 7 in.
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       Aircheck date:
+                            April 21, 1972.
+      </didnote>
+      <didnote encodinganalog="500" label="Archivist's note">
+       The recording has
+                            commercial breaks, news reports, and other parts of the recording
+                            unrelated to the interview from about 00:00:04-00:04:05.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       See
+       <ref target="ead10047">
+        SR044
+       </ref>
+       for part 1 of the show and
+       <ref target="ead10049">
+        SR046
+       </ref>
+       for part 3. See
+       <ref target="ead10051">
+        SR048
+       </ref>
+       for a dub of this recording.
+      </p>
+      <p>
+       The interview portion of the recording begins about 00:04:06. Barry
+                            Gaither speaks about the center's interest in archival materials, how
+                            the current show evolved, and the preparations. Gaither and Robinson
+                            talk about how preparations changed them, and Odette Rigaud's impact on
+                            them and her personality. Bruce Lee talks about his admiration for the
+                            exhibit. Gaither and Robinson talk about the exhibit going on tour,
+                            Rigaud's ability as a photographer, and the nature of a visual exhibit.
+                            The panel engage in a conversation with a caller. The show effectively
+                            ends at 00:27:22. The tape ends abruptly shortly after that.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Information from the donor (written on the tape box): 13 / Continuation
+                            of tape 12 - Radio Interview of Odette Rigaud by Bruce Lee - WEEI.
+                            Boston, Mass. Rerecorded by Shirley Keller on cassette #13 on 5-9-82.
+                            2-230
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR047
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10050">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYN 9461
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:28:30, Side B: 00:26:13) : analog, 1 7/8, half track,
+                            stereo
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       SR047 is a dub copy of
+       <ref target="ead10047">
+        SR044
+       </ref>
+       .
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: 12 - Odette Rigaud - Radio Shoro [?] /
+                            WEEI - Boston, Mass. / Bruce Lee - interviewer
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR048
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10051">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3920
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (00:27:00) :
+                            analog, 1 7/8, half track, stereo
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       Side B is blank. The
+                            cassette has been reshelled. Poor audio with many dropouts from the
+                            source tape used to make this cassette.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       SR048 is a dub copy of
+       <ref target="ead10048">
+        SR045
+       </ref>
+       .
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: 13 - Bruce Lee Interviews Odette Rigaud
+                            - WEEI - Boston, Mass.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR049
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10052">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3921
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:28:00, Side B: 00:16:45) : analog, 1 7/8, half track,
+                            stereo
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: The content begins about 00:00:08. A large group of mixed voices
+                            sing more than one song, with a male lead singer. Instruments include
+                            drums, metal percussion, whistles, and possibly other instruments.
+      </p>
+      <p>
+       Side B: The content begins about 00:00:05. A large group of mixed voices
+                            sing more than one song. Frequently, a male singer can be heard above
+                            the other singers, possibly leading the song. Instruments include drums,
+                            metal percussion, rattles, and possibly other instruments.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: Milo Rigaud - Voodoo [sic] / #2
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR050
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10053">
+       Sound recording,
+       <date localtype="inclusive" normal="1980/1991">
+        circa 1980-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1981" unitdatetype="inclusive">
+       circa 1980-1981
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3922
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (00:23:00) :
+                            analog, 1 7/8 ips, half track, stereo format, mono audio
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This is either a
+                            copy of
+       <ref target="ead10054">
+        SR050
+       </ref>
+       or the original recording.
+                            Side B is blank.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins about 00:00:05. Shirley Keller interviews Milo Rigaud
+                            during his hospital stay. The recording begins with Shirley suggesting
+                            he addresses Odette in French (his "native language"). Next, he mentions
+                            his younger brother Carl, who lives in his own home in Port-au-Prince.
+                            Keller has difficulty understanding what he says. Milo writes down his
+                            brother's address, since Keller has offered to contact Carl. She says
+                            she can record Milo speaking, and take the cassette to Carl and play it
+                            for him. He speaks in French, addressing his brother. He tells Shirley
+                            that his brother was in the same hospital last year for surgery. Shirley
+                            and Milo talk about his diet (foods he is permitted and enjoys). Milo
+                            talks about visitors he has while in the hospital. They make small talk,
+                            and then talk about his book, and the difficulties of publishing a book
+                            in New York, written in French. They talk about the need for a
+                            translator to understand about Vodou to translate the text accurately.
+                            He talks about Odette's wish to return to Haiti with him [currently,
+                            they are in New York]. The talk about the work of writing a book, and
+                            where he and Odette would live when they return to Haiti. They talk
+                            further about his brother, and as they say their farewells, they make
+                            further small talk. Shirley mentions Diane [probably Diane Wolkstein].
+                            Milo gives Shirley contact information for a person in Haiti [unclear if
+                            this is to help her find a house]. The recording ends abruptly.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Haiti - Odette Rigaud - Milo / their voices
+      </p>
+      <p>
+       Written on the cassette housing: Side A: Milo to Odette and Karl; Side B:
+                            Odette to Michelle
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR051
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10054">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3923
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:22:50, Side B: 00:01:00) : analog, 1 7/8 ips, half track, stereo
+                            format, mono audio
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This is either a
+                            copy of
+       <ref target="ead10053">
+        SR050
+       </ref>
+       or the original recording.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: See
+       <ref target="ead10053">
+        SR050, Side A
+       </ref>
+       for a summary of
+                            the contents.
+      </p>
+      <p>
+       Side B: An unidentified woman speaks in French. "Madame Shirley "
+                            (probably Shirley Keller) is mentioned near the end of the recording,
+                            which ends abruptly.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Written on j-card: [j-card spine] Milo Rigaud - in Hospital / message to
+                            Odette and Brother in Haiti (198_) [sic] [Side A] Milo Rigaud / at
+                            Hospital / messages to wife Odette and Brother in Haiti - Karl / this
+                            made in NYC house [?] / Milo died the day I left for Haiti to see his
+                            brother [Side B] Odette Rigaud to Michelle
+      </p>
+      <p>
+       Written on the cassette housing: copy only (2012) Milo at Hospital and
+                            message to Brother 1981? [sic] / copy - In Hospital Milo sec part on
+                            B
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR052
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10055">
+       Sound recording,
+       <date localtype="inclusive" normal="1982-03-11">
+        March 11, 1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982-03-11" unitdatetype="inclusive">
+       March 11, 1982
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3924
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (00:15:00) :
+                            analog, 1 7/8 ips, half track, stereo
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       Side B is blank. Milo
+                            and Odette were married in 1935, in New York City. Other details in this
+                            recording may need to be cross-checked for accuracy.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The content begins about 00:00:05. Shirley Keller interviews Odette
+                            Rigaud, with a translator present. Shirley asks questions in English,
+                            and Odette responds in French, with the translator acting for both.
+                            Shirley talks about the tape recorder she is using to record the
+                            interview. Interview topics include Odette's family, a relative who was
+                            killed during World War II, and how she met Milo. Dropout from
+                            00:03:1100:03:23.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: Odette Min Rigaud - 3-11-82 / talk of
+                            nothing in particular - Milo - how long ago they were married (1934?) -
+                            the name of Mennesson. Who was shot by Germans, etc. Odette and
+                            translator friend / 3-11-82 - (2-6-10) talk with Odette Rigaud re Milo
+                            with translator friend. Married 46 years. Met in France. Milo lived
+                            there for 14-15 years. Married in Haiti. Tape length - Side I only?
+                            About 20 min.
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR043
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10046">
+       Sound recording,
+       <date localtype="inclusive" normal="1984-02-27">
+        February 27, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-02-27" unitdatetype="inclusive">
+       February 27, 1984
+      </unitdate>
+      <unitid label="Rack number">
+       RYM 1072
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (00:45:00) :
+                            analog, 1 7/8 ips, half track, mono
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Content begins about 00:00:05. A man (probably Edward Berwet) can be
+                            heard singing bits of a song or songs. Traffic can be heard in the
+                            background, as well as recording equipment noise. There is a brief
+                            conversation, beginning about 00:02:07. A man can be heard in the
+                            background; possibly the recordist. The conversation begins at 00:03:53.
+                            Present during the interview: Leni Hamilton, Odette Rigaud, Shirley
+                            Keller, and Edward Berwet. The conversation alternates between French
+                            and English. In the recording Leni Hamilton says that Edward Berwet was
+                            recommended to her by Shirley Keller as a good source for stories
+                            relating to Vodou. Among other topics, Hamilton talks about the
+                            parallels between Greek mythology and Vodou. Toward the end of the
+                            recording it is made clear by Edward that Odette had been initiated as a
+                            mambo (priestess) but was not active in that role (she was not a
+                            practicing mambo).
+      </p>
+      <p>
+       See
+       <ref target="ead10057">
+        SR054
+       </ref>
+       for a partial dub of this tape.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette label 1: Divine [?] / [other words]
+      </p>
+      <p>
+       Written on the cassette label 2: Odette - Haiti
+      </p>
+      <p>
+       Written on the cassette j-card: Interview and talk between Leni Hamilton
+                            and Odette Rigaud (Mennesont [sic]) and Edward Berwet / 2-27-84 4:30
+                            p.m. Port-au-Prince Haiti
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR054
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10057">
+       Sound recording,
+       <date localtype="inclusive" normal="1977-07-26/1984-02-27">
+        February 27,
+                                1984 (Side A and part of Side B); July 26, 1977 (Side B)
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1977-07-26/1984-02-27" unitdatetype="inclusive">
+       February 27, 1984 (Side A and part of
+                            Side B); July 26, 1977 (Side B)
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3926
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:30:32, Side B: 00:16:10) : analog, 1 7/8 ips, half track,
+                            stereo
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Side A: This is a copy of SR043, but lacking the first 00:04:19 of that
+                            recording.
+      </p>
+      <p>
+       Side B: The content begins at 00:00:05. The dub of SR043 continues until
+                            about 00:04:43, and is immediately followed by a dub of the audio from
+                            the television show "In Search Of..."; specifically the episode on
+                            Vodou. Episodes in the series were narrated by Leonard Nimoy. This is
+                            episode 22 from Season 1. Rada and Petro (later Petwo) rites are
+                            referenced, and toward the end of the episode Maya Deren is quoted from
+                            her book
+       <title>
+        <part>
+         The Divine Horsemen
+        </part>
+       </title>
+       on the nature and purpose of possession. A very brief clip from
+                            a commercial is at the end of the recording.
+      </p>
+      <p>
+       See
+       <ref target="ead10046">
+        SR043
+       </ref>
+       for a more complete copy of the
+                            interview.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: Leni Hamilton / Rigaud / Voodoo [sic] -
+                            Haiti Port Au Prince / Leni Hamilton - Interview with Odette Rigaud and
+                            Edward B / Haiti - Feb. 1984 / Batteries ran down / Interview-continued.
+                            / TV Broadcast on Voodoo [sic] - March 1984
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR053
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10056">
+       Sound recording,
+       <date localtype="inclusive" normal="1984-02">
+        February 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-02" unitdatetype="inclusive">
+       February 1984
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3925
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:45:00, Side B: 00:32:00) : analog, 1 7/8 ips, half track,
+                            stereo
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       The cassette was
+                            reshelled before digitization.
+      </didnote>
+      <didnote encodinganalog="500" label="Archivist's note">
+       There are frequent
+                            interruptions from phone calls, and background noise from a rooster
+                            crowing, from passing traffic, and people briefly interrupting the
+                            interview in person to ask Beauvoir questions.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       Side A: Leni Hamilton interviews Max Beauvoir. Hamilton gives some
+                            background about Greek ritual and its evolution into drama, and the same
+                            evolution in Ancient Egypt and Christian ritual during the Middle Ages
+                            [no country specified] and asks Beauvoir about the evolution of ritual
+                            to drama, and the myths about the lwa, and also how ancestors were
+                            transformed to lwa. Beauvoir's response is an overview of Vodou belief
+                            in regard to lwa, and also addresses the role of Christianity in
+                            beliefs, the mythological pantheon, the dead in Vodou belief as opposed
+                            to Christian belief, the materialization of spirits, and other topics.
+                            The conversation is multidisciplinary in nature (social, theological,
+                            etc.). Shirley Keller can also be heard occasionally on the
+                            recording.
+      </p>
+      <p>
+       Side B: The conversation continues about 00:00:04, with an abrupt start
+                            (mid-sentence). He also recommends a movie about the guede (spirits of
+                            the dead) that Lila [Lilas] Desquiron (Director of Cultural Affairs, at
+                            Television Nationale), could get Hamilton access to view the video.
+                            Shirley Keller asks about vévé, and Milo Rigaud's book is mentioned, and
+                            Beauvoir praises it for its thoroughness on the treatment of vévés. He
+                            explains numerous terms and beliefs involved in Vodou, gives a reference
+                            to another published work. Keller suggests a Beauvoir apply for a grant
+                            or do work to publish a book on Vodou. Beauvoir says he doesn't have the
+                            time to write a book. He suggests that Hamilton could get a grant to
+                            write the book. Hamilton emphasizes the importance of documenting Vodou
+                            as a religion but cannot get a grant to study outside the U.S. Further
+                            topics include matriarchal cultures and the role of women in culture.
+                            Toward the end of the recording Keller takes photos of Beauvoir, and of
+                            Beauvoir and Hamilton together. Hamilton photographs Beauvoir and Keller
+                            together. The discussion moves to "voodoo [sic] dolls," when the
+                            recording ends abruptly.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the cassette housing: Leni Hamilton's interviews with Max
+                            Beauvoir - Voodoo [sic] Priest - Haiti - 2-84 / in Haiti
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR055
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10058">
+       Sound recording,
+       <date localtype="inclusive" normal="1980/1989">
+        circa 1980s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980/1989" unitdatetype="inclusive">
+       circa 1980s
+      </unitdate>
+      <unitid label="Rack number">
+       RYR 3927
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound cassette (Side A:
+                            00:45:00, Side B: 00:18:45) : analog, 1.87 ips, half-track,
+                            stereo
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       The Peristyle de
+                            Mariani is Beauvoir's temple in Mariani, a suburb of Port-au-Prince. The
+                            interview is conducted in a house in Mariani. Traffic sounds in the
+                            background can be heard throughout the interview.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Side A: The content begins about 00:00:12. Shirley Keller's interview
+                            with Max Beauvoir. He talks about the multiple roles of the houngan, and
+                            how he became the successor to his grandfather Brun Icart as a houngan.
+                            Other topics include misconceptions about Vodou, American marines in
+                            Haiti and the response to their presence, the role of the houngan,
+                            Vodou's role in Haitian identity, vévés and other elements of Vodou
+                            rites, locations where Vodou rites are conducted, how believers are
+                            possessed by lwa, the nature of fire, the experience of a person who has
+                            been possessed, the recognition of the presence of spirits, Vodou
+                            practices passed on as oral tradition, and voodoo dolls vs. paquet
+                            congo. The recording ends abruptly.
+      </p>
+      <p>
+       Side B: The interview continues, with discussion of the paquet congo.
+                            Further topics include Vodou as a tool, the subject of dolls again, biki
+                            (smaller version of paquet congo) that are used for good luck. Keller
+                            reviews the facts about Beauvoir as the houngan of his hounfour and
+                            related details. Further topics discussed include fire-eating, various
+                            ceremonies, the categories of lwa, the function of animal sacrifice, the
+                            individual natures of lwa, interest in publishing in book form what he
+                            knows and the difficulties involved, discussion of Milo Rigaud's writing
+                            and the issue of Rigaud's mingling of opinions with facts, and the vévé
+                            on Keller's banjo. Keller explains that she had interviewed Beauvoir two
+                            years ago, but her tapes and the recorder were stolen while she was on
+                            the plane. She encourages people to come visit Haiti, and ends her part
+                            of the recording by saying her name and that of "The Folk People" (her
+                            radio show).
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: La Peristyle - Voodoo [sic] - Max Beauvoir
+      </p>
+      <p>
+       Written on the cassette housing: Max Beauvoir - La Peristyle - Voodoo
+                            [sic]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: MV01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10059">
+       Video recording,
+       <date localtype="inclusive" normal="1995-02-27">
+        February 27, 1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1995-02-27" unitdatetype="inclusive">
+       February 27, 1995
+      </unitdate>
+      <unitid label="Rack number">
+       VAS 7704
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 videocassette (hi8,
+                            01:01:04) : digital
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Angus Gillespie's lecture on Haitian Vodou, at a gathering of members of
+                            the Rutgers University French Club. Towards the end, Shirley Keller
+                            speaks to the group briefly.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Box panel: Angus Gillespie and Shirley Keller - Haitian voodoo [sic] at
+                            Rutgers French Club (unedited) / TC
+      </p>
+     </odd>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10060">
+      Series 3: Various sound
+                        recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR056
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10061">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01088
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel :
+                            analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 3'/4 Flute chinoise / 5' Flute chinoise / 8/2 Méd[?] chinoise
+                            / 11[?] Inde / 16 Inde danse / 20 Java Surrend / 23 1/2 Harass / 27
+                            habre ja / 30 Sonragbati / 33 1/2 Kenbang / 37 Kereos [other details,
+                            not transcribed]
+      </p>
+      <p>
+       Box lid: Oriental 40'
+      </p>
+      <p>
+       Written on the wire spool: abime' pas bousee courant attention reste 1/4
+                            [?] [other details, not transcribed]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR057
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10062">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01089
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Vierge [?] 17 + 5 + 8 / Titon (etudes)
+      </p>
+      <p>
+       Written on the wire spool: Vierge [?] 170 + 5 + 8
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR058
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10063">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01090
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: passé / 44' / Bandes (1-) e[?] 5' / Bandes (2) tressé rubaus
+                            12' / Bande roi diab' 10' / Bande mascaron (2) / Bande Roi diab' / Bande
+                            Silvestre danse Rois / Bande Cholo danse Rois / Bande vaccines / Bande
+                            Rori Tuba - inter calée / Bandes 44'
+      </p>
+      <p>
+       Written on the wire spool: Bande Petronelle / env. [?] 45'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR059
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10064">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01091
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Ti Jazz avec Titon / 60' [??]
+      </p>
+      <p>
+       Written on the wire spool: Ti Jazz avec Titon
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR060
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10065">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01092
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog, 7 1/2 ips
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Meringues - Julia / avec [?] / 1. Belle Congo 3 / 2. Tip' pa
+                            com [?] 2 / 3. Carle ca'que o similar 2 / Meringues / Julia / 7 1/2
+                            [ips]
+      </p>
+      <p>
+       Written on the wire spool: Meringues / Julia / 7 1/2 [ips] / [?]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR071
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10066">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01103
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       Possibly a blank wire
+                            ("made erased")
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: passé effacér
+      </p>
+      <p>
+       Written on the wire spool: passé
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR072
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10067">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01104
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: a passer
+      </p>
+      <p>
+       Written on the wire spool: a passer 1#
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR073
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10068">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01105
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:15:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: effacer 30' / Grade I / a S[?]der
+      </p>
+      <p>
+       Written on the wire spool: 30' effacé [?]
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR074
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10069">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01106
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: rerecording - V / 3 Zaca Titon - Julia [further details on the
+                            box panel]
+      </p>
+      <p>
+       Box lid: Rerecording V / Tape 5
+      </p>
+      <p>
+       Written on the wire spool: passé / Rerecording V / x Titon 8'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR075
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10070">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01107
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: a effacer I
+      </p>
+      <p>
+       Written on the wire spool: passé vierge [?] mo[?]s 10'
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR076
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10071">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01108
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This wire was
+                            received without an original container.
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR077
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10072">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01109
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (unknown
+                            duration) : analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This wire was
+                            received without an original container; it was packed in a plastic bag.
+                            The wire is partially sprung.
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR078
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10073">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01110
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel :
+                            analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This wire was
+                            received without an original container; it was packed in a plastic bag.
+                            The wire is partially sprung.
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR079
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10074">
+       Sound recording,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01111
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel :
+                            analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       This wire was
+                            received without an original container; it was packed in a plastic bag.
+                            Wire wrapped around a paper roll of register or calculator tape. The
+                            recording is probably 30 minutes or less in length.
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="recordgrp">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10090">
+       Spoken translation of a
+                            letter from French to English,
+       <date localtype="inclusive" normal="1983-06-30">
+        June 30, 1983
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983-06-30" unitdatetype="inclusive">
+       June 30, 1983
+      </unitdate>
+      <didnote encodinganalog="500" label="Archivist's note">
+       The file content of
+                            relevance is sound only. The video shows a desk, where the recording
+                            equipment sat during the recording.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <emph render="bold">
+        Summary:
+       </emph>
+      </p>
+      <p>
+       The audio content begins about 00:00:06. Nina (otherwise unidentified)
+                            reads an English translation of a letter (originally written in French
+                            by Odette Rigaud) to Shirley Keller. In the letter Rigaud writes about
+                            her current health and domestic circumstances. Shirley Keller is the
+                            woman listening (and occasionally speaking in response). The
+       <ref target="ead10002">
+        original letter
+       </ref>
+       , translated after 2001, was
+                            dictated by Rigaud to Marie (otherwise unidentified).
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unitid label="Item_ID">
+        AFC 2019/041: DC001
+       </unitid>
+       <container localtype="box-folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a" id="ead10091">
+        DVD carrier for
+                                DC001
+       </unittitle>
+       <physdesc encodinganalog="300" label="Extent">
+        1 DVD-R
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        See
+        <ref target="ead10092">
+         afc2019041_dc001_aip_01
+        </ref>
+        for the
+                                digital file.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="Digital ID">
+        afc2019041_dc001_aip_01
+       </unitid>
+       <unittitle encodinganalog="245$a" id="ead10092">
+        Digital content on
+                                DC001
+       </unittitle>
+       <physdesc encodinganalog="300" label="Extent">
+        1 VOB file (172 MB;
+                                00:05:58): digital, sound, color
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Digital copy of DVD extracted from original by AFC staff for
+                                preservation and access purposes.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR080
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10088">
+       Sound recording,
+       <date localtype="inclusive" normal="1972/1974">
+        circa 1972-1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1974" unitdatetype="inclusive">
+       circa 1972-19674
+      </unitdate>
+      <unitid label="Rack number">
+       RXK 4064
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound reel (polyester,
+                            00:32:05) : analog, 3 3/4 ips; half track, stereo ; 7 in.
+      </physdesc>
+      <didnote encodinganalog="500" label="LC engineer's note">
+       The tape is an
+                            incomplete aircheck from an unspecified New York/New Jersey radio
+                            station (going by the included commercials) that has nothing to do with
+                            Haiti. It is an audio documentary about the early days of The Rolling
+                            Stones. The documentary is British in origin and features interviews
+                            with people not normally heard from in retrospectives.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documentary on the Rolling Stones (musical group). While the content is
+                            out of scope for the collection, this recording has been retained.
+      </p>
+     </scopecontent>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcription:
+       </emph>
+      </p>
+      <p>
+       Written on the tape reel flange: Stones Story 14, 45, 81, 101, 150,
+                            170
+      </p>
+     </odd>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10075">
+      Series 4: Dubbed commercial
+                        recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR061
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10076">
+       African discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01093
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Afrique - copie disques V. / 60'
+      </p>
+      <p>
+       Box lid: Afrique - copie disques V. / 60'
+      </p>
+      <p>
+       Written on the wire spool: Afrique disques V.
+      </p>
+      <p>
+       African disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR062
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10077">
+       African discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01094
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Congo belge 30' / chants et danses / Afrique copie disques
+      </p>
+      <p>
+       Written on the wire spool: Congo belge 30' / chants et danses
+      </p>
+      <p>
+       Accompanying documentation: African disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR082
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10086">
+       Classical music,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01112
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel :
+                            analog
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist's note">
+       It is assumed this
+                            spool contains disc copies; this is to be confirmed.
+      </didnote>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Andano etude (Mendelssohn) / Rondo brillant (Weber)
+      </p>
+      <p>
+       Written on the wire spool: Tagliafero [further details on the spool]
+      </p>
+      <p>
+       Accompanying documentation: Classical music
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR063
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10078">
+       Flamenco discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01095
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:30:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Flamenco - copie disques V. / Flamenco - copie disques
+                            Valentine [?]
+      </p>
+      <p>
+       Written on the wire spool: Flamenco (disques V.)
+      </p>
+      <p>
+       Accompanying documentation: Flamenco disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR064
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10079">
+       Haitian discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01096
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (approx.
+                            00:23:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: [??] disques haitiens
+      </p>
+      <p>
+       Written on the wire spool: [?] 23'
+      </p>
+      <p>
+       Accompanying documentation: Haitian disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR065
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10080">
+       Jazz discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01097
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:15:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Jazz copie disques V.
+      </p>
+      <p>
+       Box lid: Jazz copie disques V.
+      </p>
+      <p>
+       Written on the wire spool: pas bon Jazz copie disques V. / 1/2 minute
+                            free
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR066
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10081">
+       Jazz discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01098
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:25:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Duke Ellington - Liberian Suite / Liberian Suite - Duke
+                            Ellington [?] 25'
+      </p>
+      <p>
+       Written on the wire spool: Liberian Suite [?]. 25'
+      </p>
+      <p>
+       Accompanying documentation: Jazz disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR067
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10082">
+       Jazz discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01099
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: copie disque V. 8' / Jazz copie disques V. 8'
+      </p>
+      <p>
+       Written on the wire spool: copie disques V. Jazz 28'
+      </p>
+      <p>
+       Accompanying documentation: Jazz disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR068
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10083">
+       Jazz discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01100
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 01:00:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Jazz copie disques V. / attentian [?] casse / Jazz copie
+                            disques V. / Casse ce [?] plus [?] places
+      </p>
+      <p>
+       Written on the wire spool: essais toto
+      </p>
+      <p>
+       Accompanying documentation: Jazz disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR069
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10084">
+       South American discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01101
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel
+                            (Webster-Chicago, approx. 00:15:00) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: Musique Sud Americaine / copie disques V. / Sud Americaine /
+                            copie disques V.
+      </p>
+      <p>
+       Written on the wire spool: Argentina samba etc [?] copie disques /
+                            Roger
+      </p>
+      <p>
+       Accompanying documentation: South American disc copies
+      </p>
+     </odd>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Item_ID">
+       AFC 2019/041: SR070
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10085">
+       Various discs,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Rack number">
+       WIRE 01102
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound wire reel (unknown
+                            duration) : analog
+      </physdesc>
+     </did>
+     <odd>
+      <p>
+       <emph render="bold">
+        Transcriptions:
+       </emph>
+      </p>
+      <p>
+       Box panel: 2/2 Peeter [Peter] - Marlene Dietrich /2/2 Johnny [Jonny] -
+                            Marlene Dietrich /2/2 Kasbek - Igor Gorin /2/2 Viut viteé [Viut Vitre]
+                            ([?]) - Igor Gorin /2/2 Song of the Plains - Red Army Choir /2/2 Write
+                            What [?] - Red Army Choir /5 The moon shine (danse [?]) /2/2 Saetas -
+                            Niña de los Peines / Bulerias [?] - Niña de los Peines / Tango flamenco
+                            - Niña de los Peines / Sevillanas - Niña de los Peines
+      </p>
+      <p>
+       Box lid: Dietrich Russian-Flamenco
+      </p>
+      <p>
+       Written on the wire spool: Dietrich II - Russian Flamenco
+      </p>
+      <p>
+       Accompanying documentation: various disc copies
+      </p>
+     </odd>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

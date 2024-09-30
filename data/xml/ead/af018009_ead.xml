@@ -1,0 +1,5697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018009" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018009
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Duncan Emrich Manuscript Collection, 1933-1977
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1977/007
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Jeremy Frank
+     <lb>
+     </lb>
+     Assisted and edited by Valda Morris
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Library of Congress
+     <lb>
+     </lb>
+     American Folklife Center
+     <lb>
+     </lb>
+     Archive of Folk Culture
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2011-02">
+     February 2011
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2009655402" show="new">
+       https://lccn.loc.gov/2009655402
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018">
+     2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1977/007
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Duncan Emrich Manuscript Collection,
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1933/1977">
+     1933-1977
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1950/1969">
+     1950-1969
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1933/1977" unitdatetype="inclusive">
+    1933-1977
+   </unitdate>
+   <unitdate calendar="gregorian" era="ce" label="Bulk Dates" normal="1950/1969" unitdatetype="bulk">
+    1950-1969
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    (original) 8.75 linear feet (21 boxes) including manuscripts and 23 black-and-white photographic prints
+   </physdesc>
+   <origination label="Creator">
+    <name source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977
+     </part>
+    </name>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="fre">
+     French
+    </language>
+    <language encodinganalog="041" langcode="ger">
+     German
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials predominantly in  English with some French and German
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Correspondence, research materials, book contracts, and typescripts for several of author and folklorist Duncan Emrich's published and unpublished books and articles on American folklore. There are some personal papers, including Emrich's college transcripts; course materials from classes that Emrich taught at the University of Maryland; and documents pertaining to Emrich's service with the Supreme Headquarters Allied Expeditionary Force during World War II, and the Department of State, United States Information Agency during the 1960s. Book projects include American Folk Poetry; song lyrics prepared for An Anthology of American Folk Songs, with Charles Seeger; the Lucius Beebe Reader, with Charles Clegg; a Child's Book of Folklore, with Marion V. Emrich and George Korson; poetry and articles about the American West; and unpublished works on animal lore, death, and other topics. The collection includes a bibliography of Emrich's writings, and a Bibliography of American Folksong in the English Language compiled by Joseph C. Hickerson, galleys, photographs of Duncan Emrich, fan mail from children, and other materials.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20200415131420.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Beebe, Lucius.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Clegg, Charles, 1916-1979. Lucius Beebe reader.
+     </part>
+    </persname>
+    <persname encodinganalog="100" relator="creator" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977, collector, author.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977--Written works.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977. American folk poetry: an anthology
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emrich, Duncan, 1908-1977. Whim-wham book.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Emrich, Marion Vallat, 1909-2006. The child's book of folklore.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hickerson, Joseph C. (Joseph Charles), 1935- Bibliography of American folksong.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hyatt, Harry Middleton, 1890- --Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Seeger, Charles, 1886-1979.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      American poetry--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Children--United States--Folklore.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk literature--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk poetry, American.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--United States--History and criticism.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--West (U.S.)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklorists--United States--Correspondence.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Games--United States--20th century.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      World War, 1939-1945--Veterans.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      West (U.S.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Bibliographies.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Contracts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts for publication.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Poems.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Poetry.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Arranged into the following series:
+   </p>
+   <list>
+    <item>
+     Series 1: Administrative Files
+    </item>
+    <item>
+     Series 2: Correspondence
+    </item>
+    <item>
+     Series 3: Personal Papers
+    </item>
+    <item>
+     Series 4: Articles
+    </item>
+    <item>
+     Series 5: Student Papers
+    </item>
+    <item>
+     Series 6: Published and Unpublished Books
+    </item>
+    <item>
+     Series 7: Graphic Images
+    </item>
+    <item>
+     Oversize Materials
+    </item>
+   </list>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Donated by Marion Vallat Emrich, 1977.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Jeremy Frank with assistance from Valda Morris.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife Reading Room at
+    <ref href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Duncan Emrich Papers, American University Library, Washington D.C.
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other restrictions.
+   </p>
+  </userestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Duncan Emrich manuscript collection (AFC 1977/007), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Duncan Emrich was born on April 11, 1908, in Mardin, Turkey. His parents, Richard and Jeannette Emrich, were both missionaries stationed in Turkey. At the onset of World War I, and the widespread massacres occurring within the area, the family was forced to flee. They returned to the United States and settled in New England where Emrich attended Phillips Academy, in Andover, Massachusetts. Emrich received his B.A. from Brown University, an M.A. from Columbia University, and in 1934 he received a Doctor en Letras in medieval Spanish and Arabic from the University of Madrid (Spain). In 1937, he earned his Ph.D. from Harvard under the direction of George Lyman Kittredge. Emrich furthered his studies by conducting postdoctoral studies at the Sorbonne, University of Paris; University of Aix-en-Provence; University of Nancy; University of Cologne; and Escuela de Estudios Arabes in Granada, Spain.
+   </p>
+   <p>
+    Emrich’s teaching career began in at Columbia University, where he taught English from 1937-1940. He then moved to Denver, Colorado, and became the assistant professor of English at the University of Denver from 1940-1942. It was at this institution that Emrich’s passion for folklore materialized. Upon his arrival at the University of Denver, Emrich spent most of his time in the campus library where he became interested in Old West mining camp lore, the focus of many of his future writings. In addition, it was in the Blood saloon in Virginia City, Nevada, where he heard a miner bellow "Who shot Maggie in the freckle?" that he gained the inspiration to write his first ballad of the same name.
+   </p>
+   <p>
+    In 1942, Emrich left his teaching position and enrolled in the Army Command and General Staff School at Fort Leavenworth, Kansas. He emerged as a lieutenant with an assignment to the U.S. Army military intelligence unit in Washington D.C., serving in England, France, and Germany. Shortly thereafter, Emrich won the Croix de Guerre for his service in France. Emrich then achieved the rank of major after being assigned as the official American historian to General Eisenhower where he was commissioned to write a contemporary account of the war in Europe.
+   </p>
+   <p>
+    After the war, Emrich settled in Washington D.C., and from 1945-1955, was head of the Archive of Folk Song at the Library of Congress and chief of the Folklore Section. During his tenure at the Library, Emrich was awarded a Guggenheim (1948-1950) and a Fulbright Fellowship (1952-1953). As a Fulbright lecturer to Italy, Emrich travelled to the universities of Rome, Naples, Messina, and Palermo lecturing on American civilization. From 1953-1955 Emrich hosted a weekly radio show on folklore called "Weekend" on the National Broadcasting Co. The show brought national attention to the Library of Congress where folk sayings, proverbs, tongue twisters and the like were discussed, shared and contributed by radio listeners. The radio show generated a large amount of handwritten correspondence from listeners including children.
+   </p>
+   <p>
+    Emrich was also instrumental in the growth of the American Folklore Society in Washington and the Junior Folklore Club where membership began from age ten and up. In 1955 Emrich resigned from the Library of Congress to become the cultural affairs officer with the American Embassies in Greece, India, and Togo. In 1966, after returning from Africa, he worked with the U.S. Information Agency in Washington D.C. until 1969, when he returned to teaching as an adjunct professor of American folklore at American University.
+   </p>
+   <p>
+    In his determination to deliver folklore to the public, Emrich hosted a series of annual lectures at American University. To support this venture he established the American Folklore Fund. Emrich’s genuine interest in folklore resonated in the work he contributed to the field. He viewed folklore as a combination of tradition, history, and antique curiosities. According to his lifelong friend Horace Beck, "at a time when nationalism was against the norm Emrich believed in it. He believed that folklore was to be collected, preserved and enjoyed not only by scholars but by the general public." This school of thought can be seen in the works Emrich produced. He authored and co-authored a series of published and unpublished books, articles, and poems, including
+    <title>
+     <part>
+      American Folk Poetry
+     </part>
+    </title>
+    and the
+    <title>
+     <part>
+      Whim Wham Book
+     </part>
+    </title>
+    .
+   </p>
+   <p>
+    He received numerous prizes from both Brown and Harvard Universities and, in 1970, his book entitled
+    <title>
+     <part>
+      The Nonsense Book
+     </part>
+    </title>
+    received six awards.
+    <title>
+     <part>
+      Hodgepodge Book
+     </part>
+    </title>
+    was named Outstanding Children's Book by the
+    <title>
+     <part>
+      New York Times Book Review
+     </part>
+    </title>
+    in 1972. His
+    <title>
+     <part>
+      Folklore on the American Land
+     </part>
+    </title>
+    was used as an introductory text for American folklore studies.
+   </p>
+   <p>
+    At the time of his death Emrich was working, ironically, on a book entitled,
+    <title>
+     <part>
+      The Book of Death
+     </part>
+    </title>
+    . Emrich died on August 23, 1977.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content Note
+   </head>
+   <p>
+    The collection includes correspondence, research materials, book contracts, and typescripts for several of author and folklorist Duncan Emrich's published and unpublished books and articles on American folklore. There are some personal papers, including Emrich's college transcripts; course materials from classes that Emrich taught at the University of Maryland; and documents pertaining to Emrich's service with the Supreme Headquarters Allied Expeditionary Force during World War II, and the Department of State, United States Information Agency during the 1960s. Book projects include American Folk Poetry; song lyrics prepared for An Anthology of American Folk Songs, with Charles Seeger; the Lucius Beebe Reader, with Charles Clegg; a Child's Book of Folklore, by Marion V. Emrich and George Korson; Duncan Emrich's poetry and articles about the American West; and unpublished works on animal lore, death, and other topics. The collection includes a bibliography of Emrich's writings, and a Bibliography of American Folksong in the English Language compiled by Joseph C. Hickerson; galleys, photographs of Duncan Emrich, fan mail from children, and other materials. Correspondents include Roger D. Abrahams, Horace Beck, Jan Brunvand, Ellsworth Bunker, Kenneth Clark, Frank Dobie, Richard M. Dorson, Lydia Fish, Kenneth S. Goldstein, Percy Grainger, Wayland D. Hand, Harry M. Hyatt, Louis C. Jones, Barbara Kirshenblatt-Gimblett, Sarah Gertrude Knott, Maud Gentry Long, Archibald MacLeish, Lynwood Montell, Vance Randolph, Barre Toelken, Francis Lee Utley, and Frank Warner, among others.
+   </p>
+  </scopecontent>
+  <bibliography>
+   <head>
+    Selected Works in the Collection
+   </head>
+   <bibref>
+    Emrich, Marion Vallat and George Korson, eds.
+    <title>
+     <part>
+      The Child’s Book of Folklore
+     </part>
+    </title>
+    . New York: 
+            Dial Press, 1947.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Comstock Bonanza: Western Americana of J. Ross Browne, Mark Twain,
+               Sam Davis, Bret Harte, James W. Gally, Dan de Quille, Joseph T. Goodman [and] Fred Hart
+     </part>
+    </title>
+    . New York: Vanguard Press. 1950.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Folklore of the American Land
+     </part>
+    </title>
+    . Boston: Little Brown, 1952.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Cowboy’s Own Brand Book
+     </part>
+    </title>
+    . New York: Crowell. 1954.
+   </bibref>
+   <bibref>
+    Emrich, Duncan, Charles Clegg, eds.
+    <title>
+     <part>
+      The Lucius Beebe Reader
+     </part>
+    </title>
+    . New York: Doubleday, 1967.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Folklore of Love and Courtship
+     </part>
+    </title>
+    . New York: American Heritage Press, 1970.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Folklore of Weddings and Marriage
+     </part>
+    </title>
+    . New York: American Heritage Press, 1970.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      Book of Wishes and Wishmaking
+     </part>
+    </title>
+    . New York: Four Winds. 1971.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      American Folk Poetry: An Anthology
+     </part>
+    </title>
+    . Boston: Little Brown, 1974.
+   </bibref>
+   <bibref>
+    Emrich, Duncan.
+    <title>
+     <part>
+      The Whim Wham Book
+     </part>
+    </title>
+    . New York: Four Winds Press, 1975.
+   </bibref>
+  </bibliography>
+  <bibliography>
+   <head>
+    Selected Unpublished Works in the Collection
+   </head>
+   <bibref>
+    Emrich, Duncan and Marion Vallat Emrich. A Book of Western Lore for Young People.
+   </bibref>
+   <bibref>
+    Emrich, Duncan and Charles Seeger. An Anthology of American Folksong.
+   </bibref>
+   <bibref>
+    Emrich, Marion Vallat and Duncan Emrich. Animal Lore.
+   </bibref>
+   <bibref>
+    Emrich, Duncan. Book of Death.
+   </bibref>
+  </bibliography>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <thead valign="bottom">
+    <row>
+     <entry morerows="0">
+      Container
+     </entry>
+     <entry morerows="0">
+      Contents
+     </entry>
+    </row>
+   </thead>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Administrative Files
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid
+      </unittitle>
+      <physdesc encodinganalog="300">
+       22 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bibliography of Emrich’s Writings:
+       <date>
+        1932-1974.
+       </date>
+       <lb>
+       </lb>
+       Compiled by Margaret R. Thomas. A bound copy of Duncan Emrich’s writings from 1932-1974.
+      </unittitle>
+      <unitdate>
+       1932-1974.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       31 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photo Duplication Order Forms/Reprint Permissions.
+       <date>
+        Undated.
+       </date>
+       <lb>
+       </lb>
+       American Folklore Society schedule of fees for reprinting publications and the Library of Congress photo duplication forms.
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Marion Emrich Deed of Gift.
+       <date>
+        March 22, 1993.
+       </date>
+       <lb>
+       </lb>
+       Correspondence between Emrich and Donald Panzera pertaining to a collection of
+       <title>
+        <part>
+         Children’s Book of Folklore
+        </part>
+       </title>
+       which was gifted to the Library of  Congress.
+      </unittitle>
+      <unitdate>
+       March 22, 1993.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Correspondence
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Abrahams, Roger D. December 6, [year unknown]
+       <lb>
+       </lb>
+       To Duncan Emrich from the African and Afro-American Research Institute, the 	University of Texas at Austin.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       American Heritage Press.
+       <date>
+        June 1969-December 1971
+       </date>
+       <lb>
+       </lb>
+       Between American Heritage Press and Duncan Emrich concerning the book reviews for the
+       <title>
+        <part>
+         Book of Wishes and Wishmaking
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       June 1969-December 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       13 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       American National Red Cross (Editor, Red Cross Youth Publications).
+       <date>
+        February 19, 1974
+       </date>
+       <lb>
+       </lb>
+       Between Mary Ellen Hughes, editor for the Red Cross Youth Publications, and Duncan Emrich concerning the submission for his article, "If Wishes Were Fishes."
+      </unittitle>
+      <unitdate>
+       February 19, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anderson, Charles R.
+       <date>
+        January 31, 1971; March 19, 1971
+       </date>
+       <lb>
+       </lb>
+       Between Charles Anderson and Duncan Emrich for permission to include three songs, which Anderson and his friend Genie sang for the Library of Congress in 1947, in Emrich’s book
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       January 31, 1971; March 19, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Beagle, Peter S.
+       <date>
+        August 7, 1969
+       </date>
+       <lb>
+       </lb>
+       Between Peter Beagle and Duncan Emrich concerning literature about the existence of unicorns.
+      </unittitle>
+      <unitdate>
+       August 7, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Beck, Horace.
+       <date>
+        January 24, 1972
+       </date>
+       <lb>
+       </lb>
+       Horace Beck provides feedback to Emrich about a folklore book Emrich wrote a review 	to Little, Brown and Co. on Emrich’s behalf.
+      </unittitle>
+      <unitdate>
+       January 24, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bisbee, John B.
+       <date>
+        March 5, 1965
+       </date>
+       <lb>
+       </lb>
+       To Duncan Emrich from John Bisbee as he sought a repository for two handwritten diaries from his grandmother Martha Gally, the wife of James W. Gally, when they lived in Hot Creek, Nevada, with excerpts of the book,
+       <title>
+        <part>
+         Comstock Bonanza
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       March 5, 1965
+      </unitdate>
+      <physdesc encodinganalog="300">
+       24 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Blotner, Joseph L.
+       <date>
+        March-May, 1967
+       </date>
+       <lb>
+       </lb>
+       To Duncan Emrich thanking him for his assistance with the Faulkner Collection and arranging to meet Emrich.
+      </unittitle>
+      <unitdate>
+       March-May, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Blumenstock, Mrs.
+       <date>
+        February 8, 1971
+       </date>
+       <lb>
+       </lb>
+       To Mrs. Blumenstock thanking her for permissions.
+      </unittitle>
+      <unitdate>
+       February 8, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Boswell, George W.
+       <date>
+        March 13, 1972
+       </date>
+       <lb>
+       </lb>
+       George Boswell thanking and requesting Emrich to send manuscript for him to edit.
+      </unittitle>
+      <unitdate>
+       March 13, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bronson, Bertrand H.
+       <date>
+        December 2, 1972
+       </date>
+       <lb>
+       </lb>
+       Bertrand Bronson provides some editorial corrections for Emrich’s book.
+      </unittitle>
+      <unitdate>
+       December 2, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Browne, Ray.
+       <date>
+        October 10, 1969
+       </date>
+       <lb>
+       </lb>
+       Request to use a few excerpts from Duncan’s article, "Beliefs from Alabama."
+      </unittitle>
+      <unitdate>
+       October 10, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brunvand.
+       <date>
+        Jan-February 2, 1972
+       </date>
+       <lb>
+       </lb>
+       Jan Brunvand praises Emrich’s book,
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       . He also suggests the possibility to explore other urban tales.
+      </unittitle>
+      <unitdate>
+       Jan-February 2, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bunker, Ellsworth Ambassador, New Delhi, India.
+       <lb>
+       </lb>
+       <date>
+        September 27, 1960
+       </date>
+       <lb>
+       </lb>
+       Ambassor Bunker expressing his gratitude that Emrich performed with Indo-American Society of Calcutta.
+      </unittitle>
+      <unitdate>
+       September 27, 1960
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Butterfield, Roger.
+       <date>
+        August 15, 1970
+       </date>
+       <lb>
+       </lb>
+       Antiquarian bookseller, Roger Butterfield writes to Duncan.
+      </unittitle>
+      <unitdate>
+       August 15, 1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Clarendon Press (Oxford).
+       <date>
+        September 6, 1967
+       </date>
+       <lb>
+       </lb>
+       Editorial responses.
+      </unittitle>
+      <unitdate>
+       September 6, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clarke, Kenneth.
+       <date>
+        February 16, 1971, February 21, 1972
+       </date>
+       <lb>
+       </lb>
+       Responses to Emrich’s book.
+      </unittitle>
+      <unitdate>
+       February 16, 1971, February 21, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clayton, Cecil D.
+       <date>
+        November 22, 1976
+       </date>
+       <lb>
+       </lb>
+       Cecil Clayton offers an alternative to a chorus Duncan composed 					and relates a story about folk medicine.
+      </unittitle>
+      <unitdate>
+       November 22, 1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Boatright, Mody C.
+       <date>
+        April 15
+       </date>
+       <lb>
+       </lb>
+       Mody Boatright updates Emrich with his latest book collaboration.
+      </unittitle>
+      <unitdate>
+       April 15
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Clegg, Charles (Chuck).
+       <date>
+        July 16, 1967
+       </date>
+       <lb>
+       </lb>
+       Emrich submits some changes to the
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       July 16, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Columbia University Press.
+       <date>
+        December 6, 1969
+       </date>
+       <lb>
+       </lb>
+       Duncan Emrich writes to Columbia University Press requesting the permission to use material from Vance Randolph’s
+       <title>
+        <part>
+         Ozark Superstitions
+        </part>
+       </title>
+       in his books,
+       <title>
+        <part>
+         The Folklore of Love and Courtship
+        </part>
+       </title>
+       and
+       <title>
+        <part>
+         The Folklore of Marriage
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       December 6, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dobie, Frank.
+       <date>
+        January 28, 1952
+       </date>
+       <lb>
+       </lb>
+       Frank Dobie writes to Duncan about the contents in Comstock Bonanza.
+      </unittitle>
+      <unitdate>
+       January 28, 1952
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nafi, Archivist. The Hartford Seminary Foundation (Conn.).
+       <date>
+        July 8, 1969
+       </date>
+       <lb>
+       </lb>
+       To Duncan Emrich with thanks for the materials he submitted towards the Duncan Black Macdonald collection and also informing him of the correspondence between his parents and Macdonald. There are three leaves of handwritten correspondence written on the verso and recto to Macdonald from Emrich’s father and five pages from a book written about Duncan Black Macdonald.
+      </unittitle>
+      <unitdate>
+       July 8, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dorson, Richard.
+       <date>
+        November 22, 1971
+       </date>
+       <lb>
+       </lb>
+       Letter from Richard Dorson to Mrs. Leslie Wakefield of Little, Brown and Company rejecting Duncan’s book on
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       as a college text book. Second letter from Dorson to Emrich requesting his assistance for two of Dorson’s students.
+      </unittitle>
+      <unitdate>
+       November 22, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Epstein, Linda.
+       <date>
+        June 21, 1971
+       </date>
+       <lb>
+       </lb>
+       Student requesting independent study with Duncan Emrich.
+      </unittitle>
+      <unitdate>
+       June 21, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fish, Lydia.
+       <date>
+        March 6, 1972; August. 9, 1973
+       </date>
+       <lb>
+       </lb>
+       Between colleagues in the field of folklore.
+      </unittitle>
+      <unitdate>
+       March 6, 1972; August. 9, 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Four Winds Press.
+       <date>
+        1968-1976
+       </date>
+       <lb>
+       </lb>
+       Correspondence and transcript for Emrich’s books.
+      </unittitle>
+      <unitdate>
+       1968-1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/32
+      </container>
+      <unittitle encodinganalog="245$a">
+       Frederick A Praeger, Inc.
+       <date>
+        June 9, 1967
+       </date>
+       <lb>
+       </lb>
+       Correspondence and transcript of a rejected proposal to do a book on Italian ex-voto.
+      </unittitle>
+      <unitdate>
+       June 9, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Goldstein, Kenneth S.
+       <date>
+        March 11, 1971
+       </date>
+       <lb>
+       </lb>
+       Pertaining to the inclusion of material from the
+       <title>
+        <part>
+         Journal of American Folklore
+        </part>
+       </title>
+       in Emrich’s book.
+      </unittitle>
+      <unitdate>
+       March 11, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Grainger, Percy.
+       <date>
+        June 29, 1949
+       </date>
+       <lb>
+       </lb>
+       Congratulating Emrich on the work he did with Danish folk songs.
+      </unittitle>
+      <unitdate>
+       June 29, 1949
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hand, Wayland D.
+       <date>
+        November 3, 1970 - Feb. 7, 1977
+       </date>
+       <lb>
+       </lb>
+       Between colleagues in the field of folklore.
+      </unittitle>
+      <unitdate>
+       November 3, 1970 - Feb. 7, 1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/36
+      </container>
+      <unittitle encodinganalog="245$a">
+       Harder, Leslie.
+       <date>
+        January 29, 1971, January 31, 1972
+       </date>
+       <lb>
+       </lb>
+       Between Harder and Emrich as Harder updates him on his sabbatical to Poland and Emrich requests permission for material to include in his book.
+      </unittitle>
+      <unitdate>
+       January 29, 1971, January 31, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/37
+      </container>
+      <unittitle encodinganalog="245$a">
+       Harper and Brothers (Frank MacGregor, Pres.).
+       <date>
+        Dec. 18, 1950; April 2, 1951.
+       </date>
+       <lb>
+       </lb>
+       Emrich requesting permission to use MacGregor’s Mark 	Twain material in his book.
+      </unittitle>
+      <unitdate>
+       Dec. 18, 1950; April 2, 1951.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/38
+      </container>
+      <unittitle encodinganalog="245$a">
+       Harvard University (Florence K. Leetch, Appointment Office).
+       <date>
+        April 20, 1968
+       </date>
+       <lb>
+       </lb>
+       Acceptance for appointment at the University of Nevada.
+      </unittitle>
+      <unitdate>
+       April 20, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/39
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hillard, Sandy Adams.
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Request for review and advice for book written by Sandy Hillard’s husband.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/40
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hyatt, Harry M.
+       <date>
+        January 13, 1970-March 7, 1972
+       </date>
+       <lb>
+       </lb>
+       Permission request for using material for Emrich’s book; with a galley for 				Hyatt’s book
+       <title>
+        <part>
+         Hoodoo-Conjuration Witchcraft-Rootwork
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       January 13, 1970-March 7, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/41
+      </container>
+      <unittitle encodinganalog="245$a">
+       John Cushman Associates, Inc.
+       <date>
+        1967-1971
+       </date>
+       <lb>
+       </lb>
+       Correspondence pertaining to Emrich’s books with Cushman Associates.
+      </unittitle>
+      <unitdate>
+       1967-1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/42
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jones, Louis Clark.
+       <date>
+        1967 -1972
+       </date>
+       <lb>
+       </lb>
+       Correspondence pertaining to Emrich’s folklore career.
+      </unittitle>
+      <unitdate>
+       1967 -1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/43
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jones, Thelma Gray.
+       <date>
+        December 29, 1971
+       </date>
+       <lb>
+       </lb>
+       Jones’ response to accepting to write a piece for Emrich.
+      </unittitle>
+      <unitdate>
+       December 29, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/44
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kanter, Hal.
+       <date>
+        September 1, 1971-May 9, 1971
+       </date>
+       <lb>
+       </lb>
+       Hal Kanter’s new show and personal correspondence.
+      </unittitle>
+      <unitdate>
+       September 1, 1971-May 9, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/45
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Keystone Folklore Quarterly
+        </part>
+       </title>
+       (Robert Byington, Exec. Sec).
+       <date>
+        January 24, 1971
+       </date>
+       <lb>
+       </lb>
+       Permission for the inclusion of two articles in Emrich’s book,
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       January 24, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/46
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kirkland, Edwin C.
+       <date>
+        May 22, 1968
+       </date>
+       <lb>
+       </lb>
+       Recommendation letter to the University of Nevada on behalf of Duncan Emrich.
+      </unittitle>
+      <unitdate>
+       May 22, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/47
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kirshenblatt-Gimblett, Barbara to Junior Folklore Club.
+       <lb>
+       </lb>
+       <date>
+        November 10, 1976
+       </date>
+       <lb>
+       </lb>
+       Requesting information on membership: the Junior Folklore Club.
+      </unittitle>
+      <unitdate>
+       November 10, 1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Knott, Sarah Gertrude.
+       <date>
+        February 14, 19-
+       </date>
+       <lb>
+       </lb>
+       Congratulatory letter.
+      </unittitle>
+      <unitdate>
+       February 14, 19-
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       Koch, William E.
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Address of William Koch.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/50
+      </container>
+      <unittitle encodinganalog="245$a">
+       Land, Robert H. (Library of Congress).
+       <date>
+        September 4, 1968
+       </date>
+       <lb>
+       </lb>
+       Letter accompanied by Library of Congress photo duplication permission forms.
+      </unittitle>
+      <unitdate>
+       September 4, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/51
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lawrence County American Revolution Bicentennial Commission, (Lawrenceburg, Tenn.).
+       <date>
+        February 8, 1977
+       </date>
+       <lb>
+       </lb>
+       Correspondence indicating interest in folklore.
+      </unittitle>
+      <unitdate>
+       February 8, 1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       17 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/52
+      </container>
+      <unittitle encodinganalog="245$a">
+       Little, Brown and Company Publishers
+       <date>
+        1967-1977
+       </date>
+       <lb>
+       </lb>
+       Pertaining to the book reviews and permission issues.
+      </unittitle>
+      <unitdate>
+       1967-1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       45 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/53
+      </container>
+      <unittitle encodinganalog="245$a">
+       Long, Maud (Mrs.).
+       <date>
+        February 12, 1971
+       </date>
+       <lb>
+       </lb>
+       Maud Long corresponds with Emrich as she prepares to host two interviewees being sent  to her by Emrich.
+      </unittitle>
+      <unitdate>
+       February 12, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/54
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mass Communications, Inc.
+       <date>
+        August 9, 1973
+       </date>
+       <lb>
+       </lb>
+       Permission request to use audio recordings Duncan created in Nevada.
+      </unittitle>
+      <unitdate>
+       August 9, 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/55
+      </container>
+      <unittitle encodinganalog="245$a">
+       MacLeish, Archibald.
+       <date>
+        1968
+       </date>
+       <lb>
+       </lb>
+       Correspondence including poems.
+      </unittitle>
+      <unitdate>
+       1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/56
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mencken, H.L.
+       <date>
+        December 31, 1945
+       </date>
+       <lb>
+       </lb>
+       Correspondence indicating the possibility of a meeting.
+      </unittitle>
+      <unitdate>
+       December 31, 1945
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/57
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mickey.
+       <date>
+        July 15, 1967
+       </date>
+       <lb>
+       </lb>
+       Updating Emrich.
+      </unittitle>
+      <unitdate>
+       July 15, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/58
+      </container>
+      <unittitle encodinganalog="245$a">
+       Montell, Lynwood.
+       <date>
+        February 4, 1972
+       </date>
+       <lb>
+       </lb>
+       Lynwood informing Emrich that he wrote to the publishers on his behalf.
+      </unittitle>
+      <unitdate>
+       February 4, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/59
+      </container>
+      <unittitle encodinganalog="245$a">
+       Morrison, John W.
+       <date>
+        April-June, 1968
+       </date>
+       <lb>
+       </lb>
+       Correspondence pertaining to Duncan Emrich joining the staff at the 
+            University of Nevada.
+      </unittitle>
+      <unitdate>
+       April-June, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/60
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nagel, Charles.
+       <date>
+        May 3, 1966
+       </date>
+       <lb>
+       </lb>
+       Pertaining to Gilbert Stuart portraits.
+      </unittitle>
+      <unitdate>
+       May 3, 1966
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/61
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Nevada Highways and Parks Magazine
+        </part>
+       </title>
+       .
+       <date>
+        August 29, 1968
+       </date>
+       <lb>
+       </lb>
+       Poems Emrich submitted for publications which were subsequently returned.
+      </unittitle>
+      <unitdate>
+       August 29, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/62
+      </container>
+      <unittitle encodinganalog="245$a">
+       Newman, Heather.
+       <date>
+        1975-1976
+       </date>
+       <lb>
+       </lb>
+       Between Emrich and Newman about folklore.
+      </unittitle>
+      <unitdate>
+       1975-1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       9 pages
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/63
+      </container>
+      <unittitle encodinganalog="245$a">
+       Randolph, Vance.
+       <date>
+        1972 – 1974
+       </date>
+       <lb>
+       </lb>
+       Between Emrich’s and Randolph about folklore and possible reprints and 				permissions.
+      </unittitle>
+      <unitdate>
+       1972 – 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/64
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rath, Frederick L., Jr.
+       <date>
+        June, 1967
+       </date>
+       <lb>
+       </lb>
+       Responding to Emrich’s request for materials.
+      </unittitle>
+      <unitdate>
+       June, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/65
+      </container>
+      <unittitle encodinganalog="245$a">
+       Richmond Organization, The- (Jay Mark, Vice Pres.).
+       <date>
+        February 4, 1971
+       </date>
+       <lb>
+       </lb>
+       Concerning Emrich’s use of Frank Warner’s materials.
+      </unittitle>
+      <unitdate>
+       February 4, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/66
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sarton, George.
+       <date>
+        January 11, 1951
+       </date>
+       <lb>
+       </lb>
+       Concerning folkore publications and the passing of Mrs. George Sarton.
+      </unittitle>
+      <unitdate>
+       January 11, 1951
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/67
+      </container>
+      <unittitle encodinganalog="245$a">
+       Scyoc, Leo Van.
+       <date>
+        May 25, 1977
+       </date>
+       <lb>
+       </lb>
+       Thank you letter.
+      </unittitle>
+      <unitdate>
+       May 25, 1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/68
+      </container>
+      <unittitle encodinganalog="245$a">
+       Spadea Columns, Inc. (Stirling Spadea, Assoc. Ed).
+       <date>
+        May 20, 1957
+       </date>
+       <lb>
+       </lb>
+       Information pertaining to being a columnist.
+      </unittitle>
+      <unitdate>
+       May 20, 1957
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/69
+      </container>
+      <unittitle encodinganalog="245$a">
+       Tennessee Folklore Society (Ralph W. Hyde Sec. Ed.).
+       <date>
+        February 21, 1972
+       </date>
+       <lb>
+       </lb>
+       Thank you letter pertaining to the receipt of
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       February 21, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/70
+      </container>
+      <unittitle encodinganalog="245$a">
+       Texas Folklore Society (Wilson M. Hudson, Sec. Ed).
+       <date>
+        December 23, 1970, Jan. 18, 1971
+       </date>
+       <lb>
+       </lb>
+       Permission request for
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       December 23, 1970, Jan. 18, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/71
+      </container>
+      <unittitle encodinganalog="245$a">
+       Thomas Y. Crowell Company.
+       <date>
+        November 16, 1960, March 12, 1971
+       </date>
+       <lb>
+       </lb>
+       Definition request and registration certificate for
+       <title>
+        <part>
+         The Cowboy’s Own Brand Book
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       November 16, 1960, March 12, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/72
+      </container>
+      <unittitle encodinganalog="245$a">
+       Thompson, Lawrence.
+       <date>
+        March 15, 1971
+       </date>
+       <lb>
+       </lb>
+       Thompson requests permission to use material for his biography of Robert Frost.
+      </unittitle>
+      <unitdate>
+       March 15, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/73
+      </container>
+      <unittitle encodinganalog="245$a">
+       Toelken, Barre.
+       <date>
+        January 20, 1971
+       </date>
+       <lb>
+       </lb>
+       Pertaining the receipt of Henry Hyatt’s
+       <title>
+        <part>
+         Hoodoo-Conjuration Withcraft-					Rootwork
+        </part>
+       </title>
+       for review and the request to receive Western Folklore.
+      </unittitle>
+      <unitdate>
+       January 20, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/74
+      </container>
+      <unittitle encodinganalog="245$a">
+       Twane Publishers, Inc.
+       <date>
+        1967-1968
+       </date>
+       <lb>
+       </lb>
+       Concerning publishing fees.
+      </unittitle>
+      <unitdate>
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/75
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of California Press.
+       <date>
+        April 10, 1968
+       </date>
+       <lb>
+       </lb>
+       Pertaining to
+       <title>
+        <part>
+         Comstock Bonanza
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       April 10, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       15 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/76
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Oklahoma Press.
+       <date>
+        July 12, 1967, January 30, 1971, 
+                     February 3, 1971
+       </date>
+       <lb>
+       </lb>
+       Response to order and permission request from Emrich.
+      </unittitle>
+      <unitdate>
+       July 12, 1967, January 30, 1971, 
+                     February 3, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/77
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Texas (Stephen H. Spurr. Pres).
+       <date>
+        September 20, 1973
+       </date>
+       <lb>
+       </lb>
+       Thank you letter to Emrich for the deposit of materials he made to the World War II 	collection at the University.
+      </unittitle>
+      <unitdate>
+       September 20, 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/78
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Wisconsin (1971 Lewis Carroll Shelf Award).
+       <date>
+        August 23, 1971
+       </date>
+       <lb>
+       </lb>
+       Award letter for
+       <title>
+        <part>
+         The Nonsense Book
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       August 23, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/79
+      </container>
+      <unittitle encodinganalog="245$a">
+       Utley, Francis Lee.
+       <date>
+        August 1967, June 1973
+       </date>
+       <lb>
+       </lb>
+       Pertaining to Emrich’s books on folklore.
+      </unittitle>
+      <unitdate>
+       August 1967, June 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/80
+      </container>
+      <unittitle encodinganalog="245$a">
+       Walt.
+       <date>
+        March, 20, 1968, April 20, 1968
+       </date>
+       <lb>
+       </lb>
+       To Walt from Emrich concerning his future position at the University of 					Nevada.
+      </unittitle>
+      <unitdate>
+       March, 20, 1968, April 20, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/81
+      </container>
+      <unittitle encodinganalog="245$a">
+       Walton, Richard Guy.
+       <date>
+        January 24, 1975
+       </date>
+       <lb>
+       </lb>
+       Permission request.
+      </unittitle>
+      <unitdate>
+       January 24, 1975
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/82
+      </container>
+      <unittitle encodinganalog="245$a">
+       Warner, Frank.
+       <date>
+        January 16, 1971
+       </date>
+       <lb>
+       </lb>
+       Response to Emrich’s requesting permission to include songs which Warner recorded.
+      </unittitle>
+      <unitdate>
+       January 16, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/83
+      </container>
+      <unittitle encodinganalog="245$a">
+       West, John O. to Heather Newman.
+       <date>
+        1976
+       </date>
+       <lb>
+       </lb>
+       Correspondence about Emrich’s conversation with the Editor of the American Folklore Society Journal, John West, sent to Heather Newman, the President of the Junior Folklore Club. Included is the 1976 Fall issue of the journal which has a blurb about the club, along with announcement of Alan Jabbour’s position as Head of the American Folklife Center.
+      </unittitle>
+      <unitdate>
+       1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/84
+      </container>
+      <unittitle encodinganalog="245$a">
+       Western Folklore (S.J. Sackett Book, Review Editor).
+       <date>
+        June, 1968; January, 1971
+       </date>
+       <lb>
+       </lb>
+       Emrich requests permission to cite works from two folklore journals.
+      </unittitle>
+      <unitdate>
+       June, 1968; January, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/85
+      </container>
+      <unittitle encodinganalog="245$a">
+       William Morris Agency, Inc.
+       <date>
+        1966-1969
+       </date>
+       <lb>
+       </lb>
+       Book proposals and contracts.
+      </unittitle>
+      <unitdate>
+       1966-1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       2/86
+      </container>
+      <unittitle encodinganalog="245$a">
+       Yale University Press.
+       <date>
+        February 10, 1971
+       </date>
+       <lb>
+       </lb>
+       Response to Emrich’s request to use the ballad "Captain Ward and the Rainbow."
+      </unittitle>
+      <unitdate>
+       February 10, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/87
+      </container>
+      <unittitle encodinganalog="245$a">
+       Linda.
+       <date>
+        April 3, 1972
+       </date>
+       <lb>
+       </lb>
+       Personal correspondence.
+      </unittitle>
+      <unitdate>
+       April 3, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/88
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Book of Death
+        </part>
+       </title>
+       .
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Correspondence pertaining to the unfinished Book of Death.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       27 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/89
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       .
+       <date>
+        1976-1977
+       </date>
+       <lb>
+       </lb>
+       Correspondence pertaining to The
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       1976-1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/90
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Junior Folklore Club of America.
+       <date>
+        August, 1976
+       </date>
+       <lb>
+       </lb>
+       Junior Folklore Club organization.
+      </unittitle>
+      <unitdate>
+       August, 1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/91
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jerry.
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Correspondence concerning the Junior Folklore Club.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/92
+      </container>
+      <unittitle encodinganalog="245$a">
+       Little, Brown and Company Publishers, Dianne M. Muller.
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Form for book review.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/93
+      </container>
+      <unittitle encodinganalog="245$a">
+       Proposal for Book:
+       <title>
+        <part>
+         Calories Do Count
+        </part>
+       </title>
+       .
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+       Justification for book proposal.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/94
+      </container>
+      <unittitle encodinganalog="245$a">
+       AMS Press, Inc., Lee Hatfield.
+       <date>
+        May 27, 1977
+       </date>
+       <lb>
+       </lb>
+       Permission to use Vance Randolph's work.
+      </unittitle>
+      <unitdate>
+       May 27, 1977
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/95
+      </container>
+      <unittitle encodinganalog="245$a">
+       Various postcards.
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       3/96
+      </container>
+      <unittitle encodinganalog="245$a">
+       Unaddressed documents along with the dust jacket for Duncan Emrich’s book, 
+                     It’s
+       <title>
+        <part>
+         An Old Wild West Custom
+        </part>
+       </title>
+       .
+       <date>
+        Undated
+       </date>
+       <lb>
+       </lb>
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Personal Papers
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/97
+      </container>
+      <unittitle encodinganalog="245$a">
+       Military Documents. Supreme Headquarters Allied Expeditionary Force.
+       <date>
+        1943-1945
+       </date>
+       <lb>
+       </lb>
+       Various documents pertaining to Emrich’s service with SHAEF.  Including written orders, passes and other official military papers.
+      </unittitle>
+      <unitdate>
+       1943-1945
+      </unitdate>
+      <physdesc encodinganalog="300">
+       52 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/98
+      </container>
+      <unittitle encodinganalog="245$a">
+       Department of State: United States Information Service.
+       <date>
+        1947; 1962
+       </date>
+       <lb>
+       </lb>
+       Official pages pertaining to Emrich’s appointed position as cultural officer.
+      </unittitle>
+      <unitdate>
+       1947; 1962
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/99
+      </container>
+      <unittitle encodinganalog="245$a">
+       Curriculum Vitae. Resumes
+       <date>
+        Undated.
+       </date>
+       <lb>
+       </lb>
+       Several resumes from throughout Emrich’s career.
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       15 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/100
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fan Letters (1 of 2) Letters from readers of Emrich’s books, mainly from children.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       106 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/101
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fan Letter (2 of 2) Letters from readers of Emrich’s books, mainly from children.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       26 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/102
+      </container>
+      <unittitle encodinganalog="245$a">
+       Book Review of
+       <title>
+        <part>
+         Folklore International Essays in Honor of Wayland Debs Hand in Western Folklore
+        </part>
+       </title>
+       28
+       <date>
+        (January, 1969);
+       </date>
+       52-53.
+      </unittitle>
+      <unitdate>
+       (January, 1969);
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/103
+      </container>
+      <unittitle encodinganalog="245$a">
+       Reviews of Emrich’s Books Originals and photocopies.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       56 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/104
+      </container>
+      <unittitle encodinganalog="245$a">
+       Typescript on Thomas Wolfe
+       <lb>
+       </lb>
+       Photocopy of pages 1-63.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       27 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/105
+      </container>
+      <unittitle encodinganalog="245$a">
+       Passport.
+       <date>
+        May 10, 1933
+       </date>
+       <lb>
+       </lb>
+       Contains original United States passport belonging to Emrich.
+      </unittitle>
+      <unitdate>
+       May 10, 1933
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/106
+      </container>
+      <unittitle encodinganalog="245$a">
+       National Endowment for the Humanities. Fellowship Forms Includes official forms.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/107
+      </container>
+      <unittitle encodinganalog="245$a">
+       Harvard University Transcript, 1934-37
+       <date>
+        Dated May 21, 1968.
+       </date>
+      </unittitle>
+      <unitdate>
+       Dated May 21, 1968.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/108
+      </container>
+      <unittitle encodinganalog="245$a">
+       Leiding, Harriette Kershaw, "Street Cries of an Old Southern City,"
+       <date>
+        1910.
+       </date>
+       (Charlestown, S.C., Privately Published)
+       <lb>
+       </lb>
+       A copy of the front matter and chapter that was used in
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <unitdate>
+       1910.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       11 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/109
+      </container>
+      <unittitle encodinganalog="245$a">
+       Copy of  Roger Abrahams, "Some Riddles from the Negro of Philadelphia."
+       <title>
+        <part>
+         Keystone Folklore Quarterly
+        </part>
+       </title>
+       7, no. 4
+       <date>
+        (Winter 1962)
+       </date>
+       : 10-16.
+      </unittitle>
+      <unitdate>
+       (Winter 1962)
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/110
+      </container>
+      <unittitle encodinganalog="245$a">
+       Copy of Herbert Halpert’s, "Negro Riddles Collected in New Jersey."
+       <title>
+        <part>
+         Journal of American Folklore
+        </part>
+       </title>
+       56, no. 221
+       <date>
+        (July-September 1943)
+       </date>
+       : 200-202.
+      </unittitle>
+      <unitdate>
+       (July-September 1943)
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/111
+      </container>
+      <unittitle encodinganalog="245$a">
+       Copy of Ernest W. Baughman, "Folk Sayings and Beliefs."
+       <title>
+        <part>
+         New Mexico Folklore Record
+        </part>
+       </title>
+       9
+       <date>
+        (1954-55)
+       </date>
+       : 23-27.
+      </unittitle>
+      <unitdate>
+       (1954-55)
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/112
+      </container>
+      <unittitle encodinganalog="245$a">
+       Brown University, Transcript.
+       <date>
+        1925-1932
+       </date>
+       <lb>
+       </lb>
+       Includes transcript.
+      </unittitle>
+      <unitdate>
+       1925-1932
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/113
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lewis, Mark B. Letter of Recommendations Includes recommendation letters.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/114
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Nevada , Faculty Positions.
+       <date>
+        April 4, 1969
+       </date>
+       <lb>
+       </lb>
+       Includes position announcement.
+      </unittitle>
+      <unitdate>
+       April 4, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/115
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The New Mexico Folklore Record
+        </part>
+       </title>
+       <date>
+        (1969-70)
+       </date>
+       <lb>
+       </lb>
+       Includes publication announcement.
+      </unittitle>
+      <unitdate>
+       (1969-70)
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/116
+      </container>
+      <unittitle encodinganalog="245$a">
+       "The Oxyrrhynchos Papyri: "Menenius Apius to Attilius Navious. 
+            Translation by Constantine D. Tsatsos. Original and photocopies.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       50 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/117
+      </container>
+      <unittitle encodinganalog="245$a">
+       Veloudios, Thanos A.D.  "The Kalikantzari."
+       <title>
+        <part>
+         Pictures from Greece
+        </part>
+       </title>
+       <date>
+        (January, 1957)
+       </date>
+       <lb>
+       </lb>
+       Original newsprint and photocopies.
+      </unittitle>
+      <unitdate>
+       (January, 1957)
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/118
+      </container>
+      <unittitle encodinganalog="245$a">
+       Magazine/Newspaper Clippings Originals and photocopies of various materials including newspaper articles pertaining to American folklore.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       4/119
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notebook of songs and poems A 5 x 8 in. handwritten notebook of songs and poems along with other handwritten and typed pages. On the end sheet Emrich address himself as Captain and instructs that if anyone finds the notebook it should be returned to his wife in Washington D.C. The pages were all housed within a red leather embroidered folder which can be found in Oversized Box 1.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       50 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Articles
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/120
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich. Newspaper/Magazine.
+       <date>
+        1940-1949
+       </date>
+       (1 of 2)
+      </unittitle>
+      <unitdate>
+       1940-1949
+      </unitdate>
+      <physdesc encodinganalog="300">
+       23 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/121
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich. Newspaper/Magazine.
+       <date>
+        1940-1949
+       </date>
+       (2 of 2)
+      </unittitle>
+      <unitdate>
+       1940-1949
+      </unitdate>
+      <physdesc encodinganalog="300">
+       91 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/122
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich. Newspaper/Magazine.
+       <date>
+        1950-1959
+       </date>
+      </unittitle>
+      <unitdate>
+       1950-1959
+      </unitdate>
+      <physdesc encodinganalog="300">
+       95 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/123
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich. Newspaper/Magazine.
+       <date>
+        1960-1969
+       </date>
+      </unittitle>
+      <unitdate>
+       1960-1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/124
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich. Newspaper/Magazine.
+       <date>
+        1970-1979
+       </date>
+      </unittitle>
+      <unitdate>
+       1970-1979
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/125
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles about Duncan Emrich. Newspaper/Magazine.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       12 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/126
+      </container>
+      <unittitle encodinganalog="245$a">
+       Poems by Duncan Emrich. 	
+         Typed and handwritten.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       50 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       5/127
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich Newspapers/Magazines.
+       <date>
+        Undated
+       </date>
+       (1 of 2)
+       <lb>
+       </lb>
+       Includes articles written by Duncan Emrich.
+      </unittitle>
+      <unitdate>
+       Undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       65 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       6/128
+      </container>
+      <unittitle encodinganalog="245$a">
+       Articles by Duncan Emrich Newspapers/Magazines.
+       <date>
+        Undated.
+       </date>
+       (2 of 2)
+       <lb>
+       </lb>
+       Includes articles written by Duncan Emrich.
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       60 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       6/129
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Jack and the Bull" from
+       <title>
+        <part>
+         Jack Tales
+        </part>
+       </title>
+       (pp. 31-53)
+       <lb>
+       </lb>
+       Contains three manuscripts of "Jack and the Bull."
+      </unittitle>
+      <physdesc encodinganalog="300">
+       69 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       6/130
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Leander"
+       <lb>
+       </lb>
+       Cowboy Story by Duncan Emrich. Contains the three manuscripts of "Leander" a story about a man who fought to be  considered as a cowboy.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       69 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       6/131
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Professor Takes A Holiday"
+       <lb>
+       </lb>
+       Two different drafts of "Professor Takes a Holiday."
+       <lb>
+       </lb>
+       The first version is ten pages. The second version is thirty one pages. Both versions are written by Duncan Emrich.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       41 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       6/132
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Who Shot Maggie in the Freckle? and other Ballads of Virginia City, Nevada,
+        </part>
+       </title>
+       and articles. Includes the pamphlet and ballad
+       <title>
+        <part>
+         Who Shot Maggie in the Freckle?
+        </part>
+       </title>
+       and other ballads of Virginia City, Nevada composed under his pseudonym of the Comstocker.
+       <lb>
+       </lb>
+       Also includes the original and photocopies articles written about Emrich and his ballad.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       23 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 5: Student Papers
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       7/133
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Maryland Class in Folklore.
+       <date>
+        1947
+       </date>
+       (1 of 2)
+       <lb>
+       </lb>
+       Assignments submitted by students for of a course taught by Emrich.
+      </unittitle>
+      <unitdate>
+       1947
+      </unitdate>
+      <physdesc encodinganalog="300">
+       200 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       7/134
+      </container>
+      <unittitle encodinganalog="245$a">
+       University of Maryland Class in Folklore.
+       <date>
+        1947.
+       </date>
+       (2 of 2)
+       <lb>
+       </lb>
+       Assignments submitted by students as part of a course taught by Emrich including index cards.
+      </unittitle>
+      <unitdate>
+       1947.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       200 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 6: Published and Unpublished Works
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/135
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Indexes and Publishers Lists. Contains indexes organized by title, subject and first line.
+       <lb>
+       </lb>
+       Also contains a list of record companies that specialize in American folksong.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       183 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/136
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Preliminary Pages, Song Lyrics #1-59
+       <lb>
+       </lb>
+       Drafts of an introduction along with numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       71 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/137
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #61-150
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       89 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/138
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #151-219
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       67 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/139
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #220-290
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/140
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #291-373
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       82 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/141
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #374-454
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       80 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/142
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #455-616
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       161 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       8/143
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #617-753
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       136 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/144
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #754-824
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/145
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #825-903
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       78 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/146
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #904-993
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       89 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/147
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #994-1051
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       57 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/148
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #1052-1109
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       57 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/149
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Song Lyrics #1110-1176
+       <lb>
+       </lb>
+       Numbered sheets containing song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       66 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/150
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Sections 7-12
+      </unittitle>
+      <physdesc encodinganalog="300">
+       186 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/151
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Sections 13-16
+      </unittitle>
+      <physdesc encodinganalog="300">
+       128 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/152
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Sections 17-21
+      </unittitle>
+      <physdesc encodinganalog="300">
+       114 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       9/153
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Section 22
+      </unittitle>
+      <physdesc encodinganalog="300">
+       157 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/154
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Sacred Harp. Sections 23-24
+      </unittitle>
+      <physdesc encodinganalog="300">
+       72 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/155
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Carols and Christmas Songs/War and Historical Pieces. Sections 25-27
+      </unittitle>
+      <physdesc encodinganalog="300">
+       94 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/156
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Disasters and Tragedies. Sections 28-31
+      </unittitle>
+      <physdesc encodinganalog="300">
+       147 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/157
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. The 49ers and Songs of the Mormons. Sections 32-36
+      </unittitle>
+      <physdesc encodinganalog="300">
+       125 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/158
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. The Cowboys and Murders. Sections 37-40.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       112 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       10/159
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       . Typescript, Final. Outlaws and Bad Men, Blues, Miscellaneous and Pieces Relating to the American Land. Sections 41-44
+      </unittitle>
+      <physdesc encodinganalog="300">
+       113 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/160
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 1 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       75 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/161
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 2 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       97 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/162
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 3 of 14
+       <lb>
+       </lb>
+       Typed song lyrics and photocopies.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       100 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/163
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 4 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       93 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/164
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 5 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       103 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/165
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 6 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       77 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/166
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 7 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       66 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/167
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 8 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       110 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/168
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 9 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       84 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       11/169
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 10 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       88 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/170
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 11 of 14
+       <lb>
+       </lb>
+       Sheet music, handwritten.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       99 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/171
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 12 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       17 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/172
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 13 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       100 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/173
+      </container>
+      <unittitle encodinganalog="245$a">
+       Anthology of American Folksong. Duncan Emrich and Charles Seeger. 14 of 14
+       <lb>
+       </lb>
+       Typed song lyrics.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       179 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/174
+      </container>
+      <unittitle encodinganalog="245$a">
+       "A Bibliography of American Folksong in the English Language." Compiled by Joseph C. Hickerson. 1 of 2
+       <lb>
+       </lb>
+       Listing of books pertaining to American Folksong with handwritten notes.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       53 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/175
+      </container>
+      <unittitle encodinganalog="245$a">
+       "A Bibliography of American Folksong in the English Language." Compiled by, Joseph C. Hickerson. 2 of 2
+       <lb>
+       </lb>
+       Listing of books pertaining to American Folksong with handwritten notes.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       70 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       12/176
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bibliography, compiled by Joseph C. Hickerson
+       <lb>
+       </lb>
+       Draft of bibliography.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       89 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       13/177
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Typescript containing sections on name changes, rhyming, and other editorial remarks.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       93 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       13/178
+      </container>
+      <unittitle encodinganalog="245$a">
+       Emrich/Dorson Controversy over Folklore on the American Land Documents pertaining to a written conflict between Dr. Emrich and Dr. Richard Dorson of Indiana University resulting from Dr. Dorson’s review of
+       <title>
+        <part>
+         Folklore on The American Land
+        </part>
+       </title>
+       .
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       13/179
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Folklore of Love and Courtship
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Contains galleys, sample text, and book jacket.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       20 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       13/180
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Folklore of Weddings and Marriage
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Contains galleys, letters, and jacket blurbs.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       15 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/181
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 1 of 16
+       <lb>
+       </lb>
+       Acknowledgements and other preliminary materials.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/182
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 2 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       121 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/183
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 3 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       92 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/184
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 4 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       95 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/185
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 5 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       102 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/186
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 6 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       79 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/187
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 7 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe with handwritten notes. Contains sections for "American Legends" and the "Folklore of Manifest Destiny."
+      </unittitle>
+      <physdesc encodinganalog="300">
+       93 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/188
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 8 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Includes a list of the book’s contents, the book’s forward and title pages; as well as sections organized by page number: pp. 2-38.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       58 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/189
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 9 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp. 39-102.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       64 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/190
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 10 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp.103-179.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       75 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/191
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 11 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp.180-236.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       69 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       14/192
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 12 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp. 238-334.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       81 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       15/193
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 13 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp. 335-415.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       80 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       15/194
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 14 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp. 417-494.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       67 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       15/195
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 15 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe. Contains sections organized by page number: pp. 495-540.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       43 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       15/196
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       . Duncan Emrich and Charles Clegg. 16 of 16
+       <lb>
+       </lb>
+       Typed articles and other works by Lucius Beebe.  Contains a checklist of sources as well 	as sections organized by page number: pp. 541-575.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       43 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/197
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Typescript. 1 of 2
+       <lb>
+       </lb>
+       Preliminary content as well as pages 1-100.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       113 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/198
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Typescript. 2 of 2
+       <lb>
+       </lb>
+       Contains typescript of pages 107-212.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       105 pages
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/199
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Intro/Riddles/Knock Knock Jokes. 1 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       19 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/200
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Good and Bad Luck, Abracadabra, Magic Squares, and SATOR. 2 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/201
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Puzzles and Problems/Minute Mysteries. 3 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       14 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/202
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Games/Jump Rope. 4 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       15 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/203
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Teasing/Kissing Games. 5 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/204
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Ah, Youth! 6 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       25 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/205
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . The Mail/Wishes/Autograph Albums. 7 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       42 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/206
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Children’s Beliefs. 8 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/207
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Proverbs and Proverbial Speech. 9 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       17 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/208
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . School/Summer Camp Songs and Cheers. 10 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       23 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       16/209
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Whim Wham Book
+        </part>
+       </title>
+       . Rhymes and Tingles/Odds and Ends/Source Notes. 11 of 11
+       <lb>
+       </lb>
+       Contains typescript of the chapter.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       29 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/210
+      </container>
+      <unittitle encodinganalog="245$a">
+       Animal Lore. Unpublished Manuscript. 1 of 2
+       <lb>
+       </lb>
+       Typed and handwritten stories and assorted lore organized by type of animal.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       80 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/211
+      </container>
+      <unittitle encodinganalog="245$a">
+       Animal Lore. Unpublished Manuscript. 2 of 2
+       <lb>
+       </lb>
+       Typed and handwritten stories and assorted lore organized by type of animal.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       80 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/212
+      </container>
+      <unittitle encodinganalog="245$a">
+       American Folklore for Young Americans. Marion V. Emrich, and George Korson. 1 of 2
+       <lb>
+       </lb>
+       Typed manuscript.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       80 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/213
+      </container>
+      <unittitle encodinganalog="245$a">
+       American Folklore for Young Americans. Marion V. Emrich and George Korson. 2 of 2
+       <lb>
+       </lb>
+       Typed manuscript.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       100 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/214
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Book of Death
+        </part>
+       </title>
+       (Unfinished)
+       <lb>
+       </lb>
+       Preliminary List of Photographs.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/215
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Child’s Book of Folklore
+        </part>
+       </title>
+       . Marion V. Emrich and George Korson, second draft. 1 of 2
+       <lb>
+       </lb>
+       Typed stories and assorted lore organized by topic.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       60 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/216
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Child’s Book of Folklore
+        </part>
+       </title>
+       . Marion V. Emrich and George Korson, second draft. 2 of 2
+       <lb>
+       </lb>
+       Typed stories and assorted lore organized by topic.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       60 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/217
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Child’s Book of Folklore
+        </part>
+       </title>
+       .
+       <lb>
+       </lb>
+       Marion V. Emrich and George Korson Articles, advertisements, and other ephemera pertaining to the publication of
+       <title>
+        <part>
+         Child’s Book of Folklore
+        </part>
+       </title>
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       17/218
+      </container>
+      <unittitle encodinganalog="245$a">
+       Draft of A Book of Western Lore for Young People
+       <lb>
+       </lb>
+       Typed with handwritten notes.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       142 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/219
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         American Folk Poetry
+        </part>
+       </title>
+       .
+       <date>
+        September 16, 1971
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       September 16, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/220
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Book of Death
+        </part>
+       </title>
+       .
+       <date>
+        June 22, 1976
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       June 22, 1976
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/221
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Book of Nonsense
+        </part>
+       </title>
+       .
+       <date>
+        October 15, 1968
+       </date>
+       <lb>
+       </lb>
+       Includes edited contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       October 15, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/222
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Book of Wishes
+        </part>
+       </title>
+       .
+       <date>
+        March 25, 1970
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       March 25, 1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/223
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Folklore on the American Land
+        </part>
+       </title>
+       .
+       <date>
+        July 14, 1967
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       July 14, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/224
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Folklore Book
+        </part>
+       </title>
+       .
+       <date>
+        September 6, 1974
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       September 6, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/225
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Folklore of Love and Courtship
+        </part>
+       </title>
+       .
+       <date>
+        June 12, 1969
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       June 12, 1969
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 page.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/226
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Hodge Podge Book
+        </part>
+       </title>
+       .
+       <date>
+        December 30, 1970
+       </date>
+       <lb>
+       </lb>
+       Includes contract for the book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       December 30, 1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/227
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Lucius Beebe Reader
+        </part>
+       </title>
+       .
+       <date>
+        August 5, 1968
+       </date>
+       <lb>
+       </lb>
+       Includes edited contract between Emrich, Clegg and publisher.
+      </unittitle>
+      <unitdate>
+       August 5, 1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/228
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         The Whim Wham Book
+        </part>
+       </title>
+       .
+       <date>
+        September 11, 1972
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       September 11, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       18/229
+      </container>
+      <unittitle encodinganalog="245$a">
+       Untitled work on the Folklore of Names and Nicknames.
+       <date>
+        September 6, 1974
+       </date>
+       <lb>
+       </lb>
+       Includes contract for book between Emrich and the publisher.
+      </unittitle>
+      <unitdate>
+       September 6, 1974
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 7: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       19/230
+      </container>
+      <unittitle encodinganalog="245$a">
+       Graphic Images. Duncan Emrich
+       <lb>
+       </lb>
+       This folder consists mainly of black-and-white photographic prints of Duncan Emrich at different stages of his life.
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Oversize Materials
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       20/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Washington’s Best Address, Diary: 1846, Untitled Poem, Nevada, Dry Land, Memorandum; S.H.A.E.F.
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       20/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Leather Folder
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="Box-Folder">
+       21/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       <title>
+        <part>
+         Lucius Beebe Reader
+        </part>
+       </title>
+       <lb>
+       </lb>
+       Page and galley proofs of the manuscript
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

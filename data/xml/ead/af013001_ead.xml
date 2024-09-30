@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af013001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af013001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Don Yoder collection of wire
+               recordings
+    </titleproper>
+    <subtitle>
+     AFC 1970/004
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2019-02">
+     Revised February 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2010655343" show="new">
+       https://lccn.loc.gov/2010655343
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-02">
+     February 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2013-02">
+     February 2013
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Don Yoder collection of wire
+            recordings
+    <date altrender="Inclusive dates" localtype="inclusive" normal="1950/1960">
+     1950-1960
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Inclusive dates" normal="1950/1960" unitdatetype="inclusive">
+    1950-1960
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1970/004
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Yoder, Don
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    2 slips of paper + 26 sound wire reel
+               containers.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    sound recordings: 33 sound wire reels : analog ; 3
+               in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041">
+     Sound recordings predominantly in Pennsylvania German; some are in
+               English.
+    </language>
+    <descriptivenote>
+     <p>
+      Sound recordings predominantly in Pennsylvania German; some are in
+               English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress,
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of field recordings of hymns
+            and spirituals of Pennsylvania Dutch Evangelical United Brethren, United Christian, and
+            Mennonite singers; humorous songs, secular folk songs, jokes, religious beliefs, tales,
+            and conversations in Pennsylvania German; hymns, ballads, folk songs, tales, and ghost
+            stories in English. Several interviews are about holidays, camp meetings, and
+            traditional healing, including Sophia Bailer's discussion of Pennsylvania Dutch
+            blessings for healing -- "brauche" -- also known as powwowing. Musical accompaniment
+            includes guitar and fiddle for some recordings. One wire spool includes a radio
+            broadcast from station WEEU of a program on "Pennsylvania Dutch folklore" presented by
+            John B. Brendel.
+   </abstract>
+  </did>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: 1. Manuscripts; 2. Sound
+               Recordings.
+   </p>
+  </arrangement>
+  <otherfindaid encodinganalog="555$a">
+   <head>
+    Indexes
+   </head>
+   <p>
+    Recording logs prepared by Keith Reigart.
+   </p>
+  </otherfindaid>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Don Yoder; loan for duplication, tape exchange; 1977.
+   </p>
+   <p>
+    William Woys Weaver; donation (12 wire reels); 2015.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    An accrual of 12 wires was received in 2015.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Rachel I. Howard performed preliminary processing work in 2000-2001. Keith Reigart
+               prepared the recording logs for the first accrual, circa 2000-2001. Marcia K. Segal
+               completed the processing work for the first accrual in 2006, and processed the second
+               accrual in 2018.
+   </p>
+  </processinfo>
+  <altformavail>
+   <head>
+    Additional Formats
+   </head>
+   <p>
+    Preservation tape reels: Washington, D.C. : Library of Congress Recording
+               Laboratory, circa 1970. 4 sound tape reels : analog, 7 1/2 ips, mono. ; 10 in. The
+               sound recordings have been digitized from the preservation masters. Researchers can
+               listen to the digital recordings in the Folklife Reading Room.
+   </p>
+  </altformavail>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    Don Yoder collection of tape recordings (AFC 2003/051).
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of sound recordings may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Additional Formats
+   </head>
+   <p>
+    Library of Congress duplication project, circa 1970. During duplication, some of the
+               32 wire reels originally acquired were found to be blank; the blank reels were
+               deaccessioned. The remaining original wire recordings were retained by the American
+               Folklife Center, Archive of Folk Culture.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Don Yoder collection of wire recordings (AFC 1970/004), Archive of Folk Culture,
+               American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Publications
+   </head>
+   <bibref>
+    Boyer, Walter E., Albert F. Buffington, and Don Yoder.
+    <title render="italic">
+     <part>
+      Songs along the Mahantongo.
+     </part>
+    </title>
+    Lancaster: Pennsylvania Dutch Folklore
+               Center, 1951.
+   </bibref>
+   <bibref>
+    Yoder, Don.
+    <title render="italic">
+     <part>
+      Pennsylvania Spirituals.
+     </part>
+    </title>
+    Lancaster,
+               Pennsylvania: Pennsylvania Folklife Society, 1961.
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Born in 1921, in Altoona, Pennsylvania, Don Yoder grew up immersed in the traditions of
+            Pennsylvania German culture. Educated at Franklin and Marshall College (A.B., 1942 and
+            B.D., 1945), and at the University of Chicago (Ph.D., 1947). Yoder was chair of the
+            Department of Folklore and Folklife at the University of Pennsylvania from 1966-1969,
+            and retired from teaching after 40 years. He authored and co-authored hundreds of
+            publications, traveled and lectured widely, and held varied posts, including director of
+            the Pennsylvania Folklife Society (which he co-founded), editor of
+    <title>
+     <part>
+      Pennsylvania
+               Folklife
+     </part>
+    </title>
+    , president of the American Folklore Society, and Professor Emeritus
+            of Folklife Studies, University of Pennsylvania. He is a member of Phi Beta Kappa, and
+            has been elected fellow to the American Antiquarian Society and the American
+            Genealogical Society, among others. He introduced the European concept and practice of
+            folklife studies in the United States. He died in 2015.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20190205103850.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bailer, Sophia
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Brendel, John B., 1911-1971
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Yoder, Don
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Evangelical United Brethren Church.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Mennonite Brethren in Christ.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      United Christian Church.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      United Zion Church.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      WEEU (Radio station : Reading, Pa.)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Camp meetings--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Pennsylvania German--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ghost stories--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Healing--Pennsylvania--Religious aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Humorous songs--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, German--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, Pennsylvania German--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mennonites--Pennsylvania--Hymns.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pennsylvania Dutch--Pennsylvania--Folklore.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pennsylvania Dutch--Pennsylvania--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pennsylvania Dutch--Pennsylvania--Religion.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Pennsylvania Dutch--Pennsylvania--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="afset">
+     <part>
+      Powwows (healers)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Revival hymns--Pennsylvania.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--Pennsylvania.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Jokes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Prayers.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Radio programs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of field recordings of hymns and spirituals of Pennsylvania Dutch Evangelical
+            United Brethren, United Christian, and Mennonite singers; humorous songs, secular folk
+            songs, jokes, hymns, religious beliefs, tales, and conversations in Pennsylvania German;
+            hymns, ballads, folk songs, tales, and ghost stories in English. Several interviews are
+            about holidays, camp meetings, and traditional healing, including Sophia Bailer's
+            discussion of Pennsylvania Dutch blessings for healing -- "brauche" -- also known as
+            powwowing. Musical accompaniment includes guitar and fiddle for some recordings. One
+            wire spool includes a radio broadcast from station WEEU of a program on "Pennsylvania
+            Dutch folklore" presented by John B. Brendel.
+   </p>
+   <p>
+    Recorded by Don Yoder and others at various locations in the Pennsylvania Dutch area of
+            eastern Pennsylvania in 1950-1951, 1960, and possibly on other dates. Locations include
+            Lancaster County, Lebanon County, Schuylkill County, Lehigh County, and Berks County,
+            Pennsylvania.
+   </p>
+   <p>
+    Various performers and interviewees including Emma L. Yoder, Harry Lewis, Beulah Mae
+            Lewis, Oliver Franklin Follweiler, Harvey Brunner Musselman, Miriam Hollenbach, Aggie
+            Osman, Valeria Gable, Florence Gable, Florence Deibler, Martin Sweigert, Sophia Bailer,
+            William (Willie) Brown, Christian R. Longenecker, Charles Fassnacht, Ella Fassnacht,
+            Wesley Pfautz Martin, Mrs. Wesley P. Martin, and others.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Documentation for sound recordings
+                     (original)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       28 items: 26 containers and two slips of
+                        paper.
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       26 original containers for wire reels and two pieces of paper. One paper
+                     accompanied AFC 1970/004: SR041 and one paper indicates the wires belong to
+                     Yoder. Further textual information on the containers and reels remains to be
+                     transcribed.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series 2: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR11
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (30 min., 44 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date encodinganalog="245$f">
+        1951-1960
+       </date>
+       . 17
+                     selections: folk songs and spoken word segments in Pennsylvania German and in
+                     English. The songs are sometimes sung a cappela, and sometimes accompanied by
+                     instruments. Several of the songs were published in the book
+       <title>
+        <part>
+         Songs Along
+                        The Mahantongo.
+        </part>
+       </title>
+       Recorded at the Pennsylvania Dutch Folklore Center
+                     (later the Pennsylvania Folklife Society).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR12
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (15 min., 45 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 16
+                     selections: spirituals in Pennsylvania German and in English. The songs are
+                     sung a cappela. Sporadic, brief talk can be heard between songs. Many of the
+                     songs are included with text and notation in
+       <title>
+        <part>
+         Pennsylvania
+                        Spirituals.
+        </part>
+       </title>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR13
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (part 1: 17 min., 11 sec.;
+                     part 2: 13 min., 47 sec.) : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 43 selections: hymns and songs
+                     in Pennsylvania German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR14
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (31 min., 16 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 36 selections: songs in
+                     Pennsylvania German and in English. Nine hymns in Pennsylvania German are
+                     repeated from SR12.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR15
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (19 min., 55 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 24 selections: religious songs
+                     in Pennsylvania German, as well as spirituals in Pennsylvania German and in
+                     English. The first thirteen songs are repeated from SR14. The latter group of
+                     songs appear, with text and musical notation, in
+       <title>
+        <part>
+         Pennsylvania
+                        Spirituals.
+        </part>
+       </title>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR16
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (11 min., 20 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 28 selections: fragments of
+                     spirituals sung in English by the same unidentified male singer, with no
+                     instrumental accompaniment.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR17
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (22 min., 2 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 29
+                     selections: spirituals in Pennsylvania German and in English. Only one
+                     selection is in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR18
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (30 min., 56 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 28
+                     selections: folks songs, spirituals, a counting rhyme, and a lullabye in
+                     Pennsylvania German. A prayer, possibly in Pennsylvania German, is sung. Also
+                     included are songs and ballads in English, and Pennsylvania German stories told
+                     in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR19
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (12 min., 45 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 11
+                     selections: folk songs and spoken word passages in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR20
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (31 min., 24 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 12
+                     selections: ballads and songs in English, and spoken word passages with some
+                     Pennsylvania German dialect mixed in. Sophia Bailer talks about powwowing.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR21
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (17 min., 48 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 23
+                     selections: spirituals in Pennsylvania German and a brief statement in
+                     English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR22
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (14 min., 32 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        January 20, 1951
+       </date>
+       . 20
+                     selections: spirituals in Pennsylvania German and in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR23
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (15 min., 59 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 27
+                     selections: spirituals in Pennsylvania German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR24
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (14 min., 57 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 8
+                     selections: includes spirituals in Pennsylvania German.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR25
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (19 min.) : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date encodinganalog="245$f">
+        July 13, 1960
+       </date>
+       . 61
+                     selections: includes folk songs in German and Pennsylvania German, songs in
+                     Pennsylvania German, a story in Pennsylvania German and English, songs in
+                     English, and jokes in Pennsylvania German (with some English).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR26
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (21 min., 5 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1950
+       </date>
+       . 37 selections: includes spirituals in
+                     Pennsylvania German and in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR27
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (26 min., 13 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date>
+        July 13, 1960
+       </date>
+       . 32 selections: includes spirituals
+                     in Pennsylvania German and in English, and a Pennsylvania German-style German
+                     hymn.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR28
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (15 min., 14 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date>
+        July 13, 1960
+       </date>
+       . 25 selections: includes folk
+                     songs, a lullabye, a joke, and a parody of a spiritual in Pennsylvania German;
+                     a humorous Pennsylvania German song in English; and a humorous song, folk
+                     songs, and a local prison ballad in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR29
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (4 min., 9 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 3 selections: includes two
+                     Pennsylvania German folk songs, and a conversation in English and Pennsylvania
+                     German between a male interviewer and a young girl.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR30
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (23 min., 59 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1951-1960
+       </date>
+       . 28 selections: includes stories
+                     and folk songs in Pennsylvania German and other spoke-word segments, also in
+                     Pennsylvania German; also stories and an evangelical song (with a bawdy parody
+                     of the same song), and spoken-word segments in English.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR32
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel (14 min., 45 sec.) :
+                     analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded circa
+       <date>
+        1952
+       </date>
+       . 4 selections: includes three
+                     recordings of radio broadcasts, and a spoken word segment, all in Pennsylvania
+                     German. John Brendel was the host for at least two of the broadcasts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR33
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container: New Years wish – Jerome Fenstermaker
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR34
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Mr. MacG...le .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR35
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container: Reinholds / Sup. with roanler [?] / Happy Hen
+                     .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR36
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date>
+        June 27, 1955
+       </date>
+       . Transcribed from reel container: Miss
+                     Susan Balsbaugh.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR37
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container: Peter Kershner / Transcribed by BBill Frey /
+                     DY [Don Yoder]: type words!!! .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR38
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date>
+        May 23, 1951
+       </date>
+       . Transcribed from reel container and spool:
+                     Pete Kershner II / May 23, 1951 (Wednesday) / Transcribed July 25, 1955 / Nos.
+                     10-30 / Orig.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR39
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Recorded
+       <date>
+        1951
+       </date>
+       . Transcribed from reel container and spool: Mrs.
+                     Jacob Sherk / [1951] [sic] / Bellgrove [sic] / Transcribed July 25, 1955 / Nos.
+                     1-9 / Orig.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR40
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container and spool: Geschimats [?] / Shoemakersville
+                     PA.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR41
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container and spool: Rev. Mentzer / In the New Jerusalem
+                     / [other words, in Pennsylvania German].
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR42
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container and spool: Copy / 1) Emma Sherk 2) Pete
+                     Kershner / I.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR43
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Transcribed from reel container and spool: Copy: 1) Pete Kershner 2) Susan
+                     Balsbaugh 3) Geo [George] Shaveley [?] / II.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="reel ID">
+       AFC 1970/004: SR44
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       1 sound wire reel : analog
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       No available information.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Appendix A:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af013001.apx" show="new">
+       Logs and Notes for Sound Recordings
+      </ref>
+     </unittitle>
+    </did>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

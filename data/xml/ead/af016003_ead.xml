@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af016003">
+   loc.afc/eadafc.af016003
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Isabel Gordon Carter Collection
+    </titleproper>
+    <subtitle>
+     AFC 2005/004
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2006-09">
+     September 2006
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2005700213" show="new">
+       https://lccn.loc.gov/2005700213
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2016-05">
+     May 2016
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Isabel Gordon Carter Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1921/1942">
+     1921-1942
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1921/1942" unitdatetype="inclusive">
+    1921-1942
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2005/004
+   </unitid>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Isabel Gordon Carter, 1897-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    132 leaves.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    2 photographic prints : black and white
+               ; 3 1⁄2 x 5 1⁄2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    1 photographic print : color
+               ; 15 x 18 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Collection materials in: English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in: English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of correspondence, notes, and photographs related to Isabel Gordon Carter's research and publications on Appalachian ballads and folktales, and customs from 1921 to 1942.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20160608171756.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bean, Robert Bennett, 1874-1944--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bishop, E. A.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brooks, Nelly L.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Carter, Isabel Gordon, 1897-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Carter, Isabel Gordon, 1897- --Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Chase, Richard, 1904-1988--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hrdlička, Aleš, 1869-1943--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Kephart, Horace, 1862-1931--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Long, Maud, 1893-1984--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Powell, Hannah J.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Stearns, I. K.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Williams-Ellis, Amabel, 1894-1984--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--Appalachian Region--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs--Appalachian Region--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jack tales--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--Appalachian Region.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      I'm as free a little bird as I can be.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Jonah and the whale.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Little mohea.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: I. Manuscripts;
+               II. Graphic Materials.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Janet Carter, daughter of Isabel Gordon Carter, donated the collection to the Archive of Folk Culture in January 2005, from the estate of her mother.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Sarah Bradley Leighton processed the collection in February 2005. Janet Carter included a list of items conveyed to the Library, but indicated that there was no specific importance to her numbering. During processing, each item was assigned a unique  manuscript (MS) number and placed in chronological order. A descriptive log of each item was then created. Due to the fragile condition of the paper, most items are housed in Mylar sleeves. Preservation copies were made for extremely fragile original documents.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. The material is fragile. Preservation copies are available for extremely fragile items. To request materials, please contact the Folklife
+               Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Isabel Gordon Carter collection (AFC 2005/004), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography>
+   <head>
+    Publications
+   </head>
+   <p>
+    Carter, Isabel Gordon. 1925. "Mountain White Folk-Lore: Tales from the Southern Blue Ridge."
+    <title>
+     <part>
+      Journal of American Folklore
+     </part>
+    </title>
+    , 38:340-374.
+   </p>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Isabel Gordon Carter was a collector of folktales, ballads, and riddles in North Carolina and Tennessee in the 1920s and 1930s. In the summer of 1923, Isabel Gordon Carter collected tales in the Blue Ridge region and published "Mountain White Folk-Lore: Tales from the Southern Blue Ridge" in the
+    <title>
+     <part>
+      Journal of American Folklore
+     </part>
+    </title>
+    in 1925. Her special interest was the traditions of mountain folk. She published numerous articles in the
+    <title>
+     <part>
+      Southern Folklore Quarterly
+     </part>
+    </title>
+    regarding her fieldwork and was also a social worker who wrote on aspects of social welfare. She received her M.A. from the University of Tennessee and Ph.D. from Columbia University.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of correspondence, notes, a research notebook, and photographs related to Isabel Gordon Carter's research and publications on Appalachian ballads, folktales, and customs from 1921 to 1942. Carter's correspondents include E. A. Bishop, Horace Kephart, I. K. Stearns, Nelly L. Brooks, Amabel Williams-Ellis, Ales Hrdlicka, Richard Chase, Kay Chase, Maud Gentry Long, Robert B. Bean, Maude Minish, Helen Dashiell, W. H. Rothe, Rev. Hannah J. Powell, and Mary H. Brown. E. A. Bishop enclosed texts for two ballads, "Jonah and the whale," and "Little Mohea" (1921) and Nelly L. Brooks sent the text to "I'm as free a little bird as I can be" (1924). Includes copies of Richard Chase's articles on Jack tales.
+   </p>
+   <p>
+    Photographs include Bob DeHart family in front of their cabin near Bryson City, North Carolina, and a photograph of camp equipment and car belonging to Horace Kephart, taken by I. K. Stearns, circa 1923. Also includes color photograph of an oil portrait by artist Katherine Wiley of Isabel Gordon Carter, dated 1913.
+   </p>
+  </scopecontent>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="30*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="20*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="20*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Series I: Manuscripts
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        32
+       </entry>
+       <entry morerows="0">
+        manuscript items, 132 leaves
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        MS01-MS32
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Series II: Graphic Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        black-and-white photographs
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+       <entry morerows="0">
+        PH01-PH02
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        digital color print
+       </entry>
+       <entry morerows="0">
+        RR Map Case
+       </entry>
+       <entry morerows="0">
+        GR01
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS01 [MS01a-MS01e].
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 leaves.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS01a. Envelope addressed to "Miss Gordon"; Elgin State Hospital; Elgin, Ill. Sent from Murphy College; Sevierville, Tenn.
+        <date>
+         December 27, 1921 (postmark).
+        </date>
+       </unittitle>
+       <unitdate>
+        December 27, 1921 (postmark).
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS01b. Letter to "Miss Gordon" from E. A. Bishop of Murphy College referring to "two ballads."
+        <date>
+         December 24, 1921.
+        </date>
+       </unittitle>
+       <unitdate>
+        December 24, 1921.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS01c. Typewritten page of "Jonah and the Whale Ballad."
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS01d. Typewritten page of "Little Mohea."
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS01e. Handwritten note with H. E. Bishop's address.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS02.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS02. Letter to "Miss Gordon" from Horace Kephart with information about vocabulary usage.
+        <date>
+         August 8, 1923.
+        </date>
+       </unittitle>
+       <unitdate>
+        August 8, 1923.
+       </unitdate>
+       <physdesc>
+        1 leaf.
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS03 [MS03a-MS03h].
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 leaves.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03a. Envelope addressed to "Miss Isabel Gordon"; 1616 W. Clinch Ave.; Knoxville, Tenn. Sent from Bryson City Pump Works Co.; Bryson City, N.C.
+        <date>
+         September 20, 1923 (postmark).
+        </date>
+       </unittitle>
+       <unitdate>
+        September 20, 1923 (postmark).
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03b. Letter to "Miss Gordon" from I. K. Stearns regarding enclosed typewritten contents and photographs (first page).
+        <date>
+         September 5, 1923.
+        </date>
+       </unittitle>
+       <unitdate>
+        September 5, 1923.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03c. Letter to "Miss Gordon" from I. K. Stearns regarding the enclosed typewritten contents and photographs (second page).
+        <date>
+         September 5, 1923.
+        </date>
+       </unittitle>
+       <unitdate>
+        September 5, 1923.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03d. Typewritten page from "Piercevill Ga" from "Wm Payne."
+        <date>
+         January 13, 1902.
+        </date>
+       </unittitle>
+       <unitdate>
+        January 13, 1902.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03e. Typewritten page from "Piercvill Ga" from "Wm Payne" (first page).
+        <date>
+         March 25, 1903.
+        </date>
+       </unittitle>
+       <unitdate>
+        March 25, 1903.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03f. Typewritten page from "Piercvill Ga" from "Wm Payne" (second page).
+        <date>
+         March 25, 1903.
+        </date>
+       </unittitle>
+       <unitdate>
+        March 25, 1903.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03g. Typewritten page of an article that was copied from the Bryson City Times.
+        <date>
+         November 18, 1922.
+        </date>
+       </unittitle>
+       <unitdate>
+        November 18, 1922.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS03h. Typewritten page of a notice that was posted on the door of the Alarka Lumber Company's Commissary near Bryson City, N.C.
+        <date>
+         August 23, 1921.
+        </date>
+       </unittitle>
+       <unitdate>
+        August 23, 1921.
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS04 [MS04a-MS04b].
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS04a. Letter to Isabel Gordon Carter from Nelly L. Brooks (two sided).
+        <date>
+         April 26, 1924.
+        </date>
+       </unittitle>
+       <unitdate>
+        April 26, 1924.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS04b. Handwritten note in Isabel Gordon Carter's handwriting noting that she collected folklore from the Brooks family when she was in Rugby, Tenn.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS05. Letter to Isabel Gordon Carter from Ales Hrdlicka at the Smithsonian Institution.
+       <date>
+        September 4, 1931.
+       </date>
+      </unittitle>
+      <unitdate>
+       September 4, 1931.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS06. Letter to Isabel Gordon Carter from Amabel Williams-Ellis requesting permission to use stories in a book she is publishing. Isabel Gordon Carter's handwritten notes in pencil on verso (two sided).
+       <date>
+        May 22, 1933.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 22, 1933.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       8
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS07. Letter to Isabel Gordon Carter from Amabel Williams-Ellis thanking her for permission to use the stories in the book she is publishing.
+       <date>
+        June 27, 1933.
+       </date>
+      </unittitle>
+      <unitdate>
+       June 27, 1933.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       9
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS08 [MS08a-MS08b].
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS08a. Letter to Richard Chase from Isabel Gordon Carter regarding her interest in collecting stories and the origins of her interest (first page).
+        <date>
+         November 26, 1938.
+        </date>
+       </unittitle>
+       <unitdate>
+        November 26, 1938.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS08b. Letter to Richard Chase from Isabel Gordon Carter regarding her interest in collecting stories and the origins of her interest (second page).
+        <date>
+         November 26, 1938.
+        </date>
+       </unittitle>
+       <unitdate>
+        November 26, 1938.
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       10
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS09. Letter to Mrs. Grover Long from Isabel Gordon Carter regarding articles Gordon Carter printed and the summer of 1923 when she collected stories with the Long family.
+       <date>
+        December 5, 1938.
+       </date>
+      </unittitle>
+      <unitdate>
+       December 5, 1938.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       11
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS10. Letter to Isabel Gordon Carter from Maud Gentry Long referring to the inquiry Gordon Carter made in MS09 (two sided).
+       <date>
+        December 11, 1938.
+       </date>
+      </unittitle>
+      <unitdate>
+       December 11, 1938.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       12
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS11. Letter to Richard Chase from Isabel Gordon Carter regarding a trip to Richmond, Virginia.
+       <date>
+        April 17, 1939.
+       </date>
+      </unittitle>
+      <unitdate>
+       April 17, 1939.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       13
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS12. Typewritten bulletin from Richard Chase as the Virginia Representative of the English Folk Dance &amp; Song Society of America (two sided).
+       <date>
+        January 1940.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 1940.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       14
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS13. Letter to Isabel Gordon Carter from Mrs. Richard Chase (Kay) regarding a recent household move and a borrowed book (two sided).
+       <date>
+        January 24, 1940.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 24, 1940.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       15
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS14. Letter to Isabel Gordon Carter from Richard Chase regarding "The Jack Tales" (two sided).
+       <date>
+        May 16, 1940.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 16, 1940.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       16
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS15. Reprint from
+       <title>
+        <part>
+         Southern Folklore Quarterly
+        </part>
+       </title>
+       , Vol. 2, No. 3, 145-147, "Jack's Hunting Trip" by Richard Chase.
+       <date>
+        September 1938.
+       </date>
+      </unittitle>
+      <unitdate>
+       September 1938.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       17
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS16. Postcard to Isabel Gordon Carter from Richard Chase regarding the printing of "The Jack Tales" (two sided).
+       <date>
+        August 10, 1942.
+       </date>
+      </unittitle>
+      <unitdate>
+       August 10, 1942.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       18
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS17. Letter to Isabel Gordon Carter from Robert Bennett Bean.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       19
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS18. Typewritten page with two stanzas.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       20
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS19. Typewritten page on letterhead from 2039 New Hampshire Avenue, N.W.; Washington, D.C. 20009
+       <date>
+        September 4, 1931.
+       </date>
+      </unittitle>
+      <unitdate>
+       September 4, 1931.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       21
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS20 [MS20a-MS20b, FRAGILE].
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS20a. Handwritten notes on fragile folded pages. The verso of the letter appears to be Isabel Gordon Carter's handwritten verses of "Noah just don't know..." (first page, two sided).
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="item">
+       </container>
+       <unittitle>
+        MS20b. Handwritten notes on fragile folded pages. The verso of the letter appears to be Isabel Gordon Carter's handwritten verses of "Noah just don't know..." (second page, two sided).
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       22
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS21. Handwritten research and field notebook.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       71 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       23
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS22. Handwritten notes about "Butler."
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       24
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS23. Handwritten notes about gardening.
+       <date>
+        June 26?
+       </date>
+      </unittitle>
+      <unitdate>
+       June 26?
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       25
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS24. Letter from Isabel Gordon Carter to Miss Maude Minish explaining her interest in folk tales of Tennessee and North Carolina.
+       <date>
+        June 29, 1923.
+       </date>
+      </unittitle>
+      <unitdate>
+       June 29, 1923.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 leaf.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       26
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS25. Letter and envelope from Helen Dashiell to Isabel Gordon Carter.
+       <date>
+        July 29, 1923.
+       </date>
+      </unittitle>
+      <unitdate>
+       July 29, 1923.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       27
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS26. Letter with a Junior League of America heading and a note about $5.00 dues.
+       <date>
+        August 4, 1923.
+       </date>
+      </unittitle>
+      <unitdate>
+       August 4, 1923.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 leaves.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       28
+      </container>
+      <unittitle encodinganalog="245$a">
+       MS27. Letter and clipping from W. H. Rothe to Isabel Gordon Carter.
+       <date>
+        August 5, 1923.
+       </date>
+      </unittitle>
+      <unitdate>
+       August 5, 1923.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 leaves.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Graphic Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       PH01. Photograph of Bob DeHart family in front of their cabin near Bryson City, North Carolina. Stearns refers to the photograph in MS03b.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       PH02. Photograph of camp equipment and car belonging to Horace Kephart, taken by I. K. Stearns, ca. 1923. Stearns refers to the photograph in MS03c.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="drawer">
+       Map Case
+      </container>
+      <unittitle>
+       GR01. Preservation copy of digital color photographic print of an oil painting portrait of Isabel Gordon Carter by Katherine Wiley.
+       <date>
+        1913. [Located in the Folklife Reading Room Map Case]
+       </date>
+      </unittitle>
+      <unitdate>
+       1913. [Located in the Folklife Reading Room Map Case]
+      </unitdate>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

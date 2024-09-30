@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018006" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018006
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Woody Guthrie Bonneville Power Administration (BPA)
+               recordings
+    </titleproper>
+    <subtitle>
+     AFC 2018/003
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2018-07">
+     July 2018
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2018655208" show="new">
+       https://lccn.loc.gov/2018655208
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018-07">
+     July 2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Woody Guthrie Bonneville Power
+            Administration (BPA) recordings
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1941">
+     circa 1941
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1941" unitdatetype="inclusive">
+    circa 1941
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2018/003
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Guthrie, Woody, 1912-1967
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    5 original paper dust jackets
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    11 sound discs (lacquer on aluminum) : analog, various
+               speeds, 74 to 80 rpm; 33 1/3 rpm ; 12 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      In English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Woody Guthrie songs, performed by Guthrie
+            with guitar and harmonica. Twenty-six new songs were written by Guthrie on a one-month
+            contract for the Bonneville Power Administration (BPA) in May 1941, and were recorded
+            during 1941 or later in Portland, Oregon. These are likely the originals or near copies
+            of the 1941 studio recordings Guthrie made at the BPA Headquarters in Portland, Oregon.
+            Some are first-generation discs, others are second-generation or other copies; songs
+            include alternate takes and outtakes. Three of Guthrie's songs were included in the 1948
+            film "The Columbia."
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20181109101701.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="100" relator="creator" source="lcnaf">
+     <part>
+      Guthrie, Woody, 1912-1967, composer, performer.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Bonneville Power Administration
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Topical songs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Columbia River--Songs and music.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Grand Coulee Dam (Wash.)--Songs and music.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: 1. Manuscripts; 2. Sound
+               Recordings.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was purchased in 2018.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of sound recordings may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access to recordings may be restricted. To request
+               materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Electronic Format
+   </head>
+   <p>
+    Preservation digitization complete, 2018.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Woody Guthrie Bonneville Power Administration (BPA) recordings (AFC 2018/003),
+               Archive of Folk Culture, American Folklife Center, Library of Congress, Washington,
+               D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Woody Guthrie songs, performed by Guthrie with guitar and harmonica. Twenty-six new
+            songs were written by Guthrie on a one-month contract for the Bonneville Power
+            Administration (BPA) in May 1941, and were recorded during 1941 or later in Portland,
+            Oregon. These are likely the originals or near copies of the 1941 studio recordings
+            Guthrie made at the BPA Headquarters in Portland, Oregon. Some are first-generation
+            discs, others are second-generation or other copies; songs include alternate takes and
+            outtakes. Three of Guthrie's songs were included in the 1948 film "The Columbia."
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      One folder holding five original disc sleeves. Only the original paper sleeves
+                  with any notes written on them were retained. Unless otherwise described all notes
+                  are in pencil and are exact transcriptions.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: MS01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeve
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Guthrie
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sleeve for SR01. "Guthrie" is underlined.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: MS02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeve
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        [see note]
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sleeve for SR02. A few numbers and calculations, plus two names that are
+                        undeciphered.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: MS03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeve
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Hydro Music Not Used Record No. 1
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sleeve for SR03.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: MS04
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeve
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        4-1 Roll Columbia
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sleeve for SR04. "Roll Columbia" is underlined in red ballpoint pen.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: MS05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Disc sleeve
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        4-2 Biggest thing
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sleeve for SR05.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Titles are as they appear on the discs. Published titles are taken from "Columbia
+                  River Collection" (Rounder CD 1036).
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 74 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Ballad of the Grand Coulee Dam
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Grand Coulee Dam
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll On Columbia, Roll
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Roll On Columbia
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 74 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Columbia Talking Blues
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Talkin' Columbia
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Song of the Grand Coulee Dam
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       on one side of 1 sound disc (lacquer on
+                        aluminum) : analog, 74 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Jackhammer Blues
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same. Side B is blank.
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR04
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 74 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Pastures of Plenty
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll Columbia, Won't You Roll
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Roll Columbia, Roll
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Columbia Talking Blues
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Talking Columbia
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Good Morning, Mr. Captain
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Columbia's Waters
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR06
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Jackhammer Blues
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Way Up In That Northwest
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Song of the Grand Coulee Dam
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR07
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Pastures of Plenty
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         [the song is unidentified on the
+                           disc]
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Grand Coulee Dam. This song is an outtake from the
+                           recording session(s).
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR08
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll, Columbia, Won't You Roll
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Roll Columbia, Roll
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll On Columbia Roll On
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Roll On, Columbia
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR09
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The narrator is unidentified.
+      </p>
+     </scopecontent>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         The World Has Several Wonders
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Grand Coulee Dam
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         narrated segment 4
+        </unittitle>
+       </did>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         The Biggest Thing That Man Has Ever
+                           Done
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: The Biggest Thing Man Has Ever Done
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll On Columbia
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2018/003: SR11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Woody Guthrie recording,
+       <date>
+        circa 1941
+       </date>
+      </unittitle>
+      <unitdate>
+       circa 1941
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound disc (lacquer on aluminum) :
+                        analog, 80 rpm ; 12 in.
+      </physdesc>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side A
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Pastures of Plenty
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: same
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Side B
+       </unittitle>
+      </did>
+      <c04 level="item">
+       <did>
+        <unittitle encodinganalog="245$a">
+         Roll, Columbia
+        </unittitle>
+       </did>
+       <scopecontent encodinganalog="520">
+        <p>
+         Published title: Roll Columbia, Roll
+        </p>
+       </scopecontent>
+      </c04>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Appendix:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af018006.apx">
+       Sound engineer's notes
+      </ref>
+     </unittitle>
+    </did>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

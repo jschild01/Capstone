@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015007" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015007
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Abraham A. Schwadron "Chad Gadya"
+               collection
+    </titleproper>
+    <subtitle>
+     AFC 1988/026
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by American Folklife Center staff
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2015-06">
+     August 2015
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695176" show="new">
+       https://lccn.loc.gov/2004695176
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-06">
+     August 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Abraham A. Schwadron "Chad Gadya"
+               collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1973/1985">
+     1973-1985
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1973/1985" unitdatetype="inclusive">
+    1973-1985
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1988/026
+   </unitid>
+   <origination label="Collector">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Schwadron, Abraham A.,
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    manuscripts: 28 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 16 sound tape reels : analog, 7 1/2 ips ;
+               7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 4 sound tape reels : analog, various
+               speeds ; 7 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 2 sound tape reels : analog, various
+               speeds ; 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recording: 1 microcassette : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    sound recordings: 6 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    graphic materials: 4 photographic prints : black and white
+               ; 8 x 10 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Sound recordings and song texts in:
+               Aramaic, Hebrew, Italian, Ladino, Yiddish, English, German, and Russian.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection consists of Abraham
+            Schwadron's correspondence (1975-1985), manuscript materials, published and unpublished
+            music transcriptions of the songs, field recordings, and other materials from his
+            research on "Chad Gadya" ("One Kid"), a Jewish song associated with Passover. It
+            contains recordings and transcriptions of more than 160 versions of "Chad Gadya" and
+            related songs from around the world. Some notes from and about Schwadron's informants
+            include details about learning and transmission of the song. Four photographic prints
+            document the donation of the collection to the American Folklife Center, Library of
+            Congress, in 1988.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020130037.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Schwadron, Abraham A.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, German.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Hebrew.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Italian.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Ladino.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Russian.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Yiddish.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--United States--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Passover music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Passover music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Passover--Liturgy--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Songs, Aramaic.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tradition (Judaism)
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Chad gadya.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      One kid.
+     </part>
+    </title>
+    <title encodinganalog="630" relator="subject" source="lcnaf">
+     <part>
+      Ḥad gadya.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Manuscript music.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: I. American Folklife administrative materials;
+               II. Published materials; III. Research materials; IV. Sound recordings
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Ursula Schwadron; Donation; 1988.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by staff of the American Folklife Center.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. To request materials, please contact the Folklife
+               Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Abraham A. Schwadron "Chad Gadya" collection (AFC 1988/026), Archive of Folk Culture,
+               American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Collection includes a cassette copy of the published sound recording titled "Chad
+            gadya," edited from field and archival recordings by Abraham A. Schwadron, Folkways FR
+            8920 (1982).
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Abraham A. Schwadron, musician, composer-arranger, scholar, and educator, was born in
+            Brooklyn, New York, on December 25, 1925, where he later attended Boys' High School. He
+            received his bachelor's degree from Rhode Island College, his master's degree from the
+            University of Connecticut at Storrs, and his doctorate from Boston University. He came
+            to the University of California, Los Angeles (UCLA) in 1969, serving as Chair of the
+            Department of Music from 1980 to 1983. The "Chad Gadya" was the focus of ten years of
+            his research and travel to Jewish communities around the world. He died on September 23,
+            1987.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection consists of Abraham Schwadron's correspondence (1975-1985), manuscript
+            materials, published and unpublished music transcriptions of the songs, field
+            recordings, and other materials from his research on "Chad Gadya" ("One Kid"), a Jewish
+            song associated with Passover. It contains recordings and transcriptions of more than
+            160 versions of "Chad Gadya" and related songs from around the world. Some notes from
+            and about Schwadron's informants include details about learning and transmission of the
+            song. Four photographic prints document the donation of the collection to the American
+            Folklife Center, Library of Congress, in 1988.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: American Folklife administrative
+                  materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Container list of archival materials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1988/1989">
+        1988-89
+       </date>
+      </unittitle>
+      <unitdate normal="1988/1989" unitdatetype="inclusive">
+       1988-89
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Letters between the Schwadron family and the Library of Congress, as well as
+                     internal Library memoranda. Arranged chronologically.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Public relations and promotion
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Newsletter articles, photographs, and other documentation on the gift of the
+                     collection and related activities
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Published materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence,
+       <date localtype="inclusive" normal="1975/1985">
+        1975-1985
+       </date>
+      </unittitle>
+      <unitdate normal="1975/1985" unitdatetype="inclusive">
+       1975-1985
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Letters and notes written between Schwadron and others (colleagues and
+                     informants). Arranged chronologically
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings by Schwadron (1/2),
+       <date localtype="inclusive" normal="1975/1985">
+        1975-1985
+       </date>
+      </unittitle>
+      <unitdate normal="1975/1985" unitdatetype="inclusive">
+       1975-1985
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Published articles, paper presentations, and other manuscripts written by
+                     Schwadron concerning Jewish music and "Chad Gadya." Arranged alphabetically by
+                     title. Includes a copy of liner notes to Folkways Recording FR 8920, Chad Gadya
+                     [One Kid], 1982.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Writings by Schwadron (2/2)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 folder
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Published articles, paper presentations, and other manuscripts written by
+                     Schwadron concerning Jewish music and "Chad Gadya." Arranged alphabetically by
+                     title. Includes a copy of liner notes to Folkways Recording FR 8920, Chad Gadya
+                     [One Kid], 1982.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: Research materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Informant information--informants' data
+                     sheets
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documents recording pertinent information about each informant and his or her
+                     version of the song, arranged alphabetically by informant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Informant information--informants' data
+                     sheets
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documents recording pertinent information about each informant and his or her
+                     version of the song, arranged alphabetically by informant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Informant information--informants' data
+                     sheets
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documents recording pertinent information about each informant and his or her
+                     version of the song, arranged alphabetically by informant.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Background research--collected publications and
+                     manuscripts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of articles, newsclippings, papers, and so forth concerning "Chad Gadya"
+                     and related topics.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Background research--collected publications and
+                     manuscripts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of articles, newsclippings, papers, and so forth concerning "Chad Gadya"
+                     and related topics.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Background research--collected publications and
+                     manuscripts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of articles, newsclippings, papers, and so forth concerning "Chad Gadya"
+                     and related topics.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--index to published
+                     music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed citations of published music found in folders 14- 16.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--published music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published music transcriptions and lyrics of different versions of
+                     "Chad Gadya," some with annotations. Arranged in order as listed in the index
+                     in folder 13.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--published music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published music transcriptions and lyrics of different versions of
+                     "Chad Gadya," some with annotations. Arranged in order as listed in the index
+                     in folder 13.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--published music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published music transcriptions and lyrics of different versions of
+                     "Chad Gadya," some with annotations. Arranged in order as listed in the index
+                     in folder 13.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--index to unpublished
+                     music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed index of sources of unpublished music found in folders 18-20.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unpublished music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of music transcriptions and lyrics of different versions of "Chad
+                     Gadya," some with annotations. Arranged in order as listed in the index in
+                     folder 17.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unpublished music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of music transcriptions and lyrics of different versions of "Chad
+                     Gadya," some with annotations. Arranged in order as listed in the index in
+                     folder 17.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unpublished music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of music transcriptions and lyrics of different versions of "Chad
+                     Gadya," some with annotations. Arranged in order as listed in the index in
+                     folder 17.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unindexed music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published and unpublished music transcriptions and lyrics of
+                     different versions of "Chad Gadya" and related songs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unindexed music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published and unpublished music transcriptions and lyrics of
+                     different versions of "Chad Gadya" and related songs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unindexed music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published and unpublished music transcriptions and lyrics of
+                     different versions of "Chad Gadya" and related songs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Music research--unindexed music
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copies of published and unpublished music transcriptions and lyrics of
+                     different versions of "Chad Gadya" and related songs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Indexes to recordings
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed table of contents of field recordings on AFC 1988/026:SR001-014. Includes
+                     traditional source, performer, language, recording location, recordist, and
+                     location of notation (as found in "published" and "unpublished" music).
+                     Arranged numerically by original recording number.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notes and drafts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Miscellaneous notes, ephemera, drafts, and music transcriptions.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notes and drafts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Miscellaneous notes, ephemera, drafts, and music transcriptions.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Index cards
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Informant information--index to performers (cards). Names and addresses of
+                     informants, arranged alphabetically.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series IV: Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      See
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015007.apx">
+       PDF
+      </ref>
+      copy of inventory.
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <unittitle>
+       7" reel to reel tapes
+      </unittitle>
+      <physdesc encodinganalog="300">
+       16 7" reel to reel
+                     tapes
+      </physdesc>
+      <unitid label="TAPE ID:">
+       AFC 1988/026:SR001-014
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Reels containing original field recordings of versions of "Chad Gadya." See
+                     folder 25 for the index to the recordings. Reference copies are available in
+                     the Folklife Reading Room
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <unittitle>
+       7 audiocassettes &amp; 2 reel to reel tapes
+      </unittitle>
+      <physdesc encodinganalog="300">
+       7 audiocassettes, 4 7" and 2 5" reel to
+                        reel tapes
+      </physdesc>
+      <unitid label="TAPE ID:">
+       AFC 1988/026:SR015-027
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       13 recordings containing copies of versions of "Chad Gadya" for research
+                     purposes and lecture demonstrations. Includes a copy of the Folkways Recording
+                     FR8920, Chad Gadya [One Kid] (AFC 1988/026:SR021).
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

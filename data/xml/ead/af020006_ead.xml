@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af020006">
+   loc.afc/eadafc.af020006
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Hongyi He Chinese papercuts collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by May May Chiang, Ying-Ting "Serena" Chiu, Ann Hoog, Valda Morris, and Sunmin Yoon
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2020-08">
+     August 2020
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2019655212" show="new">
+       https://lccn.loc.gov/2019655212
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="http://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-08">
+     August 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+                    Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Hongyi
+                He Chinese papercuts collection
+    <date altrender="Span Dates" localtype="inclusive" normal="1989/2007">
+     1989-2007
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Span Dates" normal="1989/2007" unitdatetype="inclusive">
+    1989-2007
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2006/008
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Hongyi He
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 365 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    4 containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    0.4 linear feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    manuscripts 350
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    8 photographs :
+                digital, black and white, color (JPEG, TIF)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    2 framed cut-paper
+                works : paper ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    5 videocassettes of 5
+                (Mini-DV) (3 hours 30 min.) : digital, color, sound.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <language encodinganalog="041" langcode="chi">
+      Chinese
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English and Chinese
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+                        Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection documents Hongyi He's
+                method and philosophy behind her papercutting repertory through her biography,
+                publications, and samples of her work. Papercuts created during a
+                lecture/demonstration and interview at the Library of Congress on February 24, 2006,
+                are also contained in this collection, along with several paper-cuts that were later
+                donated to the American Folklife Center.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Hongyi He ; Donation; 2006, 2007
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Hongyi He Chinese papercuts collection was processed by Sunmin Yoon and May May
+                Chiang in October 2007 and revised by Ann Hoog in January 2020. Valda Morris encoded the finding aid assisted by Ying-Ting "Serena" Chiu in August 2020.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Hongyi He Chinese papercuts collection is open to research. To request materials,
+                please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Hongyi He Chinese papercuts collection (AFC
+                2006/008) Archive of Folk Culture, Archive of Folk Culture, American Folklife
+                Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Hongyi He is a Chinese papercut artist recognized as a "master of folk arts and
+                crafts" by UNESCO. She was born in Wuhan, Hubei, China, on May 1, 1954. Her father
+                was a professor of philosophy and her mother was an amateur embroider and Chinese
+                traditional painter. Her maternal grandmother was a renowned folk storyteller.
+                Hongyi He started paper cutting as a hobby when she was twelve years old, and kept
+                this particular hobby throughout China's turbulent historical transformation. She
+                earned a bachelor's and master's degrees in folk literature and arts from Common
+                University of Central China, in 1980 and 1982 respectively. After her graduation,
+                she began teaching at National South-Central China University in Wuhan. While
+                working, she was sent to Beijing Normal University for a half year as part of a
+                training program for faculty of folklore and folk art. At this program, she met her
+                mentor and teacher, Zhong-Jin Wen, a leading scholar of Chinese folk art. He
+                influenced her work and encouraged her to create contemporary folk art as a papercut
+                artist. Hongyi He has attended conferences, given lectures, and presented
+                exhibitions in China, Korea, Japan, and the United States. At the "Fourth World
+                Conference on Women" held in Beijing in 1995, Hongyi He presented her papercut, "The
+                Wedding of the Rats," which was a collaboration between three generations including
+                her mother and daughter. She owns over 1,000 papercuts made by other artists, as
+                well as pieces of her own work. She currently teaches at the National South-Central
+                China University in Wuhan. She is also an active artist in the United States and
+                promotes her art among Chinese communities in metropolitan Washington, DC, through
+                lectures and workshops.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection documents Hongyi He’s method and philosophy behind her papercutting
+                repertory through her biography, publications, and samples of her work. Papercuts
+                created during a lecture/demonstration and interview at the Library of Congress on
+                February 24, 2006, are also contained in this collection, along with several
+                artifacts that were later donated to the American Folklife Center. While the
+                collection is predominantly in English, the lecture/demonstration is in Chinese and
+                English. Some publications are in Chinese varying between traditional and simplified
+                Chinese.
+   </p>
+   <p>
+    The majority of the papercuts and publications illustrate He's in-depth interest in
+                Chinese folk literature and Chinese ethnic groups. There are 27 small
+                papercuts of animal characters and baby characters that are especially popular among
+                Chinese living in rural areas. For many, these pieces represent Chinese culture and
+                custom, wealth, and prosperity. There are also 15 small paper cuts of pandas
+                made especially for children.
+   </p>
+   <p>
+    Oversize materials in the collection include: the Library of Congress' Asian Pacific
+                American Heritage Month poster showing one of He’s paper cut pieces which was
+                created during the lecture/demonstration; two papercuts of women’s hair decorations,
+                one of the Miao people of Guizhou (blue), and the other of Tibetan origin (red); and
+                twelve Chinese zodiac animals (mouse, ox, tiger, rabbit, dragon, snake, horse,
+                sheep, monkey, rooster, dog, pig). Each zodiac animal papercut is red and each
+                animal character is contained within a blue papercut background. According to the
+                artist, these zodiac pieces are window decorations for Chinese New Year. The hair
+                decoration and zodiac pieces were cut from a special type of paper that can be
+                ironed, and the artist used special scissors to cut the delicate shapes of certain
+                parts.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Hongyi He Chinese papercuts collection is arranged into the following series: 1.
+                Lecture-related materials; 2. Published materials; 3. Graphic materials; 4.
+                Interview of Hongyi He; Series 5. Papercuts series.
+   </p>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20200730131119.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      He, Hongyi
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      He, Hongyi--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Yeh, Nora
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cut-out craft--China.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk art--China.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk artists--China--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Paper work--China.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="751">
+     <part>
+      Washington (D.C.), event place.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Computer files.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Cut-paper work.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Digital photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Digital recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="afset">
+     <part>
+      Digital video.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Lecture-related
+                        materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Printout of Powerpoint used
+                            in lecture presentation,
+       <date localtype="inclusive" normal="2006-02-06">
+        February 6, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02-06" unitdatetype="inclusive">
+       February 6, 2006
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Lecture notes,
+       <date localtype="inclusive" normal="2006-02-06">
+        February 6,
+                            2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02-06" unitdatetype="inclusive">
+       February 6, 2006
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Printout of flyer for
+                            lecture,
+       <date localtype="inclusive" normal="2006-02-06">
+        February 6,
+                                2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02-06" unitdatetype="inclusive">
+       February 6, 2006
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Library of Congress
+       <emph render="italic">
+        Gazette
+       </emph>
+       ,
+       <date normal="2006-01-27">
+        January 27, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-01-27" unitdatetype="inclusive">
+       January 27, 2006
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Article about the lecture in the newspaper
+       <emph render="italic">
+        Mei Hua
+       </emph>
+       , December 20, 2007.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Asian Pacific American
+                            Heritage Month, keynote program,
+       <date localtype="inclusive" normal="2006-05-04">
+        May 4, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-05-04" unitdatetype="inclusive">
+       May 4, 2006
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Flyer for Library of Congress lecture and demonstration by Wenzhang Wang and Hongyi He,
+       <date localtype="inclusive" normal="2007-04">
+        April 2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2007-04" unitdatetype="inclusive">
+       April 2007
+      </unitdate>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10008">
+      Series 2: Published
+                        materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Biography of Hongyi He, from
+       <emph altrender="italic">
+        Folklore Studies
+       </emph>
+       ,
+       <date localtype="inclusive" normal="1989">
+        1989
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1989" unitdatetype="inclusive">
+       1989
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       <emph altrender="italic">
+        Zao
+                            Zhi Shu
+       </emph>
+       , paper-cut instruction book written by Hongyi He
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       "A Handful of Seeds:
+                            Papercut Workshop in the 1930s,"
+       <emph altrender="italic">
+        Christian Art
+                                Information
+       </emph>
+       <date localtype="inclusive" normal="2001-11">
+        (November 2001).
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2001-11" unitdatetype="inclusive">
+       November 2001
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       "Scissors,"
+       <emph render="italic">
+        China’s Ethnic Groups
+       </emph>
+       , 30/2
+       <date localtype="inclusive" normal="2005-06">
+        (June 2005).
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2005-06" unitdatetype="inclusive">
+       June 2005
+      </unitdate>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10013">
+      Series 3: Graphic
+                        materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Graphic materials-printouts
+                            from CF01
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white printouts of color digital images (original images on AFC
+                            2006/008: CF01) with captions.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       <emph render="bold">
+        Item
+                                IDs: AFC 2006/008: PH01- PH06
+       </emph>
+       ,
+       <date localtype="inclusive" normal="2006-02">
+        February 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02" unitdatetype="inclusive">
+       February 2006
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images depict Pam Johnson, Nora Yeh, Tsai Hong Miller, Hongyi He, Rata
+                            Sun Lewi, and Peggy Bulger at the American Folklife Center and Jefferson Building 
+                            recording studio, February 2006.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       <emph render="bold">
+        Item ID:
+                                AFC 2006/008: PH07
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Banner printout from document "About Rats."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       <emph render="bold">
+        Item
+                                IDs: AFC 2006/008: PH08- PH10
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white printouts of digital images of papercuts (original images
+                            on AFC 2006/008: CF03) with explanations.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       <emph render="bold">
+        Item
+                                IDs: AFC 2006/008: PH11- PH15
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white printouts digital papercut printouts from document
+                            "Chinese Folksongs" (original images on AFC 2006/008: CF01).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       <emph render="bold">
+        Item ID:
+                                AFC 2006/008: CF01
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Zip disk of color digital images.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       <emph render="bold">
+        Item ID:
+                                AFC 2006/008: CF02
+       </emph>
+       ,
+       <date localtype="inclusive" normal="2006-02-24">
+        February 24, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02-24" unitdatetype="inclusive">
+       February 24, 2006
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       CD containing PowerPoint presentation of Hongyi He's
+                            demonstration/lecture.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       <emph render="bold">
+        Item ID:
+                                AFC 2006/008: CF03
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Color digital files of photographs of Hongyi He’s papercut collection.
+                            Five pictures entitled "Folksong," 3 pictures entitled "Bird," 2
+                            pictures entitled "Rats."
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10022">
+      Series 4: Moving
+                        images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid label="Item IDs:">
+       AFC 2006/008: MV01-MV04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Hongyi He interview 
+                            conducted by Nora Yeh at the Library of Congress
+                            Recording Laboratory,
+       <date localtype="inclusive" normal="2006-02-24">
+        February 24, 2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006-02-24" unitdatetype="inclusive">
+       February 24, 2006
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Consists of three sections: 1. History of Chinese papercuts; 2.
+                            Characteristics (technique, materials, usages) of Chinese papercuts; 3.
+                            Hongyi He’s work and life story. The entire interview is in Chinese with
+                            English translations by Nora Yeh in each section. Approximately 3 hours
+                            and 30 minutes.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10024">
+      Series 5: Papercuts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10025">
+       <emph render="bold">
+        Papercuts
+                            (AFC 2006/008: AR01-AR45)
+       </emph>
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10026">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR01 - AR
+                            03
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 3.5 x 5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       White rabbit papercuts.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10027">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR04 - AR
+                            06
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       3 3 x 3.5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Dog papercuts in red, yellow, and black.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10028">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR07 - AR
+                            08
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 4 x 3.5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Dog papercuts in red and green.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10029">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR09 - AR
+                            10
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 3.5 x 4 in.; 1 4 x 4.5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A girl and a boy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10030">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR11
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 7 x 7 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A circular green butterfly papercut used in the demonstration.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10031">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR12
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 8.5 x 8.5 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A red baby papercut.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10032">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR13 -
+                            AR27
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       15 2.25 x 2.5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Papercuts of black bear in a white background.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10033">
+       Papercuts and prints of
+                            papercuts mostly by Hongyi-He
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Some of the papercuts and prints are unidentified.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10034">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR28
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 11 x 16 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hongyi He's papercut used for a Library of Congress poster.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10035">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR29
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 20 x 21 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Light purple flower papercut that was used for demonstration in the
+                            lecture.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10036">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR30 -
+                            AR31
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 12 x 16 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tibetan and Miao women head decoration papercuts, red and blue
+                            respectively.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10037">
+       Chinese zodiac animal
+                            papercuts
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes five zodiac animals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a" id="ead10038">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR32 -
+                            AR36
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       5 17.5 x 17.5 in. papercuts
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Papercuts of an ox, a tiger, a rabbit, a rat, and a snake. Each animal is
+                            made in red paper and located in the middle of each paper cut. The edges
+                            of each papercut have various decorations in dark blue.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10039">
+       <emph render="bold">
+        Item IDs: AFC 2006/008: AR37 -
+                            AR43
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Papercuts of a dragon, a horse, a goat, a monkey, a dog, a rooster and a
+                            pig.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       3
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10040">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR44
+       </emph>
+      </unittitle>
+      <physdesc>
+       1 11 x 14 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Framed and autographed papercut of a dragon in red paper, by Hongyi He.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       <emph render="bold">
+        Item ID: AFC 2006/008: AR45
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 11 x 14 in. papercut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Framed and autographed papercut of a phoenix in red paper, by Hongyi
+                            He.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

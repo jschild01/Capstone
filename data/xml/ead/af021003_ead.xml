@@ -1,0 +1,4554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021003">
+   loc.afc/eadafc.af021003
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     New Mexico Folklife Project collection,
+                    1984-1985
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Valda Morris and Ann Hoog
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2021">
+     2021
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2009655462" show="new">
+       https://lccn.loc.gov/2009655462
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-10">
+     October 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    New Mexico Folklife Project collection
+    <date altrender="Bulk Dates" localtype="bulk" normal="1984/1985">
+     1984-1985
+    </date>
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1984/2019">
+     1984-2019
+    </date>
+   </unittitle>
+   <unitdate label="Bulk Dates" normal="1984/1985" unitdatetype="bulk">
+    1984-1985
+   </unitdate>
+   <unitdate label="Inclusive Dates" normal="1984/2019" unitdatetype="inclusive">
+    1984-2019
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 1991/032
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Fleischhauer, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Kalb, Laurie Beth
+     </part>
+    </persname>
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Pratt, Boyd C.
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    approximately 2685 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    2 containers: 700 manuscript materials
+   </physdesc>
+   <physdesc label="Extent (sound recordings)">
+    4 sound cassettes : analog.
+   </physdesc>
+   <physdesc label="Extent (sound recordings)">
+    9 sound tape reels : analog ; 7 in.
+   </physdesc>
+   <physdesc label="Extent (graphic materials)">
+    approximately 700 film transparencies
+                color 35 mm.
+   </physdesc>
+   <physdesc label="Extent (graphic materials)">
+    1029 film negatives black and white 35 mm.
+   </physdesc>
+   <physdesc label="Extent (graphic materials)">
+    203 film transparencies black and white,
+                color 2 1/4 x 2 1/4 in.
+   </physdesc>
+   <physdesc label="Extent (graphic materials)">
+    40 contact sheets : black and white.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      eng
+     </language>
+     <language encodinganalog="041" langcode="spa">
+      spa
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English and Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of
+                        Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Documentation from New Mexico fieldwork
+                conducted by Carl Fleischhauer, consultant, of the American Folklife Center, in the
+                summers of 1984 and 1985, with folklorist Laurie Beth Kalb, for the Museum of
+                International Folk Art (Santa Fe). In 1984, Kalb documented the art of Hispanic
+                carvers in northern New Mexico; in 1985 she contributed to a joint project of the
+                Museum and the New Mexico Historic Preservation Office (HPO), who had contracted
+                with Boyd Pratt to survey historic architecture in the northeastern quadrant of New
+                Mexico. Fleischhauer, Kalb, and Pratt conducted a short folklife survey in Clayton,
+                Mora, and Mosquero, and other locations in New Mexico. Topics documented in field
+                notes and sound recordings include Hispanic art, folk art and culture; Pop Shaffer's
+                folk art environments in Mountainair; and recordings of a livestock auction in
+                Clayton. Collection includes an extended interview with Joe Cordova of Mosquero
+                Canyon conducted by Laurie Kalb and Boyd Pratt; an interview with Enrique Sanchez, a
+                Cuban American living in Mosquero, interviewed by Laurie Kalb in Spanish; and an
+                extended interview with Trinidad and Marguerito Garcia of Mosquero by Laurie Kalb
+                and Carl Fleischhauer. Photographs were taken in La Messilla, Truchas, Velarde,
+                Dixon, and La Cueva, in Rio Arriba County; Las Vegas, San Miguel County;
+                Mountainair, Torrance County; and Vallecitos, N.M. by Carl Fleischhauer.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Fleischhauer, Carl; Accessioned, 1991.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The New Mexico Folklife Project collection, 1984-1985 was processed by Valda Morris in 2009
+                and by Ann Hoog in 2019.
+   </p>
+  </processinfo>
+  <separatedmaterial encodinganalog="544 0">
+   <head>
+    Other Repositories
+   </head>
+   <p>
+    The original materials and their copies are housed at The International Museum of Folk Art and the New Mexico Historic Preservation Division in Santa Fe, New Mexico.
+   </p>
+  </separatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The New Mexico Folklife Project collection is open to research. To request materials, please contact the
+                Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Online Content
+   </head>
+   <p>
+    The New Mexico Folklife Project collection is available on the Library of Congress website at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/afconline.afc1991032" show="new">
+     https://hdl.loc.gov/loc.afc/afconline.afc1991032
+    </ref>
+    .
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], New Mexico Folklife Project collection, 1984-1985 (AFC 1991/032), American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Documentation from New Mexico fieldwork conducted by Carl Fleischhauer, consultant,
+                of the American Folklife Center, in the summers of 1984 and 1985, with folklorist
+                Laurie Beth Kalb, for the Museum of International Folk Art (Santa Fe). In 1984, Kalb
+                documented the art of Hispanic carvers in northern New Mexico; in 1985 she
+                contributed to a joint project of the Museum and the New Mexico Historic
+                Preservation Office (HPO), who had contracted with Boyd Pratt to survey historic
+                architecture in the northeastern quadrant of New Mexico. Fleischhauer, Kalb, and
+                Pratt conducted a short folklife survey in Clayton, Mora, and Mosquero, and other
+                locations in New Mexico. Topics documented in field notes and sound recordings
+                include Hispanic art, folk art and culture; Pop Shaffer's folk art environments in
+                Mountainair; and recordings of a livestock auction in Clayton. Collection includes
+                an extended interview with Joe Cordova of Mosquero Canyon conducted by Laurie Kalb
+                and Boyd Pratt; an interview with Enrique Sanchez, a Cuban American living in
+                Mosquero, interviewed by Laurie Kalb in Spanish; and an extended interview with
+                Trinidad and Marguerito Garcia of Mosquero by Laurie Kalb and Carl Fleischhauer.
+                Photographs were taken in La Messilla, Truchas, Velarde, Dixon, and La Cueva, in Rio
+                Arriba County; Las Vegas, San Miguel County; Mountainair, Torrance County; and
+                Vallecitos, N.M. by Carl Fleischhauer.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The New Mexico Folklife Project collection is organized in 3 series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref target="ead10001">
+      Series 1: Manuscript materials, 1984-1985, 1987, 2019.
+     </ref>
+    </item>
+    <item>
+     <ref target="ead10056">
+      Series 2: Sound recordings, 1985.
+     </ref>
+    </item>
+    <item>
+     <ref target="ead10065">
+      Series 3: Graphic images, 1984-1985.
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20210608134432.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fleischhauer, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kalb, Laurie Beth
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Pratt, Boyd C.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Museum of International Folk Art (N.M.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      New Mexico. Historic Preservation Division
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Auctions--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cuban Americans--New Mexico--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk art--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--New Mexico--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Livestock--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Vernacular architecture--New Mexico.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Clayton (N.M.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Mora (N.M.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Mosquero (N.M.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      New Mexico--Folklore.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Manuscript materials,  1984-1985, 1987, 2019
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Inventory,
+       <date localtype="inclusive" normal="1987">
+        1987
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1987" unitdatetype="inclusive">
+       1987
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes the orginal and photocopy of the inventory. Also includes the updated 2019 folder list.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Administration - Travel
+                            Report - 1 of 2,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Administration - Travel
+                            Report - 2 of 2,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Correspondence - La Galeria
+                            de Colores - Pola and Luis Jaramillo,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Correspondence - Museum of
+                            International Folk Art - Charlene Cerny,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Correspondence - Museum of
+                            New Mexico - Lonn Taylor,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Correspondence - Office of
+                            Cultural Affairs Historic Preservation Division, State,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       Correspondence - Shaffer
+                            Company - Harding Kayser,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       Correspondence - Slick &amp;
+                            Associates - Elmo Baca,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       Correspondence - State of
+                            New Mexico, Office of Cultural Affairs, Historic Preservation Division - Boyd Pratt,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       Correspondence - Hudgeons,
+                            Herman and Jackie,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10013">
+       Correspondence - Felix
+                            Lopez,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10014">
+       Correspondence - Maggie
+                            Olivas,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10015">
+       Correspondence - Eulogio
+                            Ortega,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10016">
+       Correspondence - Horatio
+                            Valdez,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10017">
+       Field Notes - Carl
+                            Fleischhauer,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_01_016" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_01_016
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10018">
+       Field Notes - Laurie Kalb,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_01_017" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_01_017
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10019">
+       Ephemera - Supplementary
+                            Reference materials,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10020">
+       Booklet on Santos de New
+                            Mexico, includes an article by Elmo Baca about the architecture of Mora,
+                            New Mexico,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10021">
+       Two flyers advertising the
+                            opening of an exhibit organized by La Galeria de Colores,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10022">
+       A map of the art galleries
+                            in Las Vegas, New Mexico,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10023">
+       Two business cards for Baca
+                            and Valdez,
+       <date localtype="inclusive" normal="1983/1984">
+        1983-1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1983/1984" unitdatetype="inclusive">
+       1983-1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/19
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10024">
+       Black-and-white contact
+                            sheets (photocopies) - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/20
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10025">
+       Black-and-white photo logs,
+                            Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_01_020" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_01_020
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/21
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10026">
+       Color photo logs - Carl
+                            Fleischhauer,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_01_021" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_01_021
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/22
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10027">
+       Administration - Travel
+                            Report,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/23
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10030">
+       Correspondence - Erma’s
+                            Famous Café - Erma Trujillo,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/24
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10031">
+       Correspondence - Five State
+                            Auction - Bill Wright and Dora Russell,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/25
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10032">
+       Correspondence - Holy Family
+                            Rectory, Father Douglas Raun,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/26
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10033">
+       Correspondence - Museum of
+                            International Folk Art - Laurie Kalb,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/27
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10034">
+       Correspondence - The Store - Andy Trujillo,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/28
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10035">
+       Correspondence - Mr. and
+                            Mrs. Joseph Cordova,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/29
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10036">
+       Correspondence - Mr. and Mrs. Margarito Garcia,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/30
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10037">
+       Correspondence - Sonia
+                            Raftery,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/31
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10038">
+       Correspondence - Mr. and Mrs
+                            Lloyd Tower,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/32
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10051">
+       Field Notes - Laurie Kalb,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Contents removed.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/33
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10039">
+       Field Notes - Laurie Kalb,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_033" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_033
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent>
+      <p>
+       Includes correspondence with Carl Fleischhauer along with notes from Lauie Kalb and field notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/34
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10041">
+       Field Notes - sound
+                            recording tape boxes documentation (photocopy) - Laurie Kalb,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/35
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10042">
+       Field Notes - Carl
+                            Fleischhauer,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Also includes printed and
+                        handwritten sketches of the areas visited.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/35-1
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10044">
+       Field Notes supplement - Carl Fleischhauer (corrected and revised),
+       <date localtype="inclusive" normal="2019">
+        2019
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2019" unitdatetype="inclusive">
+       2019
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_035_1" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_035_1
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/36
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10045">
+       Report - Cultural
+                            Conservation Project - New Mexico - Laurie Kalb,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_036" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_036
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/37
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10046">
+       Report draft - Cultural
+                            Conservation Project - New Mexico - Boyd Pratt,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_037" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_037
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/38
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10047">
+       Black-and-white negatives
+                            documentation,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Note indicating the relocation of the negatives.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/39
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10161">
+       Black-and-white negatives
+                            documentation,
+       <date localtype="inclusive" normal="1985">
+        1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985" unitdatetype="inclusive">
+       1985
+      </unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       Contents removed.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/40
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10049">
+       Black-and-white photo logs - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_040" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_040
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/41
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10050">
+       Color photo logs - Carl
+                            Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_02_041" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_02_041
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/42
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10159">
+       Color slides - phonyfiche
+                            Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/43
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10150">
+       Color slides - phonyfiche,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+       (1/2)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/44
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10152">
+       Reference color slides - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/45
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10153">
+       Black-and-white contact sheets - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+       (1/3)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/46
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10154">
+       Black-and-white contact sheets - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+       (2/3)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/47
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10155">
+       Black-and-white contact sheets - Carl Fleischhauer,
+       <date localtype="inclusive" normal="1984/1985">
+        1984-1985
+       </date>
+       (3/3)
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984/1985" unitdatetype="inclusive">
+       1984-1985
+      </unitdate>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10056">
+      Series 2: Sound recordings, 1985
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR01
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10052">
+       Auctioneer chant at the
+                            weekly auction, Five State Livestock Auction Co. Inc., Clayton, New
+                            Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <unitid label="Original tape ID">
+       NM85-LK-R1
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr01" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr01
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR02
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10053">
+       Conversations at the
+                            community bench on the main street, Mosquero, New Mexico, August 29,
+                            1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R2
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr02" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr02
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR03
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10054">
+       Interview with Joe Cordova
+                            and Alisandra Cordova about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 29, 1985 (part 1 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R3
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr03" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr03
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR04
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10055">
+       Interview with Joe Cordova
+                            and Alisandra Cordova about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 29, 1985 (part 2 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R4
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr04" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr04
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR05
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10070">
+       Interview with Joe Cordova
+                            and Alisandra Cordova about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 29, 1985 (part 3 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R5
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr05" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr05
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR06
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10057">
+       Interview with Enrique
+                            Sanchez, ranch worker, Mosquero, New Mexico, August 29, 1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R6
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr06" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr06
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR07
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10058">
+       Interview with Margarito
+                            Garcia and Trinidad Garcia about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 30, 1985 (part 1 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R7
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr07" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr07
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR08
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10059">
+       Interview with Margarito
+                            Garcia and Trinidad Garcia about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 30, 1985 (part 2 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R8
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr08" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr08
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR09
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10060">
+       Interview with Margarito
+                            Garcio and Trinidad Garcia about life in Mosquero Canyon, Mosquero, New
+                            Mexico, August 30, 1985 (part 3 of 3)
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-R9
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr09" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr09
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sound tape reel : analog ; 7 in.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10061">
+       Union County Fair,
+                            interviews with fair participants Ruth Shields, Max Geary, and Joanne
+                            Butt, Clayton, New Mexico, August 15, 1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-A1
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr10" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr10
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 60-minute audiocassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10062">
+       Interview with Erma
+                            Trujillo, Mosquero, New Mexico, August 22, 1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-A2
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr11" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr11
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 60-minute audiocassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10063">
+       Interview with Charles
+                            "Chuck" Payne and Linda Leak at the Five State Livestock Auction Co.
+                            Inc., Clayton, New Mexico, August 28, 1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-A3
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr12" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr12
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 60-minute audiocassette
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: SR13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10064">
+       Interview with Lloyd Tower
+                            and Irene Tower about the Dawson houses, Clayton, New Mexico, August 28,
+                            1985
+      </unittitle>
+      <unitid label="Original tape ID">
+       NM85-LK-A4
+      </unitid>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_sr13" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_sr13
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       1 60-minute audiocassette
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10065">
+      Series 3: Graphic materials, 1984-1985
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-01
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10066">
+       Eulogio Ortega, artist,
+                            Velarde, New Mexico; Horacio Valdez's house and studio, Dixon, New
+                            Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_01" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_01
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-02
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10067">
+       Felix Lopez, artist, at home
+                            and in studio, La Mesilla, New Mexico,
+       <date localtype="inclusive" normal="1984-06-22">
+        June 22, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22" unitdatetype="inclusive">
+       June 22, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_02 " label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_02
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-03
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10068">
+       Historical buildings and
+                            neighborhood, Mora, New Mexico; Fence at Pop Shaffer hotel, Mountainair,
+                            New Mexico,
+       <date localtype="inclusive" normal="1984-06-25">
+        June 25,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25" unitdatetype="inclusive">
+       June 25, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_03" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_03
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-04
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10069">
+       Horacio Valdez, artist,
+                            Dixon, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June
+                                23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_04" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_04
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-05
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10080">
+       Chair in dining room, Pop
+                            Shaffer Hotel, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-26">
+        June 26, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-26" unitdatetype="inclusive">
+       June 26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_05" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_05
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-06
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10071">
+       La Galeria de Colores, Luis
+                            and Pola Jaramillo, Las Vegas, New Mexico,
+       <date localtype="inclusive" normal="1984-06-24">
+        June 24, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-24" unitdatetype="inclusive">
+       June 24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_06" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_06
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-07
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10072">
+       Pop Shaffer Hotel and Rancho
+                            Bonito, Harding Kayser and Joe Brazil, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25/1984-06-26">
+        June 25-26,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25/1984-06-26" unitdatetype="inclusive">
+       June 25-26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_07" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_07
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-08
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10073">
+       San Francisco de Asis
+                            Mission Church, Rancho de Taos, New Mexico; Our Lady of the Rosary
+                            Mission Church and other scenes, Truchas, New Mexico; Eulogio Ortega,
+                            artist, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_08" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_08
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-09
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10074">
+       Felix Lopez, artist, at home
+                            and in studio, La Mesilla, New Mexico,
+       <date localtype="inclusive" normal="1984-06-22">
+        June 22, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22" unitdatetype="inclusive">
+       June 22, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_09" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_09
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10075">
+       Galeria de Colores, Las
+                            Vegas, New Mexico; Mill and San Rafael Church, La Cueva, Mora County,
+                            New Mexico,
+       <date localtype="inclusive" normal="1984-06-24/1984-06-25">
+        June 24-25, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-24/1984-06-25" unitdatetype="inclusive">
+       June 24-25, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_10" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_10
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10076">
+       Pop Shaffer Hotel and Rancho
+                            Bonito, Jackie Hudgeons and Herman Hudgeons, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25">
+        June 25,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25" unitdatetype="inclusive">
+       June 25, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_11" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_11
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10077">
+       Felix Lopez's home and
+                            studio, La Mesilla, New Mexico; Interior of chapel build by Eulogio
+                            Ortega and painted by Zoraida Ortega, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-22/1984-06-23">
+        June 22-23,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22/1984-06-23" unitdatetype="inclusive">
+       June 22-23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_12" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_12
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10078">
+       Horacio Valdez's home and
+                            studio, Dixon, New Mexico; Pop Shaffer Hotel, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23/1984-06-26">
+        June
+                                23-26, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23/1984-06-26" unitdatetype="inclusive">
+       June 23-26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_13" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_13
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-14
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10079">
+       Horacio Valdez's home and
+                            studio, Dixon, New Mexico; Pop Shaffer Hotel, Harding Kayser and Joe
+                            Brazil, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23/1984-06-24">
+        June 23-24, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23/1984-06-24" unitdatetype="inclusive">
+       June 23-24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_14" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_14
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 226152-15
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10180">
+       Chapel built by Eulogio
+                            Ortega and painted by Zoraida Ortega, and their workshop, Velarde, New
+                            Mexico,
+       <date localtype="inclusive" normal="1984-06-23 ">
+        June 23,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23 " unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/1991032.afc1991032_226152_15" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_226152_15
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-01
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10081">
+       Building described as
+                            Penitente morada, Mosquero Canyon, New Mexico; Pacheco ranch buildings
+                            and water reservoir, Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1984-08-31">
+        August 23,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-31" unitdatetype="inclusive">
+       August 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_01" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_01
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-02
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10082">
+       Scenes in Mosquero, New
+                            Mexico; Alisandra Cordova and Joe N. Cordova, grandchildren, and
+                            interview, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1984-08-29">
+        August 29, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-29" unitdatetype="inclusive">
+       August 29, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_02" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_02
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-03
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10083">
+       Pat's City Bar, Trujillo
+                            family portrait, Erma's Coffee Shop, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1984-08-29">
+        August 29,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-29" unitdatetype="inclusive">
+       August 29, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_03" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_03
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-04
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10084">
+       Five State Livestock
+                            Auction, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1984-08-28">
+        August 28, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-28" unitdatetype="inclusive">
+       August 28, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_04" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_04
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-05
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10085">
+       Five State Livestock
+                            Auction, Clayton, New Mexico; Houses from Dawson coal mine company town,
+                            Clayton, New Mexico,
+       <date localtype="inclusive" normal="1984-08-28">
+        August 28, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-28" unitdatetype="inclusive">
+       August 28, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_05" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_05
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-06
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10086">
+       Roadside chapel and other
+                            scenes on the road, San Miguel County, New Mexico; Scenes in Clayton,
+                            New Mexico,
+       <date localtype="inclusive" normal="1984-08-27/1984-08-28">
+        August 27-28, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-08-27/1984-08-28" unitdatetype="inclusive">
+       August 27-28, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_06" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_06
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-07
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10087">
+       Pacheco ranch, Mosquero
+                            Canyon, New Mexico; Cordova ranch, Mosquero Canyon, New Mexico; Erma
+                            Trujillo interview, Mosquero, New Mexico;,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_07" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_07
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-08
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10088">
+       Five State Livestock
+                            Auction, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 28, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_08" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_08
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-09
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10089">
+       Garcia family home,
+                            Mosquero, New Mexico; Garcia ranch buildings and windmill, Mosquero
+                            Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_09" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_09
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10090">
+       Erma's Coffee Shop, Pat's
+                            City Bar, historic photograph, the bench at Trujillo's store, Andy
+                            Trujillo's sculpture, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_10" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_10
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10091">
+       St. Joseph's Church,
+                            Trujillo home, the bench at Trujillo's store, interview with Margarito
+                            Garcia and Trinidad Garcia, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_11" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_11
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10092">
+       Garcia ranch buildings and
+                            Pacheco ranch house, Mosquero Canyon, New Mexico; Scenes on the road
+                            between Mosquero Canyon and Mosquero, New Mexico; St. Joseph's Church,
+                            Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_12" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_12
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10093">
+       Erma Trujillo interview,
+                            Mosquero, New Mexico; Photos from Margarito Garcia's and Trinidad
+                            Garcia's family album, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_13" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_13
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-14
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10094">
+       Lloyd Tower and Irene Tower,
+                            Clayton, New Mexico; Scenes in and near Hayden, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_14" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_14
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-15
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10095">
+       Alisandra Cordova and Joe
+                            Cordova, grandchildren, and interview, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_15" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_15
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-16
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10096">
+       Alisandra Cordova and Joe
+                            Cordova, grandchildren, rodeo practice, and interview, Mosquero, New
+                            Mexico; St. Joseph's church and other scenes in Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29/1985-08-30">
+        August
+                                29-30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29/1985-08-30" unitdatetype="inclusive">
+       August 29-30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_16" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_16
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-17
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10097">
+       Scenes in Clayton, New
+                            Mexico; Five State Livestock Auction, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_17" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_17
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10098">
+       Pacheco ranch house,
+                            Mosquero Canyon, New Mexico; Building described as Penitente morada,
+                            Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_18" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_18
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-19
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10099">
+       St. Joseph's Church,
+                            Mosquero, New Mexico; Bettina Raphael's yard, Santa Fe, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31/1985-09-01">
+        August
+                                31, 1985 - September 1, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31/1985-09-01" unitdatetype="inclusive">
+       August 31, 1985 - September 1,
+                            1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_19" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_19
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-20
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10100">
+       Scenes in Clayton, New
+                            Mexico; Historic photograph of Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28/1985-08-29">
+        August 28-29,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28/1985-08-29" unitdatetype="inclusive">
+       August 28-29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_20" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_20
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-21
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10101">
+       Town-center businesses and
+                            townscape from the south, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29/1985-08-30">
+        August 29-30,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29/1985-08-30" unitdatetype="inclusive">
+       August 29-30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_21" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_21
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-22
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10102">
+       Historic photograph of
+                            Mosquero, New Mexico; Town-center businesses, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_22" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_22
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-23
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10103">
+       Albert Trujillo with self
+                            portrait and family members, Pat's City Bar and Erma's Coffee Shop,
+                            Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_23" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_23
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 233070-24
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10104">
+       St. Joseph's church,
+                            Mosquero, New Mexico; Home of Margarito Garcia and Trinidad Garcia,
+                            Mosquero, New Mexico; Garcia ranch house, Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 29,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_233070_24" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_233070_24
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 234633-01
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10105">
+       Scenes in and near Mancos,
+                            Colorado,
+       <date localtype="inclusive" normal="1984">
+        1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984" unitdatetype="inclusive">
+       1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       unnamed
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_234633_01" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_234633_01
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: 234633-02
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10106">
+       Scenes in Vallecitos, Rio
+                            Arriba County, New Mexico,
+       <date localtype="inclusive" normal="1984-09-16/1984-09-16">
+        September 16-17,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-16/1984-09-16" unitdatetype="inclusive">
+       September 16-17, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_234633_02" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_234633_02
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm black-and-white film
+                            negatives
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C018
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10107">
+       Scenes in Vallecitos, Rio
+                            Arriba County, New Mexico,
+       <date localtype="inclusive" normal="1984-09-16/1984-09-16">
+        September 16-17,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-09-16/1984-09-16" unitdatetype="inclusive">
+       September 16-17, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_c018" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_c018
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-01
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10108">
+       Roadside chapel and other
+                            scenes on the road, San Miguel County, New Mexico; Scenes in Clayton,
+                            New Mexico,
+       <date localtype="inclusive" normal="1985-08-27/1985-08-28">
+        August 27-28, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-27/1985-08-28" unitdatetype="inclusive">
+       August 27-28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_01" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_01
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-02
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10109">
+       Scenes in Clayton, New
+                            Mexico; Five State Livestock Auction, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_02" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_02
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-03
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10110">
+       Five State Livestock
+                            Auction, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_03" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_03
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-04
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10111">
+       Five State Livestock
+                            Auction, Clayton, New Mexico; Houses from Dawson coal mine company town,
+                            Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_04" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_04
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-05
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10112">
+       Houses from Dawson coal mine
+                            company town, Lloyd Tower and Irene Tower, Clayton, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_05" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_05
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-06
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10113">
+       Scenes in and around Hayden,
+                            New Mexico,
+       <date localtype="inclusive" normal="1985-08-28">
+        August 28,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28" unitdatetype="inclusive">
+       August 28, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_06" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_06
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-07
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10114">
+       Laurie Kalb interviewing
+                            Enrique Sanchez, and Albert Trujillo with self portrait and family
+                            members, Pat's City Bar and Erma's Coffee Shop, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_07" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_07
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-08
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10115">
+       Pat's City Bar, historic
+                            photograph, the bench at Trujillo's store, Andy Trujillo's sculpture,
+                            Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_08" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_08
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-09
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10116">
+       Alisandra Cordova and Joe
+                            Cordova, grandchildren, and interview, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_09" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_09
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-10
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10117">
+       Alisandra Cordova and Joe
+                            Cordova, quilts, and interview, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_10" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_10
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-11
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10118">
+       Alisandra Cordova and Joe
+                            Cordova, grandchildren, rodeo practice, and interview, Mosquero, New
+                            Mexico; Scenes in Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-29">
+        August 29, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-29" unitdatetype="inclusive">
+       August 29, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_11" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_11
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-12
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10119">
+       St. Joseph's Roman Catholic
+                            Church, building and grounds, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_12" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_12
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-13
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10120">
+       St. Joseph's Roman Catholic
+                            Church, building and grounds, scenes of the town, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_13" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_13
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-14
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10121">
+       The bench at Trujillo's
+                            store, scenes in town, interview with Margarito and Trinidad Garcia,
+                            Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_14" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_14
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-15
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10122">
+       Garcia ranch, buildings and
+                            windmill, Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_15" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_15
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-16
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10123">
+       Garcia ranch, Mosquero
+                            Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_16" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_16
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-17
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10124">
+       Garcia ranch, Mosquero
+                            Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30/1985-08-31">
+        August 30-31, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30/1985-08-31" unitdatetype="inclusive">
+       August 30-31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_17" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_17
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-18
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10125">
+       Pacheco ranch house,
+                            Mosquero Canyon, New Mexico; Building described as Penitente morada,
+                            Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_18" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_18
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-19
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10126">
+       Building described as
+                            Penitente morada, Mosquero Canyon, New Mexico; Pacheco ranch buildings
+                            and water reservoir, Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_19" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_19
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-20
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10127">
+       Pacheco ranch buildings,
+                            Mosquero Canyon, New Mexico; Cordova ranch, Mosquero Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_20" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_20
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-21
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10128">
+       Cordova ranch, Mosquero
+                            Canyon, New Mexico; Erma Trujillo interview, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_21" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_21
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-22
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10129">
+       Erma Trujillo and Pat
+                            Trujillo house, Mosquero, New Mexico; Photos from Margarito Garcia's and
+                            Trinidad Garcia's family album, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-31">
+        August 31,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-31" unitdatetype="inclusive">
+       August 31, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_22" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_22
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C001
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10130">
+       At home and studio of Felix
+                            Lopez, La Mesilla, New Mexico,
+       <date localtype="inclusive" normal="1984-06-22">
+        June 22, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22" unitdatetype="inclusive">
+       June 22, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c001" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c001
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C002
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10131">
+       At home and studio of Felix
+                            Lopez, La Mesilla, New Mexico,
+       <date localtype="inclusive" normal="1984-06-22">
+        June 22, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22" unitdatetype="inclusive">
+       June 22, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c002" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c002
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C003
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10132">
+       Felix Lopez, artist, at home
+                            and studio, La Mesilla, New Mexico; San Francisco de Asis Mission
+                            Church, Rancho de Taos New Mexico,
+       <date localtype="inclusive" normal="1984-06-22/1984-06-23">
+        June 22-23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-22/1984-06-23" unitdatetype="inclusive">
+       June 22-23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c003" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c003
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C004
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10133">
+       Our Lady of the Rosary
+                            Mission Church, Truchas, New Mexico; Chapel built by Eulogio Ortega and
+                            painted by Zoraida Ortega, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c004" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c004
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C005
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10134">
+       Eulogio Ortega at his chapel
+                            and workshop, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c005" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c005
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C006
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10135">
+       Horacio Valdez's home and
+                            workshop, Dixon, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c006" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c006
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C007
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10136">
+       La Galeria de Colores,
+                            preparing for an exhibition, Las Vegas, New Mexico,
+       <date localtype="inclusive" normal="1984-06-24">
+        June 24,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-24" unitdatetype="inclusive">
+       June 24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c007" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c007
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C008
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10137">
+       La Galeria de Colores,
+                            preparing for an exhibition, Las Vegas, New Mexico; Historic mill, La
+                            Cueva, Mora County, New Mexico,
+       <date localtype="inclusive" normal="1984-06-24">
+        June 24, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-24" unitdatetype="inclusive">
+       June 24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c008" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c008
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C009
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10138">
+       San Rafael Mission church,
+                            La Cueva, Mora County, New Mexico,
+       <date localtype="inclusive" normal="1984-06-24">
+        June 24, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-24" unitdatetype="inclusive">
+       June 24, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c009" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c009
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C010
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10139">
+       Historical buildings and
+                            neighborhood, Mora, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25">
+        June 25, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25" unitdatetype="inclusive">
+       June 25, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c010" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c010
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C011
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10140">
+       Historical buildings and
+                            neighborhood, Mora, New Mexico; Pop Shaffer Hotel and Rancho Bonito,
+                            Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25">
+        June 25, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25" unitdatetype="inclusive">
+       June 25, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c011" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c011
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C012
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10141">
+       Pop Shaffer Hotel and Rancho
+                            Bonito, Jackie and Herman Hudgeons, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25/1984-06-26">
+        June 25-26,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25/1984-06-26" unitdatetype="inclusive">
+       June 25-26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c012" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c012
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C013
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10142">
+       Pop Shaffer Hotel, Harding
+                            Kayser and Joe Brazil, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-25/1984-06-26">
+        June 25-26,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-25/1984-06-26" unitdatetype="inclusive">
+       June 25-26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c013" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c013
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       35 mm color slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C014
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10143">
+       Chapel built by Eulogio
+                            Ortega and painted by Zoraida Ortega, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c014" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c014
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C015
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10144">
+       Eulogio Ortega's workshop
+                            and home chapel, Velarde, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23">
+        June 23, 1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23" unitdatetype="inclusive">
+       June 23, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c015" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c015
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C016
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10145">
+       Home of Horacio Valdez,
+                            Dixon, New Mexico; Pop Shaffer Hotel, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-23/1984-06-26">
+        June 23-26,
+                                1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-23/1984-06-26" unitdatetype="inclusive">
+       June 23-26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c016" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c016
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: CF-C017
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10146">
+       Pop Shaffer Hotel, Harding
+                            Kayser and Joe Brazil, Mountainair, New Mexico,
+       <date localtype="inclusive" normal="1984-06-26">
+        June 26,
+                            1984
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1984-06-26" unitdatetype="inclusive">
+       June 26, 1984
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_cf_c017" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_cf_c017
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: C-23
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10147">
+       Scenes in Clayton, New
+                            Mexico; Town-center businesses, Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-28/1985-08-30">
+        August 28-30,
+                                1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-28/1985-08-30" unitdatetype="inclusive">
+       August 28-30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_c_23" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_c_23
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: C-24
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10148">
+       Town-center businesses and
+                            Garcia family home, Mosquero, New Mexico; Garcia ranch house, Mosquero
+                            Canyon, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30, 1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_c_24" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_c_24
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="item-id">
+       AFC 1991/032: C-25
+      </container>
+      <unittitle encodinganalog="245$a" id="ead10149">
+       St. Joseph's Roman Catholic
+                            Church and other scenes in and near Mosquero, New Mexico,
+       <date localtype="inclusive" normal="1985-08-30">
+        August 30,
+                            1985
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1985-08-30" unitdatetype="inclusive">
+       August 30, 1985
+      </unitdate>
+      <didnote encodinganalog="500" label="Photographer">
+       Carl
+                            Fleischhauer
+      </didnote>
+      <dao actuate="onload" daotype="derived" href="https://hdl.loc.gov/loc.afc/afc1991032.afc1991032_c_25" label="Digital content available" show="new">
+       <descriptivenote>
+        <p>
+         afc1991032_c_25
+        </p>
+       </descriptivenote>
+      </dao>
+      <physdesc encodinganalog="300" label="Extent">
+       2 1/4 x 2 1/4 in. color
+                            transparency
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

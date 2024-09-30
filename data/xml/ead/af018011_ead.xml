@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018011" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018011
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Judith Lynne Hanna collection
+    </titleproper>
+    <subtitle>
+     AFC 2010/021
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Addie Heyer and Valda Morris
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2018-11">
+     November 2018
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2013655492" show="new">
+       https://lccn.loc.gov/2013655492
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018-11">
+     November 2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Judith Lynne Hanna collection,
+               1963-2009
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1963/2009">
+     1963-2009
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1963/2009" unitdatetype="inclusive">
+    1963-2009
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2010/021
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Hanna, Judith Lynne, 1936-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1416 items; 4 containers; 3 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    sound recordings: 16 sound tape reels : analog ; 5
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    moving images: 8 film reels (4,550 feet) : black-and-white,
+               silent ; 16 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    moving images: 1 film reel (300 feet) : color, silent ; 16
+               mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    graphic images: 434 slides : color ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    graphic images digital ; 116 tiff files
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    moving images black-and-white, 8 mov files:
+               black-and-white, sound
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    manuscripts: approximately 20 folders (3 boxes)
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Sound recordings in various languages.
+               Manuscripts in English.
+    </language>
+    <descriptivenote>
+     <p>
+      Sound recordings in various languages.
+               Manuscripts in English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Field research collection of silent film,
+            sound recordings, color slides, and manuscripts documenting African dance and events in
+            Nigeria, Uganda, and Kenya recorded in 1963 by Judith Lynne Hanna and William John
+            Hanna. 12 rolls of black-and-white film were shot in Ibadan and Umuahia Province,
+            Nigeria; 28 rolls of black-and-white and color film were shot in Kenya, which includes
+            footage of the Kenyan independence from Great Britain celebration, December 12, 1963,
+            and Ethiopia's Haile Selassie I Folklore Ensemble, in Nairobi, Kenya; 14 rolls of film
+            were shot at various locations in Uganda, including National Theater: a Pageant of
+            Uganda, September 12, 1963. Audio recordings document music accompanying the dances and
+            other events. Color slides were taken in Ivory Coast, Ghana, Nigeria, Uganda, and Kenya
+            in 1963. Manuscripts include clippings, programs, and research articles by Judith Lynn
+            Hanna (dated 1965-2009) and Judith Lynne Hanna's description of the film footage and
+            related materials (42 p.)
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20190726125420.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hanna, Judith Lynne
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hanna, William John, 1931-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Okpara, M. I.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Acholi (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arabs--Kenya--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arsi (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Africa, East.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Ethiopia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Kenya.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Nigeria.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Uganda.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dogon (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Efik (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Embu (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ganda (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Giryama (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gurage (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Igbo (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kamba (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kenyans--Kenya--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kikuyu (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Kipsigis (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lango (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Luo (Kenyan and Tanzanian people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Maasai (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Meru (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Africa, East.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Ethiopia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Kenya.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Nigeria.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Music--Uganda.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Nandi (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Nigerians--Nigeria--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ogba (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Somalis--Ethiopia--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Suk (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Teso (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tharaka (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Turkana (African people)--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ugandans--Uganda--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Wolayta (African people)--Social life and customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Kenya--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Nigeria--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Uganda--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: 1. Manuscripts; 2. Sound Recordings; 3. Graphic
+               Images; 4. Moving Images. The materials are organized by the African countries Hanna
+               visited in 1963.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Judith Lynne Hanna; 2013.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Addie Heyer with the assistance of Valda Morris.
+   </p>
+  </processinfo>
+  <relatedmaterial>
+   <head>
+    Related Material
+   </head>
+   <p>
+    The Judith Hanna Collection, Michelle Smith Performing Arts Library, College Park,
+               Maryland. The collection consists of research materials, subject materials, writings,
+               photographs, video and audio recordings, newspaper clippings, correspondence,
+               interview transcripts, and materials from numerous, varied organizations. Finding aid
+               is available online:
+    <ref actuate="onrequest" href="http://hdl.handle.net/1903.1/19429" show="new">
+     http://hdl.handle.net/1903.1/19429
+    </ref>
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+               request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Judith Lynne Hanna collection (AFC 2010/021), Archive of Folk Culture, American
+               Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Judith Lynne Hanna was born September 21, 1936, in St. Louis, Missouri. Hanna earned her
+            doctorate in anthropology from Columbia University in 1976, preceded by two separate
+            master's degrees in anthropology from Columbia University in 1975 and political science
+            from Michigan State in 1962 respectively. In 1963, Hanna and her husband, William John
+            Hanna, traveled to Africa under a Michigan State University-Ford Foundation Grant, where
+            they conducted field research in Kenya, Nigeria, and Uganda. This fieldwork resulted in
+            her 1979 book To
+    <emph render="italic">
+     Dance is Human
+    </emph>
+    . In addition to many writings and varied contributions
+            to the arts and anthropology, she has taught African dance and offered workshops to
+            administrators, teachers, and students in schools and community centers around the U.S.
+            and abroad. Hanna's written and artistic contributions encompass a wide range of topics
+            from the relationships between dance and society in different cultures and communities,
+            to aggression in the schools and how it relates to class, race, and culture. She most
+            recently has been serving as senior research scholar in the Department of Dance and a
+            senior research scientist in the Department of Anthropology at the University of
+            Maryland, College Park.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Field research collection of silent film, sound recordings, color slides, and
+            manuscripts documenting African dance and events in Nigeria, Uganda, and Kenya recorded
+            in 1963 by Judith Lynne Hanna and William John Hanna. 12 rolls of black-and-white film
+            were shot in Ibadan and Umuahia Province, Nigeria; 28 rolls of black-and-white and color
+            film were shot in Kenya, which includes footage of the Kenyan independence from Great
+            Britain celebration, December 12, 1963, and Ethiopia's Haile Selassie I Folklore
+            Ensemble, in Nairobi, Kenya; 14 rolls of film were shot at various locations in Uganda,
+            including National Theater: a Pageant of Uganda, September 12, 1963. Audio recordings
+            document music accompanying the dances and other events. Color slides were taken in
+            Ivory Coast, Ghana, Nigeria, Uganda, and Kenya in 1963. Manuscripts include clippings,
+            programs, and research articles by Judith Lynn Hanna (dated 1965-2009) and Hanna's
+            description of the film footage and related materials.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Manuscripts, 1963-2009
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Administration
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original inventory, 1963
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Items described by donor, Judith Lynne Hanna. See
+        <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/af018011.apx" show="new">
+         Hanna's Inventory
+        </ref>
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photocopies of audio and moving image
+                        recordings,
+        <date localtype="inclusive" normal="1963">
+         1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        1963
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Field Research
+                     materials
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       See Box 6 for oversize matierals.
+      </p>
+     </scopecontent>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nigeria: Ubakala dance keyed to film,
+        <date localtype="inclusive" normal="1963">
+         1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        1963
+       </unitdate>
+       <physdesc encodinganalog="300">
+        22 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Log of recorded dances performed by the Ubakala tribe.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nigeria: Ubakala song texts, and music,
+        <date localtype="inclusive" normal="1963">
+         1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        1963
+       </unitdate>
+       <physdesc encodinganalog="300">
+        74 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Translated song text with handwritten sheet music and information on
+                        musical instruments.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nigeria: Ubakala histories,
+        <date localtype="inclusive" normal="1963">
+         May 25, 1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        May 25, 1963
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        History of the Ubakala clan gathered from elders within the group.
+                        Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nigeria: Dance instructions,
+        <date localtype="inclusive" normal="1963">
+         1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        1963
+       </unitdate>
+       <physdesc encodinganalog="300">
+        49 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Transcripts of dance steps and body movements of various tribal dances
+                        documented on film.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nigeria: East Nigeria newspaper clippings,
+        <date localtype="inclusive" normal="1963/1971">
+         1963-1968; 1970-1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963/1971" unitdatetype="inclusive">
+        1963-1968; 1970-1971
+       </unitdate>
+       <physdesc encodinganalog="300">
+        101 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopies of various newspaper clippings about local events, dances,
+                        festivals, and other topics including the opening of a local bridge.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Heartbeat of Africa,
+        <date localtype="inclusive" normal="1963/1970">
+         1963-1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963/1970" unitdatetype="inclusive">
+        1963-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        138 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings, programs, and minor correspondence about the Ugandan
+                        dance company, The Heartbeat of Africa. Some of the items are in French.
+                        Photocopies.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Heartbeat of Africa,
+        <date localtype="inclusive" normal="1963/1970">
+         1963-1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963/1970" unitdatetype="inclusive">
+        1963-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        138 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings, programs, and correspondence about the Ugandan
+                        dance company, The Heartbeat of Africa. Some of the items are in French.
+                        Originals.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Heartbeat of Africa,
+        <date localtype="inclusive" normal="1963/1970">
+         1963-1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963/1970" unitdatetype="inclusive">
+        1963-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        138 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings, programs, and minor correspondence about the Ugandan
+                        dance company, The Heartbeat of Africa. Some of the items are in French.
+                        Originals.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Clippings of Ugandan culture,
+        <date localtype="inclusive" normal="1963/1972">
+         1963-1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963/1972" unitdatetype="inclusive">
+        1963-1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        63 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings mostly about local dances, and other events local to
+                        Uganda.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Kenyan and Ethiopian dance and culture,
+        <date localtype="inclusive" normal="1963">
+         1963
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+        1963
+       </unitdate>
+       <physdesc encodinganalog="300">
+        36 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clippings and a booklet about Kenya's tribes, including translated programs
+                        from an Ethiopian folk festival, and Kenya's Independence day
+                        celebrations.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries C: Publications
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Judith Lynne Hanna articles,
+        <date localtype="inclusive" normal="1965/1983">
+         1965-1983
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1965/1983" unitdatetype="inclusive">
+        1965-1983
+       </unitdate>
+       <physdesc encodinganalog="300">
+        126 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes articles and book chapters about African dance. The articles and
+                        chapters were either written by Hanna or in collaboration with other
+                        scholars.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Judith Lynne Hanna articles,
+        <date localtype="inclusive" normal="1983/2003">
+         1983-2003
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1983/2003" unitdatetype="inclusive">
+        1983-2003
+       </unitdate>
+       <physdesc encodinganalog="300">
+        125 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes articles and book chapters about African dance. The articles and
+                        chapters were either written by Hanna or in collaboration with other
+                        scholars.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        2/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hanna, Judith Lynne.
+        <emph render="italic">
+         To
+                           Dance Is Human
+        </emph>
+        . University of Texas,
+        <date localtype="inclusive" normal="1979">
+         1979
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1979" unitdatetype="inclusive">
+        1979
+       </unitdate>
+       <physdesc encodinganalog="300">
+        327 pages
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        <emph render="italic">
+         To Dance Is Human
+        </emph>
+        is written and signed by
+                        Judith Lynne Hanna. The contents are partially based on the research Hanna
+                        conducted in Africa, 1963.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Sound Recordings
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      The following recordings have been digitized: SR06-SR009. Audio recordings were
+                  synced to create sound during film digitization of the 16 mm film. See Series 4:
+                  Moving Images.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR001
+      </container>
+      <unittitle encodinganalog="245$a">
+       Yoruba opera,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A recording of a Yoruba opera.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR002
+      </container>
+      <unittitle encodinganalog="245$a">
+       Yoruba opera continued,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Yoruba opera continued along with a recording of a blind Hausa beggar.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR003
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ilorin festival,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A recording of a Ilorin festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR004
+      </container>
+      <unittitle encodinganalog="245$a">
+       Easter celebrations, April 14,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Umuahia township Easter celebrations featuring masqueraders. Recording also
+                     includes Niger and Oba girls’ dance groups.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR005
+      </container>
+      <unittitle encodinganalog="245$a">
+       Oboro clan and bridge launch, April 27,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A recording featuring the Odimara orchestra, Oboro clan, and the women
+                     (mothers) and men dancing at the bridge launching.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR006
+      </container>
+      <unittitle encodinganalog="245$a">
+       Uko orchestra, April 18,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A recording of the Uko orchestra, Umunwa village, and the Umuopara clan. It
+                     features nine graduated drums, ekpete, one mother drum, nne-ekpete, and one
+                     ekere.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR007
+      </container>
+      <unittitle encodinganalog="245$a">
+       Aba waking ceremony, April,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A recording containing the Aba waking ceremony, an extemporaneous men's group,
+                     and the continuation of the Uko orchestra.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR008
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ubakala festival,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing an Ubakala festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR009
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ubakala festival continued
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording of the Ubakala festival with Joseph Okoro's group and the
+                     Umuakam-Ohuhu.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR010
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bunyole and dance competition
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing a Bunyole (five finger piano orchestra) in Bukedi
+                     District, Uganda August 24, 1963, an UPC Song for Dr. Milton Obote, August 26,
+                     1963, and the Pabo Acholi dance competition featuring two songs, August 29,
+                     1963.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR011
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous dance and song performances,
+                     August 30th and September 1st, 9th and 12th, 1963
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing a variety of dances and songs including dingidingi,
+                     larakaraka, olunyege, and otoli dances and
+       <emph render="doublequote">
+        Arachabon
+                        Adonya
+       </emph>
+       , a song about a warrior of long ago. The recording also
+                     contains a pageant that was held in Uganda at the National Theater September
+                     12, 1963.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR012
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dance and music exhibitions in Uganda, September
+                     12th and 28th, 1963
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording of Ugandan music and dance, the National Theater featuring original
+                     modern compositions, and the dance and music exhibition held in Kampala,
+                     Uganda.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR013
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kenya Independence's, April 20th: Music from
+                     Nigeria, Kenya, and Ethiopia,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing music from Chinke’s reception, the Odimara orchestra, and
+                     Kenya's Independence celebration. It also includes the Ethiopian Flower Picking
+                     Song (in Nairobi).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR014
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Ethiopian Dance Company and various folk
+                     dances
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing audio of the Ethiopian Dance Company and other folk dances
+                     including the Gondar, Arussi, and Somail folk dances.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR015
+      </container>
+      <unittitle encodinganalog="245$a">
+       Kenya's Independence and Ethiopian Dance
+                     Company
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording containing audio from the Kenya Independence celebration and the
+                     Ethiopian Dance Company.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: SR016
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Ethiopian Dance Company
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound tape reel: analog; 5
+                     in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording featuring audio from the Ethiopian Dance Company featuring the Flower
+                     Picking Song, the Arussi folk dance, the Almaz song, and other
+                     performances.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Graphic Images,
+      <date localtype="inclusive" normal="1963">
+       1963
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+      1963
+     </unitdate>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hanna’s African Trip: January
+                        –December
+      </unittitle>
+      <physdesc encodinganalog="300">
+       212 35 mm color
+                        slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH001-PH212 contains a variety of images captured by Hanna during her one
+                        year visit to Africa in 1963. The slides are arranged chronologically by
+                        year and region.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hanna’s African Trip: January
+                        –December
+      </unittitle>
+      <physdesc encodinganalog="300">
+       204 35 mm color
+                        slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH213-319 are arranged chronologically. PH320-PH416 are not arranged
+                        chronologically. The inclusive months are January; March-July;
+                        September-October, and December 1963.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Hanna’s African Trip: January
+                        –December
+      </unittitle>
+      <physdesc encodinganalog="300">
+       18 35 mm color
+                        slides
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       PH417-PH434 contains a variety of images captured by Hanna during her one
+                        year visit to Africa in 1963. The inclusive months are January; March-July;
+                        September-October, and December. The slides are not in chronological
+                        order.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Moving Images
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Original films are silent. Sound recordings made at the time of filming on 1/4
+                  –inch reel-to-reel were used to create and sync the soundtrack during film
+                  digitization. See Series 2: Sound Recordings for original audio recordings.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV01
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Enugu Festival of the
+                     Arts
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm.; black and white; silent
+      </physdesc>
+      <unitid label="Digital ID">
+       afc2010021_mv01.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (10:24 min.): digital, sound; black and white.
+      </p>
+      <p>
+       Nigeria: girls and boys from different groups perform on "Face the Nation"
+                     dance program. Efik girls’ abang dance from Calabar; girls’ umunna erico dance
+                     from Orlu; girls’ egwu amala-bu-ugu (#3 winner); older boys’ ugeolomo dance (#1
+                     winner); Ijaw boys’ sereme igelenge dance; etilobu dance from Onitsha, and
+                     Abakaliki girls’ dance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV02
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Ethiopia's Haile Selassie I Folk
+                     Lore Ensemble (Haile Selassie I Theatre), December 12,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv02.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (35:55 min.): digital, sound; black and white.
+      </p>
+      <p>
+       Ethiopia: performance celebrating Kenya's Independence. The performance
+                     includes a series of folk music and dances: Flower Picking Song; Gurage folk
+                     dance; Buna coffee plantation song dances; Issa &amp; Ougaden folk dance;
+                     Gondor folk-song; Arussi folk dance; Swahili Amharic dance; Gemu Gofa weavers;
+                     Wolamo folk dance for men and women, and the Tigre folk dance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV03
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Ibadin,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation ;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv03.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (14:00 min.): digital, sound; black and white.
+      </p>
+      <p>
+       King’s market: group of drummers &amp; their hangers-on; boys from secondary
+                     school returning from a church service at their school; ladies society; women
+                     from Benin dance to propitiate the Goddess of the Sea, Olokun.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV04
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Kenya I,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv04.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (19:55 min.): digital, sound; black and white.
+      </p>
+      <p>
+       Different tribes perform outdoors in the stadium. These include the Giriama,
+                     Luo, Wacuria, Kipsigis, Wakamba, Kikuyu, Nandi, Samburu, Wakamba, Suk, Turkana,
+                     Thoraka, and the Embu.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV05
+      </container>
+      <unittitle encodinganalog="245$a">
+       African dances: Kenya II,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv05.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (23:47 min.): digital, sound; black and white.
+      </p>
+      <p>
+       Continuation of previous recording also includes the Kenyan flag raising
+                     ceremony including fireworks.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV06
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Kenya III,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. color; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv06.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (5:55 min.): digital, sound; color.
+      </p>
+      <p>
+       Tribal dancers include the Giriama, Luo, Malagory, Wacuria, Coastal girls and
+                     the Turkana.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV07
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Nigeria,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv07.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (35:55 min.): digital; black and white color.
+      </p>
+      <p>
+       Recording begins with a few frames from Ethiopia. The remaining footage
+                     contains dancers and masqueraders from different tribes in Nigeria. It also
+                     includes the Igbo celebration of S.O. Chinke, the bridge launching, the Okoro
+                     clan market day, and a special festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV08
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Uganda I,
+       <date>
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 film reel: acetate, single perforation;
+                        16 mm. black and white; silent
+      </physdesc>
+      <unitid label="Digital-ID">
+       afc2010021_mv08.mov
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 video file (27:50 min.): digital, sound; black and white.
+      </p>
+      <p>
+       Acholi District dance competitions August 29-30, 1963, A Pageant of Uganda,
+                     Baganda tribe dance and culture, tribes from Northern and South Western Uganda,
+                     Bugisu District Council Inauguration, September 20, 1963, and other tribal
+                     dances.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2010/021: MV09
+      </container>
+      <unittitle encodinganalog="245$a">
+       African Dances: Uganda II
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 film reel : acetate, single perforation;
+                        16 mm.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       black and white; silent
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box">
+      6
+     </container>
+     <unittitle>
+      <emph render="bold">
+       Oversize materials
+      </emph>
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes originals and other oversized materials from Subseries B: Field research
+                  materials
+      <list>
+       <item>
+        Series 1, subseries B: Field research materials, Nigeria: Ubakala
+                        histories, May 25, 1963
+       </item>
+      </list>
+      <list>
+       <item>
+        Series 1, subseries B: Field research materials, Nigeria: East Nigeria
+                        newspaper clippings, 1963-1968; 1970-1971, (1/2)
+       </item>
+      </list>
+      <list>
+       <item>
+        Series 1, subseries B: Field research materials, Nigeria: East Nigeria
+                        newspaper clippings, 1963-1968; 1970-1971, (2/2)
+       </item>
+      </list>
+      <list>
+       <item>
+        Series 1, subseries B: Field research materials, clippings of Ugandan
+                        culture, 1963-1972, (1/2)
+       </item>
+      </list>
+      <list>
+       <item>
+        Series 1, subseries B: Field research materials, clippings of Ugandan
+                        culture, 1963-1972, (2/2)
+       </item>
+      </list>
+      <list>
+       <item>
+        Series 1, subseries B: Kenyan and Ethiopian dance and culture, 1963
+       </item>
+      </list>
+     </p>
+    </scopecontent>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

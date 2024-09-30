@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af013002" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af013002
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Agnes Bellinger Tlingit Collection
+    </titleproper>
+    <subtitle>
+     AFC 1986/017
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+					Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="1994-09">
+     September 1994
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695175" show="new">
+       https://lccn.loc.gov/2004695175
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2013-01">
+     January 2013
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Agnes Bellinger Tlingit Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1985">
+     1985
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Inclusive Dates" normal="1985" unitdatetype="inclusive">
+    1985
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="050" label="Call No." repositorycode="US-DLC">
+    AFC 1986/017
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="100" source="lcnaf">
+     <part>
+      Bellinger, Agnes
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1 folder.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    1 videocassette of 1 (VHS) (30 min.) : sound, color ;
+					1/2 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    1 videocassette of 1 (Beta) (90 min.) : sound, color ;
+					1/2 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="fre">
+     Tlingit
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in English and Tlingit.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+					Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection comprises two videocassettes
+				and a pamphlet on traditional music, dance, and other customs of the Tlingit nation
+				of southeast Alaska.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020130221.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bellinger, Agnes, 1927-2006
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Raven (Trickster)
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="711" source="lcnaf">
+     <part>
+      Alaska Folk Festival.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      KTOO-TV (Television station : Juneau, Alaska)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance costume--Alaska.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Alaska.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Alaska.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--Alaska--Juneau.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Musical instruments--Alaska.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--Alaska.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tlingit Indians--Alaska--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tlingit Indians--Alaska--Rites and ceremonies.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tlingit Indians--Alaska--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tlingit Indians--Clothing--Alaska.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Tales of the raven.
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Tracks along the beach: tales of the raven.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Lectures.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Pamphlets.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: Series 1: Manuscripts and Series
+					II: Moving Images.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was donated to the American Folklife Center by Agnes Bellinger in
+					1986.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Michelle Forner in 1994. Valda Morris revised and
+					encoded the collection finding aid in EAD format in January 2013.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+					restrictions. Access restrictions apply; some or all content may be stored
+					offsite. To request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Agnes Bellinger Tlingit Collection (AFC 1986/017), Archive of Folk Culture,
+					American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        pamphlet
+       </entry>
+       <entry morerows="0">
+        Folder 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Moving Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        videocassette (VHS)
+       </entry>
+       <entry morerows="0">
+        AFC 1986/017: MV1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        videocassette (Beta)
+       </entry>
+       <entry morerows="0">
+        AFC 1986/017: MV2
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Notes
+   </head>
+   <p>
+    Tlingit elder Agnes Bellinger directed the Eagle-Raven Dancers. The collection
+				documents her efforts to revitalize Tlingit culture through performance, lectures,
+				and writings.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Donated by Agnes Bellinger in 1986, the collection documents Bellinger's efforts to
+				revitalize the traditional Tlingit culture through performance, lectures, and
+				writings. The collection consists of two videotapes and one pamphlet on traditional
+				music, dance, and other customs of the Tlingit nation of southeastern Alaska. The
+				pamphlet titled "Tracks Along the Beach: Tales of The Raven" (18 pp.) was compiled
+				by Bellinger and includes seven tales about the Raven.
+   </p>
+   <p>
+    The first videotape is 30 minutes. Produced by KTOO-TV in Juneau, Alaska, it contains
+				two segments about the Eagle-Raven Dancers (Eagle and Raven are the two Tlingit
+				moieties). The first segment, taped for news broadcast, shows Bellinger, director of
+				the dance group, teaching a class on rhythms. Included are dance demonstrations and short interviews with two
+				tribal advisors and one of the students. The second segment was part of the TV
+				station's coverage of the Alaska Folk Festival in Centennial Hall, Juneau, Alaska,
+				1985. It features the performance of the Eagle-Raven Dancers before a live audience.
+				The dancers, clad in traditional regalia that includes headdresses and hats, button
+				blankets, face paint, and paraphernalia, perform six numbers, including an entrance
+				song, clan song, and exit song. Drumming and chanting accompany the dancing.
+   </p>
+   <p>
+    The second video runs approximately 90 minutes. It documents a lecture by Agnes
+				Bellinger at an unidentified space inside a replica of a Tlingit clan house.
+				Although the video is poorly lit, her lecture is audible. She describes traditional
+				Tlingit culture in terms of social structure, oral education, and material culture.
+				She also answers questions from the audience.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Tracks Along The
+							Beach: Tales of the Raven
+       </emph>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Compiled by Agnes Bellinger, this pamphlet documents traditional oral
+							literature of the Tlingit people, specifically seven stories about The
+							Raven, their creation hero. 18-page booklet. The folder also includes a finding aid with information pertaining to the general use and contents of items
+							within collection.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Moving Images
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unitid>
+       AFC 1986/017: MV1
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Videocassette, color, sound
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Produced by KTOO TV in Juneau, Alaska, it contains two segments about the
+							Eagle-Raven Dancers. The first segment, shows Bellinger teaching a class
+							on rhythms. The second segment features the performance of the
+							Eagle-Raven Dancers before a live audience with the dancers, clad in
+							traditional regalia.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid>
+       AFC 1986/017: MV2
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Videocassette, color, sound
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       The 1985 video documents a lecture by Agnes Bellinger at an unnamed
+							museum inside a replica of a Tlingit clan house where she describes
+							traditional Tlingit culture in terms of social structure, oral
+							education, and material culture.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

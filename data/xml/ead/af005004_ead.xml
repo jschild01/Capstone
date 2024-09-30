@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af005004" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af005004
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Robert Sonkin Alabama and New
+			 Jersey Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1941/018
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Amy Palmer and Judy Ng
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2005-12">
+     December 2005
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2005700234" show="new">
+       https://lccn.loc.gov/2005700234
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-01">
+     January 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2005-12">
+     December 2005
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Judy Ng
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1941/018
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Robert Sonkin Alabama and
+		  New Jersey Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1937/1941">
+     1937-1941
+    </date>
+    <date altrender="Bulk Date" localtype="bulk" normal="1941">
+     1941
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" era="ce" label="Inclusive Dates" normal="1937/1941" unitdatetype="inclusive">
+    1937-1941
+   </unitdate>
+   <unitdate calendar="gregorian" encodinganalog="245$g" era="ce" label="Bulk Date" normal="1941" unitdatetype="bulk">
+    1941
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    7
+		  manuscript folders in 1 box; 64 12-inch acetate-aluminum discs
+   </physdesc>
+   <origination label="Creators">
+    <persname encodinganalog="100">
+     <part>
+      Sonkin, Robert
+     </part>
+    </persname>
+    <corpname>
+     <part>
+      United States. Farm Security
+			 Administration
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Correspondence, field
+		  notes, reports, recording logs, transcripts of song texts, and sound recordings
+		  of African American music traditions and folkways, collected by Robert Sonkin,
+		  primarily in Gee's Bend, Alabama, in 1941.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection consists of documentation from Robert Sonkin's field
+		  recording trip to Shell Pile, near Port Norris, New Jersey, and from there to
+		  Gee's Bend and other locations in Alabama in June-July 1941. Sonkin recorded
+		  two discs of African American quartets performing gospel music in Shell Pile,
+		  June 25, 1941. His field notes also describe the African American community of
+		  Shell Pile, named for the oyster shucking industry established there near Port
+		  Norris, N.J. Forty-nine of the sixty-three discs were made in various locations
+		  in Gee's Bend, Alabama, and include prayer meetings, sermons, gospel music,
+		  spirituals, hymns, jubilee quartet singing, blues, children's songs,
+		  recitations and conversations. These discussions cover health and home
+		  remedies, the Gee's Bend school, and the Farm Security Administration's (FSA)
+		  Gee's Bend study. Sonkin also recorded ten discs in other areas in Alabama,
+		  including gospel quartet music in Bessemer, Alabama; interviews in Camden and
+		  Palmerdale, Alabama; and gospel music in Rehoboth and Greensboro, Alabama.
+		  Narratives by two former slaves, Isom Moseley and Alice Gaston, were recorded
+		  on July 22, 1941.
+   </p>
+   <p>
+    In addition to the recordings, there are typescript copies of research
+		  materials about Gee's Bend, Alabama dating from 1937-1939, including a paper,
+		  "An exploratory study of the customs, attitudes and folkways of the people in
+		  the community of Gee's Bend," by Nathaniel S. Colley of the Tuskegee Institute.
+		  Other reports on farm production, construction of new housing and barns, home
+		  economics, and community health, which were issued by government agencies, are
+		  included in the collection.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Born in the Bronx, New York in 1911, Robert Sonkin was an educator,
+		  ethnographic researcher, and author. A graduate of the City College of New York
+		  and Columbia University, Sonkin taught at the Department of Public Speaking at
+		  City College from 1929 to 1976. In the late 1930s, he worked with Charles L.
+		  Todd, his colleague at the Department of Public Speaking, to document the
+		  experience of residents of the FSA migrant worker camps in California in 1940
+		  and 1941. In the summer of 1941, using money granted by City College of New
+		  York to document Americana, Sonkin traveled to Shell Pile, New Jersey, and
+		  Gee's Bend, Alabama to record the religious music and personal reflections of
+		  African Americans living in those communities. In Gee's Bend, Sonkin also
+		  recorded conversations about the FSA projects that were being undertaken there.
+		  During World War II, he worked with the Archive of American Folk Song to
+		  document popular reactions to America's involvement in the war, and served in
+		  the Army Signal Corps. In the late 1970s, he again collaborated with Todd to
+		  produce the book
+    <title localtype="simple" render="italic">
+     <part>
+      Alexander Bryan Johnson: Philosophical
+		  Banker
+     </part>
+    </title>
+    . He is also the author of
+    <title localtype="simple" render="italic">
+     <part>
+      The Voice and Speech Handbook
+     </part>
+    </title>
+    . He died in
+		New York in 1980.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20200610155054.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Colley, Nathaniel Sextus, 1918- Exploratory study of the customs, attitudes and folkways of the people in the community of Gee's Bend.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gaston, Alice
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Moseley, Isom
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sonkin, Robert, 1910-1980
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sonkin, Robert, 1910-1980
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Sonkin, Robert, 1910-1980--Ethnomusicological collections.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Song (U.S.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      United States. Farm Security Administration.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Farm Security Administration.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American families--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American farmers--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American gospel singers--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American gospel singers--New Jersey.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African American school children--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Alabama--Folklore.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Alabama--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Alabama--Social conditions.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Alabama--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1941-1950.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--New Jersey.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Alabama--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--New Jersey--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Freedmen--Alabama--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Gospel music--New Jersey.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jubilee singers--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Sharecropping--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Slave narratives--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Slavery--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Spirituals (Songs)--Alabama.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Traditional medicine--Alabama.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Boykin (Wilcox County, Ala.)--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Boykin (Wilcox County, Ala.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="unspecified">
+     <part>
+      Gee's Bend (Ala.)--Religious life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="unspecified">
+     <part>
+      Gee's Bend (Ala.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Shell Pile (N.J.)--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Also known as: Gee's Bend collection, 1937-1941
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Robert Sonkin Gee's Bend collection, 1937-1941
+     </part>
+    </title>
+    <title encodinganalog="740">
+     <part>
+      Voices from the days of slavery.
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Prayers.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sermons.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Transcripts.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is divided into two series, manuscripts and sound
+		  recordings. The manuscripts are broken down by sub-series and arranged
+		  alphabetically. These include the administrative file, correspondence, notes,
+		  recording logs, reports, and transcriptions of song texts. The sound recordings
+		  are arranged and numbered chronologically by the date recorded, beginning with
+		  the first recordings made and ending with the last. Original disc dust jackets
+		  are housed separately from the collection.
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Access copies of the collection are available through the Folklife
+		  Reading Room of the American Folklife Center. Duplication of collection
+		  materials may be governed by copyright and other restrictions. Please refer to
+		  the AFC web site for information on ordering copies of unpublished recordings (
+    <ref actuate="onrequest" href="https://www.loc.gov/folklife/recordering.html" show="new">
+     http://www.loc.gov/folklife/recordering.html
+    </ref>
+    ). For
+		  specific questions, researchers should consult with the American Folklife
+		  Center reference staff.
+   </p>
+   <p>
+    Two interviews with Alice Gaston and Isom Mosely recorded in Gee's
+		  Bend on July 22, 1941 can also be found on the American Memory website
+    <emph render="italic">
+     Voices from the Days of Slavery
+    </emph>
+    ,
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000006" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000006
+    </ref>
+    Bibliographic information for titles in this collection is found in the
+    <title localtype="simple">
+     <part>
+      Traditional Music and Spoken Word Catalog
+     </part>
+    </title>
+    from the
+		American Folklife Center,
+    <ref href="https://hdl.loc.gov/loc.afc/collafc.af000118">
+     http://hdl.loc.gov/loc.afc/collafc.af000118
+    </ref>
+    .
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Robert Sonkin donated the collection to the Archive of American Folk
+		  Song in 1941, which later became the Archive of Folk Culture at the American
+		  Folklife Center. The collection was formerly referred to as the "Gee's Bend
+		  Collection."
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Robert Sonkin Alabama and New Jersey Collection (AFC 1941/018),
+		  Archive of Folk Culture, American Folklife Center, Library of Congress,
+		  Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <p>
+    Charles L. Todd and Robert Sonkin Migrant Worker Collection
+			  , AFC 1985/001
+    <lb>
+    </lb>
+    Ethnographic field collection consisting of
+		  audio recordings, photographs, manuscript materials, publications, and
+		  ephemera, documenting the everyday life of residents of the FSA migrant worker
+		  camps in 1940 and 1941. See the American Memory website,
+    <emph render="italic">
+     Voices From the Dustbowl: The Charles L. Todd and Robert Sonkin
+		  Migrant Worker Collection 1940-1941
+    </emph>
+    :
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/collafc.af000011" show="new">
+     http://hdl.loc.gov/loc.afc/collafc.af000011
+    </ref>
+    .
+   </p>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        7
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        64
+       </entry>
+       <entry morerows="0">
+        12-inch acetate-coated aluminum discs
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 5035-AFS 5098
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Administrative
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Folder list, AFC Collections Database and LC Catalog record
+				  printouts
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Correspondence (1938)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       2 letters
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       3
+      </container>
+      <unittitle>
+       Notes (1937-1941)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Field notes covering AFS 5035 to AFS 5098 (October 1937 to July
+				  3, 1941); Field notes (1941); Superstitions (no date); "Taken from Charles L.
+				  Todd / California Migrant Labor Collection"
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       4
+      </container>
+      <unittitle>
+       Recording Logs (June 25 - July 25, 1941)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       3 copies (AFS 5040 to AFS 5098)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       5
+      </container>
+      <unittitle>
+       Reports (1937-1939)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       "Big World At Last Reaches Gee's Bend," transcript of article
+				  from
+       <title localtype="simple" render="italic">
+        <part>
+         NY Times Magazine
+        </part>
+       </title>
+       (August 22, 1937);
+				"Exploratory Study of the Customs, Attitudes and Folkways of the People in the
+				Community of Gee's Bend," by Nathaniel S. Colley (n.d.); "Gee's Bend," by U.S.
+				Dept. of Agriculture Farm Security Administration, 2 copies (Sept. 16, 1939;
+				revised Jan. 17, 1941); "Gee's Bend Annual Health Report 1938-1939," by Annie
+				E. Shamburg, Project Nurse (n.d.); "Gee's Bend Farms, Farm Security
+				Administration Report of S. T. Haynes, Farm Supervisor" (n.d.); "Gee's Bend
+				Farms Report of W.K. Idlett, Home Economist," 2 copies (n.d.); "Gee's
+				Bend-Report," no author (n.d.); "Gee's Bend: Report on Visit Made April 17-21,
+				1939," by Constance E. H. Daniel; "Narrative Report Covering the Economic,
+				Educational, Social and Community Progress for the Gee's Bend Project for the
+				Year, 1938"; "Report on Gee's Bend," no author (n.d.).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       6
+      </container>
+      <unittitle>
+       Transcriptions (June 25 - July 25, 1941)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Texts of songs, summary of interviews (AFS 5040 to AFS 5073)
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       7
+      </container>
+      <unittitle>
+       Transcriptions (June 25 - July 25, 1941)
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Texts of songs, summary of interviews (AFS 5074 to AFS 5098)
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Discs
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle>
+        AFS 5035-5098
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        64 disc recordings recorded in Port Norris, New Jersey and
+					 Alabama. Specific locations in Alabama include Gee's Bend, Palmerdale,
+					 Birmingham, Bessemer, Camden, Greensboro, Selma and Rehoboth.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd id="appendixa">
+   <head althead="Appendix A: Recording Locations">
+    Appendix A: Locations where Recordings were Made
+   </head>
+   <p>
+    <emph>
+     Alabama
+    </emph>
+    <list>
+     <item>
+      Bessemer (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Camden (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Gee's Bend (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Greensboro (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Palmerdale (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Rehoboth (Ala.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Selma (Ala.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     New Jersey
+    </emph>
+    <list>
+     <item>
+      Port Norris (N.J.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Shell Pile (N.J.)
+     </item>
+    </list>
+   </p>
+  </odd>
+ </archdesc>
+</ead>

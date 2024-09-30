@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af022005">
+   loc.afc/eadafc.af022005
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Rae Korson papers, 1937-1982
+    </titleproper>
+    <author>
+     Prepared by Marcia K. Segal
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2022">
+     2022
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2022655202" show="new">
+       https://lccn.loc.gov/2022655202
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-02">
+     February 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     photos added, extent statements corrected, and punctuation
+                    corrected by Marcia K. Segal.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2022-11">
+     November 2022
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Rae Korson papers
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1937/1982">
+     1937-1982
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1937/1982" unitdatetype="inclusive">
+    1937-1982
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 1986/003
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Korson, Rae, collector, creator
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 1787
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    5 containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    2.5 linear
+                feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    approximately 1774
+                sheets
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    13 photographic prints
+                : black-and-white ; various sizes
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of correspondence, Library
+                of Congress-related personnel documentation, and ephemera related to Rae Korson's
+                tenure at the Archive of Folk Song. Correspondents include: Jan Brunvand, Sidney
+                Robertson Cowell, Archie Green, Alta Fife, Austin Fife, Helen Hartness Flanders,
+                Frank Gillis, Wayland Hand, Herbert Halpert, Joe Hickerson, Charles Hofmann, Charles
+                Iler, Sandy Ives, Bruce Jackson, Maud Karpeles, George List, Judith McCulloh, Peter
+                Nabokov, Bruno Nettl, Willard Rhodes, Ralph Rinzler, Ruth Rubin, Charles Seeger,
+                Francis Lee Utley, Naomi Ware, Frank Warner, Dick Waterman, D.K. Wilgus, Henrietta
+                Yurchenco, and others.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Rae Korson; Donation, 1986.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Ann Hoog and Marcia K. Segal.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2021655259" show="new">
+     WPA
+                    folklore publications collected by Rae Korson (AFC 1939/004), American Folklife
+                    Center, Library of Congress, Washington, D.C.
+    </ref>
+   </p>
+   <p>
+    <ref actuate="onrequest" href="https://lccn.loc.gov/2022655258" show="new">
+     Korson
+                    Day reception collection (AFC 1981/039), American Folklife Center, Library of
+                    Congress, Washington, D.C.
+    </ref>
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Rae Korson Papers is open to research. To request materials, please contact the
+                Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Rae Korson Papers (AFC 1986/003), American Folklife
+                Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Rae Korson began her career at the Archive of Folk Song at the Library of Congress as
+                a reference assistant in 1942. She eventually became Head of the Archive in 1956 and
+                served in that position until 1969.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of correspondence, Library of Congress-related personnel documentation,
+                and ephemera related to Rae Korson's tenure at the Archive of Folk Song.
+                Correspondents include: Jan Brunvand, Sidney Robertson Cowell, Archie Green, Alta
+                Fife, Austin Fife, Helen Hartness Flanders, Frank Gillis, Wayland Hand, Herbert
+                Halpert, Joe Hickerson, Charles Hofmann, Charles Iler, Sandy Ives, Bruce Jackson,
+                Maud Karpeles, George List, Judith McCulloh, Peter Nabokov, Bruno Nettl, Willard
+                Rhodes, Ralph Rinzler, Ruth Rubin, Charles Seeger, Francis Lee Utley, Naomi Ware,
+                Frank Warner, Dick Waterman, D.K. Wilgus, Henrietta Yurchenco, and others.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Rae Korson Papers is organized in six series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1:
+                        Correspondence
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10017">
+      Series 2: Library
+                        of Congress and the Archive of Folk Song
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10028">
+      Series 3: Folk
+                        studies and activities
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10035">
+      Series 4: News
+                        coverage
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10037">
+      Series 5: Offprints
+                        and serials
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10039">
+      Series 6: Graphic
+                        materials
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20230124081040.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Brunvand, Jan Harold--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Cowell, Sidney Robertson, 1903-1995--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Fife, Alta (Alta Stevens), 1912-1996--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Fife, Austin E.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Flanders, Helen Hartness, 1890-1972--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Gillis, Frank--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Green, Archie--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Halpert, Herbert, 1911-2000--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hand, Wayland D. (Wayland Debs), 1907-1986--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hickerson, Joseph C. (Joseph Charles), 1935- --Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hofmann, Charles, 1914-1996--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Iler, Charles A., 1891-1963--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ives, Edward D.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Jackson, Bruce, 1936- --Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Karpeles, Maud, 1885-1976--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Korson, Rae
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Korson, Rae--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      List, George, 1911-2008--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      McCulloh, Judith, 1935-2014--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Nabokov, Peter--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Nettl, Bruno, 1930-2020--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rhodes, Willard, 1901-1992--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rinzler, Ralph--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Rubin, Ruth--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Seeger, Charles, 1886-1979--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Utley, Francis Lee, 1907-1974--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Ware, Naomi--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Warner, Frank, 1903-1978--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Waterman, Dick--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Wilgus, D. K.--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Yurchenco, Henrietta--Correspondence.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      American Folklife Center.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Archive of Folk Song (U.S.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Song (U.S.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Library of Congress--Officials and employees.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Library of Congress. Music Division.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore archives--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lctgm">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1:
+                        Correspondence
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Items include typed and handwritten correspondence (letters, notes, and
+                        postcards). While most are originals there are duplicates and drafts. Some
+                        items are accompanied by the original postal envelopes. Some ephemera
+                        (newspaper clippings, brochures, etc.) accompany items.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10002">
+       Correspondence,
+       <date localtype="inclusive" normal="1947/1959">
+        1947-1959
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1947/1959" unitdatetype="inclusive">
+       1947-1959
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Dorothy Berliner Cummins, Helen
+                            Bullard Kreckniak, Edward M. Coffman, Ray M. Lawless, and Duncan
+                            Emrich.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10003">
+       Correspondence,
+       <date normal="1960">
+        1960
+       </date>
+      </unittitle>
+      <unitdate normal="1960">
+       1960
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Arthur McAnally, Howard Mitchell,
+                            Gordon Hitchcock, Alfred Frankenstein, Lou Blachly, Andrew Forest Muir,
+                            Theodore Alevizos, Henry Allen Moe, Dena Epstein, Perkins Bass, William
+                            Widnall, and Alta and Austin Fife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10004">
+       Correspondence,
+       <date normal="1961">
+        1961
+       </date>
+      </unittitle>
+      <unitdate normal="1961">
+       1961
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Gottfried Wolters, Jean Woodward
+                            Steele, Sherman Lee Pompey, Philip Joseph Philbin, Rolf Myklebust, Ray
+                            M. Lawless, Wilfried Brennecke, Lila Cheville, Wayland Hand, Rolf
+                            Italiaander, Robert Nye, and Adeline McCall.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10005">
+       Correspondence,
+       <date normal="1962">
+        1962
+       </date>
+      </unittitle>
+      <unitdate normal="1962">
+       1962
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Joseph Hall, Ben Gray Lumpkin, Alta
+                            Fife, Maud Karpeles, Henry Allen Moe, Howard Mitchell, Ruth Rubin, Joe
+                            Hickerson, Joan Shigekawa, Richard Dorson, John Burrison, Herbert
+                            Halpert, Peter Nabokov, Vince Martin, Francis Lee Utley, and Helen
+                            Hartness Flanders.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10006">
+       Correspondence,
+       <date localtype="inclusive" normal="1963-01/1963-06">
+        January-June
+                                1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963-01/1963-06" unitdatetype="inclusive">
+       January-June 1963
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Maud Karpeles, Sarah Gertrude
+                            Knott, Ed Cray, Willard Rhodes, William N. Fenton, Anne Grimes, John
+                            Burrison, Mamie Meredith, Jan Brunvand, Annabel Morris Buchanan, and
+                            Halim El-Dabh.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10007">
+       Correspondence,
+       <date localtype="inclusive" normal="1963-07/1963-12">
+        July-December
+                                1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963-07/1963-12" unitdatetype="inclusive">
+       July-December 1963
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Arthur Luce Klein, Kenneth
+                            Goldstein, John Greenway, Sterling A. Brown, Jac Holzman, Bruno Nettl,
+                            John Greenway, Harold Spivacke, Bruce Jackson, Ruth Rubin, Willard
+                            Rhodes, and Ellen Stekert.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10008">
+       Correspondence,
+       <date normal="1964">
+        1964
+       </date>
+      </unittitle>
+      <unitdate normal="1964">
+       1964
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Negley K. Teeters, Jac Holzman,
+                            Archie Green, James G. Fulton, Ann Moray, Harry Oster, Evelyn K. Wells,
+                            Donald Shaw Ramsey, Charles Seeger, Norman Cazden, Ralph Rinzler, James
+                            J. Fuld, Bruce Jackson, Henrietta Yurchenco, and Wayland Hand.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10009">
+       Correspondence,
+       <date normal="1965">
+        1965
+       </date>
+      </unittitle>
+      <unitdate normal="1965">
+       1965
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Hubert Humphrey, Frank Warner,
+                            Helen Bullard [Helen Bullard Kreckniak], Frank Gillis, Sandy Ives,
+                            Arthur F. Schrader, Judith McCulloh, Jan Brunvand, Laura Boulton, Maud
+                            Karpeles, Helga Sandburg, Annabel Morris Buchanan, Pete Seeger, Dick
+                            Waterman, Helen Hartness Flanders, Alice Hutchins Drake, Harold
+                            Spivacke, and Willard Rhodes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10010">
+       Correspondence,
+       <date normal="1966">
+        1966
+       </date>
+      </unittitle>
+      <unitdate normal="1966">
+       1966
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Archie Green, Sandy Ives, Helen
+                            Bullard [Helen Bullard Kreckniak], Beatrice Kane McLain, Herbert
+                            Halpert, Austin Fife, Harold Spivacke, Charles Seeger, D.K. Wilgus,
+                            Frank Gillis, Sidney Robertson Cowell, and Will Geer.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10011">
+       Correspondence,
+       <date normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate normal="1967">
+       1967
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include John Meredith Langstaff, Charles H.
+                            Faurot, D.K. Wilgus, Barbara Krader, Harry Oster, Bernard Klatzko, Edith
+                            Fowke, Alan Jabbour, Frank Gillis, Ruth Rubin, Don Yoder, Bruce Jackson,
+                            Austin Fife, Alta Fife, Henry Glassie, and Benjamin Botkin.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10012">
+       Correspondence,
+       <date localtype="inclusive" normal="1968-01/1968-05">
+        January-May
+                                1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968-01/1968-05" unitdatetype="inclusive">
+       January-May 1968
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Don Yoder, Bernard Klatzko,
+                            Benjamin Botkin, Austin Fife, Ruth Rubin, Archie Green, Oscar Brand,
+                            Dick Reuss [Richard A. Reuss], Alfred Frankenstein, Marie Kiersted
+                            Pidgeon, Wayland Hand, Helen Hartness Flanders, Archie Green, Richard
+                            Dorson, Carl Withers, Michael Cooney, and Richard Nixon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10013">
+       Correspondence,
+       <date localtype="inclusive" normal="1968-06/1968-12">
+        June-December
+                                1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968-06/1968-12" unitdatetype="inclusive">
+       June-December 1968
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Willard Rhodes, Alfred
+                            Frankenstein, Marie Kiersted Pidgeon, Wayland Hand, Helen Hartness
+                            Flanders, Archie Green, Richard Dorson, Oscar Brand, and Michael
+                            Cooney.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10014">
+       Correspondence,
+       <date normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate normal="1969">
+       1969
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Willard Rhodes, Helen Creighton,
+                            William N. Fenton, Helga Sandburg, Hilda Kring, Joe Glazer, Francis
+                            Utley, Theodore Grame, Dieter Christensen, and L. Quincy Mumford. A
+                            black-and-white photo of a house in this folder, sent by Hilda
+                            Kring.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10015">
+       Correspondence,
+       <date normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate normal="1982">
+       1982
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Willard Rhodes and Claire
+                            Marwick.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10016">
+       Correspondence,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondents and recipients include Charles Seeger and Carolyn
+                            Hester.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10017">
+      Series 2: Library of Congress
+                        and the Archive of Folk Song
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/1-2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10018">
+       LC Information Bulletin,
+       <date localtype="inclusive" normal="1950/1969">
+        circa
+                                1950s-1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950/1969" unitdatetype="inclusive">
+       circa 1950s-1960s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes complete and partial issues. Most are originals, with some
+                            photocopies, plus a typed draft notice for the April 1, 1966 issue.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10019">
+       LC press releases,
+       <date localtype="inclusive" normal="1962/1967">
+        1962-1967,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1962/1967" unitdatetype="inclusive">
+       1962-1967
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10020">
+       LC official
+                            communications,
+       <date localtype="inclusive" normal="1961/1969">
+        1961-1969,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1961/1969" unitdatetype="inclusive">
+       1961-1969
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes memos, orders, regulations, announcements, and circulars.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10021">
+       Recommending officers,
+       <date localtype="inclusive" normal="1960/1969">
+        1960-1969,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       1960-1969
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Lists of LC staff members from various divisions and their area(s) of
+                            expertise.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10022">
+       Music Division, Library
+                            of Congress: inventories,
+       <date localtype="inclusive" normal="1960/1969">
+        1960-1969,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       1960-1969
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes inventories related to the Archive of Folk Song.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10023">
+       Archive of Folk Song:
+                            descriptions and holdings,
+       <date localtype="inclusive" normal="1940/1966">
+        1940-1966,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940/1966" unitdatetype="inclusive">
+       1940-1966
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Also includes a page from the annual report, for the year ending
+                            1959.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10024">
+       Reading room visitors:
+                            Archive of Folk Song and Recording Laboratory,
+       <date localtype="inclusive" normal="1960/1967">
+        1960-1967,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1967" unitdatetype="inclusive">
+       1960-1967
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/9-10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10025">
+       Serial orders:
+                            administrative documents and notes,
+       <date localtype="inclusive" normal="1954/1966">
+        1954-1966,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1966" unitdatetype="inclusive">
+       1954-1966
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10026">
+       Personnel file: Rae
+                            Korson,
+       <date localtype="inclusive" normal="1947/1969">
+        1947-1969,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1947/1969" unitdatetype="inclusive">
+       1947-1969
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Korson's copy of documents related to her employment, rather than the
+                            official personnel file. Includes job descriptions, performance rating
+                            documents and notices related to promotions and advancements,
+                            handwritten notes, selected pages from the LC Information Bulletin, and
+                            other documents. The folder also includes the vita sheet for Donald H.
+                            Winkelman, and a copy of a memo to Mr. Berry, recommending the
+                            appointment of Alan Jabbour to the position of Head of the Archive of
+                            Folk Song.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10027">
+       Travel,
+       <date localtype="inclusive" normal="1954/1968">
+        1954-1968,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1954/1968" unitdatetype="inclusive">
+       1954-1968
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Travel itineraries, copies of official leave requests, and related
+                            documents.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10028">
+      Series 3: Folk studies and
+                        activities
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Events, organizations, and promotional materials related to folk studies and
+                        activities.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10029">
+       Professional meetings,
+                            organizations, and related documents,
+       <date localtype="inclusive" normal="1961/1969">
+        1961-1969,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1961/1969" unitdatetype="inclusive">
+       1961-1969
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Documents related to meetings of the American Folklore Society (AFS) and
+                            the Society for Ethnomusicology (SEM), as well as travel-related
+                            documents.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10030">
+       Institutional news,
+                            public events, and announcements,
+       <date localtype="inclusive" normal="1957/1982">
+        1957-1982,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1957/1982" unitdatetype="inclusive">
+       1957-1982
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes a program inscribed and signed by Odetta.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10031">
+       Writings, reviews, and
+                            related documents,
+       <date localtype="inclusive" normal="1960/1967">
+        1960-1967,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1967" unitdatetype="inclusive">
+       1960-1967
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes typed and handwritten documents, most in draft form.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10032">
+       Notes,
+       <date localtype="inclusive" normal="1960/1969">
+        circa 1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa 1960s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Most are handwritten notes on various topics, probably transitory in
+                            nature.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10033">
+       Malapropisms,
+       <date localtype="inclusive" normal="1960/1969">
+        circa 1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa 1960s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Typed compilations from various sources.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10034">
+       New books and
+                            recordings,
+       <date localtype="inclusive" normal="1961/1968">
+        1961-1968,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1961/1968" unitdatetype="inclusive">
+       1961-1968
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes announcements for new publications and sound recordings, and
+                            related promotional literature. A Passover haggadah (in Hebrew and
+                            English) is included; kept with related materials received together, to
+                            preserve the integrity of the materials as a group.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10035">
+      Series 4: News
+                        coverage
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/1-4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10036">
+       Clippings,
+       <date localtype="inclusive" normal="1950/1969">
+        circa 1950s-1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950/1969" unitdatetype="inclusive">
+       circa 1950s-1960s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes magazine and newspaper clippings, and some complete
+                            sections.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10037">
+      Series 5: Offprints and
+                        serials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/5-7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10038">
+       Offprints and serials,
+       <date localtype="inclusive" normal="1952/1968">
+        1952-1968,
+       </date>
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1952/1968" unitdatetype="inclusive">
+       1952-1968
+      </unitdate>
+      <unitdate>
+       undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Offprints from various publications, selected complete issues of serials,
+                            and other publications. Includes music booklets, bulletins from folk
+                            music and folklore-related organizations, writings by folklore scholars
+                            including Archie Green and Benjamin A. Botkin, and Library of Congress
+                            publications. Some items are inscribed by authors to Rae Korson.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10039">
+      Series 6: Graphic
+                        materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       5/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10040">
+       Black-and-white
+                            photos
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH01
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10041">
+       The family of Thomas
+                            Wolfe, before his birth,
+       <date normal="1899-07-04">
+        July 4, 1899
+       </date>
+      </unittitle>
+      <unitdate normal="1899-07-04">
+       July 4, 1899
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 5 3/4 in. x 3 1/2 in. or smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copy of the original image. The family of Thomas Wolfe; his siblings and
+                            parents, in front of their Asheville home at 92 Woodfin Street.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH02
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10042">
+       Thomas Wolfe,
+       <date normal="1937">
+        circa 1937
+       </date>
+      </unittitle>
+      <unitdate normal="1937">
+       circa 1937
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 5 3/4 in. x 3 1/2 in. or smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Assumed to be a copy of the original image.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH03
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10043">
+       May Kennedy McCord,
+       <date localtype="inclusive" normal="1940/1959">
+        circa
+                                1940s-1950s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1940/1959" unitdatetype="inclusive">
+       circa 1940s-1950s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photographic image : blue and white on
+                            coated paper stock, 5 1/2 in. x 3 1/2 in. or smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Copy of a promotional image.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH04
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10044">
+       Vance Randolph,
+       <date normal="1958-07">
+        July 1958
+       </date>
+      </unittitle>
+      <unitdate normal="1958-07">
+       July 1958
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 5 in. x 4 in. or smaller
+      </physdesc>
+      <origination label="Photo credit">
+       <name>
+        <part>
+         Jan Brunvand
+        </part>
+       </name>
+      </origination>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH05
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10045">
+       Archer Taylor,
+       <date normal="1958-07">
+        July 1958
+       </date>
+      </unittitle>
+      <unitdate normal="1958-07">
+       July 1958
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 5 in. x 4 in. or smaller
+      </physdesc>
+      <origination label="Photo credit">
+       <name>
+        <part>
+         Jan Brunvand
+        </part>
+       </name>
+      </origination>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH06
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10046">
+       Jim Smart and Rae
+                            Korson,
+       <date normal="1963-07">
+        July 1963
+       </date>
+      </unittitle>
+      <unitdate normal="1963-07">
+       July 1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 2 1/2 in. x 2 1/2 in. or smaller
+      </physdesc>
+      <origination label="Photo credit">
+       <name>
+        <part>
+         H. Spivacke
+        </part>
+       </name>
+      </origination>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH07
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10047">
+       Rae Korson, an
+                            unidentified man, and an unidentified woman,
+       <date normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate normal="1968">
+       1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white print, 5 1/2 in. x
+                            3 1/2 in. or smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Memento photo in a presentation/keepsake holder, printed with the words
+                            "Vacances 1968 / Courchevel 1850." Courchevel 1850 was and is a resort
+                            in Courchevel, France.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH08
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10048">
+       Grotto at Old Economy
+                            Village, Cambridge, Pennsylvania,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 4 1/2 in. x 3 1/2 in. or smaller
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Handwritten on the verso: "The Grotto at old Economy, Cambridge, Pa.
+                            Enclosed is Myra's letter. Thought you could stay at the same place.
+                            Looking forward to seeing you. Fondly, Hilda." The photo is stored in
+       <ref target="ref_id10014">
+        Box-folder 2/6
+       </ref>
+       with Hilda Kring's
+                            letter.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH09
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10049">
+       Sam Holmes,
+       <date normal="1964-06">
+        June 1964
+       </date>
+      </unittitle>
+      <unitdate normal="1964-06">
+       June 1964
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 3 1/2 in. x 5 in.
+      </physdesc>
+      <origination label="Photo credit">
+       <name>
+        <part>
+         Bruce Jackson
+        </part>
+       </name>
+      </origination>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The photo is stored in
+       <ref target="ref_id10008">
+        Box-folder 1/7
+       </ref>
+       ,
+                            in the folder with the Bruce Jackson letter.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH10
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10050">
+       Folklore store front, in
+                            Chamonix, France,
+       <date normal="1961-07">
+        July 1961
+       </date>
+      </unittitle>
+      <unitdate normal="1961-07">
+       July 1961
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of a store front with signage indicating its name or more likely
+                            what it sells is "Folklore." Photographed from the street, with people
+                            and goods in the photo. The photographer's name handwritten on the verso
+                            may be "Mr. Apivailu."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH11
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10051">
+       Rae Korson, probably at
+                            the Library of Congress,
+       <date normal="1963-02">
+        February 1963
+       </date>
+      </unittitle>
+      <unitdate normal="1963-02">
+       February 1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Rae Korson, seated in a chair next to crates of materials, posed as if
+                            filing a 10-inch commercial sound disc in its sleeve. Photo by Joseph
+                            Silverman (Star staff).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH12
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10052">
+       Retirement event for
+                            Pauline Bollenbacher, probably at the Library of Congress; from left:
+                            Robert S. Bray, Pauline Bollenbacher, Dr. L. Quincy Mumford,
+       <date normal="1966-12-16">
+        December 16, 1966
+       </date>
+      </unittitle>
+      <unitdate normal="1966-12-16">
+       December 16, 1966
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Robert S. Bray was at that time the Chief of the Division for the Blind.
+                            Pauline Bollenbacher was the selection officer for the Library's
+                            Division for the Blind. Dr. Mumford was the Librarian of Congress
+                            (1954-1974). Photograph taken by Library of Congress staff.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Photo ID">
+       AFC 1986/003: PH13
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10053">
+       Burl Ives in the Library
+                            of Congress recording studio,
+       <date normal="1950">
+        1950
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1950">
+       1950
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photo : black-and-white gelatin emulsion
+                            print, 8 in. x 10 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ives is posed before a mic and holding a guitar, as if singing to the
+                            young boy sitting on a desk. Photograph taken by Library of Congress
+                            staff. See the Prints and Photographs Division
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.pnp/ds.10187" show="new">
+        digital version
+       </ref>
+       of the same image.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

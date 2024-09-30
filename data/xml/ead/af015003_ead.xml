@@ -1,0 +1,5236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af015003" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af015003
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Ethnic Heritage and Language Schools in America
+               Project collection
+    </titleproper>
+    <subtitle>
+     AFC 1993/001
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by American Folklife Center staff
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2015-04">
+     April 2015
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695181" show="new">
+       https://lccn.loc.gov/2004695181
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     2020-02
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-02">
+     Febuary, 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Added handles for appendices.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2015-04">
+     April 2015
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Kate Stewart
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Ethnic Heritage and Language Schools in
+            America Project collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1982/1986">
+     1982-1986
+    </date>
+   </unittitle>
+   <unitdate label="Inclusive Dates" normal="1982/1986" unitdatetype="inclusive">
+    1982-1986
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            1993/001
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress), collector
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      American Folklife Center, sponsor
+     </part>
+    </corpname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    18990 items ; 24 boxes ; 9.6 linear feet.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    25 boxes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    299 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    60 sound tape reels : analog ; 7
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Sound Recordings)">
+    24 sound tape reels : analog ; 5
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    1130 slides : color ; 35 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Graphic Materials)">
+    9072 photographs : film negatives, black
+               and white ; 35 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Moving Images)">
+    1 videocassette (UCA 30) ; 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (Microfilm)">
+    4 reels : black and white.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Manuscripts and curriculum materials are
+               in: Arabic, Armenian, Chinese, Czech, Dutch, Greek, Hebrew, Hungarian, Hupa,
+               Japanese, Khmer, Korean, Latvian, Lebanese, Lithuanian, Polish, Portuguese, Russian,
+               Spanish, Turkish, and Ukrainian.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists of field notes,
+            interviews, curriculum materials, sound recordings, photographs, and one videorecording
+            resulting from a survey conducted by the American Folklife Center, Library of Congress
+            in 1982 which documented 23 ethnic schools in the United States. Fieldwork was conducted
+            at various locations including: Armenian school in Watertown, Massachusetts; Cambodian
+            school in Houston, Texas; Chinese school in San Antonio, Texas; Czech school in Cedar
+            Rapids, Iowa; Dutch school in Pella, Iowa; German-Russian school in Strasburg, North
+            Dakota; Greek school in Birmingham, Alabama; Greek school in Buffalo, New York; Hebrew
+            school in Nashville, Tennessee; Hungarian school in New Brunswick, New Jersey; Hupa
+            language school in Hoopa Valley, California; Islamic school in Seattle, Washington;
+            Japanese school in Los Angeles, California; Korean school in Silver Spring, Maryland;
+            Latvian school in Milwaukee, Wisconsin; Lebanese school in Birmingham, Alabama; Polish
+            school in Chicago, Illinois; Portuguese school in Taunton, Massachusetts; Turkish school
+            in New York, N.Y.; Ukrainian school in Woonsocket, Rhode Island; and the East Harlem
+            Music School in New York, N.Y.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20230103154856.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Arocho, Rudy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Baird, Scott J., 1939-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Basa, Peter, 1935-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bell, Carole O.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bradunas, Elena
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bromberg, Joann Berlin
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cech, Barbara
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Conklin, Nancy Faires
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Davis, Lee (Anthropologist)
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Deak, Frank
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dwyer-Shick, Susan
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fast, Jana
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Feintuch, Burt, 1949-2018
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fish, Lydia M.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Fleischhauer, Carl
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Gates, Bob, 1950-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Haas, Mary-Louise
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kloberdanz, Timothy J.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Leung, John
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Long, Lucy M., 1956-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Marks, Morton
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McCallum, Brenda
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      McClain, Margy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Miller, Jefferson
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Nagy, Susan Mary
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Penti, Marsha Elizabeth, 1945-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Proschan, Frank
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sacks, Maurie
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Seipel, Sandy
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Skillman, Amy E.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Tarhan, Lance
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Topping, Brett, 1947-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Vidutis, Richard, 1945-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Webber, Philip E., 1944-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Westover, Victoria, 1958-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Arab Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Armenian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Buddhist education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cambodian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Caribbean Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Chinese Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Christian education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Czech Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dutch Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Education--Curricula--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethiopian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic arts--Study and teaching--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnic schools--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ethnicity in children--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing--Study and teaching.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folklore and education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Greek Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hungarian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hupa Indians--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Islamic education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Japanese Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jewish religious education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Jews--United States--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Korean Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Language schools--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Latvian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lebanese Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Lithuanian Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Minorities--Education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Minorities--United States--Language.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Polish Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Portuguese Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Religious education--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Turkish Americans--Education.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ukrainian Americans--Education.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="740">
+     <part>
+      Ethnic heritage and language schools in America.
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Also known as: Ethnic schools project
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Ethnography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Field notes.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Microfilms.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by series according to each school with additional series for
+               administrative and additional materials. The slides and photographs originally in Boxes 23-28 were rehoused and moved offsite; these box numbers are no longer in use.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Accessioned; 198?
+   </p>
+  </acqinfo>
+  <separatedmaterial encodinganalog="544">
+   <head>
+    Separated Material
+   </head>
+   <p>
+    Some manuscript material, including correspondence, field notes, contributor forms, sound recording logs, and transcripts were microfilmed and the originals were not retained. See
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015003.apx">
+     PDF
+    </ref>
+    for full microfilm inventory.
+   </p>
+  </separatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of the collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access restrictions apply; some or all content is
+               stored offsite. To request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <altformavail encodinganalog="530">
+   <head>
+    Other Format
+   </head>
+   <p>
+    Four microfilm reels of a portion of the manuscript project materials have also been
+               cataloged separately: Microfilm 95/4760 (L) with viewing copies available in the
+               Folklife Reading Room.
+   </p>
+  </altformavail>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Ethnic Heritage and Language Schools in America Project collection (AFC 1993/001),
+               Archive of Folk Culture, American Folklife Center, Library of Congress, Washington,
+               D.C.
+   </p>
+  </prefercite>
+  <bibliography encodinganalog="581">
+   <head>
+    Bibliography
+   </head>
+   <bibref>
+    Fourteen of the schools are represented in the book which resulted from this
+            survey: Bradunas, Elena and Topping, Brett, eds.
+    <title>
+     <part>
+      Ethnic heritage and language schools in America
+     </part>
+    </title>
+    . Washington, D.C.: American
+               Folklife Center, Library of Congress, 1988.
+   </bibref>
+  </bibliography>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    The project has its inspirational roots in the American Folklife Center's 1977 Chicago
+            Ethnic Arts Project, as well as in the scholarly writings of sociolinguist Joshua A.
+            Fishman. During the spring of 1982, the project was set in motion by Center staff member
+            Elena Bradunas to "try to understand the complex nature of ethnic identity and delineate
+            the cultural, historical, and social referents by which the group identifies itself."
+            Twenty-one primary fieldworkers were selected, two of which had one co-worker assisting.
+            All but two of these 23 have their curriculum vitae or resume on file (see
+            Correspondence). Of the 22 groups, 14 are represented in the resulting book,
+    <emph render="italic">
+     Ethnic Heritage and Language Schools in America
+    </emph>
+    .
+   </p>
+   <p>
+    The fieldworkers, followed by their respective ethnic group focus, were: Scott Baird
+            (Chinese), Carole O. Bell (Ukrainian), Elena Bradunas (Ethiopian and Lithuanian), JoAnn
+            Bromberg (Armenian), Lee Davis (Hupa Indian), Susan Dwyer-Shick (Islamic), Jana Fast
+            (Czechoslovakian), Burt Feintuch (Hebrew), Lydia Fish (Greek, NY), Timothy J. Kloberdanz
+            (German-Russian), Lucy Long (Korean), Morton Marks (Urban Caribbean/Hispanic), Brenda
+            McCallum (Lebanese and Greek), Margy McClain (Polish), Susan Nagy (Hungarian), Marsha
+            Penti (Portuguese), Frank Proschan (Cambodian), Maurie Sacks (Turkish), Amy E. Skillman
+            (Japanese), Ričardas Vidutis (Latvian), Phil Webber (Dutch). In addition to the
+            aforementioned fieldworkers, Nancy Conklin assisted Brenda McCallum in studying the
+            Lebanese and Greek schools in Birmingham, Alabama, and Mary-Louise Haas assisted Carole
+            O. Bell with the study of the Ukrainian school.
+   </p>
+   <p>
+    Three individuals served as consultants to the project: Dr. Joshua A. Fishman, who was
+            consulted regarding sociolinguistics; Ewa Hauser, who supplemented the study of the
+            Polish school by conducting an independent study of Polish curriculum materials; Dr.
+            Richard Hulan, who was consulted on ethnic schools in general.
+   </p>
+   <p>
+    Fieldwork consisted of a commitment of at least three site visits to a fieldworker's
+            respective ethnic school over a three month period, between April and July 1982. While
+            most of the fieldwork was finished by the summer of 1982, the final papers went through
+            a series of editing up through September of 1986. Elena Bradunas left the project after
+            the first round of editing, after which Brett Topping assumed the editing role. Long
+            reports were shortened and standardized for the purpose of publishing. Both long and
+            short versions of the fieldworkers' reports have been retained in both the microfilmed
+            and unmicrofilmed format.
+   </p>
+   <p>
+    While the majority of the fieldworkers did their own photography, seven were assisted by
+            one or two others. Supplementary photographers include: Rudy Arocho (Chinese), Peter
+            Basa (Hungarian), Barbara Cech (Dutch), Frank Deak, Jr. (Hungarian), Carl Fleischhauer
+            (Ethiopian and Lithuanian), Bob Gates (Hebrew), John Leung, Jr. (Chinese), Sandy Seipel
+            (Hupa Indian), and Vicky Westover (Armenian).
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The Ethnic Heritage and Language Schools in America Project Collection (also called the
+            Ethnic Schools Project) represents 22 ethnic groups: Armenian, Cambodian, Chinese,
+            Czechoslovakian, Dutch, Ethiopian, German-Russian, two different Greek communities,
+            Hebrew, Hungarian, Hupa Indian, Islamic, Japanese, Korean, Latvian, Lebanese,
+            Lithuanian, Polish, Portuguese, Turkish, Ukrainian, and Urban Caribbean/Hispanic.
+   </p>
+   <p>
+    The collection consists of field notes, interviews, curriculum materials, sound
+            recordings, photographs, and one videorecording resulting from a survey conducted by the
+            American Folklife Center, Library of Congress in 1982 which documented 23 ethnic schools
+            in the United States. Fieldwork was conducted at various locations including: Armenian
+            school in Watertown, Massachusetts; Cambodian school in Houston, Texas; Chinese school
+            in San Antonio, Texas; Czech school in Cedar Rapids, Iowa; Dutch school in Pella, Iowa;
+            German-Russian school in Strasburg, North Dakota; Greek school in Birmingham, Alabama;
+            Greek school in Buffalo, New York; Hebrew school in Nashville, Tennessee; Hungarian
+            school in New Brunswick, New Jersey; Hupa language school in Hoopa Valley, California;
+            Islamic school in Seattle, Washington; Japanese school in Los Angeles, California;
+            Korean school in Silver Spring, Maryland; Latvian school in Milwaukee, Wisconsin;
+            Lebanese school in Birmingham, Alabama; Polish school in Chicago, Illinois; Portuguese
+            school in Taunton, Massachusetts; Turkish school in New York, N.Y.; Ukrainian school in
+            Woonsocket, Rhode Island; and the East Harlem Music School in New York, N.Y.
+   </p>
+   <p>
+    Approximately 200 individuals were interviewed. On the average a fieldworker interviewed
+            nine informants, though four groups do not list the number of their informants. The
+            interviews were to focus on the school's history, financing, administrative concerns,
+            curriculum, teachers, parents, and children.
+   </p>
+   <p>
+    Fieldworkers took photographs and slides of the schools and collected curriculum
+            materials. While the bulk of this material was made up of textbooks, other items were
+            included, such as: flash cards, calendars, workbooks, mimeographed sheets from homemade
+            notebooks, and an 80-slide carousel with accompanying tape cassette. Miscellaneous
+            photos were also donated by five schools ranging from a few class photos to a 3-ring
+            notebook full of black and white as well as color photos from the Hungarian school.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <p>
+    See
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015003.apx">
+     PDF
+    </ref>
+    for more detailed inventory of manuscripts and materials copied to microfilm, which includes correspondence, fieldnotes, sound recording logs, titles of curriculum materials and names of interviewees.
+   </p>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Administrative
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Contents
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Introductory Materials
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Introduction to Elena Bradunas and the
+                     project
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Original draft of inventory
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Consultancy with Dr. Joshua A.
+                     Fishman
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Consultancy with Dr. Richard Hulan
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ethnic curriculum materials (7
+                     folders)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Project abstract
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Draft proposals
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Project calendars
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Project announcements
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Addresses of fieldworkers
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chart and lists of fieldworkers and schools (5
+                     folders)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Responsibilities of fieldworkers
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       “Some things considered...” by Elena
+                     Bradunas
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Organizing and numbering field
+                     documentation
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photography advice
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Budget and expenditures
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Assessment workshop (held August 26 and 27,
+                     1982)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Overall project expenditures-summary
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Project synopsis
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Request for transfer of documents
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photograph and audio logs
+      </unittitle>
+      <physdesc encodinganalog="300">
+       9 5 1⁄4 -inch floppy
+                     discs
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       “Calendar” notes in a spiral steno
+                     pad
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sound recording tape inventory
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Notes on relevant materials in WPA
+                     files
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photo inventory and inventory of mailing packets
+                     sent to AFC
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Miscellaneous copies of photos from
+                     miscellaneous sources
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Book,
+       <emph render="italic">
+        Ethnic Heritage and Language Schools in
+                     America
+       </emph>
+       (1988)
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="reel">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Microfilmed material
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: The Armenian General Benevolent Union
+                  (AGBU) Armenian Elementary School, Watertown, Massachusetts (Fieldworkers JoAnn
+                  Bromberg and Vicky Westover)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo logs and corresponding contact
+                        sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials from the Armenian Relief
+                        Society (2 folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials from the Armenian Relief
+                        Society
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications and news clippings
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-12/1982-06-30">
+         May 12-June 30,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-12/1982-06-30" unitdatetype="inclusive">
+        May 12-June 30,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,359-AFS 23,374
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Sounds of Armenia, A.R.S. Armenian Ethnic
+                        Heritage Project, Armenian Relief Society,
+        <date localtype="inclusive" normal="1976">
+         copyright
+                        1976
+        </date>
+       </unittitle>
+       <unitdate normal="1976" unitdatetype="inclusive">
+        copyright
+                        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 audiocassette
+       </physdesc>
+       <unitid label="ID">
+        AFC 1993/001: SR01
+       </unitid>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        “They Came from Ararat”
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 audiocassette
+       </physdesc>
+       <unitid label="ID">
+        AFC 1993/001: SR02
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-06">
+         June 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06" unitdatetype="inclusive">
+        June 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        77 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-15/1982-06-16">
+         May 15-June 16, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-15/1982-06-16" unitdatetype="inclusive">
+        May 15-June 16, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 rolls (5 roles are
+                        missing)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        10 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Class picture
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 color print (8 x 10
+                        inch)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        “They Came from Ararat”: Curriculum materials
+                        from the Armenian Relief Society
+       </unittitle>
+       <physdesc encodinganalog="300">
+        80 slides (some in
+                        color)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: The Cambodian/Khmer School, Houston,
+                  Texas (Fieldworker Frank Proschan)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo logs and corresponding contact sheets
+                        for black and white photographs
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-20/1982-06-12">
+         April 20-June 12,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-20/1982-06-12" unitdatetype="inclusive">
+        April 20-June 12,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        13 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,375-AFS 23,387
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-24/1982-06-11">
+         April 24-June 11,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-06-11" unitdatetype="inclusive">
+        April 24-June 11,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        74 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-24/1982-06-13">
+         April 24-June 13, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-06-13" unitdatetype="inclusive">
+        April 24-June 13, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        12 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: The Chinese School of San Antonio, Texas
+                  (Fieldworkers Scott Baird and Rudy Arocha)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-20/1982-05-21">
+         April 20-May 21,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-20/1982-05-21" unitdatetype="inclusive">
+        April 20-May 21,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,401-AFS 23,410
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-23">
+         April 23,
+                        1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-23" unitdatetype="inclusive">
+        April 23,
+                        1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        27 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-20/1982-06-24">
+         April 20-June 24, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-20/1982-06-24" unitdatetype="inclusive">
+        April 20-June 24, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        7 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 5: The Czech School, Cedar Rapids, Iowa
+                  (Fieldworker Jana Fast)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials (items 1-3 of
+                        6)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials (items 4-6 of
+                        6)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous, folder 1 of 2
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        34
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous, folder 2 of 2
+                        (oversize)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-06-17/1982-07-02">
+         June 17-July 2,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06-17/1982-07-02" unitdatetype="inclusive">
+        June 17-July 2,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,411-AFS 23,418
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-07-02">
+         July 2,
+                        1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-07-02" unitdatetype="inclusive">
+        July 2,
+                        1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-06-29">
+         June 29,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06-29" unitdatetype="inclusive">
+        June 29,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 roll
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 6: Pella Christian Grade School [Dutch],
+                  Pella, Iowa (Fieldworkers Philip Webber and Barbara Cech)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials (4 folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous (3 folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-29/1982-07-29">
+         April 29-July 29,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-29/1982-07-29" unitdatetype="inclusive">
+        April 29-July 29,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,424-AFS 23,423
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-03/1982-06">
+         May 6-June
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-03/1982-06" unitdatetype="inclusive">
+        May 6-June
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        166 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-03/1982-07">
+         May
+                           6-July 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-03/1982-07" unitdatetype="inclusive">
+        May
+                           6-July 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        29 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        7 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 7: German-Russian Ethnic Studies at Emmons
+                  Central High School, Strasburg, North Dakota (Fieldworker Timothy J.
+                  Kloberdanz)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-03/1982-06-08">
+         March-June 8,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-03/1982-06-08" unitdatetype="inclusive">
+        March-June 8,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,454-AFS 23,463
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-28/1982-06-09">
+         April 28-June 9,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-28/1982-06-09" unitdatetype="inclusive">
+        April 28-June 9,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        85 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-13/1982-06-09">
+         April 13-June 9, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-13/1982-06-09" unitdatetype="inclusive">
+        April 13-June 9, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        7 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        3 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 8: The Greek School at the Hellenic
+                  Orthodox Church of the Annunciation, Buffalo, New York (Fieldworker Lydia
+                  Fish)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-24/1982-07-12">
+         April 24-July 12,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-07-12" unitdatetype="inclusive">
+        April 24-July 12,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,464-AFS 23,483
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-02/1982-07-25">
+         May 2-July 25, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-02/1982-07-25" unitdatetype="inclusive">
+        May 2-July 25, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 9: The West End Synagogue [Hebrew],
+                  Nashville, Tennessee (Fieldworker Burt Feintuch)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications, news clippings,
+                        etc.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-18/1982-05-12">
+         April 18-May 12,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-18/1982-05-12" unitdatetype="inclusive">
+        April 18-May 12,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,554-AFS 23,567
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-02">
+         May 2,
+                        1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-02" unitdatetype="inclusive">
+        May 2,
+                        1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        31 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-18/1982-05-12">
+         April 18-May 12, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-18/1982-05-12" unitdatetype="inclusive">
+        April 18-May 12, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 10: Hétvégi Magyar Iskola és Óvoda Hungarian
+                  Saturday Classes and Kindergarten, New Brunswick, New Jersey (Susan Nagy)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photograph inventory and corresponding
+                        contact sheets (Appendix IX)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Appendix V: graduation materials and
+                        yearbooks (3 folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum reading materials (4
+                        folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Published materials, news clippings,
+                        pamphlets, etc.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Appendix X: supplementary
+                        materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a">
+        11 publications (not in folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-24/1982-06-08">
+         April 24-June 8,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-06-08" unitdatetype="inclusive">
+        April 24-June 8,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        15 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,494-AFS 23,508
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-01/1982-05-22">
+         May 1-22,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-01/1982-05-22" unitdatetype="inclusive">
+        May 1-22,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        61 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-22">
+         May 22,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-22" unitdatetype="inclusive">
+        May 22,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        2 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargement
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black and white print (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photograph album,
+        <date localtype="inclusive" normal="1974/1980">
+         1974-1980
+        </date>
+       </unittitle>
+       <unitdate normal="1974/1980" unitdatetype="inclusive">
+        1974-1980
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Photocopies of approximately 100 black
+                           and white and color photographs (various size)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 11: Hupa Indian Language Schools, Hoopa,
+                  California (Fieldworkers Lee Davis and Sandy Seipel)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-06-03/1982-07-01">
+         June 3-July 1,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06-03/1982-07-01" unitdatetype="inclusive">
+        June 3-July 1,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        11 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,509-AFS 23,519
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-06-17/1982-07-01">
+         June 17-July 1,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06-17/1982-07-01" unitdatetype="inclusive">
+        June 17-July 1,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        58 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-24/1982-07-01">
+         May 24-July 1, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-24/1982-07-01" unitdatetype="inclusive">
+        May 24-July 1, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargement
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 12: The Islamic School of Seattle (ISS),
+                  Seattle, Washington (Fieldworker Susan Dwyer-Shick)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo logs and corresponding contact
+                        sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Class pictures
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 7 x 7 inch color
+                        prints
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications, news clippings,
+                        etc.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-05/1982-06-10">
+         May 5-June 10,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-05/1982-06-10" unitdatetype="inclusive">
+        May 5-June 10,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        22 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,520-AFS 23,530
+       </unitid>
+       <unitid label="ID">
+        AFc 1993/001 SR03-13
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-12/1982-06-24">
+         May 12-June 24, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-12/1982-06-24" unitdatetype="inclusive">
+        May 12-June 24, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        12 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        5 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 13: The Senshin Gakuin and the Dharma
+                  School of the Senshin Buddhist Church of Los Angeles, California [Japanese
+                  Buddhists] (Fieldworker Amy E. Skillman)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous (3 folders)
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dharma School Teacher's Guide
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-15/1982-06-19">
+         May 15-June 19,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-15/1982-06-19" unitdatetype="inclusive">
+        May 15-June 19,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        23 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,531-AFS 23,553
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-08/1982-07-17">
+         May 8-July 17,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-08/1982-07-17" unitdatetype="inclusive">
+        May 8-July 17,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        63 sllides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-27/1982-06-10">
+         May 27-June 10, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-27/1982-06-10" unitdatetype="inclusive">
+        May 27-June 10, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        6 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 14: The First Korean School, Silver Spring,
+                  Maryland (Fieldworker Lucy Long)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Children's serial
+       </unittitle>
+       <physdesc encodinganalog="300">
+        12 volumes
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-03-13/1982-06-16">
+         March 13-June 19,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-03-13/1982-06-16" unitdatetype="inclusive">
+        March 13-June 19,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        29 7-inch reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,568-AFS 23,596
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-24/1982-05-15">
+         April 24-May 15,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-05-15" unitdatetype="inclusive">
+        April 24-May 15,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        90 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1981/1982-06-19">
+         Fall
+                           1981-June 19, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1981/1982-06-19" unitdatetype="inclusive">
+        Fall
+                           1981-June 19, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        27 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        10 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 15: Oskars Kalpaks Latvian Saturday School,
+                  Wauwatosa, Wisconsin (Fieldworker Ričardas (Richard) Vidutis)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-08/1982-06-10">
+         May 8-June 10,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-08/1982-06-10" unitdatetype="inclusive">
+        May 8-June 10,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        37 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,597-AFS 23,633
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-23/1982-06-12">
+         May 23-June 12,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-23/1982-06-12" unitdatetype="inclusive">
+        May 23-June 12,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        67 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-24/1982-06-10">
+         April 24-June 10, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-24/1982-06-10" unitdatetype="inclusive">
+        April 24-June 10, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        8 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 16: The Lebanese Arabic School and The
+                  Greek School, Birmingham, Alabama (Fieldworkers Brenda McCallum and Nancy
+                  Conklin)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slides and photos and corresponding contact
+                        sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Supplementary materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-20/1982-06-09">
+         April 20-June 9,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-20/1982-06-09" unitdatetype="inclusive">
+        April 20-June 9,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,634-AFS 23,639
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-28/1982-05-12">
+         April 28-May 12,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-28/1982-05-12" unitdatetype="inclusive">
+        April 28-May 12,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        36 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-28/1982-06-09">
+         April 28-June 9, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-28/1982-06-09" unitdatetype="inclusive">
+        April 28-June 9, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargement
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black and white print (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 17: General Casimir Pulaski Polish School,
+                  Chicago, Illinois (Fieldworker Margy McClain)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, Item A.1
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        12 publications/primers in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, Item A.1B
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        14
+       </container>
+       <unittitle encodinganalog="245$a">
+        11 publications/primers in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        15
+       </container>
+       <unittitle encodinganalog="245$a">
+        5 publications in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle encodinganalog="245$a">
+        2 publications in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, Item A.28 through Item
+                        A.30
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle encodinganalog="245$a">
+        6 publications in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, C.1 through
+                        C.4.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, D.1. through
+                        D.3.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, E.1. through
+                        E.9.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, F.1. through
+                        F.5.d.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials, F.6.a. through
+                        F.6.c.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        17
+       </container>
+       <unittitle encodinganalog="245$a">
+        3 publications in Polish
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials-1) G.1.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Polish – Appendices
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Polish – Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-30/1982-06-02">
+         April 30-June 2,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-30/1982-06-02" unitdatetype="inclusive">
+        April 30-June 2,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 sound cassettes and 24 7-inch
+                           reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,649-AFS 23,683
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-08/1982-05-28">
+         May 8-28,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-08/1982-05-28" unitdatetype="inclusive">
+        May 8-28,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        100 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-01/1982-05-28">
+         May 1-28, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-01/1982-05-28" unitdatetype="inclusive">
+        May 1-28, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        11 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 18: Polish Curriculum Materials by Ewa
+                  Hauser
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo inventory and corresponding contact
+                        sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final report
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 19: The Official Portuguese School of the
+                  Taunton Sports Club, Taunton, Massachusetts (Fieldworker Marsha Penti)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        19
+       </container>
+       <unittitle encodinganalog="245$a">
+        13 publications in Portuguese
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        4 publications in Portuguese
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum, supplementary
+                        materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications, news clippings,
+                        etc.
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-21/1982-06-09">
+         April 21-June 9,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-21/1982-06-09" unitdatetype="inclusive">
+        April 21-June 9,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,684-AFS 23,700
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-06-25">
+         June 25,
+                        1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-06-25" unitdatetype="inclusive">
+        June 25,
+                        1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        37 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-14/1982-06-25">
+         April 14-June 25, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-14/1982-06-25" unitdatetype="inclusive">
+        April 14-June 25, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        6 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 20: The Atatürk School [Turkish], New York,
+                  New York (Fieldworker Maurie Sacks)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials – 2) A and B through 3)
+                        A
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Publications, news clippings, etc. - 1) A
+                        through 1) I
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-01/1982-05-22">
+         May 1-22,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-01/1982-05-22" unitdatetype="inclusive">
+        May 1-22,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        9 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,701-AFS 23,705
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Black and white negatives,
+       <date localtype="inclusive" normal="1982-05-08/1982-05-29">
+        May
+                        8-29, 1982
+       </date>
+      </unittitle>
+      <unitdate normal="1982-05-08/1982-05-29" unitdatetype="inclusive">
+       May
+                        8-29, 1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       13 rolls
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        4 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 21: St. Michael's Ukrainian Orthodox Church,
+                  Woonsocket, Rhode Island (Fieldworkers Carol O. Bell and Mary Louise
+                  Haas)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Miscellaneous
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final reports
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-04-30/1982-05-30">
+         April 30-May 30,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-30/1982-05-30" unitdatetype="inclusive">
+        April 30-May 30,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        13 sound cassettes
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,706-AFS 23,718
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-04-30/1982-05-30">
+         April 30-May 30,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-30/1982-05-30" unitdatetype="inclusive">
+        April 30-May 30,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        20 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-04-30/1982-05-30">
+         April 30-May 30, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-04-30/1982-05-30" unitdatetype="inclusive">
+        April 30-May 30, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        6 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black and white print (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 22: East Harlem Music School [Urban
+                  Caribbean/Hispanic], New York, New York (Fieldworker Morton Marks)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slide and photo logs and corresponding
+                        contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Final report
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Sound Recordings
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Interviews,
+        <date localtype="inclusive" normal="1982-05-25/1982-08-07">
+         May 25-August 7,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-25/1982-08-07" unitdatetype="inclusive">
+        May 25-August 7,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        6 sound cassettes and 7 7-inch
+                           reels
+       </physdesc>
+       <unitid label="ID">
+        AFS 23,388-AFS 23,400
+       </unitid>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Slides,
+        <date localtype="inclusive" normal="1982-05-30/1982-08-07">
+         May 30-August 7,
+                           1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-30/1982-08-07" unitdatetype="inclusive">
+        May 30-August 7,
+                           1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        67 slides
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date localtype="inclusive" normal="1982-05-20/1982-06-02">
+         May 20-June 2, 1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982-05-20/1982-06-02" unitdatetype="inclusive">
+        May 20-June 2, 1982
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 23: Ethiopian School, Washington, D.C.
+                  (Fieldworker Elena Bradunas)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Curriculum materials
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        18 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        6 black and white prints (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 24: K. Donelaitis Lithuanian School,
+                  Rockville, Maryland (Fieldworker Elena Bradunas)
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="reel">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Microfilmed material
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Graphic Images
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Black and white negatives,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate>
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        7 rolls
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contact sheets
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Enlargements
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black and white print (8 x 10
+                           inch)
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 25: End Products
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence, newsletters,
+                     workshops
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 26: General Ethnic Related
+                  Materials
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contents
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1940">
+         1940
+        </date>
+       </unittitle>
+       <unitdate normal="1940" unitdatetype="inclusive">
+        1940
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1956">
+         1956
+        </date>
+       </unittitle>
+       <unitdate normal="1956" unitdatetype="inclusive">
+        1956
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1964">
+         1964
+        </date>
+       </unittitle>
+       <unitdate normal="1964" unitdatetype="inclusive">
+        1964
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1969">
+         1969
+        </date>
+       </unittitle>
+       <unitdate normal="1969" unitdatetype="inclusive">
+        1969
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1970">
+         1970
+        </date>
+       </unittitle>
+       <unitdate normal="1970" unitdatetype="inclusive">
+        1970
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1974">
+         1974
+        </date>
+       </unittitle>
+       <unitdate normal="1974" unitdatetype="inclusive">
+        1974
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1976">
+         1976
+        </date>
+       </unittitle>
+       <unitdate normal="1976" unitdatetype="inclusive">
+        1976
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1977">
+         1977
+        </date>
+       </unittitle>
+       <unitdate normal="1977" unitdatetype="inclusive">
+        1977
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1978">
+         1978
+        </date>
+       </unittitle>
+       <unitdate normal="1978" unitdatetype="inclusive">
+        1978
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1979">
+         1979
+        </date>
+       </unittitle>
+       <unitdate normal="1979" unitdatetype="inclusive">
+        1979
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1980">
+         1980
+        </date>
+       </unittitle>
+       <unitdate normal="1980" unitdatetype="inclusive">
+        1980
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1981">
+         1981
+        </date>
+       </unittitle>
+       <unitdate normal="1981" unitdatetype="inclusive">
+        1981
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1982">
+         1982
+        </date>
+       </unittitle>
+       <unitdate normal="1982" unitdatetype="inclusive">
+        1982
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1983">
+         1983
+        </date>
+       </unittitle>
+       <unitdate normal="1983" unitdatetype="inclusive">
+        1983
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1984">
+         1984
+        </date>
+       </unittitle>
+       <unitdate normal="1984" unitdatetype="inclusive">
+        1984
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date localtype="inclusive" normal="1985">
+         1985
+        </date>
+       </unittitle>
+       <unitdate normal="1985" unitdatetype="inclusive">
+        1985
+       </unitdate>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles,
+        <date>
+         Undated
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated
+       </unitdate>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 27: Ethnic Specific Materials
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Manuscripts
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        30
+       </container>
+       <unittitle encodinganalog="245$a">
+        Articles (arranged by ethnic
+                        group)
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd>
+   <head>
+    Manuscripts and Microfilm Inventory
+   </head>
+   <p>
+    See
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af015003.apx">
+     PDF
+    </ref>
+    for more detailed inventory of manuscripts and materials copied to microfilm, which includes correspondence, fieldnotes, sound recording logs, titles of curriculum materials and names of interviewees.
+   </p>
+  </odd>
+ </archdesc>
+</ead>

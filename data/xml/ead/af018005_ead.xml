@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018005" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018005
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Peggy V. Beck Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 2005/005
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Sarah Bradley Leighton, Marcia K. Segal, and Valda Morris-Slack
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     Library of Congress
+     <lb>
+     </lb>
+     American Folklife Center
+     <lb>
+     </lb>
+     Archive of Folk Culture
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2007-10">
+     October 2007
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2006700235" show="new">
+       https://lccn.loc.gov/2006700235
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2018">
+     2018
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Glenn Gardner
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 2005/005
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Peggy V. Beck collection,
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1985/1987">
+     1985-1987
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1985/1987" unitdatetype="inclusive">
+    1985-1987
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent">
+    manuscripts 25 folders.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    sound recordings 35 sound cassettes : analog (60 and 90 min.)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    graphic materials 691 photographs : photographic prints, slides, negatives, b&amp;w, col. ; various sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    graphic materials 6 drawings : pencil.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    moving images 3 videocassettes (VHS) : sd., col. ; 1/2 in.
+   </physdesc>
+   <origination label="Creator">
+    <name source="lcnaf">
+     <part>
+      Beck, Peggy V.
+     </part>
+    </name>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041" langcode="spa">
+     Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      Collection materials in  English and Spanish.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    This collection comprises research materials created and compiled by Peggy V. Beck for the exhibition
+    <emph render="italic">
+     Oremos, Oremos: New Mexican Midwinter Masquerades
+    </emph>
+    , at the Millicent Rogers Museum in Taos, New Mexico in 1987, as well as documentation of other New Mexican midwinter rituals. Included are sound recordings of interviews, rehearsals, and performances; field notes, photographs, drawings, and videocassettes; plus exhibition catalogs and exhibit scripts. The focus of the exhibition is midwinter celebrations and plays, including Los Matachines, Los Pastores, and Los Días, and photographs and drawings of abuelos and abuelas.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20221020131512.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Beck, Peggy V.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Millicent Rogers Museum
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk drama, Hispanic American (Spanish)--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, Spanish--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hispanic Americans--New Mexico--Social life and customs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Masquerades--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Matachines (Dance)--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Matachines (Music)--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      New Year music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      New Year--New Mexico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Winter festivals--New Mexico.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Exhibition title: Oremos, oremos: New Mexican midwinter masquerades
+     </part>
+    </title>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      Former collection title: Peggy V. Beck collection on New Mexican midwinter masquerades
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Exhibition catalogs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Field recordings--New Mexico.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Videocassettes.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized by format into the following series: I. Manuscripts; II. Sound Recordings; III. Graphic Images; IV. Moving Images.
+   </p>
+   <p>
+    Box 2 contained sound recordings that have been transferred to the Library's National Audio-Visual Conservation Center (NAVCC), in Culpeper, Virginia.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was donated to the American Folklife Center by the collector, Dr. Peggy V. Beck, in April 2005.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="541">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Sarah Bradley Leighton in 2006.
+   </p>
+  </processinfo>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To request materials, please contact the Folklife Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Peggy V. Beck collection, 1985-1987 (AFC 2005/005), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist>
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Peggy V. Beck, author, educator, received her PhD in the History of Consciousness in 1974 from the University of California, Santa Cruz, under the direction of Gregory Bateson. She taught humanities at the University of New Mexico and at New Mexico Highlands University from 1979-1983.
+   </p>
+   <p>
+    Beck attended Sarah Lawrence College where she received a B.A. in 1969. Beck had a keen interest in the phenomena of the fool and clown. Beck received a Wenner-Gren fellowship to study ritual clowns and shamans in the Sierra Mixe, Oaxaca, Mexico in 1974. Beck worked for four years at Diné College on the Navajo Nation where she wrote bi-cultural curriculum materials including the textbook,
+    <title>
+     <part>
+      The Sacred: Ways of Knowledge, Sources of Life
+     </part>
+    </title>
+    . The book was first published in 1977 by the Navajo Community College and was reprinted in 1990 by Northern Arizona Press in 1990. Beck lived in northern New Mexico in 1979 where she began teaching humanities at the University of New Mexico and New Mexico Highlands University. In 1986 she received a Folk Arts Program grant from the National Endowment for the Arts to mount an exhibit on New Mexican midwinter masquerades. Beck has written novels, poetry, and published essays relating to the fool in anthologies and in the journal
+    <title>
+     <part>
+      Parabola
+     </part>
+    </title>
+    .
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection consists of Peggy V. Beck’s research materials used to create the exhibition Oremos,
+    <title>
+     <part>
+      Oremos: New Mexican Midwinter Masquerades
+     </part>
+    </title>
+    , at the Millicent Rogers Museum in Taos, New Mexico, in 1987, as well as documentation of other New Mexican midwinter rituals. Included are sound recordings of interviews, some of which are transcribed; recordings of performances and transcriptions for some of these interviews; recordings of performances both in the field and at the museum; field notes, photographs, drawings, and videocassettes.
+   </p>
+   <p>
+    Beck conducted interviews and documented midwinter masquerades in 1986 and 1987 in eight north central New Mexican locations, from Costilla in the north to Ranchos de Taos in the south. The masquerades centered around the figure of the
+    <emph render="italic">
+     abuelo
+    </emph>
+    (a word that normally means "grandfather" but in this context refers to masked ogres or bogeymen that appeared between December 10 and Christmas). The masked abuelos were said to come down from their mountain caves, attracted by
+    <emph render="italic">
+     luminaria
+    </emph>
+    (square-shaped bonfires made from cross-hatched pitch pine logs). The masqueraders went from house to house, dancing and performing. Children were warned that unless they were good, the whip-cracking abuelos would carry them off. On Christmas Eve, the culmination of the festivities, the abuelos and masked young people roamed the countryside asking for Christmas treats.
+   </p>
+   <p>
+    Beck documented the midwinter celebrations by interviewing elderly Spanish speakers. She found that the abuelos masquerades had elements similar to indigenous Pueblo midwinter rituals as well as characteristics common to solstice celebrations in West Africa, South American, and Europe (among the Basque people, for example).
+   </p>
+   <p>
+    In addition to the material related to the abuelos/oremos festivities, Beck also collected information pertaining to Los Manueles or Los Dias, a tradition in which singers and accompanying instrumentalists make rounds within communities, performing spontaneous verses in celebrating of the New Year. Los Manueles (literally, the Emmanuels -- people whose patron saint is Jesus, having names like Manuel or Manuela) are celebrated on their saint’s day, January 1. Since all of the days of the New Year are blessed in this way, the custom is also called Los Dias (the Days). Beck also gathered documentation on the matachines, an Indo-Hispano dance drama, performed in some northern New Mexican communities and pueblos. She also documented the Christmas nativity play,
+    <title>
+     <part>
+      Los Pastores
+     </part>
+    </title>
+    .
+   </p>
+   <p>
+    A list of names and geographic locations where the materials were collected are in Appendix A.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Finding Aid.
+       <date>
+        March 2006.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 2006.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       12 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Exhibition Brochures. Beck, Peggy V.
+       <title>
+        <part>
+         New Mexican Midwinter Masquerades: Oremos, Oremos.
+        </part>
+       </title>
+       Taos: Millicent Rogers Museum, Inc.
+       <date>
+        1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       1987.
+      </unitdate>
+      <physdesc>
+       24 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Beck, Peggy V. "Abuelos y Abuelas: They're coming to take you away."
+       <title>
+        <part>
+         New Mexican Magazine.
+        </part>
+       </title>
+       <date>
+        December 1987:
+       </date>
+       32-37.
+      </unittitle>
+      <unitdate>
+       December 1987:
+      </unitdate>
+      <physdesc encodinganalog="300">
+       88 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Oremos Exhibit Wall Text at Millicent Rogers Museum.
+       <date>
+        1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       28 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Vocabulary.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       3 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Handouts. The Dias.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages.  3 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Agreement Forms.
+       <date>
+        1986-1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       1986-1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       18 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jose Damian Archuleta. Taos, New Mexico.  
+            Notes from taped interview, SR01 and SR02.
+       <date>
+        March 30, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 30, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       11 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ray Archuleta. Aroyo Seco, New Mexico. 
+            Notes in English from taped interview, SR03.
+       <date>
+        March 24, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 24, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       11 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lucia Arellano. Dixon, New Mexico.  
+            Notes from taped interview, SR04.
+       <date>
+        March 9, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 9, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Narcisco Arellano. Arroyo Seco, New Mexico.  
+            Notes from taped interview, SR05.
+       <date>
+        May 1, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 1, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       2 pages. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Onofre and Maria Inez Baros. Arroyo Seco, New Mexico. 
+            Notes from taped interview, SR06 and SR07.
+       <date>
+        May 1, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 1, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Amalia Duran. Arroyo Seco, New Mexico.  
+            Notes from taped interview, SR08.
+       <date>
+        March 27, 1987.
+       </date>
+       Spanish and English.
+      </unittitle>
+      <unitdate>
+       March 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 pages.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Art Lucero. Abuelo Notes. 
+            Notes with no corresponding taped interview.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       5 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mike and Helen Lucero. Amalia, New Mexico.
+            Notes from taped interview, SR10.
+       <date>
+        May 7, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 7, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       8 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Casimera Madrid. El Salto, New Mexico.  
+            Notes and transcript from taped interview, SR11 and SR12.
+       <date>
+        April 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       April 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       10 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rudy Mascareñas. Amalia, New Mexico. 
+            Notes and transcript from taped interview, SR13 and SR14.
+       <date>
+        November 13, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 13, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       13 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Levi Mondragon. Los Cordovas, New Mexico. 
+            Notes from taped interview, SR15 and SR16.
+       <date>
+        January 8, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 8, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       17 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bernabe Pacheco. Des Montes, New Mexico. 
+            Notes from taped interview, SR17 and SR18.
+       <date>
+        May 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleo Rivera. Costilla, New Mexico. 
+            Notes and transcript from taped interview, SR20.
+       <date>
+        May 6, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 6, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       13 pages. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Eufelia Romero. Costilla, New Mexico. 
+            Notes from taped interview, SR21.
+       <date>
+        March 20, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 20, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ernestina Sanchez. Cerro, New Mexico.		
+            Notes and transcript from taped interviews, SR22.
+       <date>
+        May 29, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 29, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Candelaria and Zacarias Torres. Costilla, New Mexico. 
+            Notes from taped interview, SR23 and SR24.
+       <date>
+        November 19, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 19, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pilar Trujillo. Taos (El Valle), New Mexico. 
+            Notes from taped interview, SR26.
+       <date>
+        May 14, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 14, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 pages. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Compiled quotes of interviews pertaining to different subjects.
+      </unittitle>
+      <physdesc encodinganalog="300">
+       40 pages. 
+            Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jose Damian Archuleta. Taos, New Mexico. Tape 1 of 2.
+       <date>
+        March 30, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 30, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Jose Damian Archuleta. Taos, New Mexico. Tape 2 of 2.
+       <date>
+        March 30, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 30, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ray Archuleta. Arroyo Seco, New Mexico.
+       <date>
+        March 24, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 24, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR04
+      </container>
+      <unittitle encodinganalog="245$a">
+       Lucia Arellano. Dixon, New Mexico.
+       <date>
+        March 9, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 9, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR05
+      </container>
+      <unittitle encodinganalog="245$a">
+       Narcisco Arellano. Arroyo Seco, New Mexico.
+       <date>
+        May 1, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 1, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR06
+      </container>
+      <unittitle encodinganalog="245$a">
+       Onofre and Maria Inez Baros. Arroyo Seco, New Mexico.
+       <date>
+        November 11, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 11, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR07
+      </container>
+      <unittitle encodinganalog="245$a">
+       Onofre and Maria Inez Baros. Des Montes, New Mexico.
+       <date>
+        November 21, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 21, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR08
+      </container>
+      <unittitle encodinganalog="245$a">
+       Amalia Duran. Arroyo Seco, New Mexico.
+       <date>
+        March 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR09
+      </container>
+      <unittitle encodinganalog="245$a">
+       Demetrio Duran. Pentasco, New Mexico.
+       <date>
+        May 15, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 15, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mike and Helen Lucero. Amalia, New Mexico.
+       <date>
+        May 7, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 7, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Casimera Madrid. El Salto, New Mexico.  Tape 1 of 2.
+       <date>
+        April 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       April 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR12
+      </container>
+      <unittitle encodinganalog="245$a">
+       Casimera Madrid. El Salto, New Mexico. Tape 2 of 2.
+       <date>
+        April 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       April 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR13
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rudy Mascareñas. Amalia, New Mexico.
+       <date>
+        November 13, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 13, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR14
+      </container>
+      <unittitle encodinganalog="245$a">
+       Rudy Mascareñas. Amalia, New Mexico.
+       <date>
+        May 4, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 4, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR15
+      </container>
+      <unittitle encodinganalog="245$a">
+       Levi Mondragon. Los Cordovas, New Mexico. Tape 1 of 2.
+       <date>
+        January 8, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 8, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR16
+      </container>
+      <unittitle encodinganalog="245$a">
+       Levi Mondragon. Los Cordovas, New Mexico. Tape 2 of 2.
+       <date>
+        January 8, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 8, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR17
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bernabe Pacheco. Des Montes, New Mexico. Tape 1 of 2.
+       <date>
+        May 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR18
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bernabe Pacheco. Des Montes, New Mexico. Tape 2 of 2.
+       <date>
+        May 27, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 27, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR19
+      </container>
+      <unittitle encodinganalog="245$a">
+       Max and Eutilia Padilla. San Cristobal, New Mexico.
+       <date>
+        March 7, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 7, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR20
+      </container>
+      <unittitle encodinganalog="245$a">
+       Cleo Rivera. Costilla, New Mexico.
+       <date>
+        May 6, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 6, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR21
+      </container>
+      <unittitle encodinganalog="245$a">
+       Eufelia Romero. Costilla, New Mexico.
+       <date>
+        March 20, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       March 20, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR22
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ernestina Sanchez. Cerro, New Mexico.
+       <date>
+        May 29, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 29, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR23
+      </container>
+      <unittitle encodinganalog="245$a">
+       Candelaria and Zacarias Torres. Costilla, New Mexico. Tape 1 of 2.
+       <date>
+        November 19, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 19, 1986.
+      </unitdate>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR24
+      </container>
+      <unittitle encodinganalog="245$a">
+       Candelaria and Zacarias Torres. Costilla, New Mexico. Tape 2 of 2.
+       <date>
+        November 19, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       November 19, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR25
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pablita Trujillo. San Cristobal, New Mexico.
+       <date>
+        April 23, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       April 23, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR26
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pilar Trujillo. Taos (El Valle), New Mexico.
+       <date>
+        May 14, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       May 14, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR27
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pete Valdez (with Onofre Baros).
+       <date>
+        December 11, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       December 11, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR28
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A:
+       <emph render="italic">
+        El Año Viejo y El Año Nuevo
+       </emph>
+       . Stateline Bar. Costilla, New Mexico. December 31, 1985.
+       <lb>
+       </lb>
+       Side B:
+       <emph render="italic">
+        Versos de Año
+       </emph>
+       . Costilla, New Mexico.
+       <date>
+        January 1, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 1, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish and English.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR29
+      </container>
+      <unittitle encodinganalog="245$a">
+       Matachines Rehearsal. Cuna Music for Los Dias. Costilla, New Mexico.
+       <date>
+        January 1, 1986.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 1, 1986.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR30
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A: Matachines Rehearsal. Arroyo Hondo, New Mexico. 1985.
+       <lb>
+       </lb>
+       Side B: Los Dias. Abuelos. Sung by Rey Torres. Arroyo Seco, New Mexico.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 90-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR31
+      </container>
+      <unittitle encodinganalog="245$a">
+       Side A: Los Dias. Costilla, New Mexico. January 1, 1986.
+       <lb>
+       </lb>
+       Side B: Torres recorded by Everts.
+       <date>
+        June 18, 1985.
+       </date>
+      </unittitle>
+      <unitdate>
+       June 18, 1985.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 90-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR32
+      </container>
+      <unittitle encodinganalog="245$a">
+       Los Dias. Amalia, New Mexico.
+       <date>
+        January 1, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 1, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR33
+      </container>
+      <unittitle encodinganalog="245$a">
+       Los Dias in the home of Alfonso Gonzales.
+       <emph render="italic">
+        Año Nuevo
+       </emph>
+       . Amalia, New Mexico.
+       <date>
+        January 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       January 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR34
+      </container>
+      <unittitle encodinganalog="245$a">
+       Abuelos. Levi Mondragon.
+       <date>
+        December 16, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       December 16, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: SR35
+      </container>
+      <unittitle encodinganalog="245$a">
+       Los Manueles.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 60-minute audiocassette. Spanish.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series III: Graphic Materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Photographs
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/26
+       </container>
+       <unittitle encodinganalog="245$a">
+        New Mexico: Midwinter Rituals. 
+                        New Year’s play, Matachines rehearsal, Los Pastores, and Abuelos Noche Buena.
+        <date>
+         1985.
+        </date>
+       </unittitle>
+       <unitdate>
+        1985.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        146 color slides.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/27
+       </container>
+       <unittitle encodinganalog="245$a">
+        Arroyo Seco Abuelos. Arroyo Seco, New Mexico. 
+               Out of season.
+        <date>
+         June 9, 1985.
+        </date>
+       </unittitle>
+       <unitdate>
+        June 9, 1985.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        33 color photographs.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/28
+       </container>
+       <unittitle encodinganalog="245$a">
+        Selected Matachines Dance. (Abuelos). Arroyo Seco, New Mexico.
+        <date>
+         June 9, 1985.
+        </date>
+       </unittitle>
+       <unitdate>
+        June 9, 1985.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 color slides.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Amalia Abuelos. Amalia, New Mexico.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        33 color photographs.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/30
+       </container>
+       <unittitle encodinganalog="245$a">
+        Amalia Abuelos. Rudy Mascareñas (Making chicote). Amalia, New Mexico.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 color photographs.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        23 black-and-white photographs.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        23 black-and-white negative frames.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        Amalia Abuelos. Los Cordovas Abuelos. Amalia Dias. Los Cordovas Comanches.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        10 color contact sheets.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        360 color negatives.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/32
+       </container>
+       <unittitle encodinganalog="245$a">
+        Death of Old Year. Birth of New Year. Dando Los Dias from house to house. Amalia, New Mexico.
+        <date>
+         1986-1987.
+        </date>
+       </unittitle>
+       <unitdate>
+        1986-1987.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        14 color slides.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        35 color photographs.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Costilla New Years Day and Dias. Torres Family. Costilla, New Mexico.
+        <date>
+         1985-1986.
+        </date>
+       </unittitle>
+       <unitdate>
+        1985-1986.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        21 color photographs.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/34
+       </container>
+       <unittitle encodinganalog="245$a">
+        Costilla New Year. Costilla, New Mexico.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        22 color slides.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/35
+       </container>
+       <unittitle encodinganalog="245$a">
+        Los Cordovas Comanches. New Years. (Levi Mondragon).
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        53 color photographs.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/36
+       </container>
+       <unittitle encodinganalog="245$a">
+        Slides of Exhibit Wall Text at Millicent Rogers Museum.
+        <date>
+         1987.
+        </date>
+       </unittitle>
+       <unitdate>
+        1987.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        43 color slides.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/37
+       </container>
+       <unittitle encodinganalog="245$a">
+        Notes and slides removed from slide carousel.
+        <date>
+         Circa 1986.
+        </date>
+       </unittitle>
+       <unitdate>
+        Circa 1986.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        16 black-and-white slides.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        33 color slides.
+       </physdesc>
+       <physdesc encodinganalog="300">
+        3 pages.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/38
+       </container>
+       <unittitle encodinganalog="245$a">
+        Color Slides [Unlabeled].
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17 color slides.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container localtype="box-folder">
+        3/39
+       </container>
+       <unittitle encodinganalog="245$a">
+        Alamosa Folklife Festival. Lala Torres and Alice Valdez.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        25 color photographs.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photographs are not Abuelo related except that Lala Torres was interviewed for the Oremos exhibit and made the Abuela for the exhibit.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Drawings
+      </unittitle>
+      <didnote>
+       Original drawings of abuelos by Levi Mondragon from Los Cordovas, New Mexico.
+      </didnote>
+     </did>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR01
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 drawing in pencil. 17 in. x 11 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR02
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo holding a chicote (whip).
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 drawing in pencil. 16.5 in. x 8.5 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR03
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo wearing a hat.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 drawing in pencil. 17 in. x 11 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR04
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo wearing a hat and a shirt with "Golden Grain" written on it.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 drawing in pencil. 17 in. x 11 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR05
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo holding a flour sack with "Raton Flour Mill, 1930" written on it.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 drawing in pencil. 14.5 in. x 14.5 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <container>
+        ITEM ID AFC 2005/005: GR06
+       </container>
+       <unittitle encodinganalog="245$a">
+        Abuelo holding a flour sack with "Raton Flour Mill, 1930" written on it.
+        <date>
+         Undated.
+        </date>
+       </unittitle>
+       <unitdate>
+        Undated.
+       </unitdate>
+       <physdesc encodinganalog="300">
+        17.5 in. x 12 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Facsimile of GR05
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series IV: Moving Images
+     </unittitle>
+    </did>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: MV01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Oremos, Oremos
+       </emph>
+       and Raw Footage.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 VHS color videocassette with sound. Approximately 1 hour.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: MV02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Matachines Dances. San Juan. Copy.
+       <date>
+        Undated.
+       </date>
+      </unittitle>
+      <unitdate>
+       Undated.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 VHS color videocassette with sound. Approximately 30 minutes.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container>
+       TAPE ID AFC 2005/005: MV03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Millicent Rogers New Years Play.
+       <emph render="italic">
+        El Año Viejo y El Año Nuevo
+       </emph>
+       .
+       <date>
+        December 30, 1987.
+       </date>
+      </unittitle>
+      <unitdate>
+       December 30, 1987.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 VHS color videocassette with sound. Approximately 1 hour.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+  <odd localtype="index">
+   <head>
+    APPENDIX A: Names and Locations Where Materials Were Collected
+   </head>
+   <p>
+    Personal names
+   </p>
+   <list>
+    <item>
+     Jose Damian Archuleta
+    </item>
+    <item>
+     Ray Archuleta
+    </item>
+    <item>
+     Lucia Arellano
+    </item>
+    <item>
+     Narcisco Arellano
+    </item>
+    <item>
+     Onofre Baros
+    </item>
+    <item>
+     Maria Inez Baros
+    </item>
+    <item>
+     Amalia Duran
+    </item>
+    <item>
+     Demetrio Duran
+    </item>
+    <item>
+     Alfonso Gonzales
+    </item>
+    <item>
+     Art Lucero
+    </item>
+    <item>
+     Mike Lucero
+    </item>
+    <item>
+     Helen Lucero
+    </item>
+    <item>
+     Casimera Madrid
+    </item>
+    <item>
+     Rudy Mascareñas
+    </item>
+    <item>
+     Levi Mondragon
+    </item>
+    <item>
+     Bernabe Pacheco
+    </item>
+    <item>
+     Max Padilla
+    </item>
+    <item>
+     Eutilia Padilla
+    </item>
+    <item>
+     Cleo Rivera
+    </item>
+    <item>
+     Eufelia Romero
+    </item>
+    <item>
+     Ernestina Sanchez
+    </item>
+    <item>
+     Candelaria Torres
+    </item>
+    <item>
+     Rey Torres
+    </item>
+    <item>
+     Zacarias Torres
+    </item>
+    <item>
+     Pablita Trujillo
+    </item>
+    <item>
+     Pilar Trujillo
+    </item>
+    <item>
+     Pete Valdez
+    </item>
+   </list>
+   <p>
+    Geographic names
+   </p>
+   <list>
+    <item>
+     Amalia (N.M.)
+    </item>
+    <item>
+     Arroyo Seco (N.M.)
+    </item>
+    <item>
+     Cerro (N.M.)
+    </item>
+    <item>
+     Costilla (N.M.)
+    </item>
+    <item>
+     Des Montes (N.M.)
+    </item>
+    <item>
+     Dixon (N.M.)
+    </item>
+    <item>
+     El Salto (N.M.)
+    </item>
+    <item>
+     Los Cordovas (N.M.)
+    </item>
+    <item>
+     Peñasco (N.M.)
+    </item>
+    <item>
+     San Cristobal (N.M.)
+    </item>
+    <item>
+     Taos (N.M.)
+    </item>
+    <item>
+     Taos Pueblo (N.M.)
+    </item>
+   </list>
+  </odd>
+ </archdesc>
+</ead>

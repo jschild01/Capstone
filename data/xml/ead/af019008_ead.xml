@@ -1,0 +1,6937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019008" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019008
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     David Bromberg collection
+    </titleproper>
+    <subtitle>
+     AFC 2015/043
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Maya Lerman
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2019-09">
+     September 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2017655215" show="new">
+       https://lccn.loc.gov/2017655215
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-09">
+     September 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Maya Lerman
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    David Bromberg collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1962/2013">
+     ca. 1962-2013
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1962/2013" unitdatetype="inclusive">
+    ca. 1962-2013
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2015/043
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Bromberg, David, 1945-
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    760 items (6 linear feet)
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    moving images: 61 videocassettes (U-Matic) : sound, color ;
+               3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    moving images: 10 video reels : sound, color ; 1
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    moving images: 1 videocassette (VHS) : sound,
+               color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    sound recordings: 2 sound discs (acetate) : analog ; 12
+               in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    graphic images: 133 photographs : prints, black and white,
+               color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    manuscripts: 62 folders (550 items)
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     In English.
+    </language>
+    <descriptivenote>
+     <p>
+      In English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of video recordings,
+            photographs, promotional and publicity materials, clippings, posters, and ephemera from
+            the career of David Bromberg, musician, singer-songwriter, and luthier, from around 1962
+            to 2013, including recordings of his performances at concerts and folk festivals around
+            the United States as well as overseas and various interviews with Bromberg. Includes
+            photographs of other folk music and popular music performers.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20191008081105.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bromberg, David, 1945-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Bromberg, David, 1945-
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Josephson, Nancy, 1955-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk singers--United States--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--United States.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Filmed interviews.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Moving image material was arranged and described as a separate series (Series 1. Moving image items)
+               before transfer to the Packard Campus for Audio-Visual Conservation. The rest of the materials
+               are arranged into Series 2. Photographs, manuscripts, and sound recordings. Subseries within series 2 
+               are arranged in groupings provided by the donor with descriptions at the item-level.
+   </p>
+   <p>
+    Physical numbering is not always consecutive due to the varying sizes of photographic 
+               prints and manuscripts.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    David Bromberg and Nancy Josephson; 2015.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Maya Lerman.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+               restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+               request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    David Bromberg collection (AFC 2015/043), Archive of Folk Culture, American Folklife
+               Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    David Bromberg was born on September 19, 1945, in Philadelphia, Pennsylvania, and raised in Tarrytown,
+            New York. He is a multi-instrumentalist, singer, and songwriter, and has collaborated with a 
+         a variety of musicians, including John Hartford, Willie Nelson, and Jerry Jeff Walker. Though he is 
+         known for the fingerpicking blues style he learned while studying under Reverend Gary Davis, 
+         Bromberg's music covers various American styles, such as bluegrass, country, jazz, and rock and roll. 
+         During a hiatus from his musical performance career, Bromberg became a violin expert, ultimately 
+         building an extensive collection of American-built violins and opening a violin sales and repair shop 
+         in Wilmington, Delaware, with his wife, Nancy Josephson.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of video recordings, photographs, promotional and publicity materials,
+            clippings, posters, and ephemera from the career of David Bromberg, musician,
+            singer-songwriter, and luthier, from around 1962 to 2013, including recordings of his
+            performances at concerts and folk festivals around the United States as well as overseas
+            and various interviews with Bromberg. Includes photographs of other folk music and
+            popular music performers.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1. Moving image items,
+      <date>
+       ca. 1979-1990
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      ca. 1979-1990
+     </unitdate>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV001
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 1,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 1 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV002
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 2,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 2 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV003
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 3,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 3 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV004
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 4,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 4 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV005
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 5,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 5 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV006
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 6,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 6 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV007
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 7,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 7 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV008
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 8,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 8 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV009
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 9,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 9 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV010
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 10,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 10 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV011
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 11,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 11 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV012
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 12,
+       <date localtype="inclusive" normal="1981-02-20">
+        February 20,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-20" unitdatetype="inclusive">
+       February 20,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 12 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV013
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 13,
+       <date localtype="inclusive" normal="1981-02-21">
+        February 21,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-21" unitdatetype="inclusive">
+       February 21,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 13 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV014
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 14,
+       <date localtype="inclusive" normal="1981-02-22">
+        February 22,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-22" unitdatetype="inclusive">
+       February 22,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 15 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV016
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 16,
+       <date localtype="inclusive" normal="1981-02-22">
+        February 22,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-22" unitdatetype="inclusive">
+       February 22,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 16 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV017
+      </container>
+      <unittitle encodinganalog="245$a">
+       Chicago show 17,
+       <date localtype="inclusive" normal="1981-02-22">
+        February 22,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-02-22" unitdatetype="inclusive">
+       February 22,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 17 of a group of 17 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV018
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg music,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 1 of a group of 7 tapes. Part 1: "Danger Man" intro, "Hit the Road Jack,"
+                     "If You Don't Want Me, Baby," "Rock and Roll Millionaire."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV019
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg music, part 2,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 2 of a group of 7 tapes. Tracks: "Kaatskill Serenade," "Travelling Man,"
+                     "Yankee's Revenge."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV020
+      </container>
+      <unittitle encodinganalog="245$a">
+       Nancy Bromberg Sot's master,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 3 of a group of 7 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV021
+      </container>
+      <unittitle encodinganalog="245$a">
+       Today Show off monitor,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 4 of a group of 7 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV022
+      </container>
+      <unittitle encodinganalog="245$a">
+       L.A., part 1,
+       <date localtype="inclusive" normal="1981-04-22">
+        April 22,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-04-22" unitdatetype="inclusive">
+       April 22,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 5 of a group of 7 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV023
+      </container>
+      <unittitle encodinganalog="245$a">
+       L.A., part 2,
+       <date localtype="inclusive" normal="1981-04-22">
+        April 22,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-04-22" unitdatetype="inclusive">
+       April 22,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 6 of a group of 7 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV024
+      </container>
+      <unittitle encodinganalog="245$a">
+       L.A. part 3, Ron Rainey,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 7 of a group of 7 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV025
+      </container>
+      <unittitle encodinganalog="245$a">
+       Band on bus,
+       <date>
+        ca. 1979-1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1979-1982
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 1 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV026
+      </container>
+      <unittitle encodinganalog="245$a">
+       BBI sound check,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 2 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV027
+      </container>
+      <unittitle encodinganalog="245$a">
+       Back room jam,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 3 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV028
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interview with David Bromberg,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 4 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV029
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg, dressing room,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 5 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV030
+      </container>
+      <unittitle encodinganalog="245$a">
+       Club manager interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 6 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV031
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Hampton Boys," day 1,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 7 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV032
+      </container>
+      <unittitle encodinganalog="245$a">
+       Backstage, My Father's Place (Roslyn, New York music
+                     venue),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 8 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV033
+      </container>
+      <unittitle encodinganalog="245$a">
+       Backstage, My Father's Place (Roslyn, New York music
+                     venue),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 9 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV034
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interview band/on stage, My Father's Place,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 10 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV035
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pennsylvania countryside, etc.,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 11 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV036
+      </container>
+      <unittitle encodinganalog="245$a">
+       My Father's Place/kitchen/club owner interview,
+                     David Bromberg and Richie Giordano outside hotel,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 12 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV037
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg interview, on stage, Temple
+                     University, Philadelphia, Pennsylvania,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 13 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV038
+      </container>
+      <unittitle encodinganalog="245$a">
+       Temple University backstage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 14 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV039
+      </container>
+      <unittitle encodinganalog="245$a">
+       On stage, Temple University,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 15 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV040
+      </container>
+      <unittitle encodinganalog="245$a">
+       On stage, Temple University,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 16 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV041
+      </container>
+      <unittitle encodinganalog="245$a">
+       WNEW interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 17 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV042
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dave Herman WNEW interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 18 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV043
+      </container>
+      <unittitle encodinganalog="245$a">
+       Zu - Asbury Park,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 19 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV044
+      </container>
+      <unittitle encodinganalog="245$a">
+       Asbury Park backstage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 20 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV045
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paramount Theater, on stage and backstage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 21 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV046
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paramount Theater, on stage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 22 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV047
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paramount Theater, on stage and backstage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 23 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV048
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mr. and Mrs. Bromberg interview,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 24 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV049
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg house and family,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 25 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV050
+      </container>
+      <unittitle encodinganalog="245$a">
+       Central Park soundcheck,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 26 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV051
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wollman Stage, Central Park concert,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 27 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV052
+      </container>
+      <unittitle encodinganalog="245$a">
+       Wollman Stage, Bromberg family, street scene
+                     Bottom Line,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 28 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV053
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bottom Line and Crowls backstage,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 videocassette (U-Matic; master tape) :
+                        analog, sound, color ; 3/4 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 29 of a group of 29 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV054
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg Special PGM, reel 1,
+       <date localtype="inclusive" normal="1980-08-11">
+        August 11,
+                        1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August 11,
+                        1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 1 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV055
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg Special PGM, reel 2,
+       <date localtype="inclusive" normal="1980-08-11">
+        August 11,
+                        1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August 11,
+                        1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 2 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV056
+      </container>
+      <unittitle encodinganalog="245$a">
+       Assemble stock, Chicago, Central Park,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 3 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV057
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg PGM, reel 1,
+       <date localtype="inclusive" normal="1980-08-11">
+        August 11,
+                        1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August 11,
+                        1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 4 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV058
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg PGM, reel 1, part 2,
+       <date localtype="inclusive" normal="1980-08-11">
+        August 11,
+                        1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August 11,
+                        1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 5 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV059
+      </container>
+      <unittitle encodinganalog="245$a">
+       David Bromberg PGM,
+       <date localtype="inclusive" normal="1981-07-01">
+        July 1,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-07-01" unitdatetype="inclusive">
+       July 1,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 6 of a group of 8 tapes. Tracks: "If You Don't Want Me," Danger Man," "Hit
+                     the Road Jack."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV060
+      </container>
+      <unittitle encodinganalog="245$a">
+       Today Show air check,
+       <date localtype="inclusive" normal="1981-03-17">
+        March 17,
+                     1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981-03-17" unitdatetype="inclusive">
+       March 17,
+                     1981
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 7 of a group of 8 tapes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV061
+      </container>
+      <unittitle encodinganalog="245$a">
+       Assemble stock,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (U-matic) :
+                        analog.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Tape 8 of a group of 8 tapes. Tracks: "Danger Man," "Kaatskill."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV062
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 51, reel 1. Bromberg concert. Audio: ch. 1 (PCM), ch. 2 (EFX), ch. 3
+                     (TC).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV063
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 41. Cam 4 ISO / TRT 63 [or 65] / reel 1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV064
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video; 55
+                        min.) : sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg. Cam 3 ISO / reel 1 / TRT 55 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV065
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 43 / Cam 4 ISO / VTR 1 / reel 3.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV066
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 53 / VTR 1 / reel 3. Audio: ch. 1 (PCM), ch. 2 (EFX), ch. 3 (TC).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV067
+      </container>
+      <unittitle encodinganalog="245$a">
+       Concert footage, multi camera video takes,
+       <date localtype="inclusive" normal="1980-08-11">
+        August
+                        11, 1980
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1980-08-11" unitdatetype="inclusive">
+       August
+                        11, 1980
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video; 55
+                        min.) : sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 42 / Cam 4 ISO / reel 2 / TRT 55 min.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV068
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg concert,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 32.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV069
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg concert,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 33.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV070
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg concert,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video) :
+                        sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Bromberg 25 / VTR 1 / reel 2. Container spine and label on tape reel say
+                     "Bromberg 52."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV071
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bromberg concert,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 video reel (master broadcast video; 50
+                        min.) : sound, color ; 1 in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       David Bromberg 23 / Cam 2 ISO / reel 3 TRT 50
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2015/043: MV072
+      </container>
+      <unittitle encodinganalog="245$a">
+       Barnacle Bills, St. Thomas. David Bromberg with
+                     Chicago MVPs. Dave Mason sitting in.,
+       <date localtype="inclusive" normal="1990-01-05">
+        January 5,
+                     1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1990-01-05" unitdatetype="inclusive">
+       January 5,
+                     1990
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound videocassette (VHS) :
+                        analog.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2. Photographs, manuscripts, and sound recordings,
+      <date>
+       ca. 1962-2013
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f">
+      ca. 1962-2013
+     </unitdate>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 1. Group 1,
+       <date>
+        ca. 1965-2012
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1965-2012
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contact sheet, photos by David Bromberg
+                        (1-4),
+        <date>
+         ca. 1970-1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1971
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 photographic
+                        prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Nashville, Tennessee, during breaks from recording "Aereoplane." Photos featuring
+                        John Hartford (with girlfriend Nwanda), Norman Blake, Tut Taylor, Vassar
+                        Clements, and Randy Wood (fixing banjo, most likely at the shop "GTR"
+                        (George, Tut, Randy).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nancy Josephson on bass, David Bromberg,
+                        Johnny Duke (Lippincott), guitar
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Los Angeles, California,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Grammy nomination photograph. For album "Try Me One More Time."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jerry Jeff Walker and David Bromberg at
+                        Northwestern University, Evanston, Illinois,
+        <date>
+         ca.
+                           1973-1978
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                           1973-1978
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photograph by Charles Seton.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Big band photograph,
+        <date>
+         October 16, 1997
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        October 16, 1997
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: John Firmin, Peter Ecklund, Curt Lindbergh, David [surname unknown] on drums,
+                        Robert Armiot [surname spelling unknown], Mimi Hart, Nancy Josephson, Jeff Wisor, Dick Fegy.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        John Scholle and David Bromberg,
+        <date>
+         ca. 1965-1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1965-1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        David Bromberg's apartment.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Mississippi Blind Driveways,"
+        <date>
+         ca. 1966
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1966
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        David Bromberg, Paul Siebel, Jody Stecher. Photograph by Steve
+                        Somerstein.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg with Mary Travers, Peter
+                        Yarrow, and Freebo,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Waylon Jennings and David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sam Emerson photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg with Phoebe Snow,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg with Phoebe Snow,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jim Ringer, Jay Ungar, David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Michael Doucet and David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Al Kooper,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sam Emerson photograph
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bonnie Raitt, David Bromberg, Rona Barett
+                        [surname spelling unknown],
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Philadelphia Folk Festival.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Rosalie Sorrels,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Peter Wernick, David Bromberg, and Joan
+                        Leonard,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Jorma Kaukonen,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Bolton Center, Long Island, New York.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Jorma Kaukonen,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Bolton Center, Long Island, New York.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Jorma Kaukonen, and Barry
+                        Mitterhoff,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Bolton Center, Long Island, New York.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jack Cassidy, Jorma Kaukonen, Barry
+                        Mitterhoff, and David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Bolton Center, Long Island, New York.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Bob Dylan, Leon Redbone, David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Behind World Control Studios in Philadelphia
+                        during recording of first album, "David Bromberg,"
+        <date localtype="inclusive" normal="1972">
+         1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Standing (Left-Right): David Nichtern, Steve Mosely, Donnie Sarlin, Will Scarlet.
+                        Seated (Left-Right): Winnie Winston, Jody Stecher, David Bromberg, Steve Burgh.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Michael Cooney and David, Mariposa Folk Festival,
+        <date>
+         1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1971
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Jesse Ed David with wife and
+                        child,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Winnie Winston, Jody Stecher, and David
+                        Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        WBAI radio, Bob Foss' show.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jeff Wisor, John Firmin, David Bromberg, John
+                        McQueen, Nancy Josephson, Gene Johnson, Dick Fegy,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sarah Shoaf photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jim Ringer, Mary McCaslin, Jay Ungar, Deb [surname unknown],
+                        David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The Ark, Ann Arbor, Michigan.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Happy Traum and David Bromberg,
+        <date>
+         ca. 1990-1999
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1990-1999
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Backstage at Tarrytown Music Hall, Tarrytown, New York. Photograph by Thom
+                        Wolke.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Michael Cooney, David Bromberg, Aly Bain,
+                        Mike Whelan,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Iowa. Pre "Boys of the Lough."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, (steel guitar player), Leland
+                        Sklar, and Lyle Lovett,
+        <date localtype="inclusive" normal="2012/2012">
+         2012
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2012/2012" unitdatetype="inclusive">
+        2012
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The Grand Opera, Wilmington, Delaware
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Doug Kershaw and David Bromberg,
+        <date localtype="inclusive" normal="1971">
+         1971
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1971" unitdatetype="inclusive">
+        1971
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Philadelphia Folk Festival.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        John Hartford, Eric Frandsen, David Bromberg,
+                        and Tom Paxton,
+        <date>
+         ca.
+                        1970-1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        1970-1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photograph. Philadelphia Folk Festival.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Janis Ian,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 2. Group 2,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photographic print
+      </physdesc>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ned Wright, William Jones, Richard Sparles,
+                        Lance Wakely, and David Bromberg,
+        <date>
+         ca.
+                           1967
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                           1967
+       </unitdate>
+       <physdesc encodinganalog="300">
+        8 photographic
+                        prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Black and white 8x10 photographic prints. Southeast Asia United States
+                        Information Service, Manila and Kuala Lampur.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Phoenix Singers in San Jose, Costa Rica,
+        <date>
+         ca. 1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        South America tour lineup: Ned Wright, William Jones, Richard Sparks, Mark
+                        Horowitz, and David Bromberg.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Postcard with photograph of the band at the
+                        Caracas, Venezuela airport,
+        <date localtype="inclusive" normal="1968">
+         1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+        1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        10. Postcard with photograph by David Bromberg to then girlfriend, Trudy
+                        Wrigley.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photograph of Ned Wright by David Bromberg,
+        <date>
+         ca. 1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        South America tour lineup: Ned Wright, William Jones, Richard Sparks, Mark
+                        Horowitz, and David Bromberg.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Airport stop photograph by David Bromberg,
+        <date>
+         ca. 1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Phoenix Singers program,
+        <date>
+         1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 paper program
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        1
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg United States Information
+                        Service photograph, Manila,
+        <date>
+         ca.
+                           1967-1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                           1967-1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 photographic print
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 3. Group 3,
+       <date>
+        ca. 1972-2003
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1972-2003
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Norman Blake,
+        <date localtype="inclusive" normal="1974-05-12">
+         May 12,
+                           1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-05-12" unitdatetype="inclusive">
+        May 12,
+                           1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Photographic print on
+                        foam
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photograph by Dennis Deloria.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Norman Blake promo
+                        photograph,
+        <date>
+         ca.
+                        1972-1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        1972-1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Photographic print on
+                        foam
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photograph by Jim McGuire.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Norman Blake promo
+                        photograph,
+        <date>
+         ca.
+                        1972-1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        1972-1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        Photographic print on
+                        foam
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photograph by Jim McGuire.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original sheet music for Nobody's [Fault But Mine],
+        <date localtype="inclusive" normal="1975">
+         1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975" unitdatetype="inclusive">
+        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript (sheet
+                        music)
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Violin parts probably by Evan Stover.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Laminated advertisement from Columbia Records
+                        for album, "David Bromberg,"
+        <date>
+         ca.
+                           1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                           1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Newspaper clipping for Columbia Records
+                        advertisement for album, "Midnight on the Water,"
+        <date>
+         ca. 1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Item-ID">
+        AFC 2015/043: SR001
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original acetate for "Demon in Disguise,"
+                        demo,
+        <date>
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 sound disc : 12
+                        in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Item-ID">
+        AFC 2015/043: SR002
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original acetate for "Demon in Disguise,"
+                        demo,
+        <date>
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        1 sound disc : 12
+                        in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Item-ID">
+        AFC 2015/043: SR003
+       </container>
+       <unittitle encodinganalog="245$a">
+        45 rpm record for songs "Such a Night" and
+                        "Bluebird,"
+        <date localtype="inclusive" normal="1976">
+         1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976" unitdatetype="inclusive">
+        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        45 rpm record
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Fantasy Records.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Village of Tarrytown proclamation for "David
+                        Bromberg Day,"
+        <date localtype="inclusive" normal="2003-10-26">
+         October 26, 2003
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2003-10-26" unitdatetype="inclusive">
+        October 26, 2003
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        4
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Honorary Citizen" certificate for David
+                        Bromberg from the mayor of New Orleans, Louisiana,
+        <date localtype="inclusive" normal="1984-11-17">
+         November 17,
+                        1984
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1984-11-17" unitdatetype="inclusive">
+        November 17,
+                        1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 4. Group 4,
+       <date>
+        ca. 1967-2011
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1967-2011
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Philadelphia Inquirer,
+        <date localtype="inclusive" normal="2011-08-14">
+         August 14,
+                           2011
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2011-08-14" unitdatetype="inclusive">
+        August 14,
+                           2011
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Section H, page 1. "One of the Folk" article.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Integrator,
+        <date localtype="inclusive" normal="1973-09-25">
+         September 25,
+                        1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-09-25" unitdatetype="inclusive">
+        September 25,
+                        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "In Concert, Bromberg, Sept. 16."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional flyer and Encore! Article,
+        <date localtype="inclusive" normal="1995-08-31/1995-09-08">
+         1995
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1995-08-31/1995-09-08" unitdatetype="inclusive">
+        1995
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Flyer for "David Bromberg's 50th birthday/Big Band Reunion," State Theater,
+                        Portland, Maine; "Legendary Performer Celebrating 50th Birthday in
+                        Portland."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Belize Billboard,
+        <date localtype="inclusive" normal="1967-11-09">
+         November 9,
+                        1967
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1967-11-09" unitdatetype="inclusive">
+        November 9,
+                        1967
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Phoenix Singers Due This Afternoon: David Bromberg."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional flyer,
+        <date localtype="inclusive" normal="1972-10-06">
+         October 6,
+                        1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-10-06" unitdatetype="inclusive">
+        October 6,
+                        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        For "Folk Variations with Phil Ochs, Doc Watson, and Special Guest David
+                        Bromberg." Philharmonic Hall, Lincoln Center.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Gazette,
+        <date localtype="inclusive" normal="2008-10-02/2008-10-08">
+         October
+                           2008
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2008-10-02/2008-10-08" unitdatetype="inclusive">
+        October
+                           2008
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "On the Beat. David Bromberg: The Legacy of Sleepy Hollow."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional poster for "The Phoenix Singers,"
+        <date>
+         ca. 1967-1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1967-1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photograph of Phoenix Singer,
+        <date localtype="inclusive" normal="1967-12-24">
+         December 24,
+                           1967
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1967-12-24" unitdatetype="inclusive">
+        December 24,
+                           1967
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photographic print of Phoenix Singers waiting for customs clearance in the
+                        airtport at Belem, USIS Belem, Brazil.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Cash Box article,
+        <date localtype="inclusive" normal="1968-04-13">
+         April 13,
+                        1968
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1968-04-13" unitdatetype="inclusive">
+        April 13,
+                        1968
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Talen on Stage: Stone Poems, Jerry Jeff Walker."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Schwann-1 Record and Tape Guide,
+        <date localtype="inclusive" normal="1980-09">
+         September,
+                           1980
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1980-09" unitdatetype="inclusive">
+        September,
+                           1980
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        2-layer cover illustration.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dial article,
+        <date localtype="inclusive" normal="1987-03">
+         March,
+                        1987
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1987-03" unitdatetype="inclusive">
+        March,
+                        1987
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Arlo Guthrie Picks and Strums With a Band of Pals."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Elo di Locarno,
+        <date localtype="inclusive" normal="1975-07-08">
+         July 8,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-07-08" unitdatetype="inclusive">
+        July 8,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg Band Al Teatro Dmitri."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Crawdaddy,
+        <date localtype="inclusive" normal="1974-04">
+         April,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-04" unitdatetype="inclusive">
+        April,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Wanted Dead or Alive: David Bromberg Review."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times articles,
+        <date localtype="inclusive" normal="1970-10-04/1970-11-05">
+         1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1970-10-04/1970-11-05" unitdatetype="inclusive">
+        1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Dylan Album Shows Shift in Direction." 16. "Bromberg Shows Style on
+                        Guitar."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Village Voice,
+        <date localtype="inclusive" normal="1970-09-03">
+         September 3,
+                        1970
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1970-09-03" unitdatetype="inclusive">
+        September 3,
+                        1970
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Riffs: A Most Uncommon Festival."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional pamphlet for the Folklore Center,
+        <date>
+         ca. 1965-1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1965-1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Folklore Center Continuing Folk Festival, "First Solo Show," presented by
+                        Izzy Young.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/17
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Daily News Tarrytown,
+        <date localtype="inclusive" normal="1974-02-06">
+         February 6,
+                           1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-02-06" unitdatetype="inclusive">
+        February 6,
+                           1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromber's Parents are His No. 1 Fans."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/18
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Post and New York Times articles,
+        <date localtype="inclusive" normal="1974-01-20/1974-07-01">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-20/1974-07-01" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Jam Sessions at Radio City"; "Bromberg Flexes His Musical Muscles."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/19
+       </container>
+       <unittitle encodinganalog="245$a">
+        Boston Globe,
+        <date localtype="inclusive" normal="1974-02-22">
+         February 22,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-02-22" unitdatetype="inclusive">
+        February 22,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg Just Loves Playing."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Stereo Review,
+        <date localtype="inclusive" normal="1973-05">
+         May, 1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-05" unitdatetype="inclusive">
+        May, 1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Recording of Special Merit: Jerry Jeff Walker."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Brown Daily,
+        <date localtype="inclusive" normal="1972-04-25">
+         April 25,
+                        1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-04-25" unitdatetype="inclusive">
+        April 25,
+                        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Music at Big Mother: David Bromberg."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/22
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Post,
+        <date localtype="inclusive" normal="1972-05-01">
+         May 1,
+                        1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-05-01" unitdatetype="inclusive">
+        May 1,
+                        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "The Lyons Den."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/23
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional flyer for Mother Records at Brown
+                        University,
+        <date localtype="inclusive" normal="1972-04-24">
+         April 24, 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-04-24" unitdatetype="inclusive">
+        April 24, 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: Folk Guitar Wizard in His Own Right."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/24
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times article,
+        <date localtype="inclusive" normal="1974-01-28">
+         January 28,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-28" unitdatetype="inclusive">
+        January 28,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Pop Music: Bromberg, A Complete Entertainer."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/25
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Post concert listing,
+        <date localtype="inclusive" normal="1974-03-11">
+         March 11,
+                           1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-03-11" unitdatetype="inclusive">
+        March 11,
+                           1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Concert listing for Show at Madison Square Garden felt forum.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/26
+       </container>
+       <unittitle encodinganalog="245$a">
+        The AU Report,
+        <date localtype="inclusive" normal="1974-09/1974-10">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-09/1974-10" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photo and caption for AU concert performance.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/27
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times article,
+        <date localtype="inclusive" normal="1974-01-28">
+         January 28,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-28" unitdatetype="inclusive">
+        January 28,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Pop Music: David Bromberg, Entertainer."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/28
+       </container>
+       <unittitle encodinganalog="245$a">
+        Statesman,
+        <date localtype="inclusive" normal="1975-01-24">
+         January 24,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-01-24" unitdatetype="inclusive">
+        January 24,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg and Sebastian: Unlikely."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/29
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Village Voice,
+        <date localtype="inclusive" normal="1974-01-24">
+         January 24,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-24" unitdatetype="inclusive">
+        January 24,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Riffs" review of Mother Earth show.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/30
+       </container>
+       <unittitle encodinganalog="245$a">
+        Newspaper advertisement for Town Hall,
+        <date localtype="inclusive" normal="1974-01-25">
+         January 25, 1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-25" unitdatetype="inclusive">
+        January 25, 1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg and Friends."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times article,
+        <date localtype="inclusive" normal="1974-08-26">
+         August 26,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-08-26" unitdatetype="inclusive">
+        August 26,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bluegrass Plants Roots in Folk Festival."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/32
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Village Voice,
+        <date localtype="inclusive" normal="1974-01-30/1974-02-06">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-01-30/1974-02-06" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Review of Town Hall show.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/33
+       </container>
+       <unittitle encodinganalog="245$a">
+        Independent-Journal,
+        <date localtype="inclusive" normal="1975-06-20">
+         June 20,
+                           1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-06-20" unitdatetype="inclusive">
+        June 20,
+                           1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg in Rare Marin Show."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/34
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Jewish Week,
+        <date localtype="inclusive" normal="1975-09-04/1975-09-10">
+         September,
+                           1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-09-04/1975-09-10" unitdatetype="inclusive">
+        September,
+                           1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Overtones and Undercurrents: Amram and Bromberg, 2 Great Performers."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/35
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times,
+        <date localtype="inclusive" normal="1973-07-28">
+         July 28,
+                        1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-07-28" unitdatetype="inclusive">
+        July 28,
+                        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Nostalgia Lurks at Folk Festival."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/36
+       </container>
+       <unittitle encodinganalog="245$a">
+        Billboard,
+        <date>
+         ca. 1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: Folk City, New York," concert review.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/37
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Evening Bulletin,
+        <date localtype="inclusive" normal="1973-04-02">
+         April 2,
+                           1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-04-02" unitdatetype="inclusive">
+        April 2,
+                           1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg, Hartford, Watson Perfect for a Rainy Night" via management
+                        promotional flyer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/38
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Villager,
+        <date localtype="inclusive" normal="1973-08-30">
+         August 30,
+                        1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-08-30" unitdatetype="inclusive">
+        August 30,
+                        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg at Pier."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/39
+       </container>
+       <unittitle encodinganalog="245$a">
+        Newport (RI) Daily News and newspaper ad for
+                        Salt in Newport,
+        <date localtype="inclusive" normal="1973-12">
+         December, 1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-12" unitdatetype="inclusive">
+        December, 1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Songwriter to Perform at Tavern." 43. Newspaper advertisement for Salt in
+                        Newport.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/40
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Times articles,
+        <date localtype="inclusive" normal="1973-07-29/1973-08-30">
+         1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-07-29/1973-08-30" unitdatetype="inclusive">
+        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Instrumentalists Dominate Folk Fest." 45. Indians Win One at Folk
+                        Festival."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/41
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Village Voice,
+        <date localtype="inclusive" normal="1973-10-04">
+         October 4,
+                        1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-10-04" unitdatetype="inclusive">
+        October 4,
+                        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Advertisement for Brewer and Shipley with David Bromberg at Drew University,
+                        Madison, NJ.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/42
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Minneapolis Star,
+        <date localtype="inclusive" normal="1973-06-04">
+         June 4,
+                           1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973-06-04" unitdatetype="inclusive">
+        June 4,
+                           1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg Back with Act to Reckon With" via management promotional
+                        flyer.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/43
+       </container>
+       <unittitle encodinganalog="245$a">
+        "Quotable Quotes" collection of album
+                        reviews,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Compiled by Fantasy Records.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/44
+       </container>
+       <unittitle encodinganalog="245$a">
+        Japanese magazine #007,
+        <date localtype="inclusive" normal="2012">
+         2012
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2012" unitdatetype="inclusive">
+        2012
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Root: Route to Music.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/45
+       </container>
+       <unittitle encodinganalog="245$a">
+        The Sounding Board: The Official Newsletter
+                        of the Martin Guitar Company,
+        <date localtype="inclusive" normal="2006-07">
+         July, 2006
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2006-07" unitdatetype="inclusive">
+        July, 2006
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "M-42 David Bromberg Signature Edition Pays Tribute to the Origin of the
+                        Original in Guitars."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/46
+       </container>
+       <unittitle encodinganalog="245$a">
+        Acoustic Guitar Magazine,
+        <date localtype="inclusive" normal="2007-11">
+         November,
+                           2007
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2007-11" unitdatetype="inclusive">
+        November,
+                           2007
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "At Home With the Blues."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/47
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mad Magazine,
+        <date localtype="inclusive" normal="2008-04">
+         April,
+                        2008
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2008-04" unitdatetype="inclusive">
+        April,
+                        2008
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "The Answer Mad."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/48
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mucchio Selvaggio (Italy) n. 25,
+        <date localtype="inclusive" normal="1979-12">
+         December,
+                           1979
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1979-12" unitdatetype="inclusive">
+        December,
+                           1979
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Cover photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/49
+       </container>
+       <unittitle encodinganalog="245$a">
+        Frets Magazine,
+        <date localtype="inclusive" normal="1979-06">
+         June, 1979
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1979-06" unitdatetype="inclusive">
+        June, 1979
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: Moving Into His Own Spotlight."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/50
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sing Out! The Folk Song Magazine Vol. 35, No.
+                        2,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: More Than Blues... Guaranteed!"
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/51
+       </container>
+       <unittitle encodinganalog="245$a">
+        People Into Music magazine,
+        <date localtype="inclusive" normal="1978-08">
+         August,
+                           1978
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1978-08" unitdatetype="inclusive">
+        August,
+                           1978
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: Master of Many Musical Idioms."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        5/52
+       </container>
+       <unittitle encodinganalog="245$a">
+        Melody Maker,
+        <date localtype="inclusive" normal="1975-08-09">
+         August 9,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-08-09" unitdatetype="inclusive">
+        August 9,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg's Out of the Basket."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        Melody Maker,
+        <date localtype="inclusive" normal="1976-06-05">
+         June 5,
+                        1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976-06-05" unitdatetype="inclusive">
+        June 5,
+                        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg: Happy Tradesman."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rolling Stone,
+        <date localtype="inclusive" normal="1977-03-10">
+         March 10,
+                        1977
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1977-03-10" unitdatetype="inclusive">
+        March 10,
+                        1977
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "David Bromberg: The Demon Changes His Disguise."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rolling Stone,
+        <date localtype="inclusive" normal="1974-04-11">
+         April 11,
+                        1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974-04-11" unitdatetype="inclusive">
+        April 11,
+                        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Album Reviews. "Wanted Dead or Alive: David Bromberg."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rolling Stone,
+        <date localtype="inclusive" normal="1975-07-31">
+         July 31,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-07-31" unitdatetype="inclusive">
+        July 31,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Album Reviews. "Midnight on the Water: David Bromberg."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Melody Maker,
+        <date localtype="inclusive" normal="1977-03-26">
+         March 26,
+                        1977
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1977-03-26" unitdatetype="inclusive">
+        March 26,
+                        1977
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photograph caption from upcoming UK tour.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        San Francisco Chronicle,
+        <date localtype="inclusive" normal="2004-07-03">
+         July 3,
+                           2004
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2004-07-03" unitdatetype="inclusive">
+        July 3,
+                           2004
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Datebook: Section E"; "Guitarist David Bromberg Was a Virtuoso on the Bay
+                        Area Scene Until He Packed Up in 1980--Now He's Back in Circulation."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Collection of press clippings,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Compiled by Fantasy Records.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Japanese newspaper feature on upcoming show,
+        <date localtype="inclusive" normal="2012">
+         2012
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2012" unitdatetype="inclusive">
+        2012
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        Tarrytown News,
+        <date localtype="inclusive" normal="1975-12-08">
+         December 8,
+                        1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-12-08" unitdatetype="inclusive">
+        December 8,
+                        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Bromberg Has Traded Magic for Music."
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Westchester Premier Theater playbill,
+        <date localtype="inclusive" normal="1975-12-09">
+         December 9, 1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-12-09" unitdatetype="inclusive">
+        December 9, 1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box-Folder">
+        6/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg collection inventory,
+        <date localtype="inclusive">
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" unitdatetype="inclusive">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        manuscript
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Item-level numbering for each grouping organized by 
+                     collection donor.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 5. Group 5,
+       <date>
+        ca. 1962-2013
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1962-2013
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Herald Tribune World Youth Forum Concert NYC,
+        <date localtype="inclusive" normal="1962">
+         1962
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1962" unitdatetype="inclusive">
+        1962
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg performing,
+        <date>
+         ca. 1965-1969
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1965-1969
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Gahr promo shoot,
+        <date>
+         ca. 1970-1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 photographic
+                        prints
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Club Passim, Cambridge, Massachusetts,
+        <date localtype="inclusive" normal="1972-02-04">
+         February 4,
+                           1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-02-04" unitdatetype="inclusive">
+        February 4,
+                           1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mariposa Folk Festival,
+        <date localtype="inclusive" normal="1972-07-14">
+         July 14,
+                           1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972-07-14" unitdatetype="inclusive">
+        July 14,
+                           1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Kenny Kosek and Bukka White in background.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mariposa Folk Festival,
+        <date localtype="inclusive" normal="1972">
+         1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        3
+       </container>
+       <unittitle encodinganalog="245$a">
+        Mariposa Folk Festival,
+        <date localtype="inclusive" normal="1972">
+         1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+        1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Tommy Sheehan, bass; Andy Statman.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Oswego State College,
+        <date localtype="inclusive" normal="1974">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Dick Fegy, David Bromberg.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Oswego State College,
+        <date localtype="inclusive" normal="1974">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Brantley Kearns, Dick Fegy, David Bromberg, Peter Ecklund.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Philadelphia Folk Festival,
+        <date localtype="inclusive" normal="1973">
+         1973
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+        1973
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: Kenny Kosek, Larry Packer, Neil Rossi, David Bromberg, and Steve
+                        Burge.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        D. Hoogenbosch photographs of band in
+                        Rotterdam and Amsterdam,
+        <date localtype="inclusive" normal="1975-08-02">
+         August 2, 1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-08-02" unitdatetype="inclusive">
+        August 2, 1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        11 photographic
+                        prints
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Europe tour,
+        <date>
+         ca. 1970-1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Edinburgh, Scotland. Jay Ungar, Dave Richardson (Boys of the Lough), Richie
+                        Giorgano (tour manager).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Europe tour,
+        <date>
+         ca. 1970-1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Edinburgh, Scotland. Ali and Lucy Bain.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Europe tour,
+        <date>
+         ca. 1970-1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Ireland. David Bromberg, Kevin Burke, Richie Giordano.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Europe tour,
+        <date>
+         ca. 1970-1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Nyon, Switzerland. David Bromberg, Jay Ungar.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Philadelphia Folk Festival,
+        <date localtype="inclusive" normal="1975-08">
+         August,
+                           1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975-08" unitdatetype="inclusive">
+        August,
+                           1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mark Precca photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Curt Lindbergh, Danny Counts
+                        (bass player), seated,
+        <date localtype="inclusive" normal="1976">
+         1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976" unitdatetype="inclusive">
+        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        New York, New York. Mike Tighe photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg at home,
+        <date localtype="inclusive" normal="1976">
+         1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976" unitdatetype="inclusive">
+        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        New York, New York. Mike Tighe photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg at home,
+        <date localtype="inclusive" normal="1976">
+         1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976" unitdatetype="inclusive">
+        1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        New York, New York. Mike Tighe photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg on Dobro,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Kenny Kosek,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire proof photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg,
+        <date>
+         undated
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        undated
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire proof photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg Band,
+        <date>
+         ca. 1977-1978
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1977-1978
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Bill Kelly photograph. Long Island, New York. Left-Right: John Firmin, Curt
+                        Lindbergh, George Kindler, David Bromberg, Dave Shallock, Dick Fegy.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Tour picture, Italy,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: George Kindler, David Bromberg, Dick Fegy.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional band photograph,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        John Firmin, Lance Dickerson, Dick Fegy, David Bromberg, Curt Lindbergh,
+                        Dave Shallick, George Kindler.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Hugh McDonald,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Wayne Porreca photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Dick Fegy,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Wayne Porreca photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Central Park, NYC photograph,
+        <date localtype="inclusive" normal="1980-08">
+         August,
+                           1980
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1980-08" unitdatetype="inclusive">
+        August,
+                           1980
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        David Bromberg, Nancy Josephson, Paula Lockhart, Rachel Gladstone.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Dick Fegy,
+        <date localtype="inclusive" normal="1975">
+         1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975" unitdatetype="inclusive">
+        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Janet Goldberg photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David with Linda Ronstadt radio promo poster,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Peter Cunningham photograph,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        John Firmin, Margaret Firmin, David Bromberg,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Group photograph,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right (back): Richie Giordano (crew), Curt Lindbergh, John Firmin.
+                        Front: Lance Dickerson, Dick Fegy, [first name unknown] Miller (tour manager), Melissa
+                        Dickerson in front of Lance.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Oversize group photograph,
+        <date>
+         ca. 1976-1979
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1976-1979
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right (back): Dennis Leonard (sound), Dick Fagy, Hugh McDonald, John
+                        Firmin, Steve Mosely. On ground: Curt Lindbergh, "Suds" (bus driver), George
+                        Kindler. Back standing: David Bromberg. Front standing: Angus [surname 
+                        unknown] (crew), Dave Curtin (crew), Ursula Alexander (tour manager), Carol Reed (lighting).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg on fiddle,
+        <date>
+         ca. 1980-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1980-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg clapping,
+        <date>
+         ca. 1977-1983
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1977-1983
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Peter Cunningham photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Dick Fegy, Evan Stover,
+        <date localtype="inclusive" normal="1975">
+         1975
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1975" unitdatetype="inclusive">
+        1975
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Janet Goldberg photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Danny O'Keefe recording session photograph,
+                        Atlantic Studios,
+        <date>
+         ca.
+                        1970-1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        1970-1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        David Gahr photograph. Back: David Bromberg, Anita Ball, unidentified, Arif
+                        Marden. Middle: Kenny Kosek, Danny O'Keefe, Dr. John (Mac Rebennack). Front:
+                        Steve Mosley, Andy Statman, Hugh McDonald.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Morris Stage, Morristown,
+                        New Jersey,
+        <date localtype="inclusive" normal="1978-11-17">
+         1978-11-17
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1978-11-17" unitdatetype="inclusive">
+        1978-11-17
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Kevin Papa photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Morris Stage, Morristown,
+                        New Jersey,
+        <date localtype="inclusive" normal="1978-11-17">
+         1978-11-17
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1978-11-17" unitdatetype="inclusive">
+        1978-11-17
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Kevin Papa photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jay Ungar, David Bromberg, Dick Fegy,
+        <date localtype="inclusive" normal="1978-11-17">
+         1978-11-17
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1978-11-17" unitdatetype="inclusive">
+        1978-11-17
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Morris Stage, Morristown, New Jersey
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Jeff Wisor, David Bromberg, Gene Johnson,
+                        Dick Fagy,
+        <date>
+         ca.
+                        1980-1984
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        1980-1984
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sarah Anne Shoaf photograph, California, early 1980s.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rutgers University, New Jersey,
+        <date localtype="inclusive" normal="1976-03">
+         March,
+                           1976
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1976-03" unitdatetype="inclusive">
+        March,
+                           1976
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Kevin Papa photograph. Left-Right: George Kindler, Dick Fagy, David
+                        Bromberg, Steve Mosley, Hugh McDonald, Curt Lindbergh, John Firmin.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg and Lily (dog) in home in
+                        Wilmington, Delaware,
+        <date localtype="inclusive" normal="2007">
+         2007
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2007" unitdatetype="inclusive">
+        2007
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Nan L[surname unknown] photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg at home in Wilmington, Delaware,
+        <date localtype="inclusive" normal="2007">
+         2007
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2007" unitdatetype="inclusive">
+        2007
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Nan L[surname unknown] photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David with National Steel Guitar,
+        <date localtype="inclusive" normal="2007">
+         2007
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2007" unitdatetype="inclusive">
+        2007
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Nan L[surname unknown] photograph. Gift of Phoebe Snow and David Rubinson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg on fiddle,
+        <date localtype="inclusive" normal="2008">
+         2008
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2008" unitdatetype="inclusive">
+        2008
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg on guitar,
+        <date localtype="inclusive" normal="2008">
+         2008
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2008" unitdatetype="inclusive">
+        2008
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Japan tour photograph,
+        <date localtype="inclusive" normal="2013">
+         2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2013" unitdatetype="inclusive">
+        2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: Taro Inove, Mark Cosgrove, David Bromberg, Nate Grower.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Japan tour photograph,
+        <date localtype="inclusive" normal="2013">
+         2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2013" unitdatetype="inclusive">
+        2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: Taro Inove, Mark Cosgrove, David Bromberg, Nate Grower.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Japan tour photograph,
+        <date localtype="inclusive" normal="2013">
+         2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2013" unitdatetype="inclusive">
+        2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Left-Right: Taro Inove, Mark Cosgrove, David Bromberg, Nate Grower.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Band performing,
+        <date localtype="inclusive" normal="2011-05-19">
+         May 19,
+                        2011
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2011-05-19" unitdatetype="inclusive">
+        May 19,
+                        2011
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Thomas South photograph. Left-Right, front: Mitch Corbin, Robert Amiot, Josh
+                        Kanusky, David Bromberg, Alison Newitt, Kathleen Weber, Nate Grower, Nancy
+                        Josephson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David with Signature Guitar and Nancy
+                        Josephson,
+        <date>
+         ca. 2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional photograph,
+        <date>
+         ca. 2009
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 2009
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Appleseed Recordings, Nashville, Tennessee.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Band performing in Tarrytown,
+        <date localtype="inclusive" normal="2011">
+         2011
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2011" unitdatetype="inclusive">
+        2011
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Tarrytown, New York. Left-Right front: John Firmin, Matt
+                        Parker, Peter Ecklund, Curt Lindbergh, Robert Amiot, Josh Kanusky, Alison
+                        Newitt, Kathleen Weber, Nancy Josephson.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg, Mark Cosgrove,
+        <date>
+         ca. 2013-2014
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 2013-2014
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        AARP photograph,
+        <date>
+         ca. 2005-2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 2005-2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        John Firmin, David Brombert, Peter Ecklund, Curt Lindbergh.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        9
+       </container>
+       <unittitle encodinganalog="245$a">
+        David Bromberg Band,
+        <date>
+         ca. 2005-2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 2005-2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Mike Thut photograph. Left-Right: John Firmin, Peter Ecklund, Curt
+                        Lindbergh, Josh Kanusky, David Bromberg, Robert Armiot, Mitch Corbin, Nate
+                        Grower.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contact sheet from WBAI radio station, NYC,
+        <date>
+         ca. 1960-1969
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1960-1969
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        "Radio Unnamable" - Bob Foss' show. Top row: Bob Foss. Musicians: Jody
+                        Stecher (guitar), Winnie Winston (banjo), David Bromberg (guitar). Others
+                        unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Contact sheet for "Demon in Disguise" record,
+        <date>
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photo shoot.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo shoot for album, "Wanted Dead or
+                        Alive,"
+        <date localtype="inclusive" normal="1974">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo shoot for album, "Wanted Dead or
+                        Alive,"
+        <date localtype="inclusive" normal="1974">
+         1974
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+        1974
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photograph.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo shoot for "Demon in Disguise" record,
+        <date>
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photo shoot.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        2
+       </container>
+       <unittitle encodinganalog="245$a">
+        Photo shoot for "Demon in Disguise" record,
+        <date>
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Jim McGuire photo shoot.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Columbia Records promotional photograph,
+        <date>
+         ca. 1970-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        3 photographic
+                        prints
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Magna Artists Corp (booking agent), All-Arts
+                        Presentations, Inc.,
+        <date>
+         ca.
+                           1970-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                           1970-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Fantasy Records, All-Arts Presentations,
+                        Inc.,
+        <date>
+         ca. 1970-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        4 photographic
+                        prints
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        8
+       </container>
+       <unittitle encodinganalog="245$a">
+        Rounder Records,
+        <date>
+         ca. 1970-1989
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca. 1970-1989
+       </unitdate>
+       <physdesc encodinganalog="300">
+        photographic print
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries 6. Group 6: Posters and visual art,
+       <date>
+        ca. 1982-2013
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       ca. 1982-2013
+      </unitdate>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS01
+       </container>
+       <unittitle encodinganalog="245$a">
+        Concert poster for the David Bromberg Quintet 
+                        and Adrien Reju,
+        <date localtype="inclusive" normal="2015-08-09">
+         August 9, 2015
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2015-08-09" unitdatetype="inclusive">
+        August 9, 2015
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 x 26 in.  poster designed by Gary Houston.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS01
+       </container>
+       <unittitle encodinganalog="245$a">
+        Concert poster for the David Bromberg Quintet 
+                        and Adrien Reju,
+        <date localtype="inclusive" normal="2015-08-09">
+         August 9, 2015
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2015-08-09" unitdatetype="inclusive">
+        August 9, 2015
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 x 26 in. poster designed by Gary Houston.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS01
+       </container>
+       <unittitle encodinganalog="245$a">
+        Concert poster for David Bromberg's Bucket 
+                        List Birthday Bash,
+        <date localtype="inclusive" normal="2015-09-19">
+         September 19, 2015
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2015-09-19" unitdatetype="inclusive">
+        September 19, 2015
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 x 26 in. poster designed by Gary Houston.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS02
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hand printed poster for Aladdin Theater
+                        performance,
+        <date localtype="inclusive" normal="2009-10-21">
+         October 21, 2009
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2009-10-21" unitdatetype="inclusive">
+        October 21, 2009
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 x 26 in. poster designed by Gary Houston, signed and numbered.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS02
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hand printed poster for Aladdin Theater
+                        performance,
+        <date>
+         ca.
+                        2011-2012
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f">
+        ca.
+                        2011-2012
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        13 x 26 in. poster designed by Gary Houston, signed by artist and David Bromberg.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Folder">
+        AFC 2015/043: OS02
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hand printed poster for David Bromberg
+                        Quartet tour (Florida and St. Thomas),
+        <date localtype="inclusive" normal="2013-01">
+         January,
+                        2013
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="2013-01" unitdatetype="inclusive">
+        January,
+                        2013
+       </unitdate>
+       <physdesc encodinganalog="300">
+        poster
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        18 x 24 in. poster. Numbered and signed.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="Box">
+        10
+       </container>
+       <unittitle encodinganalog="245$a">
+        Original illustration that became cover artwork 
+                        for David Bromberg's self titled Columbia Records album,
+        <date localtype="inclusive" normal="1972">
+         ca. 1972
+        </date>
+       </unittitle>
+       <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+        ca. 1972
+       </unitdate>
+       <physdesc encodinganalog="300">
+        illustration
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original artwork.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

@@ -1,0 +1,2956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af019006" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af019006
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     John Dildine and Ginny Dildine papers
+    </titleproper>
+    <subtitle>
+     AFC 2018/009
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Marcia K. Segal
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2019-08">
+     August 2019
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2018655310" show="new">
+       https://lccn.loc.gov/2018655310
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2019-08">
+     August 2019
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Marcia K. Segal
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    John Dildine and Ginny Dildine
+               papers
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1957/2014">
+     1957-2014
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1957/1995">
+     1957-1995
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1957/2014" unitdatetype="inclusive">
+    1957-2014
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1957/1995" unitdatetype="bulk">
+    1957-1995
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2018/009
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Dildine, John
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Dildine, Ginny
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (items)">
+    1602 items ; 12 containers ; 88 linear inches.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (sound recordings)">
+    3 sound cassettes : analog.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    1225 items.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    246 slides : color ; 35 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    27 photographic prints : black and white ; various
+               sizes.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    2 photographic prints : color ; 3 1/2 x 5 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    4 posters.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    36 drawings.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    59 artifacts.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     Collection material in English.
+    </language>
+    <descriptivenote>
+     <p>
+      Collection material in English.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+               Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    The John Dildine and Ginny Dildine papers
+            document their involvement in folk music, crafts, and other folk revival activities from
+            the 1950s-1995. The Dildines played pivotal roles in the Folklore Society of Greater
+            Washington, Fox Hollow Festival, and National Folk Festival Association. Their work with
+            puppetry was important in the revival of that art form and the collection includes Ginny
+            Dildine's sketches and patterns for puppets, photographs of puppet performances at
+            festivals, and the Dildine Family manuscript songbook, with notations about puppet
+            performances. Correspondents include Bob Beers, Evelyne Beers, Gordon Bok, George and
+            Gerry Armstrong, Pete Seeger, Toshi Seeger, Mike Seeger, Michael Cooney, and others. The
+            collection also includes fan mail for John Dildine's folk music radio programs.
+            Photographs include color slides of the Fox Hollow Folk Festival (1966, 1970); Mariposa
+            Folk Festival (1970, 1972); the Newport Folk Festival (1967) including photographs of
+            Pete Seeger, Mike Seeger, Hedy West, Joan Baez, Buffy Sainte-Marie, and others; the
+            Dildine puppets (1970s); the Folklore Society of Greater Washington picnic (1965), and
+            the Smithsonian Folklife Festival (1967). The collection includes the transcript of an
+            interview with John Dildine conducted by Julie McCullogh in 1993; and correspondence and
+            outlines related to the Kennedy Center Honors video interview with Pete Seeger,
+            conducted by John Dildine in Beacon, New York, June 7, 1995.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20200903103508.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Beers, Bob, 1920-1972--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Beers, Evelyne--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Bok, Gordon--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dildine, Ginny
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Dildine, Ginny--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Dildine, John
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Dildine, John--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Dildine, John--Interviews.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Seeger, Pete, 1919-2014.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Folklore Society of Greater Washington.
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      Fox Hollow Folk Festival.
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      Mariposa Folk Festival.
+     </part>
+    </corpname>
+    <corpname encodinganalog="611" relator="subject" source="lcnaf">
+     <part>
+      Newport Folk Festival.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--Canada.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk festivals--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcgft">
+     <part>
+      Folk music radio programs.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Societies, etc.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk musicians--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Texts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Puppets.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="gmgpc">
+     <part>
+      Clippings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Drawings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcsh">
+     <part>
+      Fan mail.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songbooks.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: 1: Correspondence; 2: Professional activities;
+               3: Programs; 4: Sound recordings; 5: Photographic materials; 6: Drawings; 7: Posters;
+               8: Artifacts.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    John Dildine; 2018.
+   </p>
+  </acqinfo>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Marcia K. Segal.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544">
+   <head>
+    Related Material
+   </head>
+   <p>
+    John and Ginny Dildine collection (AFC 1975/001), Archive of Folk Culture, American
+               Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+   <p>
+    John Dildine collection (AFC 1975/024), Archive of Folk Culture, American Folklife
+               Center, Library of Congress, Washington, D.C.
+   </p>
+  </relatedmaterial>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication may be governed by copyright and other restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research. Access may be restricted. To request materials,
+               please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     http://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    John Dildine and Ginny Dildine papers, 1957-1995 (AFC 2018/009) Archive of Folk
+               Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    John Dildine and Ginny Dildine became familiar figures on the folk music scene in the
+            1960s, performing at various festivals, schools, and other venues. Around 1965 they
+            began to incorporate puppetry into their stage performances. The puppets were designed
+            by Ginny and either hand-operated or worn as costumes. Over the years the Dildine
+            children (Scott, Debbie, and Connie) joined their parents onstage for musical
+            performances, and to help operate the puppets. Among John’s many accomplishments, he was
+            also the host of folk music programs on Washington, D.C.-area radio stations WASH and
+            WAMU-FM (from 1957-1970) and was the first president of the Folklore Society of Greater
+            Washington (1964-1965).
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The John Dildine and Ginny Dildine papers document their involvement in folk music,
+            crafts, and other folk revival activities from the 1950s-1995. The Dildines played
+            pivotal roles in the Folklore Society of Greater Washington, Fox Hollow Festival, and
+            National Folk Festival Association. Their work with puppetry was important in the
+            revival of that art form and the collection includes Ginny Dildine's sketches and
+            patterns for puppets, photographs of puppet performances at festivals, and the Dildine
+            Family manuscript songbook, with notations about puppet performances. Correspondents
+            include Bob Beers, Evelyne Beers, Gordon Bok, George and Gerry Armstrong, Pete Seeger,
+            Toshi Seeger, Mike Seeger, Michael Cooney, and others. The collection also includes fan
+            mail for John Dildine's folk music radio programs. Photographs include color slides of
+            the Fox Hollow Folk Festival (1966, 1970); Mariposa Folk Festival (1970, 1972); the
+            Newport Folk Festival (1967) including photographs of Pete Seeger, Mike Seeger, Hedy
+            West, Joan Baez, Buffy Sainte-Marie, and others; the Dildine puppets (1970s); the
+            Folklore Society of Greater Washington picnic (1965), and the Smithsonian Folklife
+            Festival (1967). The collection includes the transcript of an interview with John
+            Dildine conducted by Julie McCullogh in 1993; and correspondence and outlines related to
+            the Kennedy Center Honors video interview with Pete Seeger, conducted by John Dildine in
+            Beacon, New York, June 7, 1995.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Correspondence
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Personal and professional correspondence, plus related materials, remain in their
+                  original order within each folder, except for delicate or multipage materials,
+                  which have been rehoused and placed and the back of their folder of origin.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence--folk music radio program (1 of
+                     3),
+       <date localtype="inclusive" normal="1958/1994">
+        circa
+                        1958-1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1958/1994" unitdatetype="inclusive">
+       circa
+                        1958-1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Contents of box-folders 1/1, 1/2, and 1/3 are from a single binder with this
+                     title. Box-Folder 1/1 includes the loose materials from the front pocket of the
+                     binder. Includes correspondence, newspaper clippings, publicity flyers and
+                     brochures, and related materials.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence--folk music radio program (2 of
+                     3),
+       <date localtype="inclusive" normal="1958/1994">
+        circa
+                        1958-1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1958/1994" unitdatetype="inclusive">
+       circa
+                        1958-1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See the description for box-folder 1/1. The folder includes a photo of Paul
+                     Clayton (AFC 2018/009: PH263).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence--folk music radio program (2 of
+                     3),
+       <date localtype="inclusive" normal="1958/1994">
+        circa
+                        1958-1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1958/1994" unitdatetype="inclusive">
+       circa
+                        1958-1994
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See the description for box-folder 1/1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence regarding puppets (1 of 2),
+       <date localtype="inclusive" normal="1967/1995">
+        circa
+                        1967-1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1995" unitdatetype="inclusive">
+       circa
+                        1967-1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes typed and handwritten correspondence, plus schedules for events,
+                     flyers, newspaper clippings (originals and photocopies), and related materials
+                     for performances at various festivals and venues. Includes Ginny Dildine's
+                     membership card for The Puppeteers of America (1975).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence regarding puppets (2 of 2),
+       <date localtype="inclusive" normal="1967/1995">
+        circa
+                        1967-1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1995" unitdatetype="inclusive">
+       circa
+                        1967-1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See the description for folder 1 of 2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence (1 of 2),
+       <date localtype="inclusive" normal="1952/2002">
+        1952; circa
+                        1972-2002
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1952/2002" unitdatetype="inclusive">
+       1952; circa
+                        1972-2002
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes typed and handwritten correspondence, newspaper clippings, a
+                     contractual agreement with Gentle Wind, a photocopied article on the
+                     Symondsbury mumming play (1952), an original copy of
+       <emph render="italic">
+        The Purple
+                        Pumpkin
+       </emph>
+       , by Gerry and George Armstrong (and inscribed by one of them,
+                     for both), and related materials. Correspondence in box-folders 1/6 and 1/7
+                     were received as a single group.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Correspondence (2 of 2),
+       <date localtype="inclusive" normal="1972/2002">
+        circa
+                        1972-2002
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/2002" unitdatetype="inclusive">
+       circa
+                        1972-2002
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In addition to correspondence and related materials, the folder includes a
+                     ditto copy of
+       <emph render="italic">
+        Sampler of Christopher Robin Songs
+       </emph>
+       , with musical
+                     settings by Des and Juliet Rainey, and a ditto copy of
+       <emph render="italic">
+        The Mountain
+                        Dulcimer: How to Make It and Play It (After a Fashion)
+       </emph>
+       , by Howard
+                     Mitchell. See description for box-folder 1/6.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Folklore Society of Greater Washington--folk
+                     music radio (1 of 3),
+       <date localtype="inclusive" normal="1957/2014">
+        circa 1957-2014
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1957/2014" unitdatetype="inclusive">
+       circa 1957-2014
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Received as a binder with correspondence three-hole punched to fit. Received in
+                     reverse chronological order, an organization which has been retained (except
+                     for multi-page items, rehoused in bond paper folders). Typed and handwritten
+                     correspondence, from individuals and organizations. Also includes documentation
+                     related to FSGW's FiftyFest! (their fiftieth anniversary event), in 2014. John
+                     Dildine was the organization's first president. His ID badge for FSGW's
+                     FiftyFest! has been relocated to Series 8.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Folklore Society of Greater Washington--folk
+                     music radio (2 of 3),
+       <date localtype="inclusive" normal="1957/2014">
+        circa 1957-2014
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1957/2014" unitdatetype="inclusive">
+       circa 1957-2014
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See the description for box-folder 2/1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Folklore Society of Greater Washington--folk
+                     music radio (3 of 3),
+       <date localtype="inclusive" normal="1957/2014">
+        circa 1957-2014
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1957/2014" unitdatetype="inclusive">
+       circa 1957-2014
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See the description for box-folder 2/1.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Professional activities
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Documentation for the planning stages of puppet and music performances.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals (1 of
+                     5): front matter,
+       <date localtype="inclusive" normal="1970/1979">
+        circa 1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Materials in box-folders 2/4 through 2/8 were received in a single binder. They
+                     have been removed from the binder but maintained in their original order. The
+                     front matter includes blank sheets of paper and envelopes with the Dildine
+                     family logo and address, two ditto copies of the Dildine family's folk music
+                     and performance background and achievements, a copy of the liner notes/booklet
+                     accompanying the recording "The Dildine Family" (1974), and a sheet of
+                     handwritten notes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals (2 of
+                     5): Section 1--organization,
+       <date localtype="inclusive" normal="1970/1979">
+        circa 1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for box-folder 2/4. This folder includes a two-page inventory of
+                     puppets, props, and gear, as well as where the materials are stored.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals (3 of
+                     5): Section 2--visuals,
+       <date localtype="inclusive" normal="1970/1979">
+        circa 1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for box-folder 2/4. This folder includes songs already used in the
+                     Dildine family's repertoire, represented by typed handwritten and photocopied
+                     lyrics, hand-drawn illustrations, and some music. Six small photos are taped,
+                     three to a page, to illustrate the lyrics for "Good Old Colony Days" and
+                     "Leatherwing Bat."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals (4 of
+                     5): Section 3--possible visuals,
+       <date localtype="inclusive" normal="1970/1979">
+        circa 1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for box-folder 2/4. This folder includes typed lyrics (with some
+                     handwritten notes) for songs that will be provided with visual elements at a
+                     future date.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals (5 of
+                     5): Section 4--no visuals,
+       <date localtype="inclusive" normal="1970/1979">
+        circa 1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See note for box-folder 2/4. This folder includes typed, handwritten, original,
+                     photocopied, and dittoed lyrics with some illustrations for songs that were not
+                     performed with visual elements.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Songs from folk friends that we didn't learn,"
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Folder title accompanied original materials. Handwritten, typed, dittoed, and
+                     photocopied song texts and music.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       "The Dildine Family,"
+       <date localtype="inclusive" normal="1974">
+        1974; undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+       1974; undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence (including permission requests), booklet layout and design
+                     mock-ups, copy drafts, song lists, and other materials related to the
+                     production of "The Dildine Family Record," released in 1974. Includes the
+                     booklet in its final, published form. A letter to the Dildines from Gordon Bok,
+                     including extensive illustrations and on onion skin paper, remains in this
+                     folder.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       WAMU-FM,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A program with the broadcast schedule for July 1967 that includes a photo of
+                     John Dildine plus a brief biography, and a certificate awarded to John Dildine
+                     by the station as part of American University, in recognition of
+                     distinguished services (dated May 17, 1968).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       Interview with John and Ginny Dildine, by Julie
+                     McCullough,
+       <date localtype="inclusive" normal="1993-10-03/1995-10-20">
+        October 3-4, 1993; October 20,
+                     1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1993-10-03/1995-10-20" unitdatetype="inclusive">
+       October 3-4, 1993; October 20,
+                     1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edited, typed copy of the transcript. Accompanied by a printed copy of
+                     McCullough's paper, "Folklore Society of Greater Washington: Voluntary
+                     Association as Utopia?" (prepared for the Society for Utopian Studies's 20th
+                     annual conference, October 20, 1995). The paper is accompanied by a handwritten
+                     sticky note from McCullough to John and Ginny Dildine.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       New Lost City Ramblers,
+       <date localtype="inclusive" normal="2006/2007">
+        2006-2007
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006/2007" unitdatetype="inclusive">
+       2006-2007
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A printed email thread between Thomas Stern and John Dildine (2006), a printed
+                     email thread between Ray Allen and John Dildine (2007), and a copy of the
+                     Institute for American Studies newsletter (Spring 2006).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pete Seeger: Kennedy Center Honors video
+                     interview,
+       <date localtype="inclusive" normal="1995">
+        1995
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1995" unitdatetype="inclusive">
+       1995
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The interview was conducted on June 7, 1995. Related materials from 1995
+                     include correspondence, and typed and handwritten notes. Included are copies of
+                     the consent form, signed by John Dildine and Dinah Smith (Executive Producer,
+                     Kennedy Center). In addition, there is a faxed set of illustrated directions to
+                     Seeger's home in Beacon, New York.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Photocopies of published materials,
+       <date localtype="inclusive" normal="2010">
+        2010;
+                        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2010" unitdatetype="inclusive">
+       2010;
+                        undated
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two stapled photocopies: one is of the 2010 essay "In Pursuit of Authenticity:
+                     the New Lost City Ramblers and the Postwar Folk Music Revival" (
+       <emph render="italic">
+        Journal
+                        of the Society for American Music
+       </emph>
+       , vol. 4, no. 3, and a few pages
+                     photocopied from an unidentified book.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Programs
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Personal and professional correspondence, plus related materials. Items remain in
+                  their original order within each folder, except for delicate or multipage
+                  materials, which have been rehoused and placed and the back of their folder of
+                  origin.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Festival of American Folklife,
+       <date localtype="inclusive" normal="1968/1971">
+        1968;
+                        1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968/1971" unitdatetype="inclusive">
+       1968;
+                        1971
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Festival programs. Handwritten notes, including John Cohen's name, on the cover
+                     of the 1971 program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/9
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mariposa Folk Festival,
+       <date localtype="inclusive" normal="1967/1969">
+        1967;
+                        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1969" unitdatetype="inclusive">
+       1967;
+                        1969
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Festival programs. Handwritten note from John Dildine, on the cover of the 1969
+                     program.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/10
+      </container>
+      <unittitle encodinganalog="245$a">
+       Newport Folk Festival,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Festival programs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       3/11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Old Songs Festival (1 of 3),
+       <date localtype="inclusive" normal="1997/2005">
+        1997; 2001-2003;
+                        2005
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1997/2005" unitdatetype="inclusive">
+       1997; 2001-2003;
+                        2005
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Festival programs; two copies of the 2005 program. While there is not a program
+                     per se for the 2007 festival, there is a preliminary schedule, a main stage
+                     schedule, a promotional flyer, and a preliminary campsite plan; these are
+                     accompanied by a printed email from Michael Silk to John Dildine.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Old Songs Festival (2 of 3),
+       <date localtype="inclusive" normal="2006/2009">
+        2006;
+                        2008-2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006/2009" unitdatetype="inclusive">
+       2006;
+                        2008-2009
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 3/11.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/2
+      </container>
+      <unittitle encodinganalog="245$a">
+       Old Songs Festival (3 of 3),
+       <date localtype="inclusive" normal="2010/2013">
+        2010;
+                        2013
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2010/2013" unitdatetype="inclusive">
+       2010;
+                        2013
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for box-folder 3/11.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/3
+      </container>
+      <unittitle encodinganalog="245$a">
+       Philadelphia Folk Festival,
+       <date localtype="inclusive" normal="1964/1974">
+        1964; 1967-1968;
+                        1970, 1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1964/1974" unitdatetype="inclusive">
+       1964; 1967-1968;
+                        1970, 1974
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Festival programs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/4
+      </container>
+      <unittitle encodinganalog="245$a">
+       National Folk Festival,
+       <date localtype="inclusive" normal="1971/1974">
+        1971-1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971/1974" unitdatetype="inclusive">
+       1971-1974
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Held at Wolf Trap Farm Park, in Vienna, Virginia; the folder includes
+       <title>
+        <part>
+         The Performer
+        </part>
+       </title>
+       , vol. 1, book 9 (1971).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Programs from various festivals,
+       <date localtype="inclusive" normal="1966/1974">
+        1966-1967;
+                        1973-1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966/1974" unitdatetype="inclusive">
+       1966-1967;
+                        1973-1974
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes the 35th Annual Festival of the Puppeteers of America (1970), the Cape
+                     Island Festival of Folk Music and Crafts (1973), June Day Folk Festival (1974),
+                     a schedule for Antagonise (1973), and a copy of
+       <title>
+        <part>
+         Philharmonic
+                        Hall
+        </part>
+       </title>
+       , Lincoln Center for the Performing Arts (1966-1967).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box-Folder">
+       4/6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Gentle Wind catalog,
+       <date localtype="inclusive" normal="1990">
+        1990
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1990" unitdatetype="inclusive">
+       1990
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Catalog of commercial recordings available from A Gentle Wind. Red notations
+                     are made for the three cassettes received as part of the collection.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Sound recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2003/051: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine Family.
+       <title>
+        <part>
+         The Dildine family.
+        </part>
+       </title>
+       Albany, N.Y.: A Gentle Wind,
+       <date>
+        1982.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1982.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette :
+                     analog ; stereo
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       GW 1017
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2003/051: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine, John and Ginny, with Gordon Bok.
+       <title>
+        <part>
+         The reluctant dragon.
+        </part>
+       </title>
+       Albany, N.Y.: A Gentle Wind,
+       <date>
+        1988.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1988.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette :
+                     analog ; stereo
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       GW 1047
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2003/051: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine, John, and Marina Cross.
+       <title>
+        <part>
+         A trunk full of tales.
+        </part>
+       </title>
+       Albany, N.Y.: A Gentle Wind,
+       <date>
+        1982.
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1982.
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 sound cassette (circa 45 min.) :
+                     analog, 1 7/8 ips ; stereo
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       GW 1016.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 5: Photographic materials
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Folklore Society of Greater Washington Pick-nic,
+       <date localtype="inclusive" normal="1965-07-03">
+        July
+                        3, 1965
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1965-07-03" unitdatetype="inclusive">
+       July
+                        3, 1965
+      </unitdate>
+      <physdesc encodinganalog="300">
+       28 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH001-PH028
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photos from the first annual Pick-nic [sic], held at Ft. Ward, in Alexandria,
+                     Virginia. Images include Alice Hermann, Lani Herrmann, John Jackson, Chuck
+                     Perdue, Helen Schneyer, and Scott Dildine.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Festival of American Folklife,
+       <date localtype="inclusive" normal="1967-07-01/1967-07-04">
+        circa
+                        July 1-4, 1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-07-01/1967-07-04" unitdatetype="inclusive">
+       circa
+                        July 1-4, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       16 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH199-PH214
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photos from the first annual Festival of American Folklife, presented by the
+                     Smithsonian Institution, and held in Washington, D.C. Photos of various
+                     musicians and dancers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fox Hollow Festival,
+       <date localtype="inclusive" normal="1966-08-19/1966-08-21">
+        circa August 19-21,
+                        1966
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966-08-19/1966-08-21" unitdatetype="inclusive">
+       circa August 19-21,
+                        1966
+      </unitdate>
+      <physdesc encodinganalog="300">
+       54 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH029-PH082
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photos from the first annual Fox Hollow Festival, hosted bob Bob and Evelyne
+                     Beers on their property in Petersburgh, New York. Images include shots of the
+                     campground, Children's Day, the craft area, the backstage area, Nan Perdue,
+                     Tossi Aaron, Sandy Paton, Caroline Paton, Cousin Thelma Bolton, The Young'uns,
+                     Scott Dildine, Penny Tricket, John Dildine, Bob Beers, Sarah Cleveland, the
+                     audience, the Paton family, Chuck Perdue, a jam session, The Boyer Girls, Marty
+                     Beers, Janet Boyers, the Beers family, Howie and Ann Mitchell, and Paul Cadwell
+                     and his wife.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fox Hollow Festival,
+       <date localtype="inclusive" normal="1970-08-06/1970-08-09">
+        circa August 6-9,
+                        1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970-08-06/1970-08-09" unitdatetype="inclusive">
+       circa August 6-9,
+                        1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       15 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH083-PH097
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images include shots of Michael Cooney, Utah Phillips, Joe Hickerson, John
+                     Whyn, sacred harp performance, The Carawans, The Armstrongs, and Bob Beers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Fox Hollow Festival,
+       <date localtype="inclusive" normal="1971-08">
+        August 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-08" unitdatetype="inclusive">
+       August 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 slide : color; 35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH198
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of Bill Spence, John Dildine, and Debbie.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mariposa Folk Festival,
+       <date localtype="inclusive" normal="1970-07-24/1970-07-26">
+        circa
+                        July 24-26, 1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970-07-24/1970-07-26" unitdatetype="inclusive">
+       circa
+                        July 24-26, 1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       38 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH098-PH135
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The 1970 festival was held on Toronto Islands, Ontario, Canada. Images include
+                     shots of the ferry and also backstage, The Perth County Conspiracy, dancers,
+                     the Folklore Center booth, the old-time banjo workshop, the ballad workshop,
+                     Barry O'Neil, Billy Vanaver and Godulka, Norman Kennedy, Rosalie Sorrells,
+                     Artie Rose, Alanis Obomsiwen, and the Olympia Street Band (New Orleans).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mariposa Folk Festival,
+       <date localtype="inclusive" normal="1971-07-09/1971-07-11">
+        circa
+                        July 9-11, 1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971-07-09/1971-07-11" unitdatetype="inclusive">
+       circa
+                        July 9-11, 1971
+      </unitdate>
+      <physdesc encodinganalog="300">
+       4 slides : color ; 35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH136-PH139
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The 1971 festival was held on Toronto Islands, Ontario, Canada. Images include
+                     shots of Larry Hanks, Owen McBride, and Billy Vanaver.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mariposa Folk Festival,
+       <date localtype="inclusive" normal="1972-07-14/1972-07-16">
+        circa
+                        July 14-16, 1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972-07-14/1972-07-16" unitdatetype="inclusive">
+       circa
+                        July 14-16, 1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       7 slides : color ; 35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH140-PH146
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The 1972 festival was held on Toronto Islands, Ontario, Canada. Images include
+                     shots of the ferry, performers on a double-decker bus, dolls, and puppets.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a">
+       Newport Folk Festival,
+       <date localtype="inclusive" normal="1967-07-10/1967-07-16">
+        circa
+                        July 10-16, 1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-07-10/1967-07-16" unitdatetype="inclusive">
+       circa
+                        July 10-16, 1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       51 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH147-PH197
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photos from the Newport Folk Festival, held in Newport, Rhode Island. Images
+                     include shots of John Dildine, various crew, Hedy West, Pete Seeger, folk
+                     dancing, Bread and Puppet, the crowd (audience), Joan Baez, Judy Collins, Mimi
+                     Farina, Buffy Sainte-Marie,
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine puppets,
+       <date localtype="inclusive" normal="1969/1970">
+        circa
+                     1969-1970
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969/1970" unitdatetype="inclusive">
+       circa
+                     1969-1970
+      </unitdate>
+      <physdesc encodinganalog="300">
+       12 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH215-PH226
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photos of some of the puppets, and members of the Dildine family.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Christmas TV show,
+       <date localtype="inclusive" normal="1973-12">
+        December 1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973-12" unitdatetype="inclusive">
+       December 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       6 slides : color ; 35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH227-PH232
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images of Dildine family members and others from a Christmas TV special.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Ginny Dildine, playing the guitar,
+       <date localtype="inclusive" normal="1957-09">
+        September
+                        1957
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1957-09" unitdatetype="inclusive">
+       September
+                        1957
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 slide : color ; 35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH233
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photo of Ginny Dildine, taken at the Pinecrest Cabin "hoot."
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       6
+      </container>
+      <unittitle encodinganalog="245$a">
+       Beers family,
+       <date localtype="inclusive" normal="1966/1973">
+        1966; 1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966/1973" unitdatetype="inclusive">
+       1966; 1973
+      </unitdate>
+      <physdesc encodinganalog="300">
+       13 slides : color ;
+                     35mm
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH234-PH246
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       All but one photo are from 1973; most were taken in a recording studio.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       John Dildine and Ginny Dildine,
+       <date localtype="inclusive" normal="1960/1969">
+        circa
+                        1960
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa
+                        1960
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH247
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Studio portrait.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Early Dildine family performance,
+       <date>
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       1967
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH248
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photo of the family members onstage, including Atwood S. Barwick (Ginny's
+                     brother), Debbie Dildine, Connie Dildine, and Ginny and John Dildine. Photo by
+                     Carleton F. Smith.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildines and the Perdues in performance,
+       <date>
+        circa 1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       circa 1960s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH249
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photo of John and Ginny Dildine, and Chuck and Nan Perdue onstage performing a
+                     song. Photo by Charles H. Cunningham.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine family portrait (1 of 4),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH250
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Studio portrait of Ginny, John, Connie, De3bbie, and Scott, with musical
+                     instruments and puppets.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine family portrait (2 of 4),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH251
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH250.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine family portrait (3 of 4),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH252
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH250.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine family portrait (4 of 4),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 7 in. x 5
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH253
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH250.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Scott Dildine with the leatherwing bat puppet,
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 7 in. x 5
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH254
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Good old man" (1 of 3),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH255
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Two puppets; in performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Good old man" (2 of 3),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH256
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH255.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Good old man" (3 of 3),
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 5 in. x 7
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH257
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH255.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Springfield Mountain,"
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : color ; 3 1/2 in. x 5
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH258
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The Dildine family onstage with puppets, in performance at the Fox Hollow
+                     Festival.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       "Whistle daughter, whistle,"
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : color ; 3 1/2 in. x 5
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH259
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH259.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bob and Evelyn Beers in performance,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 9 1/2 in.
+                        x 6 1/2 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH260
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photographed at the 26th annual National Folk Festival, in Covington,
+                     Kentucky.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paul Cadwell in performance,
+       <date localtype="inclusive" normal="1963">
+        1963
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1963" unitdatetype="inclusive">
+       1963
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 9 1/2 in.
+                        x 6 1/2 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH261
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See description for AFC 2018/009: PH260.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Guy Carawan,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH262
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paul Clayton (1 of 2),
+       <date localtype="inclusive" normal="1967">
+        1967 or
+                        before
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967 or
+                        before
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; -- in. x
+                        -- in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH263
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clayton playing a banjo made in Beech Mountain, North Carolina. The photo is in
+                     box-folder 1/2.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Paul Clayton (2 of 2),
+       <date localtype="inclusive" normal="1967">
+        1967 or
+                        before
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967 or
+                        before
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH264
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Clayton playing a southern mountain dulcimer from Kentucky. Photo credit:
+                     Photo-Sound Assoc.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Michael Cooney,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH265
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Cooney playing a banjo (partially out of shot), outdoors.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Elizabeth Cotten and Lani Herrmann,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH266
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Cotton is playing a guitar as Hermann listens and watches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Charlotte "Char" Daniels,
+       <date localtype="inclusive" normal="1960/1969">
+        circa
+                        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa
+                        1960s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 1/2 in.
+                        x 7 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH267
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Daniels is playing a Gibson guitar.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Patt Webb and Charlotte "Char" Daniels,
+       <date localtype="inclusive" normal="1960/1969">
+        circa
+                        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa
+                        1960s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 8 in. x 10
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH268
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Studio portrait.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Bonnie Dobson,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH269
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photo of Dobson playing guitar, in performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Sara Grey,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 7 in. x 5
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH270
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photo of Grey playing guitar, in performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carol Hedin and Alan Damron,
+       <date localtype="inclusive" normal="1960/1969">
+        circa
+                        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       circa
+                        1960s
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH271
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Studio portrait credited to Randy Silver.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Carol Hedin, Donal Leace, and an unidentified
+                     person,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 4 in. x 4
+                        1/2 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH272
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Frank Proffitt,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 7
+                        3/4 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH273
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       In performance.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mike Seeger, Hedy West, and two other people,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 7 3/4 in.
+                        x 8 1/4 in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH274
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hedy West (in sunglasses), Mike Seeger (far right), photographed at an outdoor
+                     event.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a">
+       Pete Seeger,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 photograph : black and white ; 10 in. x 8
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: PH275
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Studio portrait.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 6: Drawings
+     </unittitle>
+     <physdesc encodinganalog="300">
+      approx. 20 black-and-white
+                  prints
+     </physdesc>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a">
+       Drawings for puppets,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       12 in. x 9 in. or
+                     smaller
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: GR01-GR36
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Drawings and instructions created by Ginny Dildine. The original arrangement of
+                     items has been retained.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 7: Posters
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Oversize_folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Mariposa Folk Festival poster,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 poster : color ; 25 in. x 18 1/4
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: GR35
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A poster for the folk festival, in indigo and white.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Oversize_folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       National Park Service Christmas holiday event
+                     poster,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 poster (rigid) : color ; 17 in. x 14
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: GR36
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A National Park Service poster to publicize Christmas holiday programs. The
+                     Dildine Family's "Christmas Puppet Show" is a featured event.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Oversize_folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       Dildine marionettes,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 poster : black and white ; 8 in. x 17
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: GR37
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A printed poster from a hand-drawn source. The performance was given at Orange
+                     County Community College.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Oversize_folder">
+       1
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family Folk Songs and Marionettes,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f">
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300">
+       1 poster : black and white ; 17 in. x 11
+                        in.
+      </physdesc>
+      <unitid label="Item_ID">
+       AFC 2018/009: GR38
+      </unitid>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A printed poster from a hand-drawn source. The event location is not
+                     identified, but may be the same as for AFC 2018/009: GR37. The illustration
+                     features a frog playing a banjo.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 8: Artifacts
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      59 items (including the binder and its contents).
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="Box">
+       9
+      </container>
+      <unittitle encodinganalog="245$a">
+       The Dildine Family: Folksongs with Visuals,
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa
+                        1970s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       The original three-ring notebook in which the manuscript materials in
+                     boxes-folders 2/4 to 2/8 were housed.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Boxes">
+       10-11
+      </container>
+      <unittitle encodinganalog="245$a">
+       Badges from various events and festivals,
+       <date localtype="inclusive" normal="1960/1999">
+        circa
+                        1960s-1990s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1999" unitdatetype="inclusive">
+       circa
+                        1960s-1990s
+      </unitdate>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Items include metal-backed buttons and cloth patches, as well as ribbons and
+                     paper ID badges.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

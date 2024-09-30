@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af006005" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af006005
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Fletcher Collins Jr. Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1939/003
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Todd Harvey
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2004-04">
+     April 2004
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004659978" show="new">
+       https://lccn.loc.gov/2004659978
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime>
+     March 2012
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2005-12">
+     December 2005
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Judy Ng
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1939/003
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Fletcher Collins Jr.
+		  Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1935/1944">
+     1935-1944
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1935/1944" unitdatetype="inclusive">
+    1935-1944
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    ca.
+		  1000 leaves (22 folders) in 2 boxes
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    21 sound discs :
+		  analog ; 12 in.
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    12 sound discs :
+		  analog ; 12 in.
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100">
+     <part>
+      Collins, Fletcher
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The Fletcher Collins
+		  Jr. Collection is the result of the Anglo-American folksong collecting
+		  activities of Fletcher Collins Jr. from the mid-1930s to the early 1940s in
+		  North Carolina, Virginia, and West Virginia, under the auspices of the WPA
+		  Joint Committee on Folk Arts and for the Library of Congress Archive of Folk
+		  Song.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20210106131556.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Cole, Calvin
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Collins, Fletcher, Jr., 1906-2005
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Collins, Fletcher, Jr., 1906-2005--Ethnomusicological collections.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Greer, I. G. (Isaac Garfield), 1881-1967
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Tate, Dan, 1896-1990
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Song (U.S.)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      United States. Works Progress Administration.
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Wagoners
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Banjo music--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Children's songs, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fiddle tunes--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--West Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--West Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Radio programs--Washington (D.C.)
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Transcripts.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The collection is organized by format into the following series: I.
+			 Manuscripts; II. Sound Recordings. Manuscript materials in the Correspondence
+			 and Collecting and Recording Projects sub-series are arranged chronologically.
+			 Song indexes and transcriptions are arranged: 1) by collection as organized by
+			 the donor, and 2) alphabetically by song title. Sound recordings are arranged
+			 by AFS number.
+   </p>
+  </arrangement>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+			 Listening copies of the recordings are available in the Folklife Reading Room.
+			 The American Folklife Center is the custodial division for this collection; the
+			 original audio discs are stored in the Motion Picture, Broadcasting and
+			 Recorded Sound Division. Restrictions may apply concerning the use,
+			 duplication, or publication of these and other items in this collection.
+			 Consult a reference librarian in the Folklife Reading Room for specific
+			 questions.
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    The collection was acquired in three separate accessions: 21 discs
+			 in 1939, 12 discs in 1942, and all manuscript materials in July 2002.
+			 Preservation copies of the discs were made as part of Library Work Order (LWO)
+			 4872 in the 1960s. The manuscript materials were processed by Todd Harvey in
+			 2003.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Fletcher Collins Jr. Collection (AFC 1939/003), Archive of Folk
+			 Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Materials
+   </head>
+   <p>
+    Two discs made by Collins in Burlington, N.C. Dec. 8, 1941, were in
+			 response to Alan Lomax's call for "man-on-the-street" reactions to the Pearl
+			 Harbor attacks the day prior. Collins quickly shipped those to Washington,
+			 D.C.; today they are included in a separate collection (AFC 1941/004: The
+			 Man-on-the-Street Interviews Collection). In 1942 Collins was asked to
+			 participate in Lomax's follow-up program, "Dear Mr. President," for which he
+			 recorded three discs (AFS 6417-6419). These were sent to the Library in 1942
+			 and are today housed as a separate collection (AFC 1942/003: "Dear Mr.
+			 President" Interviews Collection). Collins describes his collecting experiences
+			 in the Fletcher Collins Jr. Oral History Collection (AFC 2002/004).
+   </p>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by
+		  Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent (original)
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        22
+       </entry>
+       <entry morerows="0">
+        folders
+       </entry>
+       <entry morerows="0">
+        Box 1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        21
+       </entry>
+       <entry morerows="0">
+        12-inch aluminum based discs
+       </entry>
+       <entry morerows="0">
+        AFS 2235, AFS 3769-3788
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        12
+       </entry>
+       <entry morerows="0">
+        12-inch glass based discs
+       </entry>
+       <entry morerows="0">
+        AFS 6482-6493
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The manuscript materials in this collection reflect Collins's
+		  Anglo-American folk music collecting activities from 1935 to 1944. Collins
+		  undertook numerous projects, including a proposed song book titled A Southern
+		  Songster and a radio series on WBIG, Greensboro, N.C. Administrative papers and
+		  correspondence for these and other projects are included among the manuscript
+		  materials.
+   </p>
+   <p>
+    The song and tune transcriptions reflect, for the most part, Collins's
+		  collecting in North Carolina, Virginia, and West Virginia from 1935 to 1941.
+		  Many are the result of Collins's fieldwork, while others were mailed to him or
+		  transcribed from printed sources. Contextual information (performer, date,
+		  place) is provided for about two-thirds of the songs. Some of the disc
+		  recordings were transcribed and transcriptions are included among the
+		  manuscripts.
+   </p>
+   <p>
+    Collins made twenty-one disc recordings of folk songs and ballads at
+		  Elon College in March 1939, under the auspices of the WPA Joint Committee on
+		  Folk Arts. These field recordings (AFS 2235, AFS 3769-3788) are on
+		  aluminum-base lacquer discs.
+   </p>
+   <p>
+    Field recordings were made in November and December 1941 on
+		  glass-base lacquer discs with a Library of Congress Presto recording machine in
+		  Brown Summit (AFS 6491), Burlington (AFS 6365-6366, perhaps 6494), Elon College
+		  (AFS 6492-6493), and Greensboro (AFS 6482-6486), North Carolina; and in Fancy
+		  Gap, Virginia (AFS 6487-6490). Two discs made by Fletcher Collins Jr. in
+		  Burlington, N.C., Dec. 8, 1941, were in response to Alan Lomax’s call for
+		  "man-on-the-street" reactions to the Pearl Harbor attacks the day prior. They
+		  are included in a separate American Folklife Center collection, AFC 1941/004
+		  Man-on-the-Street Interviews Collection.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Fletcher Collins Jr. was born on November 19, 1906, in Pittsburgh,
+		  Pennsylvania. He graduated from Yale University (Ph.B. 1928, Ph.D. 1934) and
+		  was a professor of English at Elon College in North Carolina (1936-42). Collins
+		  founded the drama department at Mary Baldwin College in Staunton, Virginia,
+		  where he was professor emeritus (1946-77). He is the author of
+    <title localtype="simple" render="italic">
+     <part>
+      Alamance Play-Party Songs and Singing
+		  Games
+     </part>
+    </title>
+    (1940, reprint 1973),
+    <title localtype="simple" render="italic">
+     <part>
+      Medieval Church Music-Dramas
+     </part>
+    </title>
+    (1976),
+    <title localtype="simple" render="italic">
+     <part>
+      Troubadour and Trouvère Songs in Singable
+		  English
+     </part>
+    </title>
+    (2 vols. 2000-2001), and numerous other books and articles. He
+		died in 2005.
+   </p>
+  </bioghist>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Collection Guide
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Correspondence
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        2
+       </container>
+       <unittitle>
+        Correspondence-General, 1936-44
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        3
+       </container>
+       <unittitle>
+        Correspondence-Library of Congress Recording
+						Project, 1941-43
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Collecting and Recording Projects
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        4
+       </container>
+       <unittitle>
+        Indexes-Library of Congress Recording Project,
+						1939-42
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        5
+       </container>
+       <unittitle>
+        "The Wreck of Old '97" Project, 1939
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        6
+       </container>
+       <unittitle>
+        WBIG Radio Programs, 1940
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        7
+       </container>
+       <unittitle>
+        "A Southern Songster" Project, 1940-44
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       Song Indexes and Transcriptions
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        8
+       </container>
+       <unittitle>
+        Songs-Original Folders, Photocopies
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        9
+       </container>
+       <unittitle>
+        Songs-Collections
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        10
+       </container>
+       <unittitle>
+        Songs-Collections, Spiral Notebooks
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        1
+       </container>
+       <container localtype="folder">
+        11
+       </container>
+       <unittitle>
+        Songs-Collections, Arthurdale Fiddle
+						Tunes
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        12
+       </container>
+       <unittitle>
+        Songs: A-B
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        Songs: C-D
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        14
+       </container>
+       <unittitle>
+        Songs: E-F
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        15
+       </container>
+       <unittitle>
+        Songs: G-H
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        16
+       </container>
+       <unittitle>
+        Songs: I-J
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        17
+       </container>
+       <unittitle>
+        Songs: K-L
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        18
+       </container>
+       <unittitle>
+        Songs: M-N
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        19
+       </container>
+       <unittitle>
+        Songs: O-P
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        20
+       </container>
+       <unittitle>
+        Songs: Q-R
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        21
+       </container>
+       <unittitle>
+        Songs: S-T
+       </unittitle>
+      </did>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="box">
+        2
+       </container>
+       <container localtype="folder">
+        22
+       </container>
+       <unittitle>
+        Songs: U-Z
+       </unittitle>
+      </did>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: Sound Recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Sound Discs
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="afs">
+        2235
+       </container>
+       <container localtype="afs">
+        3769-3788
+       </container>
+       <unittitle>
+        Original Discs
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Twenty-one 12-inch aluminum based original analog discs
+					 (preservation tapes: LWO 4872, reels 142B, 245B-246).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="afs">
+        6482-6493
+       </container>
+       <unittitle>
+        Original Discs
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Twelve 12-inch glass based original analog discs (preservation
+					 tapes: LWO 4872, reels 413B-414A)
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd id="appendixa">
+   <head althead="Appendix A: Performers' Names and Recording Locations">
+    Appendix A: Performers' Names and Locations where Recordings
+		  were Made
+   </head>
+   <p>
+    <emph render="bold">
+     Names of performers recorded by Fletcher Collins
+			 Jr.:
+    </emph>
+   </p>
+   <list>
+    <item>
+     Cole, Calvin
+    </item>
+   </list>
+   <list>
+    <item>
+     Greer, I. G. (Isaac Garfield), 1881-1967
+    </item>
+   </list>
+   <list>
+    <item>
+     Greer, I. G., Mrs.
+    </item>
+   </list>
+   <list>
+    <item>
+     Hawkins, Louis
+    </item>
+   </list>
+   <list>
+    <item>
+     Meredith, Russell
+    </item>
+   </list>
+   <list>
+    <item>
+     Newman, J. U., Mrs.
+    </item>
+   </list>
+   <list>
+    <item>
+     Quesinberry, Jackson
+    </item>
+   </list>
+   <list>
+    <item>
+     Tate, Dan, b. 1896
+    </item>
+   </list>
+   <list>
+    <item>
+     Wagoner, John
+    </item>
+   </list>
+   <list>
+    <item>
+     Wagoner, Pete
+    </item>
+   </list>
+   <list>
+    <item>
+     Wagoner, Vasteen
+    </item>
+   </list>
+   <list>
+    <item>
+     Weddle, Susan
+    </item>
+   </list>
+   <p>
+    <emph render="bold">
+     Locations where recordings were made:
+    </emph>
+   </p>
+   <p>
+    <emph render="bold">
+     North Carolina
+    </emph>
+    <list>
+     <item>
+      Alamance County (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Browns Summit (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Burlington (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Elon College
+     </item>
+    </list>
+    <list>
+     <item>
+      Greensboro (N.C.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph render="bold">
+     Virginia
+    </emph>
+    <list>
+     <item>
+      Fancy Gap (Va.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph render="bold">
+     West Virginia
+    </emph>
+    <list>
+     <item>
+      Arthurdale (W. Va.)
+     </item>
+    </list>
+   </p>
+  </odd>
+  <index id="appendixb">
+   <head>
+    Appendix B: Song Titles
+   </head>
+   <p>
+    These titles are taken from both the manuscript materials and the
+			 sound recordings.
+   </p>
+   <indexentry>
+    <name>
+     <part>
+      "Adam and Eve"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "All My Sins Are Taken Away"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Arkansas Traveler"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "As I Went Out One Morning in May"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "As the Ship Went Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Aunt Jemima"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Babes in the Wood"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Baggage Coach Ahead, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Barbara Allen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Berayna"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Best Old Man in the World"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bible Is the Engineer, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Big Black Billy Goat"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bill Bailey"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Billy Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Billy Grimes"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Birmingham Jail"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blind Child's Prayer, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blind Girl, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blue Juniata, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boll Weevil, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bonny Barbary Allen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boston Burglar, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boy's Best Friend Is His Mother, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Brambly Briars"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Brown Eyes"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Buckeye Jim"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bully of the Town, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Butcher Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Captain, Captain, Tell Me True"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Casey Jones"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charleston Merchant, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charlie Lawson"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charlie over the Water"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Chick-a-ma-craney-ma-crow"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cindy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Claude Allen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cock Robin"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Coffee Grows in a White Oak Tree"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Come All You Fair and Tender Ladies"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Come All You Good People"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Common Bill"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cruel Mother, The/Down by the Greenwood Side/Hangman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Death of Jesse James, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Derby Ram, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Derby Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Devil and the Farmer, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dog and Gun"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down by the Seashore"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down in Arkansaw"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Drowsy Sleeper"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dusty Miller"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dying Cowboy, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dying Cowboy's Lament"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Edward/The Little Guinea Pig"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Eliza Jane"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ellen Smith"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fair Charlotte/Young Charlotte"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fair Young Maid, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fare You Well, My Own True Love"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Farmers, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fellow That-A Looks Like Me, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fickle Lover, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Flop Eared Mule"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Foggy Foggy Dew"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fond Affections"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fox, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Frankie and Johnny"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Frog in the Park"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Frog in the Pool"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Frog Went A-Courting"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "George Came Riding through the Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "George Collins"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "George Riley"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Giddyyap Napoleon"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Git on Board, Little Children"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Give Me Three Grains of Corn"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Go In and Out of the Window"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Go Tell Aunt Patsy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Go Tell That Weary Travelling Man"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Going Down the Road Feeling Bad"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Good Old Man, The (Four Nights Drunk)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Grasshopper Sittin' on a Sweet Potater Vine"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Beds"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Grow the Rushes-Ho/The Ditty Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Grows the Laurel"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Grows the Willow Tree"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Mountain Polka"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ground Hog"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Guerilla Man, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gypsy Laddie, The/The Blackjack Davy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gypsy's Warning, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hangman, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hi! Lowlanders"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "House Carpenter, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "How Old Are You My Pretty Little Pink?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Asked My Love to Take a Walk/Pretty Susan"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Caught a Beau"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Don't Love Nobody"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Lost My Glove"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Married Me a Wife"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Stepped Out One Morning in May"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'll Build Me a Castle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'll Need Not Your Kind Caresses"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm Happy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "If I Had a Butcher Knife"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Independence Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Independent Lover"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Indian Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Irish Molly-O"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Is This the Promise You Made to Me?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jack Has Gone A-Sailing"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jealous Lover of Lone Green Valley, The/Fair Young Ellen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jeff Davis"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jew's Daughter, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jockey Hat, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Joe Bowers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John Henry"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Doyle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Home from Sea"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Randolph"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Journeyman Tailor"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Kenny Wagoner"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "King William Was King George's Son"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Kitty Cline"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Kitty Runs"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Kitty Went Fiddle-Die-Dee"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lady Isabel and the Elf Knight"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Let My Name Be Kindly Spoken"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Letter Edged in Black, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lexington Murder/Nellie Cropsey"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Brown Jug"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little David, Play on Your Harp"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Mary Fagan"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Mohee, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Rosewood Casket, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Sparrow/The Cuckoo/I'll Build Up a Castle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "London Bridge Is Breaking Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Long Time Ago"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Bateman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Lovel"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Randal"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Thomas and Fair Ella"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Love Henry"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lover's Leap"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Maggie"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mary and Sandy (Sandy Far at Sea)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mary Golden Tree, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mary, Martha, and Lazarus"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Maumee Maid, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mermaid, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Michael Roy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miller and His Son, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miller's Will, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mister Frog Went A-Courting"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      Mnemonic school songs: (a) ABC's, (b) Spelling, (c)
+			 Multiplication table, (d) Geography
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Molly Bond"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Molly Bright"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Moonshiner's Dream"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Moravian Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Grandmother's Advice"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Soldier Scarce Twenty-Four Years Old"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Naomi Wise"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "New River Train"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nightingale, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nobody's Business"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Oats, Peas, Beans"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Oh, To Me the Time Draws Near"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Oh, What a Happy Land Is England"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Oh, Where is My Sweetheart?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Arm Chair, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Bangum"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Gray Goose, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Joe Clark"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Maid, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Rosin the Beau"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Sally Brown"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Smokey"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Woman and the Preacher, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On the Tennessee"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On to Richmond"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On Top of Old Smokies/The Wagoner's Lad"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Orphan Girl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Our Camp's in the Wilderness"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Oyster Girl, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Paddy the Barber"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Paper of Pins, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pig in the Parlor"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pretty Sarah"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Quaker Lover, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Raggedy Ann"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Red River Valley"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Reply to the Gypsy's Warning, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rich Man and Lazarus, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rich Merchant, The (The Brown Girl)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rock Island Line, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Romish Lady, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Run, Nigger, Run"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sailor Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Saint James Infirmary"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Seaman on the Doe, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Seven Long Years I Served My King"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shabby Genteel, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sheepskin and Beeswax"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shoot the Buffalo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Silver Dagger"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Silvery Tide, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Single Gal (When I Was Single)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Skip to My Lou"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier and the Lady, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier, Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier, Won't You Marry Me?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Advice, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Poor Little Boy, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Sweetheart, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sourwood Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sparkling Sunday Night"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Springfield Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Steamboat Bill"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Stepmother, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Storm Is on the Ocean, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sugar Hill"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sweet Are the Flowers in Springtime"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sweet William and Fair Ellen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sydna Allen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Take This Hammer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "There's Some Sees Lots of Pleasures"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Three Babes, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Three Little Girls Went Skating"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Time Draws Near, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tom Boleyn"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tree in the Wood, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Turkey in the Mountain (I Don't Have Old Cindy)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Turkey in the Straw"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Twenty Long Years We've Been Married"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Brothers, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Sisters"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ugly Mug"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Villikin's Dinah"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wabash Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Waily, Waily"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wayfaring Stranger"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "We've Come to Judgement"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Weeping Willow Tree, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Weevily Wheat"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When the World's on Fire"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Whistle, Daughter, Whistle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Whoa Mule"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wife of Usher's Well, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wild Irishman, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Will the Circle Be Unbroken"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "William Taylor"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Willie and Polly (Pretty Polly)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Willie My Darling Come Back"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Willie Ransome"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Woman Who Made Her Old Man Blind, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wreck of Ninety-Seven"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wreck of Number Nine, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ye Guardian Powers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young Collins"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young Man Who Wouldn't Hoe His Corn, The"
+     </part>
+    </name>
+   </indexentry>
+  </index>
+ </archdesc>
+</ead>

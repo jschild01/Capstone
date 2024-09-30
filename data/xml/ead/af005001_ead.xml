@@ -1,0 +1,5914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af005001" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af005001
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Anne and Frank Warner Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1950/002
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Todd Harvey
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date calendar="gregorian" encodinganalog="260$c" era="ce" normal="2003">
+     2003
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695171" show="new">
+       https://lccn.loc.gov/2004695171
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-03">
+     2020-03
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="updated">
+    </eventtype>
+    <eventdatetime standarddatetime="2010-01">
+     January 2010
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Revised by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2005-09">
+     September 2005
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Judy Ng
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1950/002
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    Anne and Frank Warner
+		  Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1938/1969">
+     1938-1969
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1938/1969" unitdatetype="inclusive">
+    1938-1969
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    1
+		  container
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (original)">
+    10.5 linear inches of manuscripts and
+		  graphic images; 124 sound recordings, 15 graphic images, 1 item of electronic
+		  media
+   </physdesc>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Warner, Anne
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Warner, Frank
+     </part>
+    </persname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041">
+     Mohawk
+    </language>
+    <descriptivenote>
+     <p>
+      English,
+		Mohawk
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    Documentation of
+		  American traditional musicians and storytellers collected by Anne Warner and
+		  Frank Warner on numerous field recording trips to Illinois, Massachusetts,
+		  Missouri, New Hampshire, New York, North Carolina, Vermont, and Virginia from
+		  1938 to 1969.
+   </abstract>
+  </did>
+  <scopecontent>
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection contains sound recordings and photographs made by Anne
+		  and Frank Warner that document musicians and storytellers from numerous
+		  traditions. The materials were collected during field trips to Illinois (1941),
+		  Massachusetts (1941), Missouri (1941), New Hampshire (1940-1941), New York
+		  (1939-1941, 1946, 1949-1952, 1961, 1969), North Carolina (1938-1941, 1944,
+		  1951, 1959),Vermont (1940), and Virginia (1940).
+   </p>
+   <p>
+    The collection focuses on the extended Hicks family living on or near
+		  Beech Mountain, North Carolina. The family's song and story repertory, and its
+		  dissemination by the Warners, played a significant role in the folk revivals of
+		  music (1960s) and storytelling (1970s). Other recordings include songs
+		  collected from descendents of English and Scots Irish immigrants, African
+		  Americans, and Mohawk songs recorded on the St. Regis Mohawk Indian Reservation
+		  in New York state. Also included are recordings of lectures and readings by
+		  Carl Sandburg in the 1950s.
+   </p>
+   <p>
+    The Warners had no institutional support and limited financial means.
+		  As a result, they often recorded only part of a song in order to conserve
+		  materials. Anne Warner would then transcribe the remainder of the song in
+		  shorthand, later to be typewritten.
+   </p>
+   <p>
+    The disc recordings were made on a Wilcox Gay Recordio disc recorder
+		  and a Philco disc recorder. The reel-to-reel tapes were made with a variety of
+		  recorders.
+   </p>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical History
+   </head>
+   <p>
+    Anne Locher Warner (1905-1991) and Frank Warner (1903-1978) were
+		  devoted and renowned collectors, preservers, and interpreters of American
+		  traditional folk music who gathered, between 1938 and 1969, over a thousand
+		  songs and stories. Most of their pioneering work was done in the musically
+		  fertile areas of the Southern Appalachians, the North Carolina Outer Banks,
+		  Tidewater Virginia, New England, and Upstate New York. The Warners collected
+		  nearly one thousand songs and in doing so brought a number of otherwise obscure
+		  songs and performers to the attention of the American public, among them North
+		  Carolina's Frank Proffitt, from whom the first version of "Tom Dooley" was
+		  collected.
+   </p>
+   <p>
+    Frank Warner, a native of North Carolina, was not only a scholar of
+		  traditional music (he studied with Frank C. Brown) but also a well-known
+		  performer himself. He collected numerous recordings of songs and was active in
+		  organizations such as the Newport Folk Festival and New York Folklore Society.
+		  Anne Warner also served the folklore community by writing for scholarly
+		  journals and by publishing
+    <title localtype="simple" render="italic">
+     <part>
+      Traditional American Folk Songs from the Anne and
+		  Frank Warner Collection
+     </part>
+    </title>
+    (1984). The Warners' sons, Jeff and Gerret, in
+		2000 co-produced a two-CD set, titled
+    <title localtype="simple" render="italic">
+     <part>
+      The Warner Collection
+     </part>
+    </title>
+    , of recordings drawn
+		from their parents' collection.
+   </p>
+  </bioghist>
+  <bibliography>
+   <head>
+    Bibliography
+   </head>
+   <p>
+    Davis, Jeff. 1991. "Anne L. Warner (1906-1991)."
+    <title localtype="simple" render="italic">
+     <part>
+      Sing Out!
+     </part>
+    </title>
+    Vol. 36, no. 2
+			 (August/September/October 1991): 48.
+   </p>
+   <p>
+    DesRosiers, Mary. "Closing the Circle: The Frank and Anne
+			 Warner Legacy."
+    <title localtype="simple" render="italic">
+     <part>
+      Sing Out!
+     </part>
+    </title>
+    Vol. 44, no. 3 (spring
+			 2000): 26-29.
+   </p>
+   <p>
+    "Frank Warner, 74; Collected the Songs of the Rural East."
+    <title localtype="simple" render="italic">
+     <part>
+      New York Times
+     </part>
+    </title>
+    . (March 2, 1978).
+   </p>
+   <bibref>
+    Warner, Anne, ed.
+    <title localtype="simple" render="italic">
+     <part>
+      Traditional American Folk Songs from the Anne
+			 and Frank Warner Collection
+     </part>
+    </title>
+    . Syracuse, NY: Syracuse University Press.
+		  1984.
+   </bibref>
+   <bibref>
+    Warner, Frank.
+    <title localtype="simple" render="italic">
+     <part>
+      Folk Songs and Ballads of the Eastern Seaboard;
+			 From a Collector's Notebook
+     </part>
+    </title>
+    . Macon, GA: Southern Press. 1963.
+   </bibref>
+   <bibref>
+    Warner, Geff, and Gerret Warner, eds.
+    <title localtype="simple" render="italic">
+     <part>
+      Nothing Seems Better To Me: The Warner
+			 Collection, Vol. 2
+     </part>
+    </title>
+    . Appleseed Recordings, APR CD 1036. 2000.
+   </bibref>
+   <p>
+    Warner, Gerret. "Anne and Frank Warner," notes to
+    <title localtype="simple" render="italic">
+     <part>
+      Her Bright Smile Haunts Me Still: The Warner
+				Collection, Vol. 1
+     </part>
+    </title>
+    . Appleseed APR CD 1035, 2000.
+   </p>
+   <bibref>
+    Warner, Jeff, and Gerret Warner, eds.
+    <title localtype="simple" render="italic">
+     <part>
+      Her Bright Smile Haunts Me Still: The Warner
+			 Collection, Vol. 1
+     </part>
+    </title>
+    . Appleseed Recordings, APR CD 1035. 2000.
+   </bibref>
+  </bibliography>
+  <controlaccess altrender=":::F005=^20200311075702.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <famname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Hicks family.
+     </part>
+    </famname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Hicks, Ray, 1922-2003
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ives, Burl, 1909-1995
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Proffitt, Frank
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Proffitt, Frank, Jr., 1946-2005
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sandburg, Carl, 1878-1967
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Solomon, Louis, 1879-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Warner, Anne
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Warner, Anne--Ethnomusicological collections.
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Warner, Frank, 1903-1978
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Warner, Frank, 1903-1978--Correspondence.
+     </part>
+    </persname>
+    <persname encodinganalog="600" relator="subject" source="lcnaf">
+     <part>
+      Warner, Frank, 1903-1978--Ethnomusicological collections.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      St. Regis Band of Mohawk Indians of New York--Music.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Ballads, English--New England.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      British Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Children's songs, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fiddle tunes--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Field recordings--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Appalachian Region.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--New England.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Illinois.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Massachusetts.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Missouri.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--New Hampshire.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--New York (State)
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Vermont.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk songs, English--Virginia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hymns, English--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Irish Americans--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mohawk Indians--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Popular music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Scots-Irish--United States--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Singing games--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Tales--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      West Indian Americans--Music.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Appalachian Region--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Beech Mountain (N.C.)--Social life and customs.
+     </part>
+    </geogname>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      United States--History--Civil War, 1861-1865--Songs and music--Texts.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Ballads.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Correspondence.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Field recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Folk tales.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Hymns.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Interviews (Sound recordings)
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Lectures.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Radio programs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Songs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Manuscript materials are in the Folklife Reading Room. Original and
+		  preservation sound recordings are housed in Motion Picture, Broadcasting and
+		  Recorded Sound Division. Consult reference staff in the Folklife Reading Room
+		  about reference copies of material and additional reference tools that may be
+		  available onsite only. Duplication of the collection materials may be governed
+		  by copyright and other restrictions. Please refer to the AFC web site for
+		  information on ordering copies of unpublished recordings
+		  (http://www.loc.gov/folklife/recordering.html) and photographic materials
+		  (http://www.loc.gov/folklife/photo_ordering.html).
+   </p>
+  </accessrestrict>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Anne and Frank Warner donated their sound recordings to the Library of
+		  Congress in two separate accessions--1950 and 1972--with some material being
+		  loaned for duplication between 1972 and 1975. Most of the collection's graphic
+		  images were probably included in the 1972 accession. Images PH02, 03, 06, 07,
+		  10, 13, and 14 arrived as part of a 1977 National Endowment for the Humanities
+		  grant application.
+   </p>
+   <p>
+    Immediately following the 1950 and 1972 accessions, preservation
+		  copies of the sound recordings were made. In 2003, Todd Harvey prepared this
+		  collection guide and prepared the graphic images for digitization.
+   </p>
+  </acqinfo>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Anne and Frank Warner Collection (AFC 1950/002), Archive of Folk
+		  Culture, American Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <relatedmaterial>
+   <head>
+    Related Archival Materials
+   </head>
+   <p>
+    The Folklife Reading Room has related Collection, Corporate Subject,
+		  and Correspondence files for the Anne and Frank Warner family.
+   </p>
+   <archref>
+    Frank and Anne Warner Papers located in the Rare Book,
+		  Manuscript, and Special Collections Library, Duke University, Durham, North
+		  Carolina. Papers include Anne's field notes, correspondence, and related
+		  manuscript materials.
+   </archref>
+   <archref>
+    Warner Collection CD Project,
+    <num>
+     AFC 1999/019
+    </num>
+    .
+   </archref>
+  </relatedmaterial>
+  <odd localtype="add">
+   <head althead="Format Concordance">
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="30.00pt">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="52.50pt">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="15.25pt">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="15.25pt">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Location
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        folder
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1, Folder 1
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        105 (original)
+       </entry>
+       <entry morerows="0">
+        acetate discs (51 ten-inch aluminum-based, 20
+					 eight-inch aluminum-based, 1 eight-inch paper-based, 11 six and one-half-inch
+					 aluminum based, 22 six and one-half-inch paper-based)
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 15,261-15,365
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        17 (original)
+       </entry>
+       <entry morerows="0">
+        7-inch reel-to-reel
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 15,366-15,377; 15,380-15,384
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2 (original)
+       </entry>
+       <entry morerows="0">
+        5-inch reel-to-reel
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 15,378-15,379
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        3 (preservation)
+       </entry>
+       <entry morerows="0">
+        10-inch reel-to-reel tapes
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 10,055-10,057; LWO 1490 reels 1-3
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        16 (preservation)
+       </entry>
+       <entry morerows="0">
+        10-inch reel-to-reel tapes
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 15,385-15,400; LWO 7096 reels
+					 1-16
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2 (preservation)
+       </entry>
+       <entry morerows="0">
+        10-inch reel-to-reel tapes
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 15,564-15,565; LWO 7273 reels 1-2
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1 (preservation)
+       </entry>
+       <entry morerows="0">
+        10-inch reel-to-reel tapes
+       </entry>
+       <entry morerows="0">
+        M/B/RS
+       </entry>
+       <entry morerows="0">
+        AFS 17769; LWO 8617
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5 (reference)
+       </entry>
+       <entry morerows="0">
+        7-inch reel-to-reel tapes
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        AFS 10,055-10,057; 15,365-15,368
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        20
+       </entry>
+       <entry morerows="0">
+        black-and-white photographs
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1, Folder 2: PH01-PH15
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        5
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        AFC
+       </entry>
+       <entry morerows="0">
+        Box 1, Folder 2: PH01-c1, PH04-c1 and c2,
+					 PH06, PH12
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Electronic Media
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        zip disk
+       </entry>
+       <entry morerows="0">
+        alternate location, AFC server
+       </entry>
+       <entry morerows="0">
+        1950_002.mdb, 1950002_coll_guide.wpd
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES I: MANUSCRIPT MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       1
+      </container>
+      <unittitle>
+       Collection Guide
+      </unittitle>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Field recordings of American traditional musicians and
+				storytellers collected by Anne and Frank Warner from 1938 to 1969. Recordings
+				made in Illinois, Massachusetts, Missouri, New Hampshire, New York, North
+				Carolina, Vermont, and Virginia.
+     </p>
+    </scopecontent>
+    <c02 level="subgrp">
+     <did>
+      <unittitle>
+       Discs
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle>
+        AFS 15,261-15,365
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One hundred and five acetate discs recorded between 1940 and
+					 1947 in Illinois, Massachusetts, Missouri, New Hampshire, New York, North
+					 Carolina, Vermont, and Virginia. Duplicated on LWO 7096, reels 1-6A, AFS
+					 15,385-15,390. Selected parts duplicated on LWO 1490, reels 1-3, AFS
+					 10,055-10,057.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subgrp">
+     <did>
+      <unittitle>
+       Reel-to-reels
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unittitle>
+        AFS 15,366-15,384
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Seventeen 7-inch and two 5-inch reel-to-reel tapes recorded
+					 between 1949 and 1966 in New York and North Carolina. Duplicated on LWO 7096,
+					 reels 6A-16, AFS 15,390-15,400.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle>
+        AFS 15,564-15,565
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10-inch reel-to-reel tapes (LWO 7273, reels 1-2),
+					 duplicates of three audiocassettes recorded in New York in 1969, loaned by the
+					 donors and returned to them in the early 1970s.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unittitle>
+        AFS 17,769
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10-inch reel-to-reel tape (LWO 8617), duplicate of two
+					 7-inch reel-to-reel tapes recorded in North Carolina in 1951, loaned by the
+					 donors and returned to them in the early 1970s.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES III: GRAPHIC IMAGES
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Twenty-five prints and negatives of fifteen images made by Anne
+				and Frank Warner between 1938 and 1959 in New Hampshire, New York, North
+				Carolina, and Virginia.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <container localtype="folder">
+       2
+      </container>
+      <unittitle>
+       Images PH01-PH15 and negatives.
+      </unittitle>
+      <didnote>
+       Negatives of images PH01, PH04 (2 copies), PH06, and PH12 [as
+					 of 2003-05]
+      </didnote>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      SERIES IV: ELECTRONIC MEDIA
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      Two files compiled by Todd Harvey in 2003
+     </p>
+    </scopecontent>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       1
+      </container>
+      <unittitle>
+       Zip Disk
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       1950_002.mdb (Microsoft Access 2000 database);
+				  1950002_coll_guide.wpd (WordPerfect version 9 document); alternate location,
+				  AFC server
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+  <index id="appendixI">
+   <head>
+    Appendix I: Performers
+   </head>
+   <indexentry>
+    <persname>
+     <part>
+      Adams, Pop [Note: may be "Capt."]
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Adams, Capt. and Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Alberti, Don E.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Blackwood, Elda
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Brauneller, Chet
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Burgess, Melba
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Campbell, Ake
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Chapman, Mary
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Chapman, Nelson
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Culpepper, Alwillie
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Culpepper, John
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Daniels, Sally
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Drepperd, Carl
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Dyer, Priscella
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Etheridge, Albert
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Etheridge, Albert (Martha), Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Fish, Lena Bourne
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Gallop, Delilah
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Galusha, "Yankee" John
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Griswold, Thelma
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Heenan, John C.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hamilton, Richard O., Pvt.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Buna
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Hattie
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Linzy
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Mae
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Nathan
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Nell
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Ray, 1922-2003
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Rena
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Roby Monroe
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hicks, Rosy [Note: may be "Rosa"]
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Hull, Tommy
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Ives, Burl, 1909-1995
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Johnson, Joseph Henry "Uncle Joe"
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Jones, Rebecca King
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Kernan, John
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Laird, Henry
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Laird, Jack
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Lynch, Edward "Happy"
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      MacLafferty, James W.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Mann, Curtis
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Martin, Deac
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Martin, Ralph
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      McDonald, Jesse
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Meekins, Steve
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Merriam, Delia, Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Midgette, Martha Anne
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Miller, Helen
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Montague, Leusetta
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Moss, Bill
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Paul, J. E.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Payne, Billie, Captain
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Payne, Warren
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Perrin, Edith
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Presnell, Monroe
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Proffitt, Eddie
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Proffitt, Frank, Jr.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Proffitt, Frank, Sr., 1913-1965
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      [Rackett], Lemuel
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Sandburg, Carl, 1878-1967
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Sayres, Tom
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Smith, Tom
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Solomon, Louis, 1879-
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Spruille, Armise, Aunt
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Sutton, John B.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Thomas, Susie
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, C. K., Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, Cliff
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, Eleazar [Note: may be "C.K."]
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, Hub
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, Sam
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Tillett, Tink
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Trube, Sally
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Van [Wagenen], Jared
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Wadsworth, Steve
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Walworth, Roy
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Warner, Anne
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Warner, Frank
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Warner, Gerret
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Warner, Jeff
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Warner, Mabul
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Westcott, Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Wiles, Floyd
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Williams, Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Wolf, Mrs.
+     </part>
+    </persname>
+   </indexentry>
+   <indexentry>
+    <persname>
+     <part>
+      Young, Ed
+     </part>
+    </persname>
+   </indexentry>
+  </index>
+  <index id="appendixII">
+   <head>
+    Appendix II: Performance Titles
+   </head>
+   <p>
+    Note: This list has been compiled from disc labels, disc sleeves, tape
+		  boxes, and typewritten concordances.
+   </p>
+   <indexentry>
+    <name>
+     <part>
+      "All-Seeing Eye"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Along the Railway"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Always Do What You Can"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Amazing Grace"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Arthur O'Bower"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "At the Foot of Yonder Mountain"(aka "At the Foot of
+			 Yonder/Yonders Mountain")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Aviator's Hymn"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Away for Rio"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Babes in the Woods" [Laws Q34]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Baby O" (aka "What'll I Do With the/this Baby-O")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Babylon's Fallen" (aka "Babylon Is Fallen/Falling")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ball and Chain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ballad of Blue Mountain Lake, The" (aka "Blue Mountain Lake")
+			 [Laws C20]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ballad of Montcalm and Wolfe, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bank of the Clyde" (aka "Banks of Clyde," "The Lady of the
+			 Lake") [Laws N41]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Banks of Newfoundland, The" [Laws K25]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Banshee River"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Baptist Preacher"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Barbara Allen" [Child 84]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Barn-yum's Man"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Barney Come Home"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Barney McGee"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Battle with the Ladle, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Be Home Soon Tonight"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bear Hunt, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Beaver Dam Road" (aka "Hard Times on Beaver Dam Road")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bible A-B-C, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Billy Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Birdie"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Birmingham Jail"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Black-Eyed Davy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Black-Eyed Susie" (aka "Black Eyed Susan") [Laws O28]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blind Child's Prayer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blue Eyes"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Blue-Eyed Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bluefield Jail" (aka "Born and Raised in Bluefield")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bolamkin" (aka "Bolamkiny," "Bolakins") [Child 93]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bold Dickie and Bold Archie" [Child 188]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boll Weevil" (aka "Boll Weavil/Weevil Song, The") [Laws
+			 I17]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bonnie James Campbell" [Child 210]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bonny Bay of Biscayo, The" (aka "Bay of Biscayo")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bonny Bunch of Roses-O, The" (aka "Bonnie Bunch of Roses") [Laws
+			 J5]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bony on the Isle of St. Helena"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boston Burgler" (aka "Lowdon Burgler") [Laws L16B]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Boys in Gray" (aka "Where the Sweet Magnolias Blow")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "British-American Fight, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "British Soldier, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Broken Down Raftsman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Brother Against Brother"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Brown Eyes"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Brown Girl" [Child 295, Laws P9]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bull Frog" (aka "Frog in the Spring, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bunch of Violets, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Burgler Bold" [Laws H23]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Bury Me Not on the Lone Prairie" (aka "I'm a Roving Cowboy")
+			 [Laws B2]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Butcher Boy, The" (aka "In Just a City [Jersey City]") [Laws
+			 P35]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cabin Boy" (aka "Maid in Sorrow, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cairo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Canghnewaga"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cape Cod Boys" (aka "We're Bound for Australia")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Captain John"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Captain Kidd" [Laws K35]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Captain, O Captain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Captain with His Whiskers, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Careless Love"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      Carl Sandburg lectures
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Casey's Whiskey" [Laws dH51]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Castle by the Sea, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charlie Lawson" (aka "Lawson Family Murder, The") [Laws
+			 F35]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charlie"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charming Engineer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Charming Young Widow"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Chicka Boom Boom"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Chicken"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Chimbley Sweeper"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Chisholm Trail"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cindy" (aka "Cindy in the Springtime," "Rockingham
+			 Cindy")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cluck Old Hen"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Coast of Barbary" (aka "Barbaree")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cold Winter Is Come" (aka "Snow Is on the Ground, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Colonel Pepper" (aka "Gilgarrah Mountain")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Come Love, Come"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Coming ‘Round the Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Coon, Coon, Coon"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cornbread on the Table"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Courthouse"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Crawdad Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Crazy Jane"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cripple Creek"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Crockery Ware"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cuckoo is a Fine Bird"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cumberland and the Merrimac, The" [Laws A26]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Cumberland's Crew" [Laws A18]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Curly Headed Baby"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dan Doo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dan Kelly's Girl" (aka "Tennessee Mountain Blues")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dandy Jim"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Darby O'Leary"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Darby Ram, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dark-Eyed Sailor, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Darling Cory"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Davy Dugger"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Day Doo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Days of Forty-Nine, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Deep Elum Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Devil and the Farmer's Wife, The" [Child 278]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Don't Believe All They Tell You"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Don't Sell Papa Any More Rum"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Doodle Dandy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down by Old Smoky Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down by the Old Millstream"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down Derry Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down in a Coal Mine"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down in the Valley" (aka "Birmingham Jail")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down in Union County [Tenn.]"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Down to the Club"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Drowsy Sleeper, The" (aka "Wake, O Wake, Awake, Awake My Own
+			 True Loveyer," "Wake, O Wake, You Sleepy Drowser") [Laws M4]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Drummer Boy" (aka "Drummer Boy of Shiloh, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Drunkard's Doom" (aka "Starlish Night")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Drunkard's Dream"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Dying Cowboy, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "East Virginia" (aka "Once I Lived in Old Virginia")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Eleven-Cent Cotton"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Eyes of Blue"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Faded Coat of Blue"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fair Fanny Moore" (aka "Young Randall")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fair Ellender"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Farewell, Charming Nancy" [Laws K14]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Farewell, My Beautiful Girl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Farewell to Old Bedford"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fatal Wedding, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Felix the Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fellow that Looks Like Me" [Laws H21]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Few More Days, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Filipino Baby"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fireman's Wife"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "First Old Cooking Stove"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fisherman's Girl, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fishing Down a Crawdad"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Five Thousand Miles"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Flood of Shawnee Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Florella" (aka "Florella, Floella," "Jealous Lover, The") [Laws
+			 F1]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Flowers from My Angel Mother's Grave"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Floyd Collins" [Laws G22]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fly Around My Pretty Little Miss"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Flying Cloud, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Foggy Mountain Top"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Frankie and Johnny" [Laws I3]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Freight Train Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Fresh Peanuts"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gallant Ship"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gambler's Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gangster's Warning, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "General Scott and the Veteran"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gentleman Going to See Sweetheart"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "George Collins" [Child 85]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Girl from Arkansas"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Girl I Left Behind, The" (aka "My Parents Raised Me Tenderly")
+			 [Laws P1A]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Give My Love to Nelly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Go to Sleep"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Going Across the Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Going Back to Virginia"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Going Down the Road Feeling Bad"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Going Down to Weldon"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Golden Locks"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Golden Slippers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Goodbye Erin"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Goodbye Old Booze"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Goodnight Baby"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Goodnight Sweet Rosie"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Got a Home by that Rock"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Grandma's Advice"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Granny, Will Your Dog Bite?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Granny's Old Arm Chair" (aka "My Grandmother's Chair")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Great Speckled Bird"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Green Grows the Laurel"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Groundhog"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gypsy Davy" (aka "Gyps of David," "Blackjack Davey") [Child
+			 200]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Gypsy's Warning, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Had an Old Cat"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Handsome Molly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hangman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Happy Little Home in Arkansas"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "He Went down the Street"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Heifer Hide" [AT 1535]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hen Crackle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Her Bright Smile Haunts Me Still"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Her Daddy Was a Butcher"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hey, Get Along Josie" (aka "Git Along, Josie")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hi Diddle Diddle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hi Rinky Dum"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hinkety, Kinkety, Kangaroo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ho, Boys, Ho"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hobo Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hold My Hand, Lord Jesus"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "House Carpenter" [Child 243]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "How Beautiful"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "How's Crops?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hunting Song (1680)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Hush Little Baby"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Admire a Black-Eyed Man"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Am My Mammy's Youngest Child"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Came to this Country in 1845"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Did Not Like My Pastime"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Dreamt Last Night"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Dropped the Baby in the Dirt"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Expect to Live Single" (aka "I Never Will Marry")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Got a Home and a Home at Last"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Hope We Never Meet Again"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Mourn My Sailor Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Once Had a Sweetheart"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Sell Matches"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Think I Heard the King"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Went to See My Molly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Wish I Was a Single Girl Again"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I Wish on Thursday"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'll Talk about You"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm a Brave Old Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm a Poor Used Up Coon"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm Goin' to Pick My Banjo" (aka "Old Woman in the
+			 Garden")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm Going Where My Troubles Will Be Over"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I'm Just a Little Maiden"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "I've Been a Wild Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Imaginary Trouble"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Indeed Pretty Polly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Indeed"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Irish Sixty-Ninth"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Irish-American Tea"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Is There No Kiss for Me?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "It's Look Down This Lonesome Road"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Italian Girl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jack and the King"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jam on Gerry's Rock" (aka "Jam on Gerrion's Rock") [Laws
+			 C1]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "James Campbell"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jas. Bird"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Joe Bowers" [Laws B14]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John Adkins"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John Hardy" [Laws I2]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John Henry" [Laws I1]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John L. and I"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "John Riley" (aka "John Reilly")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Dywer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Has Gone for a Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny, O Johnny (Would You Think It Unkind)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny Sands"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnny You Are My Darling"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Johnson Boys"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jolly Bachelor"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jolly Roving Tar, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jolly Thresher, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Jolly Tinker, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Judy Jenkins"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Just as the Sun Went Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Just Tell Them That You Saw Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Katy Cline"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Keemo, Kymo, Darow Wow"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Keep My Skillet Greasy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Keep a Place in Your Heart Dear for Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "King of the Cannibal Island"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Kiss Me, Oh, I Like It"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Laird He Married a Lady, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lass of Glenshee"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Late Last Night"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lather and Shave"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lebeck Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Let Us Pass over the River"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Life's Railway to Heaven"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lilly Shaw"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Black Moustache"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Bunch of Rosie, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Maggie"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Mohea" (aka "Little Mohee") [Laws H8]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Rosewood Casket, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Sailor Boy" (aka "Prince of Spain," "I'll Sit Down and
+			 Write a Song")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Little Slave, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Liza Jane" (aka "Little Liza Poor Gal")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lonely Cowboy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lonesome Valley" (aka "You've Got to Walk that Lonesome
+			 Valley")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Longshoreman's Strike"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Bateman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Lovell"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Thomas"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lord Ullins' Daughter"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Love Somebody, Yes, I Do"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Low-Backed Car"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lowlands Low" (aka "Lowland Low Golden Willow Tree")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Lynchburg Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Madam Madam"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Magdalene"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Maid Freed from the Gallows, The" (aka "Gallows Tree, The")
+			 [Child 95]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mail Day Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Man of Constant Sorrow"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Maple on the Hill"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Marching On"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mary Had a Little Lamb"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "May I Sleep in Your Barn"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Merry Spring, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Michigani-O" [Laws C17b]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miller"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miner's Child"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miner's Child's Dream"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Miller's Son"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mrs. Flynn's Boarding House"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mrs. Slipper Slopper"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mister Rabbit"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mocking Bird"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mohawk chant and war cry"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Monkey Dressed in Soldier Clothes"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Month Ago, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Moonshine"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "More Like Your Dad Every Day"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Morning Fair"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mother's Fool"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Mountain Dew"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Muleskinner Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Muskrat"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Georgia Rose"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Love Is a Jocky"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Lover Is a Cowboy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Mammy's Youngest Child"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Mountain Home"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Old Man, Number One"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Pony"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Sweet Soldier Boy" (aka "Father Oh Father")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "My Truelove Farewell"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Napoleon's Dream"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nettie Moore"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nine Pound Hammer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "No Not I"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nobody Knows"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nobody's Darling But Mine"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nobody's Business"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Nothing Seems Better to Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Now I'm Coming Home"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "O Bud"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "O Johnny Dear Johnny"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "O'Faggerty and O'Reilly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Black Mule"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Dan Tucker"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Gray Beard A-Flapping"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Grayson"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Indian, An"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Jack Tar"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Joe Clark"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Man [Cor]ather"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Man in the Woods"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Miller's Sons"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old New England Town, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Number Nine"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Tippacanoe"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Wether's Skin, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Old Woman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Omie Wise" (aka "Naomi Wise") [Laws F31]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On the Banks of the Ohio" [Laws F5]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On the Jericho Road"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On the Other Side of Jordan"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "On Top of Old Smoky"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "One Cold Cloudy Evening"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "One Little Word"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "One Thousand Miles Away from Home"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Only a Friend"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Only a Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Orphan Girl" (aka "Blue-Eyed Boy")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ossian's Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ould Plaid Shawl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Our Hands Are Clasped to Last Forever"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Over the Hill to the Poorhouse"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Palms of Victory"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pardon Came Too Late, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pass Around the Bottle"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Passing Policeman, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Patsy Airry Airry Ai"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Paul Jones" [Laws A4]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Peggy Gordon"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pigeon Cove"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Plains of Baltimore"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ploughboy of Lowlands, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Poor Ellen Smith" [Laws F11]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Poor Little Sailor Boy, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Poor Schnapps"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Poor Soldier"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Poor Wayfaring Pilgrim, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pray, Papa"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Press Gang Sailor, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pretty Crowing Chickens"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pretty Fair Maid Stand in the Garden"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pretty Polly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Pretty Sylvia"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Priest in Our Town (1754)"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Prince Boys, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Prisoner for Life, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Prop of the Nation"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Purple Owlet"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Quebec Town"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Raccoon Got a Bushy Tail"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Railroad Fireman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Railroad Man"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rambler from Claire, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rambling Boy, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rambling Soldier, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rebel Soldier, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Red Rosey Bush"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Red White and Red, The" [Laws dA36]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Richmond on the James"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ring the Golden Bells"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "River of Life"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Robbers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Robin"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rocking the Baby to Sleep"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rocky By Baby" (aka "Rockabye Baby")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rose Connolly" [Laws F6]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Round Town Gals"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Rude and Rambling Boy, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Runaway Train, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sailor Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sailor on the Deep Blue Sea"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sailor's Alphabet"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sailors Grave, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Saint Alban's Murder, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sally Ann"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Salutation"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sam Go Lay That Banjo Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sarah Jane" (aka "Cross-eyed Consumptive")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Saucy Anna Lee"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Savings"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Scarborough Sands" (aka "Drowned Sailor, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "See How the Men Row"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Seven Long Years in State Prison"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Seventy-Two Today"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shadow of the Pines"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shanty Boy, Farmer Boy" (aka "Farmer's Son-Shanty Boy,"
+			 "Petersborough Town")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sheffield Apprentice, The" (aka "Way Up in Sofield")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shenandoah Lowlands"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ship That Never Came Back, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Ship That Never Returned, The" [Laws D27]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shoot the Buffalo"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shortnin' Bread"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Shulls Mills"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sidney Allen" (aka "Hillsville, Virginia")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Siege of Richmond"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sinful to Flirt" (aka "Willie Down by the Pond") [Laws
+			 G19]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sing to Me of Heaven"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Single Girl, Married Girl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Snake Hill"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Snow Dear"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Solas Market"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier John"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier Will You Marry Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Return"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Sweet Dream of his Home, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Soldier's Trade, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Some of These Days"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Some Twenty Years Ago"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Somebody's Lied"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Somebody's Waiting for Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sometimes I'm in This Country"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Song to Baby"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Songs My Mother Sang to Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sourwood Mountain"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Southern Girl's Reply, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Southern Plains"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Spinster's Lament"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Springfield Mountain" [Laws G16]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Squire Bill Jones"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Story of the Rebel"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Streak-a-Lean"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sucking Cider through a Straw"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Susie Brown"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sweet Birds" (aka "Sweet Fern")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sweet Bye and Bye"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Sweet Sunny South"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Take It to the Lord in Prayer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Take Me Back to Home and Mother"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Talking with the Social Union"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Telegraph Wire, The"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tennessee Mountain Blues"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "That Rogue Reilly"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "There Was a Tall Young Oysterman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "There Was an Old Geezer"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "There Was an Old Woman All Skin and Bones"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Thirty Days in Jail"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "This Day Will Be Remembered" (aka "Battle of Bull Run, The")
+			 [Laws A9]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "This World is Not My Home"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Thompson's Old Gray Mule"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Three Bums"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Three Times the Lovers Were Shipwrecked"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Titanic"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tom Dooley"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tommy Came to See Me"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Top of Mount Zion"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Touch Not the Cup"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Trifling Woman"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Trip on the Erie, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Tune the Cow Died On"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Turkey in the Straw"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Twenty-One Years" [Laws E16]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Twinky Doodledum" (aka "Bold Fisherman, The")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Brothers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Drummers"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Little Blackbirds"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Little Orphans"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Two Sisters, The" [Child 10]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Uncle Ned"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Unicorn"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Unlucky Man" (aka "Van Armuir's ‘Circus Clown'")
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Voice from the Tomb"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wabash Cannonball"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wakes in the Morning"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wallabug"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Waxford Girl"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Way Down in Columbus, Georgia"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Way Down on the Swanee River"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Way Out in California"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Way Up on Big Sandy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "We All Went for a Walk"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wedding Song"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Were You There?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "What a Friend We Have in Jesus"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When Are You Coming to See Me?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When Friends Meet"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When I Die"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When I Take My Vacation in Heaven"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When I Was a Little Boy"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When I Was Single"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When I Was Young"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When Its Roundup Time in Heaven"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When Sorrows Encompass Me Around"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When the Train Drew Up at Last"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "When You Go to See Her"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Where Are You Going My Pretty Maid?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Where Did You Get That Hat?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Where is My Mama?"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Where the Praties Grow"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Where the Sun Don't Never Go Down"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Whilst I Was Sleeping"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Whisper Goodnight, Love"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Whoa Mule"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wicked Old Donkey"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wild Stormy Deep"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Will My Soul Pass through Ireland"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Will the Circle Be Unbroken"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Will the Weaver" (aka "Bill the Weaver," "Will/Willie the
+			 Weaver") [Laws Q9]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "William the Sailor"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Willie Swanson's Wife"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wind the Bobbing"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Woodsman's Alphabet"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Worked Eight Hours Today"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Worried Man, A"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Worried Mind"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Wreck on the C and O, The" [Laws G3]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Write to My Mother"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Yape Story"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "You Can't Hurry God"
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young Beeham" (aka "Young Beham," "Young Beichan") [Child
+			 53]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young But Daily Growing" [Laws O35]
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young Charlotte" [Laws G17)
+     </part>
+    </name>
+   </indexentry>
+   <indexentry>
+    <name>
+     <part>
+      "Young Johnny" (aka "Johnny Doyle")
+     </part>
+    </name>
+   </indexentry>
+  </index>
+  <odd id="appendixIII">
+   <head althead="Appendix III: Recording Locations">
+    Appendix III: Locations where Recordings were
+		  Made
+   </head>
+   <p>
+    <emph>
+     Illinois
+    </emph>
+   </p>
+   <p>
+    <emph>
+     Massachusetts
+    </emph>
+    <list>
+     <item>
+      Ann, Cape (Mass.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Planfield (Mass.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     Missouri
+    </emph>
+    <list>
+     <item>
+      Poplar Bluff (Mo.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     New Hampshire
+    </emph>
+    <list>
+     <item>
+      East Jaffrey (N.H.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Jaffrey (N.H.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     New York (State)
+    </emph>
+    <list>
+     <item>
+      Cooperstown (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Hogansburg (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Long Island (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Lyons Falls (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Minerva (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      New York (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Northville (Suffolk County, N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Olmstedville (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Orient (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Pinewoods Camp (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Saint Regis Mohawk Indian Reservation (N.Y.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Selkirk (N.Y.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     North Carolina
+    </emph>
+    <list>
+     <item>
+      Beech Mountain (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Crabtree Creek (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Durham (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Elizabeth City (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Englehard (N.C.) [alternate spelling: Engelhard]
+     </item>
+    </list>
+    <list>
+     <item>
+      Kitty Hawk (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Manns Harbor (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Manteo (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Nags Head (N.C.) [alternate spelling: Nag's Head]
+     </item>
+    </list>
+    <list>
+     <item>
+      Pick Britches Valley (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Reese (N.C.)
+     </item>
+    </list>
+    <list>
+     <item>
+      Wanchese (N.C.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     Vermont
+    </emph>
+    <list>
+     <item>
+      Dorset (Vt.)
+     </item>
+    </list>
+   </p>
+   <p>
+    <emph>
+     Virginia
+    </emph>
+    <list>
+     <item>
+      Suffolk (Va.)
+     </item>
+    </list>
+   </p>
+  </odd>
+ </archdesc>
+</ead>

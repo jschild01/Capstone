@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af021005">
+   loc.afc/eadafc.af021005
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Alejandro Paz Hurricane Maria in Puerto Rico
+                    collection
+    </titleproper>
+    <author encodinganalog="245$c">
+     Prepared by Maya Lerman
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2021">
+     2021
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2020655243" show="new">
+       https://lccn.loc.gov/2020655243
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="http://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2021-03">
+     March 2021
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Archive of Folk Culture, American Folklife Center, Library of Congress,
+                    Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Maya Lerman.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Alejandro Paz Hurricane Maria in Puerto
+                Rico collection
+    <date altrender="Span Dates" localtype="inclusive" normal="2018">
+     2018
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Span Dates" normal="2018" unitdatetype="inclusive">
+    2018
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2020/005
+   </unitid>
+   <physdesc encodinganalog="300" label="Extent">
+    131 items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    11 sound recordings : digital,
+                MP3
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent">
+    120 graphic images : digital,
+                JPG
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="spa">
+      Spanish
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of
+                        Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    This collection documents Puerto Rican
+                textile making, mask making, and cockfighting. The eight interviews explore their
+                practices and how Hurricane Maria and the U.S. response affected their lives.
+                Related photographs of people, hurricane damage, and rooster farms are included as
+                well.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Alejandro Paz; Donation; 2020.
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The Alejandro Paz Hurricane Maria in Puerto Rico collection was processed by Maya
+                Lerman and Jesse Hocking in 2021. Spanish language transcripts of interview recordings 
+                created by Carolina Restrepo in 2021.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Alejandro Paz Hurricane Maria in Puerto Rico collection is open for research. To
+                request materials, please contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Alejandro Paz Hurricane Maria in Puerto Rico
+                collection (AFC 2020/005), Archive of Folk Culture, American Folklife Center,
+                Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    Collection of 11 sound recordings and 120 still images that document Puerto Rican textile
+                making, mask making, and cockfighting. The eight recorded interviews explore the interviewee's practices
+                and how Hurricane Maria and the U.S. response affected their lives. Related
+                photographs of people, hurricane damage, and rooster farms are included as well. 
+                All interviews were conducted by Alejandro Paz in Spanish. Interview descriptions are taken directly from Paz's metadata spreadsheet. 
+                Spanish language transcripts included for each interview. A file list of the still images 
+                in the collection is available for download as an attachment to this finding aid. Paz created the records in the collection 
+                between April and June 2018.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Alejandro Paz Hurricane Maria in Puerto Rico collection is organized in 2
+                series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     Series 1. Interview recordings, April-June 2018
+    </item>
+    <item>
+     Series 2. Still images, April-June 2018.
+    </item>
+    <item>
+     Appendix: Inventories
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20210324140219.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Paz, Alejandro, 1994-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Artisans--Puerto Rico--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cockfighting--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Disasters--Social aspects.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dressmakers--Puerto Rico--Interviews.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hurricane damage--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hurricane Maria, 2017.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hurricanes--Puerto Rico.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Mask makers--Puerto Rico--Interviews.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Puerto Rico--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Oral histories.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10001">
+      Series 1: Interview recordings,
+      <date localtype="inclusive" normal="2018-04-24/2018-06-02">
+       April
+                            24-June 2, 2018
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="2018-04-24/2018-06-02" unitdatetype="inclusive">
+      April 24-June 2, 2018
+     </unitdate>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Interview recordings documenting Puerto Rican textile making, mask making, and
+                        cockfighting. The eight recorded interviews explore interviewee's practices and how Hurricane
+                        Maria and the U.S. response affected their lives. All interviews were
+                        conducted by Alejandro Paz in Spanish. Spanish language transcripts included for each interview. Interview descriptions by Paz are taken
+                        directly from Paz's metadata spreadsheet and are in his words. From Paz: "Recorded using a 'Sony
+                        ICD-PX440' audio recorder." As mentioned in the scope and content note for AFC 2020/005: 010, 
+                        "kike" is a nickname for José.
+     </p>
+    </scopecontent>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 001
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10002">
+       Elba L. Lugo Pérez
+                            interview,
+       <date localtype="inclusive" normal="2018-04-24">
+        April 24,
+                                2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-04-24" unitdatetype="inclusive">
+       April 24, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:38:51)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: Emilio Díaz Valcárcel Municipal Library of Trujillo
+                            Alto. Elba discusses her experiences with her family around the time of
+                            the disaster. She lists damage to her home and her future music school
+                            for cuatro guitar. She also describes the destruction she saw in her
+                            hometown of Utuado, where she traveled to after the hurricane passed.
+                            She mentions rural people like her adapted better to the post-hurricane
+                            conditions than did the rest of Puerto Rico. She discusses the
+                            importance of spirtual music in lifting people's moods after tragedy and
+                            disaster. She gives an overview of the cuatro guitar tradition and its
+                            role in Christmas songs and rural spirituality. At various points in the
+                            interview she criticizes Puerto Rican's lack of preparedness and the
+                            influence of modern culture. She wishes the public were more in tune
+                            with nature. She has harsh words for the current Puerto Rican government
+                            and its austerity policies. She discusses her work for an indigenous
+                            rights society she founded (Consejo General de Taínos Borincanos). She
+                            decries social and economic inequality in Puerto Rico and states the
+                            hurricane was a God sent event to teach Puerto Ricans to learn how to
+                            use nature's bounty and their old traditions to take care of their own
+                            selves. She speaks favorably to environmentalism and social activism.
+                            Elba names a song, "Oubao Moin" by Puerto Rican folk musician Roy Brown,
+                            that hopes and celebrates the different Puerto Rican peoples coming
+                            together and working to preserve the island’s nature and unique
+                            identity. Additional notes: Elba Lugo is a Taíno indigenous rights
+                            activist, as well as a cuatro guitar player and teacher. She lives in
+                            Trujillo Alto. In September 8, 2018 she will be in New York City at the
+                            American Indian Museum Heye Center to talk about the Taíno movement.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_001.apx" show="new">
+        Spanish transcript of Elba L. Lugo Pérez
+                     interview
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 002
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10003">
+       Javier Alzérreca Frambes
+                            interview,
+       <date localtype="inclusive" normal="2018-04-30">
+        April 30,
+                                2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-04-30" unitdatetype="inclusive">
+       April 30, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:24:12)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: Dr. Carlos Hernández Library, Carolina. Javier
+                            discusses the damage the hurricane did to his property. He recounts
+                            helping neighbors clear out debris. He describes how his active
+                            disposition helped him overcome the discomfort of not having access to
+                            water or electricity. Javier explains playing music on his guitar with
+                            the local church to lift spirits up, including traveling around his
+                            neighborhood (Santa Cruz) with the church musicians playing at people's
+                            doorsteps. Javier goes over how the disaster limited his time and
+                            ability to paint. Javier also mentions he makes wooden frames for a
+                            family business in Bayamón. He gives some thought unto how the hurricane
+                            led to him working with smaller canvasses and focusing more on birds as
+                            subjects. Additional notes: Javier Alzerreca is a painter living in
+                            Carolina. He also homeschools his three daughters and two sons along
+                            with his wife.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_002.apx" show="new">
+        Spanish transcript of Javier Alzérreca Frambes
+                     interview
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 003
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10004">
+       Anonymous interview, part 1,
+       <date localtype="inclusive" normal="2018-05-02">
+        May 2,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-02" unitdatetype="inclusive">
+       May 2, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:03:48)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: Centro Communal de la Quinta Extención de Villa
+                            Carolina, Carolina. Anonymous interviewee describes damage to her home
+                            and getting electricity from a neighbor's generator. A phone call
+                            interrupts the interview. Additional notes: The anonymous interviewee is
+                            a clothes maker who specializes in Ghanan attire for women. She is also
+                            a racial activist on behalf of Puerto Rico's black community. The
+                            organization she belongs to is called "África es mi piel, África es mi
+                            ser."
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_003.apx" show="new">
+        Spanish transcript of interview with anonymous interviewee, part 1
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 004
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10005">
+       Anonymous interview, part 2,
+       <date localtype="inclusive" normal="2018-05-02">
+        May 2,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-02" unitdatetype="inclusive">
+       May 2, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:49:39)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: Centro Communal de la Quinta Extención de Villa
+                            Carolina, Carolina. Anonymous interviewee talks about being able to make four dresses in
+                            the style of Taíno Indians thanks to her neighbor’s generator. These
+                            dresses were a commission from a school unable to purchase the product
+                            in stores following the hurricane and needing it for an event on
+                            cultural awareness. Anonymous interviewee describes her neighborhood's
+                            struggle after the hurricane as well as leaving for the U.S. mainland.
+                            She tells how the Carolina government for months cancelled the
+                            clothes-making classes she held at the local community center. She
+                            discusses the situation in Loíza, Puerto Rico, before and after the
+                            hurricane. She compliments the work of the new Loíza mayor in promoting
+                            cultural events. She is critical of the Puerto Rican and U.S. federal
+                            government response to the disaster. She sees the response as clueless
+                            and inefficient. She also criticizes the Puerto Rican Junta, a federally
+                            created oversight board meant to fix Puerto Rico’s debt problem, for its
+                            fiscal control and austerity measures. She discusses discrimination in
+                            Puerto Rico towards black people and other marginalized groups. She
+                            tells the story of a local black girl discriminated against by her
+                            school in a bullying case. She emphasizes the importance of the Turban
+                            in black women's fashion, but laments its limited use by Puerto Ricans.
+                            She tells stories of people fetishizing or being puzzled by her and
+                            other Puerto Rican black women's dress and appearance. She also includes
+                            a story about making a dress for a young lady that goes on to win a
+                            local fashion contest. Additional notes: The anonymous interviewee is a
+                            clothes maker who specializes in Ghanan attire for women. She is also a
+                            racial activist on behalf of Puerto Rico's black community. The
+                            organization she belongs to is called "África es mi piel, África es mi
+                            ser."
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_004.apx" show="new">
+        Spanish transcript of interview with anonymous interviewee, part 2
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 005
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10006">
+       Raúl Ayala interview, part
+                            1,
+       <date localtype="inclusive" normal="2018-05-03">
+        May 3,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-03" unitdatetype="inclusive">
+       May 3, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:06:32)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: El Batey de los Hermanos Ayala, Loíza. Raúl discusses
+                            flooding and water damage in his home caused by Hurricane Maria. He
+                            describes the damage to El Batey, specifically the workshop from which
+                            he sells masks and his sister's house, which is part of El Batey. He
+                            explains how local mayors are helping rebuild the workshop. A phone call
+                            interrupts and stops the interview six minutes in. Additional notes:
+                            Raúl Ayala is a retired economist and the son of Castor Ayala, famous
+                            mask maker and musician from Loíza. Raúl still operates out of his
+                            father's workshop making masks like his father did.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_005.apx" show="new">
+        Spanish transcript of Raúl Ayala interview, part 1
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 006
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10007">
+       Raúl Ayala interview, part
+                            2,
+       <date localtype="inclusive" normal="2018-05-03">
+        May 3,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-03" unitdatetype="inclusive">
+       May 3, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:29:00)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: El Batey de los Hermanos Ayala, Loíza. Raúl says he
+                            is working on dozens of masks for when the workshop, from which he sells
+                            them, reopens. He discusses the scarcity of coconuts, which used to make
+                            the masks, in the island. He also talks about the current the demand for
+                            his masks, whose supply is lacking, and how that affects his work. Raúl
+                            makes some critical remarks about the inconsistent and inefficient work
+                            of FEMA. Raúl talks about the enthusiasm for the coming yearly Festival
+                            Santiago Apóstol of Loíza. He explains some of the characters people
+                            dress up as for the festival and what each represents. Heavy rain and
+                            wind forces open the doors of the rebuilt workshop, which is where the
+                            interview is taking place, interrupting it at 20:30. Raúl assures that
+                            the people of Loíza will be fine, and expresses gratefulness for all the
+                            help they have received. Additional notes: Raúl Ayala is a retired
+                            economist and the son of Castor Ayala, famous mask maker and musician
+                            from Loíza. Raúl still operates out of his father's workshop making
+                            masks like his father did.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_006.apx" show="new">
+        Spanish transcript of Raúl Ayala interview, part 2
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 007
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10008">
+       Carlos Rojas interview,
+       <date localtype="inclusive" normal="2018-05-06">
+        May 6,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-06" unitdatetype="inclusive">
+       May 6, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:17:40)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: Carolina, Carlos' home. Carlos describes the damage
+                            to his property and the suffering from stress due to Hurricane Maria. He
+                            explains the distinction between people who participate in cockfights
+                            for a living and those who simply do it to entertain themselves. He goes
+                            over the damage the hurricane inflicted to his birdcages and breeding
+                            grounds. He explains some of the changes he has made to his pen for
+                            raising fighting roosters. Carlos briefly addresses and gives his
+                            opinion on the interactions between Puerto Ricans and FEMA. Additional
+                            notes: Carlos Rojas lives in the municipality of Carolina working as a
+                            paint salesman. He breeds and raises cockfighting roosters as a
+                            hobby.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_007.apx" show="new">
+        Spanish transcript of Carlos Rojas interview
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 008
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10009">
+       José A. Román interview,
+       <date localtype="inclusive" normal="2018-05-16">
+        May 16,
+                            2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-16" unitdatetype="inclusive">
+       May 16, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:18:18)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: José's home in the neighborhood of Martorell,
+                            Yabucoa. José, also known as Toco, recounts how he and his brother
+                            started breeding and raising roosters, following in the footsteps of
+                            their father. Toco talks about the extent of his interest in the sport.
+                            He lists some of the places throughout the island where he likes to
+                            attend cockfights. He mentions having taught local kids about
+                            cockfighting and selling them young chickens and roosters for them to
+                            entertain themselves with. Toco says as long as Puerto Rico doesn't
+                            become the fifty-first state, there will always be cockfighting in
+                            Puerto Rico. Additional notes: José Román, more commonly known by his
+                            nickname Toco, works as a handyman in Yabucoa. He also breeds fighting
+                            roosters along the street he lives in.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_008.apx" show="new">
+        Spanish transcript of José A. Román interview
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 009
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10010">
+       David Sostre Rivera
+                            interview,
+       <date localtype="inclusive" normal="2018-05-26">
+        May 26,
+                                2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-05-26" unitdatetype="inclusive">
+       May 26, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:23:58)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Interview location: In the backyard of David's home in the neighborhood
+                            of Martorell, Yabucoa. Throughout the interview, one can hear David's
+                            roosters loudly crowing. David describes the destruction he witnessed in
+                            his neighborhood and people cleaning up the streets afterwards. David
+                            talks about a childhood friend he shared his cockfighting hobby with. He
+                            explains how they helped each other out during Hurricane Maria’s
+                            aftermath and how they take care of each other's birds when they are
+                            away from home. He goes over the damage to his breeding set-up, or
+                            rancho, which consists of a wire and zinc plating structure where young
+                            birds are kept and mated. He explains how he learned about cockfighting
+                            as a child by attending cockfighting arenas and assisting in the
+                            preparation that takes place before cockfights. He discusses government
+                            attempts to make cockfighting illegal in Puerto Rico. Additional notes:
+                            David Sostre Rivera lives in Yabucoa. He breeds and raises cockfighting
+                            birds in his property as a hobby.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_009.apx" show="new">
+        Spanish transcript of David Sostre Rivera interview
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 010
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10011">
+       José E. Santiago Vásquez and
+                            José E. Santiago interview, part 1,
+       <date localtype="inclusive" normal="2018-06-02">
+        June 2, 2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-06-02" unitdatetype="inclusive">
+       June 2, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:06:38)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       This interview takes place while both Kike elder and the younger Kike
+                            give me a tour of their property. Most of the interview is filled with
+                            the noise of shrieking birds. They start off explaining the purpose of
+                            keeping certain birds in cages as opposed to roaming free. They give an
+                            overview of why they raise the types of birds they keep. They go over
+                            breeding, the culinary uses of guinea fowls, and "padrotes," or roosters
+                            kept alive through old age for breeding. Additional notes: José E.
+                            Santiago lives by the hills in Martorell, Yabucoa with his son, also
+                            named José (Santiago Vásquez). They go by the same nickname as well,
+                            Kike, although the elder calls the younger "Kikito." Son and father live
+                            in the same property, which consists of two small houses and whatever
+                            they can salvage from the steep surrounding land. They raise birds
+                            amongst other occupations. They make money off of breeding cockfighting
+                            birds, and occasionally gambling on fights.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_010.apx" show="new">
+        Spanish transcript of José E. Santiago Vásquez and
+                     José E. Santiago interview, part 1
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unitid label="Item ID">
+       AFC 2020/005: 011
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ead10012">
+       José E. Santiago Vásquez and
+                            José E. Santiago interview, part 2,
+       <date localtype="inclusive" normal="2018-06-02">
+        June 2, 2018
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2018-06-02" unitdatetype="inclusive">
+       June 2, 2018
+      </unitdate>
+      <dao actuate="onload" daotype="borndigital" show="new">
+       <descriptivenote>
+        <p>
+         1 mp3 interview (0:31:37)
+        </p>
+       </descriptivenote>
+      </dao>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       After a brief interruption, father and son showcase their two pigs, kept
+                            for christmas dinner. They explain young roosters are kept in cages due
+                            to their uncontrollable aggressiveness. At one point the elder kike
+                            takes a young rooster out of a cage, opens another cage containing a
+                            separate rooster, and, holding one rooster in his arms, thrusts it
+                            towards the caged rooster. Both roosters' plumage flares and they swipe
+                            at each other with their spurs and beaks. This demonstration is meant to
+                            show the turn to aggression when two young roosters come near each
+                            other. Later on, the two of them walk through where they keep their
+                            adult fighting roosters. They explain and give demonstrations of the
+                            training techniques and tools they use on roosters. They also show and
+                            explain how roosters were trained before the advent of some of these
+                            tools. The two also discuss how the metrics of cockfights, the length
+                            and frequency of fights, affects how their roosters are trained and
+                            kept. The two discuss the importance of an effective fighting rooster in
+                            breeding for superior cockfighting birds, as well as a chicken’s role in
+                            the transference of genes. Elder kike shows how they label their
+                            chickens with a tag to keep track of them. Father and son say interest
+                            and expertise in cockfighting came to them from their childhood
+                            experiences. They describe cockfighting as part of Puerto Rico's
+                            idiosyncrasies. They also discuss how both the rich and poor gamble in
+                            cockfighting at their corresponding price ranges. The interviewer
+                            recounts going to a cockfighting arena in Yabucoa. The discussion turns
+                            to the state of Puerto Rico's cockfighting venues. They discuss taxation
+                            and the cockfighting federation. Younger kike describes the destruction
+                            Hurricane Maria brought to their property. Younger kike shows and talks
+                            about their horse. He also discusses the importance of having faith when
+                            recovering from disasters like the hurricane. Additional notes: José E.
+                            Santiago lives by the hills in Martorell, Yabucoa with his son, also
+                            named José (Santiago Vásquez). They go by the same nickname as well,
+                            Kike, although the elder calls the younger "Kikito." Son and father live
+                            in the same property, which consists of two small houses and whatever
+                            they can salvage from the steep surrounding land. They raise birds
+                            amongst other occupations. They make money off of breeding cockfighting
+                            birds, and occasionally gambling on fights.
+      </p>
+      <p>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005_011.apx" show="new">
+        Spanish transcript of José E. Santiago Vásquez and
+                     José E. Santiago interview, part 2
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10013">
+      Series 2: Still images,
+      <date localtype="inclusive" normal="2018-04-30/2018-06-02">
+       April
+                        30-June 2, 2018
+      </date>
+     </unittitle>
+     <unitdate encodinganalog="245$f" normal="2018-04-30/2018-06-02" unitdatetype="inclusive">
+      April 30-June 2, 2018
+     </unitdate>
+     <dao actuate="onload" daotype="borndigital" show="new">
+      <descriptivenote>
+       <p>
+        121 jpg files
+       </p>
+      </descriptivenote>
+     </dao>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Item-level inventory attached in
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005.apx" show="new">
+       Appendix
+      </ref>
+      . 
+                        Photographs include images of interviewees, community members' homes and work/craft making spaces,
+                        hurricane damage, as well as rooster farms and animals. From donor: "I used
+                        my cellphone (Camera on LG Android Phone (VS835). The photos were mostly of
+                        poor quality in both their resolution and how well they were taken.
+                        Nevertheless, I think they are quite usable, especially those of
+                        cockfighting 'faenas' and of the ruins of the Batey de los Hermanos Ayala."
+     </p>
+    </scopecontent>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ead10014">
+      Appendix: Inventories
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle>
+       <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/eadafc.af021005.apx" show="new">
+        Still image inventory
+       </ref>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>
+       Inventory of still images taken by Paz with file-level information, including 
+        locations, dates, and descriptions.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

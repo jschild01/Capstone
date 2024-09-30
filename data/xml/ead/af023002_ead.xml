@@ -1,0 +1,5321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af023002">
+   loc.afc/eadafc.af023002
+  </recordid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>
+     Susan Due Pearcy collection
+    </titleproper>
+    <author>
+     Prepared by Valda Morris
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher>
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife
+                    Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date normal="2023">
+     2023
+    </date>
+   </publicationstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Encoded in EAD3 : Encoded Archival Description (EAD), Version 3 : Release:
+                        1.1.1 : Release Date: 2019-12-16. Validating against latest version of
+                        schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       https://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2014655323" show="new">
+       https://lccn.loc.gov/2014655323
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="new">
+   created
+  </maintenancestatus>
+  <maintenanceagency countrycode="US">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration>
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+   <descriptivenote>
+    <p>
+     Finding aid written in English.
+    </p>
+   </descriptivenote>
+  </languagedeclaration>
+  <conventiondeclaration>
+   <abbr>
+    DACS
+   </abbr>
+   <citation actuate="onload" href="https://www2.archivists.org/standards/DACS" linktitle="DACS in HTML on SAA website" show="new">
+    Describing
+                Archives: a Content Standard
+   </citation>
+   <descriptivenote>
+    <p>
+     DACS was used as the primary description standard.
+    </p>
+   </descriptivenote>
+  </conventiondeclaration>
+  <maintenancehistory>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2023-07">
+     July 2023
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     American Folklife Center, Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris.
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Susan Due Pearcy collection,
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1960/2014">
+     circa 1960-2014
+    </date>
+    <date altrender="Bulk Dates" localtype="bulk" normal="1967">
+     1967
+    </date>
+   </unittitle>
+   <unitdate datechar="creation" encodinganalog="245$f" label="Inclusive Dates" normal="1960/2014" unitdatetype="inclusive">
+    1960-2014
+   </unitdate>
+   <unitdate datechar="creation" encodinganalog="245$g" label="Bulk Dates" normal="1967" unitdatetype="bulk">
+    1967
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC 2014/028
+   </unitid>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Pearcy, Susan Due
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    approximately 5155
+                items
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    10
+                containers
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (whole collection)">
+    8.5 linear
+                feet
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    7 boxes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    92 photographic prints
+                : black-and-white and color ; various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    1 negative :
+                black-and-white ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    approximately 43
+                negatives (in 22 strips) : color ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    approximately 22
+                negatives (in 22 strips) : color ; 120 format
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    7 transparencies :
+                film, color ; 35 mm
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic materials)">
+    approximately 155
+                posters and drawings : linocuts, woodcuts, oil drawings, water drawings, sketches ;
+                various sizes
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    1 optical disc (DVD-R, 11
+                video files) : optical, sound, color ; 4 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (artifacts)">
+    19 pins, buttons,
+                ribbon
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <languageset>
+     <language encodinganalog="041" langcode="eng">
+      English
+     </language>
+     <script scriptcode="Latn">
+     </script>
+    </languageset>
+    <descriptivenote>
+     <p>
+      Collection material in English
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Collection of original visual art,
+                manuscripts, ephemera such as posters and newsletters, photographs and artifacts
+                such as political buttons, which documents the United Farm Workers labor movement in
+                California during the 1970s and the Civil Rights movement in southwest Georgia
+                during the 1960s.
+   </abstract>
+  </did>
+  <acqinfo encodinganalog="541">
+   <head>
+    Provenance
+   </head>
+   <p>
+    Susan Due Pearcy; 2014
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    No further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    Susan Due Pearcy collection was processed by Valda Morris in 2022.
+   </p>
+  </processinfo>
+  <userestrict encodinganalog="540">
+   <head>
+    Copyright Status
+   </head>
+   <p>
+    Duplication of collection materials may be governed by copyright and other
+                restrictions.
+   </p>
+  </userestrict>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    The Susan Due Pearcy collection is open to research. To request materials, please
+                contact the Folklife Reading Room at
+    <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+     https://hdl.loc.gov/loc.afc/folklife.contact
+    </ref>
+   </p>
+   <p>
+    Certain restrictions to use or copying of materials may apply.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Researchers wishing to cite this collection should include the following information:
+                [item, date, container number], Susan Due Pearcy collection (AFC 2014/028), American
+                Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical Note
+   </head>
+   <p>
+    Susan Due Pearcy is an artist and the owner of Sugarloaf Studio in Barnesville,
+                Maryland. Born in May 6, 1945, in St. Louis, Missouri, Susan studied art education
+                at Southeast Missouri State University before earning a Bachelor of Science in
+                painting, graphics and sculpture from New York University. She has worked at the
+                Graphics Workshop and the Printmaker's Workshop in Maryland and her art has been
+                displayed over 200 times both regionally and internationally including Russia,
+                France and Argentina. She has been the recipient of many awards and recognitions. In
+                2009, she was selected as one of Maryland's Top 100 Women and is the Signature
+                member of the Maryland Pastel Society.
+   </p>
+   <p>
+    In 1967, acting upon an invitation by Rev. Charles Sherrod, Susan, and her late
+                husband Glen Pearcy, traveled to Georgia where they worked on the Southwest Georgia
+                Project Newsletter. Glen wrote occasionally for the newsletter while Susan provided
+                photos and sketches for the paper. In 1972, Richard Cook, a volunteer from the
+                United Farm Workers (UFW) Union, beckoned to the couple to come to California. Susan
+                and Glen moved from Georgia to work with the United Farm Workers at the central
+                headquarters in La Paz, California, where Susan became the staff graphic artist for
+                El Macriado. She designed woodblocks and linocut prints and created drawings for use
+                on buttons, bumper strips, and in the newspaper. Susan also created the eagle that
+                was used in the UFW's flag.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The collection contains the original drawings and artwork Susan Due Pearcy created
+                for the Southwest Georgia Project and the UFW Union including the original linocuts.
+                It also includes a few copies of the original EL Macriado. The collection also
+                includes some of Susan's orginal sketchbooks and artwork.
+   </p>
+  </scopecontent>
+  <arrangement encodinganalog="351$a">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    The Susan Due Pearcy collection (AFC 2014/028) is organized in five series:
+   </p>
+   <list listtype="unordered" mark="circle">
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10001">
+      Series 1:
+                        Southwest Georgia Project, 1967-2011
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10030">
+      Series 2: United
+                        Farm Workers materials (UFW), 1970s-2014
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10108">
+      Series 3: Glen
+                        Pearcy materials, 1966-2009
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10118">
+      Series 4:
+                        Publications, 1972-1982
+     </ref>
+    </item>
+    <item>
+     <ref actuate="onrequest" show="replace" target="ref_id10124">
+      Series 5: Original
+                        artwork, 1967-undated
+     </ref>
+    </item>
+   </list>
+  </arrangement>
+  <controlaccess altrender=":::F005=^20220912150624.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the
+                LC Catalog. They are grouped by name of person or organization, by subject or
+                location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="100" relator="creator" source="lcnaf">
+     <part>
+      Pearcy, Susan Due, creator, collector, donor.
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      Southwest Georgia Project.
+     </part>
+    </corpname>
+    <corpname encodinganalog="610" relator="subject" source="lcnaf">
+     <part>
+      United Farm Workers.
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Civil rights movements--Georgia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Labor movement--California.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Protest movements--United States--Pictorial works.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Documentary photography.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <dsc dsctype="combined">
+   <head>
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10001">
+      Series 1: Southwest Georgia
+                        Project (SWGP), 1967-2011
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10002">
+       Dr. Clennon King et. al.,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes newsletters, handwritten prayers, and a typed letter to Glen
+                            Pearcy from Dr. Clemmons King.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10003">
+       Mr. Willie Hall,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes logs from Grady County art class along with newspapers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/3
+      </container>
+      <unittitle encodinganalog="245$a" id="rai01">
+       Manuscript materials supporting
+                            the SWGP (1/2),
+       <date localtype="inclusive" normal="1967/2011">
+        1967-2011
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/2011" unitdatetype="inclusive">
+       1967-2011
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes a report of the
+       <title>
+        <part>
+         History of the Black man
+        </part>
+       </title>
+       , children's drawings, newspaper showcasing children's drawings
+                            in the aftermath of MLK's murder, letter boycotting the MLK service at
+                            the city's auditorium in Albany, a financial report, a teaching plan by
+                            Susan Pearcy and a booklet of poems. See
+       <ref target="rai02">
+        Box 6
+                                Folder 3
+       </ref>
+       for the
+       <title>
+        <part>
+         New York Time Magazine
+        </part>
+       </title>
+       paper of children's drawings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/3
+      </container>
+      <unittitle encodinganalog="245$a" id="rai02">
+       Manuscript materials supporting
+                            the SWGP (1/2),
+       <date localtype="inclusive" normal="1967/2011">
+        1967-2011
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/2011" unitdatetype="inclusive">
+       1967-2011
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <title>
+        <part>
+         New York Time Magazine
+        </part>
+       </title>
+       with children's drawings.
+      </p>
+     </scopecontent>
+     <separatedmaterial>
+      <p>
+       Separated from
+       <ref target="rai01">
+        Box 1 Folder 3.
+       </ref>
+      </p>
+     </separatedmaterial>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10006">
+       Manuscript materials
+                            supporting the SWGP (2/2),
+       <date localtype="inclusive" normal="1967/2011">
+        1967-2011
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/2011" unitdatetype="inclusive">
+       1967-2011
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes color prints of the Southwest Georgia Project reunion, a
+                            brochure
+       <title>
+        <part>
+         Journey Down to the Path to Freedom
+        </part>
+       </title>
+       , a report
+       <title>
+        <part>
+         Significant Dates On Black Land Loss &amp; Land Acquisition
+        </part>
+       </title>
+       , and a RSVP list.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10007">
+       Southwest Georgia Project
+                            Reunion (1/2),
+       <date localtype="inclusive" normal="2000/2009">
+        2000-2009,
+                                undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000/2009" unitdatetype="inclusive">
+       2000-2009; undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       27 4 x 6 in. color
+                            prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints documenting the reunion of the Southwest Georgia Project Reunion
+                            activists along with manuscript materials and a copy of
+       <title>
+        <part>
+         The Albany Herald
+        </part>
+       </title>
+       , June 5, 2009.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10008">
+       Southwest Georgia Project
+                            Reunion (2/2),
+       <date localtype="inclusive" normal="2000">
+        2000
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000" unitdatetype="inclusive">
+       2000
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       26 color prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints documenting the reunion of the Southwest Georgia Project Reunion
+                            activists.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10009">
+       Poems and notes by Susan
+                            Pearcy,
+       <date localtype="inclusive" normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Handwritten and typed compositions by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10010">
+       Programs, Southwest
+                            Georgia Project,
+       <date localtype="inclusive" normal="2000/2008">
+        2000-2008
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2000/2008" unitdatetype="inclusive">
+       2000-2008
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes flyers and brochures pertaining to the Southwest Georgia Project
+                            along with other African American civil justices including a newsletter,
+       <title>
+        <part>
+         Captive Lives which highlights blacks in the penal
+                                    system.
+        </part>
+       </title>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10011">
+       SCLS, Citizen Education
+                            Program,
+       <date localtype="inclusive" normal="1967-08-11">
+        August 11,
+                                1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-08-11" unitdatetype="inclusive">
+       August 11, 1967
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10012">
+       Drawings
+       <date localtype="inclusive" normal="1967">
+        1967-undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967; undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       30 ink and water
+                            drawings
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original ink and watercolor drawings and sketches of various subjects by
+                            Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10013">
+       Mockups for publication,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Photocopies of four images. One of the images was photographed by Joe
+                            Pfister and submitted by Glen Pearcy et. al. for a program in
+                            photography. Another was used on the cover of
+       <title>
+        <part>
+         Southern Exposure: good times and growing pains
+        </part>
+       </title>
+       , (5)1.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10014">
+       Newsletters (SWGP),
+       <date localtype="inclusive" normal="1966/2009">
+        1966-2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966/2009" unitdatetype="inclusive">
+       1966-2009
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes newsletters from the Southwest Georgia Project.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/13
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10015">
+       Notes and interviews
+                            about education,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes handwritten notes from an ASCS meeting, handwritten
+                            correspondence, paper of de-centralization, interviews about schools,
+                            personal biographical history, and newspaper clippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/14
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10016">
+       Greeting cards designed
+                            by S. Pearcy,
+       <date localtype="inclusive" normal="1960/1969">
+        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       1960s
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       5 greeting cards of various
+                            sizes
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Cards designed by Susan for the Harambee shop ran by the Southwest
+                            Georgia Project.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/15
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10017">
+       Shirley Sherrod by Bob
+                            Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                            1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       11 3 x 5 in. color prints; 10
+                            120 color negative strips
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10018">
+       Shirley Sherrod by Bob
+                            Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                            1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <unitid label="Roll ID">
+       AFC 2014/028: PH01-01
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       10 color negative strips; 19
+                            images
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/16
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10019">
+       Southwest Georgia
+                            Project, Bob Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                                1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       12 3 x 5 in. prints; 6 120
+                            color negative strips
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10020">
+       Southwest Georgia
+                            Project, Bob Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                                1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <unitid label="Roll ID">
+       AFC 2014/028: PH01-02
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       6 color negative strips; 12
+                            images
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10021">
+       Southwest Georgia
+                            Project, Bob Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                                1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       12 3 x 5 in. prints; 6 120
+                            color negative strips
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10022">
+       Southwest Georgia
+                            Project, Bob Sullivan,
+       <date localtype="inclusive" normal="1988-07">
+        July
+                                1988
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1988-07" unitdatetype="inclusive">
+       July 1988
+      </unitdate>
+      <unitid label="Roll ID">
+       AFC 2014/028: PH01-03
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       6 color negative strips; 12
+                            images
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Images by Bob Sullivan documenting the Southwest Georgia Project
+                            reunion.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/17
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10184">
+       Southwest Georgia
+                            Project, Reunion,
+       <date localtype="inclusive" normal="2009-06-05/2009-06-07">
+        June 5-7, 2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2009-06-05/2009-06-07" unitdatetype="inclusive">
+       June 5-7, 2009
+      </unitdate>
+      <unitid label="Item_ID">
+       afc 2014028_dc01
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 DVD-R
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       See
+       <ref target="ref_id10185">
+        afc2014028_dc01_aip
+       </ref>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="Digital ID">
+       afc2014028_dc01_aip
+      </unitid>
+      <unittitle encodinganalog="245$a" id="ref_id10185">
+       Southwest Georgia
+                            Project, Reunion,
+       <date localtype="inclusive" normal="2009-06-05/2009-06-07">
+        June 5-7, 2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2009-06-05/2009-06-07" unitdatetype="inclusive">
+       June 5-7, 2009
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       11 vob, ifo, bup video files,
+                            digital, sound, color
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Recording produced by Glean Pearcy Productions. Digital copy of DVD
+                            extracted from original by AFC staff for preservation and access
+                            purposes.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10023">
+       Georgia,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Roll ID">
+       AFC 2014/028: PH01-04
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 35mm black-and-white
+                            negative
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of an individual walking by a flights of stairs.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/19
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10024">
+       Georgia,
+       <date localtype="inclusive" normal="1960/1969">
+        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       1960s
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH01-05
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 35mm color slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of two little girls.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/19
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10025">
+       Georgia,
+       <date localtype="inclusive" normal="1960/1969">
+        1960s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960/1969" unitdatetype="inclusive">
+       1960s
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH01-06
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 35mm black-and-white
+                            slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of an individual in an office.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       9/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10027">
+       SWGP line drawings,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR17-32, 46
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       17 ink line drawings various
+                            sizes
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       9/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10026">
+       SWGP images,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR47-50, 126
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       5 drawings
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes 1 linocut of a man, 1 ink drawing:
+       <title>
+        <part>
+         Mrs. Daniel and T, Block House
+        </part>
+       </title>
+       , 11-18-71; 1 ink drawing of a man and another on the verso; 1
+                            drawing of a woman; 1 black-and-white print pasted on a matte backing:
+       <title>
+        <part>
+         Craft Class
+        </part>
+       </title>
+       . Drawings by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/20
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10028">
+       SWGP sketchbooks,
+       <date localtype="inclusive" normal="1960">
+        1960
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1960" unitdatetype="inclusive">
+       1960
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 9 x 12 in.
+                            sketchbooks
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       1/21
+      </container>
+      <unittitle encodinganalog="245$a" id="rai03">
+       Susan's SWGP scrapbook,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 scrapbook; 1 black-and-white
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Contains newspaper clippings, handwritten and typed letters including
+                            correspondence between Susan and her sister while Susan was living in
+                            Baker County, Georgia, 1967-1968.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10030">
+      Series 2: United Farm Workers
+                        (UFW) materials, 1970s-2014
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      This series is a mixture of manuscript materials, artwork and posters. Please
+                        note that the titles for the posters were taken directly from the items
+                        themselves. In regards to the artwork the titles which appear in italics
+                        were supplied by the artist. All other titles were supplied by the
+                        archivist.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10031">
+       Sketchbook,
+       <date localtype="inclusive" normal="1972/1978">
+        1972-1978
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1978" unitdatetype="inclusive">
+       1972-1978
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black hardcover sketchbook of different animals, landscape and
+                            individuals.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10032">
+       Harambee child
+                            development,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10033">
+       Diana Lyons,
+                            correspondence,
+       <date localtype="inclusive" normal="1973/1974">
+        1973-1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973/1974" unitdatetype="inclusive">
+       1973-1974
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript materials; 5 color
+                            prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Letter sent to Susan, from the Florida Boycott Director, about the
+                            victory of gaining better wages for the oranges and the potential need
+                            for posters.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10034">
+       Articles,
+       <date localtype="inclusive" normal="1974/1979">
+        1974;
+                            1979
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1974/1979" unitdatetype="inclusive">
+       1974; 1979
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Articles pertaining to the labor laws, health care, and migrant workers
+                            in Florida.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10035">
+       Postcards,
+       <date localtype="inclusive" normal="1966/1968">
+        1966-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966/1968" unitdatetype="inclusive">
+       1966-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       6 black-and-white
+                            postcards
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10036">
+       Missouri Conference
+                            correspondence,
+       <date localtype="inclusive" normal="1970/1981">
+        1970-1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1981" unitdatetype="inclusive">
+       1970-1981
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Correspondence between Glen Pearcy and the various church
+                            organizations.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10037">
+       Note cards,
+       <date localtype="inclusive" normal="1994">
+        1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1994" unitdatetype="inclusive">
+       1994
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white note cards with mailing envelopes of Cesar Chavez
+                            speaking at Coachella, California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10038">
+       Salads for Lettuce
+                            Boycotters,
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                                1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Informational booklet prepared by Kairos, A United Methodist Church,
+                            Kansas City, Missouri and the United Farm Workers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10039">
+       UFW greeting cards,
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                            1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       8 greeting cards
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Greeting cards designed by Susan Pearcy for the Harambee shop which was
+                            ran by Southwest Georgia Project.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10040">
+       Protestors,
+       <date localtype="inclusive" normal="1970/1979">
+        circa
+                            1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1979" unitdatetype="inclusive">
+       circa 1970s
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       3 black-and-white
+                            prints
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Prints of protestors holding signs along with an image of an elderly
+                            woman.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10041">
+       Magazines,
+       <date localtype="inclusive" normal="1973/1987">
+        1973;
+                            1987
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973/1987" unitdatetype="inclusive">
+       1973; 1987
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 magazines
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes
+       <title>
+        <part>
+         Ramparts and Boycott Grapes
+        </part>
+       </title>
+       , a publication by United Farm Workers (UFW) and other articles
+                            about the union.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10042">
+       Union Label, Farmworkers,
+                            AFL-CIO notebook,
+       <date localtype="inclusive" normal="1974">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 notebook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes notes, planning ideas, and sketches.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/13
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10043">
+       Protest campaigns,
+                            sketchbook,
+       <date localtype="inclusive" normal="1974">
+        1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1974" unitdatetype="inclusive">
+       1974
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes a sketchbook for the Boycott Grapes and Lettuce campaign along
+                            with the final drawing of Nixon.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/14
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10044">
+       Xeroxed drawings and
+                            prints for
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972/1973">
+        1972-1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1973" unitdatetype="inclusive">
+       1972-1973
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Xeroxes of Susan Pearcy's drawings and prints for the
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/15
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10045">
+       Correspondence,
+       <date localtype="inclusive" normal="1972/1973">
+        1972-1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1973" unitdatetype="inclusive">
+       1972-1973
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Letters to Glen and Susan providing feedback on a sermon. Also includes
+                            correspondence about the Pearcys' joining the staff at the El Macriado
+                            and the history of the United Farm Workers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/16
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10046">
+       <title>
+        <part>
+         Celebrating the Past Building for the Future and the National
+                                    Farm Workers Health Group,
+        </part>
+       </title>
+       <date localtype="inclusive" normal="1971/2012">
+        1971-2012
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1971/2012" unitdatetype="inclusive">
+       1971-2012
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pamphlets for the First Constitutional Convention of UFW.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/17
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10047">
+       Loose drawings,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR118-125
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       drawings and
+                            sketches
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A mixture of ink and pencil drawings along with some sketches that can
+                            also represent images from the SWGP and UFW organizations.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10048">
+       Loose drawing,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR117
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 linocut on rice
+                            paper
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       2/18
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10049">
+       UFW, Fighting for Our
+                            Lives,
+       <date localtype="inclusive" normal="1973/1975">
+        1973,
+                                1975-undated
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973/1975" unitdatetype="inclusive">
+       1973, 1975-undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 newspaper
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes invitations to the premiere, along with newsletters and
+                            newspaper. A copy of The
+       <title>
+        <part>
+         San Francisco Examiner
+        </part>
+       </title>
+       , March 30, 1976, Home Edition was removed from the folder.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       2/19
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10050">
+       Huelga,
+       <date localtype="bulk" normal="1970/1979">
+        1970s
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$g" normal="1970/1979" unitdatetype="bulk">
+       1970s
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10051">
+       Sketchbook,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 11 x 14 in.
+                            sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Include images depicting farmworkers. AFC 2014/028: GR51-GR99 also has
+                            additional images pertaining to farmwork and the farmers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10052">
+       Sketchbook,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 14 x 17 in.
+                            sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       See above.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10053">
+       Long Day,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR51
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 18 x 12 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Red, black, and white image printed, 2014.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10054">
+       Quilt-makers,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR52
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 16 x 12 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white image on rice paper, printed 2014, (8/25).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10055">
+       Cotton picker,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR53
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 x 18 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white image printed, 2014, (6/25).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10056">
+       Braceros,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR54
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 17 3/4 x 11 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10057">
+       Boycott lettuce,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR55
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 10 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original prints on newsprint by Susan Pearcy. The drawing depicts a red
+                            flag with an eagle symbol.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10058">
+       Si Se Puede,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR56
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 1/3 x 11 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10059">
+       Farm worker in the field,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR57
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 1/2 x 8 3/4 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10060">
+       Farm worker,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR58
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 11 x 13 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A portrait of a worker.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10061">
+       Farm worker in the field,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR59
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 8 3/4 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10062">
+       Boycott lettuce,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR60
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 8 1/2 x 11 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Original prints on newsprint by Susan Pearcy. Image of a red flag with
+                            eagle symbol inside.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10063">
+       Farmworkers in the field
+                            (stoop labor),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR61
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 14 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10064">
+       Farm worker in the field,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR62
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 1/2 x 9 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10065">
+       Si se puede,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR63
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 8 3/4 x 11 1/2 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10066">
+       Image,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR64
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10067">
+       Si Se Puede,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR65
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 1/2 x 9 1/3 in. linocut
+                            print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image printed on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10068">
+       Farmworkers in the field
+                            (stoop labor),
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR66
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 14 x 9 in. linocut
+                            print
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10069">
+       Huelgo,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR67
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 x 18 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 of 3 original drawings of the same series by Susan Pearcy for the El
+                            Macriado, 1972-74.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10070">
+       Ballot,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR68
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 x 18 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       2 of 3 original drawings of the same series by Susan Pearcy for the El
+                            Macriado, 1972-1974 drawing of a man voting.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10071">
+       Men voting,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR69
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 x 18 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       3 of 3 of original drawings of the same series by Susan Pearcy for the El
+                            Macriado, 1972-1974.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10072">
+       Paz,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR70
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 4 1/2 x 5 1/2 in. color
+                            drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id100">
+       Paz,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR100
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 4 1/2 x 5 1/2 in.
+                            black-and-white drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10073">
+       Nixon drinks ripple,
+                            boycott Gallo wines,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR71
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 8 1/2 x 11 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Pencil drawing of Nixon holding a glass of wine.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10074">
+       Skull,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR72
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 1/2 x 9 1/2 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink drawing of a skull.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10075">
+       Boycott lettuce,
+                            non-union,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR73
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Image of a logo.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10076">
+       Boycott grapes,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR74
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 1/3 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink drawing of a design with grapes in a square sketch on piece of
+                            paper
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10077">
+       Boycott grapes,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR75
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 11 x 8 1/2 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A drawing of a bunch of grapes which differs from the design in the
+                            preceding folder.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10078">
+       Boycott lettuce,
+                            non-violence,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR76
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 8 1/2 x 11 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Male and female holding a sign.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10079">
+       Police,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR77
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 1/2 x 12 1/2 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A drawing of a police arresting a man. Other protestors and police cars
+                            are in the background.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       6/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10080">
+       <title>
+        <part>
+         Food Stamp office
+        </part>
+       </title>
+       ,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR78
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 12 x 15 1/3 in.
+                            drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A pencil drawing of man in a room with a box marked free turkey in Food
+                            Stamp office.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10081">
+       <title>
+        <part>
+         California fields
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR79
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 4 x 6 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (11/20).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10082">
+       <title>
+        <part>
+         Day's End
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR80
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (7/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10083">
+       <title>
+        <part>
+         Ayuno de Amor
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR81
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 6 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972 and printed in 2009 on Japanese rice paper,
+                            (8/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10084">
+       <title>
+        <part>
+         Braceros
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR82
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 6 x 12 in.
+                            linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972/1973 printed in 2009 on Japanese rice paper,
+                            (1/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10085">
+       <title>
+        <part>
+         Stoop Labor
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR83
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 6.5 x 6.5 in.
+                            woodcut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (3/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10086">
+       <title>
+        <part>
+         Farm Worker
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR84
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 6 x 4 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972 and printed in 2009 on Japanese rice paper,
+                            (6/25).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10087">
+       <title>
+        <part>
+         Orange Picker
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR85
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 4 x 6 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (8/25) .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10088">
+       <title>
+        <part>
+         Non-Violence
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR86
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 5.5 x 4 in.
+                            linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (10/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10089">
+       <title>
+        <part>
+         Farmworkers
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR87
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 11 7/8 x 6.75 in.
+                            woodcut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (7/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10090">
+       <title>
+        <part>
+         Si Se Puede-Arizona
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR88
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 3 x 5 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972 and printed in 2009 on Japanese rice paper,
+                            (9/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10091">
+       <title>
+        <part>
+         Si Se Puedo
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR89
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 3.5 x 5 in.
+                            linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972 and printed in 2009 on Japanese rice paper,
+                            (10/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10092">
+       <title>
+        <part>
+         Florida Harvest
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR90
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (9/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10093">
+       <title>
+        <part>
+         Grape Picker
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR91
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 5 x 7 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (7/25).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10094">
+       <title>
+        <part>
+         Boycott Lettuce
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR92
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2009 on Japanese rice paper,
+                            (9/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10095">
+       <title>
+        <part>
+         Hope on the Horizon
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1973
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR93
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 6.75 x 9.75 in.
+                            linocut
+      </physdesc>
+      <didnote encodinganalog="500" label="Archivist note">
+       The original inventory
+                            captures the date for this artwork as 1972.
+      </didnote>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1973 and printed in 2014 on Japanese rice paper,
+                            (7/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10096">
+       <title>
+        <part>
+         Boycott Lettuce
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR94
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 7 x 5 in. linocut
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Edition created in 1972 and printed in 2009. Picketers carrying signs on
+                            Japanese rice paper, (3/50).
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10097">
+       Standing Woman,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR95
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 13 x 13 in.
+                            artwork
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A red and black image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10098">
+       Standing Woman,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR96
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 13 1/2 x 13 in.
+                            artwork
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A black-and-white image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10099">
+       Standing Woman,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR97
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 14 3/4 x 14 in.
+                            artwork
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A red and black image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10100">
+       Farm scene,
+       <date localtype="inclusive" normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+       1968
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR98
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 18 x 10 in.
+                            artwork
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       An image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box">
+       7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10101">
+       Farm scene,
+       <date localtype="inclusive" normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+       1968
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR99
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 17 1/2 x 12 1/2 in.
+                            artwork
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       An image on rice paper.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box">
+       8
+      </container>
+      <unittitle encodinganalog="245$a">
+       UFW buttons and pins
+      </unittitle>
+      <physdesc encodinganalog="300" label="Extent">
+       19 buttons, pins, and
+                            ribbon
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Artifacts displaying the various non-violent and boycott messages of the
+                            UFW organization.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10107">
+       UFW,
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       newspaper
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes 11 newspapers about boycotts and rallies and representation as
+                            well as some linocut images.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10106">
+       UFW,
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972/1973">
+        1972-1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1973" unitdatetype="inclusive">
+       1972-1973
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       newspaper
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes 9 newspapers compiled about the lettuce strikes and bombing of
+                            the office.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10105">
+       UFW,
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972/1975">
+        1972-1975
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1975" unitdatetype="inclusive">
+       1972-1975
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       artwork, newspaper
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Examples of linocuts that were used in the
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       along with newsletters and newspapers.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10104">
+       UFW,
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1973/1974">
+        1973-1974
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973/1974" unitdatetype="inclusive">
+       1973-1974
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       newspaper
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       5 issues of
+       <title>
+        <part>
+         El Macriado
+        </part>
+       </title>
+       .
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       10/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10103">
+       UFW, newspapers,
+       <date localtype="inclusive" normal="1973/2014">
+        1973-2014
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1973/2014" unitdatetype="inclusive">
+       1973-2014
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       newspaper
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Includes clippings of individuals affiliated with the UFW. Below is a
+                            listing of major newspapers that were removed.
+      </p>
+      <list>
+       <item>
+        <title render="doublequote">
+         <part>
+          City protests replace UFW picketing,
+         </part>
+        </title>
+        <title>
+         <part>
+          The Bakersfield Californian,
+         </part>
+        </title>
+        August 19, 1973, Vol. 87
+       </item>
+       <item>
+        Frank del Olmo,
+        <title render="doublequote">
+         <part>
+          Picketing Halted Farm Union Acts After Two Deaths,
+         </part>
+        </title>
+        <title>
+         <part>
+          Los Angeles Times,
+         </part>
+        </title>
+        August 18, 1973, Daily Edition, Vol XCII
+       </item>
+       <item>
+        William Hamilton,
+        <title render="doublequote">
+         <part>
+          Chavez Buried in the Soil of His Struggle,
+         </part>
+        </title>
+        <title>
+         <part>
+          The Washington Post,
+         </part>
+        </title>
+        April 30, 1993
+       </item>
+       <item>
+        <title>
+         <part>
+          San Francisco Examiner,
+         </part>
+        </title>
+        March 30, 1976, Home Edition
+       </item>
+      </list>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10153">
+       El Teatro Campesino,
+                            August 23-September 22, 2013
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR01
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 11 x 17 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       El Teatro Campesino Presents a new play by Luis Valdez, August
+                            23-September 22, 2013. El Teatro Campesino Playhouse, San Juan Bautista,
+                            California.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10154">
+       We still have a dream,
+                            Jobs, Peace, Freedom
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR02
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 14 1/3 x 22 1/2 in.
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10155">
+       Farmworkers Week, 1981,
+                            Women in Struggle, Mujeres Valiente,
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR03
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 18 x 24 in.
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10156">
+       Farmworkers Week, 1981,
+                            Women in Struggle, Mujeres Valiente,
+       <date localtype="inclusive" normal="1981">
+        1981
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1981" unitdatetype="inclusive">
+       1981
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR04
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 18 x 24 in.
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10157">
+       <title render="doublequote">
+        <part>
+         When we are really honest with ourselves we must admit that
+                                    our lives are all that really belong to us...
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR05
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 14 x 22 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Poster quotes the words of the leader of the UFW, Cesar Chavez.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10158">
+       Vineyard
+                            March
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR06
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 black-and-white 11 x 17 1/2
+                            in. poster
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10159">
+       Farm Worker Week,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR07
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 1/2 x 23 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Farm worker week, 1982, Women in Struggle, Mujeres Valientes, Local Farm
+                            worker week events, look for the UFW, Ask for the UFW label, National
+                            Farm Worker Ministry, 1430 W. Olympic Bl., Los Angeles, CA 90015,
+                            213-386-8130.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10160">
+       <title render="doublequote">
+        <part>
+         I'm prepared to pay the price for civil disobedience. I was
+                                    spiritually prepared for the confinement.
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR08
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 black-and-white 16 1/3 x 22
+                            in. poster
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       The title of the poster quotes the sentiments shared by the UFW.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10161">
+       This Far By Faith, sixty
+                            years of migrant history
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR09
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 1/2 x 22 1/2 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       This Far By Faith, sixty years of migrant history, 1920-1980, local farm
+                            workers week events, look for the UFW Union Label Union Label Ask for
+                            the UFW label, National Farm Worker Ministry 213/386 8130, 1430 W.
+                            Olympic BI., Los Angeles, CA 90015.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10162">
+       Farm Worker Week,
+       <date localtype="inclusive" normal="1979-04-30/1979-05-06">
+        April 30-May
+                                6, 1979
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1979-04-30/1979-05-06" unitdatetype="inclusive">
+       April 30-May 6, 1979
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR10
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 1/3 x 22 1/2 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Farm Worker Week, April 30-May 6, 1979, Children of Toil, Children of
+                            Hope, National Farm Worker Ministry ...213/386 8130, 1430 W. Olympic
+                            BI., Los Angeles, CA 90015, look for the UFW Union Label Union Label Ask
+                            for the UFW label.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10163">
+       United Farm Workers of
+                            America, AFL-CIO. Boycott Grapes &amp; Gallo Wines
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR11
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 3/4 x 22 3/4 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       United Farm Workers of America, AFL-CIO. Boycott Grapes &amp; Gallo
+                            Wines.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10164">
+       Hasta La Victoria!,
+                            Lamont-Army, UFW AFL-CIO
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR12
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 15 x 23 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Hasta La Victoria!, Lamont-Army, UFW AFL-CIO.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10165">
+       Unase a La Huelga De
+                            Coachella!
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR13
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 1/2 x 23 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Unase a La Huelga De Coachella!
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10166">
+       UFWOL,
+                            Huelga!
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR14
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 18 1/2 x 24 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       UFWOL, Huelga!
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10167">
+       "Across the San Joaquin
+                            Valley, across California, across the entire Southwest of the United
+                            States...," Cesar Chavez
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR15
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 17 1/2 x 23 1/3 in.
+                            poster
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       Poster quotes the words of the leader of the UFW, Cesar Chavez.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10168">
+       <title>
+        <part>
+         Stand with us. Don't buy grapes or lettuce
+        </part>
+       </title>
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS01-GR16
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 22 1/2 x 28 1/2 in.
+                            poster
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10108">
+      Series 3: Glen Pearcy
+                        materials, 1966-2009
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10109">
+       Glen Pearcy manuscript
+                            materials,
+       <date localtype="inclusive" normal="1966/2009">
+        1966-2009
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1966/2009" unitdatetype="inclusive">
+       1966-2009
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Glen Pearcy goes behind the iron curtain. Folder also consists of
+                            materials from the Albany Center for Children and the Southwest Georgia
+                            Project for Community Education including a child's drawing.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10110">
+       Newspapers, scrapbook,
+       <date localtype="inclusive" normal="1972/1973">
+        1972-1973
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972/1973" unitdatetype="inclusive">
+       1972-1973
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Story and photographs by Glen Pearcy. Newspapers are compiled from the El
+                            Malcriado newspaper, 1972.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10111">
+       Photo expenses,
+       <date localtype="inclusive" normal="1967/1968">
+        1967-1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967/1968" unitdatetype="inclusive">
+       1967-1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10112">
+       Sermon by Glen Pearcy,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10113">
+       Martin Luther King, Jr.,
+       <date localtype="inclusive" normal="2016">
+        2016
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2016" unitdatetype="inclusive">
+       2016
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Log of Martin Luther King's Jr., reels along with a sermon entitled,
+       <title>
+        <part>
+         Truth and authority
+        </part>
+       </title>
+       , a sermon for Dr. King's Birthday.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10114">
+       Fighting For Our Lives
+                            (FFOL) Reviews,
+       <date localtype="inclusive" normal="1975/1976">
+        1975-1976
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1975/1976" unitdatetype="inclusive">
+       1975-1976
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript materials; 1
+                            black-and-white print
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       UFW dinner program booklet and newspaper clippings.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10115">
+       Report on filming the
+                            Coachella strike,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Glen Pearcy's account of the struggle of the farmers. Pearcy was asked by
+                            Chavez to document the strike.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10116">
+       <title>
+        <part>
+         In Camera summer
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1994">
+        1994
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1994" unitdatetype="inclusive">
+       1994
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Summer 1994 edition of the publication with an article on how Glen
+                            Pearcy's productions plays a part on the social debate.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       6/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10117">
+       <title>
+        <part>
+         The Monocle
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="2006">
+        2006
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="2006" unitdatetype="inclusive">
+       2006
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Article about Glen Pearcy and his involvement with the UFW.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10118">
+      Series 4: Publications,
+                        1972-1982
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10119">
+       <title>
+        <part>
+         Prisoner
+        </part>
+       </title>
+       , Student Interracial Ministry,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       manuscript
+                            materials
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Newsletter covering various social and civil issues.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/9
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10120">
+       <title>
+        <part>
+         United Church herald: women today
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1972">
+        1972
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1972" unitdatetype="inclusive">
+       1972
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 newsletter
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/10
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10121">
+       <title>
+        <part>
+         motive
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1970/1971">
+        1970-1971
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1970/1971" unitdatetype="inclusive">
+       1970-1971
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 magazines
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       November 1970, April/may 1971 issue of the publication.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/11
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10122">
+       <title>
+        <part>
+         Southern Exposure
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1978">
+        1978
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1978" unitdatetype="inclusive">
+       1978
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 magazines
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes
+       <title>
+        <part>
+         Generations of women in the South
+        </part>
+       </title>
+       and
+       <title>
+        <part>
+         South Still Life: Inside Southern Prisons
+        </part>
+       </title>
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       3/12
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10123">
+       <title>
+        <part>
+         Southern Exposure
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1982">
+        1982
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1982" unitdatetype="inclusive">
+       1982
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       2 magazines
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       <title>
+        <part>
+         good times and growing pains. . .
+        </part>
+       </title>
+       and
+       <title>
+        <part>
+         Who owns Appalachia?
+        </part>
+       </title>
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a" id="ref_id10124">
+      Series 5: Original artwork,
+                        1967-undated
+     </unittitle>
+    </did>
+    <scopecontent>
+     <p>
+      The artwork described below are a mixture of sketches and drawings. Please
+                        note that the titles which appear in italics were supplied by the artist.
+                        All other titles were derived by the archivist.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/1
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10125">
+       Sketchbook 1 (Diary),
+       <date localtype="inclusive" normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 black sketchbook, diary.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/2
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10126">
+       Sketchbook 2,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10127">
+       Sketchbook 3,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 spiral sketchbook. A post it on the first book says scanned, only black
+                            family scanned. Image found in other parts of the collection.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10128">
+       Sketchbook 4,
+       <date localtype="inclusive" normal="1968-05">
+        May 1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968-05" unitdatetype="inclusive">
+       May 1968
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketchbook
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       1 spiral sketchbooks. A post it says, "scanned." The image can be found
+                            in other parts of the collection.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10129">
+       Sketchbook 5,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 12 in. spiral
+                            sketchbook
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="box-folder">
+       4/6
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10130">
+       Sketchbook 6,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 9 x 12 in. spiral
+                            sketchbook
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/7
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10131">
+       Sketch of a woman,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <physdesc encodinganalog="300" label="Extent">
+       1 sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Matted sketch of a woman.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       9/3
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10132">
+       Ink drawing of a man,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR101
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink drawing
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink drawing of a woman and a man.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       9/4
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10133">
+       Ink drawing of woman,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR102
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       9/5
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10134">
+       Ink drawings,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR103-106
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       4 matted ink drawings various
+                            sizes
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Drawings by Susan Pearcy of men and women.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10135">
+       <title>
+        <part>
+         Baker Co. chicken coop
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+       1968
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH02-01
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 black-and-white 35mm
+                            slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Etching of farmhouse by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10136">
+       <title>
+        <part>
+         Black family
+        </part>
+       </title>
+       ,
+       <date>
+        undated
+       </date>
+      </unittitle>
+      <unitdate>
+       undated
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH02-02
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 35mm slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Silkscreen print of Black Family by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10137">
+       <title>
+        <part>
+         Beachtan House, Georgia
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH02-03
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 35mm slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Painting by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10138">
+       Black woman,
+       <date localtype="inclusive" normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH02-04
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 color 35mm slide
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Painting by Susan Pearcy.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="box-folder">
+       4/8
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10139">
+       Quilt maker,
+       <date localtype="inclusive" normal="1969">
+        1969
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1969" unitdatetype="inclusive">
+       1969
+      </unitdate>
+      <unitid label="Slide ID">
+       AFC 2014/028: PH02-05
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 black-and-white 35mm
+                            slide
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS01
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10169">
+       <title>
+        <part>
+         Barn, Halls Farm,
+        </part>
+       </title>
+       <date localtype="inclusive" normal="1967-06">
+        June
+                            1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-06" unitdatetype="inclusive">
+       June 1967
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR33
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10170">
+       Portrait of a man,
+       <date localtype="inclusive" normal="1967-11">
+        November
+                            1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-11" unitdatetype="inclusive">
+       November 1967
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR34
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10171">
+       Black Family,
+       <date localtype="inclusive" normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+       1968
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR35
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10172">
+       Black-and-white template
+                            for Black Family
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR36
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10173">
+       Black-and-white template
+                            for Black Family
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR37
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10174">
+       Brown-and-white template
+                            for Black family
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR38
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS02
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10175">
+       Brown-and-black template
+                            for Black family
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS02-GR39
+      </unitid>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS03
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10176">
+       Watercolor of a woman
+                            sitting,
+       <date localtype="inclusive" normal="1967-07">
+        July
+                            1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-07" unitdatetype="inclusive">
+       July 1967
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS03-GR40
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+     <scopecontent>
+      <p>
+       1 watercolor painting
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS04
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10177">
+       Watercolor of a house,
+       <date localtype="inclusive" normal="1967-07">
+        July
+                            67
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-07" unitdatetype="inclusive">
+       July 67
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS04-GR41
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS05
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10178">
+       Watercolor of a
+                            bedroom
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS05-GR42
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS05
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10179">
+       Painting of a black
+                                man,
+       <date localtype="inclusive" normal="1967">
+        1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967" unitdatetype="inclusive">
+       1967
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS05-GR43
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS05
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10180">
+       <title>
+        <part>
+         Self portrait at Grady House
+        </part>
+       </title>
+       , Susan Pearcy
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: OS05-GR44
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS05
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10181">
+       <title>
+        <part>
+         Old cabin, out house Hall farm
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1967-06">
+        June
+                            1967
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1967-06" unitdatetype="inclusive">
+       June 1967
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: OS05-GR45
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10140">
+       <title>
+        <part>
+         Chicken Coop-Baker Co., Georgia
+        </part>
+       </title>
+       ,
+       <date localtype="inclusive" normal="1968">
+        1968
+       </date>
+      </unittitle>
+      <unitdate encodinganalog="245$f" normal="1968" unitdatetype="inclusive">
+       1968
+      </unitdate>
+      <unitid label="Item ID">
+       AFC 2014/028: GR107
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 black-and-white
+                            drawing
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10141">
+       Man on the
+                            floor
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR108
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sketch of man laying in living room floor
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10142">
+       White
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR109
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 image
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Black-and-white image of block letters spelling out White.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10143">
+       Sketch of a
+                            woman
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR110
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10144">
+       Wheel barrow and a
+                            shovel
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR111
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink sketch of a wheel barrow and a shovel.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10145">
+       Bicycle in the
+                            woods
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR112
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink sketch of a bicycle in the woods.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10146">
+       House in the
+                            woods
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR113
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink sketch of house in the woods.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10147">
+       Tall woman
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR114
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 ink sketch
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Ink sketch of tall woman, matted.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10148">
+       Two women
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR115
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Watercolor of two women.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="item">
+     <did>
+      <container localtype="folder">
+       OS06
+      </container>
+      <unittitle encodinganalog="245$a" id="ref_id10149">
+       Three women
+      </unittitle>
+      <unitid label="Item ID">
+       AFC 2014/028: GR116
+      </unitid>
+      <physdesc encodinganalog="300" label="Extent">
+       1 watercolor
+                            painting
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Watercolor of three women.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

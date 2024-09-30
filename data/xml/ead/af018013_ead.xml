@@ -1,0 +1,2621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af018013" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af018013
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     Dance Theater of Nepal collection
+    </titleproper>
+    <subtitle>
+     AFC 2011/002
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Briel Kobak and Valda Morris
+     <lb>
+     </lb>
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American Folklife Center,
+               Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+    <date encodinganalog="260$c" normal="2020-01">
+     January 2020
+    </date>
+   </publicationstmt>
+   <seriesstmt>
+    <p>
+     Guides to the Collections in the Archive of Folk Culture
+    </p>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2011655371" show="new">
+       https://lccn.loc.gov/2011655371
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-03">
+     2020-03
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     January 2020
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Finding aid encoded by Valda Morris
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unittitle encodinganalog="245$a" label="Title">
+    Dance Theater of Nepal collection,
+    <date altrender="Date Span" localtype="inclusive" normal="1996/2010">
+     1996-2010
+    </date>
+   </unittitle>
+   <unitdate label="Date Span" normal="1996/2010" unitdatetype="inclusive">
+    1996-2010
+   </unitdate>
+   <unitid countrycode="US" encodinganalog="090" label="Call No." repositorycode="US-DLC">
+    AFC
+            2011/002
+   </unitid>
+   <origination label="Creator">
+    <corpname encodinganalog="110" source="lcnaf">
+     <part>
+      Dance Theater of Nepal
+     </part>
+    </corpname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Kapoor, Raj, 1968
+     </part>
+    </persname>
+   </origination>
+   <origination label="Creator">
+    <persname encodinganalog="100" source="lcnaf">
+     <part>
+      Handlin, Sherry Onna
+     </part>
+    </persname>
+   </origination>
+   <physdesc encodinganalog="300" label="Extent">
+    1601 items (6 containers, 3 linear feet).
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (manuscripts)">
+    1050 manuscript materials (3 containers)
+   </physdesc>
+   <physdesc label="Extent (sound recordings)">
+    7 sound disc (CD) : digital ; 4 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    5 videocassettes (VHS) : sound, color ; 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (moving images)">
+    32 videodiscs (DVD) : digital ; 4 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    220 photographs : prints, black and white, color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    18 slides : color ; 35 mm.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    1 optical disc (63 color photographs on CD-R, jpegs files)
+               : digital ; 1 3/4 in.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (graphic images)">
+    10 posters : black and white, color.
+   </physdesc>
+   <physdesc encodinganalog="300" label="Extent (electronic media)">
+    175 computer files (.jpegs) on 1 thumb drive ; 3 1/2 in.
+   </physdesc>
+   <langmaterial encodinganalog="546" label="Language">
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <descriptivenote>
+     <p>
+      Sound and video recordings mostly in
+               Nepali.
+            Manuscripts and print materials in English
+               and Nepali.
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife Center, Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <abstract encodinganalog="520$a" label="Summary">
+    Audiovisual, photographic, and manuscript
+            documentation of classical and folk dance events and other activities sponsored by the
+            Dance Theater of Nepal.
+   </abstract>
+  </did>
+  <controlaccess altrender=":::F005=^20210609122932.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Handlin, Sherry Onna
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Kapoor, Raj, 1968-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Dance Theater of Nepal
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Nepal.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk dancing, Nepali--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Nepali Americans--New York (State)--New York--Social life and customs.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Places
+    </head>
+    <geogname encodinganalog="651" relator="subject" source="lcsh">
+     <part>
+      Nepal--Social life and customs.
+     </part>
+    </geogname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographs.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Posters.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Video recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <arrangement encodinganalog="351">
+   <head>
+    Arrangement
+   </head>
+   <p>
+    Organized into the following series: 1. Manuscripts; 2. Sound Recordings; 3. Graphic
+               Materials; 4. Moving Images. Materials are described at folder level.
+   </p>
+  </arrangement>
+  <acqinfo encodinganalog="541">
+   <head>
+    Acquisition
+   </head>
+   <p>
+    Sherry Onna Handlin; 2011
+   </p>
+  </acqinfo>
+  <accruals encodinganalog="584">
+   <head>
+    Accruals
+   </head>
+   <p>
+    Further accruals are expected.
+   </p>
+  </accruals>
+  <processinfo encodinganalog="583">
+   <head>
+    Processing History
+   </head>
+   <p>
+    The collection was processed by Junior Fellow Briel Kobak with the assistance of
+               Valda Morris in 2011.
+   </p>
+  </processinfo>
+  <relatedmaterial encodinganalog="544 1">
+   <head>
+    Related Material
+   </head>
+   <p>
+    The Dance Theater of Nepal Records, 1996-2005, Jerome Robbins Dance Division, New
+               York Public Library:
+    <ref actuate="onrequest" href="http://archives.nypl.org/dan/19829">
+     http://archives.nypl.org/dan/19829
+    </ref>
+   </p>
+   <p>
+    The Dance Theater of Nepal Records, 1996-2013, New York State Library:
+    <ref actuate="onrequest" href="http://www.nysl.nysed.gov/msscfa/sc23281.htm">
+     http://www.nysl.nysed.gov/msscfa/sc23281.htm
+    </ref>
+    .
+   </p>
+  </relatedmaterial>
+  <accessrestrict encodinganalog="506 0">
+   <head>
+    Access and Restrictions
+   </head>
+   <p>
+    Collection is open for research; access to collection materials may be restricted. To
+               request materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact
+   </p>
+   <p>
+    See Folder 1 for additional information as stipulated by the donors.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    Dance Theater of Nepal Collection, Archive of Folk Culture (AFC 2011/002), American
+               Folklife Center, Library of Congress, Washington, D.C.
+   </p>
+  </prefercite>
+  <bioghist encodinganalog="545">
+   <head>
+    Biographical/Organizational Note
+   </head>
+   <p>
+    The Dance Theater of Nepal, formerly known as the Raj Kapoor Ensemble, has been
+            performing in the United States since its formation in 1996. The dance company assumed
+            its present name in 1997 and became incorporated in 2001. The group's main focus is to
+            preserve, to present, and to offer cultural instruction of Nepali performing arts to the
+            United States and abroad. It is one of the first ensembles to bring the Nepali tradition
+            into the mainstream. The group has performed at many nationally recognized cultural
+            institutions and universities including the Smithsonian Institution, the Rubin Museum of
+            Art, and Princeton University, and many others worldwide.
+   </p>
+   <p>
+    Raj Kapoor, dance and musical director of the Dance Theater of Nepal, is a Nepali native
+            and a key figure in introducing Nepali heritage through traditional folk dance musical
+            forms. Prior to creating the dance group, Kapoor was the associate director of Dramatic
+            Art at the Royal Nepal Academy in Kathmandu, Nepal. In 1998, Kapoor, along with Sherry
+            Onna Handlin, collaborated and created a year-long festival which celebrated and
+            highlighted Nepali’s culture in America. As a dancer, musician, composer, and director,
+            Kapoor participated in numerous productions performing in more than 23 countries
+            worldwide. Kapoor has composed Nepali music for many films, television, and radio shows
+            in United States, as well as in Nepal and India.
+   </p>
+   <p>
+    Sherry Onna Handlin earned a Bachelor of Fine Arts degree from the Pratt Institute,
+            where she also taught courses. Sherry always had a keen interest in South Asian culture
+            and in 1995, after a trip to North India and Nepal, her interest deepened and she became
+            more involved with Himalayan performing arts. As the project director for the Dance
+            Theater of Nepal, Sherry has made significant contributions to the group. Her work as an
+            artist became even more notable when she performed the sacred Buddhist dance of Nepal
+            "Charya Nritya." Sherry has also participated in many events that showcase Nepali
+            culture. In 2013, Sherry recieved the International Career Achievement Award from the
+            Pratt Institute.
+   </p>
+  </bioghist>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    This multi-format collection is comprised of audiovisual recordings, newspaper
+            clippings, photographic prints, color slides, and biographies documenting the history
+            and cultural activities of the Dance Theater of Nepal. Sherry Onna Handlin, the creator
+            of the collection, amassed these materials from her own personal experiences in Nepal
+            and her administrative roles with the Theater between the years of 1994 and 2010. All of
+            the materials, except for the artist profiles; which were arranged by format, have
+            retained their original order.
+   </p>
+   <p>
+    While the collection documents the dance group as a whole, the majority of it is
+            dedicated to the individual artists. Included are twenty-two folders for each artist
+            including photographs, newspaper clippings, audio and visual recordings, as well as
+            manuscript items such as awards, letters of recommendation, and biographies. The folder
+            created for Binod Oli and Devi was received with no materials but there is one color
+            slide of Binod Oli (AFC 2011/002: 027), see Box 5. The success of the group is captured
+            in a variety of newspapers, newspaper clippings and ephemera which ranges from
+            1995-2010. There are also pamphlets and brochures highlighting some of the country’s
+            most revered tourist destinations.
+   </p>
+   <p>
+    Sherry requested that the thumb drive of photos, depicting the Dance Theater of Nepal
+            and its performers, be returned to her after processing. She has also chosen to keep the
+            collection open for further accruals. The materials are written in both English and
+            Nepali.
+   </p>
+  </scopecontent>
+  <dsc dsctype="combined">
+   <head althead="Container List">
+    Container List
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 1: Manuscripts
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Administration
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/1
+       </container>
+       <unittitle encodinganalog="245$a">
+        General scope and content note,
+                        1970s-2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The general scope and content note was written by the donor, Sherry Onna
+                        Handlin. There are multiple copies of the document with handwritten notes.
+                        It also includes an inventory list and an access and restrictions statement
+                        for the collection.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/2
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Public Library, general scope and
+                        content, 1996-2005
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Inventory, catalog and other materials pertaining to the donation of the
+                        collection to the New York Public Library, Special Collections, Dance
+                        Division at the Lincoln Center on May 25, 2005.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/3
+       </container>
+       <unittitle encodinganalog="245$a">
+        DTON overview, 2000-2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Original documents and photocopies of flyers, programs, articles, letters
+                        and other information pertaining to the origins of the dance group; its
+                        founders and artists, the country of Nepal and its folk and musical
+                        traditions.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/4
+       </container>
+       <unittitle encodinganalog="245$a">
+        Biographical summary: Raj Kapoor,
+                        1980s-2000s
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes copies of newspaper clippings, performance programs and flyers,
+                        photocopied colored photographs, and letters of recommendation.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Biographical summary: Sherry Onna Handlin,
+                        1970s-1990s
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes a resume, newspaper clippings, photocopied colored photographs,
+                        flyers, programs, certificates and letters of recommendation.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/6
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dance and visual arts classes, 2004;
+                        2009
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Contains a syllabi, advertisements, students' work, and thank you letters
+                        from students of Sherry's art class at Pratt Institute and University
+                        Settlement, New York.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/7
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ephemera, 1990s-2000s
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Postcards, flyers and photocopied colored photographs of the artists in the
+                        Dance Theater of Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Artist profiles and
+                     works
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/8
+       </container>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Two Faces of a
+                           Coin
+        </emph>
+        , 2008
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The monograph is written by Nepali native, Unnati ‘Sheela’ Bohara, poet, author,
+                        and song-writer. It is based on husband and wife relationships in a
+                        male-dominated Hindu society.
+       </p>
+      </scopecontent>
+      <odd>
+       <p>
+        In English.
+       </p>
+      </odd>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/9
+       </container>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Love from across the
+                           ocean
+        </emph>
+        , 2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The monograph is written in Nepali by Santu Maya Adhikara Ghimire.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/10
+       </container>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Global Echoes,
+        </emph>
+        and
+        <emph render="italic">
+         Sunkeshari,
+        </emph>
+        undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artists' profiles and a list of recordings by,
+                        Suraj Nepal and Shubha Bahadur. See AFC 2011/002: SR03-SR04.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/11
+       </container>
+       <unittitle encodinganalog="245$a">
+        Baskota Shambhujeet, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents. See AFC
+                        2011/002: SR01 and AFC 2011/002: MV06.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/12
+       </container>
+       <unittitle encodinganalog="245$a">
+        Subarna Chhetri and Ram Raj,
+                        undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artists' profiles and list of contents. See AFC 2011/002:
+                        MV08 and AFC 2011/002: MV10.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/13
+       </container>
+       <unittitle encodinganalog="245$a">
+        Tsewang Dorje, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile. See AFC 2011/002: MV09 and AFC 2011/002:
+                        MV15.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/14
+       </container>
+       <unittitle encodinganalog="245$a">
+        Goma Gurung, 1996-1998, 2000, 2002-2003;
+                        2005-2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Includes a photocopy of the artist's profile and a list of materials which
+                        includes pubilicty photographs, newspaper clippings, and awards belonging to
+                        Goma Gurung. See AFC 2011/002: MV07 and AFC 2011/002: MV11.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/15
+       </container>
+       <unittitle encodinganalog="245$a">
+        Krishna Gurung, 2009
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile and a list of contents along with a copy
+                        of his monograph entitled,
+        <emph render="italic">
+         Dhorje
+        </emph>
+        . It is about a young
+                        man who leaves his family in Nepal and travels to New York in search of a
+                        better life.
+       </p>
+      </scopecontent>
+      <odd>
+       <p>
+        In Nepali.
+       </p>
+      </odd>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        1/16
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ramesh Gurung, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile and a list of contents. See Box 3 for
+                        color prints and AFC 2011/002: MV12 and AFC 2011/002: MV13 for
+                        recordings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/17
+       </container>
+       <unittitle encodinganalog="245$a">
+        Deepak Koirala, 2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile and an inventory of contents in the folder
+                        including newspaper clippings, and a program book highlighting Deepak
+                        Koirala and his career. See AFC 2011/002: MV16 and AFC 2011/002:
+                        MV17.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/18
+       </container>
+       <unittitle encodinganalog="245$a">
+        Dharambir Lama, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents along with
+                        a biographical sketch of Dharambir Lama. See AFC 2011/002: MV18.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/19
+       </container>
+       <unittitle encodinganalog="245$a">
+        Raja Mahat, 2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Newspaper clippings in Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/20
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ram A. Nagarkoti, 2000
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents including
+                        an award, a flyer and a photographic print of the artist. See AFC 2011/002:
+                        MV19.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/21
+       </container>
+       <unittitle encodinganalog="245$a">
+        Binod Oli and Devi, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Folder received with no content.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/22
+       </container>
+       <unittitle encodinganalog="245$a">
+        Binita Poudyal, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and list of contents including a
+                        performance resume. See AFC 2011/002: MV20.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/23
+       </container>
+       <unittitle encodinganalog="245$a">
+        Charan Pradhan, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents along with
+                        photocopies of photographic prints. See AFC 2011/002: MV21.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/24
+       </container>
+       <unittitle encodinganalog="245$a" id="rai0001">
+        Basanti D. Rai, 2002-2003;
+                        2008-2010
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents along with
+                        photocopies of flyers, awards and photographic prints.
+       </p>
+      </scopecontent>
+      <separatedmaterial>
+       <p>
+        Oversized newspapers separated to
+        <ref actuate="onrequest" show="replace" target="rai0002">
+         Box 6
+        </ref>
+       </p>
+      </separatedmaterial>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/25
+       </container>
+       <unittitle encodinganalog="245$a">
+        Ang Kami Sherpa, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile and an inventory of items along with a
+                        black and white photocopy of the artist. See AFC 2011/002: PH215 and AFC
+                        2011/002: PH216.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/26
+       </container>
+       <unittitle encodinganalog="245$a">
+        Gagan Shrestha and Harish Mathema, 2008
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents including
+                        a letter of recommendation. See AFC 2011/002: MV22.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/27
+       </container>
+       <unittitle encodinganalog="245$a">
+        Shisir Shrestha, undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Two-page photocopy of the artist's profile and a list of contents. See AFC
+                        2011/002: MV23 and AFC 2011/002: SR02.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/28
+       </container>
+       <unittitle encodinganalog="245$a">
+        Hari Siwakoti, 1999
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of a
+        <emph render="italic">
+         New York Times
+        </emph>
+        article about
+                        Hari Siwakoti.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/29
+       </container>
+       <unittitle encodinganalog="245$a">
+        Shashi Kala Tiwari, 1982, 1992;
+                        1996-1997
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile including original brochures of various
+                        art galleries highlighting Shashi Kala Tiwari's paintings.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/30
+       </container>
+       <unittitle encodinganalog="245$a">
+        Prajwal Vajracharya, 2004, 2008-2009; undated
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photocopy of the artist's profile including articles, postcards and flyers
+                        about Newar Buddhist tradition and
+        <emph render="italic">
+         Dance
+                        Mandal
+        </emph>
+        .
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries C: Newspaper clippings and promotional
+                     materials
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/31
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nepal, 1995-2010 (1/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clippings from Nepali newspapers, from October 1995-November 2010. The
+                        majority of clippings are written in Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/32
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nepal, 1995-2010 (2/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clippings from Nepali newspapers, from October 1995-November 2010. The
+                        majority of clippings are written in Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/33
+       </container>
+       <unittitle encodinganalog="245$a" id="rai0003">
+        Nepal, 1995-2010 (3/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clippings from Nepali newspapers, from October 1995-November 2010. The
+                        majority of clippings are written in Nepali.
+       </p>
+      </scopecontent>
+      <separatedmaterial>
+       <p>
+        Oversized newspapers separated to
+        <ref actuate="onrequest" show="replace" target="rai0004">
+         Box 6
+        </ref>
+       </p>
+      </separatedmaterial>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/34
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nepal's current events, 1995-2007
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Printouts and newspaper clippings on Nepal and its current events,
+                        1995-2007. In English, except for 3 newspaper clippings in Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/35
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional materials, 1998-1999, 2001, 2004,
+                        2006; 2008-2009 (1/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Originals and photocopies of photographic prints, advertisements, postcards,
+                        brochures, newspaper clippings and related programs to DTON. Materials are
+                        in English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/36
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional materials, 1998, 2003, 2005;
+                        undated (2/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Brochures, magazines, and postcards of Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        2/37
+       </container>
+       <unittitle encodinganalog="245$a">
+        Promotional materials, undated
+                        (3/3)
+       </unittitle>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Brochures and postcards of Nepal including a handwritten postcard to Sherry
+                        Onna Handlin.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 2: Sound recordings
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR01
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Global
+                     Instrumental
+       </emph>
+       , 2010
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound disc (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Audio recording of a collaboration by Shambhujeet Baskota, Niraj Singh,
+                     Sauryjeet and Sandeep Mitra. See Folder 12.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR02
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Samamutu,
+       </emph>
+       undated
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound disc (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       An audio disc of Shisir Shrestha’s band, Samamutu. The recordings feature a
+                     number of traditional Nepali instruments, including the tungna and madal. See
+                     Folder 28.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR03
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Global Echoes: Musical
+                        Harmony in Esraj,
+       </emph>
+       2010
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound disc (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Includes seven musical renditions of Nepali music by Suraj Nepal. The madal and
+                     sarangi, which are traditional Nepali instruments, are not listed as
+                     instruments used in the renditions. See Folder 11.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR04
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Sunkeshari,
+       </emph>
+       2003
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound disc (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Sunkeshari is the tale of a beautiful girl with cascading, golden hair. The
+                     tale is rendered in song and attempts to pay homage to her beauty. The disc has
+                     a number of tracks that is dedicated to the tale. See Folder 11.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR05
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Kathmandu Embrace: Music
+                        from the Himalayan Land of Nepal,
+       </emph>
+       2007
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 sound disc (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       A collection of folk tunes and melodies from the Himalayan Land of Nepal by
+                     Arjun Gurung and Raj Kapoor.
+      </p>
+     </scopecontent>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="Item-ID">
+       AFC 2011/002: SR06-SR07
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="italic">
+        Newar Music,
+       </emph>
+       undated
+      </unittitle>
+      <physdesc encodinganalog="300">
+       2 sound discs (CD) : digital ; 4 3/4
+                        in.
+      </physdesc>
+     </did>
+     <scopecontent encodinganalog="520">
+      <p>
+       Music from the Newar (Nepalese people) of Kathmandu Valley. The music involves
+                     chanting accompanied by a number of different wind and percussion
+                     instruments.
+      </p>
+     </scopecontent>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 3: Graphic images
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Prints
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/38
+       </container>
+       <unittitle encodinganalog="245$a">
+        New York Public Library Archives Project,
+                        2005
+       </unittitle>
+       <physdesc encodinganalog="300">
+        6 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH001-PH005B: Photographs of NYPL collection and its creators.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/39
+       </container>
+       <unittitle encodinganalog="245$a">
+        Sherry Onna Handlin, 1988/1989
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 black-and-white print
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH006: Photograph of Sherry Onna Handlin working with her collection.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/40
+       </container>
+       <unittitle encodinganalog="245$a">
+        Trip to archives in Dharamsala, India,
+                        1994
+       </unittitle>
+       <physdesc encodinganalog="300">
+        8 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH007-PH014: Photographs of Sherry’s trip in India en route to Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/41
+       </container>
+       <unittitle encodinganalog="245$a">
+        DTON performers, 2008, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        3 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH028-PH030: Photographs of the Dance Theater of Nepal performers in New
+                        York City. See Box 5 for slides.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/42
+       </container>
+       <unittitle encodinganalog="245$a">
+        DTON performance at various locations,
+                        1990s-2010
+       </unittitle>
+       <physdesc encodinganalog="300">
+        79 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH031-PH103: Photographs of the Dance Theater of Nepal performers at various
+                        venues, including a few photographs of Sherry with the NYPL collection.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        3/43
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nepal, 1994
+       </unittitle>
+       <physdesc encodinganalog="300">
+        33 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH104-PH136: Photographs of Sherry’s trip to Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        4/44
+       </container>
+       <unittitle encodinganalog="245$a">
+        Nepali community, 1990s-2010
+       </unittitle>
+       <physdesc encodinganalog="300">
+        14 color prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH137-PH150: Photographs of the Nepalese community at various functions in
+                        the United States.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX-FOLDER">
+        4/45
+       </container>
+       <unittitle encodinganalog="245$a">
+        DTON performers, 1997-1999; 2003-2005; 2008,
+                        undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        2 black-and-white prints; 68 color
+                           prints
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH151-PH220: Photographs of the artists and organizers of the Dance Theater
+                        of Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Color slides
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="BOX">
+        5
+       </container>
+       <unittitle encodinganalog="245$a">
+        Performers, 1997-1998, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        13 35mm color slides
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH015-PH027: Performers from the Dance Theater of Nepal in New York
+                        City.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        Mt. Everest, 1998
+       </unittitle>
+       <physdesc encodinganalog="300">
+        5 35mm color slides
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        AFC 2011/002: PH285-PH289: Images of individuals climbing Mt. Everest.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries C: Digital images
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: PH221-PH284
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Dance Mandal in Portland, Oregon,
+                        2009
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 optical disc; 63 digital color
+                           photographs
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Photographs of Sherry Onna Handlin, Prajwal Vajrachara, an administrator at
+                        the Newari Temple, a Newar Buddhist priest, and Charya Nritya (DTON dancer)
+                        at the opening of Newari Temple which is the first Nepali temple in
+                        Portland, Oregon.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <unittitle encodinganalog="245$a">
+        DTON
+       </unittitle>
+       <physdesc>
+        1 thumb drive; 175 digital color
+                        photographs
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        An assortment of digital color photographs documenting the activities and
+                        performers of the Dance Theater of Nepal.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle encodinganalog="245$a">
+      Series 4: Moving images
+     </unittitle>
+    </did>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries A: Videocassettes
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV01
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        World Music Institute presents,
+        <emph render="italic">
+         The Raj Kapoor Ensemble Music and Dance of Nepal
+        </emph>
+        ,
+                        1998
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videocassette (VHS) :
+                        analog
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Raj Kapoor Ensemble Symphony performs at the Space Concert on October 17,
+                        1998. Video by Tanya Reeves.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV02
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Raj Kapoor Ensemble of
+                           Nepal
+        </emph>
+        , Smithsonian, Washington, D.C., 1999
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videocassette (VHS; 60 mins.) :
+                           analog.
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Raj Kapoor and the dance theater perform at the Smithsonian on August 14,
+                        1999.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV03
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Subha Ratri
+        </emph>
+        ,
+                        November 29, 2003
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videocassette (VHS) :
+                        analog.
+       </physdesc>
+      </did>
+      <scopecontent>
+       <p>
+        Recording of the 'Y' Theater-Ed. Alliance New York City, Benefit Concert.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV04
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Raj Kapoor and Dancers... Live from Nepal
+                           present
+        <emph render="italic">
+         , Traditional Folk and Classical Dances of
+                           Nepal
+        </emph>
+        , undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videocassette (VHS) :
+                        analog.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV05
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Dance Mandal presents,
+        <emph render="italic">
+         Charya Nritya: The Tantric Buddhist Dane of Nepal,
+                           Tantrisch-buddhistische Tanze aus Nepal
+        </emph>
+        , undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videocassette (VHS) :
+                        analog.
+       </physdesc>
+      </did>
+     </c03>
+    </c02>
+    <c02 level="subseries">
+     <did>
+      <unittitle encodinganalog="245$a">
+       Subseries B: Optical discs
+      </unittitle>
+     </did>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV06
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Aasakti, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4
+                           in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Recording of a number of music videos which were filmed in the U.S. and
+                        Nepal. The themes are centered around courtship and romance. Shambhujit
+                        Vaskota directed the music for the video.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV07
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        American Nepalese Friendship Society (ANFS)
+                        celebrates Napali New Year 2066
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Recording of Nepal's New Year, 2066 celebrated on April 11, 2009, at the
+                        Dhaka Club, Woodside, New York. Track four was written and sung by Goma
+                        Gurung.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV08
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        11th Presentation of New York Kalamanch to
+                        Library of Congress, 2010
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Recording of the Kalamanch's awards ceremony with intermittent song and
+                        dance, October 8th, 2010 at the Library of Congress, Part 1.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV09
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         DREAM
+        </emph>
+        ,
+                        undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Short film about an ordinary guy on his commute home and his recurring
+                        nightmares. Filmed and edited by Tsewang Dorjee.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV10
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        11th Presentation of New York Kalamanch to
+                        Library of Congress, 2010
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4
+                           in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Recording of the Kalamanch's awards ceremony with intermittent song and
+                        dance, October 8th, 2010 at the Library of Congress, Part 2.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV11
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        America-Nepali Friendship Society, Inc.
+                        Nepali New Year Cultural Program, 2064
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Recording of Nepal's New Year, 2064 in New York, April 07, 2007 at the Dhaka
+                        Club, Woodside, New York, Part 2. See Folder 15.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV12
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        The Gurung (Tamu) Society, USA: Kancha Chyu
+                        Lhochhar year of The Mouse, December 29, 2007, New York. Video by Moktan
+                        Digital
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See Folder 17.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV13
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        An Indreni audio music presents,
+        <emph render="italic">
+         aming Selo remix
+        </emph>
+        , undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV14
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Gurung (Tamu) Society Inc. USA presents,
+        <emph render="italic">
+         Khi-Lhochhar (Year of The Dog)
+        </emph>
+        , undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        See on Folder 17.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV15
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Tsewang music video, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Music video of a romantic song that has clips of a couple dancing around New
+                        York City. The video was recorded in Nepali. See Folder 14.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV16
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        5th International Folk Festival for Peace,
+                        5th March to 14th March 2010, Kathmandu-Palpa-Pokhara-Surkhet,
+                        Nepal
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The Festival was organized by the Everest Nepal Cultural Group. The
+                        recording includes indoor and outdoor concerts, as well as a parade. See
+                        Folder 18.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV17
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        4th International Folk Festival for Peace
+                        2008 from May 31st to June 07th
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The Festival was organized by the Everest Nepal Cultural Group. Recording
+                        includes multiple concerts, celebrations, and parades in cities such as
+                        Kathmandu, Palpa, Pokhara, Lalitpur, and Trishuli. Participating countries
+                        include Nepal, United States of America, India, Latvia, Costa Rico, Israel,
+                        Sri Lanka. See Folder 18.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV18
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Dharam Bir Lama
+        </emph>
+        ,
+                        undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Performance profile of Dharam Bir Lama that includes a number of his own
+                        personal performances. In Nepali. See Folder 19.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV19
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Ista-Mitra, Rakshita presents,
+        <emph render="italic">
+         Ista Mitra
+        </emph>
+        , undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The first Nepali film produced in America. The film is based on a courtship
+                        and is filmed in New York City and D.C. A number of DTON artists assisted in
+                        its production. In English. See Folder 21.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV20
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Binita Poudyal and Friends present:
+        <emph render="italic">
+         Kathmandu Sanjh
+        </emph>
+        , 2009
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Performance of Nepali folk music and dance at the Shangri La Restaurant in
+                        Queens, New York on March 28, 2009. See Folder 24.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV21
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Charan Pradhan Video Interview: Video and
+                        Interview of Charan Pradhan, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Sherry interviews Charan about his work with dance and the city of Nepal. In
+                        English. 1 DVD. See Folder 24.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV22
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Nepali Cultural Program, October 28, 2000,
+                        Virginia
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Instrumentalists include Gagan Shrestha and Nhuchhe Narayan. See Folder
+                        27.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV23
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Tunes of Nepal
+        </emph>
+        ,
+                        1996
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Shisir's group, Samamutu, plays traditional musical performance. It features
+                        instruments such the madal, sarangi, and the tungna. Shisir Shrestha is the
+                        musical director and produced by Sa Ma Mu Tu.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV24
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        GNBC Dashak Saanjh, Nepali Cultural Program,
+                        September 11, 1999, Boston
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The event took place on September 11, 1999 in Boston. It was hosted by the
+                        Greater Boston Nepali community which is part of the Nepali cultural
+                        program. The performance includes traditional song and dance, with some
+                        presentations in Nepali. Shisir Shrestha is the music director. In English
+                        and Nepali. See Folder 28.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV25
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Instruments of Asia and the Pacific,
+                        undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Educational video on different string, wind, and percussion instruments in
+                        Asia and the Pacific. The first section of the video focuses on Nepal.
+                        Shisir Shrestha is the music director. In English. See Folder 28.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV26
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Dance Theater of Nepal, 1996; 1998;
+                        2003
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        The recording contains three DTON performances. The first is a benefit
+                        concert held in 2003 at the 'Y' Theater. The second performance is the final
+                        production of
+        <emph render="italic">
+         Nepal '98
+        </emph>
+        at Symphony Space, and
+                        the third, "Living Traditions" held in 1994 at a small venue called Cobies
+                        Place. Predominantly English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV27
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Dance Theater of Nepal at Princeton
+                        University, November 18, 2000
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Video of DTON performance at Princeton on November 18, 2000.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV28
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        DTON clips, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Compilation of clips from MV26, including dances from the 'Y' Theater
+                        performance and Cobies Place. Predominantly English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV29
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Raj Kapoor and musicians clips,
+                        undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clips of Raj and others performing at Cobies Place for the "Living
+                        Traditions" Expo and Open Center in New York City for the Hamro Taal (Shared
+                        Journeys) Exhibit in 2006. In English and Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV30
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Pratt course: Drawing,
+                           Dancing, Culture with Professor Sherry Onna Handlin.
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Video of Sherry’s Drawing, Dancing, Culture
+                        course she taught at Pratt Institute in New York. Raj is one of the guest
+                        speakers, who provided dance instruction and posed for a live sketch. In
+                        English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV31
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Binita Poudyal and Friends present:
+        <emph render="italic">
+         Kathmandu Sanjh, a performance of Nepali Folk Music and
+                           Dance
+        </emph>
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Binita Poudyal hosts a dance/dinner, at the Shangri-La restaurant in Queens,
+                        2009, in celebration of receiving an award. Multiple dancers and musicians
+                        participate at the event. In English and Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV32
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Raj Kapoor and artists rehearsals
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Clips of Raj teaching students at different locations. Video by Sherry Onna
+                        Handlin. In English and Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV33
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Raj Kapoor and artists rehearsals, 1997-2000,
+                        Nepali (2/2)
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Continuation of MV32.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV34
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Amber Gurung at Columbia University, 1998
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Musical performance at Columbia University in August, 1998. Introductions
+                        are in Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV35
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Dance Mandal presents,
+        <emph render="italic">
+         Charya Nritya: The Tantric Buddhist Dance of Nepal
+        </emph>
+        ,
+                        1995
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Educational video on tantric dances of Nepal, which includes the Manjushri
+                        dance. Begins with a brief history of Nepal and its religious traditions and
+                        stories. It also provides examples of different spiritual dances. In
+                        English.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV36
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        <emph render="italic">
+         Teej Festival 2003,
+                           2005 Satya Narayan Temple Elmhurst, Queens New York
+        </emph>
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Contains clips from the Teej Festival at the Satya Narayan Temple in Queens,
+                        New York, 2003 and 2005. At the festival women fast and feast to the god,
+                        Shiva. In Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="item">
+      <did>
+       <unitid label="ITEM-ID">
+        AFC 2011/002: MV37
+       </unitid>
+       <unittitle encodinganalog="245$a">
+        Interview portraits with Nepalese performing
+                        artists, dancers and teachers, 2003; 2005, undated
+       </unittitle>
+       <physdesc encodinganalog="300">
+        1 videodisc (DVD) : digital ; 4 3/4 in.
+       </physdesc>
+      </did>
+      <scopecontent encodinganalog="520">
+       <p>
+        Video of interviews and performances of different artists. Highlighted
+                        interviewees include Charan Pradhan and Prajwal Vajracharya. The DVD also
+                        includes the entire footage from MV36, on the Teej Festival in Queens, New
+                        York. In English and Nepali.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="file">
+    <did>
+     <container localtype="Box">
+      6
+     </container>
+     <unittitle>
+      <emph render="bold">
+       Oversize materials
+      </emph>
+     </unittitle>
+    </did>
+    <scopecontent encodinganalog="520">
+     <p>
+      Includes original newspapers and posters.
+     </p>
+    </scopecontent>
+    <c02 level="file">
+     <did>
+      <container localtype="BOX-FOLDER">
+       6/46
+      </container>
+      <unittitle encodinganalog="245$a" id="rai0002">
+       Basanti D. Rai, 2010
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Newspaper
+      </physdesc>
+      <didnote encodinganalog="500$a">
+       Separated from
+       <ref actuate="onrequest" show="replace" target="rai0001">
+        Box 2
+       </ref>
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="BOX-FOLDER">
+       6/47
+      </container>
+      <unittitle encodinganalog="245$a" id="rai0004">
+       Originals, 1995-2010
+                     (1/2)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Newspaper
+      </physdesc>
+      <didnote encodinganalog="500$a">
+       Separated from
+       <ref actuate="onrequest" show="replace" target="rai0003">
+        Box 2
+       </ref>
+      </didnote>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="BOX-FOLDER">
+       6/48
+      </container>
+      <unittitle encodinganalog="245$a">
+       Originals, 1995-2010 (1/2)
+      </unittitle>
+      <physdesc encodinganalog="300">
+       Newspaper
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <container localtype="BOX-FOLDER">
+       6/49
+      </container>
+      <unittitle encodinganalog="245$a">
+       <emph render="bold">
+        Oversized Posters (contains item numbers OS01-GR01 – OS01-GR10)
+       </emph>
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR01
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       First Time in America: Nepal Festival
+                     USA-2008
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 18 x 12 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR02
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Dance Theater of Nepal presents
+       <emph render="italic">
+        Seasons Nepali
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 17 x 10 3/4 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR03
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Basanti Rai proudly presents, The Live
+                     Concert
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 18 x 12 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR04
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       The Himalayan Groups presents,
+       <emph render="italic">
+        Moon in the sky: Prem Raja Night
+       </emph>
+       with Nepali musical
+                     superstars
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 17 x 11 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR05
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Himalayan Music Groups presents,
+       <emph render="italic">
+        Aayo Nepali: Himalayan night
+       </emph>
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 11 x 17 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR06
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Yam Baral, Nalina Chitrakar et. al performing at
+                     an event
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 11 x 17 in. color poster.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR07
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Moves imported from Nepal
+      </unittitle>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR08
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Subha Ratri
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 14 1/2 x 9 in. announcement of a benefit
+                        dinner hosted by the Dance Theater of Nepal.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR09
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Subha Ratri
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 18 x 12 in. announcement of a benefit
+                        dinner hosted by the Dance Theater of Nepal.
+      </physdesc>
+     </did>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unitid label="ITEM-ID">
+       AFC 2011/002: OS01-GR10
+      </unitid>
+      <unittitle encodinganalog="245$a">
+       Ram Nagarlcoti
+      </unittitle>
+      <physdesc encodinganalog="300">
+       1 17 x 11 in. color photocopy of Ram
+                        Nagarlcoti, the leading artist, videographer, musician and dancer of Nepali
+                        performance art in America.
+      </physdesc>
+     </did>
+    </c02>
+   </c01>
+  </dsc>
+ </archdesc>
+</ead>

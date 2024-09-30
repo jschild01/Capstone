@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 -->
+<?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+ <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <recordid encodinganalog="856$u" instanceurl="https://hdl.loc.gov/loc.afc/eadafc.af011010" xmlns:mets="http://www.loc.gov/METS/">
+   loc.afc/eadafc.af011010
+  </recordid>
+  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+   <titlestmt>
+    <titleproper encodinganalog="245$a">
+     1983 Neptune Plaza Concert Series
+			 Collection
+    </titleproper>
+    <subtitle encodinganalog="245$b">
+     AFC 1983/009
+    </subtitle>
+    <author encodinganalog="245$c">
+     Prepared by Michelle Forner
+    </author>
+   </titlestmt>
+   <publicationstmt>
+    <publisher encodinganalog="260$b">
+     <ptr actuate="onload" href="https://hdl.loc.gov/loc.standards/ead.lclogo" show="embed">
+     </ptr>
+     American
+			 Folklife Center, Library of Congress
+    </publisher>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </publicationstmt>
+   <seriesstmt>
+    <titleproper>
+     Guides to the Collections in the Archive of Folk
+			 Culture
+    </titleproper>
+   </seriesstmt>
+   <notestmt>
+    <controlnote id="versionNote">
+     <p>
+      Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.
+     </p>
+    </controlnote>
+    <controlnote id="contactNote">
+     <p>
+      Contact information:
+      <ref actuate="onrequest" href="https://hdl.loc.gov/loc.afc/folklife.contact" show="new">
+       http://hdl.loc.gov/loc.afc/folklife.contact
+      </ref>
+     </p>
+    </controlnote>
+    <controlnote id="lccnNote">
+     <p>
+      Catalog Record:
+      <ref actuate="onrequest" href="https://lccn.loc.gov/2004695154" show="new">
+       https://lccn.loc.gov/2004695154
+      </ref>
+     </p>
+    </controlnote>
+   </notestmt>
+  </filedesc>
+  <maintenancestatus value="revised" xmlns:mets="http://www.loc.gov/METS/">
+   revised
+  </maintenancestatus>
+  <maintenanceagency countrycode="US" xmlns:mets="http://www.loc.gov/METS/">
+   <agencycode>
+    us-dlc
+   </agencycode>
+   <agencyname>
+    Library of Congress
+   </agencyname>
+  </maintenanceagency>
+  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+   <language encodinganalog="040$b" langcode="eng">
+    English
+   </language>
+   <script scriptcode="Latn">
+    Latin
+   </script>
+  </languagedeclaration>
+  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+   <maintenanceevent>
+    <eventtype value="revised">
+    </eventtype>
+    <eventdatetime standarddatetime="2020-01">
+     2020-01
+    </eventdatetime>
+    <agenttype value="machine">
+    </agenttype>
+    <agent>
+     ead3_converter_mfer.xsl
+    </agent>
+    <eventdescription>
+     Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.
+    </eventdescription>
+   </maintenanceevent>
+   <maintenanceevent>
+    <eventtype value="created">
+    </eventtype>
+    <eventdatetime standarddatetime="2011-05">
+     May 2011
+    </eventdatetime>
+    <agenttype value="human">
+    </agenttype>
+    <agent>
+     Library of Congress, Washington, D.C.
+    </agent>
+    <eventdescription>
+     Encoded by Nora Yeh
+    </eventdescription>
+   </maintenanceevent>
+  </maintenancehistory>
+ </control>
+ <archdesc level="collection" localtype="register" relatedencoding="MARC21" xmlns:mets="http://www.loc.gov/METS/">
+  <did>
+   <head>
+    Collection Summary
+   </head>
+   <unitid countrycode="US" encodinganalog="090" label="Collection Number" repositorycode="US-DLC">
+    AFC 1983/009
+   </unitid>
+   <unittitle encodinganalog="245$a" label="Title">
+    1983 Neptune Plaza
+		  Concert Series Collection
+    <date altrender="Inclusive Dates" localtype="inclusive" normal="1982/1982">
+     1983
+    </date>
+   </unittitle>
+   <unitdate calendar="gregorian" encodinganalog="245$f" era="ce" label="Inclusive Dates" normal="1982/1982" unitdatetype="inclusive">
+    1983
+   </unitdate>
+   <repository encodinganalog="852" label="Location">
+    <corpname>
+     <part>
+      Archive of Folk Culture, American Folklife
+			 Center,  Library of Congress
+     </part>
+    </corpname>
+    <address>
+     <addressline>
+      Washington, D.C.
+     </addressline>
+    </address>
+   </repository>
+   <physdesc encodinganalog="300" label="Extent (Manuscripts)">
+    9
+		  folders
+   </physdesc>
+   <physdesc label="Extent (Sound Recordings)">
+    13 sound tape reels :
+		  analog, 7 1/2 ips, double track, mono. ; 10 in.
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    233 photographs : black
+		  and white, negatives
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    130 slides :
+		  color
+   </physdesc>
+   <physdesc label="Extent (Graphic Images)">
+    20 photographic prints
+		  : black and white, color; various sizes
+   </physdesc>
+   <origination label="Creator">
+    <corpname source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+   </origination>
+   <langmaterial encodinganalog="546" label="Languages">
+    <language encodinganalog="041">
+     Armenian
+    </language>
+    <language encodinganalog="041" langcode="eng">
+     English
+    </language>
+    <language encodinganalog="041">
+     Mon-Khmer
+    </language>
+    <language encodinganalog="041">
+     and Spanish
+    </language>
+    <descriptivenote>
+     <p>
+      Armenian, English, Mon-Khmer,
+		  and Spanish
+     </p>
+    </descriptivenote>
+   </langmaterial>
+   <abstract encodinganalog="520$a" label="Summary">
+    The collection consists
+		  of manuscript materials, sound recordings, and photographs documenting the
+		  performance of blues music, Cambodian classical dance, bluegrass music,
+		  country-western music, Armenian music, cowboy songs, Piedmont country blues
+		  music and buck (step) dance, and country blues music recorded live outdoors on
+		  Neptune Plaza in front of the Library of Congress.
+   </abstract>
+  </did>
+  <scopecontent encodinganalog="520">
+   <head>
+    Scope and Content
+   </head>
+   <p>
+    The 1983 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, audio recordings, and graphic materials that
+		  document the 1983 concert series sponsored by the American Folklife Center. The
+		  annual series, which began in 1977, features the presentation of folk
+		  traditions from many cultures. The concerts take place on the Neptune Plaza at
+		  the front of the Jefferson Building of the Library of Congress between May and
+		  September. Adverse weather conditions sometimes force the concerts indoors. The
+		  1983 series was produced with the assistance of the National Council for the
+		  Traditional Arts.
+   </p>
+   <p>
+    The 1983 season consisted of the following:
+   </p>
+   <table>
+    <tgroup align="left" cols="4">
+     <colspec colname="1" colnum="1" colwidth="15*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="30*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="25*">
+     </colspec>
+     <colspec colname="4" colnum="4" colwidth="30*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Date
+       </entry>
+       <entry morerows="0">
+        Performers
+       </entry>
+       <entry morerows="0">
+        Place of Origin
+       </entry>
+       <entry morerows="0">
+        Subject
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        April 21
+       </entry>
+       <entry morerows="0">
+        John Jackson and James Jackson
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Blues music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 13
+       </entry>
+       <entry morerows="0">
+        Khmer Classical Ballet
+       </entry>
+       <entry morerows="0">
+        Maryland
+       </entry>
+       <entry morerows="0">
+        Cambodian music and dance
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        May 19
+       </entry>
+       <entry morerows="0">
+        Grass Reflections
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Bluegrass music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 3
+       </entry>
+       <entry morerows="0">
+        The Deseret String Band
+       </entry>
+       <entry morerows="0">
+        Utah
+       </entry>
+       <entry morerows="0">
+        Western music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        June 16
+       </entry>
+       <entry morerows="0">
+        Leo Sarkisian
+       </entry>
+       <entry morerows="0">
+        District of Columbia
+       </entry>
+       <entry morerows="0">
+        Armenian music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        July 21
+       </entry>
+       <entry morerows="0">
+        Glenn Ohrlin
+       </entry>
+       <entry morerows="0">
+        Arkansas
+       </entry>
+       <entry morerows="0">
+        Cowboy music
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        August 18
+       </entry>
+       <entry morerows="0">
+        "Fris" Holloway and John Dee Holeman
+       </entry>
+       <entry morerows="0">
+        North Carolina
+       </entry>
+       <entry morerows="0">
+        Country blues music and buck dancing
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        September 15
+       </entry>
+       <entry morerows="0">
+        Country Edd Michael and his group
+       </entry>
+       <entry morerows="0">
+        Virginia
+       </entry>
+       <entry morerows="0">
+        Country blues fiddle music
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </scopecontent>
+  <bioghist encodinganalog="545">
+   <head>
+    Administrative History
+   </head>
+   <p>
+    Documentation created and accessioned by the American Folklife Center
+		  in 1983.
+   </p>
+  </bioghist>
+  <controlaccess altrender=":::F005=^20201116162341.0^">
+   <head>
+    Selected Search Terms
+   </head>
+   <p>
+    The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.
+   </p>
+   <controlaccess>
+    <head>
+     People
+    </head>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Holeman, John Dee
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Holloway, Quentin
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jackson, James, 1961-
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Jackson, John, 1924-2002
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Michael, Edd
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Ohrlin, Glenn, 1926-2015
+     </part>
+    </persname>
+    <persname encodinganalog="700" source="lcnaf">
+     <part>
+      Sarkisian, Leo, 1921-
+     </part>
+    </persname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Organizations
+    </head>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      American Folklife Center
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Archive of Folk Culture (Library of Congress)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Deseret String Band
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Grass Reflections (Musical group)
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      Khmer Classical Dance Troupe
+     </part>
+    </corpname>
+    <corpname encodinganalog="710" source="lcnaf">
+     <part>
+      National Council for the Traditional Arts
+     </part>
+    </corpname>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Subjects
+    </head>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--North Carolina--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      African Americans--Virginia--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Armenian Americans--Washington, D.C.--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Bluegrass music--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Blues (Music)--1981-1990.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cambodian Americans--Maryland--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Country music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Cowboys--West (U.S.)--Songs and music
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--Cambodia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance music--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--Cambodia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Dance--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Fiddle tunes.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--Armenia.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Folk music--United States.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Frontier and pioneer life--United States--Music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Hand-clapping music--North Carolina.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      Old-time music.
+     </part>
+    </subject>
+    <subject encodinganalog="650" source="lcsh">
+     <part>
+      String band music--Utah.
+     </part>
+    </subject>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Titles
+    </head>
+    <title encodinganalog="246" source="lcnaf">
+     <part>
+      American Folklife Center concert, 1983
+     </part>
+    </title>
+   </controlaccess>
+   <controlaccess>
+    <head>
+     Form/Genre
+    </head>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Color slides.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Concerts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Manuscripts.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="aat">
+     <part>
+      Photographic prints.
+     </part>
+    </genreform>
+    <genreform encodinganalog="655" source="lcgft">
+     <part>
+      Sound recordings.
+     </part>
+    </genreform>
+   </controlaccess>
+  </controlaccess>
+  <accessrestrict encodinganalog="506">
+   <head>
+    Access
+   </head>
+   <p>
+    Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.
+   </p>
+  </accessrestrict>
+  <prefercite encodinganalog="524">
+   <head>
+    Preferred Citation
+   </head>
+   <p>
+    1983 Neptune Plaza Concert Series Collection (AFC 1983/009), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.
+   </p>
+  </prefercite>
+  <odd localtype="add">
+   <head>
+    Collection Concordance by Format
+   </head>
+   <table>
+    <tgroup align="left" cols="3">
+     <colspec colname="1" colnum="1" colwidth="20*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="40*">
+     </colspec>
+     <colspec colname="3" colnum="3" colwidth="40*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Quantity
+       </entry>
+       <entry morerows="0">
+        Physical Extent
+       </entry>
+       <entry morerows="0">
+        Item Numbers
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Manuscript
+					 Materials
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        2
+       </entry>
+       <entry morerows="0">
+        boxes
+       </entry>
+       <entry morerows="0">
+        FOLDERS 1, 2, 4, 7, 9, 11, 13, 15, 17
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Sound Recordings
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        13
+       </entry>
+       <entry morerows="0">
+        10" DT mono reels at 7.5 ips
+       </entry>
+       <entry morerows="0">
+        RWA 5526-5527
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 5725
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 5729
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 5869
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 5875-5876
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 6290-6291
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 6445-6446
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+        RWA 6448-6449
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        <emph render="bold">
+         Graphic Images
+        </emph>
+       </entry>
+       <entry morerows="0">
+       </entry>
+       <entry morerows="0">
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        233
+       </entry>
+       <entry morerows="0">
+        black-and-white negatives
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 1, 3, 6, 8, 9, 14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        8
+       </entry>
+       <entry morerows="0">
+        black-and-white contact sheets
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3-6, 8, 10, 12, 16, 17
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        6
+       </entry>
+       <entry morerows="0">
+        8x10 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3-6, 10, 12, 14
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        1
+       </entry>
+       <entry morerows="0">
+        5x7 black-and-white photographic
+					 prints
+       </entry>
+       <entry morerows="0">
+        FOLDER 8
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        14
+       </entry>
+       <entry morerows="0">
+        3x5 color photographic prints
+       </entry>
+       <entry morerows="0">
+        FOLDERS 3-6, 18
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        130
+       </entry>
+       <entry morerows="0">
+        color slides
+       </entry>
+       <entry morerows="0">
+        ENVELOPES 2, 4-5, 7, 10-11, 12-13
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+  <dsc dsctype="combined">
+   <head>
+    Collection Inventory
+   </head>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series I: MANUSCRIPTS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Publicity and
+				  Administration
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        1
+       </container>
+       <unittitle>
+        Archive of Folk Culture Administrative
+					 Materials.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        The collection guide (this document) and an article about the
+					 concert series.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        2
+       </container>
+       <unittitle>
+        John Jackson and James Jackson, 4-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Identification of people in photographs and biographical
+					 sketch.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        4
+       </container>
+       <unittitle>
+        Khmer Classical Dance, 5-13-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two documents listing photo credits.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        7
+       </container>
+       <unittitle>
+        Grass Reflections, 5-19-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases and identification of people in
+					 photographs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        9
+       </container>
+       <unittitle>
+        Deseret String Band, 6-3-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases, band biography, and brochure on the band.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        11
+       </container>
+       <unittitle>
+        Leo Sarkisian, 6-16-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Identification of band members by instrument (including
+					 dancer).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        13
+       </container>
+       <unittitle>
+        Glenn Ohrlin, 7-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases and biographical sketch.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        15
+       </container>
+       <unittitle>
+        "Fris" Holloway and John Dee Holeman,
+					 8-18-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Press releases and biographical sketch.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        17
+       </container>
+       <unittitle>
+        Country Edd Michael and his group,
+					 9-15-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One press release and biographical sketch.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series II: SOUND RECORDINGS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Reel-to-reel Audio
+				  Tapes
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        5526-5527
+       </container>
+       <unittitle>
+        John Jackson and James Jackson, 4-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        5725
+       </container>
+       <unittitle>
+        Khmer Classical Dance, 5-13-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        5729
+       </container>
+       <unittitle>
+        Grass Reflections, 5-19-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        5869
+       </container>
+       <unittitle>
+        Deseret String Band, 6-3-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 10" inch DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        5875-5876
+       </container>
+       <unittitle>
+        Leo Sarkisian, 6-16-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        6290-6291
+       </container>
+       <unittitle>
+        Glenn Ohrlin, 7-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        6445-6446
+       </container>
+       <unittitle>
+        "Fris" Holloway and John Dee Holeman,
+					 8-18-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="rwa">
+        6448-6449
+       </container>
+       <unittitle>
+        Country Edd Michael and his group,
+					 9-15-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two 10" DT mono at 7.5 ips.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+   <c01 level="series">
+    <did>
+     <unittitle>
+      Series III: GRAPHIC MATERIALS
+     </unittitle>
+    </did>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Negatives
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        1
+       </container>
+       <unittitle>
+        John Jackson and James Jackson, 4-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black and white 35 mm (74 images).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        3
+       </container>
+       <unittitle>
+        Khmer Classical Dance, 5-13-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (29 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        6
+       </container>
+       <unittitle>
+        Grass Reflections, 5-19-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (28 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        8
+       </container>
+       <unittitle>
+        Deseret String Band, 6-3-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (17 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        9
+       </container>
+       <unittitle>
+        Leo Sarkisian, 6-16-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One sheet of black and white 35 mm (36 images). Photographed
+					 by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        14
+       </container>
+       <unittitle>
+        "Fris" Holloway and John Dee Holeman,
+					 8-18-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two sheets of black and white 35mm (49 images). Photographer
+					 unknown.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Photographic
+				  Prints
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        3
+       </container>
+       <unittitle>
+        John Jackson and James Jackson, 4-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black and white 35 mm contact sheets (74 images).
+					 Photographed by Victoria Westover.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folders">
+        3-6
+       </container>
+       <unittitle>
+        Khmer Classical Dance, 5-13-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (29 images,
+					 photographed by John T. Gibbs), 13 3 x 5 color photoprints (seven photographed
+					 by Mr. Jasuinas, six by an unknown photographer, possibly Mr. Jasuinas), and
+					 three 8 x 10 black and white photoprints (two photographed by Beverly Orr, one
+					 photographed by John T. Gibbs.)
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        8
+       </container>
+       <unittitle>
+        Grass Reflections, 5-19-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Grass Reflections, 5-19-83. One black and white 35 mm contact
+					 sheet (28 images, photographed by John T. Gibbs) and one 5 x 7 black and white
+					 photoprint (photographer unknown).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        10
+       </container>
+       <unittitle>
+        Deseret String Band, 6-3-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (17 images,
+					 photographed by John T. Gibbs) and one 8 x 10 black and white photoprint
+					 (photographed by Carol Edison).
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        12
+       </container>
+       <unittitle>
+        Leo Sarkisian, 6-16-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One black and white 35 mm contact sheet (36 images) and one 8
+					 x 10 black and white photoprint. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        14
+       </container>
+       <unittitle>
+        Glenn Ohrlin, 7-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 8 x 10 black and white photoprint. Photographer
+					 unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        16
+       </container>
+       <unittitle>
+        "Fris" Holloway and John Dee Holeman,
+					 8-18-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two black and white contact sheets (49 images). Photographer
+					 unknown.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="folder">
+        18
+       </container>
+       <unittitle>
+        Country Edd Michael and his group, 9-15-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One 3 x 5 color photoprint. Photographer unknown.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+    <c02 level="file">
+     <did>
+      <unittitle>
+       <emph render="bold">
+        Color Slides
+       </emph>
+      </unittitle>
+     </did>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        2
+       </container>
+       <unittitle>
+        John Jackson and James Jackson, 4-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One tray containing 16. Photographed by Victoria Westover.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        4-5
+       </container>
+       <unittitle>
+        Khmer Classical Dance, 5-13-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two trays containing a total of 35. Photographed by John T.
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelope">
+        7
+       </container>
+       <unittitle>
+        Grass Reflections, 5-19-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        One tray containing 19. Photographed by John T. Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        10-11
+       </container>
+       <unittitle>
+        Leo Sarkisian, 6-16-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two trays containing a total of 28. Photographed by John T.
+					 Gibbs.
+       </p>
+      </scopecontent>
+     </c03>
+     <c03 level="file">
+      <did>
+       <container localtype="envelopes">
+        12-13
+       </container>
+       <unittitle>
+        Glenn Ohrlin, 7-21-83.
+       </unittitle>
+      </did>
+      <scopecontent>
+       <p>
+        Two trays containing a total of 32. Photographer unknown.
+       </p>
+      </scopecontent>
+     </c03>
+    </c02>
+   </c01>
+  </dsc>
+  <odd localtype="add">
+   <head althead="Dance Content">
+    Appendix A: Dance
+		  Content
+   </head>
+   <table>
+    <tgroup align="left" cols="2">
+     <colspec colname="1" colnum="1" colwidth="30*">
+     </colspec>
+     <colspec colname="2" colnum="2" colwidth="70*">
+     </colspec>
+     <thead valign="bottom">
+      <row>
+       <entry morerows="0">
+        Concert
+       </entry>
+       <entry morerows="0">
+        Description
+       </entry>
+      </row>
+     </thead>
+     <tbody valign="top">
+      <row>
+       <entry morerows="0">
+        Khmer Classical Ballet
+       </entry>
+       <entry morerows="0">
+        The group consists of former members of the
+					 Cambodian Royal Classical Khmer Ballet who became refugees and eventually were
+					 relocated to Wheaton, MD. Performance features four short theater pieces
+					 (without stories). Rich Kennedy of the National Council for the Traditional
+					 Arts narrates the performance. Sound recording notes: folder 4; photographs and
+					 slides: folder 5, envelope 5; sound recording: RWA 5725. See also 9-31-81
+					 concert.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        Leo Sarkisian
+       </entry>
+       <entry morerows="0">
+        Documentation of Armenian folk dance is
+					 minimal. Photographs: folder 12. See also 5-8-80 concert.
+       </entry>
+      </row>
+      <row>
+       <entry morerows="0">
+        "Fris" Holloway and John Dee Holeman
+       </entry>
+       <entry morerows="0">
+        Piedmont Blues musicians and buck dancers.
+					 The men take turns dancing and hand clapping ("patting juba," "hand jiving,"
+					 "hamboning") for each other. Print material: folder 15; photographs: folder 16;
+					 sound recordings: RWA 6445-46.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </odd>
+ </archdesc>
+</ead>
