@@ -1,5 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
+
 class RAGGenerator:
     def __init__(self, model_name='google/flan-t5-base'):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -8,7 +9,7 @@ class RAGGenerator:
     def generate_response(self, query: str, context: str, max_length: int = 150) -> str:
         input_text = f"Question: {query}\nContext: {context}\nAnswer:"
         input_ids = self.tokenizer(input_text, return_tensors='pt', truncation=True, max_length=512).input_ids
-        
+
         outputs = self.model.generate(
             input_ids,
             max_length=max_length,
@@ -16,6 +17,6 @@ class RAGGenerator:
             do_sample=True,
             temperature=0.7,
         )
-        
+
         response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
         return response.strip()
