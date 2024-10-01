@@ -8,6 +8,7 @@ from component.rag_generator_marc_xl import RAGGenerator
 from component.rag_pipeline_marc_xl import RAGPipeline
 from component.metadata_processor import process_metadata
 
+
 def set_seed(seed=42):
     torch.manual_seed(seed)
     if torch.cuda.is_available():
@@ -15,24 +16,31 @@ def set_seed(seed=42):
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
 
+
 def test_rag_system(data_dir: str, query: str):
     try:
         print("Starting metadata processing...")
         metadata = process_metadata(data_dir)
         print("Metadata processing completed.")
-        
+
         print("Initializing RAG Retriever...")
-        text_retriever = RAGRetriever(model_name='hkunlp/instructor-xl', chunk_size=1000, chunk_overlap=200)
-        print("Loading documents...")
-        documents = text_retriever.load_data(data_dir, metadata)
-        if not documents:
-            print("No documents were loaded. Please check your data directory and file names.")
-            return
-        print(f"Loaded {len(documents)} documents.")
-        
-        print("Generating embeddings...")
-        text_retriever.generate_embeddings(documents)
-        print("Embeddings generated.")
+        vectorstore_path = os.path.join(data_dir, 'vectorstore')
+        text_retriever = RAGRetriever(model_name='hkunlp/instructor-xl', chunk_size=1000, chunk_overlap=200,
+                                      vectorstore_path=vectorstore_path)
+
+        if text_retriever.vectorstore is None:
+            print("Loading documents...")
+            documents = text_retriever.load_data(data_dir, metadata)
+            if not documents:
+                print("No documents were loaded. Please check your data directory and file names.")
+                return
+            print(f"Loaded {len(documents)} documents.")
+
+            print("Generating embeddings...")
+            text_retriever.generate_embeddings(documents)
+            print("Embeddings generated and saved.")
+        else:
+            print("Using existing vectorstore.")
 
         print("Initializing RAG Generator...")
         qa_generator = RAGGenerator(model_name='google/flan-t5-base')
@@ -54,7 +62,7 @@ def test_rag_system(data_dir: str, query: str):
 
         print(f"\nMost Relevant Passage Used for Response:")
         print(most_relevant_passage)
-        
+
         most_relevant_metadata = retrieved_docs[0][0].metadata
         print(f"\nMetadata for Most Relevant Passage:")
         for key, value in most_relevant_metadata.items():
@@ -69,17 +77,18 @@ def test_rag_system(data_dir: str, query: str):
         del text_retriever, qa_generator, rag_pipeline
         gc.collect()
         torch.cuda.empty_cache()
-    
+
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         import traceback
         traceback.print_exc()
         print("Please check your data files and directory structure.")
 
+
 if __name__ == "__main__":
     set_seed(42)
 
-    # Update the path to the new data directory
+    # set data directory
     base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(base_path, 'data', 'marc-xl-data')
 
