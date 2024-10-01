@@ -25,8 +25,13 @@ def test_rag_system(data_dir: str, query: str):
 
         print("Initializing RAG Retriever...")
         vectorstore_path = os.path.join(data_dir, 'vectorstore')
-        text_retriever = RAGRetriever(model_name='hkunlp/instructor-xl', chunk_size=1000, chunk_overlap=200,
-                                      vectorstore_path=vectorstore_path)
+        text_retriever = RAGRetriever(
+            model_name='hkunlp/instructor-xl',
+            chunk_size=1000,
+            chunk_overlap=200,
+            vectorstore_path=vectorstore_path,
+            allow_deserialization=True  # Enable deserialization
+        )
 
         if text_retriever.vectorstore is None:
             print("Loading documents...")
@@ -41,6 +46,9 @@ def test_rag_system(data_dir: str, query: str):
             print("Embeddings generated and saved.")
         else:
             print("Using existing vectorstore.")
+
+        # Print sample documents to verify metadata
+        text_retriever.print_sample_documents(num_samples=5)
 
         print("Initializing RAG Generator...")
         qa_generator = RAGGenerator(model_name='google/flan-t5-base')
@@ -88,7 +96,7 @@ def test_rag_system(data_dir: str, query: str):
 if __name__ == "__main__":
     set_seed(42)
 
-    # set data directory
+    # Set data directory
     base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(base_path, 'data', 'marc-xl-data')
 

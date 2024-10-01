@@ -1,5 +1,6 @@
 import os
 import re
+import random  # Added import for random sampling
 from typing import Dict, List, Tuple
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
@@ -9,16 +10,46 @@ from langchain.schema import Document
 
 class RAGRetriever:
     def __init__(self, model_name: str = 'hkunlp/instructor-xl', chunk_size: int = 1000, chunk_overlap: int = 200,
-                 vectorstore_path: str = 'vectorstore'):
+                 vectorstore_path: str = 'vectorstore', allow_deserialization: bool = False):
         self.embeddings = HuggingFaceInstructEmbeddings(model_name=model_name)
         self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
         self.vectorstore_path = vectorstore_path
+        self.allow_deserialization = allow_deserialization
         self.vectorstore = self.load_vectorstore()
+
+    def print_sample_documents(self, num_samples=5):
+        if self.vectorstore is None:
+            print("Vectorstore is not initialized.")
+            return
+
+        print(f"\nPrinting {num_samples} sample documents from the vectorstore:")
+
+        # Get all the documents from the vectorstore
+        all_docs = list(self.vectorstore.docstore._dict.values())
+
+        # Randomly sample documents if there are more than num_samples
+        sample_docs = random.sample(all_docs, min(num_samples, len(all_docs)))
+
+        for i, doc in enumerate(sample_docs, 1):
+            print(f"\nDocument {i}:")
+            print(f"Content: {doc.page_content[:100]}...")  # Print first 100 characters of content
+            print("Metadata:")
+            for key, value in doc.metadata.items():
+                print(f"  {key}: {value}")
+            print("-" * 50)
 
     def load_vectorstore(self):
         if os.path.exists(self.vectorstore_path):
             print("Loading existing vectorstore...")
-            return FAISS.load_local(self.vectorstore_path, self.embeddings)
+            try:
+                return FAISS.load_local(
+                    self.vectorstore_path,
+                    self.embeddings,
+                    allow_dangerous_deserialization=self.allow_deserialization  # Allow deserialization based on parameter
+                )
+            except ValueError as ve:
+                print(f"Failed to load vectorstore: {ve}")
+                return None
         return None
 
     def load_data(self, data_dir: str, metadata: Dict[str, Dict]) -> List[Document]:
