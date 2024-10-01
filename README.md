@@ -69,7 +69,7 @@
 
             
 
-![Figure 1: System Architecture Diagram](2024_Fall_1.png)
+![Figure 1: System Architecture Diagram](progress report/2024_Fall_1.png)
 *Figure 1: Caption*
 
 ## 2 Dataset:  

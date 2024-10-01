@@ -1,24 +1,30 @@
 Note: Use Markdown Cheat Sheet if you need more functionality
 https://www.markdownguide.org/cheat-sheet/
-### Date: sep 24 2024 
+### Date: Sep 24 2024 
 - Topics of discussion
-    - Item1
-    - Item2
-    - Item3
+    - Concatenating metadata with documents
+    - Repo organization
+    - Data diagram:
 
-![img_2.png](img_2.png)
+![WhatsApp Image 2024-09-24 at 19 53 12_a203f424](https://github.com/user-attachments/assets/7868fbcc-1f64-4a4b-b408-81b515e24889)
+
 
 - Action Items:
+    * [x] Try and create manual questions (around 20-30)
+    * [ ] Add data diagram to final report
+    * [x] Add metadata to vector store
+    * [x] Determine if FIASS can handle passing metadata; if not explore deeplake
+    * [x] Add API code + parser
+    * [x] Continue research; add to introduction, identify additional relevant papers
+    * [ ] fix folder structure; add test files for each component, utils; test script for every component
+    * [x] convert pdfs to text files; combine into csv (two halves due to size)
 
-* [ ] Action Item 1
-* [ ] Action Item 2
-* [ ] Action Item 3
-* [ ] Action Item 4
-* [ ] Action Item 5
+
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
-
+    - Discuss chunking sizes/overlap
+    - What is expected with/in component test files
 
 |checked|unchecked|crossed|
 |---|---|---|
