@@ -1,7 +1,8 @@
 import os
 import csv
 import xml.etree.ElementTree as ET
-from typing import Dict
+from typing import Dict, List
+
 
 def parse_file_list_csv(file_path: str) -> Dict[str, str]:
     filename_to_id = {}
@@ -12,6 +13,7 @@ def parse_file_list_csv(file_path: str) -> Dict[str, str]:
             filename = os.path.basename(source_url)
             filename_to_id[filename] = row['id']
     return filename_to_id
+
 
 def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
     id_to_metadata = {}
@@ -27,7 +29,8 @@ def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
                 'language': row.get('language.0', ''),
                 'locations': [row.get(f'location.{i}', '') for i in range(3) if row.get(f'location.{i}')],
                 'original_format': row.get('original_format.0', ''),
-                'online_formats': [row.get(f'online_format.{i}', '') for i in range(2) if row.get(f'online_format.{i}')],
+                'online_formats': [row.get(f'online_format.{i}', '') for i in range(2) if
+                                   row.get(f'online_format.{i}')],
                 'description': row.get('description', ''),
                 'rights': row.get('rights', ''),
                 'collection': row.get('collection', ''),
@@ -39,18 +42,19 @@ def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
             id_to_metadata[row['id']] = metadata
     return id_to_metadata
 
+
 def parse_ead_xml(file_path: str) -> Dict:
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()
-        
+
         # Define the namespace
         ns = {'ead': 'http://ead3.archivists.org/schema/'}
-        
+
         collection_title = root.find('.//ead:titleproper', ns)
         collection_date = root.find('.//ead:archdesc/ead:did/ead:unitdate', ns)
         collection_abstract = root.find('.//ead:archdesc/ead:did/ead:abstract', ns)
-        
+
         return {
             'collection_title': collection_title.text.strip() if collection_title is not None else "Unknown Title",
             'collection_date': collection_date.text.strip() if collection_date is not None else "Unknown Date",
@@ -64,15 +68,16 @@ def parse_ead_xml(file_path: str) -> Dict:
             'collection_abstract': "No abstract available"
         }
 
+
 def parse_marc_xml(file_path: str) -> Dict:
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()
-        
+
         catalog_title = root.find(".//datafield[@tag='245']/subfield[@code='a']")
         catalog_creator = root.find(".//datafield[@tag='100']/subfield[@code='a']")
         catalog_date = root.find(".//datafield[@tag='260']/subfield[@code='c']")
-        
+
         return {
             'catalog_title': catalog_title.text if catalog_title is not None else "Unknown Title",
             'catalog_creator': catalog_creator.text if catalog_creator is not None else "Unknown Creator",
@@ -85,6 +90,7 @@ def parse_marc_xml(file_path: str) -> Dict:
             'catalog_creator': "Unknown Creator",
             'catalog_date': "Unknown Date"
         }
+
 
 def process_metadata(data_dir: str) -> Dict[str, Dict]:
     file_list_path = os.path.join(data_dir, 'file_list.csv')
@@ -101,4 +107,25 @@ def process_metadata(data_dir: str) -> Dict[str, Dict]:
     filename_to_id = parse_file_list_csv(file_list_path)
     print(f"Parsed {len(filename_to_id)} entries from file_list.csv")
 
-    id_to_metadata = parse
+    id_to_metadata = parse_search_results_csv(search_results_path)
+    print(f"Parsed {len(id_to_metadata)} entries from search_results.csv")
+
+    ead_metadata = parse_ead_xml(ead_path)
+    print(f"Parsed EAD metadata: {ead_metadata}")
+
+    marc_metadata = parse_marc_xml(marc_path)
+    print(f"Parsed MARC metadata: {marc_metadata}")
+
+    filename_to_metadata = {}
+    for filename, doc_id in filename_to_id.items():
+        if doc_id in id_to_metadata:
+            metadata = id_to_metadata[doc_id]
+            metadata.update(ead_metadata)
+            metadata.update(marc_metadata)
+            filename_to_metadata[filename] = metadata
+        else:
+            print(f"Warning: No metadata found for document ID {doc_id} (filename: {filename})")
+
+    print(f"Combined metadata for {len(filename_to_metadata)} files")
+
+    return filename_to_metadata
