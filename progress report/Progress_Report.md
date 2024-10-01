@@ -21,7 +21,7 @@ https://www.markdownguide.org/cheat-sheet/
 
 
 ---
-### Date: sep 24 2024 
+### Date: oct 1 2024 
 - Topics of discussion
     - Discuss chunking sizes/overlap
     - What is expected with/in component test files
@@ -33,11 +33,11 @@ https://www.markdownguide.org/cheat-sheet/
 |&#x2611;|&#x2610;|&#x2612;|
 
 - Action Items:
-* [ ] Action Item 1
-* [ ] Action Item 2
-* [ ] Action Item 3
-* [ ] Action Item 4
-* [ ] Action Item 5
+* [ ] try llama3
+* [ ] 
+* [ ] 
+* [ ] 
+* [ ] 
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
