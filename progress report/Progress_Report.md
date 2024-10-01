@@ -34,8 +34,8 @@ https://www.markdownguide.org/cheat-sheet/
 
 - Action Items:
 * [ ] try llama3
-* [ ] 
-* [ ] 
+* [ ] decouple main py file for test files; run on subsets; demonstrate functionality
+* [ ] how to link csv data to xml...
 * [ ] 
 * [ ] 
 ---
