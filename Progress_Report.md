@@ -14,7 +14,7 @@ https://www.markdownguide.org/cheat-sheet/
     * [ ] Add data diagram to final report
     * [x] Add metadata to vector store
     * [x] Determine if FIASS can handle passing metadata; if not explore deeplake
-    * [ ] Add API code + parser
+    * [x] Add API code + parser
     * [x] Continue research; add to introduction, identify additional relevant papers
     * [ ] fix folder structure; add test files for each component, utils; test script for every component
     * [x] convert pdfs to text files; combine into csv (two halves due to size)
@@ -24,6 +24,7 @@ https://www.markdownguide.org/cheat-sheet/
 ### Date: sep 24 2024 
 - Topics of discussion
     - Discuss chunking sizes/overlap
+    - What is expected with/in component test files
 
 |checked|unchecked|crossed|
 |---|---|---|
