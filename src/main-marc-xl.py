@@ -3,10 +3,10 @@ import sys
 import time
 import torch
 import gc
-from components.rag_retriever_marc_xl import RAGRetriever
-from components.rag_generator_marc_xl import RAGGenerator
-from components.rag_pipeline_marc_xl import RAGPipeline
-from components.metadata_processor import process_metadata
+from component.rag_retriever_marc_xl import RAGRetriever
+from component.rag_generator_marc_xl import RAGGenerator
+from component.rag_pipeline_marc_xl import RAGPipeline
+from component.metadata_processor import process_metadata
 
 def set_seed(seed=42):
     torch.manual_seed(seed)
