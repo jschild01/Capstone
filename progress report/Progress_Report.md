@@ -25,7 +25,6 @@ https://www.markdownguide.org/cheat-sheet/
 - Topics of discussion
     - Discuss chunking sizes/overlap
     - What is expected with/in component test files
-    - Evaluation
 
 - Action Items:
 * [ ] try llama3
