@@ -6,7 +6,7 @@ from typing import Dict, List
 
 def parse_file_list_csv(file_path: str) -> Dict[str, str]:
     filename_to_id = {}
-    with open(file_path, 'r') as csvfile:
+    with open(file_path, 'r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             source_url = row['source_url']
