@@ -1,10 +1,12 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 
 
 class RAGGenerator:
-    def __init__(self, model_name='google/flan-t5-base'):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+    def __init__(self, model_name, hf_token):
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=hf_token)
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, use_auth_token=hf_token)
+        #self.tokenizer = AutoTokenizer.from_pretrained(model_name) # model_name='google/flan-t5-base'
+        #self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
     def generate_response(self, query: str, context: str, max_length: int = 150) -> str:
         input_text = f"Question: {query}\nContext: {context}\nAnswer:"

@@ -51,7 +51,9 @@ def test_rag_system(data_dir: str, query: str):
         text_retriever.print_sample_documents(num_samples=5)
 
         print("Initializing RAG Generator...")
-        qa_generator = RAGGenerator(model_name='google/flan-t5-base')
+        model_name = 'meta-llama/Meta-Llama-3-8B-Instruct'
+        hf_token = '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' # huggingface key req'd for llama model
+        qa_generator = RAGGenerator(model_name=model_name, hf_token=hf_token)
         rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 
         print(f"Processing query: {query}")
