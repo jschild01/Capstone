@@ -51,7 +51,7 @@ def test_rag_system(data_dir: str, query: str):
         text_retriever.print_sample_documents(num_samples=5)
 
         print("Initializing RAG Generator...")
-        qa_generator = RAGGenerator(model_name='t5') # t5, llama3
+        qa_generator = RAGGenerator(model_name='t5') # enter either 't5' or 'llama3'
         rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 
         print(f"Processing query: {query}")
