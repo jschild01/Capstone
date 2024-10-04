@@ -5,8 +5,9 @@ class RAGGenerator:
     def __init__(self, model_name):
         
         if model_name=='llama3':
-            #model_name = 'meta-llama/Meta-Llama-3-8B-Instruct'
-            model_name = 'meta-llama/Llama-3.2-1B-Instruct' 
+            model_name = 'meta-llama/Llama-3.1-70B-Instruct'
+            #model_name = 'meta-llama/Llama-3.2-3B-Instruct'
+            #model_name = 'meta-llama/Llama-3.2-1B-Instruct' 
             hf_token = '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' # huggingface key req'd for llama model
             self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=hf_token)
             self.model = AutoModelForCausalLM.from_pretrained(model_name, use_auth_token=hf_token)
