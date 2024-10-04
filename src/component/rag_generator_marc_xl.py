@@ -14,7 +14,8 @@ class RAGGenerator:
 
         outputs = self.model.generate(
             input_ids,
-            max_length=max_length,
+            max_new_tokens=100,
+            #max_length=max_length,
             num_return_sequences=1,
             do_sample=True,
             temperature=0.7,
