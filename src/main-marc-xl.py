@@ -50,6 +50,23 @@ def test_rag_system(data_dir: str, query: str):
         # Print sample documents to verify metadata
         text_retriever.print_sample_documents(num_samples=5)
 
+        # Example: Sort documents by date
+        print("\nSorting documents by date:")
+        text_retriever.print_sorted_documents(sort_key='date', reverse=True, limit=5)
+
+        # Example: Filter documents by a specific subject
+        print("\nFiltering documents with subject 'Music':")
+        music_documents = text_retriever.query_metadata(
+            filter_func=lambda x: 'Music' in x.get('subjects', []),
+            limit=5
+        )
+        for i, doc in enumerate(music_documents, 1):
+            print(f"\nDocument {i}:")
+            print(f"  Title: {doc.get('title', 'N/A')}")
+            print(f"  Date: {doc.get('date', 'N/A')}")
+            print(f"  Subjects: {doc.get('subjects', 'N/A')}")
+
+
         print("Initializing RAG Generator...")
         qa_generator = RAGGenerator(model_name='llama3') # enter either 't5' or 'llama3'
         rag_pipeline = RAGPipeline(text_retriever, qa_generator)
