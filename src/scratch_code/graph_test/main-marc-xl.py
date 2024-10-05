@@ -18,7 +18,6 @@ from component.metadata_processor import process_metadata
 # Replace 'localhost', '7687', 'neo4j', and 'password' with your own Neo4j details
 graph = Graph("neo4j+s://767b9d2a.databases.neo4j.io", auth=("neo4j", "JdfbXB1ZSMap1D1L91VmahNhwUAntGAk6PQ8iUXSVU0"))
 
-
 def query_knowledge_graph(entity: str) -> str:
     """
     Queries the Neo4j knowledge graph for entities related to the given entity.
