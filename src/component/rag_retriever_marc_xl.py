@@ -1,7 +1,7 @@
 import os
 import re
 import random  # Added import for random sampling
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Callable, Any
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
@@ -98,3 +98,45 @@ class RAGRetriever:
 
         results = self.vectorstore.similarity_search_with_score(query, k=top_k)
         return results
+
+    def query_metadata(self,
+                       filter_func: Callable[[Dict[str, Any]], bool] = None,
+                       sort_key: Callable[[Dict[str, Any]], Any] = None,
+                       reverse: bool = False,
+                       limit: int = None) -> List[Dict[str, Any]]:
+        if self.vectorstore is None:
+            print("Vectorstore is not initialized.")
+            return []
+
+        # Extract metadata from all documents
+        all_metadata = [doc.metadata for doc in self.vectorstore.docstore._dict.values()]
+
+        # Apply filter if provided
+        if filter_func:
+            all_metadata = [meta for meta in all_metadata if filter_func(meta)]
+
+        # Sort if sort_key is provided
+        if sort_key:
+            all_metadata.sort(key=sort_key, reverse=reverse)
+
+        # Apply limit if provided
+        if limit:
+            all_metadata = all_metadata[:limit]
+
+        return all_metadata
+
+    def print_sorted_documents(self, sort_key: str, reverse: bool = False, limit: int = 10):
+        sorted_metadata = self.query_metadata(
+            sort_key=lambda x: x.get(sort_key, ''),
+            reverse=reverse,
+            limit=limit
+        )
+
+        print(f"\nTop {limit} documents sorted by '{sort_key}' ({'descending' if reverse else 'ascending'}):")
+        for i, meta in enumerate(sorted_metadata, 1):
+            print(f"\nDocument {i}:")
+            print(f"  {sort_key}: {meta.get(sort_key, 'N/A')}")
+            for key, value in meta.items():
+                if key != sort_key:
+                    print(f"  {key}: {value}")
+            print("-" * 50)
