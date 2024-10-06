@@ -92,14 +92,8 @@ def test_rag_system(data_dir: str, query: str, delete_existing: bool = False):
                     for key, value in doc.metadata.items():
                         print(f"  {key}: {value}")
 
-                if most_relevant_passage:
-                    print(f"\nMost Relevant Passage Used for Response:")
-                    print(most_relevant_passage)
-
-                    print(f"\nRAG Response:")
-                    print(response)
-                else:
-                    print("\nNo relevant passages found.")
+                print(f"\nStructured RAG Response:")
+                print(response)
 
                 print(f"\nTotal processing time: {total_time:.2f} seconds")
 
