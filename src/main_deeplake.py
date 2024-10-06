@@ -4,8 +4,8 @@ import time
 import torch
 import gc
 from component.rag_retriever_deeplake import RAGRetriever
-from component.rag_generator_marc_xl import RAGGenerator
-from component.rag_pipeline_marc_xl import RAGPipeline
+from component.rag_generator_deeplake import RAGGenerator
+from component.rag_pipeline_deeplake import RAGPipeline
 from component.metadata_processor import process_metadata
 
 
@@ -102,8 +102,9 @@ def test_rag_system(data_dir: str, query: str, delete_existing: bool = False):
                     print("\nNo relevant passages found.")
 
                 print(f"\nTotal processing time: {total_time:.2f} seconds")
+
             except Exception as e:
-                print(f"Error during RAG pipeline execution: {e}")
+                print(f"An error occurred: {str(e)}")
                 import traceback
                 traceback.print_exc()
 

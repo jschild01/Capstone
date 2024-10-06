@@ -1,7 +1,6 @@
 from typing import List, Tuple
 from langchain.schema import Document
 
-
 class RAGPipeline:
     def __init__(self, text_retriever, qa_generator):
         self.text_retriever = text_retriever

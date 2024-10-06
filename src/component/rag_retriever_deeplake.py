@@ -46,20 +46,25 @@ class RAGRetriever:
     def print_dataset_info(self, vectorstore):
         print("\n--- Dataset Information ---")
         try:
-            sample = vectorstore.peek()
-            print(f"Number of elements: {len(sample)}")
-            if sample:
+            print(f"Number of elements: {len(vectorstore)}")
+            if len(vectorstore) > 0:
                 print("Available metadata fields:")
-                for key in sample[0].keys():
-                    if key != 'embedding':
-                        print(f"  {key}")
+                sample = vectorstore.get(ids=[vectorstore.get_ids()[0]])
+                for key in sample[0].metadata.keys():
+                    print(f"  {key}")
                 print("\nSample metadata values:")
-                for key, value in sample[0].items():
-                    if key != 'embedding':
-                        print(f"  {key}: {value}")
+                for key, value in sample[0].metadata.items():
+                    print(f"  {key}: {value}")
         except Exception as e:
             print(f"Error printing dataset info: {e}")
         print("----------------------------\n")
+
+    def is_empty(self):
+        try:
+            return len(self.vectorstore) == 0
+        except Exception as e:
+            print(f"Error checking if vectorstore is empty: {e}")
+            return True  # Assume empty if there's an error
 
     def load_data(self, data_dir: str, metadata: Dict[str, Dict]) -> List[Document]:
         self.documents = []  # Reset documents
