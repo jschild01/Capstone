@@ -33,21 +33,12 @@ https://www.markdownguide.org/cheat-sheet/
 * [x] Ask Amir for RAG papers
 * [ ] Paul - test query for document metadata ONLY
 
-|checked|unchecked|crossed|
-|---|---|---|
-|&check;|_|&cross;|
-|&#x2611;|&#x2610;|&#x2612;|
 
 
 ---
 ### Date: oct 8 2024 
 - Topics of discussion
     - Mid-point Presentation
-
-| Checkbox Experiments | checked header | crossed header |
-| ---------------------|:--------------:|:--------------:|
-| checkbox             |  &check; Row   |  &cross; row   |
-
 
 - Action Items:
 * [ ] Action Item 1
