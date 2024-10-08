@@ -27,26 +27,18 @@ https://www.markdownguide.org/cheat-sheet/
     - What is expected with/in component test files
 
 - Action Items:
-* [ ] try llama3
+* [x] try llama3
 * [ ] decouple main py file for test files; run on subsets; demonstrate functionality
 * [ ] how to link csv data to xml (Call number - Paul will figure this out)
-* [ ] Ask Amir for RAG papers
+* [x] Ask Amir for RAG papers
 * [ ] Paul - test query for document metadata ONLY
 
-|checked|unchecked|crossed|
-|---|---|---|
-|&check;|_|&cross;|
-|&#x2611;|&#x2610;|&#x2612;|
 
 
 ---
-### Date: sep 24 2024 
+### Date: oct 8 2024 
 - Topics of discussion
-
-| Checkbox Experiments | checked header | crossed header |
-| ---------------------|:--------------:|:--------------:|
-| checkbox             |  &check; Row   |  &cross; row   |
-
+    - Mid-point Presentation
 
 - Action Items:
 * [ ] Action Item 1
