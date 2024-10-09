@@ -41,11 +41,20 @@ https://www.markdownguide.org/cheat-sheet/
     - Mid-point Presentation
 
 - Action Items:
-* [ ] Action Item 1
-* [ ] Action Item 2
-* [ ] Action Item 3
-* [ ] Action Item 4
-* [ ] Action Item 5
+* [ ] make sure chunking is right; check success rates by tok_k (need to integrate all data)
+* [ ] try closed LLM generator + titan embeddings
+* [ ] test scripts
+
+
+
+
+
+
+
+
+
+
+
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
