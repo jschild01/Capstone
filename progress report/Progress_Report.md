@@ -41,7 +41,7 @@ https://www.markdownguide.org/cheat-sheet/
     - Mid-point Presentation
 
 - Action Items:
-* [ ] make sure chunking is right; check success rates by tok_k (need to integrate all data)
+* [ ] make sure chunking is right; check success rates by top_k (need to integrate all data)
 * [ ] try closed LLM generator + titan embeddings
 * [ ] test scripts
 
