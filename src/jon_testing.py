@@ -149,6 +149,7 @@ def parse_ead_xml(file_path: str) -> Dict: # called in process_metadata below
             'collection_date': collection_date.text.strip() if collection_date is not None else "Unknown Date",
             'collection_abstract': collection_abstract.text.strip() if collection_abstract is not None else "No abstract available"
         }
+    
     except Exception as e:
         print(f"Warning: Error parsing EAD XML file at {file_path}: {str(e)}")
         return {
@@ -203,13 +204,14 @@ def process_metadata(data_dir: str) -> Dict[str, Dict]: # called in the main fun
     marc_metadata = parse_marc_xml(marc_path)
     print(f"Parsed MARC metadata: {marc_metadata}")
 
+    # iterate through file_list.csv and get metadata from search_results.csv
     filename_to_metadata = {}
     for filename, doc_id in filename_to_id.items():
         if doc_id in id_to_metadata:
-            metadata = id_to_metadata[doc_id]
-            metadata.update(ead_metadata)
-            metadata.update(marc_metadata)
-            filename_to_metadata[filename] = metadata
+            metadata = id_to_metadata[doc_id] # get the row of data in search_results.csv that contains the id/url from the file_list.csv
+            metadata.update(ead_metadata) # add the ead metadata to the search_results metadata
+            metadata.update(marc_metadata) # add the marc metadata to the search_results metadata
+            filename_to_metadata[filename] = metadata # add filename, corresponding metadata to dict
         else:
             print(f"Warning: No metadata found for document ID {doc_id} (filename: {filename})")
 
@@ -450,7 +452,8 @@ def set_seed(seed=42): # called in main
 def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document]: # called in main
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
-        chunk_overlap=chunk_size // 10,
+        #chunk_overlap=chunk_size // 10, # 10%
+        chunk_overlap = chunk_size * 15 // 100, # 15%
         length_function=len,
     )
 
@@ -481,19 +484,23 @@ def main():
     # Ask if user wants to delete existing data (y to start fresh)
     delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
 
-    # Initialize retriever; NOT SURE what the deeplake_dataset is/does/is from
+    # Initialize RAG components; NOT SURE what the deeplake_dataset is/does/is from
     chunk_size = 100
     dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
     text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor') # use 'instructor' (default) or 'mini'
+    qa_generator = RAGGenerator(model_name='llama3') # use 'llama3' (default) or 't5'
+    rag_pipeline = RAGPipeline(text_retriever, qa_generator)
     
     # process metadata+whisper data
-    metadata = process_metadata(data_dir)
-    documents = text_retriever.load_data(data_dir, metadata)
+    metadata = process_metadata(data_dir) # get all metadata with its corresponding filename, into a dict
+    documents = text_retriever.load_data(data_dir, metadata) # get txt whisper data matched to its related metadata
+
+    # chunk our documents into segments
     chunked_documents = chunk_documents(documents, chunk_size)
     num_chunks = len(chunked_documents)
     print(f"Prepared {num_chunks} in sizes of {chunk_size} per chunk")
 
-    # generate embeddings, depending on delete_existing
+    # generate embeddings, depending on delete_existing, and add to/generate vectorstore (deeplake)
     if delete_existing:
         text_retriever.delete_dataset()
         print("Existing dataset deleted. Generating new embeddings for chunked documents...")
@@ -506,30 +513,19 @@ def main():
     else:
         print("Using existing embeddings.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # Initialize RAG components
-    qa_generator = RAGGenerator(model_name='llama3')
-    rag_pipeline = RAGPipeline(text_retriever, qa_generator)
-
+    # Get user question
     while True:
         query = input("Enter your question (or 'quit' to exit): ")
         if query.lower() == 'quit':
             break
 
         start_time = time.time()
+
+        # feed query to pipeline to search vectorstore for top k (3x) documents
+        # generate prompt and get response
+        # add fields from original metadata for most relevant doc to the response
         retrieved_docs, most_relevant_passage, response = rag_pipeline.run(query)
+
         end_time = time.time()
 
         print("\n--- Results ---")
