@@ -396,7 +396,7 @@ class RAGGenerator:
             raise ValueError("Invalid model name provided. Input either 'llama' or 't5' as model name.")
 
     def generate_response(self, prompt: str, max_length: int = 300) -> str: # called in the RAGpipeline
-        inputs = self.tokenizer(prompt, return_tensors='pt', truncation=True, max_length=512)
+        inputs = self.tokenizer(prompt, return_tensors='pt', truncation=True, max_length=1024) # 512, 1024, 2048
 
         # Set attention mask
         attention_mask = inputs['attention_mask']
@@ -411,7 +411,7 @@ class RAGGenerator:
             max_new_tokens=max_length,
             num_return_sequences=1,
             do_sample=True,
-            temperature=0.7,
+            temperature=0.8,
             pad_token_id=self.tokenizer.pad_token_id,
         )
 
@@ -449,7 +449,57 @@ def set_seed(seed=42): # called in main
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
 
-def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document]: # called in main
+def sentence_splitter(text: str, chunk_size: int, chunk_overlap: int) -> List[str]:
+    sentences = re.split(r'(?<=[.!?]) +', text)  # Split based on sentence-ending punctuation
+    chunks = []
+    current_chunk = []
+
+    for sentence in sentences:
+        current_chunk.append(sentence)
+        if len(' '.join(current_chunk)) >= chunk_size:
+            chunks.append(' '.join(current_chunk))
+            current_chunk = current_chunk[-(chunk_overlap//len(current_chunk)):]  # Apply overlap
+    
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
+
+    return chunks
+
+def chunk_documents(chunk_method: str, documents: List[Document], chunk_size: int) -> List[Document]:
+    chunked_documents = []
+
+    if chunk_method == 'sentence':
+        chunk_overlap = chunk_size * 15 // 100  # 15% overlap for sentence chunking
+        
+        for doc in documents:
+            chunk_size = chunk_size // 30
+            chunks = sentence_splitter(doc.page_content, chunk_size, chunk_overlap)
+            for i, chunk in enumerate(chunks):
+                chunked_doc = Document(
+                    page_content=chunk,
+                    metadata={**doc.metadata, 'chunk_id': i}
+                )
+                chunked_documents.append(chunked_doc)
+
+    else:
+        char_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_size * 15 // 100,  # 15% overlap for character chunking
+            length_function=len,
+        )
+
+        for doc in documents:
+            chunks = char_splitter.split_text(doc.page_content)
+            for i, chunk in enumerate(chunks):
+                chunked_doc = Document(
+                    page_content=chunk,
+                    metadata={**doc.metadata, 'chunk_id': i}
+                )
+                chunked_documents.append(chunked_doc)
+                
+    return chunked_documents
+
+def chunk_documents_old(documents: List[Document], chunk_size: int) -> List[Document]: # called in main
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         #chunk_overlap=chunk_size // 10, # 10%
@@ -485,7 +535,7 @@ def main():
     delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
 
     # Initialize RAG components; NOT SURE what the deeplake_dataset is/does/is from
-    chunk_size = 100
+    chunk_size = 100 # in characters
     dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
     text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor') # use 'instructor' (default) or 'mini'
     qa_generator = RAGGenerator(model_name='llama3') # use 'llama3' (default) or 't5'
@@ -496,7 +546,8 @@ def main():
     documents = text_retriever.load_data(data_dir, metadata) # get txt whisper data matched to its related metadata
 
     # chunk our documents into segments
-    chunked_documents = chunk_documents(documents, chunk_size)
+    chunked_documents = chunk_documents(chunk_method='character', documents=documents, chunk_size=chunk_size)
+    #chunked_documents = chunk_documents_old(documents=documents, chunk_size=chunk_size)
     num_chunks = len(chunked_documents)
     print(f"Prepared {num_chunks} in sizes of {chunk_size} per chunk")
 
