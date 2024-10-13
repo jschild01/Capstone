@@ -93,7 +93,7 @@ def integrate_metadata(response: str, metadata: dict) -> str: # called in RAGpip
 
     return f"{metadata_section}\n{response}"
 
-
+ 
 # metadata processor file -------------------------------------------------------------------
 def parse_file_list_csv(file_path: str) -> Dict[str, str]: # called in process_metadata below
     filename_to_id = {}

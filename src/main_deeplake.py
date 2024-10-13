@@ -57,7 +57,7 @@ def main():
     # Initialize components
     metadata = process_metadata(data_dir)
     dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
-    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='all-MiniLM-L6-v2')
+    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor') # use 'instructor' (default) or 'mini'
 
     if delete_existing:
         text_retriever.delete_dataset()

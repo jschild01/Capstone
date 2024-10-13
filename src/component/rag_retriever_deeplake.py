@@ -2,22 +2,25 @@ import os
 import shutil
 import re
 from typing import Dict, List, Any
-from langchain.vectorstores import DeepLake
+#from langchain.vectorstores import DeepLake
+from langchain_community.vectorstores import DeepLake # last one was depracated
 from langchain.schema import Document
 
+
 try:
-    from langchain_community.embeddings import HuggingFaceEmbeddings
+    from langchain_community.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbeddings
 except ImportError:
     from langchain.embeddings import HuggingFaceEmbeddings
 
 
 class RAGRetriever:
-    def __init__(self, dataset_path: str = './my_deeplake', model_name: str = 'all-MiniLM-L6-v2'):
-        try:
-            self.embeddings = HuggingFaceEmbeddings(model_name=model_name)
-        except TypeError as e:
-            print(f"Error initializing HuggingFaceEmbeddings: {e}")
-            print("Falling back to default sentence-transformers model.")
+    def __init__(self, dataset_path: str = './my_deeplake', model_name: str = 'instructor'):
+        if model_name == 'instructor':
+            self.embeddings = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
+        elif model_name=='mini':
+            self.embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
+        else:
+            print('Model name not recognized. Implementing default HuggingFace Embedding model')
             self.embeddings = HuggingFaceEmbeddings()
 
         self.dataset_path = dataset_path
