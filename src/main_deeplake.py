@@ -29,7 +29,8 @@ def set_seed(seed=42):
 def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document]:
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
-        chunk_overlap=chunk_size // 10,
+        chunk_overlap=chunk_size * 15 // 100,
+        #chunk_overlap=chunk_size // 10,
         length_function=len,
     )
 
