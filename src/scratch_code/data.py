@@ -4,7 +4,7 @@ import os
 import pandas as pd
 from lxml import etree
 from typing import Dict
-
+import csv
 
 class DataRetriever:
     '''
@@ -44,21 +44,21 @@ class DataRetriever:
     def search_eads(self, search_results):
         # Extract and compare records from 'aka' fields
         record1 = search_results['aka.1'].head(1).str.extract(r'/([^/]+)/?$').values[0][0]
-        record2 = search_results['aka.2'].head(2).str.extract(r'/([^/]+)/?$').values[0][0]
+        #record2 = search_results['aka.2'].head(2).str.extract(r'/([^/]+)/?$').values[0][0]
         
         # Check if they are all the same
-        if record1 == record2:
-            record = record1
-            # Remove everything after a period if present
-            if '.' in record:
-                record = record.split('.')[0]
+        #if record1 == record2:
+        record = record1
+        # Remove everything after a period if present
+        if '.' in record:
+            record = record.split('.')[0]
 
-            # Search in EAD and MARC directories
-            ead_record_files = self.search_in_directory(record, self.ead_dir)
-            marc_record_files = self.search_in_directory(record, self.marc_dir)
+        # Search in EAD and MARC directories
+        ead_record_files = self.search_in_directory(record, self.ead_dir)
+        marc_record_files = self.search_in_directory(record, self.marc_dir)
 
-            # record files found
-            return ead_record_files + marc_record_files
+        # record files found
+        return ead_record_files + marc_record_files
 
         return []
 
@@ -80,7 +80,7 @@ class DataRetriever:
 
         return []
 
-    def parse_file_list_csv(file_path: str) -> Dict[str, str]: # called in process_metadata below
+    def parse_file_list_csv(self, file_path: str) -> Dict[str, str]: # called in process_metadata below
         filename_to_id = {}
         with open(file_path, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
@@ -90,9 +90,9 @@ class DataRetriever:
                 filename_to_id[filename] = row['id']
         return filename_to_id
 
-    def parse_search_results_csv(file_path: str) -> Dict[str, Dict]: # called in process_metadata below
+    def parse_search_results_csv(self, file_path: str) -> Dict[str, Dict]: # called in process_metadata below
         id_to_metadata = {}
-        with open(file_path, 'r') as csvfile:
+        with open(file_path, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 metadata = {
@@ -117,7 +117,7 @@ class DataRetriever:
                 id_to_metadata[row['id']] = metadata
         return id_to_metadata
 
-    def parse_ead_xml(file_path: str) -> Dict: # called in process_metadata below
+    def parse_ead_xml(self, file_path: str) -> Dict: # called in process_metadata below
         try:
             tree = ET.parse(file_path)
             root = tree.getroot()
@@ -143,7 +143,7 @@ class DataRetriever:
                 'collection_abstract': "No abstract available"
             }
 
-    def parse_marc_xml(file_path: str) -> Dict: # called in process_metadata below
+    def parse_marc_xml(self, file_path: str) -> Dict: # called in process_metadata below
         try:
             tree = ET.parse(file_path)
             root = tree.getroot()
@@ -166,22 +166,42 @@ class DataRetriever:
             }
 
     def process_metadata_for_all_subfolders(self) -> Dict[str, Dict]:
+        '''
+        no 'item.source_collection' in search_results.csv for the below subfolder (req'd to ID MARC files)
+        - american-folklife-center-web-archive
+        - robert-winslow-gordon-songsters
+        - web-cultures-web-archive
+
+        subfolders with multiple file_list csv files
+        - songs-of-america
+        - traditional-music-and-spoken-word
+        - woody-guthrie-correspondence-from-1940-to-1950
+        '''
         all_metadata = {}
         
         # Walk through the main directory and its subdirectories
         for subdir, dirs, files in os.walk(self.loc_dot_dir):
             # Check if the necessary files are in the current subdirectory
             if 'file_list.csv' in files and 'search_results.csv' in files:
-                # Call process_metadata for the current subdirectory
-                print(f"Processing directory: {subdir}")
-                metadata = process_metadata(subdir)
-                
-                # Combine the results into a single dictionary
-                all_metadata.update(metadata)
+                search_results_path = os.path.join(subdir, 'search_results.csv')
+                try:
+                    df = pd.read_csv(search_results_path)
+                    # Check if 'item.source_collection' is in the columns
+                    if 'item.source_collection' in df.columns:
+                        # Call process_metadata for the current subdirectory
+                        print(f"Processing directory: {subdir}")
+                        metadata = self.process_metadata(subdir)
+
+                        # Combine the results into a single dictionary
+                        all_metadata.update(metadata)
+                    else:
+                        print(f"Skipping {subdir}, 'item.source_collection' not found in search_results.csv.\n")
+                except Exception as e:
+                    print(f"Error processing {subdir}: {e}")
             else:
-                print(f"Skipping {subdir}, required files not found.")
-        
-        print(f"Processed metadata from {len(all_metadata)} files across subfolders")
+                print(f"Skipping {subdir}, required files not found.\n")
+
+        print(f"\nProcessed metadata from {len(all_metadata)} files across subfolders")
         return all_metadata
 
     def process_metadata(self, loc_dot_dir_subdir: str) -> Dict[str, Dict]: # called in the main function
@@ -191,7 +211,10 @@ class DataRetriever:
         # search for ead and marc files based on search_results.csv
         search_results = pd.read_csv(search_results_path)
         ead_files, marc_files = self.process_records(search_results)
-        
+        all_files = ead_files + marc_files
+        print(all_files)
+        print()
+         
         # if not empty, get the filename for ead and marc
         if ead_files:
             ead_filename = ead_files[0]
@@ -207,17 +230,17 @@ class DataRetriever:
         #ead_path = os.path.join(data_dir, 'af012006.xml')
         #marc_path = os.path.join(data_dir, 'af012006_marc.xml')
 
-        filename_to_id = parse_file_list_csv(file_list_path)
-        print(f"Parsed {len(filename_to_id)} entries from file_list.csv")
+        filename_to_id = self.parse_file_list_csv(file_list_path)
+        #print(f"Parsed {len(filename_to_id)} entries from file_list.csv")
 
-        id_to_metadata = parse_search_results_csv(search_results_path)
-        print(f"Parsed {len(id_to_metadata)} entries from search_results.csv")
+        id_to_metadata = self.parse_search_results_csv(search_results_path)
+        #print(f"Parsed {len(id_to_metadata)} entries from search_results.csv")
 
-        ead_metadata = parse_ead_xml(ead_path)
-        print(f"Parsed EAD metadata: {ead_metadata}")
+        ead_metadata = self.parse_ead_xml(ead_path)
+        #print(f"Parsed EAD metadata: {ead_metadata}")
 
-        marc_metadata = parse_marc_xml(marc_path)
-        print(f"Parsed MARC metadata: {marc_metadata}")
+        marc_metadata = self.parse_marc_xml(marc_path)
+        #print(f"Parsed MARC metadata: {marc_metadata}")
 
         # iterate through file_list.csv and get metadata from search_results.csv
         filename_to_metadata = {}
@@ -230,7 +253,7 @@ class DataRetriever:
             else:
                 print(f"Warning: No metadata found for document ID {doc_id} (filename: {filename})")
 
-        print(f"Combined metadata for {len(filename_to_metadata)} files")
+        #print(f"Combined metadata for {len(filename_to_metadata)} files")
 
         return filename_to_metadata
 
@@ -264,6 +287,8 @@ loc_dot_dir = os.path.join(r'C:\Users\schil\OneDrive\Desktop\School\Capstone\LOC
 
 # read in search results csv
 processor = DataRetriever(ead_dir, marc_dir, loc_dot_dir)
+all_metadata = processor.process_metadata_for_all_subfolders()
+
 
 
 
@@ -272,6 +297,6 @@ processor = DataRetriever(ead_dir, marc_dir, loc_dot_dir)
 
 #print(f'ead files: {ead_files}')
 #print(f'marc files: {marc_files}')
-print(f'all files: {all_files}')
+#print(f'all files: {all_files}')
 
 
