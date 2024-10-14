@@ -181,6 +181,8 @@ def parse_marc_xml(file_path: str) -> Dict: # called in process_metadata below
         }
 
 def process_metadata(data_dir: str) -> Dict[str, Dict]: # called in the main function
+    loc_dot_gov_data = r'C:\Users\schil\OneDrive\Desktop\School\Capstone\LOC\loc_dot_gov_data2'
+
     file_list_path = os.path.join(data_dir, 'file_list.csv')
     search_results_path = os.path.join(data_dir, 'search_results.csv')
     ead_path = os.path.join(data_dir, 'af012006.xml')
