@@ -1,10 +1,12 @@
 #%%
 import sys
 import os
+import re
 import pandas as pd
 from lxml import etree
 from typing import Dict
 import csv
+import xml.etree.ElementTree as ET
 
 class DataRetriever:
     '''
@@ -41,6 +43,37 @@ class DataRetriever:
 
         return ead_files, marc_files
 
+    def search_ead_marc(self, search_results):
+        # Extract and process unique 'aka' records
+        aka_records = search_results['aka.1'].dropna().unique()
+        aka_processed_records = []
+        for record in aka_records:
+            extracted_record = re.search(r'/([^/]+)/?$', record)
+            if extracted_record:
+                record = extracted_record.group(1)
+            if '.' in record:
+                record = record.split('.')[0]
+            aka_processed_records.append(record)
+        
+        # Extract and process unique 'item.source_collection' records
+        source_collection_records = search_results['item.source_collection'].dropna().unique()
+        processed_source_collection_records = [re.sub(r'\([^)]*\)', '', record) for record in source_collection_records]
+        
+        # Search in EAD and MARC directories for both 'aka' and 'source_collection' records
+        ead_record_files = []
+        marc_record_files = []
+        
+        for record in aka_processed_records:
+            ead_record_files += self.search_in_directory(record, self.ead_dir)
+            marc_record_files += self.search_in_directory(record, self.marc_dir)
+        
+        for record in processed_source_collection_records:
+            ead_record_files += self.search_in_directory(record, self.ead_dir)
+            marc_record_files += self.search_in_directory(record, self.marc_dir)
+        
+        # Combine all found files from both search criteria
+        return ead_record_files, marc_record_files
+        
     def search_eads(self, search_results):
         # Extract and compare records from 'aka' fields
         record1 = search_results['aka.1'].head(1).str.extract(r'/([^/]+)/?$').values[0][0]
@@ -185,7 +218,7 @@ class DataRetriever:
             if 'file_list.csv' in files and 'search_results.csv' in files:
                 search_results_path = os.path.join(subdir, 'search_results.csv')
                 try:
-                    df = pd.read_csv(search_results_path)
+                    df = pd.read_csv(search_results_path, low_memory=False)
                     # Check if 'item.source_collection' is in the columns
                     if 'item.source_collection' in df.columns:
                         # Call process_metadata for the current subdirectory
@@ -209,38 +242,34 @@ class DataRetriever:
         search_results_path = os.path.join(loc_dot_dir_subdir, 'search_results.csv')
 
         # search for ead and marc files based on search_results.csv
-        search_results = pd.read_csv(search_results_path)
-        ead_files, marc_files = self.process_records(search_results)
+        search_results = pd.read_csv(search_results_path, low_memory=False)
+        #ead_files, marc_files = self.process_records(search_results)
+        ead_files, marc_files = self.search_ead_marc(search_results)
         all_files = ead_files + marc_files
         print(all_files)
-        print()
-         
+        
+
+
+        '''
         # if not empty, get the filename for ead and marc
         if ead_files:
             ead_filename = ead_files[0]
+            ead_path = os.path.join(self.ead_dir, ead_filename) 
+            ead_metadata = self.parse_ead_xml(ead_path)
         else:
-            ead_filename = None
+            ead_metadata = None
+            print('No EAD file found')
+        
         if marc_files:
             marc_filename = marc_files[0]
+            marc_path = os.path.join(self.marc_dir, marc_filename)
+            marc_metadata = self.parse_marc_xml(marc_path)
         else:
-            marc_filename = None
-
-        ead_path = os.path.join(self.ead_dir, ead_filename) if ead_filename else None
-        marc_path = os.path.join(self.marc_dir, marc_filename) if marc_filename else None
-        #ead_path = os.path.join(data_dir, 'af012006.xml')
-        #marc_path = os.path.join(data_dir, 'af012006_marc.xml')
+            marc_metadata = None
+            print('No MARC file found')
 
         filename_to_id = self.parse_file_list_csv(file_list_path)
-        #print(f"Parsed {len(filename_to_id)} entries from file_list.csv")
-
         id_to_metadata = self.parse_search_results_csv(search_results_path)
-        #print(f"Parsed {len(id_to_metadata)} entries from search_results.csv")
-
-        ead_metadata = self.parse_ead_xml(ead_path)
-        #print(f"Parsed EAD metadata: {ead_metadata}")
-
-        marc_metadata = self.parse_marc_xml(marc_path)
-        #print(f"Parsed MARC metadata: {marc_metadata}")
 
         # iterate through file_list.csv and get metadata from search_results.csv
         filename_to_metadata = {}
@@ -254,8 +283,8 @@ class DataRetriever:
                 print(f"Warning: No metadata found for document ID {doc_id} (filename: {filename})")
 
         #print(f"Combined metadata for {len(filename_to_metadata)} files")
-
-        return filename_to_metadata
+        '''
+        return all_files#filename_to_metadata
 
 
     def search_in_directory(self, record, directory):
@@ -269,6 +298,78 @@ class DataRetriever:
                         matched_files.append(file)
         return matched_files
 
+
+
+
+
+
+
+
+# Add directories to sys path
+base_dir = os.path.dirname(os.path.abspath(__file__)) # scratch_code
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # src
+gparent_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) # capstone
+sys.path.append(base_dir)
+sys.path.append(parent_dir)
+sys.path.append(gparent_dir)
+
+# xml directory from capstone/data/xml
+xml_dir = os.path.join(gparent_dir, 'data', 'xml')
+ead_dir = os.path.join(xml_dir, 'ead')
+marc_dir = os.path.join(xml_dir, 'marc')
+marc_test = os.path.join(gparent_dir, 'data', 'marc-xl-data')
+loc_dot_dir = os.path.join(r'C:\Users\schil\OneDrive\Desktop\School\Capstone\LOC\loc_dot_gov_data2')
+
+# read in search results csv
+processor = DataRetriever(ead_dir, marc_dir, loc_dot_dir)
+all_files = processor.process_metadata_for_all_subfolders()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
 
 # Add directories to sys path
 base_dir = os.path.dirname(os.path.abspath(__file__)) # scratch_code
