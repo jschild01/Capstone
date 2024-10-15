@@ -1,4 +1,231 @@
 #%%
+import os
+import re
+import pandas as pd
+import csv
+import sys
+import xml.etree.ElementTree as ET
+'''
+no 'item.source_collection' in search_results.csv for the below subfolder (req'd to ID MARC files)
+- american-folklife-center-web-archive
+- robert-winslow-gordon-songsters
+- web-cultures-web-archive
+
+subfolders with multiple file_list csv files
+- songs-of-america
+- traditional-music-and-spoken-word
+- woody-guthrie-correspondence-from-1940-to-1950
+'''
+
+# Add directories to sys path
+base_dir = os.path.dirname(os.path.abspath(__file__)) # scratch_code
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # src
+gparent_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) # capstone
+sys.path.append(base_dir)
+sys.path.append(parent_dir)
+sys.path.append(gparent_dir)
+
+# xml directory from capstone/data/xml
+xml_dir = os.path.join(gparent_dir, 'data', 'xml')
+ead_dir = os.path.join(xml_dir, 'ead')
+marc_dir = os.path.join(xml_dir, 'marc')
+marc_test = os.path.join(gparent_dir, 'data', 'marc-xl-data')
+loc_dot_dir = os.path.join(r'C:\Users\schil\OneDrive\Desktop\School\Capstone\LOC\loc_dot_gov_data2')
+
+# setup variables
+num_folders = 0
+num_folders_with_files = 0
+num_search_results_no_source_collection = 0
+subfolder_with_files = []
+
+def search_in_directory(record, directory):
+    matched_files = []
+    for file in os.listdir(directory):
+        file_path = os.path.join(directory, file)
+        if os.path.isfile(file_path):
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                file_content = f.read()
+                if record in file or record in file_content:
+                    matched_files.append(file)
+    return matched_files
+
+# Walk through the main directory and its subdirectories
+for subdir, dirs, files in os.walk(loc_dot_dir):
+    num_folders += 1
+    
+    # Check if the required files are in the subdirectory
+    if 'file_list.csv' in files and 'search_results.csv' in files:
+        num_folders_with_files += 1
+
+        # search if search_results contains 'item.source_collection' column
+        df = pd.read_csv(os.path.join(subdir, 'search_results.csv'), low_memory=False)
+        if 'item.source_collection' in df.columns or 'item.source_collection.0' in df.columns:
+            
+            # file paths
+            file_list_path = os.path.join(subdir, 'file_list.csv')
+            search_results_path = os.path.join(subdir, 'search_results.csv')
+
+            # subfolder name
+            subfolder_name = os.path.basename(subdir)
+            subfolder_with_files.append(subfolder_name)
+
+            # read in saerch results csv
+            df = pd.read_csv(search_results_path, low_memory=False)
+
+            # get unique values from 'aka' and 'item.source_collection' columns
+            aka_records = df['aka.0'].dropna().unique()
+
+            # add 'aka.1' column uniques if it exists
+            if 'aka.1' in df.columns:
+                aka_records_1 = df['aka.1'].dropna().unique()
+                aka_records = list(set(aka_records).union(set(aka_records_1)))
+
+
+
+            aka_records_processed = set()
+            for record in aka_records:
+                extracted_record = re.search(r'/([^/]+)/?$', record)
+                if extracted_record:
+                    record = extracted_record.group(1)
+
+                    # Remove everything after the first '.' or '_'
+                    record = record.split('.')[0].split('_')[0]
+                    record2 = record.split('_')[1] if '_' in record else ''
+
+                    # Append the appropriate record
+                    if record.startswith('af'):
+                        aka_records_processed.add(record)
+                    if record2 and record2.startswith('af'):
+                        aka_records_processed.add(record2)
+                else:
+                    record = 'NoExtractedRecord'
+                    aka_records_processed.add(record)
+            
+            # Convert back to a list if needed
+            aka_records_processed = list(aka_records_processed)
+
+            # remove any record less then 4 characters for filtering
+            aka_records_processed = [record for record in aka_records_processed if len(record) >= 4]
+
+            # combine source_collection_records and 'item.source_collection.0' unique values if it exists 
+            if 'item.source_collection' in df.columns:
+                source_collection_records = df['item.source_collection'].dropna().unique()
+                source_collection_records = list(set(source_collection_records))
+            
+            if 'item.source_collection.0' in df.columns:
+                source_collection_records_0 = df['item.source_collection.0'].dropna().unique()
+                source_collection_records = list(set(source_collection_records).union(set(source_collection_records_0)))
+            
+            source_collection_records_processed = [re.sub(r'\([^)]*\)', '', record) for record in source_collection_records]
+
+            # search in EAD and MARC directories for both 'aka' and 'source_collection' records
+            ead_record_files = []
+            marc_record_files = []
+
+            for record in aka_records_processed:
+                ead_record_files += search_in_directory(record, ead_dir)
+                marc_record_files += search_in_directory(record, marc_dir)
+                
+            for record in source_collection_records_processed:
+                ead_record_files += search_in_directory(record, ead_dir)
+                marc_record_files += search_in_directory(record, marc_dir)
+
+            # combine all found files from both search criteria
+            ead_record_files = list(set(ead_record_files))
+            marc_record_files = list(set(marc_record_files))
+            all_files = ead_record_files + marc_record_files
+            all_files = list(set(all_files))
+
+            print(f"Subfolder: {subfolder_name}")
+            print(f"- Num. of Unique 'aka' records: {len(aka_records_processed)}")
+            print(f"    o Unique 'aka' records: {aka_records_processed}")
+            print(f"- Num. of Unique 'item.source_collection' records: {len(source_collection_records_processed)}")
+            print(f"    o Unique 'item.source_collection' records: {source_collection_records_processed}")
+            
+            
+            print(f"- Num. of EAD/MARC files found: {len(all_files)}")
+            for file in all_files:
+                print(f"    o {file}")
+            #print(f"    o EAD files: {len(ead_record_files)}")
+            #print(f"    o MARC files: {len(marc_record_files)}")
+            print()
+
+        else:
+            num_search_results_no_source_collection += 1
+            print(f"Skipping {subdir}, \n- neither 'item.source_collection' or 'item.source_collection' columns not found in search_results.csv.\n")
+
+
+print(f"Total number of subfolders: {num_folders}")
+print(f"Number of subfolders with required files: {num_folders_with_files}")
+print(f"Subfolders with required files: {subfolder_with_files}")
+#print(f"Number of subfolders with no 'item.source_collection' column: {num_search_results_no_source_collection}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
 import sys
 import os
 import re
