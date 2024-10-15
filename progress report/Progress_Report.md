@@ -57,7 +57,7 @@ https://www.markdownguide.org/cheat-sheet/
 * [ ] Two tables for accuracy
     * [ ] One comparing the generated responses for each model, for each of the 13 questions (Llama3.2, T5, Bedrock+Titan)
         * [ ] Include metadata retrieval
-    * [ ] One for accuracy (targed response vs predicted response)
+    * [ ] One for accuracy (target response vs predicted response)
 * [ ] Develop plan for Advanced RAG
 
 
