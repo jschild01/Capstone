@@ -45,35 +45,33 @@ https://www.markdownguide.org/cheat-sheet/
 * [ ] try closed LLM generator + titan embeddings
 * [ ] test scripts
 
-
-
-
-
-
-
-
-
-
-
 ---
-### Date: sep 24 2024 
+### Date: oct 15 2024 
 - Topics of discussion
-
-
-| Selection |        |
-| --------- | ------ |
-| &#x2610;  |
-
-| Selection |        |
-| --------- | ------ |
-| &#x2611; |
+    - test scripts and accuracies of top_k, chunk size
+    - removal of timestamps from docs
+    - generator tokenization max_limits
 
 - Action Items:
-* [ ] Action Item 1
-* [ ] Action Item 2
-* [ ] Action Item 3
-* [ ] Action Item 4
-* [ ] Action Item 5
+* [ ] Add in Bedrock + Titan as options for user
+* [ ] Two tables for accuracy
+    * [ ] One comparing the generated responses for each model, for each of the 13 questions (Llama3.2, T5, Bedrock+Titan)
+        * [ ] Include metadata retrieval
+    * [ ] One for accuracy (targed response vs predicted response)
+* [ ] Develop plan for Advanced RAG
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ### Date: sep 24 2024 
 - Topics of discussion
