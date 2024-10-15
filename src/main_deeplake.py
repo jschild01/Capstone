@@ -30,7 +30,6 @@ def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_size * 15 // 100,
-        #chunk_overlap=chunk_size // 10,
         length_function=len,
     )
 
@@ -52,13 +51,21 @@ def main():
     data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
     chunk_size = 100  # Fixed chunk size of 100
 
+    print(f"Data directory: {data_dir}")
+    print(f"Chunk size: {chunk_size}")
+
     # Ask if user wants to delete existing data
     delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
 
     # Initialize components
     metadata = process_metadata(data_dir)
+    print(f"Number of documents with metadata: {len(metadata)}")
+
     dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
-    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor') # use 'instructor' (default) or 'mini'
+    print(f"Dataset path: {dataset_path}")
+
+    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor')
+    print("RAGRetriever initialized")
 
     if delete_existing:
         text_retriever.delete_dataset()
@@ -66,9 +73,33 @@ def main():
 
     # Load and prepare documents
     documents = text_retriever.load_data(data_dir, metadata)
+    print(f"Number of documents loaded: {len(documents)}")
+
+    if len(documents) == 0:
+        print("No documents loaded. Check the load_data method in RAGRetriever.")
+        return
+
+    print("Sample of loaded documents:")
+    for i, doc in enumerate(documents[:3]):  # Print details of first 3 documents
+        print(f"Document {i+1}:")
+        print(f"Content preview: {doc.page_content[:100]}...")
+        print(f"Metadata: {doc.metadata}")
+        print("---")
+
     chunked_documents = chunk_documents(documents, chunk_size)
     num_chunks = len(chunked_documents)
     print(f"Prepared {num_chunks} chunks with size {chunk_size}")
+
+    if num_chunks == 0:
+        print("No chunks created. Check the chunking process.")
+        return
+
+    print("Sample of chunked documents:")
+    for i, chunk in enumerate(chunked_documents[:3]):  # Print details of first 3 chunks
+        print(f"Chunk {i+1}:")
+        print(f"Content preview: {chunk.page_content[:100]}...")
+        print(f"Metadata: {chunk.metadata}")
+        print("---")
 
     # Generate embeddings if the dataset is empty
     if text_retriever.is_empty():

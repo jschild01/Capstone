@@ -78,28 +78,24 @@ class RAGRetriever:
                 with open(file_path, 'r', encoding='utf-8') as file:
                     content = file.read()
 
-                base_filename = re.sub(r'_(en|nn_en_translation)\.txt$', '.mp3', filename)
-
-                if base_filename in metadata:
-                    doc_metadata = metadata[base_filename]
+                if filename in metadata:
+                    doc_metadata = metadata[filename]
                     doc_metadata['original_filename'] = filename
                     # Ensure all metadata fields are strings and non-empty
                     doc_metadata = {k: str(v) if v is not None and v != '' else 'N/A' for k, v in doc_metadata.items()}
                 else:
-                    print(f"Warning: No metadata found for {filename} (base: {base_filename})")
+                    print(f"Warning: No metadata found for {filename}")
                     continue
 
                 doc = Document(page_content=content, metadata=doc_metadata)
                 self.documents.append(doc)
 
         print(f"Loaded {len(self.documents)} documents with metadata")
-        print("\n--- Sample Document Metadata ---")
         if self.documents:
             sample_doc = self.documents[0]
-            print(f"Metadata fields for document: {sample_doc.metadata.get('original_filename', 'Unknown')}")
+            print(f"\nSample document metadata for file: {sample_doc.metadata.get('original_filename', 'Unknown')}")
             for key, value in sample_doc.metadata.items():
                 print(f"  {key}: {value}")
-        print("--------------------------------\n")
         return self.documents
 
     def generate_embeddings(self, documents: List[Document]):
