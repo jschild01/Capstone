@@ -54,10 +54,10 @@ https://www.markdownguide.org/cheat-sheet/
 
 - Action Items:
 * [ ] Add in Bedrock + Titan as options for user
-* [ ] Two tables for accuracy
-    * [ ] One comparing the generated responses for each model, for each of the 13 questions (Llama3.2, T5, Bedrock+Titan)
+* [ ] Two tables for accuracy on 13 questions for the 46 test docs
+    * [ ] One table comparing the generated responses for each model (Llama3.2, T5, Bedrock+Titan), for each of the questions
         * [ ] Include metadata retrieval
-    * [ ] One for accuracy (target response vs predicted response)
+    * [ ] One table showing accuracy of each model (target response vs predicted response)
 * [ ] Develop plan for Advanced RAG
 
 
