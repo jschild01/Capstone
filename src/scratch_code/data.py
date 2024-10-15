@@ -56,7 +56,6 @@ for subdir, dirs, files in os.walk(loc_dot_dir):
     # Check if the required files are in the subdirectory
     if 'file_list.csv' in files and 'search_results.csv' in files:
         num_folders_with_files += 1
-        num_search_results_no_source_collection += 1
 
         # search if search_results contains 'item.source_collection' column
         df = pd.read_csv(os.path.join(subdir, 'search_results.csv'), low_memory=False)
@@ -74,16 +73,36 @@ for subdir, dirs, files in os.walk(loc_dot_dir):
             df = pd.read_csv(search_results_path, low_memory=False)
 
             # get unique values from 'aka' and 'item.source_collection' columns
-            aka_records = df['aka.1'].dropna().unique()
-            aka_records_processed = []
+            aka_records = df['aka.0'].dropna().unique()
+
+            # add 'aka.1' column uniques if it exists
+            if 'aka.1' in df.columns:
+                aka_records_1 = df['aka.1'].dropna().unique()
+                aka_records = list(set(aka_records).union(set(aka_records_1)))
+
+
+
+            aka_records_processed = set()
             for record in aka_records:
                 extracted_record = re.search(r'/([^/]+)/?$', record)
                 if extracted_record:
                     record = extracted_record.group(1)
-                if '.' in record:
-                    record = record.split('.')[0]
-                aka_records_processed.append(record)
-            aka_records_processed = list(set(aka_records_processed))
+
+                    # Remove everything after the first '.' or '_'
+                    record = record.split('.')[0].split('_')[0]
+                    record2 = record.split('_')[1] if '_' in record else ''
+
+                    # Append the appropriate record
+                    if record.startswith('af'):
+                        aka_records_processed.add(record)
+                    if record2 and record2.startswith('af'):
+                        aka_records_processed.add(record2)
+                else:
+                    record = 'NoExtractedRecord'
+                    aka_records_processed.add(record)
+            
+            # Convert back to a list if needed
+            aka_records_processed = list(aka_records_processed)
 
             # remove any record less then 4 characters for filtering
             aka_records_processed = [record for record in aka_records_processed if len(record) >= 4]
@@ -133,13 +152,13 @@ for subdir, dirs, files in os.walk(loc_dot_dir):
 
         else:
             num_search_results_no_source_collection += 1
-            print(f"Skipping {subdir}, \n- column 'item.source_collection' not found in search_results.csv.\n")
+            print(f"Skipping {subdir}, \n- neither 'item.source_collection' or 'item.source_collection' columns not found in search_results.csv.\n")
 
 
 print(f"Total number of subfolders: {num_folders}")
 print(f"Number of subfolders with required files: {num_folders_with_files}")
 print(f"Subfolders with required files: {subfolder_with_files}")
-print(f"Number of subfolders with no 'item.source_collection' column: {num_search_results_no_source_collection}")
+#print(f"Number of subfolders with no 'item.source_collection' column: {num_search_results_no_source_collection}")
 
 
 
