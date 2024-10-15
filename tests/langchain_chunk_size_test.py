@@ -55,18 +55,25 @@ def evaluate_response(query: str, response: str, retrieved_docs: List[Document])
         'coverage_score': coverage_score
     }
 
-def test_rag_accuracy(rag_pipeline: RAGPipeline, questions: List[Tuple[str, str]], top_k: int) -> Tuple[float, List[Dict]]:
+def test_rag_accuracy(rag_pipeline: RAGPipeline, questions: List[Tuple[str, str]], top_k: int) -> Tuple[float, List[Dict], List[Dict]]:
     correct = 0
     total = len(questions)
     all_metrics = []
+    incorrect_answers = []
     for question, expected_answer in questions:
         retrieved_docs, _, response = rag_pipeline.run(question, top_k=top_k)
         if expected_answer.lower() in response.lower():
             correct += 1
+        else:
+            incorrect_answers.append({
+                'question': question,
+                'expected': expected_answer,
+                'got': response
+            })
         metrics = evaluate_response(question, response, retrieved_docs)
         all_metrics.append(metrics)
     accuracy = correct / total
-    return accuracy, all_metrics
+    return accuracy, all_metrics, incorrect_answers
 
 def test_chunk_sizes(data_dir: str, test_questions: List[Tuple[str, str]], chunk_sizes: List[int], top_k: int = 3):
     results = {}
@@ -108,7 +115,7 @@ def test_chunk_sizes(data_dir: str, test_questions: List[Tuple[str, str]], chunk
 
         # Test accuracy and get evaluation metrics
         start_time = time.time()
-        accuracy, all_metrics = test_rag_accuracy(rag_pipeline, test_questions, top_k)
+        accuracy, all_metrics, incorrect_answers = test_rag_accuracy(rag_pipeline, test_questions, top_k)
         end_time = time.time()
 
         avg_time = (end_time - start_time) / len(test_questions)
@@ -121,7 +128,8 @@ def test_chunk_sizes(data_dir: str, test_questions: List[Tuple[str, str]], chunk
             'accuracy': accuracy,
             'avg_time': avg_time,
             'num_chunks': len(chunked_documents),
-            'evaluation_metrics': avg_evaluation_metrics
+            'evaluation_metrics': avg_evaluation_metrics,
+            'incorrect_answers': incorrect_answers
         }
 
         # Clean up
@@ -212,7 +220,13 @@ def main():
         print("Evaluation metrics:")
         for metric, value in result['evaluation_metrics'].items():
             print(f"  {metric}: {value:.4f}")
-        print("-" * 50)
+        print("\nIncorrect Answers:")
+        for item in result['incorrect_answers']:
+            print(f"Question: {item['question']}")
+            print(f"Expected: {item['expected']}")
+            print(f"Got: {item['got']}")
+            print("-" * 50)
+        print("=" * 50)
 
     plot_results(results)
     print("\nResults plot saved as 'chunk_size_results.png'")
