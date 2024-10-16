@@ -16,7 +16,7 @@ class RAGGenerator:
             raise ValueError("Invalid model name provided. Input either 'llama' or 't5' as model name.")
 
     def generate_response(self, prompt: str, max_length: int = 300) -> str:
-        inputs = self.tokenizer(prompt, return_tensors='pt', truncation=True, max_length=512)
+        inputs = self.tokenizer(prompt, return_tensors='pt', truncation=True, max_length=2000)
 
         # Set attention mask
         attention_mask = inputs['attention_mask']
