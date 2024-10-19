@@ -107,16 +107,20 @@ def retriever_eval():
 
     df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Expected Chunk ID", "Expected Chunk Text", "Retrieved Doc", "Retrieved Chunk", "Expected Answer", "Retrieved Content", "Match"])
 
-    for query, doc_filename, answer in queries_answers:
+    for query, doc_filenames, answer in queries_answers:
+        # in case there are multiple files that contain the answer
+        possible_filenames = [filename.strip() for filename in doc_filenames.split('or')]
+
+        # iterate through docs for comparing to retriever
         for doc in documents:
-            if doc.metadata['original_filename'] == doc_filename:
+            if doc.metadata['original_filename'] in possible_filenames:
                 expected_chunk_id = find_correct_chunk([doc], answer, chunk_size)
                 expected_chunk_text = get_chunk_text(doc, expected_chunk_id, chunk_size)
                 query_result, original_filename, document_content, retrieved_chunk_id = text_retriever.test_document_retrieval(query)
-                match = (original_filename == doc_filename) and (retrieved_chunk_id == expected_chunk_id)
+                match = (original_filename in possible_filenames) and (retrieved_chunk_id == expected_chunk_id)
                 new_row = {
                     "Query": query,
-                    "Expected Doc": doc_filename,
+                    "Expected Doc": doc_filenames,
                     "Expected Chunk ID": expected_chunk_id,
                     "Expected Chunk Text": expected_chunk_text,
                     "Retrieved Doc": original_filename,
