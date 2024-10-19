@@ -72,7 +72,7 @@ def get_chunk_text(document: Document, chunk_id: int, chunk_size: int) -> str:
 def retriever_eval():
     set_seed(42)
     data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
-    chunk_size = 100  # Fixed chunk size of 100
+    chunk_size = 1000  # Fixed chunk size of 100
     delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
 
     metadata = process_metadata(data_dir)
