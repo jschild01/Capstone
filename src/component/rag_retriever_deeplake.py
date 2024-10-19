@@ -229,3 +229,22 @@ class RAGRetriever:
             self.vectorstore = self.create_new_vectorstore()
         else:
             print("No existing dataset found.")
+
+    def test_document_retrieval(self, query, top_k=1):
+        # Perform the search
+        results = self.search_vector_store(query, top_k=top_k)
+        if not results:
+            print("No results found for the query.")
+            return
+        
+        # Assuming the first result is the most relevant
+        best_match = results[0]
+        document_content = best_match.page_content
+        original_filename = best_match.metadata.get('original_filename', 'Unknown')
+
+        #print("\nQuery:", query)
+        #print("Source Document ID:", original_filename)
+        #print("Document Content:", document_content)
+        #print()
+
+        return query, original_filename, document_content
