@@ -106,7 +106,7 @@ def retriever_eval():
     ]
 
     df_results = pd.DataFrame(columns=["Query", "Expected Answer", 
-                                       "Expected Doc", "Retrieved Doc", " Doc Match", 
+                                       "Expected Doc", "Retrieved Doc", "Doc Match", 
                                        "Expected Chunk ID", "Expected Chunk Text", "Retrieved Chunk", "Retrieved Content", "Chunk Match"])
 
     for query, doc_filenames, answer in queries_answers:
@@ -124,11 +124,9 @@ def retriever_eval():
                 new_row = {
                     "Query": query,
                     "Expected Answer": answer,
-
                     "Expected Doc": doc_filenames,
                     "Retrieved Doc": original_filename,
                     "Doc Match": doc_match,
-
                     "Expected Chunk ID": expected_chunk_id,
                     "Expected Chunk Text": expected_chunk_text,
                     "Retrieved Chunk": retrieved_chunk_id,
@@ -136,6 +134,22 @@ def retriever_eval():
                     "Chunk Match": chunk_match
                 }
                 df_results = pd.concat([df_results, pd.DataFrame([new_row])], ignore_index=True)
+
+    # Handling duplicative queries caused by instances where the answer is found in multiple docs
+    scores = []
+    for index, row in df_results.iterrows():
+        score = 0
+        if row['Doc Match'] and row['Chunk Match']:
+            score = 3  # Highest priority for TRUE, TRUE
+        elif row['Doc Match']:
+            score = 2  # Second priority for TRUE, FALSE
+        elif row['Chunk Match']:
+            score = 1  # Third priority for FALSE, TRUE
+        scores.append(score)
+    df_results['Score'] = scores
+
+    # drop the duplicative column but keeping the 'best scoring' one
+    df_results = df_results.sort_values('Score', ascending=False).drop_duplicates(subset=['Query'], keep='first').drop('Score', axis=1)
 
     # Counting and printing the number of TRUE values for Doc Match and Chunk Match
     doc_match_count = df_results['Doc Match'].sum()
