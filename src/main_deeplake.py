@@ -79,33 +79,34 @@ def retriever_eval():
         print("Using existing embeddings.")
 
     queries_answers = [
-        ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt"), # gay
-        ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt"), # fun
-        ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt"), # Barbrae Allen
-        ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt"), # Barbara Allen
-        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt"), # night
-        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt"), # Scarlett town
-        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt"), # A year or two or three at most
-        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt"), # old fiddled mouth organ banjo
-        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt"), # whiskers
-        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt"), # river
-        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt"), # Marry/Mary at all
-        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt"), # We'll/not
-        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt") # Boston
+        ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
+        ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
+        ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
+        ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
+        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
     ]
 
     # Setup empty dataframe
-    df_results = pd.DataFrame(columns=["Query", "Original Filename", "Document Content", "Expected Doc"])
+    df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Retrieved Doc", "Expected Answer", "Retrieved Content", "Match"])
 
     # Iterate over each item, retrieve documents, and add to the DataFrame
     for query_info in queries_answers:
-        query, expected_doc = query_info
+        query, expected_doc, expected_answer = query_info
         query_result, original_filename, document_content = text_retriever.test_document_retrieval(query)
         match = (original_filename == expected_doc)
         new_row = pd.DataFrame({
             "Query": [query_result],
             "Expected Doc": [expected_doc],
             "Retrieved Doc": [original_filename],
+            "Expected Answer": [expected_answer],
             "Retrieved Content": [document_content],
             "Match": [match]
         })
