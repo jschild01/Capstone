@@ -134,7 +134,7 @@ def main():
         print("Using existing embeddings.")
 
     # Initialize RAG components
-    qa_generator = RAGGenerator(model_name='llama3')
+    qa_generator = RAGGenerator(model_name='llama')
     rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 
     while True:
