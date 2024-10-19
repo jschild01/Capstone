@@ -105,7 +105,9 @@ def retriever_eval():
         ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
     ]
 
-    df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Expected Chunk ID", "Expected Chunk Text", "Retrieved Doc", "Retrieved Chunk", "Expected Answer", "Retrieved Content", "Match"])
+    df_results = pd.DataFrame(columns=["Query", "Expected Answer", 
+                                       "Expected Doc", "Retrieved Doc", " Doc Match", 
+                                       "Expected Chunk ID", "Expected Chunk Text", "Retrieved Chunk", "Retrieved Content", "Chunk Match"])
 
     for query, doc_filenames, answer in queries_answers:
         # in case there are multiple files that contain the answer
@@ -117,23 +119,35 @@ def retriever_eval():
                 expected_chunk_id = find_correct_chunk([doc], answer, chunk_size)
                 expected_chunk_text = get_chunk_text(doc, expected_chunk_id, chunk_size)
                 query_result, original_filename, document_content, retrieved_chunk_id = text_retriever.test_document_retrieval(query)
-                match = (original_filename in possible_filenames) and (retrieved_chunk_id == expected_chunk_id)
+                doc_match = original_filename in possible_filenames
+                chunk_match = retrieved_chunk_id == expected_chunk_id
                 new_row = {
                     "Query": query,
+                    "Expected Answer": answer,
+
                     "Expected Doc": doc_filenames,
+                    "Retrieved Doc": original_filename,
+                    "Doc Match": doc_match,
+
                     "Expected Chunk ID": expected_chunk_id,
                     "Expected Chunk Text": expected_chunk_text,
-                    "Retrieved Doc": original_filename,
                     "Retrieved Chunk": retrieved_chunk_id,
-                    "Expected Answer": answer,
                     "Retrieved Content": document_content,
-                    "Match": match
+                    "Chunk Match": chunk_match
                 }
                 df_results = pd.concat([df_results, pd.DataFrame([new_row])], ignore_index=True)
 
+    # Counting and printing the number of TRUE values for Doc Match and Chunk Match
+    doc_match_count = df_results['Doc Match'].sum()
+    chunk_match_count = df_results['Chunk Match'].sum()
+    print(f"\nNumber of True Doc Matches: {doc_match_count}")
+    print(f"Number of True Chunk Matches: {chunk_match_count}")
+
+    # save dataframe csv
     csv_path = os.path.join(src_dir, 'query_results.csv')
     df_results.to_csv(csv_path, index=False)
-    print(f"The DataFrame has been saved to '{csv_path}'.")
+    print(f"\nThe DataFrame has been saved to '{csv_path}'.")
+    print()
 
 
 def retriever_eval_old():
