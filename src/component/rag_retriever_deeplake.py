@@ -241,10 +241,12 @@ class RAGRetriever:
         best_match = results[0]
         document_content = best_match.page_content
         original_filename = best_match.metadata.get('original_filename', 'Unknown')
+        retrieved_chunk_id = best_match.metadata.get('chunk_id', -1)  # Assuming chunk IDs are stored in metadata
+
 
         #print("\nQuery:", query)
         #print("Source Document ID:", original_filename)
         #print("Document Content:", document_content)
         #print()
 
-        return query, original_filename, document_content
+        return query, original_filename, document_content, retrieved_chunk_id

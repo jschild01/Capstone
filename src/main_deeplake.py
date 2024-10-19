@@ -45,7 +45,83 @@ def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document
             chunked_documents.append(chunked_doc)
     return chunked_documents
 
+def find_correct_chunk(documents: List[Document], answer: str, chunk_size: int) -> int:
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_size * 15 // 100,  # Assuming 15% overlap as before
+        length_function=len
+    )
+    for doc in documents:
+        chunks = text_splitter.split_text(doc.page_content)
+        for i, chunk in enumerate(chunks):
+            if answer in chunk:
+                return i
+    return -1  # Return -1 if no chunk contains the answer
+
+def get_chunk_text(document: Document, chunk_id: int, chunk_size: int) -> str:
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_size * 15 // 100,  # Assuming 15% overlap as before
+        length_function=len
+    )
+    chunks = text_splitter.split_text(document.page_content)
+    if chunk_id < len(chunks):
+        return chunks[chunk_id]
+    return "Chunk ID out of range" 
+
 def retriever_eval():
+    set_seed(42)
+    data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
+    chunk_size = 100  # Fixed chunk size of 100
+    delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
+
+    metadata = process_metadata(data_dir)
+    dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
+    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor')
+        
+    if delete_existing:
+        text_retriever.delete_dataset()
+
+    documents = text_retriever.load_data(data_dir, metadata)
+    chunked_documents = chunk_documents(documents, chunk_size)
+
+    if text_retriever.is_empty():
+        print("Generating embeddings for chunked documents...")
+        text_retriever.generate_embeddings(chunked_documents)
+
+    queries_answers = [
+        ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
+        # More queries here...
+    ]
+
+    df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Expected Chunk ID", "Expected Chunk Text", "Retrieved Doc", "Retrieved Chunk", "Expected Answer", "Retrieved Content", "Match"])
+
+    for query, doc_filename, answer in queries_answers:
+        for doc in documents:
+            if doc.metadata['original_filename'] == doc_filename:
+                expected_chunk_id = find_correct_chunk([doc], answer, chunk_size)
+                expected_chunk_text = get_chunk_text(doc, expected_chunk_id, chunk_size)
+                query_result, original_filename, document_content, retrieved_chunk_id = text_retriever.test_document_retrieval(query)
+                match = (original_filename == doc_filename) and (retrieved_chunk_id == expected_chunk_id)
+                new_row = {
+                    "Query": query,
+                    "Expected Doc": doc_filename,
+                    "Expected Chunk ID": expected_chunk_id,
+                    "Expected Chunk Text": expected_chunk_text,
+                    "Retrieved Doc": original_filename,
+                    "Retrieved Chunk": retrieved_chunk_id,
+                    "Expected Answer": answer,
+                    "Retrieved Content": document_content,
+                    "Match": match
+                }
+                df_results = pd.concat([df_results, pd.DataFrame([new_row])], ignore_index=True)
+
+    csv_path = os.path.join(src_dir, 'query_results.csv')
+    df_results.to_csv(csv_path, index=False)
+    print(f"The DataFrame has been saved to '{csv_path}'.")
+
+
+def retriever_eval_old():
     set_seed(42)
     data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
     chunk_size = 100  # Fixed chunk size of 100
@@ -78,6 +154,7 @@ def retriever_eval():
     else:
         print("Using existing embeddings.")
 
+    # Preloaded questions with document containing the correct answer(s)
     queries_answers = [
         ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
         ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
@@ -95,7 +172,9 @@ def retriever_eval():
     ]
 
     # Setup empty dataframe
-    df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Retrieved Doc", "Expected Answer", "Retrieved Content", "Match"])
+    df_results = pd.DataFrame(columns=["Query", "Expected Doc", "Retrieved Doc",
+                                       "Retrieved Chunk", "Expected Answer", "Retrieved Content", "Match"
+                                       ])
 
     # Iterate over each item, retrieve documents, and add to the DataFrame
     for query_info in queries_answers:
