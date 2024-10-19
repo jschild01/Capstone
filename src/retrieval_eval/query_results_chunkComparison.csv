@@ -1,8 +1,15 @@
-Chunk Size,Doc Match Count,Chunk Match Count
-100,8,1
-250,11,7
-500,9,6
-800,7,2
-1000,8,5
-1500,8,6
-2000,8,5
+Chunk Size,Embedding model,Doc Match Count,Chunk Match Count
+100,instructor,8,1
+100,mini,7,1
+250,instructor,11,7
+250,mini,7,4
+500,instructor,9,6
+500,mini,6,6
+800,instructor,7,2
+800,mini,7,4
+1000,instructor,8,5
+1000,mini,7,6
+1500,instructor,8,6
+1500,mini,7,3
+2000,instructor,8,5
+2000,mini,6,6
