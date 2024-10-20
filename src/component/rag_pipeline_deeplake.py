@@ -9,6 +9,17 @@ class RAGPipeline:
         self.text_retriever = text_retriever
         self.qa_generator = qa_generator
 
+    def extract_answer(self, raw_response: str) -> str:
+        answer_prefix = "Answer:"
+        start_index = raw_response.find(answer_prefix)
+        
+        if start_index == -1:
+            return "No answer found in response."
+        
+        # Skip the length of "Answer:" and any potential space after it to start directly at the answer text
+        start_index += len(answer_prefix) + 1
+        return raw_response[start_index:].strip()
+
     def run(self, query: str, top_k: int = 3) -> Tuple[List[Document], str, str]:
         retrieved_docs = self.text_retriever.search_vector_store(query, top_k=top_k)
 

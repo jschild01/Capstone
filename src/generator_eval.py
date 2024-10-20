@@ -136,11 +136,15 @@ def main():
             # apply rag
             retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run(query)
             
+            # extract just the generated response
+            rag_response = rag_pipeline.extract_answer(raw_response)
+
             temp_df = pd.DataFrame([{
                 "Model": model_name,
                 "Query": query,
                 "Expected Docs": file,
                 "Expected Answer": answer,
+                "RAG Sole Response": rag_response,
                 "RAG Raw Response": raw_response,
                 "RAG Validated Response": validated_response,
                 "RAG Structured Response": structured_response,
