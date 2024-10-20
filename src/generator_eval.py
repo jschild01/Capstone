@@ -4,6 +4,7 @@ import time
 import torch
 import gc
 import pandas as pd
+import ast
 from typing import List
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
@@ -78,17 +79,17 @@ def main():
     # test q&q
     queries_answers = [
             ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
-            ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
-            ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
-            ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-            ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-            ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-            ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-            ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-            ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-            ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-            ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-            ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+            #("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
+            #("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
+            #("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
+            #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+            #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+            #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+            #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+            #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+            #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+            #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+            #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
             ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
         ]
 
@@ -133,15 +134,19 @@ def main():
         # iterate through q&a
         for query, file, answer in queries_answers:
             # apply rag
-            retrieved_docs, most_relevant_passage, response = rag_pipeline.run(query)
+            retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run(query)
+            
             temp_df = pd.DataFrame([{
                 "Model": model_name,
                 "Query": query,
                 "Expected Docs": file,
                 "Expected Answer": answer,
-                "RAG Response": response,
+                "RAG Raw Response": raw_response,
+                "RAG Validated Response": validated_response,
+                "RAG Structured Response": structured_response,
+                "RAG Final Response": final_response,
                 "RAG Relevant Passage": most_relevant_passage,
-                "RAG Docs Retrieved": retrieved_docs
+                "RAG Doc Retrieved": retrieved_docs
             }])
             results_list.append(temp_df)
 
@@ -163,7 +168,8 @@ def main():
         torch.cuda.empty_cache()
 
     # save overall comparing dataframe
-    final_df = pd.concat(combined_results, ignore_index=True)  # This line should be added after the for loop
+    final_df = pd.concat(combined_results, ignore_index=True)
+    final_df = final_df.sort_values(by="Query")  # Sort by Query column to put like-queries together
     final_csv_path = os.path.join(eval_dir, 'generator_results_all.csv')
     final_df.to_csv(final_csv_path, index=False)
     print(f"The final combined DataFrame has been saved to '{final_csv_path}'.")    

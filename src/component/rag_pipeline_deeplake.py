@@ -24,4 +24,4 @@ class RAGPipeline:
         structured_response = structure_response(validated_response)
         final_response = integrate_metadata(structured_response, most_relevant_doc.metadata)
 
-        return retrieved_docs, most_relevant_doc.page_content, final_response
+        return retrieved_docs, most_relevant_doc.page_content, raw_response, validated_response, structured_response, final_response
