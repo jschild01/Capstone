@@ -1,0 +1,53 @@
+Model,Query,Expected Answer,RAG Sole Response,Cosine Similarity
+llama,"According to the transcript, what is Captain Pearl R. Nye's favorite ballad?",Barbara Allen,Captain Pearl R. Nye's favorite ballad is Barbara Allen.,0.7384195327758789
+t5,"According to the transcript, what is Captain Pearl R. Nye's favorite ballad?",Barbara Allen,I guess Barbara Allen is my favorite of them all.,0.6458114981651306
+t5,Complete this line from a song: 'We land this war down by the',river,['The devil long he had me fast down by the river.,0.4773799777030945
+llama,Complete this line from a song: 'We land this war down by the',river,"The song seems to be referencing a specific event or location related to a war. The line 'We land this war down by the river' suggests a connection to a river, possibly a symbolic or metaphorical connection. Given the context of a war and the mention of a river, it's possible that the song is referencing a pivotal event or turning point in a war, such as the end of a battle or the surrender of a key location. However, without more specific information about the war being referred to, it's difficult to provide a more precise answer.
+
+Given the information provided in the metadata, it appears that the song was recorded on June 27, 1937, in Akron, Ohio, by John A. Lomax. The song seems to be a revival hymn, and the lyrics mention a river and a devil. The contributor, Pearl R. Nye, is also mentioned, and it's possible that the song is related to his experiences or perspectives on the war.
+
+Based on this information, a possible answer to the question could be:
+
+""We land this war down by the river side.""
+
+However, without more context or information about the specific war being referred to, this answer is speculative, and it's possible that the song is referencing a different event or location.",0.3736749291419983
+llama,Complete this phrase from the gospel train song: 'The gospel train is',night,The gospel train is night.,0.5090405941009521
+t5,Complete this phrase from the gospel train song: 'The gospel train is',night,['Jawbone'],0.47947806119918823
+llama,Complete this sentence: 'Take a trip on the canal if you want to have',fun,Take a trip on the canal if you want to have fun.,0.39786943793296814
+t5,Complete this sentence: 'Take a trip on the canal if you want to have',fun,[00:02:28.000 --> 00:02:31.000],0.23479577898979187
+llama,Complete this sentence: 'The mules are not hungry. They're lively and',gay,The mules are not hungry. They're lively and gay.,0.4292875826358795
+t5,Complete this sentence: 'The mules are not hungry. They're lively and',gay,They're lively and gay.,0.4892776608467102
+llama,"In the 'Dying Cowboy' song, where was the cowboy born?",Boston,"Where was the cowboy born?
+
+The cowboy was born in Scarlett town. 
+
+Note: Scarlett town is mentioned in the Context as the location where the cowboy was born. The other information provided in the Context and Metadata, such as the song title, contributors, and locations, is not relevant to answering this question.",0.3192617893218994
+t5,"In the 'Dying Cowboy' song, where was the cowboy born?",Boston,Scarlett town,0.554715096950531
+llama,"In the song 'Barbara Allen,' where was Barbara Allen from?",Scarlett town,"Where was Barbara Allen from? 
+The song ""Barbara Allen"" was mentioned in the context, but her place of origin is not explicitly stated. However, the metadata states that the song was sung by Captain Pearl R. Nye, who mentioned that Barbara Allen was from ""Scarlett town where I was born"" (Context: [00:02:08.000 --> 00:02:17.000]). Unfortunately, the metadata does not provide further information on the location of Scarlett town. It is also worth noting that the song ""Barbara Allen"" is an English ballad, and Captain Nye mentioned that it was one of his favorite songs, suggesting that Barbara Allen may have been from England. However, without further information, it is impossible to determine her exact place of origin.",0.40018436312675476
+t5,"In the song 'Barbara Allen,' where was Barbara Allen from?",Scarlett town,Scarlett town,1.0
+llama,"In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?",A year or two or three at most,"The song 'Lord Lovele' does not explicitly state how long Lord Lovele was gone before returning. The lyrics only mention that he is expected to return in a year or two or three at most, and that he has been away seeking Henry King George's throne. The exact duration of his absence is not specified.",0.7989742755889893
+t5,"In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?",A year or two or three at most,"a year, two, or three.",0.8397787809371948
+llama,"In the song about pumping out Lake Erie, what will be on the moon when they're done?",whiskers,"The song about pumping out Lake Erie mentions that when they're done, ""you can tell by the sun they'll be whiskers on the moon."" This implies that the action of pumping out Lake Erie will leave something on the moon that can be observed by looking at the sun. However, the provided metadata does not include any information about the moon or the lunar surface. Therefore, it is unclear what exactly will be on the moon when they're done pumping out Lake Erie.",0.3540203273296356
+t5,"In the song about pumping out Lake Erie, what will be on the moon when they're done?",whiskers,whiskers,1.000000238418579
+t5,What does the singer say they won't do in the song 'I Won't Marry At All'?,Marry/Mary at all,Marry,0.8333053588867188
+llama,What does the singer say they won't do in the song 'I Won't Marry At All'?,Marry/Mary at all,The singer says they won't marry at all.,0.5889737606048584
+llama,What does the song say will 'outshine the sun'?,We'll/not,"The song says that we'll ""outshine the sun"". 
+
+However, it is unclear what ""outshine the sun"" means in this context, as the song does not provide a clear explanation. The context suggests that the song is a hymn or spiritual song, and the phrase ""outshine the sun"" may be a metaphorical expression rather than a literal one. The song appears to be saying that it will surpass or excel in some way, but the exact nature of this is not specified. 
+
+Note that the phrase ""outshine the sun"" is repeated in the song, emphasizing its importance, but the meaning of this phrase is left to interpretation. 
+
+The metadata does not provide any additional information that sheds light on the meaning of this phrase. The contributors, recording date, and locations are all provided, but do not offer any insight into the meaning of the phrase. 
+
+In conclusion, while the song says that we'll ""outshine the sun"", the meaning of this phrase is left unclear, and can only be interpreted in the context of the song itself.",0.49058619141578674
+t5,What does the song say will 'outshine the sun'?,We'll/not,Jesus,0.4715084433555603
+llama,What instrument does Captain Nye mention loving?,old fiddled mouth organ banjo,"What instrument does Captain Nye mention loving?
+
+He mentions loving the mouth organ banjo.",0.6979808211326599
+t5,What instrument does Captain Nye mention loving?,old fiddled mouth organ banjo,mouth organ banjo,0.8550854325294495
+t5,What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?,Barbrae Allen,Barbrae Allen,1.0000001192092896
+llama,What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?,Barbrae Allen,"Who is the female character mentioned in the song that begins 'In Scarlett town where I was born'? 
+The female character mentioned in the song is Barbrae Allen. 
+
+Note: Barbrae Allen is mentioned in the line ""Made every youth, I will aware, and a name was Barbrae Allen"" in the song.",0.5735793113708496

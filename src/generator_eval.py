@@ -70,6 +70,44 @@ def get_chunk_text(document: Document, chunk_id: int, chunk_size: int) -> str:
         return chunks[chunk_id]
     return "Chunk ID out of range" 
 
+
+
+
+
+
+
+
+
+
+
+
+
+def get_embeddings(text, qa_generator):
+    # Convert text to tokens and prepare input IDs
+    inputs = qa_generator.tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    # Generate model output
+    with torch.no_grad():
+        outputs = qa_generator.model(**inputs, output_hidden_states=True)
+    # Extract hidden states
+    hidden_states = outputs.hidden_states
+    # Use the last layer's hidden state or apply pooling (e.g., mean pooling)
+    last_layer = hidden_states[-1]
+    embeddings = last_layer.mean(dim=1)  # Mean pooling over the sequence dimension
+    return embeddings.squeeze()
+
+def compute_cosine_similarity(embed1, embed2):
+    # Normalize the embeddings to unit length
+    embed1_norm = embed1 / embed1.norm(p=2)
+    embed2_norm = embed2 / embed2.norm(p=2)
+    # Compute cosine similarity
+    cosine_sim = torch.dot(embed1_norm, embed2_norm)
+    return cosine_sim.item()
+
+
+
+
+
+
 def main():
     set_seed(42)
     data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
@@ -173,10 +211,23 @@ def main():
 
     # save overall comparing dataframe
     final_df = pd.concat(combined_results, ignore_index=True)
+
+    # cosine similarity using llama3.2
+    qa_generator = RAGGenerator(model_name='llama')
+    final_df['Cosine Similarity'] = final_df.apply(lambda row: compute_cosine_similarity(
+            get_embeddings(row['Expected Answer'], qa_generator = qa_generator),
+            get_embeddings(row['RAG Sole Response'], qa_generator = qa_generator)
+        ), axis=1)
+    
+    # save csv
     final_df = final_df.sort_values(by="Query")  # Sort by Query column to put like-queries together
+    final_df_clean = final_df[['Model', 'Query', 'Expected Answer', 'RAG Sole Response', 'Cosine Similarity']]
     final_csv_path = os.path.join(eval_dir, 'generator_results_all.csv')
+    final_csv_path_clean = os.path.join(eval_dir, 'generator_results_allClean.csv')
+
     final_df.to_csv(final_csv_path, index=False)
-    print(f"The final combined DataFrame has been saved to '{final_csv_path}'.")    
+    final_df_clean.to_csv(final_csv_path_clean, index=False)
+    print(f"\nThe final combined DataFrames has been saved to '{eval_dir}'.\n")    
 
 if __name__ == "__main__":
     main()

@@ -14,11 +14,12 @@ class RAGPipeline:
         start_index = raw_response.find(answer_prefix)
         
         if start_index == -1:
-            return "No answer found in response."
+            return raw_response  # Return the original response if "Answer:" is not found
         
-        # Skip the length of "Answer:" and any potential space after it to start directly at the answer text
-        start_index += len(answer_prefix) + 1
+        # Skip the length of "Answer:" and directly trim any spaces after it before extracting the answer
+        start_index += len(answer_prefix)
         return raw_response[start_index:].strip()
+
 
     def run(self, query: str, top_k: int = 3) -> Tuple[List[Document], str, str]:
         retrieved_docs = self.text_retriever.search_vector_store(query, top_k=top_k)
