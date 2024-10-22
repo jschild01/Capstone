@@ -1,617 +1,354 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  07175cpcaa22009377a 4500
- </leader>
- <controlfield tag="001">
-  11800746
- </controlfield>
- <controlfield tag="005">
-  20240814144529.0
- </controlfield>
- <controlfield tag="008">
-  990511i19371943bl                  por
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   19
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mfor ?/?/96; shal 10/01/99; cker 11/12/99; kblu 06-19-00; mkru 2004-04-16; mkru 2004-07-08; mkru 2004-09-30; mkru 2010-08-25;
-  </subfield>
-  <subfield code="a">
-   mseg 2013-01-07
-  </subfield>
-  <subfield code="a">
-   mkru 2015-01-22
-  </subfield>
-  <subfield code="a">
-   mkru 2015-11-12
-  </subfield>
-  <subfield code="a">
-   mkru 2016-01-20
-  </subfield>
-  <subfield code="a">
-   masmit 2024-08-14
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2004695166
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="033">
-  <subfield code="a">
-   1937----
-  </subfield>
-  <subfield code="a">
-   1938----
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="035">
-  <subfield code="a">
-   afc96000018
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="035">
-  <subfield code="a">
-   89951
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="e">
-   appm
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="a">
-   por
-  </subfield>
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   por
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   s-bl---
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   IDB 31627-31815; IDB 33591-33606; IDC 42162-42171
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFS 07399-07597; LWO 5111 R35-52
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFS 09813-09828; LWO 5111 R261-262
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   FCA 8123 (reference print); FRA 6479-6480 (duplicate negative); FRA 6338 (archival positive film) (moving images)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1943/001
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Discoteca Pública Municipal de São Paulo collection,
-  </subfield>
-  <subfield code="f">
-   1937-1943 /
-  </subfield>
-  <subfield code="c">
-   collected by the Discoteca Pública Municipal de São Paulo, Brazil.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   1184 items.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   7 folders
-  </subfield>
-  <subfield code="f">
-   (1 box).
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   215 sound discs :
-  </subfield>
-  <subfield code="b">
-   analog, 78 rpm ;
-  </subfield>
-  <subfield code="c">
-   10 in., 12 in., 16 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   359 photographic prints :
-  </subfield>
-  <subfield code="b">
-   black and white ;
-  </subfield>
-  <subfield code="c">
-   2 3/4 in. x 1 3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   259 photographic prints :
-  </subfield>
-  <subfield code="b">
-   black and white ;
-  </subfield>
-  <subfield code="c">
-   3 1/2 in. x 4 3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   1 film reel (1445 ft.) :
-  </subfield>
-  <subfield code="b">
-   silent, black and white ;
-  </subfield>
-  <subfield code="c">
-   16 mm.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="351">
-  <subfield code="a">
-   Organized by format into the following series: I. Manuscripts; II. Sound Recordings; III. Graphic Materials in 3 albums; IV. Moving Images.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="500">
-  <subfield code="a">
-   Dance documented in the collection includes dance dramas, ritual ceremonies, solo dances, group dances, and dances performed at Carnaval, reflecting indigenous traditions and European and Afro-Brazilian influences in the region before World War II. Dance genres include Babussué, Brinquedo da Barca, Bumba-meu-boi, Caboclinhos, Catimbó, Côco, Reis de Congo, Tambô, and Toré.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   An ethnographic field collection of sound recordings, moving images, photographs, and accompanying materials that document religious and secular music, dance, and ritual in the northeastern Brazilian states of Maranhão, Pará, Paraíba, Pernambuco, and also the state of São Paulo. Fieldwork was conducted in northeastern Brazil in 1937-1938, some audio recordings were accessioned in 1950. The collection includes correspondence between Harold Spivacke, then chief of the Music Division of the Library of Congress and Oneyda Alvarenga, Director of the Discoteca Pública Municipal de São Paulo (1941-1943), now Discoteca Oneyda Alvarenga (Centro Cultural São Paulo). Photographs document field research and include images of musical instruments and costumes in the museum in São Paulo. Silent black-and-white 16 mm film is comprised of 14 film rolls including footage of carnaval in Recife, Pernambuco; footage from Belém do Pará; most was filmed in Paraíba.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="500">
-  <subfield code="a">
-   Disc recordings include: 3 10-inch, 202 12-inch, and 10 16-inch discs (AFS 07577-07586).
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Discoteca Pública Municipal de São Paulo collection (AFC 1943/001), American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="535">
-  <subfield code="3">
-   Original recordings collected by and housed at the
-  </subfield>
-  <subfield code="a">
-   Discoteca Oneyda Alvarenga;
-  </subfield>
-  <subfield code="b">
-   Centro Cultura, São Paulo, Rua Vergueiro, 1000, São Paulo, SP 01504000,
-  </subfield>
-  <subfield code="c">
-   Brazil.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of the recorded materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Exchange project with the Discoteca Publica Municipal, São Paulo, Brazil;
-  </subfield>
-  <subfield code="d">
-   1943, 1950.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="3">
-   Manuscripts
-  </subfield>
-  <subfield code="a">
-   in Portuguese and English.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="3">
-   Sound recordings
-  </subfield>
-  <subfield code="a">
-   in Portuguese, native Brazilian languages, and Afro-Brazilian languages.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available in the Folklife Reading Room, American Folklife Center and online
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/eadafc.af015002
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="555">
-  <subfield code="a">
-   Inventory in Portuguese of audio recordings and photographs (Folders 4-5).
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="555">
-  <subfield code="a">
-   Bibliographic information for titles in this collection is found in the online resource link:  Search for audio titles in the Discoteca Pública Municipal de São Paulo Collection.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="581">
-  <subfield code="a">
-   Catálogo histórico-fonográfico, Discoteca Oneyda Alvarenga, Centro Cultural São Paulo [São Paulo, Brazil] : Centro Cultural São Paulo, Secretaria Municipal de Cultura, Prefeitura de São Paulo, 1993.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="581">
-  <subfield code="a">
-   Alvarenga, Oneyda, ed. Catálago Ilustrado do Museu Folclórico, Vol 2. São Paulo, Brazil: Discoteca Pública Municipal, 1950.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="581">
-  <subfield code="a">
-   Recordings were issued as a 6 CD set in 2006 titled: Missão de pesquisas folclóricas : música tradicional do Norte e Nordeste, 1938 / [Mário de Andrade] (SESC SP: Prefeitura da Cidade de São Paulo, Secretaria Municipal de Cultura, Centro Cultural São Paulo, 2006).
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="581">
-  <subfield code="a">
-   Selected recordings were released on CD as: The Discoteca collection (Salem, Mass.: RCD 10403 Rykodisc)
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Alvarenga, Oneyda
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Spivacke, Harold,
-  </subfield>
-  <subfield code="d">
-   1904-1977
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Portuguese
-  </subfield>
-  <subfield code="z">
-   Brazil.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, Portuguese
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Dance
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Rites and ceremonies
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Carnival
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Carnival songs
-  </subfield>
-  <subfield code="z">
-   Brazil
-  </subfield>
-  <subfield code="z">
-   Recife.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Work songs
-  </subfield>
-  <subfield code="z">
-   Brazil.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Children's songs
-  </subfield>
-  <subfield code="z">
-   Brazil.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Hymns, Portuguese
-  </subfield>
-  <subfield code="z">
-   Brazil.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folklore
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Musical instruments
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Costume
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Black people
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Brazil, Northeast
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   São Paulo (Brazil)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Field recordings
-  </subfield>
-  <subfield code="z">
-   Brazil, Northeast.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Ethnography.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Manuscripts.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   gmgpc
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Alvarenga, Oneyda,
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Spivacke, Harold,
-  </subfield>
-  <subfield code="d">
-   1904-1977,
-  </subfield>
-  <subfield code="e">
-   correspondent.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Discoteca Oneyda Alvarenga (Centro Cultural São Paulo),
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af015002
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Search for audio titles in the Discoteca Pública Municipal de São Paulo Collection
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/collafc.af000111
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   AFC/Discoteca Publica
-  </subfield>
-  <subfield code="e">
-   DHC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>07175cpcaa22009377a 4500</leader>
+<controlfield tag="001">11800746</controlfield>
+<controlfield tag="005">20240814144529.0</controlfield>
+<controlfield tag="008">990511i19371943bl por </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">19</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">
+mfor ?/?/96; shal 10/01/99; cker 11/12/99; kblu 06-19-00; mkru 2004-04-16; mkru 2004-07-08; mkru 2004-09-30; mkru 2010-08-25;
+</subfield>
+<subfield code="a">mseg 2013-01-07</subfield>
+<subfield code="a">mkru 2015-01-22</subfield>
+<subfield code="a">mkru 2015-11-12</subfield>
+<subfield code="a">mkru 2016-01-20</subfield>
+<subfield code="a">masmit 2024-08-14</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2004695166</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="033">
+<subfield code="a">1937----</subfield>
+<subfield code="a">1938----</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">afc96000018</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">89951</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="e">appm</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="a">por</subfield>
+<subfield code="a">eng</subfield>
+<subfield code="d">por</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">s-bl---</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">IDB 31627-31815; IDB 33591-33606; IDC 42162-42171</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFS 07399-07597; LWO 5111 R35-52</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFS 09813-09828; LWO 5111 R261-262</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+FCA 8123 (reference print); FRA 6479-6480 (duplicate negative); FRA 6338 (archival positive film) (moving images)
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1943/001</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">
+Discoteca Pública Municipal de São Paulo collection,
+</subfield>
+<subfield code="f">1937-1943 /</subfield>
+<subfield code="c">
+collected by the Discoteca Pública Municipal de São Paulo, Brazil.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">1184 items.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">7 folders</subfield>
+<subfield code="f">(1 box).</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">215 sound discs :</subfield>
+<subfield code="b">analog, 78 rpm ;</subfield>
+<subfield code="c">10 in., 12 in., 16 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">359 photographic prints :</subfield>
+<subfield code="b">black and white ;</subfield>
+<subfield code="c">2 3/4 in. x 1 3/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">259 photographic prints :</subfield>
+<subfield code="b">black and white ;</subfield>
+<subfield code="c">3 1/2 in. x 4 3/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">1 film reel (1445 ft.) :</subfield>
+<subfield code="b">silent, black and white ;</subfield>
+<subfield code="c">16 mm.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="351">
+<subfield code="a">
+Organized by format into the following series: I. Manuscripts; II. Sound Recordings; III. Graphic Materials in 3 albums; IV. Moving Images.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="500">
+<subfield code="a">
+Dance documented in the collection includes dance dramas, ritual ceremonies, solo dances, group dances, and dances performed at Carnaval, reflecting indigenous traditions and European and Afro-Brazilian influences in the region before World War II. Dance genres include Babussué, Brinquedo da Barca, Bumba-meu-boi, Caboclinhos, Catimbó, Côco, Reis de Congo, Tambô, and Toré.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+An ethnographic field collection of sound recordings, moving images, photographs, and accompanying materials that document religious and secular music, dance, and ritual in the northeastern Brazilian states of Maranhão, Pará, Paraíba, Pernambuco, and also the state of São Paulo. Fieldwork was conducted in northeastern Brazil in 1937-1938, some audio recordings were accessioned in 1950. The collection includes correspondence between Harold Spivacke, then chief of the Music Division of the Library of Congress and Oneyda Alvarenga, Director of the Discoteca Pública Municipal de São Paulo (1941-1943), now Discoteca Oneyda Alvarenga (Centro Cultural São Paulo). Photographs document field research and include images of musical instruments and costumes in the museum in São Paulo. Silent black-and-white 16 mm film is comprised of 14 film rolls including footage of carnaval in Recife, Pernambuco; footage from Belém do Pará; most was filmed in Paraíba.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="500">
+<subfield code="a">
+Disc recordings include: 3 10-inch, 202 12-inch, and 10 16-inch discs (AFS 07577-07586).
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Discoteca Pública Municipal de São Paulo collection (AFC 1943/001), American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="535">
+<subfield code="3">Original recordings collected by and housed at the</subfield>
+<subfield code="a">Discoteca Oneyda Alvarenga;</subfield>
+<subfield code="b">
+Centro Cultura, São Paulo, Rua Vergueiro, 1000, São Paulo, SP 01504000,
+</subfield>
+<subfield code="c">Brazil.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of the recorded materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">
+Exchange project with the Discoteca Publica Municipal, São Paulo, Brazil;
+</subfield>
+<subfield code="d">1943, 1950.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="3">Manuscripts</subfield>
+<subfield code="a">in Portuguese and English.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="3">Sound recordings</subfield>
+<subfield code="a">
+in Portuguese, native Brazilian languages, and Afro-Brazilian languages.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">
+Finding aid is available in the Folklife Reading Room, American Folklife Center and online
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/eadafc.af015002</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="555">
+<subfield code="a">
+Inventory in Portuguese of audio recordings and photographs (Folders 4-5).
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="555">
+<subfield code="a">
+Bibliographic information for titles in this collection is found in the online resource link: Search for audio titles in the Discoteca Pública Municipal de São Paulo Collection.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="581">
+<subfield code="a">
+Catálogo histórico-fonográfico, Discoteca Oneyda Alvarenga, Centro Cultural São Paulo [São Paulo, Brazil] : Centro Cultural São Paulo, Secretaria Municipal de Cultura, Prefeitura de São Paulo, 1993.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="581">
+<subfield code="a">
+Alvarenga, Oneyda, ed. Catálago Ilustrado do Museu Folclórico, Vol 2. São Paulo, Brazil: Discoteca Pública Municipal, 1950.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="581">
+<subfield code="a">
+Recordings were issued as a 6 CD set in 2006 titled: Missão de pesquisas folclóricas : música tradicional do Norte e Nordeste, 1938 / [Mário de Andrade] (SESC SP: Prefeitura da Cidade de São Paulo, Secretaria Municipal de Cultura, Centro Cultural São Paulo, 2006).
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="581">
+<subfield code="a">
+Selected recordings were released on CD as: The Discoteca collection (Salem, Mass.: RCD 10403 Rykodisc)
+</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Alvarenga, Oneyda</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Spivacke, Harold,</subfield>
+<subfield code="d">1904-1977</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Portuguese</subfield>
+<subfield code="z">Brazil.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, Portuguese</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Dance</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Rites and ceremonies</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Carnival</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Carnival songs</subfield>
+<subfield code="z">Brazil</subfield>
+<subfield code="z">Recife.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Work songs</subfield>
+<subfield code="z">Brazil.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Children's songs</subfield>
+<subfield code="z">Brazil.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Hymns, Portuguese</subfield>
+<subfield code="z">Brazil.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folklore</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Musical instruments</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Costume</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Black people</subfield>
+<subfield code="z">Brazil, Northeast</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Brazil, Northeast</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">São Paulo (Brazil)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Field recordings</subfield>
+<subfield code="z">Brazil, Northeast.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Ethnography.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Manuscripts.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">gmgpc</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Alvarenga, Oneyda,</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Spivacke, Harold,</subfield>
+<subfield code="d">1904-1977,</subfield>
+<subfield code="e">correspondent.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">
+Discoteca Oneyda Alvarenga (Centro Cultural São Paulo),
+</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af015002</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">
+Search for audio titles in the Discoteca Pública Municipal de São Paulo Collection
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/collafc.af000111</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">AFC/Discoteca Publica</subfield>
+<subfield code="e">DHC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
 </record>
+</collection>

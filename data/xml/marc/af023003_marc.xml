@@ -1,602 +1,303 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  04411cpcaa22007937i 4500
- </leader>
- <controlfield tag="001">
-  22981264
- </controlfield>
- <controlfield tag="005">
-  20230524080239.0
- </controlfield>
- <controlfield tag="008">
-  230221i19821986xxu                 eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   masmit 2023-02-21
-  </subfield>
-  <subfield code="a">
-   mseg 2023-02-21
-  </subfield>
-  <subfield code="a">
-   masmit 2023-03-21
-  </subfield>
-  <subfield code="a">
-   masmit 2023-03-27
-  </subfield>
-  <subfield code="a">
-   masmit 2023-04-07
-  </subfield>
-  <subfield code="a">
-   mseg 2023-04-07
-  </subfield>
-  <subfield code="a">
-   mseg 2023-04-11
-  </subfield>
-  <subfield code="a">
-   mseg 2023-04-14
-  </subfield>
-  <subfield code="a">
-   masmit 2023-05-08
-  </subfield>
-  <subfield code="a">
-   mseg 2023-05-09
-  </subfield>
-  <subfield code="a">
-   masmit 2023-05-24
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2023655200
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   eng
-  </subfield>
-  <subfield code="d">
-   sio
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="7" tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   eng
-  </subfield>
-  <subfield code="d">
-   oma
-  </subfield>
-  <subfield code="2">
-   iso639-3
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us-ne
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RAA 59385-59416 (10-inch sound tape reels); RXI 0234-0263 (7-inch sound tape reels); RYO 9900, RYP 4412-4431, RYS 3701-3703 (sound cassettes)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1986/038
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Omaha Powwow Project collection,
-  </subfield>
-  <subfield code="f">
-   1982-1986.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="264">
-  <subfield code="c">
-   1982-1986.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   2,790
-  </subfield>
-  <subfield code="f">
-   items
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   9
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   32 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog ;
-  </subfield>
-  <subfield code="c">
-   10 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   30 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog ;
-  </subfield>
-  <subfield code="c">
-   7 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   24 sound cassettes (C60 and C90) :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   1,146 photographs :
-  </subfield>
-  <subfield code="b">
-   film, negatives, black and white ; 35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   1,204 photographs :
-  </subfield>
-  <subfield code="b">
-   color transparencies ;
-  </subfield>
-  <subfield code="c">
-   35 mm (slide format)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   32 photographs :
-  </subfield>
-  <subfield code="b">
-   prints, black and white ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   10 photographs :
-  </subfield>
-  <subfield code="b">
-   prints, color ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   33 photographs :
-  </subfield>
-  <subfield code="b">
-   contact sheets, black and white ;
-  </subfield>
-  <subfield code="c">
-   8 x 10 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   4 posters and flyers :
-  </subfield>
-  <subfield code="b">
-   color ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   approximately 276
-  </subfield>
-  <subfield code="f">
-   sheets
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   Collection contains documentation from Omaha Tribal Powwows 1983-1986, including sound recordings and photographs created by American Folklife Center staff. Additional documentation from the 1983 pow-wow includes 35 pages of fieldnotes, 30 pages of handwritten tape recording logs, an 8-page program, and two posters. The collection also includes interviews with Omaha tribal members John Turner and Dennis Hastings.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Omaha Powwow Project collection (AFC 1986/038), American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="c">
-   Accessioned;
-  </subfield>
-  <subfield code="d">
-   1986.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="544">
-  <subfield code="d">
-   Omaha Indian interviews collection, 1983 (AFC 1983/026)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   Texts in English; sound recordings primarily in English, with some Omaha.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af023003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Dance music
-  </subfield>
-  <subfield code="z">
-   Nebraska
-  </subfield>
-  <subfield code="z">
-   Omaha Indian Reservation.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Nebraska.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha dance.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha Indians
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha Indians
-  </subfield>
-  <subfield code="x">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha Indians
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha Indians
-  </subfield>
-  <subfield code="x">
-   Rites and ceremonies.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Omaha Indians
-  </subfield>
-  <subfield code="v">
-   Songs and music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Powwows
-  </subfield>
-  <subfield code="z">
-   Nebraska
-  </subfield>
-  <subfield code="z">
-   Omaha Indian Reservation.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Powwow songs
-  </subfield>
-  <subfield code="z">
-   Nebraska
-  </subfield>
-  <subfield code="z">
-   Omaha Indian Reservation.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Omaha Indian Reservation (Neb.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Oral histories.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Blackbird, Elmer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fleischhauer, Carl,
-  </subfield>
-  <subfield code="e">
-   collector,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hastings, Dennis,
-  </subfield>
-  <subfield code="e">
-   interviewee.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kerrey, Robert,
-  </subfield>
-  <subfield code="d">
-   1943-
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Jabbour, Alan,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lee, Dorothy Sara,
-  </subfield>
-  <subfield code="e">
-   collector,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Turner, John,
-  </subfield>
-  <subfield code="d">
-   1902-1983,
-  </subfield>
-  <subfield code="e">
-   interviewee.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="751">
-  <subfield code="a">
-   Macy (Neb.)
-  </subfield>
-  <subfield code="e">
-   event place.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af023003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/nac
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>04435cpcaa22007937i 4500</leader>
+<controlfield tag="001">22981264</controlfield>
+<controlfield tag="005">20240917152105.0</controlfield>
+<controlfield tag="008">230221i19821986xxu eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">masmit 2023-02-21</subfield>
+<subfield code="a">mseg 2023-02-21</subfield>
+<subfield code="a">masmit 2023-03-21</subfield>
+<subfield code="a">masmit 2023-03-27</subfield>
+<subfield code="a">masmit 2023-04-07</subfield>
+<subfield code="a">mseg 2023-04-07</subfield>
+<subfield code="a">mseg 2023-04-11</subfield>
+<subfield code="a">mseg 2023-04-14</subfield>
+<subfield code="a">masmit 2023-05-08</subfield>
+<subfield code="a">mseg 2023-05-09</subfield>
+<subfield code="a">masmit 2023-05-24</subfield>
+<subfield code="a">masmit 2024-09-17</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2023655200</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="d">eng</subfield>
+<subfield code="d">sio</subfield>
+</datafield>
+<datafield ind1="0" ind2="7" tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="d">eng</subfield>
+<subfield code="d">oma</subfield>
+<subfield code="2">iso639-3</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us-nb</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RAA 59385-59416 (10-inch sound tape reels); RXI 0234-0263 (7-inch sound tape reels); RYO 9900, RYP 4412-4431, RYS 3701-3703 (sound cassettes)
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1986/038</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Omaha Powwow Project collection,</subfield>
+<subfield code="f">1982-1986.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="264">
+<subfield code="c">1982-1986.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">2,790</subfield>
+<subfield code="f">items</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">9</subfield>
+<subfield code="f">containers</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">32 sound tape reels :</subfield>
+<subfield code="b">analog ;</subfield>
+<subfield code="c">10 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">30 sound tape reels :</subfield>
+<subfield code="b">analog ;</subfield>
+<subfield code="c">7 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">24 sound cassettes (C60 and C90) :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">1,146 photographs :</subfield>
+<subfield code="b">film, negatives, black and white ; 35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">1,204 photographs :</subfield>
+<subfield code="b">color transparencies ;</subfield>
+<subfield code="c">35 mm (slide format)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">32 photographs :</subfield>
+<subfield code="b">prints, black and white ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">10 photographs :</subfield>
+<subfield code="b">prints, color ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">33 photographs :</subfield>
+<subfield code="b">contact sheets, black and white ;</subfield>
+<subfield code="c">8 x 10 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">4 posters and flyers :</subfield>
+<subfield code="b">color ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">approximately 276</subfield>
+<subfield code="f">sheets</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+Collection contains documentation from Omaha Tribal Powwows 1983-1986, including sound recordings and photographs created by American Folklife Center staff. Additional documentation from the 1983 pow-wow includes 35 pages of fieldnotes, 30 pages of handwritten tape recording logs, an 8-page program, and two posters. The collection also includes interviews with Omaha tribal members John Turner and Dennis Hastings.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Omaha Powwow Project collection (AFC 1986/038), American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="c">Accessioned;</subfield>
+<subfield code="d">1986.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="544">
+<subfield code="d">
+Omaha Indian interviews collection, 1983 (AFC 1983/026)
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+Texts in English; sound recordings primarily in English, with some Omaha.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af023003</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Dance music</subfield>
+<subfield code="z">Nebraska</subfield>
+<subfield code="z">Omaha Indian Reservation.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Nebraska.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha dance.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha Indians</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha Indians</subfield>
+<subfield code="x">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha Indians</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha Indians</subfield>
+<subfield code="x">Rites and ceremonies.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Omaha Indians</subfield>
+<subfield code="v">Songs and music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Powwows</subfield>
+<subfield code="z">Nebraska</subfield>
+<subfield code="z">Omaha Indian Reservation.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Powwow songs</subfield>
+<subfield code="z">Nebraska</subfield>
+<subfield code="z">Omaha Indian Reservation.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Omaha Indian Reservation (Neb.)</subfield>
+<subfield code="x">Social life and customs</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Oral histories.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Blackbird, Elmer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fleischhauer, Carl,</subfield>
+<subfield code="e">collector,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hastings, Dennis,</subfield>
+<subfield code="e">interviewee.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kerrey, Robert,</subfield>
+<subfield code="d">1943-</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Jabbour, Alan,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lee, Dorothy Sara,</subfield>
+<subfield code="e">collector,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Turner, John,</subfield>
+<subfield code="d">1902-1983,</subfield>
+<subfield code="e">interviewee.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="751">
+<subfield code="a">Macy (Neb.)</subfield>
+<subfield code="e">event place.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af023003</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/nac</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>

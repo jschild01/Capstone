@@ -1,1089 +1,532 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  14698cpcaa22013577a 4500
- </leader>
- <controlfield tag="001">
-  14154571
- </controlfield>
- <controlfield tag="005">
-  20230720123038.0
- </controlfield>
- <controlfield tag="008">
-  051026i19831991xxu                 eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2005-10-26;
-  </subfield>
-  <subfield code="a">
-   mseg 2013-01-07; cker 2014-12-30; cker 2015-04-13
-  </subfield>
-  <subfield code="a">
-   mkru 2015-12-10
-  </subfield>
-  <subfield code="a">
-   mkru 2017-04-27
-  </subfield>
-  <subfield code="a">
-   masmit 2021-09-30
-  </subfield>
-  <subfield code="a">
-   masmit 2022-07-29
-  </subfield>
-  <subfield code="a">
-   masmit 2022-08-02
-  </subfield>
-  <subfield code="a">
-   fcundiff 2022-08-03
-  </subfield>
-  <subfield code="a">
-   masmit 2022-08-11
-  </subfield>
-  <subfield code="a">
-   masmit 2022-08-12
-  </subfield>
-  <subfield code="a">
-   masmit 2022-09-02
-  </subfield>
-  <subfield code="a">
-   masmit 2022-09-06
-  </subfield>
-  <subfield code="a">
-   fcundiff 2022-09-20
-  </subfield>
-  <subfield code="a">
-   vmor 2023-07-20
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2004659962
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   eng
-  </subfield>
-  <subfield code="d">
-   spa
-  </subfield>
-  <subfield code="d">
-   ukr
-  </subfield>
-  <subfield code="d">
-   rus
-  </subfield>
-  <subfield code="d">
-   chu
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us-nj
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RXA 5861-6107; RYA 4801-4919; VAP 3372; VBV 5734-5736
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFS 23743-24090
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1991/023
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Pinelands Folklife Project collection,
-  </subfield>
-  <subfield code="f">
-   1983-1991 /
-  </subfield>
-  <subfield code="c">
-   collected by the American Folklife Center.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   approximately 31,433
-  </subfield>
-  <subfield code="f">
-   items
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   26
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   13
-  </subfield>
-  <subfield code="f">
-   linear feet
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   approximately 9,500 sheets ;
-  </subfield>
-  <subfield code="c">
-   8.5 x 14 inches or smaller
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   approximately 75 sheets ;
-  </subfield>
-  <subfield code="c">
-   oversize documents
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   113 floppy disks :
-  </subfield>
-  <subfield code="b">
-   single-sided and double sided ;
-  </subfield>
-  <subfield code="c">
-   5 1/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   5 floppy disks ;
-  </subfield>
-  <subfield code="c">
-   3 1/2 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   3 computer tape cartridges (DC 300XL)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   247 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog, 7 1/2 ips, mono. ;
-  </subfield>
-  <subfield code="c">
-   5 in., 7 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   118 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   11,793 film negatives :
-  </subfield>
-  <subfield code="b">
-   black-and-white ;
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   9,205 film transparencies :
-  </subfield>
-  <subfield code="b">
-   color ;
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   222 film transparencies :
-  </subfield>
-  <subfield code="b">
-   color ;
-  </subfield>
-  <subfield code="c">
-   2 x 2 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   11 photographic prints :
-  </subfield>
-  <subfield code="b">
-   color ;
-  </subfield>
-  <subfield code="c">
-   3.5 x 3.5 in.; 3.5 x 5 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   4 photographic prints :
-  </subfield>
-  <subfield code="b">
-   black-and-white ;
-  </subfield>
-  <subfield code="c">
-   3.5 x 5 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   1 videocassette (VHS) (30 min.) :
-  </subfield>
-  <subfield code="b">
-   sound, color ;
-  </subfield>
-  <subfield code="c">
-   1/2 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   3 videocassettes (U-Matic) (150 min.) :
-  </subfield>
-  <subfield code="b">
-   sound, color ;
-  </subfield>
-  <subfield code="c">
-   3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   2 film reels :
-  </subfield>
-  <subfield code="b">
-   silent, color ;
-  </subfield>
-  <subfield code="c">
-   16 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   artifacts
-  </subfield>
-  <subfield code="a">
-   1 t-shirt
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   approximately 130 maps :
-  </subfield>
-  <subfield code="b">
-   color, black-and-white ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="351">
-  <subfield code="a">
-   Organized into five series. Series 1: Project administration files. Series 2: Collected publications and ephemera. Series 3: Field documentation arranged by fieldworker. Series 4: Final products. Series 5: Maps of New Jersey Pinelands.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="545">
-  <subfield code="a">
-   The Pinelands Folklife Project, directed by Mary Hufford of the American Folklife Center, Library of Congress, and staffed by a team of folklorists, photographers, an ethnobiologist, and an environmental psychologist, was developed in cooperation with the New Jersey Pinelands Commission to identify and document traditional culture and land use within and surrounding the Pinelands National Reserve from 1983 to 1986. The final phase of the project was conducted in cooperation with the National Park Service, the New Jersey State Historical Commission, the New Jersey Department of Environmental Protection and the New Jersey Department of Human Resources.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   The Pinelands Folklife Project collection represents the culmination of a three-year effort to identify and record the cultural traditions of the inhabitants in and around the Pinelands National Reserve in the Pine Barrens region of southern New Jersey in the mid-1980s. The collection comprises ethnographic documentation which examines the relationship between the local culture and the surrounding environment. The collection contains the administrative records, planning documents, and published materials related to the management of the field project. The bulk of the collection consists of field documentation recorded in a range of formats, including typed field notes and logs, sound recordings, graphic images, moving images, and one artifact. The collection also includes promotional materials, project publications, slide presentations, video programs, and documentation related to the museum exhibition and conference, New Jersey Pinelands: Tradition and Environment. The Pinelands Folklife Project was the first ethnographic study undertaken by the American Folklife Center to use computers in the field, and the computer disks and computer tape cartridges which contain field data and the project database are included as part of the collection. A t-shirt with a design which commemorates the use of computers to manage and execute the project is also included in the collection.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Pinelands Folklife Project collection (AFC 1991/023), American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="511">
-  <subfield code="a">
-   Participants include Joe Albert; Selina Albes; Benjamin A. Allen; Elaine Allen; Robert Ames; Ivan Arcaya; Frank Astemborski; Margaret "Liz" Bakely; Vernon Bakely; Frank Banish; Jeremy Barnard; Capt. Glendon Barry; Carl Beagle; Faith Becker; Rev. John Becker; Flora Bozarth Beebe; Herschel Beebe; Junie Bell; Nello Benedetti; Mae Berringer; Chris Bethmann; Peter Boden; Tom Boghosian; Glenn Borden; Dave Bower; Barry Brady; John Branin; George Brewer, Jr.; Robert Brewer; Alvin Brick; Bob Brickner; Larry Brickner; Stuart Brook; Ed Brown; Mildred Brown; Muriel Brown; Tom Brown; Alvan Buck, Sr.; John Budd; Mary Budd; Patricia Burke; Alva Buzby; Michelle Byers; Cleone Byrne; Kenneth Camp; George Campbell; Mr. and Mrs. C. Russell Canfield; Armand Carney; Pamela Carney; Elizabeth "Betsy" Carpenter; Lawrence Carpenter; Barry Cavileer; Pearl Cervetto; Richard M. Cesta; Thomas N. Chavis; Andrew Chin (Elder); Donald Cisrow; Evelyn Cisrow; Sarah Cisrow; William D. Clark; Dave Clemons; Eva Clevenger; Jim Collins; Rev. Milton Collins; Hurley Conklin; Don Cramer; Harold Creamer; Leroy Creamer; Ron Cuneo; Dan Curtis; Earl Danley; Mr. and Mrs. Mark Darlington; Tom Darlington; John Davidson; Alexander Davis; Ann Davis; Jack Davis; Dave Densbower; Frank Day; Miguel Juan De Jesus; Albert DeRosa; Charles DeStefano; Nicky Diblasi; Ron Dietrich; Harry Dilkes, Jr.; Hazy Dilkes; Maryjane Dolly; Dennis Doyle; Mr. and Mrs. James Doyle; Billy Dunn; Charles Dupras; Kimberly Eandhaid (Banghaip?); Helen Earlin; Gladys Eayre; Homer Ellison; Eugen Emmons; Msgr. Robert Ervin; Mr. and Mrs. Harry Farley; Helen Fasick; Fr. Konstantin Federov; Peter J. Finnegan; Don Fitzgerald; Chuck Folk; Clifford Frazee; Lucille Frazee; Steven Frazee; Adelio Garcia; Rae Gerber; Edith Giaziano; Gary Giberson; Joe Gibbs; Leonard Gille; Richard Gille; Hugh Gladwin; Dr. David Glassberg; Howard Goldberg; Lydia Gonzales; Arthur Gordon; Ted Gordon; Susan Grant; Frank Gray; Mid Green; Melvin Greenhowe; Patience Gower; Betty Gravinese; Lou Gravinese; Franklin A. Gray; Mid Green; Bob Hageman; William Haines, Sr.; Robert Lee Hamon; Deacon Bob Hannah; Ron Harker; Walter Hawn; Ed Hazelton; Catherine Heinrichs; George Heinrichs; Marge Helbig; Mr. and Mrs. Al Henry; Angelina Hernandez; Juan Hernandez; Russ Herr; Anthony Hillman; John Hillman; Warren Hitchner; Mr. and Mrs. Charles Hoeh; Kathryn A. Hoffman; Mr. and Mrs. Warren Homiller; Leon Hopkins; Joseph Horner; Russ Horner; Eugene S. Hunn; Sam Hunt; James Hurley; Nevin Ianuzzi; Eileen James; Evelyn James; Dr. Robert I. Jaslow; Bill Jenkins; Jeannette Johnson; Oliver Johnson; Howard C. Jones, Sr.; Pastor Ted Joshua; Dave Kalm; Barry Kienzle; Jeff Klotz; Ed Lamonaca; Hugh Lamonaca; Mary Lamonaca; Hazel Landy; Leo Landy; George C. Langdon; Mario Lawson; Reta Lawson; Rev. William Lawson; Abbot Lee; Bill Lee; Stephen Lee; Stephen Lee, III; Maurice Leonhardy; Carl H. Liepe; Teresa Litely; Roy Livingston; Jeanette Lobb; Ken Loggsden; Chris Loveland; William Lucas; Mr. and Mrs. Adolph Macker; Lt. Col. Craig C. MacNab; Leonard Maglioccio; Fred Mahn; Estelle Manor; Toni Marinella; George Marquez; Philip E. Marrucci; Joe Masker; Tony Mason; Louis McCoy; Dennis McDonald; Fernando Melendez; Francis Mick; Haines Mick; Henry Mick; Leonard Migliaccio; Herbert Misner; Mr. and Mrs. Fred W. Mitchell; Robert L. Morgan; Lois Morris; Gary Moskos; Paul Moskos; Daniel O'Connor; Barney Oldfield; Carl Owens; James Owens; Jim Owings; Cicero Page; Donald Palmeroy; Charlie Palmieri; Clara Paolino; Gladys Payne; Harry Payne; Cathy Pepper; Capt. Louis D. Peterson; Robert Peterson; Valia Petrenko; Wayne Phillips; Earl Piper; Charles Pomlear; Ralph Putiri; Salvatore Putiri, Jr.; Salvatore Putiri, Sr.; Charlie Pye; Marie Ramp; Melissa Ramp; Ted Ramp; Jean Razor; Fr. Jose Rebaque; Albert Reeves; Bob Reeves; James Reid; Mr. and Mrs. Joseph Reid; Harold Reiss; Rabbi Abel Respes; Msgr. William Reynolds; David Ridgway; Chester Riland; Rev. John Robbins; Elvin Rodriguez; Enrique Rodriguez; Natividad Rodriguez; Edward Roncoroni; Anne Ruof; Rev. and Mrs. Richard A. Ruof; Edward H. Salmon; Carmen Santiago; Tom Scangarello; Elaine Schuck; John Schuck; Laura M. Sell; Mark Sepulveda; Pat Sheehan; Marcia Sherper; Janice Sherwood; Paul Shrader; Doris Siciliano; Ada Simons; Betty Smith; Ken Somerdale; Annabelle Sooy; Rev. Benjamin Sooy; Wanda Sooy; Steve Soviczki; Nancy St. Charles; Rob Stanley; Jim Stasz; William J. Stevens; Hank Stevenson; Lorren Stiles; Louise Stiles; John Stokes; Nina Stroyen; Lilian C. Strohlein; Nina Bohush Stroyen; Rev. William "Basil" Stroyen; Robert Suralik; Caroline Taylor; Eddie Taylor; Freeman Taylor; Norman Taylor; Brad Thompson; Mary Ann Thompson; Mayor Bob Thompson; Bill Thoms; Jean Thoms; Alice Tomlinson; Ephraim Tomlinson; Hazel Torres; Juan Angel Torres; Orlando Torres; Mr. and Mrs. Harry Toussiant; Bonnie Townsend; Dusia Tserbotarew; Joanne Van Istendal; Janet Veach; Lynwood E. Veach, Sr.; Lynwood R. Veach, Jr.; Mr. and Mrs. Theodore Von Bosse; Alva Thompson Ware; Frank Warfle; Bill Wasiowich; Elwood Watson; Dee Dee Webb; Harvey Webb; Henry Webb; Boris Weintraub; Betty Wendt; Charles E. Wendt; Betty Lamson West; Floyd West; Beryl Whittington; Leah Wilhelm; Joseph Wilson; Elizabeth Woodford; Georgia Wurster; Dorothy Yates; Kenneth Yates; Bob York; Helen Ware Zelly; George Zimmer; Helen Zimmer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of the collection materials may be governed by copyright and other restrictions. Certain restrictions to use or copying of materials may apply.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   In English, with some audio content in Spanish, Russian, Church Slavic, and Ukrainian.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid available online:
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af022003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Land use
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cultural property
-  </subfield>
-  <subfield code="x">
-   Protection
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pine Barrens.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Conservation of natural resources
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pine Barrens.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Hunting
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve
-  </subfield>
-  <subfield code="v">
-   Anecdotes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fishing
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="v">
-   Anecdotes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Oystering
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="v">
-   Anecdotes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Sand and gravel mines and mining
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve
-  </subfield>
-  <subfield code="v">
-   Anecdotes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   New Jersey.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Hymns, English
-  </subfield>
-  <subfield code="z">
-   New Jersey.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Baptists
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Catholics
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Puerto Ricans
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ukrainian Americans
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Italian Americans
-  </subfield>
-  <subfield code="z">
-   New Jersey
-  </subfield>
-  <subfield code="z">
-   Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Pine Barrens (N.J.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Pine Barrens (N.J.)
-  </subfield>
-  <subfield code="x">
-   Folklore.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Pine Barrens (N.J.)
-  </subfield>
-  <subfield code="x">
-   Religious life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Pinelands National Reserve (N.J.)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Patuxent River Valley (Md.)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Oral histories.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Manuscripts.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Videocassettes.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Aerial photographs.
-  </subfield>
-  <subfield code="2">
-   gmgpc
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field notes.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Hymns.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Carroll, Thomas DeBlasio,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cartwright, Christine A.,
-  </subfield>
-  <subfield code="d">
-   1955-1983,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cervetto, Jack,
-  </subfield>
-  <subfield code="d">
-   1908-1995,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cohen, David Steven,
-  </subfield>
-  <subfield code="d">
-   1943-
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Czarnecki, Joseph P.,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fleischhauer, Carl,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Glassie, Henry,
-  </subfield>
-  <subfield code="d">
-   1941-
-  </subfield>
-  <subfield code="e">
-   consultant.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hufford, Mary,
-  </subfield>
-  <subfield code="d">
-   1952-
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hunn, Eugene S.,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Little, Silas,
-  </subfield>
-  <subfield code="e">
-   interviewee.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lund, Jens,
-  </subfield>
-  <subfield code="d">
-   1946-
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McDonald, Dennis,
-  </subfield>
-  <subfield code="d">
-   1954-
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Moonsammy, Rita Zorn,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Morgan, Elizabeth M.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   O'Connor, Bonnie Blair,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   O'Connor, Malachi,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Orr, Jay,
-  </subfield>
-  <subfield code="e">
-   consultant.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Parsons, Gerald E.,
-  </subfield>
-  <subfield code="d">
-   1940-1995,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ridgway, Arlene Martin,
-  </subfield>
-  <subfield code="d">
-   1936-
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ridgway, Merce,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Rubinstein, Nora J.
-  </subfield>
-  <subfield code="q">
-   (Nora Jane),
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Samuelson, Sue,
-  </subfield>
-  <subfield code="d">
-   1956-1991,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Shourds, Harry V.,
-  </subfield>
-  <subfield code="e">
-   depicted.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sinton, John W.,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Thatcher, Elaine,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Tweed, Stewart M.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Vivian, V. Eugene.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="2" tag="700">
-  <subfield code="a">
-   Hufford, Mary,
-  </subfield>
-  <subfield code="d">
-   1952-
-  </subfield>
-  <subfield code="t">
-   One space, many places : folklife and land use in New Jersey's Pinelands National Reserve.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pinelands Folklife Project (N.J.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Archive of Folk Culture (Library of Congress),
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="710">
-  <subfield code="a">
-   New Jersey.
-  </subfield>
-  <subfield code="b">
-   Pinelands Commission.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pinehawkers (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pinelands Cultural Society.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af022003
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="1" tag="856">
-  <subfield code="3">
-   Online collection
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/collafc.afc1991023
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>14698cpcaa22013577a 4500</leader>
+<controlfield tag="001">14154571</controlfield>
+<controlfield tag="005">20230720123038.0</controlfield>
+<controlfield tag="008">051026i19831991xxu eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">mkru 2005-10-26;</subfield>
+<subfield code="a">mseg 2013-01-07; cker 2014-12-30; cker 2015-04-13</subfield>
+<subfield code="a">mkru 2015-12-10</subfield>
+<subfield code="a">mkru 2017-04-27</subfield>
+<subfield code="a">masmit 2021-09-30</subfield>
+<subfield code="a">masmit 2022-07-29</subfield>
+<subfield code="a">masmit 2022-08-02</subfield>
+<subfield code="a">fcundiff 2022-08-03</subfield>
+<subfield code="a">masmit 2022-08-11</subfield>
+<subfield code="a">masmit 2022-08-12</subfield>
+<subfield code="a">masmit 2022-09-02</subfield>
+<subfield code="a">masmit 2022-09-06</subfield>
+<subfield code="a">fcundiff 2022-09-20</subfield>
+<subfield code="a">vmor 2023-07-20</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2004659962</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="d">eng</subfield>
+<subfield code="d">spa</subfield>
+<subfield code="d">ukr</subfield>
+<subfield code="d">rus</subfield>
+<subfield code="d">chu</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us-nj</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RXA 5861-6107; RYA 4801-4919; VAP 3372; VBV 5734-5736
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFS 23743-24090</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1991/023</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Pinelands Folklife Project collection,</subfield>
+<subfield code="f">1983-1991 /</subfield>
+<subfield code="c">collected by the American Folklife Center.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">approximately 31,433</subfield>
+<subfield code="f">items</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">26</subfield>
+<subfield code="f">containers</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">13</subfield>
+<subfield code="f">linear feet</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">approximately 9,500 sheets ;</subfield>
+<subfield code="c">8.5 x 14 inches or smaller</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">approximately 75 sheets ;</subfield>
+<subfield code="c">oversize documents</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">113 floppy disks :</subfield>
+<subfield code="b">single-sided and double sided ;</subfield>
+<subfield code="c">5 1/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">5 floppy disks ;</subfield>
+<subfield code="c">3 1/2 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">3 computer tape cartridges (DC 300XL)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">247 sound tape reels :</subfield>
+<subfield code="b">analog, 7 1/2 ips, mono. ;</subfield>
+<subfield code="c">5 in., 7 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">118 sound cassettes :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">11,793 film negatives :</subfield>
+<subfield code="b">black-and-white ;</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">9,205 film transparencies :</subfield>
+<subfield code="b">color ;</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">222 film transparencies :</subfield>
+<subfield code="b">color ;</subfield>
+<subfield code="c">2 x 2 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">11 photographic prints :</subfield>
+<subfield code="b">color ;</subfield>
+<subfield code="c">3.5 x 3.5 in.; 3.5 x 5 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">4 photographic prints :</subfield>
+<subfield code="b">black-and-white ;</subfield>
+<subfield code="c">3.5 x 5 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">1 videocassette (VHS) (30 min.) :</subfield>
+<subfield code="b">sound, color ;</subfield>
+<subfield code="c">1/2 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">3 videocassettes (U-Matic) (150 min.) :</subfield>
+<subfield code="b">sound, color ;</subfield>
+<subfield code="c">3/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">2 film reels :</subfield>
+<subfield code="b">silent, color ;</subfield>
+<subfield code="c">16 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">artifacts</subfield>
+<subfield code="a">1 t-shirt</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">approximately 130 maps :</subfield>
+<subfield code="b">color, black-and-white ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="351">
+<subfield code="a">
+Organized into five series. Series 1: Project administration files. Series 2: Collected publications and ephemera. Series 3: Field documentation arranged by fieldworker. Series 4: Final products. Series 5: Maps of New Jersey Pinelands.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="545">
+<subfield code="a">
+The Pinelands Folklife Project, directed by Mary Hufford of the American Folklife Center, Library of Congress, and staffed by a team of folklorists, photographers, an ethnobiologist, and an environmental psychologist, was developed in cooperation with the New Jersey Pinelands Commission to identify and document traditional culture and land use within and surrounding the Pinelands National Reserve from 1983 to 1986. The final phase of the project was conducted in cooperation with the National Park Service, the New Jersey State Historical Commission, the New Jersey Department of Environmental Protection and the New Jersey Department of Human Resources.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+The Pinelands Folklife Project collection represents the culmination of a three-year effort to identify and record the cultural traditions of the inhabitants in and around the Pinelands National Reserve in the Pine Barrens region of southern New Jersey in the mid-1980s. The collection comprises ethnographic documentation which examines the relationship between the local culture and the surrounding environment. The collection contains the administrative records, planning documents, and published materials related to the management of the field project. The bulk of the collection consists of field documentation recorded in a range of formats, including typed field notes and logs, sound recordings, graphic images, moving images, and one artifact. The collection also includes promotional materials, project publications, slide presentations, video programs, and documentation related to the museum exhibition and conference, New Jersey Pinelands: Tradition and Environment. The Pinelands Folklife Project was the first ethnographic study undertaken by the American Folklife Center to use computers in the field, and the computer disks and computer tape cartridges which contain field data and the project database are included as part of the collection. A t-shirt with a design which commemorates the use of computers to manage and execute the project is also included in the collection.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Pinelands Folklife Project collection (AFC 1991/023), American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="511">
+<subfield code="a">
+Participants include Joe Albert; Selina Albes; Benjamin A. Allen; Elaine Allen; Robert Ames; Ivan Arcaya; Frank Astemborski; Margaret "Liz" Bakely; Vernon Bakely; Frank Banish; Jeremy Barnard; Capt. Glendon Barry; Carl Beagle; Faith Becker; Rev. John Becker; Flora Bozarth Beebe; Herschel Beebe; Junie Bell; Nello Benedetti; Mae Berringer; Chris Bethmann; Peter Boden; Tom Boghosian; Glenn Borden; Dave Bower; Barry Brady; John Branin; George Brewer, Jr.; Robert Brewer; Alvin Brick; Bob Brickner; Larry Brickner; Stuart Brook; Ed Brown; Mildred Brown; Muriel Brown; Tom Brown; Alvan Buck, Sr.; John Budd; Mary Budd; Patricia Burke; Alva Buzby; Michelle Byers; Cleone Byrne; Kenneth Camp; George Campbell; Mr. and Mrs. C. Russell Canfield; Armand Carney; Pamela Carney; Elizabeth "Betsy" Carpenter; Lawrence Carpenter; Barry Cavileer; Pearl Cervetto; Richard M. Cesta; Thomas N. Chavis; Andrew Chin (Elder); Donald Cisrow; Evelyn Cisrow; Sarah Cisrow; William D. Clark; Dave Clemons; Eva Clevenger; Jim Collins; Rev. Milton Collins; Hurley Conklin; Don Cramer; Harold Creamer; Leroy Creamer; Ron Cuneo; Dan Curtis; Earl Danley; Mr. and Mrs. Mark Darlington; Tom Darlington; John Davidson; Alexander Davis; Ann Davis; Jack Davis; Dave Densbower; Frank Day; Miguel Juan De Jesus; Albert DeRosa; Charles DeStefano; Nicky Diblasi; Ron Dietrich; Harry Dilkes, Jr.; Hazy Dilkes; Maryjane Dolly; Dennis Doyle; Mr. and Mrs. James Doyle; Billy Dunn; Charles Dupras; Kimberly Eandhaid (Banghaip?); Helen Earlin; Gladys Eayre; Homer Ellison; Eugen Emmons; Msgr. Robert Ervin; Mr. and Mrs. Harry Farley; Helen Fasick; Fr. Konstantin Federov; Peter J. Finnegan; Don Fitzgerald; Chuck Folk; Clifford Frazee; Lucille Frazee; Steven Frazee; Adelio Garcia; Rae Gerber; Edith Giaziano; Gary Giberson; Joe Gibbs; Leonard Gille; Richard Gille; Hugh Gladwin; Dr. David Glassberg; Howard Goldberg; Lydia Gonzales; Arthur Gordon; Ted Gordon; Susan Grant; Frank Gray; Mid Green; Melvin Greenhowe; Patience Gower; Betty Gravinese; Lou Gravinese; Franklin A. Gray; Mid Green; Bob Hageman; William Haines, Sr.; Robert Lee Hamon; Deacon Bob Hannah; Ron Harker; Walter Hawn; Ed Hazelton; Catherine Heinrichs; George Heinrichs; Marge Helbig; Mr. and Mrs. Al Henry; Angelina Hernandez; Juan Hernandez; Russ Herr; Anthony Hillman; John Hillman; Warren Hitchner; Mr. and Mrs. Charles Hoeh; Kathryn A. Hoffman; Mr. and Mrs. Warren Homiller; Leon Hopkins; Joseph Horner; Russ Horner; Eugene S. Hunn; Sam Hunt; James Hurley; Nevin Ianuzzi; Eileen James; Evelyn James; Dr. Robert I. Jaslow; Bill Jenkins; Jeannette Johnson; Oliver Johnson; Howard C. Jones, Sr.; Pastor Ted Joshua; Dave Kalm; Barry Kienzle; Jeff Klotz; Ed Lamonaca; Hugh Lamonaca; Mary Lamonaca; Hazel Landy; Leo Landy; George C. Langdon; Mario Lawson; Reta Lawson; Rev. William Lawson; Abbot Lee; Bill Lee; Stephen Lee; Stephen Lee, III; Maurice Leonhardy; Carl H. Liepe; Teresa Litely; Roy Livingston; Jeanette Lobb; Ken Loggsden; Chris Loveland; William Lucas; Mr. and Mrs. Adolph Macker; Lt. Col. Craig C. MacNab; Leonard Maglioccio; Fred Mahn; Estelle Manor; Toni Marinella; George Marquez; Philip E. Marrucci; Joe Masker; Tony Mason; Louis McCoy; Dennis McDonald; Fernando Melendez; Francis Mick; Haines Mick; Henry Mick; Leonard Migliaccio; Herbert Misner; Mr. and Mrs. Fred W. Mitchell; Robert L. Morgan; Lois Morris; Gary Moskos; Paul Moskos; Daniel O'Connor; Barney Oldfield; Carl Owens; James Owens; Jim Owings; Cicero Page; Donald Palmeroy; Charlie Palmieri; Clara Paolino; Gladys Payne; Harry Payne; Cathy Pepper; Capt. Louis D. Peterson; Robert Peterson; Valia Petrenko; Wayne Phillips; Earl Piper; Charles Pomlear; Ralph Putiri; Salvatore Putiri, Jr.; Salvatore Putiri, Sr.; Charlie Pye; Marie Ramp; Melissa Ramp; Ted Ramp; Jean Razor; Fr. Jose Rebaque; Albert Reeves; Bob Reeves; James Reid; Mr. and Mrs. Joseph Reid; Harold Reiss; Rabbi Abel Respes; Msgr. William Reynolds; David Ridgway; Chester Riland; Rev. John Robbins; Elvin Rodriguez; Enrique Rodriguez; Natividad Rodriguez; Edward Roncoroni; Anne Ruof; Rev. and Mrs. Richard A. Ruof; Edward H. Salmon; Carmen Santiago; Tom Scangarello; Elaine Schuck; John Schuck; Laura M. Sell; Mark Sepulveda; Pat Sheehan; Marcia Sherper; Janice Sherwood; Paul Shrader; Doris Siciliano; Ada Simons; Betty Smith; Ken Somerdale; Annabelle Sooy; Rev. Benjamin Sooy; Wanda Sooy; Steve Soviczki; Nancy St. Charles; Rob Stanley; Jim Stasz; William J. Stevens; Hank Stevenson; Lorren Stiles; Louise Stiles; John Stokes; Nina Stroyen; Lilian C. Strohlein; Nina Bohush Stroyen; Rev. William "Basil" Stroyen; Robert Suralik; Caroline Taylor; Eddie Taylor; Freeman Taylor; Norman Taylor; Brad Thompson; Mary Ann Thompson; Mayor Bob Thompson; Bill Thoms; Jean Thoms; Alice Tomlinson; Ephraim Tomlinson; Hazel Torres; Juan Angel Torres; Orlando Torres; Mr. and Mrs. Harry Toussiant; Bonnie Townsend; Dusia Tserbotarew; Joanne Van Istendal; Janet Veach; Lynwood E. Veach, Sr.; Lynwood R. Veach, Jr.; Mr. and Mrs. Theodore Von Bosse; Alva Thompson Ware; Frank Warfle; Bill Wasiowich; Elwood Watson; Dee Dee Webb; Harvey Webb; Henry Webb; Boris Weintraub; Betty Wendt; Charles E. Wendt; Betty Lamson West; Floyd West; Beryl Whittington; Leah Wilhelm; Joseph Wilson; Elizabeth Woodford; Georgia Wurster; Dorothy Yates; Kenneth Yates; Bob York; Helen Ware Zelly; George Zimmer; Helen Zimmer.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of the collection materials may be governed by copyright and other restrictions. Certain restrictions to use or copying of materials may apply.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+In English, with some audio content in Spanish, Russian, Church Slavic, and Ukrainian.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid available online:</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af022003</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Land use</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cultural property</subfield>
+<subfield code="x">Protection</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pine Barrens.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Conservation of natural resources</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pine Barrens.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Hunting</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve</subfield>
+<subfield code="v">Anecdotes.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fishing</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="v">Anecdotes.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Oystering</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="v">Anecdotes.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Sand and gravel mines and mining</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve</subfield>
+<subfield code="v">Anecdotes.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">New Jersey.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Hymns, English</subfield>
+<subfield code="z">New Jersey.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Baptists</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Catholics</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Puerto Ricans</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ukrainian Americans</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Italian Americans</subfield>
+<subfield code="z">New Jersey</subfield>
+<subfield code="z">Pinelands National Reserve.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Pine Barrens (N.J.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Pine Barrens (N.J.)</subfield>
+<subfield code="x">Folklore.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Pine Barrens (N.J.)</subfield>
+<subfield code="x">Religious life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Pinelands National Reserve (N.J.)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Patuxent River Valley (Md.)</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Oral histories.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Manuscripts.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Videocassettes.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Aerial photographs.</subfield>
+<subfield code="2">gmgpc</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field notes.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Hymns.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Carroll, Thomas DeBlasio,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cartwright, Christine A.,</subfield>
+<subfield code="d">1955-1983,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cervetto, Jack,</subfield>
+<subfield code="d">1908-1995,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cohen, David Steven,</subfield>
+<subfield code="d">1943-</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Czarnecki, Joseph P.,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fleischhauer, Carl,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Glassie, Henry,</subfield>
+<subfield code="d">1941-</subfield>
+<subfield code="e">consultant.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hufford, Mary,</subfield>
+<subfield code="d">1952-</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hunn, Eugene S.,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Little, Silas,</subfield>
+<subfield code="e">interviewee.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lund, Jens,</subfield>
+<subfield code="d">1946-</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McDonald, Dennis,</subfield>
+<subfield code="d">1954-</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Moonsammy, Rita Zorn,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Morgan, Elizabeth M.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">O'Connor, Bonnie Blair,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">O'Connor, Malachi,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Orr, Jay,</subfield>
+<subfield code="e">consultant.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Parsons, Gerald E.,</subfield>
+<subfield code="d">1940-1995,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ridgway, Arlene Martin,</subfield>
+<subfield code="d">1936-</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ridgway, Merce,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Rubinstein, Nora J.</subfield>
+<subfield code="q">(Nora Jane),</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Samuelson, Sue,</subfield>
+<subfield code="d">1956-1991,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Shourds, Harry V.,</subfield>
+<subfield code="e">depicted.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sinton, John W.,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Thatcher, Elaine,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Tweed, Stewart M.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Vivian, V. Eugene.</subfield>
+</datafield>
+<datafield ind1="1" ind2="2" tag="700">
+<subfield code="a">Hufford, Mary,</subfield>
+<subfield code="d">1952-</subfield>
+<subfield code="t">
+One space, many places : folklife and land use in New Jersey's Pinelands National Reserve.
+</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pinelands Folklife Project (N.J.)</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Archive of Folk Culture (Library of Congress),</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="710">
+<subfield code="a">New Jersey.</subfield>
+<subfield code="b">Pinelands Commission.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pinehawkers (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pinelands Cultural Society.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af022003</subfield>
+</datafield>
+<datafield ind1="4" ind2="1" tag="856">
+<subfield code="3">Online collection</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/collafc.afc1991023</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>

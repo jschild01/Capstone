@@ -1,512 +1,261 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  05090cpcaa22007097a 4500
- </leader>
- <controlfield tag="001">
-  16008422
- </controlfield>
- <controlfield tag="005">
-  20210608134432.0
- </controlfield>
- <controlfield tag="007">
-  st ||ncm|||n|e
- </controlfield>
- <controlfield tag="007">
-  ss ||njl|||n|e
- </controlfield>
- <controlfield tag="008">
-  091204i19841985xx                  eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2009-12-04
-  </subfield>
-  <subfield code="a">
-   mkru 2012-12-18;
-  </subfield>
-  <subfield code="a">
-   mseg 2013-01-07
-  </subfield>
-  <subfield code="a">
-   mkru 2013-08-26; cker 2014-12-30; cker 2015-04-15
-  </subfield>
-  <subfield code="a">
-   mkru 2015-12-10
-  </subfield>
-  <subfield code="a">
-   mler 2017-08-15
-  </subfield>
-  <subfield code="a">
-   ahoo 2019-12-02
-  </subfield>
-  <subfield code="a">
-   masmit 2021-03-16
-  </subfield>
-  <subfield code="a">
-   masmit 2021-06-08
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2009655462
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="a">
-   spa
-  </subfield>
-  <subfield code="d">
-   eng
-  </subfield>
-  <subfield code="d">
-   spa
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us-nm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RXF 7242-7250; RYM 3794-3797
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1991/032
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   New Mexico Folklife Project collection,
-  </subfield>
-  <subfield code="f">
-   1984-1985 /
-  </subfield>
-  <subfield code="c">
-   collected by Carl Fleischhauer and Laurie Beth Kalb.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   2340
-  </subfield>
-  <subfield code="f">
-   items ;
-  </subfield>
-  <subfield code="a">
-   10
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   2
-  </subfield>
-  <subfield code="f">
-   containers ;
-  </subfield>
-  <subfield code="a">
-   10
-  </subfield>
-  <subfield code="f">
-   linear inches
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   4 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   9 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog ;
-  </subfield>
-  <subfield code="c">
-   7 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   approximately 700 film transparencies
-  </subfield>
-  <subfield code="b">
-   color
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   1029 film negatives
-  </subfield>
-  <subfield code="b">
-   black and white
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   203 film transparencies
-  </subfield>
-  <subfield code="b">
-   black and white, color
-  </subfield>
-  <subfield code="c">
-   2 1/4 x 2 1/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   40 contact sheets :
-  </subfield>
-  <subfield code="b">
-   black and white
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   The collection is open for research. To request materials, please contact the Folklife Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   Documentation from New Mexico fieldwork conducted by Carl Fleischhauer, consultant, of the American Folklife Center, in the summers of 1984 and 1985, with folklorist Laurie Beth Kalb, for the Museum of International Folk Art (Santa Fe). In 1984, Kalb documented the art of Hispanic carvers in northern New Mexico; in 1985 she contributed to a joint project of the Museum and the New Mexico Historic Preservation Office (HPO), who had contracted with Boyd Pratt to survey historic architecture in the northeastern quadrant of New Mexico. Fleischhauer, Kalb, and Pratt conducted a short folklife survey in Clayton, Mora, and Mosquero, and other locations in New Mexico. Topics documented in field notes and sound recordings include Hispanic art, folk art and culture; Pop Shaffer's folk art environments in Mountainair; and recordings of a livestock auction in Clayton. Collection includes an extended interview with Joe Cordova of Mosquero Canyon conducted by Laurie Kalb and Boyd Pratt; an interview with Enrique Sanchez, a Cuban American living in Mosquero, interviewed by Laurie Kalb in Spanish; and an extended interview with Trinidad and Marguerito Garcia of Mosquero by Laurie Kalb and Carl Fleischhauer. Photographs were taken in La Messilla, Truchas, Velarde, Dixon, and La Cueva, in Rio Arriba County; Las Vegas, San Miguel County; Mountainair, Torrance County; and Vallecitos, N.M. by Carl Fleischhauer.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="524">
-  <subfield code="a">
-   New Mexico Folklife Project collection, 1984-1985 (AFC 1991/032), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="530">
-  <subfield code="a">
-   Digital preservation masters from original analog sound tape reels and cassettes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of the collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Accesssioned;
-  </subfield>
-  <subfield code="d">
-   1991.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="535">
-  <subfield code="a">
-   Kalb's original field documents and reports are archived at the Museum of International Folk Art.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   Print materials in English and Spanish; sound recordings in English and Spanish.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af021003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk art
-  </subfield>
-  <subfield code="z">
-   New Mexico.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Vernacular architecture
-  </subfield>
-  <subfield code="z">
-   New Mexico.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Livestock
-  </subfield>
-  <subfield code="z">
-   New Mexico.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Auctions
-  </subfield>
-  <subfield code="z">
-   New Mexico.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Hispanic Americans
-  </subfield>
-  <subfield code="z">
-   New Mexico
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cuban Americans
-  </subfield>
-  <subfield code="z">
-   New Mexico
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Mosquero (N.M.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Clayton (N.M.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Mora (N.M.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   New Mexico
-  </subfield>
-  <subfield code="v">
-   Folklore.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Ethnography.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field notes.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fleischhauer, Carl,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kalb, Laurie Beth,
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Pratt, Boyd C.,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="710">
-  <subfield code="a">
-   New Mexico.
-  </subfield>
-  <subfield code="b">
-   Historic Preservation Division,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Museum of International Folk Art (N.M.),
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S. E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="1" tag="856">
-  <subfield code="3">
-   Online presentation
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/collafc.afc1991032
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af021003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>05090cpcaa22007097a 4500</leader>
+<controlfield tag="001">16008422</controlfield>
+<controlfield tag="005">20210608134432.0</controlfield>
+<controlfield tag="007">st ||ncm|||n|e</controlfield>
+<controlfield tag="007">ss ||njl|||n|e</controlfield>
+<controlfield tag="008">091204i19841985xx eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">mkru 2009-12-04</subfield>
+<subfield code="a">mkru 2012-12-18;</subfield>
+<subfield code="a">mseg 2013-01-07</subfield>
+<subfield code="a">mkru 2013-08-26; cker 2014-12-30; cker 2015-04-15</subfield>
+<subfield code="a">mkru 2015-12-10</subfield>
+<subfield code="a">mler 2017-08-15</subfield>
+<subfield code="a">ahoo 2019-12-02</subfield>
+<subfield code="a">masmit 2021-03-16</subfield>
+<subfield code="a">masmit 2021-06-08</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2009655462</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="a">spa</subfield>
+<subfield code="d">eng</subfield>
+<subfield code="d">spa</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us-nm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">RXF 7242-7250; RYM 3794-3797</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1991/032</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">New Mexico Folklife Project collection,</subfield>
+<subfield code="f">1984-1985 /</subfield>
+<subfield code="c">
+collected by Carl Fleischhauer and Laurie Beth Kalb.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">2340</subfield>
+<subfield code="f">items ;</subfield>
+<subfield code="a">10</subfield>
+<subfield code="f">containers</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">2</subfield>
+<subfield code="f">containers ;</subfield>
+<subfield code="a">10</subfield>
+<subfield code="f">linear inches</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">4 sound cassettes :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">9 sound tape reels :</subfield>
+<subfield code="b">analog ;</subfield>
+<subfield code="c">7 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">approximately 700 film transparencies</subfield>
+<subfield code="b">color</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">1029 film negatives</subfield>
+<subfield code="b">black and white</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">203 film transparencies</subfield>
+<subfield code="b">black and white, color</subfield>
+<subfield code="c">2 1/4 x 2 1/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">40 contact sheets :</subfield>
+<subfield code="b">black and white</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+The collection is open for research. To request materials, please contact the Folklife Reading Room at http://hdl.loc.gov/loc.afc/folklife.contact
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+Documentation from New Mexico fieldwork conducted by Carl Fleischhauer, consultant, of the American Folklife Center, in the summers of 1984 and 1985, with folklorist Laurie Beth Kalb, for the Museum of International Folk Art (Santa Fe). In 1984, Kalb documented the art of Hispanic carvers in northern New Mexico; in 1985 she contributed to a joint project of the Museum and the New Mexico Historic Preservation Office (HPO), who had contracted with Boyd Pratt to survey historic architecture in the northeastern quadrant of New Mexico. Fleischhauer, Kalb, and Pratt conducted a short folklife survey in Clayton, Mora, and Mosquero, and other locations in New Mexico. Topics documented in field notes and sound recordings include Hispanic art, folk art and culture; Pop Shaffer's folk art environments in Mountainair; and recordings of a livestock auction in Clayton. Collection includes an extended interview with Joe Cordova of Mosquero Canyon conducted by Laurie Kalb and Boyd Pratt; an interview with Enrique Sanchez, a Cuban American living in Mosquero, interviewed by Laurie Kalb in Spanish; and an extended interview with Trinidad and Marguerito Garcia of Mosquero by Laurie Kalb and Carl Fleischhauer. Photographs were taken in La Messilla, Truchas, Velarde, Dixon, and La Cueva, in Rio Arriba County; Las Vegas, San Miguel County; Mountainair, Torrance County; and Vallecitos, N.M. by Carl Fleischhauer.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="524">
+<subfield code="a">
+New Mexico Folklife Project collection, 1984-1985 (AFC 1991/032), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="530">
+<subfield code="a">
+Digital preservation masters from original analog sound tape reels and cassettes.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of the collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">Accesssioned;</subfield>
+<subfield code="d">1991.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="535">
+<subfield code="a">
+Kalb's original field documents and reports are archived at the Museum of International Folk Art.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+Print materials in English and Spanish; sound recordings in English and Spanish.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af021003</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk art</subfield>
+<subfield code="z">New Mexico.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Vernacular architecture</subfield>
+<subfield code="z">New Mexico.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Livestock</subfield>
+<subfield code="z">New Mexico.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Auctions</subfield>
+<subfield code="z">New Mexico.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Hispanic Americans</subfield>
+<subfield code="z">New Mexico</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cuban Americans</subfield>
+<subfield code="z">New Mexico</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Mosquero (N.M.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Clayton (N.M.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Mora (N.M.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">New Mexico</subfield>
+<subfield code="v">Folklore.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="655">
+<subfield code="a">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Ethnography.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field notes.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fleischhauer, Carl,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kalb, Laurie Beth,</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Pratt, Boyd C.,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="710">
+<subfield code="a">New Mexico.</subfield>
+<subfield code="b">Historic Preservation Division,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Museum of International Folk Art (N.M.),</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S. E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="1" tag="856">
+<subfield code="3">Online presentation</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/collafc.afc1991032</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af021003</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>

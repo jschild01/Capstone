@@ -1,3281 +1,1634 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  21301cpcaa22046457a 4500
- </leader>
- <controlfield tag="001">
-  17566147
- </controlfield>
- <controlfield tag="005">
-  20231031141045.0
- </controlfield>
- <controlfield tag="007">
-  st o|n|m|||n|e
- </controlfield>
- <controlfield tag="007">
-  ss ||n|||||n|d
- </controlfield>
- <controlfield tag="007">
-  sd ||ngnn|||||
- </controlfield>
- <controlfield tag="008">
-  121217i19712008xxu                 eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2012-12-17;
-  </subfield>
-  <subfield code="a">
-   mseg 2013-01-07
-  </subfield>
-  <subfield code="a">
-   mseg 2013-04-17
-  </subfield>
-  <subfield code="a">
-   mseg 2013-04-19
-  </subfield>
-  <subfield code="a">
-   mseg 2013-09-09
-  </subfield>
-  <subfield code="a">
-   mseg 2013-09-11
-  </subfield>
-  <subfield code="a">
-   mseg 2014-09-18
-  </subfield>
-  <subfield code="a">
-   mseg 2014-12-29
-  </subfield>
-  <subfield code="a">
-   mseg 2015-03-24
-  </subfield>
-  <subfield code="a">
-   mseg 2015-12-22
-  </subfield>
-  <subfield code="a">
-   mseg 2016-08-23
-  </subfield>
-  <subfield code="a">
-   mseg 2017-05-17
-  </subfield>
-  <subfield code="a">
-   mseg 2017-05-28
-  </subfield>
-  <subfield code="a">
-   mkru 2018-11-09
-  </subfield>
-  <subfield code="a">
-   mler 2020-03-05
-  </subfield>
-  <subfield code="a">
-   masmit 2020-04-20
-  </subfield>
-  <subfield code="a">
-   mler 2020-05-14
-  </subfield>
-  <subfield code="a">
-   masmit 2020-05-14
-  </subfield>
-  <subfield code="a">
-   masmit 2020-05-15
-  </subfield>
-  <subfield code="a">
-   masmit 2020-05-18
-  </subfield>
-  <subfield code="a">
-   masmit 2020-06-01
-  </subfield>
-  <subfield code="a">
-   kere 2020-06-01
-  </subfield>
-  <subfield code="a">
-   masmit 2020-06-03
-  </subfield>
-  <subfield code="a">
-   masmit 2020-06-08
-  </subfield>
-  <subfield code="a">
-   masmit 2021-01-19
-  </subfield>
-  <subfield code="a">
-   masmit 2023-04-05
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="033">
-  <subfield code="a">
-   1971----
-  </subfield>
-  <subfield code="a">
-   2008----
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2012655530
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   mul
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us---
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RYN 9617-9623; RYP 4408-4409
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RGB 6743-6745, RGB 6747, RGB 8516-8567, RGB 8885-9102, RGB 9193-9203, RGB 9206-9221, RGB 9274-9434; RGC 0377-0411, RGC 0530-0617
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   ICD 20525-20599; ICD 21009-21019; ICD 21040-21057; ICD 21059-21079; ICD 21160-21219; ICD 21240-21259; ICD 21261-21279
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   ICD 23868-23879; ICD 23889-24079; ICD 25250-25374; ICD 27573-27757; ICD 27759-27999
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RAA 55087-55206; ICD 55221-55287; ICD 55337-55569; RAA 55665-55674
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RGB 2619; RGB 2840-2942; RGB 2992-2999; RGB 3624-3639; RGB 3696-3999; RGB 4059-4329; RGB 4500-5033; RGB 5633-5639
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RGB 6053-6058; RGB 6261-6479; RGB 6520-6719; RGB 6750-6757; RGB 6759; RGB 6764-6860; RGB 7426-7619; RGB 7927-8176; RGB 9500-9514; RGB 9568-6699; RGB 8355-8514
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RYJ 5004-5005; RYJ 5045-5150; RYJ 5152-5443; RYJ 5496-5658; RYK 5151; RYK 8201-8259; RYL 7013-7068
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   VTC 2361 (1 in. videotape; 66 min.)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 2001/019
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   National Council for the Traditional Arts (NCTA) collection.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="260">
-  <subfield code="c">
-   circa 1971-2008.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   18,794
-  </subfield>
-  <subfield code="f">
-   items ;
-  </subfield>
-  <subfield code="a">
-   6,025
-  </subfield>
-  <subfield code="f">
-   containers.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   36
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
-  <subfield code="a">
-   (approximately 12,600
-  </subfield>
-  <subfield code="f">
-   items;
-  </subfield>
-  <subfield code="a">
-   14
-  </subfield>
-  <subfield code="f">
-   linear feet)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   985 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   704 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   3,291 Digital Audio Tapes (DAT) :
-  </subfield>
-  <subfield code="b">
-   digital.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   1003 sound discs (CD-R) :
-  </subfield>
-  <subfield code="b">
-   digital ;
-  </subfield>
-  <subfield code="c">
-   4 3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   205 sound files :
-  </subfield>
-  <subfield code="b">
-   digital, WAV files (96 kHz, 24 bit and 44.1 kHz, 16 bit)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   6 videocassettes :
-  </subfield>
-  <subfield code="b">
-   analog.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="511">
-  <subfield code="a">
-   Various performers.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="518">
-  <subfield code="a">
-   Recorded at various festivals, tours, concerts, and other events organized by the NCTA.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   Collection of concert and workshop recordings of events at the National Folk Festivals, sponsored by the National Council for the Traditional Arts (NCTA), formerly the National Folk Festival Association founded in 1934, featuring performances of  ballads, blues, bluegrass, contra dance music, country music, cowboy songs, fiddle tunes, folk music, gospel music, hymns, old-time music, singer songwriters, steel band music, storytelling, Western swing, and more; with numerous performers playing music from African, African American, American Indian, Cajun, Canadian, Caribbean, Eastern European, Hawaiian, Irish, Latin American, Mexican, Scottish, Sea Islands, Sicilian, Ukrainian, and many other traditions from throughout the United States and from around the world.  Manuscripts include documentation from the containers of the original sound recordings.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   National Council for the Traditional Arts (NCTA) collection (AFC 2001/019), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. Access to recordings may be restricted. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="530">
-  <subfield code="a">
-   Collection includes digital preservation files from analog recordings.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="533">
-  <subfield code="3">
-   2017 ingest:
-  </subfield>
-  <subfield code="a">
-   digital audio
-  </subfield>
-  <subfield code="e">
-   111,598 sound recordings (WAV) : digital.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="533">
-  <subfield code="3">
-   2017 ingest:
-  </subfield>
-  <subfield code="a">
-   digital video
-  </subfield>
-  <subfield code="e">
-   7 video files (MOV) : digital, color, sound.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of sound recordings may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   National Council for the Traditional Arts;
-  </subfield>
-  <subfield code="c">
-   Donation ;
-  </subfield>
-  <subfield code="d">
-   2001.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   In multiple languages, primarily in English.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020002
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music festivals
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk festivals
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, English
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Acadians
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ballads, English
-  </subfield>
-  <subfield code="z">
-   Appalachian Region.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Basket making.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Basque Americans
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Bluegrass music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Blues (Music)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Boogie woogie &amp; barrelhouse piano.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="650">
-  <subfield code="a">
-   Buck dance.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cajun music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cajun music
-  </subfield>
-  <subfield code="z">
-   Louisiana.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Calypso (Music)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cherokee Indians
-  </subfield>
-  <subfield code="v">
-   Folklore.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Conjunto music
-  </subfield>
-  <subfield code="z">
-   Mexico.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Conjunto music
-  </subfield>
-  <subfield code="z">
-   Texas.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Country music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cowboys
-  </subfield>
-  <subfield code="v">
-   Poetry.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cowboys
-  </subfield>
-  <subfield code="v">
-   Songs and music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fiddle tunes
-  </subfield>
-  <subfield code="z">
-   Appalachian Region.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fiddle tunes
-  </subfield>
-  <subfield code="z">
-   Ireland.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fiddle tunes
-  </subfield>
-  <subfield code="z">
-   Ozark Mountains Region.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk dance music
-  </subfield>
-  <subfield code="z">
-   Appalachian Region.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk dance music
-  </subfield>
-  <subfield code="z">
-   Ireland.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk dance music
-  </subfield>
-  <subfield code="z">
-   Nova Scotia
-  </subfield>
-  <subfield code="z">
-   Cape Breton Island.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Hawaii.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Ireland.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Poland.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Funk (Music)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Garifuna (Caribbean people)
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Garifuna (Caribbean people)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Go-go (Music)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Gospel music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Greek Americans
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Guitar music (Slack key)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Indians of North America
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Irish Americans
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Jazz.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Klezmer music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Music
-  </subfield>
-  <subfield code="z">
-   Bulgaria.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Music
-  </subfield>
-  <subfield code="z">
-   Ethiopia.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Old-time music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Oud and percussion music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Polish Americans
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Polka (Dance)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Polkas.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Rhythm and blues music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Rockabilly music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Sacred music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="650">
-  <subfield code="a">
-   Singer-songwriter music.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Lakota.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Zuni.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Spirituals (Songs)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Step dancing
-  </subfield>
-  <subfield code="z">
-   Ireland.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Storytelling.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   String band music
-  </subfield>
-  <subfield code="z">
-   Appalachian Region.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Tales
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Tsimshian Indians
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ukrainian Americans
-  </subfield>
-  <subfield code="v">
-   Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Vallenato (Music)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Yodeling.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Manuscripts.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Video recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Indian Music and Dance Troupe,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Appalachian Trail (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ardoin, Chris,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Armstrong Twins,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ayala, Pedro,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Back Step Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Badgett Sisters,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Baker, Etta,
-  </subfield>
-  <subfield code="d">
-   1913-2006,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Baker, Kenny,
-  </subfield>
-  <subfield code="d">
-   1926-2011,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ball, Marcia,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Barachois (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Barnes, Brady,
-  </subfield>
-  <subfield code="d">
-   1908-1986,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Barnes, Lucy,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bass, Fontella,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Beausoleil (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Beginish (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bellar, Johnny,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bergey, Barry,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Best, Carroll,
-  </subfield>
-  <subfield code="d">
-   1931-1995,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Birmingham Sunlights (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Blazonczyk, Eddie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Blind Boys of Alabama,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Blue Highway (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Bluegrass Mountaineers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Boyer, Horace Clarence,
-  </subfield>
-  <subfield code="d">
-   1935-2009,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Boys of the Lough,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   BR549 (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Brave Old World (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bright, Fletcher,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bruce, Vin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Burris, J. C.,
-  </subfield>
-  <subfield code="d">
-   1928-1988,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Butler, Henry
-  </subfield>
-  <subfield code="c">
-   (Pianist),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cage, Bob,
-  </subfield>
-  <subfield code="d">
-   1923-2014,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cahill, Dennis,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Cana Ramblers (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cano, Nati,
-  </subfield>
-  <subfield code="d">
-   1933-2014,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Canterbury Country Dance Orchestra,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Carroll, Liz,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Casserino, Matteo,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Cellicion Family Singers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Cephas &amp; Wiggins,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cephas, John,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Chaksam-Pa Tibetan Dance and Opera Company,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Chatuye (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Chavis, Boozoo,
-  </subfield>
-  <subfield code="d">
-   1930-2001,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Cherish the Ladies (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Collins, Cal,
-  </subfield>
-  <subfield code="d">
-   1933-2001,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Comhaltas Ceoltóirí Éireann.
-  </subfield>
-  <subfield code="b">
-   Hanafin-Cooley Branch,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Connolly, Séamus,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cooney, Michael B.,
-  </subfield>
-  <subfield code="d">
-   1943-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cormier, J. P.
-  </subfield>
-  <subfield code="q">
-   (John Paul),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cormier, Joseph,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Courville, Sady,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cruz, Lorenzo,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cuesta, Iván,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="700">
-  <subfield code="a">
-   D. R.
-  </subfield>
-  <subfield code="q">
-   (Dalton Roberts),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Dahlin, Paul,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Daigrepont, Bruce,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Damessae, Seleshe,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Danú (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Daugherty, Junior,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Delafose, Geno,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Delafose, John,
-  </subfield>
-  <subfield code="d">
-   1939-1994,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Derrane, Joe,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Dervish (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Dickey, Lotus,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Double Clutchin' (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Doucet, David,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Doucet, Michael,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Douglas, Jerry,
-  </subfield>
-  <subfield code="d">
-   1956-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Doyle, Danny,
-  </subfield>
-  <subfield code="d">
-   1940-2019,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Doyle, John,
-  </subfield>
-  <subfield code="d">
-   1971-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Dry Branch Fire Squad,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Duskin, Big Joe,
-  </subfield>
-  <subfield code="d">
-   1921-2007,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   East, Ernest,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Ecos de Borinquen (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Eddie Blazonczyk's Versatones,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Egan, Séamus,
-  </subfield>
-  <subfield code="d">
-   1969-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Eller Brothers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ellis, Tony
-  </subfield>
-  <subfield code="c">
-   (Banjoist),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ellis, Wilbert,
-  </subfield>
-  <subfield code="d">
-   1914-1977,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Eunice Playboys (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Fantasmas del Valle (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Filé (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Flint Nation Singers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Flippen, Benton,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ford, Brownie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Four Eagle Gospel Singers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fraley, Annadeene,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fraley, J. P.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Frank, Keith,
-  </subfield>
-  <subfield code="d">
-   1972-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   French Rockin' Boogie (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Front Porch String Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gaffney, Brian
-  </subfield>
-  <subfield code="c">
-   (Musician),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Galbraith, Art,
-  </subfield>
-  <subfield code="d">
-   1909-1993,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Ganga (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Git-Hoan (Dance troupe),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Grcevich, Jerry,
-  </subfield>
-  <subfield code="d">
-   1951-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Green Fields of America (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Griffith, James S.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Grupo Fantasma,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gutiérrez, José
-  </subfield>
-  <subfield code="q">
-   (Gutiérrez Ramón),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hagopian, Richard A.,
-  </subfield>
-  <subfield code="d">
-   1937-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Haleamau, Karin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Harley Allen-Mike Lilly Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Harmonia (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hayes, Martin,
-  </subfield>
-  <subfield code="d">
-   1961-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Henderson, Wayne,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Highwoods String Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hinton, Algia Mae,
-  </subfield>
-  <subfield code="d">
-   1929-2018,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Holeman, John Dee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Holloway, Quentin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Holmes Brothers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hooven, Greg,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Houserockers (Musical group : Hezekiah Early),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Howard, Clint,
-  </subfield>
-  <subfield code="d">
-   1930-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Inca Son (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ivers, Eileen,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Jackson, John,
-  </subfield>
-  <subfield code="d">
-   1924-2002,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   James King Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Jiménez, Santiago,
-  </subfield>
-  <subfield code="c">
-   Jr.,
-  </subfield>
-  <subfield code="d">
-   1944-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Johnson Mountain Boys,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kaapana, Ledward,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Karl and the Country Dutchmen,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Keane, Sean,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kimbrough, James,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kirchen, Bill,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Knott, Sarah Gertrude,
-  </subfield>
-  <subfield code="d">
-   1895-1984,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kouyate, Djimo,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Krauss, Alison,
-  </subfield>
-  <subfield code="d">
-   1971-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   LaBeef, Sleepy,
-  </subfield>
-  <subfield code="d">
-   1935-2019,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lamond, Mary Jane,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lang, Julian,
-  </subfield>
-  <subfield code="d">
-   1951-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   LaPrelle, Elizabeth,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lawson, Doyle,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Little, Jeff T.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Livesay Quartet,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Locke, Kevin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lohman, Jon,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Lost Bayou Ramblers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Louisiana Aces (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Lúnasa (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lynch, Claire,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Lynn Morris Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   MacMaster, Natalie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="700">
-  <subfield code="a">
-   Magic Slim
-  </subfield>
-  <subfield code="c">
-   (Musician),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mainer, Wade,
-  </subfield>
-  <subfield code="d">
-   1907-2011,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Mamou Playboys,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mangan, Patrick,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Mariachi Jalisco,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Mariachi Los Camperos de Nati Cano,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Marimba Chiapas,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Marimba Continental (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Marshall, Brian
-  </subfield>
-  <subfield code="c">
-   (Musician),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Martin, Reed
-  </subfield>
-  <subfield code="c">
-   (Banjoist),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Martinez, Roberto,
-  </subfield>
-  <subfield code="d">
-   1929-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McCann, Gordon,
-  </subfield>
-  <subfield code="d">
-   1931-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McCoury, Del,
-  </subfield>
-  <subfield code="d">
-   1939-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McGee, Dennis,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McIntyre, Chuna,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   McKenna, Antoinette,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Menard, D. L.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="700">
-  <subfield code="a">
-   Mighty Sparrow,
-  </subfield>
-  <subfield code="d">
-   1935-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mitchell, Fleeta,
-  </subfield>
-  <subfield code="d">
-   1913-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mitchell, Nathaniel,
-  </subfield>
-  <subfield code="d">
-   1912?-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Moloney, Mick,
-  </subfield>
-  <subfield code="d">
-   1944-2022,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Morrison, Harold,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mouton, Walter,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mulvihill, Brendan,
-  </subfield>
-  <subfield code="d">
-   1954- ,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Nashville Bluegrass Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Next Generation (Choral group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Nguyẽ̂n, Thuyé̂t Phong,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   No Speed Limit (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   O'Hare, Kieran,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   O'Sullivan, Jerry,
-  </subfield>
-  <subfield code="d">
-   1959-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ohrlin, Glenn,
-  </subfield>
-  <subfield code="d">
-   1926-2015,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Oinkari Basque Dancers (Boise, Idaho),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Olin, Julia,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Paisley, Danny,
-  </subfield>
-  <subfield code="d">
-   1959- ,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Paschall Brothers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Paulin, Ernest,
-  </subfield>
-  <subfield code="d">
-   1907-2007,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Pearson, Barry Lee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Pennington, Eddie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Pierson, Leroy Jodie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pine Ridge Boys,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Pleasants, Dick,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pleneros de la 21 (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pregoneros del Puerto,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Pure Texas Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Quebe Sisters Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Quicksilver (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Quimby, Doug,
-  </subfield>
-  <subfield code="d">
-   1936-2006,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Quimby, Frankie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Raghavan, Jothi,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Red Clay Ramblers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Reyes de Albuquerque (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Riley, Steve
-  </subfield>
-  <subfield code="c">
-   (Singer),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Roan Mountain Hilltoppers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Robinson, Debbie,
-  </subfield>
-  <subfield code="d">
-   1965-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Robinson, Lavaughn,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="700">
-  <subfield code="a">
-   Rockin' Dopsie,
-  </subfield>
-  <subfield code="c">
-   Jr.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Roheim, Anund,
-  </subfield>
-  <subfield code="d">
-   1913-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Ross County Farmers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ross,
-  </subfield>
-  <subfield code="c">
-   Dr.
-  </subfield>
-  <subfield code="q">
-   (Isaiah),
-  </subfield>
-  <subfield code="d">
-   1925-1993,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ross, Gayle
-  </subfield>
-  <subfield code="c">
-   (Singer),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Roy, Gilles
-  </subfield>
-  <subfield code="c">
-   (Dancer),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Saldivar, Mingo,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sapoznik, Henry,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Savoy, Marc,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Scott Playboys,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Severe, Duff,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Shady Mountain Ramblers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sheehy, Daniel,
-  </subfield>
-  <subfield code="d">
-   1947-
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Shelor, Sammy,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sizemore, Whit,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Slyde, Jimmy,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Smokey Valley Boys,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Smoking Bluegrass (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Soileau Zydeco Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Solas (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Spitzer, Nicholas R.,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Spottswood, Richard K.
-  </subfield>
-  <subfield code="q">
-   (Richard Keith),
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Springfield Exit (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sproat, Clyde Halemaʻumaʻu,
-  </subfield>
-  <subfield code="d">
-   1930-2008,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sredzienski, Gary,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   St. Pierre, Simon,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Stanky, John,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Stanley, Ralph,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Stepping Ambassadors,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Sun Rhythm Section,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sutphin, Kirk,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Ta Pethia,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Tanner, Gordon,
-  </subfield>
-  <subfield code="d">
-   1916-1982,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Thompson, Hayden,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="700">
-  <subfield code="a">
-   Ti-Coca,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Tipton, Carl,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Too Much Fun (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Toups, Wayne,
-  </subfield>
-  <subfield code="d">
-   1958- ,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Townsend, Henry,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Tremendos Cuatro Espadas (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Trowbridge, Kenneth,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Union Station (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Valley Ramblers (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Van Arsdale, Paul,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Vent du nord (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Viesca, Juan,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Vinagre, Ana Bela,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Vishtèn (Musical Group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Walden, Charlie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wallace, Andy,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wallin, Doug,
-  </subfield>
-  <subfield code="d">
-   1919-2000,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Walser, Don,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wang, Yuqin,
-  </subfield>
-  <subfield code="d">
-   1946-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Wanga-Nègès (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Watson, Dale,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Watson, Doc,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   White, Buck,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Whitetop Mountain Band,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Whitstein Brothers,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Williams, Claude,
-  </subfield>
-  <subfield code="d">
-   1908-2004,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Williams, Warner,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wilson, Joe,
-  </subfield>
-  <subfield code="d">
-   1938-2015,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wine, Melvin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Wylie &amp; the Wild West (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Yuri Yunakov Ensemble,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Zydecajun (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Zydeco Cha-Chas (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   National Council for the Traditional Arts,
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="711">
-  <subfield code="a">
-   National Folk Festival (U.S.)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020002
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>21301cpcaa22046457a 4500</leader>
+<controlfield tag="001">17566147</controlfield>
+<controlfield tag="005">20231031141045.0</controlfield>
+<controlfield tag="007">st o|n|m|||n|e</controlfield>
+<controlfield tag="007">ss ||n|||||n|d</controlfield>
+<controlfield tag="007">sd ||ngnn|||||</controlfield>
+<controlfield tag="008">121217i19712008xxu eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">mkru 2012-12-17;</subfield>
+<subfield code="a">mseg 2013-01-07</subfield>
+<subfield code="a">mseg 2013-04-17</subfield>
+<subfield code="a">mseg 2013-04-19</subfield>
+<subfield code="a">mseg 2013-09-09</subfield>
+<subfield code="a">mseg 2013-09-11</subfield>
+<subfield code="a">mseg 2014-09-18</subfield>
+<subfield code="a">mseg 2014-12-29</subfield>
+<subfield code="a">mseg 2015-03-24</subfield>
+<subfield code="a">mseg 2015-12-22</subfield>
+<subfield code="a">mseg 2016-08-23</subfield>
+<subfield code="a">mseg 2017-05-17</subfield>
+<subfield code="a">mseg 2017-05-28</subfield>
+<subfield code="a">mkru 2018-11-09</subfield>
+<subfield code="a">mler 2020-03-05</subfield>
+<subfield code="a">masmit 2020-04-20</subfield>
+<subfield code="a">mler 2020-05-14</subfield>
+<subfield code="a">masmit 2020-05-14</subfield>
+<subfield code="a">masmit 2020-05-15</subfield>
+<subfield code="a">masmit 2020-05-18</subfield>
+<subfield code="a">masmit 2020-06-01</subfield>
+<subfield code="a">kere 2020-06-01</subfield>
+<subfield code="a">masmit 2020-06-03</subfield>
+<subfield code="a">masmit 2020-06-08</subfield>
+<subfield code="a">masmit 2021-01-19</subfield>
+<subfield code="a">masmit 2023-04-05</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="033">
+<subfield code="a">1971----</subfield>
+<subfield code="a">2008----</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2012655530</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="d">mul</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us---</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">RYN 9617-9623; RYP 4408-4409</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RGB 6743-6745, RGB 6747, RGB 8516-8567, RGB 8885-9102, RGB 9193-9203, RGB 9206-9221, RGB 9274-9434; RGC 0377-0411, RGC 0530-0617
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+ICD 20525-20599; ICD 21009-21019; ICD 21040-21057; ICD 21059-21079; ICD 21160-21219; ICD 21240-21259; ICD 21261-21279
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+ICD 23868-23879; ICD 23889-24079; ICD 25250-25374; ICD 27573-27757; ICD 27759-27999
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RAA 55087-55206; ICD 55221-55287; ICD 55337-55569; RAA 55665-55674
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RGB 2619; RGB 2840-2942; RGB 2992-2999; RGB 3624-3639; RGB 3696-3999; RGB 4059-4329; RGB 4500-5033; RGB 5633-5639
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RGB 6053-6058; RGB 6261-6479; RGB 6520-6719; RGB 6750-6757; RGB 6759; RGB 6764-6860; RGB 7426-7619; RGB 7927-8176; RGB 9500-9514; RGB 9568-6699; RGB 8355-8514
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+RYJ 5004-5005; RYJ 5045-5150; RYJ 5152-5443; RYJ 5496-5658; RYK 5151; RYK 8201-8259; RYL 7013-7068
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">VTC 2361 (1 in. videotape; 66 min.)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 2001/019</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">
+National Council for the Traditional Arts (NCTA) collection.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="260">
+<subfield code="c">circa 1971-2008.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">18,794</subfield>
+<subfield code="f">items ;</subfield>
+<subfield code="a">6,025</subfield>
+<subfield code="f">containers.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">36</subfield>
+<subfield code="f">containers</subfield>
+<subfield code="a">(approximately 12,600</subfield>
+<subfield code="f">items;</subfield>
+<subfield code="a">14</subfield>
+<subfield code="f">linear feet)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">985 sound tape reels :</subfield>
+<subfield code="b">analog.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">sound recordings</subfield>
+<subfield code="a">704 sound cassettes :</subfield>
+<subfield code="b">analog.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">3,291 Digital Audio Tapes (DAT) :</subfield>
+<subfield code="b">digital.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">1003 sound discs (CD-R) :</subfield>
+<subfield code="b">digital ;</subfield>
+<subfield code="c">4 3/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">205 sound files :</subfield>
+<subfield code="b">
+digital, WAV files (96 kHz, 24 bit and 44.1 kHz, 16 bit)
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">6 videocassettes :</subfield>
+<subfield code="b">analog.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="511">
+<subfield code="a">Various performers.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="518">
+<subfield code="a">
+Recorded at various festivals, tours, concerts, and other events organized by the NCTA.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+Collection of concert and workshop recordings of events at the National Folk Festivals, sponsored by the National Council for the Traditional Arts (NCTA), formerly the National Folk Festival Association founded in 1934, featuring performances of ballads, blues, bluegrass, contra dance music, country music, cowboy songs, fiddle tunes, folk music, gospel music, hymns, old-time music, singer songwriters, steel band music, storytelling, Western swing, and more; with numerous performers playing music from African, African American, American Indian, Cajun, Canadian, Caribbean, Eastern European, Hawaiian, Irish, Latin American, Mexican, Scottish, Sea Islands, Sicilian, Ukrainian, and many other traditions from throughout the United States and from around the world. Manuscripts include documentation from the containers of the original sound recordings.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+National Council for the Traditional Arts (NCTA) collection (AFC 2001/019), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. Access to recordings may be restricted. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="530">
+<subfield code="a">
+Collection includes digital preservation files from analog recordings.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="533">
+<subfield code="3">2017 ingest:</subfield>
+<subfield code="a">digital audio</subfield>
+<subfield code="e">111,598 sound recordings (WAV) : digital.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="533">
+<subfield code="3">2017 ingest:</subfield>
+<subfield code="a">digital video</subfield>
+<subfield code="e">7 video files (MOV) : digital, color, sound.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of sound recordings may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">National Council for the Traditional Arts;</subfield>
+<subfield code="c">Donation ;</subfield>
+<subfield code="d">2001.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">In multiple languages, primarily in English.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020002</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music festivals</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk festivals</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, English</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Acadians</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ballads, English</subfield>
+<subfield code="z">Appalachian Region.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Basket making.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Basque Americans</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Bluegrass music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Blues (Music)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Boogie woogie & barrelhouse piano.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="650">
+<subfield code="a">Buck dance.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cajun music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cajun music</subfield>
+<subfield code="z">Louisiana.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Calypso (Music)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cherokee Indians</subfield>
+<subfield code="v">Folklore.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Conjunto music</subfield>
+<subfield code="z">Mexico.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Conjunto music</subfield>
+<subfield code="z">Texas.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Country music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cowboys</subfield>
+<subfield code="v">Poetry.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cowboys</subfield>
+<subfield code="v">Songs and music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fiddle tunes</subfield>
+<subfield code="z">Appalachian Region.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fiddle tunes</subfield>
+<subfield code="z">Ireland.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fiddle tunes</subfield>
+<subfield code="z">Ozark Mountains Region.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk dance music</subfield>
+<subfield code="z">Appalachian Region.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk dance music</subfield>
+<subfield code="z">Ireland.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk dance music</subfield>
+<subfield code="z">Nova Scotia</subfield>
+<subfield code="z">Cape Breton Island.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Hawaii.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Ireland.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Poland.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Funk (Music)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Garifuna (Caribbean people)</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Garifuna (Caribbean people)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Go-go (Music)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Gospel music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Greek Americans</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Guitar music (Slack key)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Indians of North America</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Irish Americans</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Jazz.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Klezmer music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Music</subfield>
+<subfield code="z">Bulgaria.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Music</subfield>
+<subfield code="z">Ethiopia.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Old-time music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Oud and percussion music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Polish Americans</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Polka (Dance)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Polkas.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Rhythm and blues music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Rockabilly music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Sacred music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="650">
+<subfield code="a">Singer-songwriter music.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Lakota.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Zuni.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Spirituals (Songs)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Step dancing</subfield>
+<subfield code="z">Ireland.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Storytelling.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">String band music</subfield>
+<subfield code="z">Appalachian Region.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Tales</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Tsimshian Indians</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ukrainian Americans</subfield>
+<subfield code="v">Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Vallenato (Music)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Yodeling.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Manuscripts.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Video recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Indian Music and Dance Troupe,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Appalachian Trail (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ardoin, Chris,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Armstrong Twins,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ayala, Pedro,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Back Step Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Badgett Sisters,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Baker, Etta,</subfield>
+<subfield code="d">1913-2006,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Baker, Kenny,</subfield>
+<subfield code="d">1926-2011,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ball, Marcia,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Barachois (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Barnes, Brady,</subfield>
+<subfield code="d">1908-1986,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Barnes, Lucy,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bass, Fontella,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Beausoleil (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Beginish (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bellar, Johnny,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bergey, Barry,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Best, Carroll,</subfield>
+<subfield code="d">1931-1995,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Birmingham Sunlights (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Blazonczyk, Eddie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Blind Boys of Alabama,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Blue Highway (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Bluegrass Mountaineers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Boyer, Horace Clarence,</subfield>
+<subfield code="d">1935-2009,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Boys of the Lough,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">BR549 (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Brave Old World (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bright, Fletcher,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bruce, Vin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Burris, J. C.,</subfield>
+<subfield code="d">1928-1988,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Butler, Henry</subfield>
+<subfield code="c">(Pianist),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cage, Bob,</subfield>
+<subfield code="d">1923-2014,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cahill, Dennis,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Cana Ramblers (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cano, Nati,</subfield>
+<subfield code="d">1933-2014,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Canterbury Country Dance Orchestra,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Carroll, Liz,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Casserino, Matteo,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Cellicion Family Singers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Cephas & Wiggins,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cephas, John,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Chaksam-Pa Tibetan Dance and Opera Company,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Chatuye (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Chavis, Boozoo,</subfield>
+<subfield code="d">1930-2001,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Cherish the Ladies (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Collins, Cal,</subfield>
+<subfield code="d">1933-2001,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Comhaltas Ceoltóirí Éireann.</subfield>
+<subfield code="b">Hanafin-Cooley Branch,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Connolly, Séamus,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cooney, Michael B.,</subfield>
+<subfield code="d">1943-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cormier, J. P.</subfield>
+<subfield code="q">(John Paul),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cormier, Joseph,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Courville, Sady,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cruz, Lorenzo,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cuesta, Iván,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="700">
+<subfield code="a">D. R.</subfield>
+<subfield code="q">(Dalton Roberts),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Dahlin, Paul,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Daigrepont, Bruce,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Damessae, Seleshe,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Danú (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Daugherty, Junior,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Delafose, Geno,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Delafose, John,</subfield>
+<subfield code="d">1939-1994,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Derrane, Joe,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Dervish (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Dickey, Lotus,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Double Clutchin' (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Doucet, David,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Doucet, Michael,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Douglas, Jerry,</subfield>
+<subfield code="d">1956-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Doyle, Danny,</subfield>
+<subfield code="d">1940-2019,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Doyle, John,</subfield>
+<subfield code="d">1971-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Dry Branch Fire Squad,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Duskin, Big Joe,</subfield>
+<subfield code="d">1921-2007,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">East, Ernest,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Ecos de Borinquen (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Eddie Blazonczyk's Versatones,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Egan, Séamus,</subfield>
+<subfield code="d">1969-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Eller Brothers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ellis, Tony</subfield>
+<subfield code="c">(Banjoist),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ellis, Wilbert,</subfield>
+<subfield code="d">1914-1977,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Eunice Playboys (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Fantasmas del Valle (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Filé (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Flint Nation Singers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Flippen, Benton,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ford, Brownie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Four Eagle Gospel Singers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fraley, Annadeene,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fraley, J. P.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Frank, Keith,</subfield>
+<subfield code="d">1972-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">French Rockin' Boogie (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Front Porch String Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gaffney, Brian</subfield>
+<subfield code="c">(Musician),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Galbraith, Art,</subfield>
+<subfield code="d">1909-1993,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Ganga (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Git-Hoan (Dance troupe),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Grcevich, Jerry,</subfield>
+<subfield code="d">1951-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Green Fields of America (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Griffith, James S.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Grupo Fantasma,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gutiérrez, José</subfield>
+<subfield code="q">(Gutiérrez Ramón),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hagopian, Richard A.,</subfield>
+<subfield code="d">1937-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Haleamau, Karin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Harley Allen-Mike Lilly Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Harmonia (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hayes, Martin,</subfield>
+<subfield code="d">1961-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Henderson, Wayne,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Highwoods String Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hinton, Algia Mae,</subfield>
+<subfield code="d">1929-2018,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Holeman, John Dee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Holloway, Quentin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Holmes Brothers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hooven, Greg,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Houserockers (Musical group : Hezekiah Early),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Howard, Clint,</subfield>
+<subfield code="d">1930-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Inca Son (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ivers, Eileen,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Jackson, John,</subfield>
+<subfield code="d">1924-2002,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">James King Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Jiménez, Santiago,</subfield>
+<subfield code="c">Jr.,</subfield>
+<subfield code="d">1944-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Johnson Mountain Boys,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kaapana, Ledward,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Karl and the Country Dutchmen,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Keane, Sean,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kimbrough, James,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kirchen, Bill,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Knott, Sarah Gertrude,</subfield>
+<subfield code="d">1895-1984,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kouyate, Djimo,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Krauss, Alison,</subfield>
+<subfield code="d">1971-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">LaBeef, Sleepy,</subfield>
+<subfield code="d">1935-2019,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lamond, Mary Jane,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lang, Julian,</subfield>
+<subfield code="d">1951-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">LaPrelle, Elizabeth,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lawson, Doyle,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Little, Jeff T.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Livesay Quartet,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Locke, Kevin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lohman, Jon,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Lost Bayou Ramblers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Louisiana Aces (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Lúnasa (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lynch, Claire,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Lynn Morris Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">MacMaster, Natalie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="700">
+<subfield code="a">Magic Slim</subfield>
+<subfield code="c">(Musician),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mainer, Wade,</subfield>
+<subfield code="d">1907-2011,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Mamou Playboys,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mangan, Patrick,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Mariachi Jalisco,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Mariachi Los Camperos de Nati Cano,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Marimba Chiapas,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Marimba Continental (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Marshall, Brian</subfield>
+<subfield code="c">(Musician),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Martin, Reed</subfield>
+<subfield code="c">(Banjoist),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Martinez, Roberto,</subfield>
+<subfield code="d">1929-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McCann, Gordon,</subfield>
+<subfield code="d">1931-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McCoury, Del,</subfield>
+<subfield code="d">1939-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McGee, Dennis,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McIntyre, Chuna,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">McKenna, Antoinette,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Menard, D. L.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="700">
+<subfield code="a">Mighty Sparrow,</subfield>
+<subfield code="d">1935-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mitchell, Fleeta,</subfield>
+<subfield code="d">1913-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mitchell, Nathaniel,</subfield>
+<subfield code="d">1912?-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Moloney, Mick,</subfield>
+<subfield code="d">1944-2022,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Morrison, Harold,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mouton, Walter,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mulvihill, Brendan,</subfield>
+<subfield code="d">1954- ,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Nashville Bluegrass Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Next Generation (Choral group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Nguyẽ̂n, Thuyé̂t Phong,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">No Speed Limit (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">O'Hare, Kieran,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">O'Sullivan, Jerry,</subfield>
+<subfield code="d">1959-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ohrlin, Glenn,</subfield>
+<subfield code="d">1926-2015,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Oinkari Basque Dancers (Boise, Idaho),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Olin, Julia,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Paisley, Danny,</subfield>
+<subfield code="d">1959- ,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Paschall Brothers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Paulin, Ernest,</subfield>
+<subfield code="d">1907-2007,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Pearson, Barry Lee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Pennington, Eddie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Pierson, Leroy Jodie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pine Ridge Boys,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Pleasants, Dick,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pleneros de la 21 (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pregoneros del Puerto,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Pure Texas Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Quebe Sisters Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Quicksilver (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Quimby, Doug,</subfield>
+<subfield code="d">1936-2006,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Quimby, Frankie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Raghavan, Jothi,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Red Clay Ramblers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Reyes de Albuquerque (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Riley, Steve</subfield>
+<subfield code="c">(Singer),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Roan Mountain Hilltoppers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Robinson, Debbie,</subfield>
+<subfield code="d">1965-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Robinson, Lavaughn,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="700">
+<subfield code="a">Rockin' Dopsie,</subfield>
+<subfield code="c">Jr.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Roheim, Anund,</subfield>
+<subfield code="d">1913-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Ross County Farmers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ross,</subfield>
+<subfield code="c">Dr.</subfield>
+<subfield code="q">(Isaiah),</subfield>
+<subfield code="d">1925-1993,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ross, Gayle</subfield>
+<subfield code="c">(Singer),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Roy, Gilles</subfield>
+<subfield code="c">(Dancer),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Saldivar, Mingo,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sapoznik, Henry,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Savoy, Marc,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Scott Playboys,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Severe, Duff,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Shady Mountain Ramblers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sheehy, Daniel,</subfield>
+<subfield code="d">1947-</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Shelor, Sammy,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sizemore, Whit,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Slyde, Jimmy,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Smokey Valley Boys,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Smoking Bluegrass (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Soileau Zydeco Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Solas (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Spitzer, Nicholas R.,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Spottswood, Richard K.</subfield>
+<subfield code="q">(Richard Keith),</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Springfield Exit (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sproat, Clyde Halemaʻumaʻu,</subfield>
+<subfield code="d">1930-2008,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sredzienski, Gary,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">St. Pierre, Simon,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Stanky, John,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Stanley, Ralph,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Stepping Ambassadors,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Sun Rhythm Section,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sutphin, Kirk,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Ta Pethia,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Tanner, Gordon,</subfield>
+<subfield code="d">1916-1982,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Thompson, Hayden,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="700">
+<subfield code="a">Ti-Coca,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Tipton, Carl,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Too Much Fun (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Toups, Wayne,</subfield>
+<subfield code="d">1958- ,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Townsend, Henry,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Tremendos Cuatro Espadas (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Trowbridge, Kenneth,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Union Station (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Valley Ramblers (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Van Arsdale, Paul,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Vent du nord (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Viesca, Juan,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Vinagre, Ana Bela,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Vishtèn (Musical Group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Walden, Charlie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wallace, Andy,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wallin, Doug,</subfield>
+<subfield code="d">1919-2000,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Walser, Don,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wang, Yuqin,</subfield>
+<subfield code="d">1946-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Wanga-Nègès (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Watson, Dale,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Watson, Doc,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">White, Buck,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Whitetop Mountain Band,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Whitstein Brothers,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Williams, Claude,</subfield>
+<subfield code="d">1908-2004,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Williams, Warner,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wilson, Joe,</subfield>
+<subfield code="d">1938-2015,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wine, Melvin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Wylie & the Wild West (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Yuri Yunakov Ensemble,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Zydecajun (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Zydeco Cha-Chas (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">National Council for the Traditional Arts,</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="711">
+<subfield code="a">National Folk Festival (U.S.)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020002</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
 </record>
+</collection>

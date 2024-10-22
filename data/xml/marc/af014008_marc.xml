@@ -1,1314 +1,635 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  09764cpcaa22015737a 4500
- </leader>
- <controlfield tag="001">
-  13660389
- </controlfield>
- <controlfield tag="005">
-  20210608134053.0
- </controlfield>
- <controlfield tag="008">
-  040720i19871988dcu                 eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2004-07-20; mkru 2004-09-30; mkru 2005-02-01; mkru 2005-07-13; cker 2010-09-13; cker 2011-03-04
-  </subfield>
-  <subfield code="a">
-   mkru 2014-11-19
-  </subfield>
-  <subfield code="a">
-   mkru 2014-12-01
-  </subfield>
-  <subfield code="a">
-   mkru 2015-07-05
-  </subfield>
-  <subfield code="a">
-   mkru 2018-01-05
-  </subfield>
-  <subfield code="a">
-   ahoo 2019-05-09
-  </subfield>
-  <subfield code="a">
-   masmit 2021-06-08
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="033">
-  <subfield code="a">
-   1987----
-  </subfield>
-  <subfield code="a">
-   1988----
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2004695186
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="e">
-   appm
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="a">
-   mul
-  </subfield>
-  <subfield code="d">
-   mul
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us-ma
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFS 26388-26738 (listening copies)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RXD 4451-4697 (sound tape reels)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RYL 1055-1145 (sound cassettes)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1987/042
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Lowell Folklife Project collection,
-  </subfield>
-  <subfield code="f">
-   1987-1988 /
-  </subfield>
-  <subfield code="c">
-   collected by the American Folklife Center ; in cooperation with the Lowell Historic Preservation Commission and the Massachusetts Council on the Arts and Humanities.
-  </subfield>
- </datafield>
- <datafield ind1="3" ind2=" " tag="246">
-  <subfield code="a">
-   Lowell Folklife Project
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="246">
-  <subfield code="a">
-   Lowell, Massachusetts Folklife Project
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="264">
-  <subfield code="c">
-   1987-1988.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   158 folders.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   90 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   247 sound tape reels:
-  </subfield>
-  <subfield code="b">
-   analog, 7 1/2 ips ;
-  </subfield>
-  <subfield code="c">
-   7 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   ca. 13,500 photographs :
-  </subfield>
-  <subfield code="b">
-   black and white, color ;
-  </subfield>
-  <subfield code="c">
-   various sizes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   15 computer disks ;
-  </subfield>
-  <subfield code="c">
-   5 1/4 and 3 1/2 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="351">
-  <subfield code="a">
-   Organized by format into the following series: I. Print and Manuscript Materials; II. Computer Disks; III. Sound Recordings; IV. and Graphic Materials.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="500">
-  <subfield code="a">
-   Transcripts of interviews were prepared by the University of Lowell, Center for Lowell History, Oral History Collection.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="500">
-  <subfield code="a">
-   Includes reports prepared by the Refugee Arts Group on the Vietnamese, Cambodian, and Laotian communities of Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   This year-long study conducted by the American Folklife Center yielded an ethnographic collection consisting of 196 hours of sound recordings covering a wide range of subjects and activities, including oral history interviews, religious services and festivals (Catholic and Greek Orthodox holy week and Easter services and religious processions; a Cambodian Buddhist wedding ceremony; Cambodian and Laotian New Year's celebrations; Puerto Rican festivals), musical events, parades, ethnic restaurants, and neighborhood tours. An additional 23 hours of sound recordings of musical events and oral history interviews were copied from originals lent by Lowell residents. Collection materials also include correspondence; field notes; questionnaires; neighborhood maps; reports; publications; administrative files; interview transcripts; black-and-white photographic prints, contact sheets, and film negatives (ca. 10,000 images); and color slides and prints, (ca. 3,500 images) which documented community life in Lowell, Massachusetts from 1987 to 1988.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Lowell Folklife Project collection (AFC 1987/042), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="506">
-  <subfield code="a">
-   Access restrictions apply; some or all content is stored offsite. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of the collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="545">
-  <subfield code="a">
-   The Lowell Folklife Project was conducted in 1987-1988 as a cooperative project of the American Folklife Center and the Lowell Historic Preservation Commission, with support from the Massachusetts Council on the Arts and Humanities, to document contemporary ethnic neighborhoods, occupations, and community life related to the history of industrialization in Lowell, Massachusetts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   Collection materials in English, French, Greek, Laotian, Portuguese, Spanish, Vietnamese, and Cambodian.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available in the Folklife Reading Room and online
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/eadafc.af014008
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ethnic arts
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folklore
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Catholics
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Buddhists
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Orthodox Eastern Church members
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Community life
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Churches
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Dance
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ethnic neighborhoods
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="v">
-   Maps.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ethnic restaurants
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ethnic schools
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Embroidery
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Festivals
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fishing
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Food habits
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Holidays
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Christmas
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Easter
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   New Year
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Legends
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Music
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Musical instruments
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Occupations
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Parades
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Poetry.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Processions
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Refugee camps.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Sports
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Baseball
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Boxing
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Tales
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Textile industry
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Aguinaldos
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Decimas
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Fados
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, Spanish
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, French
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Lao
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Khmer
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, Vietnamese
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Hymns
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Emigration and immigration.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cambodian Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cambodian Americans
-  </subfield>
-  <subfield code="x">
-   Marriage customs and rites.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Colombian Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Franco-Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Greek Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Irish Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Italian Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Jews
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="y">
-   20th century.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Laotian Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Polish Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Portuguese Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Puerto Ricans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Vietnamese Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="z">
-   Lowell
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Lowell (Mass.)
-  </subfield>
-  <subfield code="x">
-   Religious life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Lowell (Mass.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Hymns.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Dance music.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Songs.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Aguinaldos.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Decimas.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Fados.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Ethnography.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   lcsh
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Oral histories.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Prayers.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bartis, Peter,
-  </subfield>
-  <subfield code="d">
-   1949-2017,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bell, Michael Edward,
-  </subfield>
-  <subfield code="d">
-   1943-
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   DeNatale, Douglas,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fertig, Barbara C.,
-  </subfield>
-  <subfield code="d">
-   1934-
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fleischhauer, Carl,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lueders-Booth, John,
-  </subfield>
-  <subfield code="d">
-   1935-
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Montaño, Mario,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Norkunas, Martha K.,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Rankin, Tom,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Taylor, David Alan,
-  </subfield>
-  <subfield code="d">
-   1951-
-  </subfield>
-  <subfield code="e">
-   interviewer,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Wachs, Eleanor F.,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Archive of Folk Culture (Library of Congress),
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Lowell Historic Preservation Commission (U.S.),
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Lowell National Historical Park (Lowell, Mass.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Massachusetts Council on the Arts and Humanities.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="710">
-  <subfield code="a">
-   United States.
-  </subfield>
-  <subfield code="b">
-   National Park Service.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Refugee Arts Group.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   University of Lowell.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="1" tag="856">
-  <subfield code="3">
-   Online presentation
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/collafc.afc1987042
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/eadafc.af014008
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>09764cpcaa22015737a 4500</leader>
+<controlfield tag="001">13660389</controlfield>
+<controlfield tag="005">20210608134053.0</controlfield>
+<controlfield tag="008">040720i19871988dcu eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">
+mkru 2004-07-20; mkru 2004-09-30; mkru 2005-02-01; mkru 2005-07-13; cker 2010-09-13; cker 2011-03-04
+</subfield>
+<subfield code="a">mkru 2014-11-19</subfield>
+<subfield code="a">mkru 2014-12-01</subfield>
+<subfield code="a">mkru 2015-07-05</subfield>
+<subfield code="a">mkru 2018-01-05</subfield>
+<subfield code="a">ahoo 2019-05-09</subfield>
+<subfield code="a">masmit 2021-06-08</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="033">
+<subfield code="a">1987----</subfield>
+<subfield code="a">1988----</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2004695186</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="e">appm</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="a">eng</subfield>
+<subfield code="a">mul</subfield>
+<subfield code="d">mul</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us-ma</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFS 26388-26738 (listening copies)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">RXD 4451-4697 (sound tape reels)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">RYL 1055-1145 (sound cassettes)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1987/042</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Lowell Folklife Project collection,</subfield>
+<subfield code="f">1987-1988 /</subfield>
+<subfield code="c">
+collected by the American Folklife Center ; in cooperation with the Lowell Historic Preservation Commission and the Massachusetts Council on the Arts and Humanities.
+</subfield>
+</datafield>
+<datafield ind1="3" ind2=" " tag="246">
+<subfield code="a">Lowell Folklife Project</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="246">
+<subfield code="a">Lowell, Massachusetts Folklife Project</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="264">
+<subfield code="c">1987-1988.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">158 folders.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">90 sound cassettes :</subfield>
+<subfield code="b">analog.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">247 sound tape reels:</subfield>
+<subfield code="b">analog, 7 1/2 ips ;</subfield>
+<subfield code="c">7 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">ca. 13,500 photographs :</subfield>
+<subfield code="b">black and white, color ;</subfield>
+<subfield code="c">various sizes.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">15 computer disks ;</subfield>
+<subfield code="c">5 1/4 and 3 1/2 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="351">
+<subfield code="a">
+Organized by format into the following series: I. Print and Manuscript Materials; II. Computer Disks; III. Sound Recordings; IV. and Graphic Materials.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="500">
+<subfield code="a">
+Transcripts of interviews were prepared by the University of Lowell, Center for Lowell History, Oral History Collection.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="500">
+<subfield code="a">
+Includes reports prepared by the Refugee Arts Group on the Vietnamese, Cambodian, and Laotian communities of Lowell.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+This year-long study conducted by the American Folklife Center yielded an ethnographic collection consisting of 196 hours of sound recordings covering a wide range of subjects and activities, including oral history interviews, religious services and festivals (Catholic and Greek Orthodox holy week and Easter services and religious processions; a Cambodian Buddhist wedding ceremony; Cambodian and Laotian New Year's celebrations; Puerto Rican festivals), musical events, parades, ethnic restaurants, and neighborhood tours. An additional 23 hours of sound recordings of musical events and oral history interviews were copied from originals lent by Lowell residents. Collection materials also include correspondence; field notes; questionnaires; neighborhood maps; reports; publications; administrative files; interview transcripts; black-and-white photographic prints, contact sheets, and film negatives (ca. 10,000 images); and color slides and prints, (ca. 3,500 images) which documented community life in Lowell, Massachusetts from 1987 to 1988.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Lowell Folklife Project collection (AFC 1987/042), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="506">
+<subfield code="a">
+Access restrictions apply; some or all content is stored offsite. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of the collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="545">
+<subfield code="a">
+The Lowell Folklife Project was conducted in 1987-1988 as a cooperative project of the American Folklife Center and the Lowell Historic Preservation Commission, with support from the Massachusetts Council on the Arts and Humanities, to document contemporary ethnic neighborhoods, occupations, and community life related to the history of industrialization in Lowell, Massachusetts.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+Collection materials in English, French, Greek, Laotian, Portuguese, Spanish, Vietnamese, and Cambodian.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">
+Finding aid is available in the Folklife Reading Room and online
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/eadafc.af014008</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ethnic arts</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folklore</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Catholics</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Buddhists</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Orthodox Eastern Church members</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Community life</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Churches</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Dance</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ethnic neighborhoods</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="v">Maps.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ethnic restaurants</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ethnic schools</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Embroidery</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Festivals</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fishing</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Food habits</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Holidays</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Christmas</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Easter</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">New Year</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Legends</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Music</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Musical instruments</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Occupations</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Parades</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Poetry.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Processions</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Refugee camps.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Sports</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Baseball</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Boxing</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Tales</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Textile industry</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Aguinaldos</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Decimas</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Fados</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, Spanish</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, French</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Lao</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Khmer</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, Vietnamese</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Hymns</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Emigration and immigration.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cambodian Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cambodian Americans</subfield>
+<subfield code="x">Marriage customs and rites.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Colombian Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Franco-Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Greek Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Irish Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Italian Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Jews</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="y">20th century.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Laotian Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Polish Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Portuguese Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Puerto Ricans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Vietnamese Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="z">Lowell</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Lowell (Mass.)</subfield>
+<subfield code="x">Religious life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Lowell (Mass.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Hymns.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Dance music.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Songs.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Aguinaldos.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Decimas.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Fados.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Ethnography.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">lcsh</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Oral histories.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Prayers.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bartis, Peter,</subfield>
+<subfield code="d">1949-2017,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bell, Michael Edward,</subfield>
+<subfield code="d">1943-</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">DeNatale, Douglas,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fertig, Barbara C.,</subfield>
+<subfield code="d">1934-</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fleischhauer, Carl,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lueders-Booth, John,</subfield>
+<subfield code="d">1935-</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Montaño, Mario,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Norkunas, Martha K.,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Rankin, Tom,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Taylor, David Alan,</subfield>
+<subfield code="d">1951-</subfield>
+<subfield code="e">interviewer,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Wachs, Eleanor F.,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Archive of Folk Culture (Library of Congress),</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Lowell Historic Preservation Commission (U.S.),</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Lowell National Historical Park (Lowell, Mass.)</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Massachusetts Council on the Arts and Humanities.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="710">
+<subfield code="a">United States.</subfield>
+<subfield code="b">National Park Service.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Refugee Arts Group.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">University of Lowell.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="1" tag="856">
+<subfield code="3">Online presentation</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/collafc.afc1987042</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/eadafc.af014008</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
 </record>
+</collection>

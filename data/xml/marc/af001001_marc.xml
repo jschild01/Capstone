@@ -1,631 +1,335 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  04945cpcaa22010217a 4500
- </leader>
- <controlfield tag="001">
-  12733387
- </controlfield>
- <controlfield tag="005">
-  20240830155122.0
- </controlfield>
- <controlfield tag="008">
-  020408i19351950dcu                 eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   cker; mkru 2006-02-03; mkru 2010-02-04; mkru 2011-03-03; cker 2013-02-22
-  </subfield>
-  <subfield code="a">
-   mkru 2017-01-31
-  </subfield>
-  <subfield code="a">
-   masmit 2024-08-30
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2002522665
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us---
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 1940/004
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Woody Guthrie manuscript collection,
-  </subfield>
-  <subfield code="f">
-   1935-1950.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="249">
-  <subfield code="i">
-   EAD sort title:
-  </subfield>
-  <subfield code="a">
-   Guthrie, Woody. Correspondence and writings,
-  </subfield>
-  <subfield code="f">
-   1935-1950.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   3 boxes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   The Woody Guthrie manuscript collection includes unpublished correspondence; most are letters from Guthrie to Alan Lomax, assistant in charge of the Archive of American Folk Song at the Library of Congress, dated 1940-1942; plus drawings; essays; song lyrics; and a songbook, "Songs of Woody Guthrie."
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Woody Guthrie manuscript collection (AFC 1940/004), American Folklife Center, Library of Congress.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="530">
-  <subfield code="a">
-   Selections from this collection are available in an online version entitled: "Woody Guthrie and the Archive of American Folk Song: Correspondence, 1940-1950," an American Memory online resource compiled by the National Digital Library Program of the Library of Congress
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/collafc.af000013
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. Access to materials may be restricted. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Downes, Olin,
-  </subfield>
-  <subfield code="d">
-   1886-1955.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Emrich, Duncan,
-  </subfield>
-  <subfield code="d">
-   1908-1977.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Garland, Jim,
-  </subfield>
-  <subfield code="d">
-   1905-1978.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Geer, Will.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Bill R.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Cathy Ann,
-  </subfield>
-  <subfield code="d">
-   1943-1947.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Marjorie.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Mary Jennings.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Woody,
-  </subfield>
-  <subfield code="d">
-   1912-1967
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Woody,
-  </subfield>
-  <subfield code="d">
-   1912-1967
-  </subfield>
-  <subfield code="v">
-   Written works.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Hawes, Bess Lomax,
-  </subfield>
-  <subfield code="d">
-   1921-2009.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Hays, Lee,
-  </subfield>
-  <subfield code="d">
-   1914-1981.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Houston, Cisco.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Ives, Burl,
-  </subfield>
-  <subfield code="d">
-   1909-1995.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Lampell, Millard,
-  </subfield>
-  <subfield code="d">
-   1919-1997
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Lomax, Alan,
-  </subfield>
-  <subfield code="d">
-   1915-2002
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Lomax, John A.
-  </subfield>
-  <subfield code="q">
-   (John Avery),
-  </subfield>
-  <subfield code="d">
-   1867-1948.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Manners, Zeke.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Ray, Nicholas,
-  </subfield>
-  <subfield code="d">
-   1911-1979.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Robinson, Earl,
-  </subfield>
-  <subfield code="d">
-   1910-1991.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Rogers, Will,
-  </subfield>
-  <subfield code="d">
-   1879-1935.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Roosevelt, Eleanor,
-  </subfield>
-  <subfield code="d">
-   1884-1962.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Rosskam, Edwin,
-  </subfield>
-  <subfield code="d">
-   1903-1985.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Schwartz, Jo Metcalf.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Seeger, Pete,
-  </subfield>
-  <subfield code="d">
-   1919-2014.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Siegmeister, Elie,
-  </subfield>
-  <subfield code="d">
-   1909-1991.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Spivacke, Harold,
-  </subfield>
-  <subfield code="d">
-   1904-1977
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Steinbeck, John,
-  </subfield>
-  <subfield code="d">
-   1902-1968.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Sturz, Elizabeth Lyttleton.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Wetherald, Robert P.
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Almanac Singers.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Archive of American Folk Song.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Columbia Broadcasting System, Inc.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Columbia Records, Inc.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Communist Party of the United States of America.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Congress of Industrial Organizations (U.S.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Decca Record Company.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   E.P. Dutton (Firm)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Golden Gate Quartet.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="610">
-  <subfield code="a">
-   United States.
-  </subfield>
-  <subfield code="b">
-   Bonneville Power Administration.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="610">
-  <subfield code="a">
-   United States.
-  </subfield>
-  <subfield code="b">
-   Work Projects Administration.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="610">
-  <subfield code="a">
-   Viking Press.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk singers
-  </subfield>
-  <subfield code="z">
-   United States
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songs, English
-  </subfield>
-  <subfield code="v">
-   Texts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Protest songs
-  </subfield>
-  <subfield code="z">
-   United States
-  </subfield>
-  <subfield code="v">
-   Texts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Political ballads and songs
-  </subfield>
-  <subfield code="z">
-   United States
-  </subfield>
-  <subfield code="v">
-   Texts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Songbooks
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Drawings.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Essays.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Guthrie, Woody,
-  </subfield>
-  <subfield code="d">
-   1912-1967,
-  </subfield>
-  <subfield code="e">
-   correspondent.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lomax, Alan,
-  </subfield>
-  <subfield code="d">
-   1915-2002,
-  </subfield>
-  <subfield code="e">
-   correspondent.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Spivacke, Harold,
-  </subfield>
-  <subfield code="d">
-   1904-1977,
-  </subfield>
-  <subfield code="e">
-   correspondent.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Archive of Folk Song (U.S.),
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Library of Congress.
-  </subfield>
-  <subfield code="b">
-   Music Division.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Library of Congress.
-  </subfield>
-  <subfield code="b">
-   Recording Laboratory.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Library of Congress.
-  </subfield>
-  <subfield code="b">
-   National Digital Library Program.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   RCA Manufacturing Company.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="740">
-  <subfield code="a">
-   Woody Guthrie and the Archive of American Folk Song: correspondence, 1940-1950
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="2" tag="740">
-  <subfield code="a">
-   Songs of Woody Guthrie.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="1" tag="856">
-  <subfield code="3">
-   Online presentation
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/collafc.af000013
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af001001
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>04945cpcaa22010217a 4500</leader>
+<controlfield tag="001">12733387</controlfield>
+<controlfield tag="005">20240830155122.0</controlfield>
+<controlfield tag="008">020408i19351950dcu eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">
+</subfield>
+<subfield code="a">mkru 2017-01-31</subfield>
+<subfield code="a">masmit 2024-08-30</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2002522665</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us---</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 1940/004</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Woody Guthrie manuscript collection,</subfield>
+<subfield code="f">1935-1950.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="249">
+<subfield code="i">EAD sort title:</subfield>
+<subfield code="a">Guthrie, Woody. Correspondence and writings,</subfield>
+<subfield code="f">1935-1950.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">3 boxes.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+The Woody Guthrie manuscript collection includes unpublished correspondence; most are letters from Guthrie to Alan Lomax, assistant in charge of the Archive of American Folk Song at the Library of Congress, dated 1940-1942; plus drawings; essays; song lyrics; and a songbook, "Songs of Woody Guthrie."
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Woody Guthrie manuscript collection (AFC 1940/004), American Folklife Center, Library of Congress.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="530">
+<subfield code="a">
+Selections from this collection are available in an online version entitled: "Woody Guthrie and the Archive of American Folk Song: Correspondence, 1940-1950," an American Memory online resource compiled by the National Digital Library Program of the Library of Congress
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/collafc.af000013</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. Access to materials may be restricted. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Downes, Olin,</subfield>
+<subfield code="d">1886-1955.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Emrich, Duncan,</subfield>
+<subfield code="d">1908-1977.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Garland, Jim,</subfield>
+<subfield code="d">1905-1978.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Geer, Will.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Bill R.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Cathy Ann,</subfield>
+<subfield code="d">1943-1947.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Marjorie.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Mary Jennings.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Woody,</subfield>
+<subfield code="d">1912-1967</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Woody,</subfield>
+<subfield code="d">1912-1967</subfield>
+<subfield code="v">Written works.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Hawes, Bess Lomax,</subfield>
+<subfield code="d">1921-2009.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Hays, Lee,</subfield>
+<subfield code="d">1914-1981.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Houston, Cisco.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Ives, Burl,</subfield>
+<subfield code="d">1909-1995.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Lampell, Millard,</subfield>
+<subfield code="d">1919-1997</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Lomax, Alan,</subfield>
+<subfield code="d">1915-2002</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Lomax, John A.</subfield>
+<subfield code="q">(John Avery),</subfield>
+<subfield code="d">1867-1948.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Manners, Zeke.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Ray, Nicholas,</subfield>
+<subfield code="d">1911-1979.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Robinson, Earl,</subfield>
+<subfield code="d">1910-1991.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Rogers, Will,</subfield>
+<subfield code="d">1879-1935.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Roosevelt, Eleanor,</subfield>
+<subfield code="d">1884-1962.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Rosskam, Edwin,</subfield>
+<subfield code="d">1903-1985.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Schwartz, Jo Metcalf.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Seeger, Pete,</subfield>
+<subfield code="d">1919-2014.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Siegmeister, Elie,</subfield>
+<subfield code="d">1909-1991.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Spivacke, Harold,</subfield>
+<subfield code="d">1904-1977</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Steinbeck, John,</subfield>
+<subfield code="d">1902-1968.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Sturz, Elizabeth Lyttleton.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Wetherald, Robert P.</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Almanac Singers.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Archive of American Folk Song.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Columbia Broadcasting System, Inc.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Columbia Records, Inc.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Communist Party of the United States of America.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Congress of Industrial Organizations (U.S.)</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Decca Record Company.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">E.P. Dutton (Firm)</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Golden Gate Quartet.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="610">
+<subfield code="a">United States.</subfield>
+<subfield code="b">Bonneville Power Administration.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="610">
+<subfield code="a">United States.</subfield>
+<subfield code="b">Work Projects Administration.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="610">
+<subfield code="a">Viking Press.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk singers</subfield>
+<subfield code="z">United States</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songs, English</subfield>
+<subfield code="v">Texts.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Protest songs</subfield>
+<subfield code="z">United States</subfield>
+<subfield code="v">Texts.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Political ballads and songs</subfield>
+<subfield code="z">United States</subfield>
+<subfield code="v">Texts.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Songbooks</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Drawings.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Essays.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Guthrie, Woody,</subfield>
+<subfield code="d">1912-1967,</subfield>
+<subfield code="e">correspondent.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lomax, Alan,</subfield>
+<subfield code="d">1915-2002,</subfield>
+<subfield code="e">correspondent.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Spivacke, Harold,</subfield>
+<subfield code="d">1904-1977,</subfield>
+<subfield code="e">correspondent.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Archive of Folk Song (U.S.),</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Library of Congress.</subfield>
+<subfield code="b">Music Division.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Library of Congress.</subfield>
+<subfield code="b">Recording Laboratory.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Library of Congress.</subfield>
+<subfield code="b">National Digital Library Program.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">RCA Manufacturing Company.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="740">
+<subfield code="a">
+Woody Guthrie and the Archive of American Folk Song: correspondence, 1940-1950
+</subfield>
+</datafield>
+<datafield ind1="0" ind2="2" tag="740">
+<subfield code="a">Songs of Woody Guthrie.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="1" tag="856">
+<subfield code="3">Online presentation</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/collafc.af000013</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af001001</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
 </record>
+</collection>

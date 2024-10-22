@@ -1,925 +1,458 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  07232cpcaa22012377i 4500
- </leader>
- <controlfield tag="001">
-  19807855
- </controlfield>
- <controlfield tag="005">
-  20231122132956.0
- </controlfield>
- <controlfield tag="008">
-  170721i19562008xx                  eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   hh06 2017-07-21 on order for Todd Harvey LS/AFC
-  </subfield>
-  <subfield code="b">
-   hh08 2017-10-25 updated information
-  </subfield>
-  <subfield code="a">
-   mkru 2017-11-01
-  </subfield>
-  <subfield code="a">
-   mler 2018-12-04
-  </subfield>
-  <subfield code="a">
-   masmit 2023-09-14
-  </subfield>
-  <subfield code="a">
-   sludewig 2023-09-15
-  </subfield>
-  <subfield code="a">
-   sludewig 2023-11-20
-  </subfield>
-  <subfield code="a">
-   masmit 2023-11-22
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2017655423
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="041">
-  <subfield code="d">
-   eng
-  </subfield>
-  <subfield code="d">
-   yid
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us---
-  </subfield>
-  <subfield code="a">
-   n-us-ny
-  </subfield>
-  <subfield code="a">
-   ee-----
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 2017/048
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   ICD 95526, 99431-99478; RGC 1337-1340, 3064-3070; RYB 0522, 0524, 0528-0529; RYQ 2940, 2954, RYS 2119-2199, 2280-2300, 2306-2319, 2333-2429, 3108-3257, 3419-3668
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Michael Alpert collection,
-  </subfield>
-  <subfield code="f">
-   1956-2008
-  </subfield>
-  <subfield code="g">
-   (bulk 1974-2008).
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="264">
-  <subfield code="c">
-   1956-2008.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   3,384
-  </subfield>
-  <subfield code="f">
-   items
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   504 text files :
-  </subfield>
-  <subfield code="b">
-   digital, pdf
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   615 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   50 sound discs (mini disc) :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   11 sound cassettes (DAT) :
-  </subfield>
-  <subfield code="b">
-   digital
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   4 sound cassettes (microcassette) :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   2,200 sound files :
-  </subfield>
-  <subfield code="b">
-   digital, wav; mp3
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   The Michael Alpert collection includes field recordings of interviews, conversations, social events, rehearsals, and performances of klezmer music and Yiddish folk songs primarily in New York City, Los Angeles, and Eastern Europe. The collection focuses on the expressive culture of Eastern European Jews in the later nineteenth, twentieth, and early twenty-first centuries and documents immigrant generation and U.S. born practitioners from that period. With recordings in both English and Yiddish, the collection thoroughly documents aspects of vernacular culture and history, especially in light of the cataclysmic displacement and dispersion of Eastern European Jews in the twentieth century.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Michael Alpert collection (AFC 2017/048), American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. Certain restrictions to use or copying of materials may apply. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Michael Alpert;
-  </subfield>
-  <subfield code="c">
-   Purchase;
-  </subfield>
-  <subfield code="d">
-   2017 and 2021.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="545">
-  <subfield code="a">
-   Michael Alpert is a scholar, linguist, and performer whose work focuses on the expressive culture of Eastern European Jews from the late nineteenth, twentieth, and early twenty-first centuries in Europe and the United States. His former research affiliations include New York City's YIVO Institute for Jewish Research, the Center for Traditional Music and Dance, Oxford University, Columbia University, Yale University, and Indiana University. He was the 2015 recipient of a National Heritage Fellowship from the National Endowment for the Arts. In addition to his scholarly work on klezmer and Yiddish folk music, he is a performer with the ensembles Brave Old World and Kapelye where he performs primarily on violin, percussion, and accordion.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   Sound recordings in multiple languages, primarily Yiddish and English.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af023008
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk musicians
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Jews, Soviet
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Jews, Romanian
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Jews, Ukrainian
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Klezmer music
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Klezmer music
-  </subfield>
-  <subfield code="z">
-   Europe.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, Yiddish
-  </subfield>
-  <subfield code="z">
-   Europe, Eastern.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk songs, Yiddish
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Alpert, Michael,
-  </subfield>
-  <subfield code="e">
-   collector,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bazyler, Ben,
-  </subfield>
-  <subfield code="e">
-   interviewee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Goldenshteyn, German,
-  </subfield>
-  <subfield code="e">
-   interviewee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sakina, Bronya,
-  </subfield>
-  <subfield code="e">
-   interviewee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Schwartz, Leon,
-  </subfield>
-  <subfield code="d">
-   1901-1990,
-  </subfield>
-  <subfield code="e">
-   interviewee,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bern, Alan,
-  </subfield>
-  <subfield code="d">
-   1955-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Birnboym, Marṭin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bogdanski, Majer,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Boyarin, Jonathan,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Brody, Lauren,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Brotman, Stuart,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Burstein, Lillian Lux,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Feldman, Walter,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Flam, Gila,
-  </subfield>
-  <subfield code="d">
-   1956-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Fogelson, Irina,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gajicki, Bora,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gendler, Arkady,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gottesman, Itzik Nakhmen,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gran, Wiera,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Hescheles, Jeremiah,
-  </subfield>
-  <subfield code="d">
-   1910-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Jagoda, Flory,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kligman, Mark L.,
-  </subfield>
-  <subfield code="d">
-   1962-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kochan, Alexis,
-  </subfield>
-  <subfield code="d">
-   1953-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kozłowski, Leopold,
-  </subfield>
-  <subfield code="d">
-   1918-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Krakauer, David,
-  </subfield>
-  <subfield code="d">
-   1956-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kugelmass, Jack,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kytasty, Julian,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Layman, Sandra,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Leuchter, Janet,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Loeffler, James Benjamin,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mayer, Lisa
-  </subfield>
-  <subfield code="c">
-   (Musician) ,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Mazor, Yaakov,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Moody, Richard
-  </subfield>
-  <subfield code="c">
-   (Musician),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Netsky, Hankus,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Offen, Sam,
-  </subfield>
-  <subfield code="d">
-   1921-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Perlman, Itzhak,
-  </subfield>
-  <subfield code="d">
-   1945-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Richmond, Ken,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Roṭenberg, Yaʻaḳov,
-  </subfield>
-  <subfield code="d">
-   1926-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Rubin, Joel,
-  </subfield>
-  <subfield code="d">
-   1955-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sapoznik, Henry,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Schaechter-Gottesman, Beyle,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Schlamme, Martha,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Seroussi, Edwin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Shaffir, M. M.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sklamberg, Lorin,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Skuse, David,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Slobin, Mark,
-  </subfield>
-  <subfield code="e">
-   speaker.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Spagnolo Acht, Francesco,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Statman, Andy,
-  </subfield>
-  <subfield code="d">
-   1950-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Steinlauf, Michael C.,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Strauss, Deborah,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Taub, Eda,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Waletzky, Josh,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Warschauer, Jeff,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Brave Old World (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Kapelye (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Paris to Kyiv (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Shashmaqam (Musical group),
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Strauss Warschauer Duo,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af023008
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>07232cpcaa22012377i 4500</leader>
+<controlfield tag="001">19807855</controlfield>
+<controlfield tag="005">20231122132956.0</controlfield>
+<controlfield tag="008">170721i19562008xx eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">hh06 2017-07-21 on order for Todd Harvey LS/AFC</subfield>
+<subfield code="b">hh08 2017-10-25 updated information</subfield>
+<subfield code="a">mkru 2017-11-01</subfield>
+<subfield code="a">mler 2018-12-04</subfield>
+<subfield code="a">masmit 2023-09-14</subfield>
+<subfield code="a">sludewig 2023-09-15</subfield>
+<subfield code="a">sludewig 2023-11-20</subfield>
+<subfield code="a">masmit 2023-11-22</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2017655423</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="041">
+<subfield code="d">eng</subfield>
+<subfield code="d">yid</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us---</subfield>
+<subfield code="a">n-us-ny</subfield>
+<subfield code="a">ee-----</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 2017/048</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">
+ICD 95526, 99431-99478; RGC 1337-1340, 3064-3070; RYB 0522, 0524, 0528-0529; RYQ 2940, 2954, RYS 2119-2199, 2280-2300, 2306-2319, 2333-2429, 3108-3257, 3419-3668
+</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Michael Alpert collection,</subfield>
+<subfield code="f">1956-2008</subfield>
+<subfield code="g">(bulk 1974-2008).</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="264">
+<subfield code="c">1956-2008.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">3,384</subfield>
+<subfield code="f">items</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">504 text files :</subfield>
+<subfield code="b">digital, pdf</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">615 sound cassettes :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">50 sound discs (mini disc) :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">11 sound cassettes (DAT) :</subfield>
+<subfield code="b">digital</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">4 sound cassettes (microcassette) :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">2,200 sound files :</subfield>
+<subfield code="b">digital, wav; mp3</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+The Michael Alpert collection includes field recordings of interviews, conversations, social events, rehearsals, and performances of klezmer music and Yiddish folk songs primarily in New York City, Los Angeles, and Eastern Europe. The collection focuses on the expressive culture of Eastern European Jews in the later nineteenth, twentieth, and early twenty-first centuries and documents immigrant generation and U.S. born practitioners from that period. With recordings in both English and Yiddish, the collection thoroughly documents aspects of vernacular culture and history, especially in light of the cataclysmic displacement and dispersion of Eastern European Jews in the twentieth century.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Michael Alpert collection (AFC 2017/048), American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. Certain restrictions to use or copying of materials may apply. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">Michael Alpert;</subfield>
+<subfield code="c">Purchase;</subfield>
+<subfield code="d">2017 and 2021.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="545">
+<subfield code="a">
+Michael Alpert is a scholar, linguist, and performer whose work focuses on the expressive culture of Eastern European Jews from the late nineteenth, twentieth, and early twenty-first centuries in Europe and the United States. His former research affiliations include New York City's YIVO Institute for Jewish Research, the Center for Traditional Music and Dance, Oxford University, Columbia University, Yale University, and Indiana University. He was the 2015 recipient of a National Heritage Fellowship from the National Endowment for the Arts. In addition to his scholarly work on klezmer and Yiddish folk music, he is a performer with the ensembles Brave Old World and Kapelye where he performs primarily on violin, percussion, and accordion.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+Sound recordings in multiple languages, primarily Yiddish and English.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af023008</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk musicians</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Jews, Soviet</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Jews, Romanian</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Jews, Ukrainian</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Klezmer music</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Klezmer music</subfield>
+<subfield code="z">Europe.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, Yiddish</subfield>
+<subfield code="z">Europe, Eastern.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk songs, Yiddish</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Alpert, Michael,</subfield>
+<subfield code="e">collector,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bazyler, Ben,</subfield>
+<subfield code="e">interviewee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Goldenshteyn, German,</subfield>
+<subfield code="e">interviewee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sakina, Bronya,</subfield>
+<subfield code="e">interviewee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Schwartz, Leon,</subfield>
+<subfield code="d">1901-1990,</subfield>
+<subfield code="e">interviewee,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bern, Alan,</subfield>
+<subfield code="d">1955-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Birnboym, Marṭin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bogdanski, Majer,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Boyarin, Jonathan,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Brody, Lauren,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Brotman, Stuart,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Burstein, Lillian Lux,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Feldman, Walter,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Flam, Gila,</subfield>
+<subfield code="d">1956-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Fogelson, Irina,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gajicki, Bora,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gendler, Arkady,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gottesman, Itzik Nakhmen,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gran, Wiera,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Hescheles, Jeremiah,</subfield>
+<subfield code="d">1910-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Jagoda, Flory,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kligman, Mark L.,</subfield>
+<subfield code="d">1962-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kochan, Alexis,</subfield>
+<subfield code="d">1953-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kozłowski, Leopold,</subfield>
+<subfield code="d">1918-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Krakauer, David,</subfield>
+<subfield code="d">1956-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kugelmass, Jack,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kytasty, Julian,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Layman, Sandra,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Leuchter, Janet,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Loeffler, James Benjamin,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mayer, Lisa</subfield>
+<subfield code="c">(Musician) ,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Mazor, Yaakov,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Moody, Richard</subfield>
+<subfield code="c">(Musician),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Netsky, Hankus,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Offen, Sam,</subfield>
+<subfield code="d">1921-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Perlman, Itzhak,</subfield>
+<subfield code="d">1945-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Richmond, Ken,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Roṭenberg, Yaʻaḳov,</subfield>
+<subfield code="d">1926-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Rubin, Joel,</subfield>
+<subfield code="d">1955-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sapoznik, Henry,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Schaechter-Gottesman, Beyle,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Schlamme, Martha,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Seroussi, Edwin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Shaffir, M. M.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sklamberg, Lorin,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Skuse, David,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Slobin, Mark,</subfield>
+<subfield code="e">speaker.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Spagnolo Acht, Francesco,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Statman, Andy,</subfield>
+<subfield code="d">1950-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Steinlauf, Michael C.,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Strauss, Deborah,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Taub, Eda,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Waletzky, Josh,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Warschauer, Jeff,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Brave Old World (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Kapelye (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Paris to Kyiv (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Shashmaqam (Musical group),</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Strauss Warschauer Duo,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af023008</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>

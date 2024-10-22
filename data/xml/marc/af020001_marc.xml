@@ -1,598 +1,297 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  05922cpcaa22008297i 4500
- </leader>
- <controlfield tag="001">
-  19461589
- </controlfield>
- <controlfield tag="005">
-  20240408084544.0
- </controlfield>
- <controlfield tag="007">
-  st ||n|m|||n|e
- </controlfield>
- <controlfield tag="007">
-  ss ||njl|||n|e
- </controlfield>
- <controlfield tag="008">
-  170124i18502009xx                  eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2017-01-24
-  </subfield>
-  <subfield code="a">
-   kere 2019-10-21
-  </subfield>
-  <subfield code="a">
-   masmit 2020-02-20
-  </subfield>
-  <subfield code="a">
-   masmit 2020-02-27
-  </subfield>
-  <subfield code="a">
-   masmit 2020-03-05
-  </subfield>
-  <subfield code="a">
-   mseg 2021-06-11
-  </subfield>
-  <subfield code="a">
-   sludewig 2023-08-01
-  </subfield>
-  <subfield code="a">
-   masmit 2023-08-08
-  </subfield>
-  <subfield code="a">
-   fcundiff 2023-08-09
-  </subfield>
-  <subfield code="a">
-   sludewig 2024-04-08
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2017655202
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us-ma
-  </subfield>
-  <subfield code="a">
-   n-us-nc
-  </subfield>
-  <subfield code="a">
-   a-ai---
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   VAS 7633-7657 (VHS); VBY 6624-6625 (U-matic)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 2017/001
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Nancy Sweezy collection,
-  </subfield>
-  <subfield code="f">
-   1850-2009
-  </subfield>
-  <subfield code="g">
-   (bulk 1968-2007).
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   33,037
-  </subfield>
-  <subfield code="f">
-   items
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   97
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   44.6
-  </subfield>
-  <subfield code="f">
-   linear feet
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   16,200
-  </subfield>
-  <subfield code="f">
-   materials
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   3,333 photographs :
-  </subfield>
-  <subfield code="b">
-   prints, black and white ; color ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   5,808 photographs :
-  </subfield>
-  <subfield code="b">
-   slides, color ;
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   7,488 photographs :
-  </subfield>
-  <subfield code="b">
-   film negatives, black and white ; color ;
-  </subfield>
-  <subfield code="c">
-   35 mm
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   23 photographs :
-  </subfield>
-  <subfield code="b">
-   glass negatives, black and white ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   130 sound cassettes :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   25 videocassettes :
-  </subfield>
-  <subfield code="b">
-   analog
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   electronic media
-  </subfield>
-  <subfield code="a">
-   16 optical discs:
-  </subfield>
-  <subfield code="b">
-   optical ;
-  </subfield>
-  <subfield code="c">
-   4 3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   electronic media
-  </subfield>
-  <subfield code="a">
-   14 zip disks ;
-  </subfield>
-  <subfield code="c">
-   4 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   Collection of papers, photographs, interviews, field recordings and other audiovisual materials comprising the professional archive of folklorist Nancy Sweezy created in the course of her career as a folk arts advocate, author, and administrator of non-profit folk craft and performance organizations. Includes research materials for her books Raised in Clay: The Southern Pottery Tradition, Armenian Folk Arts, Culture, and Identity co-edited with Levon Abrahamian and Sam Sweezy and The Potter's Eye: Art and Tradition in North Carolina Pottery co-authored by Mark Hewitt.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Nancy Sweezy collection (AFC 2017/001), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. Access may be restricted. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   The donor has dedicated the rights they hold in the collection to the public domain. Rights belonging to third parties may be goverened by copyright or other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Martha Sweezy;
-  </subfield>
-  <subfield code="c">
-   Donation;
-  </subfield>
-  <subfield code="d">
-   2016.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   The Country Roads, Inc. Board of Directors;
-  </subfield>
-  <subfield code="c">
-   Donation;
-  </subfield>
-  <subfield code="d">
-   2021.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="545">
-  <subfield code="a">
-   Nancy Sweezy, author, folklorist, raised in Concord, New Hampshire, studied at the School of the Museum of Fine Arts in Boston, Massachusetts. During World War II, she worked overseas in the Research and Analysis Branch of the Office of Strategic Services (OSS). Her interest in craft began with pottery lessons in New England in the 1950s. She worked in partnership with Ralph Rinzler and helped manage Club 47 (now Club Passim) in Cambridge, Massachusetts, where she served as president of the board. She and Ralph, along with Norman Kennedy and others, formed Country Roads, Inc. in 1966 to support folk arts educational projects, research, and marketing. The group purchased the Jugtown Pottery in Seagrove, North Carolina, in 1968, and Sweezy moved to North Carolina to direct the operation and work with traditional potters in the area. In the 1980s in Boston, Nancy organized the Refugee Arts Group to encourage recent Southeast Asian and other immigrants to preserve and perpetuate craft, dance, and music traditions from their communities of origin. In the 1990s, Sweezy documented the traditional crafts of Armenia, making more than a dozen trips to the country. In 2006, the National Endowment for the Arts presented Nancy Sweezy with the Bess Lomax Hawes National Heritage Fellowship. She was born October 14, 1921, in Flushing, New York, and died February 6, 2010 in Cambridge, Massachusetts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   In English.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020001
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Hawes, Bess Lomax,
-  </subfield>
-  <subfield code="d">
-   1921-2009.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Rinzler, Ralph.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Club Passim.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Country Roads, Inc.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Jugtown Pottery (Firm)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Refugee Arts Group.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Smithsonian Institution.
-  </subfield>
-  <subfield code="b">
-   Office of Folklife Programs.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   National Endowment for the Arts.
-  </subfield>
-  <subfield code="b">
-   Folk Arts Program.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Women folklorists
-  </subfield>
-  <subfield code="z">
-   United States
-  </subfield>
-  <subfield code="x">
-   Biography.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Arts administrators
-  </subfield>
-  <subfield code="z">
-   United States
-  </subfield>
-  <subfield code="x">
-   Biography.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk art
-  </subfield>
-  <subfield code="z">
-   Massachusetts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Ethnic arts.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Public folklore.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Asian Americans
-  </subfield>
-  <subfield code="z">
-   Massachusetts
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Pottery
-  </subfield>
-  <subfield code="z">
-   North Carolina.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Pottery
-  </subfield>
-  <subfield code="z">
-   Southern States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Potters
-  </subfield>
-  <subfield code="z">
-   Southern States
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folklore
-  </subfield>
-  <subfield code="z">
-   Armenia (Republic)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk art
-  </subfield>
-  <subfield code="z">
-   Armenia (Republic)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Artisans
-  </subfield>
-  <subfield code="z">
-   Armenia (Republic)
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Cambridge (Mass.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Videocassettes.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Manuscripts.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Field notes.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Sweezy, Nancy,
-  </subfield>
-  <subfield code="e">
-   collector.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020001
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>05922cpcaa22008297i 4500</leader>
+<controlfield tag="001">19461589</controlfield>
+<controlfield tag="005">20240408084544.0</controlfield>
+<controlfield tag="007">st ||n|m|||n|e</controlfield>
+<controlfield tag="007">ss ||njl|||n|e</controlfield>
+<controlfield tag="008">170124i18502009xx eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">mkru 2017-01-24</subfield>
+<subfield code="a">kere 2019-10-21</subfield>
+<subfield code="a">masmit 2020-02-20</subfield>
+<subfield code="a">masmit 2020-02-27</subfield>
+<subfield code="a">masmit 2020-03-05</subfield>
+<subfield code="a">mseg 2021-06-11</subfield>
+<subfield code="a">sludewig 2023-08-01</subfield>
+<subfield code="a">masmit 2023-08-08</subfield>
+<subfield code="a">fcundiff 2023-08-09</subfield>
+<subfield code="a">sludewig 2024-04-08</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2017655202</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us-ma</subfield>
+<subfield code="a">n-us-nc</subfield>
+<subfield code="a">a-ai---</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">VAS 7633-7657 (VHS); VBY 6624-6625 (U-matic)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 2017/001</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Nancy Sweezy collection,</subfield>
+<subfield code="f">1850-2009</subfield>
+<subfield code="g">(bulk 1968-2007).</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">33,037</subfield>
+<subfield code="f">items</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">97</subfield>
+<subfield code="f">containers</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">44.6</subfield>
+<subfield code="f">linear feet</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">16,200</subfield>
+<subfield code="f">materials</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">3,333 photographs :</subfield>
+<subfield code="b">prints, black and white ; color ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">graphic materials</subfield>
+<subfield code="a">5,808 photographs :</subfield>
+<subfield code="b">slides, color ;</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">graphic materials</subfield>
+<subfield code="a">7,488 photographs :</subfield>
+<subfield code="b">film negatives, black and white ; color ;</subfield>
+<subfield code="c">35 mm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">graphic materials</subfield>
+<subfield code="a">23 photographs :</subfield>
+<subfield code="b">glass negatives, black and white ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">130 sound cassettes :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">25 videocassettes :</subfield>
+<subfield code="b">analog</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">electronic media</subfield>
+<subfield code="a">16 optical discs:</subfield>
+<subfield code="b">optical ;</subfield>
+<subfield code="c">4 3/4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">electronic media</subfield>
+<subfield code="a">14 zip disks ;</subfield>
+<subfield code="c">4 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+Collection of papers, photographs, interviews, field recordings and other audiovisual materials comprising the professional archive of folklorist Nancy Sweezy created in the course of her career as a folk arts advocate, author, and administrator of non-profit folk craft and performance organizations. Includes research materials for her books Raised in Clay: The Southern Pottery Tradition, Armenian Folk Arts, Culture, and Identity co-edited with Levon Abrahamian and Sam Sweezy and The Potter's Eye: Art and Tradition in North Carolina Pottery co-authored by Mark Hewitt.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Nancy Sweezy collection (AFC 2017/001), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. Access may be restricted. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+The donor has dedicated the rights they hold in the collection to the public domain. Rights belonging to third parties may be goverened by copyright or other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">Martha Sweezy;</subfield>
+<subfield code="c">Donation;</subfield>
+<subfield code="d">2016.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">The Country Roads, Inc. Board of Directors;</subfield>
+<subfield code="c">Donation;</subfield>
+<subfield code="d">2021.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="545">
+<subfield code="a">
+Nancy Sweezy, author, folklorist, raised in Concord, New Hampshire, studied at the School of the Museum of Fine Arts in Boston, Massachusetts. During World War II, she worked overseas in the Research and Analysis Branch of the Office of Strategic Services (OSS). Her interest in craft began with pottery lessons in New England in the 1950s. She worked in partnership with Ralph Rinzler and helped manage Club 47 (now Club Passim) in Cambridge, Massachusetts, where she served as president of the board. She and Ralph, along with Norman Kennedy and others, formed Country Roads, Inc. in 1966 to support folk arts educational projects, research, and marketing. The group purchased the Jugtown Pottery in Seagrove, North Carolina, in 1968, and Sweezy moved to North Carolina to direct the operation and work with traditional potters in the area. In the 1980s in Boston, Nancy organized the Refugee Arts Group to encourage recent Southeast Asian and other immigrants to preserve and perpetuate craft, dance, and music traditions from their communities of origin. In the 1990s, Sweezy documented the traditional crafts of Armenia, making more than a dozen trips to the country. In 2006, the National Endowment for the Arts presented Nancy Sweezy with the Bess Lomax Hawes National Heritage Fellowship. She was born October 14, 1921, in Flushing, New York, and died February 6, 2010 in Cambridge, Massachusetts.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">In English.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020001</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Hawes, Bess Lomax,</subfield>
+<subfield code="d">1921-2009.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Rinzler, Ralph.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Club Passim.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Country Roads, Inc.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Jugtown Pottery (Firm)</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Refugee Arts Group.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Smithsonian Institution.</subfield>
+<subfield code="b">Office of Folklife Programs.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">National Endowment for the Arts.</subfield>
+<subfield code="b">Folk Arts Program.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Women folklorists</subfield>
+<subfield code="z">United States</subfield>
+<subfield code="x">Biography.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Arts administrators</subfield>
+<subfield code="z">United States</subfield>
+<subfield code="x">Biography.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk art</subfield>
+<subfield code="z">Massachusetts.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Ethnic arts.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Public folklore.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Asian Americans</subfield>
+<subfield code="z">Massachusetts</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Pottery</subfield>
+<subfield code="z">North Carolina.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Pottery</subfield>
+<subfield code="z">Southern States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Potters</subfield>
+<subfield code="z">Southern States</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folklore</subfield>
+<subfield code="z">Armenia (Republic)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk art</subfield>
+<subfield code="z">Armenia (Republic)</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Artisans</subfield>
+<subfield code="z">Armenia (Republic)</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Cambridge (Mass.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Videocassettes.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Manuscripts.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Field notes.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Sweezy, Nancy,</subfield>
+<subfield code="e">collector.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020001</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>

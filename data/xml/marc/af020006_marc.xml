@@ -1,502 +1,257 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  04753cpcaa22007097i 4500
- </leader>
- <controlfield tag="001">
-  21322627
- </controlfield>
- <controlfield tag="005">
-  20200730131119.0
- </controlfield>
- <controlfield tag="007">
-  cr c||||||||||
- </controlfield>
- <controlfield tag="008">
-  191206i19892007xx                  chi
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   masmit 2019-12-06
-  </subfield>
-  <subfield code="a">
-   mseg 2020-01-24
-  </subfield>
-  <subfield code="a">
-   masmit 2020-02-14
-  </subfield>
-  <subfield code="a">
-   masmit 2020-07-30
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2019655212
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="041">
-  <subfield code="a">
-   chi
-  </subfield>
-  <subfield code="a">
-   eng
-  </subfield>
-  <subfield code="d">
-   chi
-  </subfield>
-  <subfield code="d">
-   eng
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   a-cc---
-  </subfield>
-  <subfield code="a">
-   n-us-dc
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   VAS 7629-7631
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 2006/008
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Hongyi He Chinese papercuts collection.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="264">
-  <subfield code="c">
-   1989-2007.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   approximately 365 items.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   350
-  </subfield>
-  <subfield code="f">
-   items ;
-  </subfield>
-  <subfield code="a">
-   0.4
-  </subfield>
-  <subfield code="f">
-   linear feet
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   8 photographs :
-  </subfield>
-  <subfield code="b">
-   digital, black and white, color (JPEG, TIF)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic materials
-  </subfield>
-  <subfield code="a">
-   2 framed cut-paper works :
-  </subfield>
-  <subfield code="b">
-   paper ;
-  </subfield>
-  <subfield code="c">
-   various sizes.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   moving images
-  </subfield>
-  <subfield code="a">
-   5 videocassettes of 5 (Mini-DV) (3 hours 30 min.) :
-  </subfield>
-  <subfield code="b">
-   digital, color, sound.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="336">
-  <subfield code="a">
-   two-dimensional moving image
-  </subfield>
-  <subfield code="b">
-   tdi
-  </subfield>
-  <subfield code="2">
-   rdacontent
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="336">
-  <subfield code="a">
-   still image
-  </subfield>
-  <subfield code="b">
-   sti
-  </subfield>
-  <subfield code="2">
-   rdacontent
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="336">
-  <subfield code="a">
-   text
-  </subfield>
-  <subfield code="b">
-   txt
-  </subfield>
-  <subfield code="2">
-   rdacontent
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="337">
-  <subfield code="a">
-   unmediated
-  </subfield>
-  <subfield code="b">
-   n
-  </subfield>
-  <subfield code="2">
-   rdamedia
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="337">
-  <subfield code="a">
-   video
-  </subfield>
-  <subfield code="b">
-   v
-  </subfield>
-  <subfield code="2">
-   rdamedia
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="337">
-  <subfield code="a">
-   computer
-  </subfield>
-  <subfield code="b">
-   c
-  </subfield>
-  <subfield code="2">
-   rdamedia
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="338">
-  <subfield code="a">
-   sheet
-  </subfield>
-  <subfield code="b">
-   nb
-  </subfield>
-  <subfield code="2">
-   rdacarrier
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="338">
-  <subfield code="a">
-   videocassette
-  </subfield>
-  <subfield code="b">
-   vf
-  </subfield>
-  <subfield code="2">
-   rdacarrier
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="338">
-  <subfield code="a">
-   online resource
-  </subfield>
-  <subfield code="b">
-   cr
-  </subfield>
-  <subfield code="2">
-   rdacarrier
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   The collection documents Hongyi He's method and philosophy behind her papercutting repertory through her biography, publications, and samples of her work. Papercuts created during a lecture/demonstration and interview at the Library of Congress on February 24, 2006, are also contained in this collection, along with several paper-cuts that were later donated to the American Folklife Center.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Hongyi He Chinese papercuts collection (AFC 2006/008) Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Hongyi He ;
-  </subfield>
-  <subfield code="c">
-   Donation;
-  </subfield>
-  <subfield code="d">
-   2006, 2007.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   In Chinese and English; the video recording is in Chinese with English translations provided.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020006
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="545">
-  <subfield code="a">
-   Hongyi He is a Chinese papercut artist recognized as a "master of folk arts and crafts" by UNESCO.  She was born in Wuhan, Hubei, China, on May 1, 1954. Hongyi He started paper cutting as a hobby when she was twelve years old, and kept this particular hobby throughout China's turbulent historical transformation.  She earned a bachelor's and master's degrees in folk literature and arts from Common University of Central China, in 1980 and 1982 respectively. After her graduation, she began teaching at National South-Central China University in Wuhan. While working, she was sent to Beijing Normal University for a half year as part of a training program for faculty of folklore and folk art.  At this program, she met her mentor and teacher, Zhong-Jin Wen, a leading scholar of Chinese folk art. He influenced her work and encouraged her to create contemporary folk art as a papercut artist. Hongyi He has attended conferences, given lectures, and presented exhibitions in China, Korea, Japan, and the United States.  She currently teaches at the National South-Central China University in Wuhan.  She is also an active artist in the United States and promotes her art among Chinese communities in metropolitan Washington, DC, through lectures and workshops.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   He, Hongyi
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk artists
-  </subfield>
-  <subfield code="z">
-   China
-  </subfield>
-  <subfield code="v">
-   Interviews.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Paper work
-  </subfield>
-  <subfield code="z">
-   China.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk art
-  </subfield>
-  <subfield code="z">
-   China.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Cut-out craft
-  </subfield>
-  <subfield code="z">
-   China.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Video recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Cut-paper work.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Computer files.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Digital video.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Digital recordings.
-  </subfield>
-  <subfield code="2">
-   afset
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Digital photographs.
-  </subfield>
-  <subfield code="2">
-   gmgpc
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   He, Hongyi,
-  </subfield>
-  <subfield code="e">
-   artist,
-  </subfield>
-  <subfield code="e">
-   collector,
-  </subfield>
-  <subfield code="e">
-   interviewee.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Yeh, Nora,
-  </subfield>
-  <subfield code="e">
-   interviewer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   sponsor.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="751">
-  <subfield code="a">
-   Washington (D.C.),
-  </subfield>
-  <subfield code="e">
-   event place.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   https://hdl.loc.gov/loc.afc/eadafc.af020006
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="991">
-  <subfield code="h">
-   Electronic Resource
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>04753cpcaa22007097i 4500</leader>
+<controlfield tag="001">21322627</controlfield>
+<controlfield tag="005">20200730131119.0</controlfield>
+<controlfield tag="007">cr c||||||||||</controlfield>
+<controlfield tag="008">191206i19892007xx chi </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">masmit 2019-12-06</subfield>
+<subfield code="a">mseg 2020-01-24</subfield>
+<subfield code="a">masmit 2020-02-14</subfield>
+<subfield code="a">masmit 2020-07-30</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2019655212</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">chi</subfield>
+<subfield code="a">eng</subfield>
+<subfield code="d">chi</subfield>
+<subfield code="d">eng</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">a-cc---</subfield>
+<subfield code="a">n-us-dc</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">VAS 7629-7631</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 2006/008</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Hongyi He Chinese papercuts collection.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="264">
+<subfield code="c">1989-2007.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">approximately 365 items.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">350</subfield>
+<subfield code="f">items ;</subfield>
+<subfield code="a">0.4</subfield>
+<subfield code="f">linear feet</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">8 photographs :</subfield>
+<subfield code="b">digital, black and white, color (JPEG, TIF)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic materials</subfield>
+<subfield code="a">2 framed cut-paper works :</subfield>
+<subfield code="b">paper ;</subfield>
+<subfield code="c">various sizes.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">moving images</subfield>
+<subfield code="a">
+5 videocassettes of 5 (Mini-DV) (3 hours 30 min.) :
+</subfield>
+<subfield code="b">digital, color, sound.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">two-dimensional moving image</subfield>
+<subfield code="b">tdi</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">still image</subfield>
+<subfield code="b">sti</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">video</subfield>
+<subfield code="b">v</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">computer</subfield>
+<subfield code="b">c</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">sheet</subfield>
+<subfield code="b">nb</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">videocassette</subfield>
+<subfield code="b">vf</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">online resource</subfield>
+<subfield code="b">cr</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+The collection documents Hongyi He's method and philosophy behind her papercutting repertory through her biography, publications, and samples of her work. Papercuts created during a lecture/demonstration and interview at the Library of Congress on February 24, 2006, are also contained in this collection, along with several paper-cuts that were later donated to the American Folklife Center.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Hongyi He Chinese papercuts collection (AFC 2006/008) Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">Hongyi He ;</subfield>
+<subfield code="c">Donation;</subfield>
+<subfield code="d">2006, 2007.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+In Chinese and English; the video recording is in Chinese with English translations provided.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020006</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="545">
+<subfield code="a">
+Hongyi He is a Chinese papercut artist recognized as a "master of folk arts and crafts" by UNESCO. She was born in Wuhan, Hubei, China, on May 1, 1954. Hongyi He started paper cutting as a hobby when she was twelve years old, and kept this particular hobby throughout China's turbulent historical transformation. She earned a bachelor's and master's degrees in folk literature and arts from Common University of Central China, in 1980 and 1982 respectively. After her graduation, she began teaching at National South-Central China University in Wuhan. While working, she was sent to Beijing Normal University for a half year as part of a training program for faculty of folklore and folk art. At this program, she met her mentor and teacher, Zhong-Jin Wen, a leading scholar of Chinese folk art. He influenced her work and encouraged her to create contemporary folk art as a papercut artist. Hongyi He has attended conferences, given lectures, and presented exhibitions in China, Korea, Japan, and the United States. She currently teaches at the National South-Central China University in Wuhan. She is also an active artist in the United States and promotes her art among Chinese communities in metropolitan Washington, DC, through lectures and workshops.
+</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">He, Hongyi</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk artists</subfield>
+<subfield code="z">China</subfield>
+<subfield code="v">Interviews.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Paper work</subfield>
+<subfield code="z">China.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk art</subfield>
+<subfield code="z">China.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Cut-out craft</subfield>
+<subfield code="z">China.</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Video recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Cut-paper work.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Computer files.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Digital video.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Digital recordings.</subfield>
+<subfield code="2">afset</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Digital photographs.</subfield>
+<subfield code="2">gmgpc</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">He, Hongyi,</subfield>
+<subfield code="e">artist,</subfield>
+<subfield code="e">collector,</subfield>
+<subfield code="e">interviewee.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Yeh, Nora,</subfield>
+<subfield code="e">interviewer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">American Folklife Center,</subfield>
+<subfield code="e">sponsor.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="751">
+<subfield code="a">Washington (D.C.),</subfield>
+<subfield code="e">event place.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">https://hdl.loc.gov/loc.afc/eadafc.af020006</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="991">
+<subfield code="h">Electronic Resource</subfield>
+</datafield>
 </record>
+</collection>

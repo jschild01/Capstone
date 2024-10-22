@@ -1,838 +1,425 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
- <leader>
-  08239cpcaa22011777i 4500
- </leader>
- <controlfield tag="001">
-  18944672
- </controlfield>
- <controlfield tag="005">
-  20220922063903.0
- </controlfield>
- <controlfield tag="007">
-  st ||n|m|||n|e
- </controlfield>
- <controlfield tag="008">
-  160121i19522016xx                  eng
- </controlfield>
- <datafield ind1=" " ind2=" " tag="906">
-  <subfield code="a">
-   7
-  </subfield>
-  <subfield code="b">
-   cbc
-  </subfield>
-  <subfield code="c">
-   orignew
-  </subfield>
-  <subfield code="d">
-   u
-  </subfield>
-  <subfield code="e">
-   ncip
-  </subfield>
-  <subfield code="f">
-   20
-  </subfield>
-  <subfield code="g">
-   y-folklife
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="955">
-  <subfield code="a">
-   mkru 2016-01-21
-  </subfield>
-  <subfield code="a">
-   mseg 2016-06-25
-  </subfield>
-  <subfield code="a">
-   mler 2017-02-24
-  </subfield>
-  <subfield code="a">
-   mler 2017-07-27
-  </subfield>
-  <subfield code="a">
-   mler 2017-08-16
-  </subfield>
-  <subfield code="a">
-   mkru 2017-08-30
-  </subfield>
-  <subfield code="a">
-   mler 2017-08-31
-  </subfield>
-  <subfield code="a">
-   mler 2017-09-01
-  </subfield>
-  <subfield code="a">
-   mler 2017-09-14
-  </subfield>
-  <subfield code="a">
-   mler 2017-09-20
-  </subfield>
-  <subfield code="a">
-   mkru 2017-10-10
-  </subfield>
-  <subfield code="a">
-   mkru 2018-01-11
-  </subfield>
-  <subfield code="a">
-   mler 2018-01-31
-  </subfield>
-  <subfield code="a">
-   mler 2018-02-28
-  </subfield>
-  <subfield code="a">
-   kere 2020-03-03
-  </subfield>
-  <subfield code="a">
-   mler 2020-03-06
-  </subfield>
-  <subfield code="a">
-   masmit 2020-06-09
-  </subfield>
-  <subfield code="a">
-   mler 2020-08-31
-  </subfield>
-  <subfield code="a">
-   masmit 2021-01-19
-  </subfield>
-  <subfield code="a">
-   masmit 2022-04-22
-  </subfield>
-  <subfield code="a">
-   fcundiff 2022-08-26
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="010">
-  <subfield code="a">
-   2016655215
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="040">
-  <subfield code="a">
-   DLC
-  </subfield>
-  <subfield code="b">
-   eng
-  </subfield>
-  <subfield code="e">
-   dacs
-  </subfield>
-  <subfield code="c">
-   DLC
-  </subfield>
-  <subfield code="d">
-   DLC
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="043">
-  <subfield code="a">
-   n-us---
-  </subfield>
-  <subfield code="a">
-   e-sw---
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   RAA 59273-59277; RXI 4249-4277, RXI 4279-4307
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="090">
-  <subfield code="a">
-   AFC 2015/040
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2="0" tag="245">
-  <subfield code="a">
-   Izzy Young collection
-  </subfield>
-  <subfield code="f">
-   1942-2016.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="260">
-  <subfield code="c">
-   1942-2016.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   5,972
-  </subfield>
-  <subfield code="f">
-   items
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   whole collection
-  </subfield>
-  <subfield code="a">
-   53
-  </subfield>
-  <subfield code="f">
-   linear feet
-  </subfield>
-  <subfield code="a">
-   (133
-  </subfield>
-  <subfield code="f">
-   containers)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   sound recordings
-  </subfield>
-  <subfield code="a">
-   88 sound tape reels :
-  </subfield>
-  <subfield code="b">
-   analog ;
-  </subfield>
-  <subfield code="c">
-   7 and 10 in.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   graphic images
-  </subfield>
-  <subfield code="a">
-   583 photographic prints :
-  </subfield>
-  <subfield code="b">
-   black and white, color ;
-  </subfield>
-  <subfield code="c">
-   various sizes
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   manuscripts
-  </subfield>
-  <subfield code="a">
-   130
-  </subfield>
-  <subfield code="f">
-   containers
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="3">
-   artifacts
-  </subfield>
-  <subfield code="a">
-   8 objects
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="300">
-  <subfield code="a">
-   28 sound and video discs (CD-R and DVD-R) :
-  </subfield>
-  <subfield code="b">
-   digital ;
-  </subfield>
-  <subfield code="c">
-   4 3/4 in.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="511">
-  <subfield code="a">
-   Sound recordings in the collection include performances by Hedy West, David Bromberg, Jean Ritchie, Elizabeth Cotten, Young Tradition, Tom Paley, Mike Seeger, Tuli Kupferberg, and many others.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="520">
-  <subfield code="a">
-   Collection of manuscripts, including correspondence, journals, diaries, scrapbooks, clippings, artwork, and ephemera; photographic prints; and audio recordings comprising the archive of Izzy Young, who was proprietor of the Folklore Center, New York, N.Y. (beginning in 1957), and then, beginning in 1973, of the Folklore Centrum, Stockholm, Sweden. The collection documents the late 1950s and 1960s folk music revival, and Izzy Young's contribution to the scene. Includes documentation about prominent musicians, poets, and dancers, and about concerts, music festivals, and music camps around the United States and in Sweden. Includes articles and writings about Bob Dylan and his musical career, and correspondence with significant figures in the folk music scene, such as Pete Seeger, Mark Moss, and Dick Waterman. Scrapbooks document concerts and other events, including the 1961 Washington Square Park Protest, which followed the New York Police Department's attempt to stop singing in the park. Audio recordings are of radio programs and concerts that Young promoted, such as those with Hedy West, David Bromberg, Jean Ritchie, Elizabeth Cotten, and many others. Includes seven pieces of original artwork by Harry Smith, artist, filmmaker, and a friend of Young's.
-  </subfield>
- </datafield>
- <datafield ind1="8" ind2=" " tag="524">
-  <subfield code="a">
-   Izzy Young collection (AFC 2015/040), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
-  </subfield>
- </datafield>
- <datafield ind1="0" ind2=" " tag="506">
-  <subfield code="a">
-   Collection is open for research. To request materials, please contact the Folklife Reading Room at
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.contact
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="530">
-  <subfield code="a">
-   Digital preservation masters from original sound tape reels.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="540">
-  <subfield code="a">
-   Duplication of collection materials may be governed by copyright and other restrictions.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="a">
-   Izzy Young;
-  </subfield>
-  <subfield code="c">
-   Purchase;
-  </subfield>
-  <subfield code="d">
-   2015.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="541">
-  <subfield code="3">
-   1 box manuscripts (approximately 350 items), 12 journals and notebooks (spanning 1960 to 2016), 16 7" tapes, 2 5" tapes, 7 cassette tapes, approximately 20 CD and DVD-R, 2 DVDs.
-  </subfield>
-  <subfield code="a">
-   Philomene Grandin;
-  </subfield>
-  <subfield code="c">
-   Accrual;
-  </subfield>
-  <subfield code="d">
-   2020.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="545">
-  <subfield code="a">
-   Israel (Izzy) Goodman Young was born March 26, 1928 on the Lower East Side of Manhattan. In the 1940s, Young fell in love with square dancing through his involvement with Margot Mayo's American Square Dance Group, where he met folk musicians such as Pete Seeger, Oscar Brand, and Reverend Gary Davis. After accumulating a catalog of books about folk music, Young opened the Folklore Center in 1957, a music store and gathering place for the folk music revival scene in Greenwich Village. Young organized and promoted folk music concerts and poetry readings at the Folklore Center and at other venues in New York City. He was a founder of the Friends of Old Time Music, a group which presented concerts of traditional folk musicians in New York City venues. Young also organized what is thought to be Bob Dylan's first formal concert on November 4, 1961 at Carnegie Hall, as well as the early concerts of musicians such as Tim Buckley, Joni Mitchell, and Mississippi John Hurt. He wrote about the folk music scene in his Sing Out! Magazine column, "Frets and Frails," from 1959 to 1969. In 1973, Young emigrated to Stockholm, Sweden, and opened the Folklore Centrum, through which he has organized and promoted cultural events, including Scandanavian folk music and dance events. From the mid-1980s until 2012, Young issued the Folklore Centrum newsletter, a resource for events and commentary about Swedish and American folk music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="546">
-  <subfield code="a">
-   In English, Swedish, French, Hebrew, and other languagues.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="555">
-  <subfield code="a">
-   Finding aid is available online
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/eadafc.af017003
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Barretta, Scott
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Charters, Samuel,
-  </subfield>
-  <subfield code="d">
-   1929-2015.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Cohen, John,
-  </subfield>
-  <subfield code="d">
-   1932-2019.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Cohen, Ronald,
-  </subfield>
-  <subfield code="d">
-   1940-
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Dylan, Bob,
-  </subfield>
-  <subfield code="d">
-   1941-
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Ginsberg, Allen,
-  </subfield>
-  <subfield code="d">
-   1926-1997.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Guthrie, Woody,
-  </subfield>
-  <subfield code="d">
-   1912-1967.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Killen, Louis.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Leadbelly,
-  </subfield>
-  <subfield code="d">
-   1885-1949.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Leventhal, Harold.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Lomax, Alan,
-  </subfield>
-  <subfield code="d">
-   1915-2002.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Marcus, Greil
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Mayo, Margot,
-  </subfield>
-  <subfield code="d">
-   1910-1974.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Ochs, Phil.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Reuss, Richard A.
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Rotolo, Suze
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Seeger, Mike,
-  </subfield>
-  <subfield code="d">
-   1933-2009.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Seeger, Pete,
-  </subfield>
-  <subfield code="d">
-   1919-2014
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Seeger, Toshi
-  </subfield>
-  <subfield code="v">
-   Correspondence.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Silber, Marc.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Smith, Harry Everett,
-  </subfield>
-  <subfield code="d">
-   1923-1991.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2="0" tag="600">
-  <subfield code="a">
-   Young, Izzy,
-  </subfield>
-  <subfield code="d">
-   1928-2019.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Folklore Center (New York, N.Y.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2="0" tag="610">
-  <subfield code="a">
-   Friends of Old-Time Music.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk festivals
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk singers
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Folk music
-  </subfield>
-  <subfield code="z">
-   Sweden.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Popular music
-  </subfield>
-  <subfield code="y">
-   1961-1970.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Klezmer music
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Square dancing
-  </subfield>
-  <subfield code="z">
-   United States.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="650">
-  <subfield code="a">
-   Protest movements
-  </subfield>
-  <subfield code="z">
-   New York (State)
-  </subfield>
-  <subfield code="z">
-   New York.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   New York (N.Y.)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Stockholm (Sweden)
-  </subfield>
-  <subfield code="x">
-   Social life and customs.
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="0" tag="651">
-  <subfield code="a">
-   Washington Square (New York, N.Y.)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Folk music radio programs.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Interviews.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Sound recordings.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Photographs.
-  </subfield>
-  <subfield code="2">
-   gmgpc
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Manuscripts.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Correspondence.
-  </subfield>
-  <subfield code="2">
-   aat
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Diaries.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Scrapbooks.
-  </subfield>
-  <subfield code="2">
-   gmgpc
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2="7" tag="655">
-  <subfield code="a">
-   Ephemera.
-  </subfield>
-  <subfield code="2">
-   lcgft
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Young, Izzy,
-  </subfield>
-  <subfield code="d">
-   1928-2019,
-  </subfield>
-  <subfield code="e">
-   collector,
-  </subfield>
-  <subfield code="e">
-   author.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Bromberg, David,
-  </subfield>
-  <subfield code="d">
-   1945-
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Cotten, Elizabeth,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Gahr, David,
-  </subfield>
-  <subfield code="e">
-   photographer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Kupferberg, Tuli,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Lloyd, A. L.
-  </subfield>
-  <subfield code="q">
-   (Albert Lancaster),
-  </subfield>
-  <subfield code="d">
-   1908-1982,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Oppenheimer, Joel,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Paley, Tom,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Ritchie, Jean,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Seeger, Mike,
-  </subfield>
-  <subfield code="d">
-   1933-2009,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Siebel, Paul,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   West, Hedy,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="1" ind2=" " tag="700">
-  <subfield code="a">
-   Winston, Winnie,
-  </subfield>
-  <subfield code="e">
-   performer.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Folklore Center (New York, N.Y.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Folklore Centrum.
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   WBAI Radio (New York, N.Y.)
-  </subfield>
- </datafield>
- <datafield ind1="2" ind2=" " tag="710">
-  <subfield code="a">
-   Young Tradition (Musical group)
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="852">
-  <subfield code="a">
-   Library of Congress
-  </subfield>
-  <subfield code="b">
-   Archive of Folk Culture, American Folklife Center,
-  </subfield>
-  <subfield code="e">
-   101 Independence Ave. S.E., Washington, DC USA 20540-4610
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/folklife.home
-  </subfield>
- </datafield>
- <datafield ind1="4" ind2="2" tag="856">
-  <subfield code="3">
-   Finding aid
-  </subfield>
-  <subfield code="u">
-   http://hdl.loc.gov/loc.afc/eadafc.af017003
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/coll
-  </subfield>
- </datafield>
- <datafield ind1=" " ind2=" " tag="985">
-  <subfield code="a">
-   afc/ead
-  </subfield>
- </datafield>
+<collection>
+<record>
+<leader>08239cpcaa22011777i 4500</leader>
+<controlfield tag="001">18944672</controlfield>
+<controlfield tag="005">20220922063903.0</controlfield>
+<controlfield tag="007">st ||n|m|||n|e</controlfield>
+<controlfield tag="008">160121i19522016xx eng </controlfield>
+<datafield ind1=" " ind2=" " tag="906">
+<subfield code="a">7</subfield>
+<subfield code="b">cbc</subfield>
+<subfield code="c">orignew</subfield>
+<subfield code="d">u</subfield>
+<subfield code="e">ncip</subfield>
+<subfield code="f">20</subfield>
+<subfield code="g">y-folklife</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="955">
+<subfield code="a">mkru 2016-01-21</subfield>
+<subfield code="a">mseg 2016-06-25</subfield>
+<subfield code="a">mler 2017-02-24</subfield>
+<subfield code="a">mler 2017-07-27</subfield>
+<subfield code="a">mler 2017-08-16</subfield>
+<subfield code="a">mkru 2017-08-30</subfield>
+<subfield code="a">mler 2017-08-31</subfield>
+<subfield code="a">mler 2017-09-01</subfield>
+<subfield code="a">mler 2017-09-14</subfield>
+<subfield code="a">mler 2017-09-20</subfield>
+<subfield code="a">mkru 2017-10-10</subfield>
+<subfield code="a">mkru 2018-01-11</subfield>
+<subfield code="a">mler 2018-01-31</subfield>
+<subfield code="a">mler 2018-02-28</subfield>
+<subfield code="a">kere 2020-03-03</subfield>
+<subfield code="a">mler 2020-03-06</subfield>
+<subfield code="a">masmit 2020-06-09</subfield>
+<subfield code="a">mler 2020-08-31</subfield>
+<subfield code="a">masmit 2021-01-19</subfield>
+<subfield code="a">masmit 2022-04-22</subfield>
+<subfield code="a">fcundiff 2022-08-26</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="010">
+<subfield code="a"> 2016655215</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="e">dacs</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">DLC</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="043">
+<subfield code="a">n-us---</subfield>
+<subfield code="a">e-sw---</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">RAA 59273-59277; RXI 4249-4277, RXI 4279-4307</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="090">
+<subfield code="a">AFC 2015/040</subfield>
+</datafield>
+<datafield ind1="0" ind2="0" tag="245">
+<subfield code="a">Izzy Young collection</subfield>
+<subfield code="f">1942-2016.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="260">
+<subfield code="c">1942-2016.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">5,972</subfield>
+<subfield code="f">items</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">whole collection</subfield>
+<subfield code="a">53</subfield>
+<subfield code="f">linear feet</subfield>
+<subfield code="a">(133</subfield>
+<subfield code="f">containers)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">sound recordings</subfield>
+<subfield code="a">88 sound tape reels :</subfield>
+<subfield code="b">analog ;</subfield>
+<subfield code="c">7 and 10 in.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">graphic images</subfield>
+<subfield code="a">583 photographic prints :</subfield>
+<subfield code="b">black and white, color ;</subfield>
+<subfield code="c">various sizes</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">manuscripts</subfield>
+<subfield code="a">130</subfield>
+<subfield code="f">containers</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="3">artifacts</subfield>
+<subfield code="a">8 objects</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">28 sound and video discs (CD-R and DVD-R) :</subfield>
+<subfield code="b">digital ;</subfield>
+<subfield code="c">4 3/4 in.</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="511">
+<subfield code="a">
+Sound recordings in the collection include performances by Hedy West, David Bromberg, Jean Ritchie, Elizabeth Cotten, Young Tradition, Tom Paley, Mike Seeger, Tuli Kupferberg, and many others.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="520">
+<subfield code="a">
+Collection of manuscripts, including correspondence, journals, diaries, scrapbooks, clippings, artwork, and ephemera; photographic prints; and audio recordings comprising the archive of Izzy Young, who was proprietor of the Folklore Center, New York, N.Y. (beginning in 1957), and then, beginning in 1973, of the Folklore Centrum, Stockholm, Sweden. The collection documents the late 1950s and 1960s folk music revival, and Izzy Young's contribution to the scene. Includes documentation about prominent musicians, poets, and dancers, and about concerts, music festivals, and music camps around the United States and in Sweden. Includes articles and writings about Bob Dylan and his musical career, and correspondence with significant figures in the folk music scene, such as Pete Seeger, Mark Moss, and Dick Waterman. Scrapbooks document concerts and other events, including the 1961 Washington Square Park Protest, which followed the New York Police Department's attempt to stop singing in the park. Audio recordings are of radio programs and concerts that Young promoted, such as those with Hedy West, David Bromberg, Jean Ritchie, Elizabeth Cotten, and many others. Includes seven pieces of original artwork by Harry Smith, artist, filmmaker, and a friend of Young's.
+</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="524">
+<subfield code="a">
+Izzy Young collection (AFC 2015/040), Archive of Folk Culture, American Folklife Center, Library of Congress, Washington, D.C.
+</subfield>
+</datafield>
+<datafield ind1="0" ind2=" " tag="506">
+<subfield code="a">
+Collection is open for research. To request materials, please contact the Folklife Reading Room at
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.contact</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="530">
+<subfield code="a">
+Digital preservation masters from original sound tape reels.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="540">
+<subfield code="a">
+Duplication of collection materials may be governed by copyright and other restrictions.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="a">Izzy Young;</subfield>
+<subfield code="c">Purchase;</subfield>
+<subfield code="d">2015.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="541">
+<subfield code="3">
+1 box manuscripts (approximately 350 items), 12 journals and notebooks (spanning 1960 to 2016), 16 7" tapes, 2 5" tapes, 7 cassette tapes, approximately 20 CD and DVD-R, 2 DVDs.
+</subfield>
+<subfield code="a">Philomene Grandin;</subfield>
+<subfield code="c">Accrual;</subfield>
+<subfield code="d">2020.</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="545">
+<subfield code="a">
+Israel (Izzy) Goodman Young was born March 26, 1928 on the Lower East Side of Manhattan. In the 1940s, Young fell in love with square dancing through his involvement with Margot Mayo's American Square Dance Group, where he met folk musicians such as Pete Seeger, Oscar Brand, and Reverend Gary Davis. After accumulating a catalog of books about folk music, Young opened the Folklore Center in 1957, a music store and gathering place for the folk music revival scene in Greenwich Village. Young organized and promoted folk music concerts and poetry readings at the Folklore Center and at other venues in New York City. He was a founder of the Friends of Old Time Music, a group which presented concerts of traditional folk musicians in New York City venues. Young also organized what is thought to be Bob Dylan's first formal concert on November 4, 1961 at Carnegie Hall, as well as the early concerts of musicians such as Tim Buckley, Joni Mitchell, and Mississippi John Hurt. He wrote about the folk music scene in his Sing Out! Magazine column, "Frets and Frails," from 1959 to 1969. In 1973, Young emigrated to Stockholm, Sweden, and opened the Folklore Centrum, through which he has organized and promoted cultural events, including Scandanavian folk music and dance events. From the mid-1980s until 2012, Young issued the Folklore Centrum newsletter, a resource for events and commentary about Swedish and American folk music.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="546">
+<subfield code="a">
+In English, Swedish, French, Hebrew, and other languagues.
+</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="555">
+<subfield code="a">Finding aid is available online</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/eadafc.af017003</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Barretta, Scott</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Charters, Samuel,</subfield>
+<subfield code="d">1929-2015.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Cohen, John,</subfield>
+<subfield code="d">1932-2019.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Cohen, Ronald,</subfield>
+<subfield code="d">1940-</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Dylan, Bob,</subfield>
+<subfield code="d">1941-</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Ginsberg, Allen,</subfield>
+<subfield code="d">1926-1997.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Guthrie, Woody,</subfield>
+<subfield code="d">1912-1967.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Killen, Louis.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Leadbelly,</subfield>
+<subfield code="d">1885-1949.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Leventhal, Harold.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Lomax, Alan,</subfield>
+<subfield code="d">1915-2002.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Marcus, Greil</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Mayo, Margot,</subfield>
+<subfield code="d">1910-1974.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Ochs, Phil.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Reuss, Richard A.</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Rotolo, Suze</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Seeger, Mike,</subfield>
+<subfield code="d">1933-2009.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Seeger, Pete,</subfield>
+<subfield code="d">1919-2014</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Seeger, Toshi</subfield>
+<subfield code="v">Correspondence.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Silber, Marc.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Smith, Harry Everett,</subfield>
+<subfield code="d">1923-1991.</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="600">
+<subfield code="a">Young, Izzy,</subfield>
+<subfield code="d">1928-2019.</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Folklore Center (New York, N.Y.)</subfield>
+</datafield>
+<datafield ind1="2" ind2="0" tag="610">
+<subfield code="a">Friends of Old-Time Music.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk festivals</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk singers</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Folk music</subfield>
+<subfield code="z">Sweden.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Popular music</subfield>
+<subfield code="y">1961-1970.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Klezmer music</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Square dancing</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="650">
+<subfield code="a">Protest movements</subfield>
+<subfield code="z">New York (State)</subfield>
+<subfield code="z">New York.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">New York (N.Y.)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Stockholm (Sweden)</subfield>
+<subfield code="x">Social life and customs.</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="651">
+<subfield code="a">Washington Square (New York, N.Y.)</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Folk music radio programs.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Interviews.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Sound recordings.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Photographs.</subfield>
+<subfield code="2">gmgpc</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Manuscripts.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Correspondence.</subfield>
+<subfield code="2">aat</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Diaries.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Scrapbooks.</subfield>
+<subfield code="2">gmgpc</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="a">Ephemera.</subfield>
+<subfield code="2">lcgft</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Young, Izzy,</subfield>
+<subfield code="d">1928-2019,</subfield>
+<subfield code="e">collector,</subfield>
+<subfield code="e">author.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Bromberg, David,</subfield>
+<subfield code="d">1945-</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Cotten, Elizabeth,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Gahr, David,</subfield>
+<subfield code="e">photographer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Kupferberg, Tuli,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Lloyd, A. L.</subfield>
+<subfield code="q">(Albert Lancaster),</subfield>
+<subfield code="d">1908-1982,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Oppenheimer, Joel,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Paley, Tom,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Ritchie, Jean,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Seeger, Mike,</subfield>
+<subfield code="d">1933-2009,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Siebel, Paul,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">West, Hedy,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="a">Winston, Winnie,</subfield>
+<subfield code="e">performer.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Folklore Center (New York, N.Y.)</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Folklore Centrum.</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">WBAI Radio (New York, N.Y.)</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="a">Young Tradition (Musical group)</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="852">
+<subfield code="a">Library of Congress</subfield>
+<subfield code="b">Archive of Folk Culture, American Folklife Center,</subfield>
+<subfield code="e">
+101 Independence Ave. S.E., Washington, DC USA 20540-4610
+</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/folklife.home</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="3">Finding aid</subfield>
+<subfield code="u">http://hdl.loc.gov/loc.afc/eadafc.af017003</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/coll</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="985">
+<subfield code="a">afc/ead</subfield>
+</datafield>
 </record>
+</collection>
