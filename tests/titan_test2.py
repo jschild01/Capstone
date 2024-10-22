@@ -4,20 +4,15 @@ import json
 import os
 from dotenv import load_dotenv
 from configparser import ConfigParser, ExtendedInterpolation
-import sys
 
 
 def load_configuration(config_dir):
-    # load dotenv from config directory
+
     load_dotenv(dotenv_path=os.path.join(config_dir, '.env'))
     config_file = os.environ['CONFIG_FILE']
     config = ConfigParser(interpolation=ExtendedInterpolation())
-
-    # Load the configuration file from the config directory
     config.read(f"{config_dir}/{config_file}")
     print(config['BedRock_LLM_API']['aws_access_key_id'])
-    #config.read(f"C:/Users/schil/OneDrive/Desktop/School/Capstone/LOC/Bedrock-Titan/{config_file}")
-    #config.read(f"../../config/{config_file}")
     return config
 
 
@@ -50,14 +45,13 @@ def get_embedding_vectors(client, model_id, text):
 
 
 def main():
-    # Set the current working directory to the project root
     tests_dir = os.path.dirname(__file__)
     root_dir = os.path.abspath(os.path.join(tests_dir, os.pardir))
     config_dir = os.path.join(root_dir, 'config')
 
     # Load configuration
     config = load_configuration(config_dir)
-
+    print(config['BedRock_LLM_API']['aws_access_key_id'])
     # Create a Bedrock Runtime client
     bedrock_client = create_bedrock_client(config)
 
@@ -76,4 +70,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
