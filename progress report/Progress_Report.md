@@ -53,15 +53,27 @@ https://www.markdownguide.org/cheat-sheet/
     - generator tokenization max_limits
 
 - Action Items:
-* [ ] Add in Bedrock + Titan as options for user
-* [ ] Two tables for accuracy on 13 questions for the 46 test docs
-    * [ ] One table comparing the generated responses for each model (Llama3.2, T5, Bedrock+Titan), for each of the questions
+* [-] Add in Bedrock + Titan as options for user
+* [x] Two tables for accuracy on 13 questions for the 46 test docs
+    * [x] One table comparing the generated responses for each model (Llama3.2, T5, Bedrock+Titan), for each of the questions
         * [ ] Include metadata retrieval
-    * [ ] One table showing accuracy of each model (target response vs predicted response)
-* [ ] Develop plan for Advanced RAG
+    * [x] One table showing accuracy of each model (target response vs predicted response)
+* [-] Develop plan for Advanced RAG
 
 
+---
+### Date: oct 22 2024 
+- Topics of discussion
+    - titan/sonnet access; email sent to IT for help/access
+    - fix top_k in retrieval evaluation
+        - chunk accuracy matters less the document accuracy
 
+- Action Items:
+* [ ] Add in Bedrock + Titan as options for user, pending IT
+* [ ] Clean tables in report showing accuracies for retrieval/generation
+    * [ ] Include things like: question, context, vectorstore output, prompt, generated output
+* [ ] Multiple vectorstores - one with and one without metadata for comparing
+* [ ] Develop plan for Advanced RAG; pick ideas and incorporate into our draft(s).
 
 
 
