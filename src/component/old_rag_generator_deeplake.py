@@ -20,12 +20,11 @@ class RAGGenerator:
             self.tokenizer = AutoTokenizer.from_pretrained(model_name)
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         elif model_name == 'claude':
-            #model_name = 'anthropic.claude-3-5-sonnet-20240620-v1:0'
-            self.config = self.load_configuration()
-            #self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-            #self.model = AutoModelForCausalLM.from_pretrained(model_name)
-            #self.model = model_name
-            self.bedrock_client = self.create_bedrock_client(self.config)
+            model_name = 'anthropic.claude-3-5-sonnet-20240620-v1:0'
+            config = self.load_configuration()
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+            self.model = AutoModelForCausalLM.from_pretrained(model_name)
+            self.bedrock_client = self.create_bedrock_client(config)
         else:
             raise ValueError("Invalid model name provided. Input either 'llama', 'claude', or 't5' as model name.")
         
@@ -42,7 +41,7 @@ class RAGGenerator:
         config.read(f"{config_dir}/{config_file}")
         return config
 
-    def create_bedrock_client(self, config):
+    def create_bedrock_client(config):
         session = boto3.Session(
             aws_access_key_id=config['BedRock_LLM_API']['aws_access_key_id'],
             aws_secret_access_key=config['BedRock_LLM_API']['aws_secret_access_key'],
@@ -73,52 +72,12 @@ class RAGGenerator:
 
             response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
             return response.strip()
-
-        elif hasattr(self, 'bedrock_client'):
-            # Update the dictionary to match the expected API schema
-            request_payload = json.dumps({
-                "anthropic_version": "bedrock-2023-05-31",
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ],
-                "max_tokens": max_length,  # Corrected key from max_tokens_to_sample to max_tokens
-                "temperature": 0.7
-            }).encode('utf-8')
-
-            response = self.bedrock_client.invoke_model(
-                modelId="anthropic.claude-3-5-sonnet-20240620-v1:0",
-                body=request_payload,
-                contentType='application/json'
-            )
-
-            # Decode the response assuming it returns JSON with 'generated_text' key
-            response_body = response['body'].read().decode()
-            return response_body
-            #response_body = json.loads(response['body'].read().decode())
-            #return response_body['messages'][0]['content']
-            #return json.loads(response['body'])['generated_text']
-        
-        '''
-        elif hasattr(self, 'bedrock_client'):
-            # Serialize the dictionary to JSON and encode it to bytes
-            serialized_input = json.dumps({'input_text': prompt, 'max_tokens': max_length, 'temperature': 0.7}).encode('utf-8')
-            response = self.bedrock_client.invoke_model(
-                modelId=self.model,
-                body=serialized_input,  # Pass the byte-encoded JSON string
-                contentType='application/json'
-            )
-            # Assuming the response is JSON, decode and parse it
-            return json.loads(response['body'])['generated_text']
         
         elif hasattr(self, 'bedrock_client'):
             response = self.bedrock_client.invoke_model(
-                modelId=self.model,
+                modelId=self.model_name,
                 body={'input_text': prompt, 'max_tokens': max_length, 'temperature': 0.7},
                 contentType='application/json'
             )
             return response['body']['generated_text']
-        '''
 

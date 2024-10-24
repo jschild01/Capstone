@@ -88,7 +88,7 @@ def main():
     dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
     print(f"Dataset path: {dataset_path}")
 
-    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='titan') # main, instructor, titan
+    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='instructor')
     print("RAGRetriever initialized")
 
     if delete_existing:
@@ -134,8 +134,7 @@ def main():
         print("Using existing embeddings.")
 
     # Initialize RAG components
-    model_name='claude'
-    qa_generator = RAGGenerator(model_name=model_name) # llama, t5, claude
+    qa_generator = RAGGenerator(model_name='llama')
     rag_pipeline = RAGPipeline(text_retriever, qa_generator)
 
     while True:
@@ -144,19 +143,14 @@ def main():
             break
 
         start_time = time.time()
-        top_k=3
-        if model_name == 'claude':
-            retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run_claude(query=query, top_k=top_k)
-        else:
-            retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run(query=query, top_k=top_k)
-        #retrieved_docs, most_relevant_passage, response = rag_pipeline.run(query)
+        retrieved_docs, most_relevant_passage, response = rag_pipeline.run(query)
         end_time = time.time()
 
         print("\n--- Results ---")
         print(f"Processing time: {end_time - start_time:.2f} seconds")
         print(f"Number of retrieved documents: {len(retrieved_docs)}")
         print("Response:")
-        print(final_response)
+        print(response)
         print("-------------------\n")
 
     # Cleanup
