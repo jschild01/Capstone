@@ -105,7 +105,7 @@ def parse_ead_xml(file_path: str) -> Dict[str, Dict]:
 
 
     except Exception as e:
-        print(f"\nWarning: Error parsing EAD XML file at {file_path}: {str(e)}\n")
+        print(f"Warning: Error parsing EAD XML file at {file_path}: {str(e)}")
     return ead_metadata
 
 
@@ -151,7 +151,7 @@ def parse_marc_xml(file_path: str) -> Dict[str, Dict]:
                                 # Debug statement
                                 #print(f"Extracted MARC Call Number: {call_number}")
     except Exception as e:
-        print(f"\nWarning: Error parsing MARC XML file at {file_path}: {str(e)}\n")
+        print(f"Warning: Error parsing MARC XML file at {file_path}: {str(e)}")
     # Debug statement to print all keys
     #print("MARC Metadata Keys:", marc_metadata.keys())
     return marc_metadata
@@ -216,7 +216,7 @@ def process_metadata(data_dir: str) -> Dict[str, Dict]:
             else:
                 print(f"\nWarning: No matching entry found in file_list.csv for {filename} (base: {base_filename})\n")
 
-    print(f"\nProcessed metadata for {len(filename_to_metadata)} files.\n")
+    print(f"Processed metadata for {len(filename_to_metadata)} files.")
     return filename_to_metadata
 
 def set_seed(seed=42):
@@ -308,8 +308,7 @@ def is_empty(vectorstore):
 
 def load_configuration():
     # Set the current working directory to the project root
-    components_dir = os.path.dirname(__file__)
-    src_dir = os.path.abspath(os.path.join(components_dir, os.pardir))
+    src_dir = os.path.dirname(__file__)
     root_dir = os.path.abspath(os.path.join(src_dir, os.pardir))
     config_dir = os.path.join(root_dir, 'config')
 
@@ -439,7 +438,7 @@ def test_document_retrieval(query, vectorstore, top_k):
 
 
 
-def retriever_eval_one():
+def retriever_eval():
     set_seed(42)
     data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
 
@@ -448,8 +447,8 @@ def retriever_eval_one():
     os.makedirs(eval_dir, exist_ok=True)
 
     # Setup
-    model_names = ['instructor', 'mini'] # mini, instructor, titan
-    chunk_sizes = [10 , 100, 250, 500, 1000, 1500, 2500, 5000, 10000]
+    model_names = ['titan', 'instructor', 'mini'] # mini, instructor, titan
+    chunk_sizes = [100, 250, 500, 800, 1000, 1500]
     top_ks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
     # empty dataframe to hold results
@@ -486,23 +485,23 @@ def retriever_eval_one():
 
                 # Generate embeddings for documents/chunks
                 embeddor = set_model(model_name=model_name)
-                print(f"\nGenerating embeddings for {len(documents)} documents, in {len(chunked_documents)} chunks\n")
+                print(f"\nGenerating embeddings for {len(documents)} documents, in {len(chunked_documents)} chunks of {chunk_size} using {model_name}\n")
                 vectorstore = generate_embeddings(dataset_path, chunked_documents, embeddor)
 
                 queries_answers = [
                         ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
                         ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
-                        ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
-                        ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-                        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-                        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-                        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-                        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-                        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-                        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-                        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-                        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-                        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
+                        #("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
+                        #("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
+                        #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+                        #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+                        #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+                        #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+                        #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+                        #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+                        #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+                        #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+                        #("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
                     ]
 
                 for query, doc_filenames, answer in queries_answers:
@@ -530,7 +529,7 @@ def retriever_eval_one():
                                 "Best Retrieved Doc": best_match_filename,
                                 "Doc Match": doc_match,
                                 "All Retrieved Docs": all_match_filenames,
-                                "Expected Doc Found In All Retrieved Docs": doc_filenames in all_match_filenames,
+                                "Expected Doc Found In All Retrieved Docs": any(filename in all_match_filenames for filename in possible_filenames),
                                 "Expected Chunk ID": expected_chunk_id,
                                 "Expected Chunk Text": expected_chunk_text,
                                 "Best Retrieved Chunk": best_match_chunkid,
@@ -555,14 +554,20 @@ def retriever_eval_one():
                     scores.append(score)
                 df_results['Score'] = scores
 
+                df_results.sort_values(by='Score', ascending=False, inplace=True) # Sort by Score to prioritize higher scores
+                df_results = df_results.drop_duplicates(subset=['Model', 'Top_k', 'Chunk Size', 'Query', ], keep='first') # Drop duplicate queries, keeping the first, highest score
+
                 # reset
                 del documents, chunked_documents, metadata, scores, possible_filenames, embeddor, vectorstore
                 gc.collect()
 
     # Group by the specified columns and count True values in 'Expected Doc Found In All Retrieved Docs'
     compare_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
-        True_Count=('Expected Doc Found In All Retrieved Docs', 'sum')
+        Accuracy=('Expected Doc Found In All Retrieved Docs', 'sum')
     ).reset_index()
+    compare_df[f'Accuracy'] = (compare_df[f'Accuracy'] / len(queries_answers))
+    compare_df.rename(columns={'Accuracy': f'Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
+    
 
     # Save the accumulated results to a CSV
     df_results_path = os.path.join(eval_dir, 'query_results_all.csv')
@@ -572,143 +577,7 @@ def retriever_eval_one():
     print(f"\nOverall accuracy summary has been saved to '{eval_dir}'.\n")
 
 
-
-
-
-def retriever_eval_all():
-    set_seed(42)
-    data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
-
-     # Ensure the retrieval_eval folder exists
-    eval_dir = os.path.join(src_dir, 'retrieval_eval')
-    os.makedirs(eval_dir, exist_ok=True)
-
-    # Create a DataFrame to store aggregated results
-    accuracy_df = pd.DataFrame(columns=["Top_k", "Chunk Size", "Embedding model", "Doc Match Count", "Chunk Match Count"])
-
-    # Setup
-    model_names = ['instructor'] # mini, instructor, titan
-    chunk_sizes = [100, 250, 1000]#, 500, 5000]
-    top_ks = [1, 5, 20]
-
-    # iterations
-    for top_k in top_ks:
-        for chunk_size in chunk_sizes:
-            for model_name in model_names:
-                metadata = process_metadata(data_dir)
-                dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
-                #text_retriever = RAGRetriever(top_k=top_k, dataset_path=dataset_path, model_name=model_name)
-
-                # Load data and chunk
-                documents = load_data(data_dir, metadata)
-                chunked_documents = chunk_documents(documents, chunk_size)
-
-                # Generate embeddings for documents/chunks
-                embeddor = set_model(model_name='instructor')
-                print(f"Generating embeddings for {len(documents)} documents, in {len(chunked_documents)} chunks")
-                vectorstore = generate_embeddings(dataset_path, chunked_documents, embeddor)
-
-                queries_answers = [
-                    ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
-                    ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
-                    #("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
-                    #("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-                    #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-                    #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-                    #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-                    #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-                    #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-                    #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-                    #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-                    #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-                    ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
-                ]
-
-                df_results = pd.DataFrame(columns=["Top_k",
-                                                    "Query",
-                                                    "Num doc Matches",
-                                                    "Expected Answer",
-                                                    "Expected Doc",
-                                                    "Best Retrieved Doc",
-                                                    "Doc Match",
-                                                    "Expected Chunk ID",
-                                                    "Expected Chunk Text",
-                                                    "Best Retrieved Chunk",
-                                                    "Chunk Match",
-                                                    "Best Retrieved Content",
-                                                    "All Results"])
-
-                for query, doc_filenames, answer in queries_answers:
-                    # in case there are multiple files that contain the answer
-                    possible_filenames = [filename.strip() for filename in doc_filenames.split('or')]
-
-                    # iterate through docs for comparing to retriever
-                    for doc in documents:
-                        if doc.metadata['original_filename'] in possible_filenames:
-                            expected_chunk_id = find_correct_chunk([doc], answer, chunk_size)
-                            expected_chunk_text = get_chunk_text(doc, expected_chunk_id, chunk_size)
-
-
-                            query, results, num_matches, best_match_content, best_match_filename, best_match_chunkid = test_document_retrieval(query, vectorstore, top_k)
-                            #query_result, original_filename, document_content, retrieved_chunk_id = text_retriever.test_document_retrieval(query)
-                            doc_match = best_match_filename in possible_filenames
-                            chunk_match = best_match_chunkid == expected_chunk_id
-                            new_row = {
-                                "Top_k": top_k,
-                                "Query": query,
-                                "Num doc Matches": num_matches,
-                                "Expected Answer": answer,
-                                "Expected Doc": doc_filenames,
-                                "Best Retrieved Doc": best_match_filename,
-                                "Doc Match": doc_match,
-                                "Expected Chunk ID": expected_chunk_id,
-                                "Expected Chunk Text": expected_chunk_text,
-                                "Best Retrieved Chunk": best_match_chunkid,
-                                "Chunk Match": chunk_match,
-                                "Best Retrieved Content": best_match_content,
-                                "All Results": results
-                            }
-                            df_results = pd.concat([df_results, pd.DataFrame([new_row])], ignore_index=True)
-
-                # Handling duplicative queries caused by instances where the answer is found in multiple docs
-                scores = []
-                for index, row in df_results.iterrows():
-                    score = 0
-                    if row['Doc Match'] and row['Chunk Match']:
-                        score = 3  # Highest priority for TRUE, TRUE
-                    elif row['Doc Match']:
-                        score = 2  # Second priority for TRUE, FALSE
-                    elif row['Chunk Match']:
-                        score = 1  # Third priority for FALSE, TRUE
-                    scores.append(score)
-                df_results['Score'] = scores
-
-                # drop the duplicative column but keeping the 'best scoring' one
-                df_results = df_results.sort_values('Score', ascending=False).drop_duplicates(subset=['Query'], keep='first').drop('Score', axis=1)
-
-                # Counting and printing the number of TRUE values for Doc Match and Chunk Match
-                doc_match_count = df_results['Doc Match'].sum()
-                chunk_match_count = df_results['Chunk Match'].sum()
-
-                # add counts to overall dataframe
-                accuracy_df = pd.concat([accuracy_df, pd.DataFrame([[top_k, chunk_size, model_name, doc_match_count, chunk_match_count]], columns=accuracy_df.columns)])
-
-                # save dataframe csv
-                #csv_path = os.path.join(eval_dir, f'query_results_{model_name}_{top_k}_{chunk_size}.csv')
-                #df_results.to_csv(csv_path, index=False)
-                #print(f"The DataFrame has been saved to '{csv_path}'.")
-                #print()
-
-                del df_results, documents, chunked_documents, metadata, scores, possible_filenames, embeddor, vectorstore
-                gc.collect()
-
-    # Save the accumulated results to a CSV
-    accuracy_csv_path = os.path.join(eval_dir, 'query_results_topk.csv')
-    accuracy_df.to_csv(accuracy_csv_path, index=False)
-    print(f"Overall accuracy summary has been saved to '{accuracy_csv_path}'.")
-
 if __name__ == "__main__":
-    #retriever_eval()
-    retriever_eval_one()
+    retriever_eval()
 
 
