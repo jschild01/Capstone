@@ -1,5 +1,28 @@
 import re
 
+
+
+
+def generate_prompt_claude(query: str, context: str, metadata: dict) -> str:
+    # Formatting metadata into a string, each key-value pair on a new line
+    metadata_str = "\n".join([f"{k}: {v}" for k, v in metadata.items()])
+    
+    # Constructing the prompt with the required prefix and structured information
+    return f"""Human: Please answer the following query based on the provided context and metadata.
+Question: {query}
+Context: {context}
+Metadata: {metadata_str}
+
+Instructions: 
+1. Answer the question using ONLY the information provided in the Context and Metadata above.
+2. Do NOT include any information that is not explicitly stated in the Context or Metadata.
+3. If the information provided is not sufficient to answer the question fully, state this clearly.
+4. Begin your answer with a direct response to the question asked.
+5. Include relevant details from the Context and Metadata to support your answer.
+6. Pay special attention to the recording date, contributors, and locations provided in the metadata.
+
+Assistant: Answer:"""
+
 def generate_prompt(query: str, context: str, metadata: dict) -> str:
     metadata_str = "\n".join([f"{k}: {v}" for k, v in metadata.items()])
     return f"""Question: {query}

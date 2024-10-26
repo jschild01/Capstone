@@ -69,7 +69,7 @@ https://www.markdownguide.org/cheat-sheet/
         - chunk accuracy matters less the document accuracy
 
 - Action Items:
-* [ ] Add in Bedrock + Titan as options for user, pending IT
+* [x] Add in Bedrock + Titan as options for user, pending IT
 * [ ] Clean tables in report showing accuracies for retrieval/generation
     * [ ] Include things like: question, context, vectorstore output, prompt, generated output
 * [ ] Multiple vectorstores - one with and one without metadata for comparing
