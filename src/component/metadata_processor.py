@@ -3,15 +3,23 @@ import re
 import csv
 import xml.etree.ElementTree as ET
 from typing import Dict, List
+from pymarc import parse_xml_to_array
 
 
 def extract_call_number(text: str) -> str:
-    # Modify the regex to capture 'AFC 1937/002' even if followed by additional characters
+    if not text:
+        return None
     pattern = r'\bAFC\s*\d{4}/\d{3}\b'
     match = re.search(pattern, text)
     return match.group(0).strip() if match else None
 
+
 def parse_file_list_csv(file_path: str) -> Dict[str, str]:
+    print(f"\nProcessing file_list.csv: {file_path}")
+    if not os.path.exists(file_path):
+        print(f"Warning: file_list.csv not found at {file_path}")
+        return {}
+
     filename_to_id = {}
     with open(file_path, 'r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -19,14 +27,28 @@ def parse_file_list_csv(file_path: str) -> Dict[str, str]:
             source_url = row['source_url']
             filename = os.path.basename(source_url)
             filename_to_id[filename] = row['id']
+
+    print(f"Parsed {len(filename_to_id)} entries from file_list.csv")
+    sample_entries = list(filename_to_id.items())[:3]
+    print("Sample filename to ID mappings:")
+    for filename, id_ in sample_entries:
+        print(f"  {filename} -> {id_}")
     return filename_to_id
 
 
 def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
+    print(f"\nProcessing search_results.csv: {file_path}")
+    if not os.path.exists(file_path):
+        print(f"Warning: search_results.csv not found at {file_path}")
+        return {}
+
     id_to_metadata = {}
     with open(file_path, 'r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            full_call_number = row.get('item.call_number.0', '').strip()
+            call_number = extract_call_number(full_call_number)
+
             metadata = {
                 'title': row['title'],
                 'contributors': [row.get(f'contributor.{i}', '') for i in range(3) if row.get(f'contributor.{i}')],
@@ -36,7 +58,8 @@ def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
                 'language': row.get('language.0', ''),
                 'locations': [row.get(f'location.{i}', '') for i in range(3) if row.get(f'location.{i}')],
                 'original_format': row.get('original_format.0', ''),
-                'online_formats': [row.get(f'online_format.{i}', '') for i in range(2) if row.get(f'online_format.{i}')],
+                'online_formats': [row.get(f'online_format.{i}', '') for i in range(2) if
+                                   row.get(f'online_format.{i}')],
                 'description': row.get('description', ''),
                 'rights': row.get('rights', ''),
                 'collection': row.get('collection', ''),
@@ -44,13 +67,26 @@ def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
                 'created_published': row.get('item.created_published.0', ''),
                 'notes': [row.get(f'item.notes.{i}', '') for i in range(2) if row.get(f'item.notes.{i}')],
                 'url': row.get('url', ''),
-                'call_number': row.get('item.call_number.0', '')  # Extract call_number here
+                'call_number': call_number,
+                'full_call_number': full_call_number
             }
             id_to_metadata[row['id']] = metadata
+
+    print(f"Parsed {len(id_to_metadata)} entries from search_results.csv")
+    if id_to_metadata:
+        first_id = next(iter(id_to_metadata))
+        print("\nSample metadata structure:")
+        for key, value in id_to_metadata[first_id].items():
+            print(f"  {key}: {value}")
     return id_to_metadata
 
 
 def parse_ead_xml(file_path: str) -> Dict[str, Dict]:
+    print(f"\nProcessing EAD XML: {file_path}")
+    if not os.path.exists(file_path):
+        print(f"Warning: EAD XML file not found at {file_path}")
+        return {}
+
     ead_metadata = {}
     try:
         tree = ET.parse(file_path)
@@ -80,146 +116,235 @@ def parse_ead_xml(file_path: str) -> Dict[str, Dict]:
                     'collection_abstract': collection_abstract,
                     'series_title': series_title
                 }
-
-                print(f"Extracted EAD Call Number: {call_number}")  # Debug statement
+                print(f"Found EAD metadata for call number: {call_number}")
 
     except Exception as e:
-        print(f"Warning: Error parsing EAD XML file at {file_path}: {str(e)}")
+        print(f"Error parsing EAD XML file at {file_path}: {str(e)}")
+
+    if ead_metadata:
+        print("\nSample EAD metadata structure:")
+        sample_call_number = next(iter(ead_metadata))
+        for key, value in ead_metadata[sample_call_number].items():
+            print(f"  {key}: {value}")
     return ead_metadata
 
 
 def parse_marc_xml(file_path: str) -> Dict[str, Dict]:
+    print(f"\nProcessing MARC XML: {file_path}")
+    if not os.path.exists(file_path):
+        print(f"Warning: MARC XML file not found at {file_path}")
+        return {}
+
     marc_metadata = {}
     try:
-        tree = ET.parse(file_path)
-        root = tree.getroot()
+        # Use pymarc to parse the XML file
+        records = parse_xml_to_array(file_path)
+        print(f"Found {len(records)} MARC records")
 
-        for record in root.findall('.//record'):
-            # Find all '090' datafields in the record
-            datafields_090 = record.findall('.//datafield[@tag="090"]/subfield[@code="a"]')
-
-            # Extract call numbers from each '090' datafield
-            for subfield_a in datafields_090:
-                call_number_text = subfield_a.text
-                if call_number_text:
-                    # Split multiple call numbers separated by ';' or ','
-                    possible_call_numbers = re.split(r';|,', call_number_text)
-                    for cn in possible_call_numbers:
-                        cn = cn.strip()
-                        if cn:
-                            # Extract the primary call number using the existing function
+        for record in records:
+            # Extract call numbers from 090 field
+            call_numbers = []
+            for field in record.get_fields('090'):
+                for subfield in field.get_subfields('a'):
+                    if subfield:
+                        # Split multiple call numbers separated by ';' or ','
+                        possible_call_numbers = re.split(r';|,', subfield)
+                        for cn in possible_call_numbers:
+                            cn = cn.strip()
                             call_number = extract_call_number(cn)
                             if call_number:
-                                # Extract other relevant fields once per record
-                                catalog_title_field = record.find('.//datafield[@tag="245"]/subfield[@code="a"]')
-                                catalog_title = catalog_title_field.text.strip() if catalog_title_field is not None else 'N/A'
+                                call_numbers.append(call_number)
 
-                                catalog_creator_field = record.find('.//datafield[@tag="100"]/subfield[@code="a"]')
-                                catalog_creator = catalog_creator_field.text.strip() if catalog_creator_field is not None else 'N/A'
+            # Process each valid call number found
+            for call_number in call_numbers:
+                metadata = {
+                    'catalog_title': record.get_fields('245')[0].get_subfields('a')[0].strip() if record.get_fields(
+                        '245') else 'N/A',
+                    'catalog_creator': record.get_fields('100')[0].get_subfields('a')[0].strip() if record.get_fields(
+                        '100') else 'N/A',
+                    'catalog_date': record.get_fields('260')[0].get_subfields('c')[0].strip() if record.get_fields(
+                        '260') else 'N/A',
+                    'catalog_description': record.get_fields('520')[0].get_subfields('a')[
+                        0].strip() if record.get_fields('520') else 'N/A',
+                    'catalog_subjects': [field.get_subfields('a')[0].strip() for field in record.get_fields('650') if
+                                         field.get_subfields('a')],
+                    'catalog_notes': [field.get_subfields('a')[0].strip() for field in record.get_fields('500') if
+                                      field.get_subfields('a')],
+                    'catalog_language': record.get_fields('041')[0].get_subfields('a')[0].strip() if record.get_fields(
+                        '041') else 'N/A',
+                    'catalog_genre': [field.get_subfields('a')[0].strip() for field in record.get_fields('655') if
+                                      field.get_subfields('a')],
+                    'catalog_contributors': [field.get_subfields('a')[0].strip() for field in record.get_fields('700')
+                                             if field.get_subfields('a')],
+                    'catalog_repository': record.get_fields('852')[0].get_subfields('a', 'b')[
+                        0].strip() if record.get_fields('852') else 'N/A',
+                    'catalog_collection_id': record.get_fields('001')[0].data if record.get_fields('001') else 'N/A'
+                }
+                marc_metadata[call_number] = metadata
+                print(f"Found MARC metadata for call number: {call_number}")
 
-                                catalog_date_field = record.find('.//datafield[@tag="260"]/subfield[@code="c"]')
-                                catalog_date = catalog_date_field.text.strip() if catalog_date_field is not None else 'N/A'
-
-                                # Map the call number to the metadata
-                                marc_metadata[call_number] = {
-                                    'catalog_title': catalog_title,
-                                    'catalog_creator': catalog_creator,
-                                    'catalog_date': catalog_date
-                                }
-
-                                # Debug statement
-                                print(f"Extracted MARC Call Number: {call_number}")
     except Exception as e:
-        print(f"Warning: Error parsing MARC XML file at {file_path}: {str(e)}")
-    # Debug statement to print all keys
-    print("MARC Metadata Keys:", marc_metadata.keys())
+        print(f"Error parsing MARC XML file at {file_path}: {str(e)}")
+
     return marc_metadata
 
+
+def find_metadata_in_xml_files(call_number: str, xml_dir: str, parser_function) -> Dict:
+    if not os.path.exists(xml_dir):
+        print(f"Warning: XML directory not found: {xml_dir}")
+        return {}
+
+    for filename in os.listdir(xml_dir):
+        if filename.endswith('.xml'):
+            file_path = os.path.join(xml_dir, filename)
+            metadata = parser_function(file_path)
+            if call_number in metadata:
+                print(f"Found metadata for {call_number} in {filename}")
+                return metadata[call_number]
+    print(f"No metadata found for call number: {call_number} in {xml_dir}")
+    return {}
+
 def process_metadata(data_dir: str) -> Dict[str, Dict]:
-    file_list_path = os.path.join(data_dir, 'file_list.csv')
-    search_results_path = os.path.join(data_dir, 'search_results.csv')
-    ead_path = os.path.join(data_dir, 'af012006.xml')
-    marc_path = os.path.join(data_dir, 'af012006_marc.xml')
+    """Process metadata from all sources and combine them."""
+    print("\n=== Starting Metadata Processing ===")
+    print(f"Processing directory: {data_dir}")
 
-    print(f"Processing metadata from:")
-    print(f"  File list: {file_list_path}")
-    print(f"  Search results: {search_results_path}")
-    print(f"  EAD file: {ead_path}")
-    print(f"  MARC file: {marc_path}")
+    # Initialize paths
+    loc_data_dir = os.path.join(data_dir, 'loc_dot_gov_data')
+    ead_dir = os.path.join(data_dir, 'xml', 'ead')
+    marc_dir = os.path.join(data_dir, 'xml', 'marc')
 
-    filename_to_id = parse_file_list_csv(file_list_path)
-    id_to_metadata = parse_search_results_csv(search_results_path)
-    ead_metadata = parse_ead_xml(ead_path)
-    marc_metadata = parse_marc_xml(marc_path)
+    print("\nVerifying directories:")
+    print(f"LOC data directory: {loc_data_dir} (exists: {os.path.exists(loc_data_dir)})")
+    print(f"EAD directory: {ead_dir} (exists: {os.path.exists(ead_dir)})")
+    print(f"MARC directory: {marc_dir} (exists: {os.path.exists(marc_dir)})")
 
-    filename_to_metadata = {}
-    txt_dir = os.path.join(data_dir, 'txt')
-    for filename in os.listdir(txt_dir):
-        if filename.endswith('.txt'):
-            file_path = os.path.join(txt_dir, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
+    all_metadata = {}
+    error_log = []
 
-            base_filename = re.sub(r'_(en|en_translation)\.txt$', '.mp3', filename)
+    # Process each collection
+    for collection_name in os.listdir(loc_data_dir):
+        collection_dir = os.path.join(loc_data_dir, collection_name)
+        if os.path.isdir(collection_dir):
+            print(f"\nProcessing collection: {collection_name}")
 
-            if base_filename in filename_to_id:
-                doc_id = filename_to_id[base_filename]
-                if doc_id in id_to_metadata:
-                    metadata = id_to_metadata[doc_id].copy()
-                    metadata['original_filename'] = filename
+            # Process CSVs
+            file_list_path = os.path.join(collection_dir, 'file_list.csv')
+            search_results_path = os.path.join(collection_dir, 'search_results.csv')
 
-                    # Extract call number from the metadata
-                    call_number_full = metadata.get('call_number', '').strip()
+            filename_to_id = parse_file_list_csv(file_list_path)
+            id_to_metadata = parse_search_results_csv(search_results_path)
 
-                    # Use extract_call_number to get only the primary call number
-                    call_number = extract_call_number(call_number_full)
+            # Process all text files
+            txt_dir = os.path.join(data_dir, 'txt')
+            transcripts_dir = os.path.join(data_dir, 'transcripts')
+            ocr_dir = os.path.join(data_dir, 'pdf', 'txtConversion')
 
-                    if not call_number:
-                        # Fallback: Extract call number from the content if not present in metadata
-                        call_number = extract_call_number(content) or 'N/A'
+            print(f"\nProcessing files from:")
+            print(f"- Text files: {txt_dir}")
+            print(f"- Transcripts: {transcripts_dir}")
+            print(f"- OCR files: {ocr_dir}")
 
-                    metadata['call_number'] = call_number
+            for directory in [txt_dir, transcripts_dir, ocr_dir]:
+                if not os.path.exists(directory):
+                    print(f"Warning: Directory not found: {directory}")
+                    continue
 
-                    # Integrate EAD metadata
-                    if call_number in ead_metadata:
-                        metadata.update(ead_metadata[call_number])
-                    else:
-                        print(f"Warning: EAD metadata not found for call number '{call_number}' (file: {filename})")
+                for filename in os.listdir(directory):
+                    if filename.endswith('.txt'):
+                        print(f"\nProcessing: {filename} from {os.path.basename(directory)}")
+                        file_path = os.path.join(directory, filename)
 
-                    # Integrate MARC metadata
-                    if call_number in marc_metadata:
-                        metadata.update(marc_metadata[call_number])
-                    else:
-                        print(f"Warning: MARC metadata not found for call number '{call_number}' (file: {filename})")
+                        # Handle different file types
+                        if directory == transcripts_dir:
+                            # Only transcripts need the mp3 conversion
+                            base_filename = re.sub(r'_(en|en_translation)\.txt$', '.mp3', filename)
+                            file_type = 'transcript'
+                        elif directory == ocr_dir:
+                            base_filename = re.sub(r'\.txt$', '.pdf', filename)
+                            file_type = 'pdf_ocr'
+                        else:  # txt_dir
+                            # Regular text files don't need conversion
+                            base_filename = filename
+                            file_type = 'text'
 
-                    # Ensure all metadata fields are strings and non-empty
-                    metadata = {k: str(v) if v else 'N/A' for k, v in metadata.items()}
-                    filename_to_metadata[filename] = metadata
-                else:
-                    print(f"Warning: No metadata found for document ID {doc_id} (filename: {filename})")
-            else:
-                print(f"Warning: No matching entry found in file_list.csv for {filename} (base: {base_filename})")
+                        print(f"Base filename: {base_filename}")
 
-    print(f"Processed metadata for {len(filename_to_metadata)} files.")
-    if filename_to_metadata:
-        sample_file = next(iter(filename_to_metadata))
-        print(f"\nSample metadata for file '{sample_file}':")
-        for key, value in filename_to_metadata[sample_file].items():
-            print(f"  {key}: {value}")
+                        if base_filename in filename_to_id:
+                            doc_id = filename_to_id[base_filename]
+                            print(f"Found ID: {doc_id}")
+
+                            if doc_id in id_to_metadata:
+                                metadata = id_to_metadata[doc_id].copy()
+                                print(f"Found base metadata with fields: {list(metadata.keys())}")
+
+                                # Add file metadata
+                                metadata['original_filename'] = filename
+                                metadata['file_type'] = file_type
+
+                                # Get call number
+                                call_number = metadata.get('call_number')
+                                if call_number:
+                                    # Add EAD metadata
+                                    ead_metadata = find_metadata_in_xml_files(call_number, ead_dir, parse_ead_xml)
+                                    if ead_metadata:
+                                        metadata.update(ead_metadata)
+                                        print(f"Added EAD metadata fields: {list(ead_metadata.keys())}")
+
+                                    # Add MARC metadata
+                                    marc_metadata = find_metadata_in_xml_files(call_number, marc_dir, parse_marc_xml)
+                                    if marc_metadata:
+                                        metadata.update(marc_metadata)
+                                        print(f"Added MARC metadata fields: {list(marc_metadata.keys())}")
+
+                                # Clean metadata
+                                metadata = {k: str(v) if v is not None else 'N/A' for k, v in metadata.items()}
+                                all_metadata[filename] = metadata
+                            else:
+                                error_msg = f"No metadata found in search_results.csv for ID {doc_id} (file: {filename})"
+                                print(f"Warning: {error_msg}")
+                                error_log.append(error_msg)
+                        else:
+                            error_msg = f"No entry found in file_list.csv for {base_filename} (original: {filename})"
+                            print(f"Warning: {error_msg}")
+                            error_log.append(error_msg)
+
+    # Verify metadata richness
+    if all_metadata:
+        sample_file = next(iter(all_metadata))
+        sample_metadata = all_metadata[sample_file]
+        if len(sample_metadata.keys()) <= 3:
+            print("\nWARNING: Metadata appears to be stripped - only basic fields present!")
+            print("Present fields:", list(sample_metadata.keys()))
+        else:
+            print("\nMetadata preserved successfully")
+            print(f"Number of metadata fields: {len(sample_metadata.keys())}")
+            print("Fields present:", list(sample_metadata.keys()))
+
+    # Log errors
+    if error_log:
+        error_log_path = os.path.join(data_dir, 'metadata_processing_errors.log')
+        print(f"\nWriting {len(error_log)} errors to: {error_log_path}")
+        with open(error_log_path, 'w') as f:
+            for error in error_log:
+                f.write(f"{error}\n")
     else:
-        print("No files processed.")
+        print("\nNo errors encountered during metadata processing")
 
-    return filename_to_metadata
+    return all_metadata
+
 
 if __name__ == "__main__":
-    # Example usage
-    data_directory = "path/to/your/data/directory"  # Update this path
+    data_directory = "/path/to/your/data"  # Update this path
     result = process_metadata(data_directory)
     print(f"\nProcessed metadata for {len(result)} files.")
 
     if result:
-        # Optionally, print a sample of the processed metadata
         sample_file = next(iter(result))
         print(f"\nSample metadata for file '{sample_file}':")
         for key, value in result[sample_file].items():
             print(f"{key}: {value}")
+    else:
+        print("No metadata processed.")
+
+    print("Script execution completed.")
