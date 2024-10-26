@@ -106,10 +106,19 @@ def test_vectorstore_contents():
             dataset_path=dataset_path,
             model_name='instructor'
         )
-        #these test queries are junk but I'll fill in good ones later
         test_queries = [
-            ("What is Barbara Allen about?", "Scarlett town"),
-            ("Tell me about Captain Pearl R. Nye", "canal boat"),
+            ("Complete this sentence: 'My mules are not hungry. They're lively and'", "gay"),
+            ("Complete this sentence: 'Take a trip on the canal if you want to have'", "fun"),
+            ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "Barbrae Allen"),
+            ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "Barbara Allen"),
+            ("Complete this phrase from the gospel train song: 'The gospel train is'", "night"),
+            ("In the song 'Barbara Allen,' where was Barbara Allen from?", "Scarlett town"),
+            ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "A year or two or three at most"),
+            ("What instrument does Captain Nye mention loving?", "old fiddled mouth organ banjo"),
+            ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "whiskers"),
+            ("Complete this line from a song: 'We land this war down by the'", "river"),
+            ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "Marry at all"),
+            ("What does the song say will 'outshine the sun'?", "We'll"),
             ("In the 'Dying Cowboy' song, where was the cowboy born?", "Boston")
         ]
 
