@@ -447,9 +447,10 @@ def retriever_eval():
     os.makedirs(eval_dir, exist_ok=True)
 
     # Setup
-    model_names = ['titan', 'instructor', 'mini'] # mini, instructor, titan
-    chunk_sizes = [100, 250, 500, 800, 1000, 1500]
-    top_ks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    model_names = ['titan', 'instructor', 'mini']#, 'instructor', 'mini'] # mini, instructor, titan
+    top_ks = [4, 5, 6]
+    chunk_sizes = [150, 250, 500, 800, 1000]
+    
 
     # empty dataframe to hold results
     df_results = pd.DataFrame(columns=["Model",
@@ -485,23 +486,23 @@ def retriever_eval():
 
                 # Generate embeddings for documents/chunks
                 embeddor = set_model(model_name=model_name)
-                print(f"\nGenerating embeddings for {len(documents)} documents, in {len(chunked_documents)} chunks of {chunk_size} using {model_name}\n")
+                print(f"\nGenerating embeddings for {len(documents)} documents, in {len(chunked_documents)} chunks of {chunk_size} using {model_name} for top_k {top_k}\n")
                 vectorstore = generate_embeddings(dataset_path, chunked_documents, embeddor)
 
                 queries_answers = [
                         ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
                         ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
-                        #("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
-                        #("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-                        #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-                        #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-                        #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-                        #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-                        #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-                        #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-                        #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-                        #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-                        #("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
+                        ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
+                        ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
+                        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+                        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+                        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+                        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+                        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+                        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+                        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+                        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+                        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
                     ]
 
                 for query, doc_filenames, answer in queries_answers:
@@ -561,7 +562,7 @@ def retriever_eval():
                 del documents, chunked_documents, metadata, scores, possible_filenames, embeddor, vectorstore
                 gc.collect()
 
-    # Group by the specified columns and count True values in 'Expected Doc Found In All Retrieved Docs'
+    # Create df that compares all models by top_k and chunk size
     compare_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
         Accuracy=('Expected Doc Found In All Retrieved Docs', 'sum')
     ).reset_index()
@@ -569,7 +570,7 @@ def retriever_eval():
     compare_df.rename(columns={'Accuracy': f'Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
     
 
-    # Save the accumulated results to a CSV
+    # Save the detailed results and the comparable df to a CSV
     df_results_path = os.path.join(eval_dir, 'query_results_all.csv')
     compare_df_path = os.path.join(eval_dir, 'query_results_compare.csv')
     df_results.to_csv(df_results_path, index=False)
