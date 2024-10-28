@@ -1,0 +1,405 @@
+Model,Query,Expected Docs,Expected Answer,RAG Sole Response,RAG Raw Response,RAG Validated Response,RAG Structured Response,RAG Final Response,RAG Relevant Passage,RAG Docs Retrieved
+claude,Complete this sentence: 'The mules are not hungry. They're lively and',sr22a_en.txt,gay,"{""id"":""msg_bdrk_01CQakGLTjwSuVJMXHQYxrbz"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The mules are not hungry. They're lively and gay.\n\nThis answer is directly provided in the context, specifically in these lines:\n\n[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.\n\n[00:03:27.360 --> 00:03:29.360] They're lively and gay.\n\nThe phrase appears twice in the lyrics of the song \""The Old Skipper,\"" which was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection. The song was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lomax.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":885,""output_tokens"":164}}","{""id"":""msg_bdrk_01CQakGLTjwSuVJMXHQYxrbz"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The mules are not hungry. They're lively and gay.\n\nThis answer is directly provided in the context, specifically in these lines:\n\n[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.\n\n[00:03:27.360 --> 00:03:29.360] They're lively and gay.\n\nThe phrase appears twice in the lyrics of the song \""The Old Skipper,\"" which was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection. The song was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lomax.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":885,""output_tokens"":164}}","{""id"":""msg_bdrk_01CQakGLTjwSuVJMXHQYxrbz"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The mules are not hungry. They're lively and gay.\n\nThis answer is directly provided in the context, specifically in these lines:\n\n[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.\n\n[00:03:27.360 --> 00:03:29.360] They're lively and gay.\n\nThe phrase appears twice in the lyrics of the song \""The Old Skipper,\"" which was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection. The song was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lomax.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":885,""output_tokens"":164}}
+
+Corrections:
+• The correct recording date is 1937-11-03.","RAG Response:
+
+• {""id"":""msg_bdrk_01CQakGLTjwSuVJMXHQYxrbz"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The mules are not hungry.
+• They're lively and gay.\n\nThis answer is directly provided in the context, specifically in these lines:\n\n[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.\n\n[00:03:27.360 --> 00:03:29.360] They're lively and gay.\n\nThe phrase appears twice in the lyrics of the song \""The Old Skipper,\"" which was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye collection.
+• The song was performed by Pearl R.
+• Nye and recorded by Alan Lomax and Elizabeth Lomax.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":885,""output_tokens"":164}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.","Relevant Metadata:
+• Title: The Old Skipper
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['ohio', 'field recordings', 'songs', 'songs and music', 'music']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000043/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01CQakGLTjwSuVJMXHQYxrbz"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The mules are not hungry.
+• They're lively and gay.\n\nThis answer is directly provided in the context, specifically in these lines:\n\n[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.\n\n[00:03:27.360 --> 00:03:29.360] They're lively and gay.\n\nThe phrase appears twice in the lyrics of the song \""The Old Skipper,\"" which was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye collection.
+• The song was performed by Pearl R.
+• Nye and recorded by Alan Lomax and Elizabeth Lomax.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":885,""output_tokens"":164}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.","[00:01:05.400 --> 00:01:10.400] I will not be a rover for I love my boat.
+[00:01:10.400 --> 00:01:15.400] I am happy contented, yes work dream and flow.
+[00:01:15.400 --> 00:01:20.400] The mules are not hungry, they're lively and gay.","{'sr22a_en.txt', 'sr01b_en.txt', 'sr27a_en.txt'}"
+claude,Complete this sentence: 'Take a trip on the canal if you want to have',sr28a_en.txt or sr13a_en.txt,fun,"{""id"":""msg_bdrk_01HHpHGrxswXV2nqF9oNeVhJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The sentence should be completed as: 'Take a trip on the canal if you want to have fun.'\n\nThis completion is directly stated in the context multiple times, specifically:\n\n[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.\n\n[00:02:57.120 --> 00:03:03.120] Take a trip on the canal if you want to have fun.\n\nThis phrase appears to be part of a song or ballad about canal boat trips, which is consistent with the metadata indicating that this is from a recording titled \""Two Sailors: Sea Shanties and Canal Boat Ballads\"" and includes subjects such as \""canal-boats\"" and \""ballads, English.\""""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":729,""output_tokens"":171}}","{""id"":""msg_bdrk_01HHpHGrxswXV2nqF9oNeVhJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The sentence should be completed as: 'Take a trip on the canal if you want to have fun.'\n\nThis completion is directly stated in the context multiple times, specifically:\n\n[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.\n\n[00:02:57.120 --> 00:03:03.120] Take a trip on the canal if you want to have fun.\n\nThis phrase appears to be part of a song or ballad about canal boat trips, which is consistent with the metadata indicating that this is from a recording titled \""Two Sailors: Sea Shanties and Canal Boat Ballads\"" and includes subjects such as \""canal-boats\"" and \""ballads, English.\""""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":729,""output_tokens"":171}}","{""id"":""msg_bdrk_01HHpHGrxswXV2nqF9oNeVhJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The sentence should be completed as: 'Take a trip on the canal if you want to have fun.'\n\nThis completion is directly stated in the context multiple times, specifically:\n\n[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.\n\n[00:02:57.120 --> 00:03:03.120] Take a trip on the canal if you want to have fun.\n\nThis phrase appears to be part of a song or ballad about canal boat trips, which is consistent with the metadata indicating that this is from a recording titled \""Two Sailors: Sea Shanties and Canal Boat Ballads\"" and includes subjects such as \""canal-boats\"" and \""ballads, English.\""""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":729,""output_tokens"":171}}
+
+Corrections:
+• The correct recording date is 1941.","RAG Response:
+
+• {""id"":""msg_bdrk_01HHpHGrxswXV2nqF9oNeVhJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The sentence should be completed as: 'Take a trip on the canal if you want to have fun.'\n\nThis completion is directly stated in the context multiple times, specifically:\n\n[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.\n\n[00:02:57.120 --> 00:03:03.120] Take a trip on the canal if you want to have fun.\n\nThis phrase appears to be part of a song or ballad about canal boat trips, which is consistent with the metadata indicating that this is from a recording titled \""Two Sailors: Sea Shanties and Canal Boat Ballads\"" and includes subjects such as \""canal-boats\"" and \""ballads, English.\""""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":729,""output_tokens"":171}}.
+
+Corrections:
+• The correct recording date is 1941.","Relevant Metadata:
+• Title: Two Sailors: Sea Shanties and Canal Boat Ballads
+• Date: 1941
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'ballads, english', 'canal-boats', 'spoken word', 'songs and music']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000192/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01HHpHGrxswXV2nqF9oNeVhJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The sentence should be completed as: 'Take a trip on the canal if you want to have fun.'\n\nThis completion is directly stated in the context multiple times, specifically:\n\n[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.\n\n[00:02:57.120 --> 00:03:03.120] Take a trip on the canal if you want to have fun.\n\nThis phrase appears to be part of a song or ballad about canal boat trips, which is consistent with the metadata indicating that this is from a recording titled \""Two Sailors: Sea Shanties and Canal Boat Ballads\"" and includes subjects such as \""canal-boats\"" and \""ballads, English.\""""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":729,""output_tokens"":171}}.
+
+Corrections:
+• The correct recording date is 1941.","[00:02:28.000 --> 00:02:31.000] Take a trip on the canal if you want to have fun.
+[00:02:31.000 --> 00:02:38.000] You may talk of your pleasure, trip down the great lakes, but a trip on these scroll boats you better take a look at.","{'sr13a_en.txt', 'sr28a_en.txt', 'sr27b_en.txt'}"
+claude,What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?,sr02b_en.txt,Barbrae Allen,"{""id"":""msg_bdrk_015N9b8BjkrEQu8F3k1S5e5r"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The name of the female character mentioned in the song that begins \""In Scarlett town where I was born\"" is Barbara Allen. The context provides the lyrics \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" While the spelling in the lyrics is \""Barbrae Allen,\"" the metadata lists the title as including \""Barbara Allen,\"" which is likely the standard spelling of the character's name.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":856,""output_tokens"":107}}","{""id"":""msg_bdrk_015N9b8BjkrEQu8F3k1S5e5r"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The name of the female character mentioned in the song that begins \""In Scarlett town where I was born\"" is Barbara Allen. The context provides the lyrics \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" While the spelling in the lyrics is \""Barbrae Allen,\"" the metadata lists the title as including \""Barbara Allen,\"" which is likely the standard spelling of the character's name.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":856,""output_tokens"":107}}","{""id"":""msg_bdrk_015N9b8BjkrEQu8F3k1S5e5r"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The name of the female character mentioned in the song that begins \""In Scarlett town where I was born\"" is Barbara Allen. The context provides the lyrics \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" While the spelling in the lyrics is \""Barbrae Allen,\"" the metadata lists the title as including \""Barbara Allen,\"" which is likely the standard spelling of the character's name.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":856,""output_tokens"":107}}
+
+Corrections:
+• The correct recording date is 1937.
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","RAG Response:
+
+• {""id"":""msg_bdrk_015N9b8BjkrEQu8F3k1S5e5r"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The name of the female character mentioned in the song that begins \""In Scarlett town where I was born\"" is Barbara Allen.
+• The context provides the lyrics \""In Scarlett town where I was born, there was a fair made welling.
+• Made every youth, I will aware, and a name was Barbrae Allen.\"" While the spelling in the lyrics is \""Barbrae Allen,\"" the metadata lists the title as including \""Barbara Allen,\"" which is likely the standard spelling of the character's name.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":856,""output_tokens"":107}}.
+
+Corrections:
+• The correct recording date is 1937.
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","Relevant Metadata:
+• Title: The Girl with the Striped Stockings; Barbara Allen
+• Date: 1937
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'popular music', 'songs', 'music', 'folk songs, english']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000004/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_015N9b8BjkrEQu8F3k1S5e5r"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The name of the female character mentioned in the song that begins \""In Scarlett town where I was born\"" is Barbara Allen.
+• The context provides the lyrics \""In Scarlett town where I was born, there was a fair made welling.
+• Made every youth, I will aware, and a name was Barbrae Allen.\"" While the spelling in the lyrics is \""Barbrae Allen,\"" the metadata lists the title as including \""Barbara Allen,\"" which is likely the standard spelling of the character's name.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":856,""output_tokens"":107}}.
+
+Corrections:
+• The correct recording date is 1937.
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","[00:02:08.000 --> 00:02:17.000] In Scarlett town where I was born, there was a fair made welling.
+[00:02:17.000 --> 00:02:25.000] Made every youth, I will aware, and a name was Barbrae Allen.","{'sr02b_en.txt', 'sr28a_en.txt'}"
+claude,"According to the transcript, what is Captain Pearl R. Nye's favorite ballad?",sr28a_en.txt,Barbara Allen,"{""id"":""msg_bdrk_016iaaD4rDWZuWm2h2Ez2cFR"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the transcript, Captain Pearl R. Nye's favorite ballad is Barbara Allen. This is directly stated in the context where Captain Nye says, \""I guess Barbara Allen is my favorite of them all.\""\n\nThe context also provides additional relevant information:\n- The songs on this record were sung by Captain Pearl R. Nye of Akron, Ohio.\n- The recording was made on Sunday, June 27, 1937.\n- Captain Nye expresses his love for the songs of old England, indicating his appreciation for traditional British ballads.\n\nThe metadata supports this information, showing that Pearl R. Nye was one of the contributors to this sound recording, which contains English ballads and was recorded in Akron, Ohio.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":706,""output_tokens"":160}}","{""id"":""msg_bdrk_016iaaD4rDWZuWm2h2Ez2cFR"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the transcript, Captain Pearl R. Nye's favorite ballad is Barbara Allen. This is directly stated in the context where Captain Nye says, \""I guess Barbara Allen is my favorite of them all.\""\n\nThe context also provides additional relevant information:\n- The songs on this record were sung by Captain Pearl R. Nye of Akron, Ohio.\n- The recording was made on Sunday, June 27, 1937.\n- Captain Nye expresses his love for the songs of old England, indicating his appreciation for traditional British ballads.\n\nThe metadata supports this information, showing that Pearl R. Nye was one of the contributors to this sound recording, which contains English ballads and was recorded in Akron, Ohio.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":706,""output_tokens"":160}}","{""id"":""msg_bdrk_016iaaD4rDWZuWm2h2Ez2cFR"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the transcript, Captain Pearl R. Nye's favorite ballad is Barbara Allen. This is directly stated in the context where Captain Nye says, \""I guess Barbara Allen is my favorite of them all.\""\n\nThe context also provides additional relevant information:\n- The songs on this record were sung by Captain Pearl R. Nye of Akron, Ohio.\n- The recording was made on Sunday, June 27, 1937.\n- Captain Nye expresses his love for the songs of old England, indicating his appreciation for traditional British ballads.\n\nThe metadata supports this information, showing that Pearl R. Nye was one of the contributors to this sound recording, which contains English ballads and was recorded in Akron, Ohio.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":706,""output_tokens"":160}}
+
+Corrections:
+• The correct recording date is 1941.
+• The correct title of the recording is 'Two Sailors: Sea Shanties and Canal Boat Ballads'.","RAG Response:
+
+• {""id"":""msg_bdrk_016iaaD4rDWZuWm2h2Ez2cFR"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the transcript, Captain Pearl R.
+• Nye's favorite ballad is Barbara Allen.
+• This is directly stated in the context where Captain Nye says, \""I guess Barbara Allen is my favorite of them all.\""\n\nThe context also provides additional relevant information:\n- The songs on this record were sung by Captain Pearl R.
+• Nye of Akron, Ohio.\n- The recording was made on Sunday, June 27, 1937.\n- Captain Nye expresses his love for the songs of old England, indicating his appreciation for traditional British ballads.\n\nThe metadata supports this information, showing that Pearl R.
+• Nye was one of the contributors to this sound recording, which contains English ballads and was recorded in Akron, Ohio.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":706,""output_tokens"":160}}.
+
+Corrections:
+• The correct recording date is 1941.
+• The correct title of the recording is 'Two Sailors: Sea Shanties and Canal Boat Ballads'.","Relevant Metadata:
+• Title: Two Sailors: Sea Shanties and Canal Boat Ballads
+• Date: 1941
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'ballads, english', 'canal-boats', 'spoken word', 'songs and music']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000192/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_016iaaD4rDWZuWm2h2Ez2cFR"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the transcript, Captain Pearl R.
+• Nye's favorite ballad is Barbara Allen.
+• This is directly stated in the context where Captain Nye says, \""I guess Barbara Allen is my favorite of them all.\""\n\nThe context also provides additional relevant information:\n- The songs on this record were sung by Captain Pearl R.
+• Nye of Akron, Ohio.\n- The recording was made on Sunday, June 27, 1937.\n- Captain Nye expresses his love for the songs of old England, indicating his appreciation for traditional British ballads.\n\nThe metadata supports this information, showing that Pearl R.
+• Nye was one of the contributors to this sound recording, which contains English ballads and was recorded in Akron, Ohio.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":706,""output_tokens"":160}}.
+
+Corrections:
+• The correct recording date is 1941.
+• The correct title of the recording is 'Two Sailors: Sea Shanties and Canal Boat Ballads'.","[00:05:39.000 --> 00:05:45.000] The way I love the songs of old England proves that I'm a real Britisher.
+[00:05:45.000 --> 00:05:51.000] I said Captain I, I guess Barbara Allen is my favorite of them all.","{'sr28a_en.txt', 'sr01b_en.txt', 'sr05a_en.txt'}"
+claude,Complete this phrase from the gospel train song: 'The gospel train is',sr26a_en.txt,night,"{""id"":""msg_bdrk_014B5L9ZmvBPGgkPuBnsh5oA"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The gospel train is night.\n\nThis phrase is directly stated in the context provided:\n\n[00:00:09.000 --> 00:00:11.000] The gospel train is night.\n\nThe context shows lyrics from the gospel train song, including this specific phrase. The metadata indicates this is from a sound recording titled \""The Gospel Train\"" recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":936,""output_tokens"":105}}","{""id"":""msg_bdrk_014B5L9ZmvBPGgkPuBnsh5oA"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The gospel train is night.\n\nThis phrase is directly stated in the context provided:\n\n[00:00:09.000 --> 00:00:11.000] The gospel train is night.\n\nThe context shows lyrics from the gospel train song, including this specific phrase. The metadata indicates this is from a sound recording titled \""The Gospel Train\"" recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":936,""output_tokens"":105}}","{""id"":""msg_bdrk_014B5L9ZmvBPGgkPuBnsh5oA"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The gospel train is night.\n\nThis phrase is directly stated in the context provided:\n\n[00:00:09.000 --> 00:00:11.000] The gospel train is night.\n\nThe context shows lyrics from the gospel train song, including this specific phrase. The metadata indicates this is from a sound recording titled \""The Gospel Train\"" recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye collection.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":936,""output_tokens"":105}}
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Train; When the Old Sun was a Crawling ; Jawbone (Jawbone Walk, Jawbone Talk)'.","RAG Response:
+
+• {""id"":""msg_bdrk_014B5L9ZmvBPGgkPuBnsh5oA"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The gospel train is night.\n\nThis phrase is directly stated in the context provided:\n\n[00:00:09.000 --> 00:00:11.000] The gospel train is night.\n\nThe context shows lyrics from the gospel train song, including this specific phrase.
+• The metadata indicates this is from a sound recording titled \""The Gospel Train\"" recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye collection.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":936,""output_tokens"":105}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Train; When the Old Sun was a Crawling ; Jawbone (Jawbone Walk, Jawbone Talk)'.","Relevant Metadata:
+• Title: The Gospel Train; When the Old Sun was a Crawling ; Jawbone (Jawbone Walk, Jawbone Talk)
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['field recordings', 'songs', 'music', 'minstrel music', 'folk songs, english']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000051/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_014B5L9ZmvBPGgkPuBnsh5oA"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The gospel train is night.\n\nThis phrase is directly stated in the context provided:\n\n[00:00:09.000 --> 00:00:11.000] The gospel train is night.\n\nThe context shows lyrics from the gospel train song, including this specific phrase.
+• The metadata indicates this is from a sound recording titled \""The Gospel Train\"" recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye collection.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":936,""output_tokens"":105}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Train; When the Old Sun was a Crawling ; Jawbone (Jawbone Walk, Jawbone Talk)'.","[00:00:00.000 --> 00:00:05.000] The gospel train.
+[00:00:05.000 --> 00:00:09.000] Come hurry, hear the whistle.
+[00:00:09.000 --> 00:00:11.000] The gospel train is night.
+[00:00:11.000 --> 00:00:14.000] She stops at every station.","{'sr20b_en.txt', 'sr26a_en.txt'}"
+claude,"In the song 'Barbara Allen,' where was Barbara Allen from?",sr02b_en.txt,Scarlett town,"{""id"":""msg_bdrk_01MLhYKP9qWQqXZY5nnqtvpu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context, Barbara Allen was from Scarlett town. The lyrics state \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" This indicates that Barbara Allen (spelled as \""Barbrae Allen\"" in the lyrics) was from Scarlett town.\n\nIt's important to note that this information comes from a version of the song \""Barbara Allen\"" as performed in a 1937 field recording made in Akron, Ohio. The metadata indicates that there are many versions of this song, with the Library of Congress having 83 versions of Barbara Allen. Therefore, other versions of the song may provide different information about Barbara Allen's origin.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":839,""output_tokens"":163}}","{""id"":""msg_bdrk_01MLhYKP9qWQqXZY5nnqtvpu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context, Barbara Allen was from Scarlett town. The lyrics state \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" This indicates that Barbara Allen (spelled as \""Barbrae Allen\"" in the lyrics) was from Scarlett town.\n\nIt's important to note that this information comes from a version of the song \""Barbara Allen\"" as performed in a 1937 field recording made in Akron, Ohio. The metadata indicates that there are many versions of this song, with the Library of Congress having 83 versions of Barbara Allen. Therefore, other versions of the song may provide different information about Barbara Allen's origin.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":839,""output_tokens"":163}}","{""id"":""msg_bdrk_01MLhYKP9qWQqXZY5nnqtvpu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context, Barbara Allen was from Scarlett town. The lyrics state \""In Scarlett town where I was born, there was a fair made welling. Made every youth, I will aware, and a name was Barbrae Allen.\"" This indicates that Barbara Allen (spelled as \""Barbrae Allen\"" in the lyrics) was from Scarlett town.\n\nIt's important to note that this information comes from a version of the song \""Barbara Allen\"" as performed in a 1937 field recording made in Akron, Ohio. The metadata indicates that there are many versions of this song, with the Library of Congress having 83 versions of Barbara Allen. Therefore, other versions of the song may provide different information about Barbara Allen's origin.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":839,""output_tokens"":163}}
+
+Corrections:
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","RAG Response:
+
+• {""id"":""msg_bdrk_01MLhYKP9qWQqXZY5nnqtvpu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context, Barbara Allen was from Scarlett town.
+• The lyrics state \""In Scarlett town where I was born, there was a fair made welling.
+• Made every youth, I will aware, and a name was Barbrae Allen.\"" This indicates that Barbara Allen (spelled as \""Barbrae Allen\"" in the lyrics) was from Scarlett town.\n\nIt's important to note that this information comes from a version of the song \""Barbara Allen\"" as performed in a 1937 field recording made in Akron, Ohio.
+• The metadata indicates that there are many versions of this song, with the Library of Congress having 83 versions of Barbara Allen.
+• Therefore, other versions of the song may provide different information about Barbara Allen's origin.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":839,""output_tokens"":163}}.
+
+Corrections:
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","Relevant Metadata:
+• Title: The Girl with the Striped Stockings; Barbara Allen
+• Date: 1937
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'popular music', 'songs', 'music', 'folk songs, english']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000004/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01MLhYKP9qWQqXZY5nnqtvpu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context, Barbara Allen was from Scarlett town.
+• The lyrics state \""In Scarlett town where I was born, there was a fair made welling.
+• Made every youth, I will aware, and a name was Barbrae Allen.\"" This indicates that Barbara Allen (spelled as \""Barbrae Allen\"" in the lyrics) was from Scarlett town.\n\nIt's important to note that this information comes from a version of the song \""Barbara Allen\"" as performed in a 1937 field recording made in Akron, Ohio.
+• The metadata indicates that there are many versions of this song, with the Library of Congress having 83 versions of Barbara Allen.
+• Therefore, other versions of the song may provide different information about Barbara Allen's origin.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":839,""output_tokens"":163}}.
+
+Corrections:
+• The correct title of the recording is 'The Girl with the Striped Stockings; Barbara Allen'.","[00:02:08.000 --> 00:02:17.000] In Scarlett town where I was born, there was a fair made welling.
+[00:02:17.000 --> 00:02:25.000] Made every youth, I will aware, and a name was Barbrae Allen.","{'sr02b_en.txt', 'sr28a_en.txt'}"
+claude,"In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?",sr08a_en.txt,A year or two or three at most,"{""id"":""msg_bdrk_01X8w7p8oHDUT7brbZMo2NSE"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Lord Lovele was gone for a year or two or three at most, according to the song lyrics provided in the context. Specifically, the lyrics state: \""in a year or two or three at most,\"" in response to the question of when Lord Lovele would return.\n\nThis information comes directly from the transcribed lyrics in the context section. The song was recorded in 1937 in Akron, Ohio, as part of a field recording collection by John A. Lomax, featuring performances by Pearl R. Nye related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":877,""output_tokens"":124}}","{""id"":""msg_bdrk_01X8w7p8oHDUT7brbZMo2NSE"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Lord Lovele was gone for a year or two or three at most, according to the song lyrics provided in the context. Specifically, the lyrics state: \""in a year or two or three at most,\"" in response to the question of when Lord Lovele would return.\n\nThis information comes directly from the transcribed lyrics in the context section. The song was recorded in 1937 in Akron, Ohio, as part of a field recording collection by John A. Lomax, featuring performances by Pearl R. Nye related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":877,""output_tokens"":124}}","{""id"":""msg_bdrk_01X8w7p8oHDUT7brbZMo2NSE"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Lord Lovele was gone for a year or two or three at most, according to the song lyrics provided in the context. Specifically, the lyrics state: \""in a year or two or three at most,\"" in response to the question of when Lord Lovele would return.\n\nThis information comes directly from the transcribed lyrics in the context section. The song was recorded in 1937 in Akron, Ohio, as part of a field recording collection by John A. Lomax, featuring performances by Pearl R. Nye related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":877,""output_tokens"":124}}
+
+Corrections:
+• The correct title of the recording is 'Lord Lovele; Jones Hospital'.","RAG Response:
+
+• {""id"":""msg_bdrk_01X8w7p8oHDUT7brbZMo2NSE"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Lord Lovele was gone for a year or two or three at most, according to the song lyrics provided in the context.
+• Specifically, the lyrics state: \""in a year or two or three at most,\"" in response to the question of when Lord Lovele would return.\n\nThis information comes directly from the transcribed lyrics in the context section.
+• The song was recorded in 1937 in Akron, Ohio, as part of a field recording collection by John A.
+• Lomax, featuring performances by Pearl R.
+• Nye related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":877,""output_tokens"":124}}.
+
+Corrections:
+• The correct title of the recording is 'Lord Lovele; Jones Hospital'.","Relevant Metadata:
+• Title: Lord Lovele; Jones Hospital
+• Date: 1937
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'songs', 'music', 'folk songs, english', 'ballads, english']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000015/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01X8w7p8oHDUT7brbZMo2NSE"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Lord Lovele was gone for a year or two or three at most, according to the song lyrics provided in the context.
+• Specifically, the lyrics state: \""in a year or two or three at most,\"" in response to the question of when Lord Lovele would return.\n\nThis information comes directly from the transcribed lyrics in the context section.
+• The song was recorded in 1937 in Akron, Ohio, as part of a field recording collection by John A.
+• Lomax, featuring performances by Pearl R.
+• Nye related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":877,""output_tokens"":124}}.
+
+Corrections:
+• The correct title of the recording is 'Lord Lovele; Jones Hospital'.","[00:00:37.120 --> 00:00:40.920] When will you be back Lord love of His sin,
+[00:00:40.920 --> 00:00:44.360] or when will you be back said she,
+[00:00:44.360 --> 00:00:47.640] in a year or two or three at most,","{'sr05b_en.txt', 'sr08a_en.txt'}"
+claude,What instrument does Captain Nye mention loving?,sr22a_en.txt,old fiddled mouth organ banjo,"{""id"":""msg_bdrk_013M6nNAJC1eUUQqVaK9B1Uv"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Captain Nye mentions loving his \""old fiddled mouth organ banjo.\"" This is explicitly stated in the context, where he says \""But I love my old fiddled mouth organ banjo.\"" The context does not provide any additional information about this instrument or other instruments Captain Nye may love.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":846,""output_tokens"":64}}","{""id"":""msg_bdrk_013M6nNAJC1eUUQqVaK9B1Uv"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Captain Nye mentions loving his \""old fiddled mouth organ banjo.\"" This is explicitly stated in the context, where he says \""But I love my old fiddled mouth organ banjo.\"" The context does not provide any additional information about this instrument or other instruments Captain Nye may love.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":846,""output_tokens"":64}}","{""id"":""msg_bdrk_013M6nNAJC1eUUQqVaK9B1Uv"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Captain Nye mentions loving his \""old fiddled mouth organ banjo.\"" This is explicitly stated in the context, where he says \""But I love my old fiddled mouth organ banjo.\"" The context does not provide any additional information about this instrument or other instruments Captain Nye may love.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":846,""output_tokens"":64}}
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Old Skipper'.","RAG Response:
+
+• {""id"":""msg_bdrk_013M6nNAJC1eUUQqVaK9B1Uv"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Captain Nye mentions loving his \""old fiddled mouth organ banjo.\"" This is explicitly stated in the context, where he says \""But I love my old fiddled mouth organ banjo.\"" The context does not provide any additional information about this instrument or other instruments Captain Nye may love.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":846,""output_tokens"":64}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Old Skipper'.","Relevant Metadata:
+• Title: The Old Skipper
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['ohio', 'field recordings', 'songs', 'songs and music', 'music']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000043/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_013M6nNAJC1eUUQqVaK9B1Uv"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Captain Nye mentions loving his \""old fiddled mouth organ banjo.\"" This is explicitly stated in the context, where he says \""But I love my old fiddled mouth organ banjo.\"" The context does not provide any additional information about this instrument or other instruments Captain Nye may love.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":846,""output_tokens"":64}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Old Skipper'.","[00:02:52.400 --> 00:02:56.400] But I love my old fiddled mouth organ banjo.
+[00:02:57.400 --> 00:03:02.400] I love my own life, it's the best I can do.
+[00:03:02.400 --> 00:03:07.400] And if you don't like me I'll never harm you.","{'sr22a_en.txt', 'sr28a_en.txt'}"
+claude,"In the song about pumping out Lake Erie, what will be on the moon when they're done?",sr27b_en.txt,whiskers,"{""id"":""msg_bdrk_01EYyhhkkrUYdyrX4QQ8XrYV"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the song lyrics provided in the context, when they're done pumping out Lake Erie, there will be whiskers on the moon. This line is repeated multiple times in the song lyrics: \""When we get done, you can tell by the sun they'll be whiskers on the moon.\""\n\nThe song is titled \""We're Going to Pump Out Lake Erie\"" and is part of a field recording made in Akron, Ohio on November 3, 1937. It was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lyttleton Sturz as part of the Captain Pearl R. Nye Collection, which focuses on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":888,""output_tokens"":154}}","{""id"":""msg_bdrk_01EYyhhkkrUYdyrX4QQ8XrYV"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the song lyrics provided in the context, when they're done pumping out Lake Erie, there will be whiskers on the moon. This line is repeated multiple times in the song lyrics: \""When we get done, you can tell by the sun they'll be whiskers on the moon.\""\n\nThe song is titled \""We're Going to Pump Out Lake Erie\"" and is part of a field recording made in Akron, Ohio on November 3, 1937. It was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lyttleton Sturz as part of the Captain Pearl R. Nye Collection, which focuses on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":888,""output_tokens"":154}}","{""id"":""msg_bdrk_01EYyhhkkrUYdyrX4QQ8XrYV"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the song lyrics provided in the context, when they're done pumping out Lake Erie, there will be whiskers on the moon. This line is repeated multiple times in the song lyrics: \""When we get done, you can tell by the sun they'll be whiskers on the moon.\""\n\nThe song is titled \""We're Going to Pump Out Lake Erie\"" and is part of a field recording made in Akron, Ohio on November 3, 1937. It was performed by Pearl R. Nye and recorded by Alan Lomax and Elizabeth Lyttleton Sturz as part of the Captain Pearl R. Nye Collection, which focuses on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":888,""output_tokens"":154}}
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'We're Going to Pump Out Lake Erie; In a Storm at Sea; A Canal Dance (One Night in Cleveland)'.","RAG Response:
+
+• {""id"":""msg_bdrk_01EYyhhkkrUYdyrX4QQ8XrYV"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the song lyrics provided in the context, when they're done pumping out Lake Erie, there will be whiskers on the moon.
+• This line is repeated multiple times in the song lyrics: \""When we get done, you can tell by the sun they'll be whiskers on the moon.\""\n\nThe song is titled \""We're Going to Pump Out Lake Erie\"" and is part of a field recording made in Akron, Ohio on November 3, 1937.
+• It was performed by Pearl R.
+• Nye and recorded by Alan Lomax and Elizabeth Lyttleton Sturz as part of the Captain Pearl R.
+• Nye Collection, which focuses on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":888,""output_tokens"":154}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'We're Going to Pump Out Lake Erie; In a Storm at Sea; A Canal Dance (One Night in Cleveland)'.","Relevant Metadata:
+• Title: We're Going to Pump Out Lake Erie; In a Storm at Sea; A Canal Dance (One Night in Cleveland)
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['ohio', 'field recordings', 'erie, lake', 'songs', 'canals']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000049/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01EYyhhkkrUYdyrX4QQ8XrYV"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""According to the song lyrics provided in the context, when they're done pumping out Lake Erie, there will be whiskers on the moon.
+• This line is repeated multiple times in the song lyrics: \""When we get done, you can tell by the sun they'll be whiskers on the moon.\""\n\nThe song is titled \""We're Going to Pump Out Lake Erie\"" and is part of a field recording made in Akron, Ohio on November 3, 1937.
+• It was performed by Pearl R.
+• Nye and recorded by Alan Lomax and Elizabeth Lyttleton Sturz as part of the Captain Pearl R.
+• Nye Collection, which focuses on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":888,""output_tokens"":154}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'We're Going to Pump Out Lake Erie; In a Storm at Sea; A Canal Dance (One Night in Cleveland)'.","[00:00:28.080 --> 00:00:33.920] When we get done, you can tell by the sun they'll be whiskers on the moon.
+[00:00:33.920 --> 00:00:40.120] The canal needs the water to keep things afloat and I never will put wheels on my old","{'sr25a_en.txt', 'sr27b_en.txt'}"
+claude,Complete this line from a song: 'We land this war down by the',sr05a_en.txt,river,"{""id"":""msg_bdrk_013dA11K9ZRzivVS6sTbQjL2"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The line from the song is completed as: \""We land this war down by the river.\""\n\nThis answer is based on the repeated lyrics found in the context, which show multiple instances of the line \""We land this war down by the river\"" or \""We land this war down by the river side.\"" The song appears to be titled \""We'll End this War Down by the River\"" according to the metadata, though the lyrics use \""land\"" instead of \""end.\"" \n\nThe context shows this is a recurring line in the song, recorded on June 27, 1937 in Akron, Ohio. The song is performed by Pearl R. Nye and was collected as part of a field recording by John A. Lomax. It's classified as a revival hymn in the metadata subjects.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":884,""output_tokens"":170}}","{""id"":""msg_bdrk_013dA11K9ZRzivVS6sTbQjL2"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The line from the song is completed as: \""We land this war down by the river.\""\n\nThis answer is based on the repeated lyrics found in the context, which show multiple instances of the line \""We land this war down by the river\"" or \""We land this war down by the river side.\"" The song appears to be titled \""We'll End this War Down by the River\"" according to the metadata, though the lyrics use \""land\"" instead of \""end.\"" \n\nThe context shows this is a recurring line in the song, recorded on June 27, 1937 in Akron, Ohio. The song is performed by Pearl R. Nye and was collected as part of a field recording by John A. Lomax. It's classified as a revival hymn in the metadata subjects.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":884,""output_tokens"":170}}","{""id"":""msg_bdrk_013dA11K9ZRzivVS6sTbQjL2"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The line from the song is completed as: \""We land this war down by the river.\""\n\nThis answer is based on the repeated lyrics found in the context, which show multiple instances of the line \""We land this war down by the river\"" or \""We land this war down by the river side.\"" The song appears to be titled \""We'll End this War Down by the River\"" according to the metadata, though the lyrics use \""land\"" instead of \""end.\"" \n\nThe context shows this is a recurring line in the song, recorded on June 27, 1937 in Akron, Ohio. The song is performed by Pearl R. Nye and was collected as part of a field recording by John A. Lomax. It's classified as a revival hymn in the metadata subjects.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":884,""output_tokens"":170}}
+
+Corrections:
+• The correct recording date is 1937-06-27.
+• The correct title of the recording is 'We'll End this War Down by the River; The Resurrection Car'.","RAG Response:
+
+• {""id"":""msg_bdrk_013dA11K9ZRzivVS6sTbQjL2"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The line from the song is completed as: \""We land this war down by the river.\""\n\nThis answer is based on the repeated lyrics found in the context, which show multiple instances of the line \""We land this war down by the river\"" or \""We land this war down by the river side.\"" The song appears to be titled \""We'll End this War Down by the River\"" according to the metadata, though the lyrics use \""land\"" instead of \""end.\"" \n\nThe context shows this is a recurring line in the song, recorded on June 27, 1937 in Akron, Ohio.
+• The song is performed by Pearl R.
+• Nye and was collected as part of a field recording by John A.
+• Lomax.
+• It's classified as a revival hymn in the metadata subjects.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":884,""output_tokens"":170}}.
+
+Corrections:
+• The correct recording date is 1937-06-27.
+• The correct title of the recording is 'We'll End this War Down by the River; The Resurrection Car'.","Relevant Metadata:
+• Title: We'll End this War Down by the River; The Resurrection Car
+• Date: 1937-06-27
+• Contributors: ['nye, pearl r.', 'lomax, john a. (john avery)']
+• Subjects: ['field recordings', 'revival hymns', 'music', 'songs']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000009/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_013dA11K9ZRzivVS6sTbQjL2"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The line from the song is completed as: \""We land this war down by the river.\""\n\nThis answer is based on the repeated lyrics found in the context, which show multiple instances of the line \""We land this war down by the river\"" or \""We land this war down by the river side.\"" The song appears to be titled \""We'll End this War Down by the River\"" according to the metadata, though the lyrics use \""land\"" instead of \""end.\"" \n\nThe context shows this is a recurring line in the song, recorded on June 27, 1937 in Akron, Ohio.
+• The song is performed by Pearl R.
+• Nye and was collected as part of a field recording by John A.
+• Lomax.
+• It's classified as a revival hymn in the metadata subjects.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":884,""output_tokens"":170}}.
+
+Corrections:
+• The correct recording date is 1937-06-27.
+• The correct title of the recording is 'We'll End this War Down by the River; The Resurrection Car'.","[00:00:13.000 --> 00:00:18.000] We land this war down by the river.
+[00:00:18.000 --> 00:00:24.000] We land this war down by the river side.
+[00:00:24.000 --> 00:00:29.000] The devil long he had me fast down by the river.",{'sr05a_en.txt'}
+claude,What does the singer say they won't do in the song 'I Won't Marry At All'?,sr01b_en.txt,Marry/Mary at all,"{""id"":""msg_bdrk_01KeogsW1ugvvwHwyRnvZDLu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The singer says they won't marry at all in the song 'I Won't Marry At All'. \n\nThis is clearly stated multiple times in the context provided, with lines such as:\n\""For I will not Mary at all.\""\n\""I will not Mary at all.\""\n\""For I will not Mary at all at all.\""\n\nThe song title itself, 'I Won't Marry at All', also reinforces this central theme. \n\nThe context does not provide any additional information about why the singer won't marry or what else they might or might not do. The metadata indicates this song was recorded in Akron, Ohio on November 3, 1937, and was performed by Pearl R. Nye as part of a collection of songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":903,""output_tokens"":171}}","{""id"":""msg_bdrk_01KeogsW1ugvvwHwyRnvZDLu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The singer says they won't marry at all in the song 'I Won't Marry At All'. \n\nThis is clearly stated multiple times in the context provided, with lines such as:\n\""For I will not Mary at all.\""\n\""I will not Mary at all.\""\n\""For I will not Mary at all at all.\""\n\nThe song title itself, 'I Won't Marry at All', also reinforces this central theme. \n\nThe context does not provide any additional information about why the singer won't marry or what else they might or might not do. The metadata indicates this song was recorded in Akron, Ohio on November 3, 1937, and was performed by Pearl R. Nye as part of a collection of songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":903,""output_tokens"":171}}","{""id"":""msg_bdrk_01KeogsW1ugvvwHwyRnvZDLu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The singer says they won't marry at all in the song 'I Won't Marry At All'. \n\nThis is clearly stated multiple times in the context provided, with lines such as:\n\""For I will not Mary at all.\""\n\""I will not Mary at all.\""\n\""For I will not Mary at all at all.\""\n\nThe song title itself, 'I Won't Marry at All', also reinforces this central theme. \n\nThe context does not provide any additional information about why the singer won't marry or what else they might or might not do. The metadata indicates this song was recorded in Akron, Ohio on November 3, 1937, and was performed by Pearl R. Nye as part of a collection of songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":903,""output_tokens"":171}}
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'Who Killed Cock Robin; I Won't Marry at All'.","RAG Response:
+
+• {""id"":""msg_bdrk_01KeogsW1ugvvwHwyRnvZDLu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The singer says they won't marry at all in the song 'I Won't Marry At All'.
+• \n\nThis is clearly stated multiple times in the context provided, with lines such as:\n\""For I will not Mary at all.\""\n\""I will not Mary at all.\""\n\""For I will not Mary at all at all.\""\n\nThe song title itself, 'I Won't Marry at All', also reinforces this central theme.
+• \n\nThe context does not provide any additional information about why the singer won't marry or what else they might or might not do.
+• The metadata indicates this song was recorded in Akron, Ohio on November 3, 1937, and was performed by Pearl R.
+• Nye as part of a collection of songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":903,""output_tokens"":171}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'Who Killed Cock Robin; I Won't Marry at All'.","Relevant Metadata:
+• Title: Who Killed Cock Robin; I Won't Marry at All
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['field recordings', 'songs', 'music', 'folk songs, english']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000046/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01KeogsW1ugvvwHwyRnvZDLu"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The singer says they won't marry at all in the song 'I Won't Marry At All'.
+• \n\nThis is clearly stated multiple times in the context provided, with lines such as:\n\""For I will not Mary at all.\""\n\""I will not Mary at all.\""\n\""For I will not Mary at all at all.\""\n\nThe song title itself, 'I Won't Marry at All', also reinforces this central theme.
+• \n\nThe context does not provide any additional information about why the singer won't marry or what else they might or might not do.
+• The metadata indicates this song was recorded in Akron, Ohio on November 3, 1937, and was performed by Pearl R.
+• Nye as part of a collection of songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":903,""output_tokens"":171}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'Who Killed Cock Robin; I Won't Marry at All'.","[00:03:49.360 --> 00:03:51.360] For I will not Mary at all.
+[00:03:51.360 --> 00:03:53.360] And I will not Mary at all.",{'sr23b_en.txt'}
+claude,What does the song say will 'outshine the sun'?,sr17b_en.txt,We'll/not,"{""id"":""msg_bdrk_01Y6uRmeGtKH9734Vg4xh1yh"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The song says \""we'll outshine the sun.\"" \n\nThis is evident from multiple lines in the context that repeat the phrase \""outshine the sun, outshine the sun\"" following the line \""Let Jesus keep us polished and we'll not shine the sun.\"" The repetition of this phrase suggests it is a key part of the song's lyrics.\n\nThis interpretation is further supported by the metadata, which lists the song title as \""In the Shade of a Tree; We'll Outshine the Sun,\"" directly including the phrase \""outshine the sun\"" in the title.\n\nThe song was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye Collection, which focused on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":924,""output_tokens"":169}}","{""id"":""msg_bdrk_01Y6uRmeGtKH9734Vg4xh1yh"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The song says \""we'll outshine the sun.\"" \n\nThis is evident from multiple lines in the context that repeat the phrase \""outshine the sun, outshine the sun\"" following the line \""Let Jesus keep us polished and we'll not shine the sun.\"" The repetition of this phrase suggests it is a key part of the song's lyrics.\n\nThis interpretation is further supported by the metadata, which lists the song title as \""In the Shade of a Tree; We'll Outshine the Sun,\"" directly including the phrase \""outshine the sun\"" in the title.\n\nThe song was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye Collection, which focused on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":924,""output_tokens"":169}}","{""id"":""msg_bdrk_01Y6uRmeGtKH9734Vg4xh1yh"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The song says \""we'll outshine the sun.\"" \n\nThis is evident from multiple lines in the context that repeat the phrase \""outshine the sun, outshine the sun\"" following the line \""Let Jesus keep us polished and we'll not shine the sun.\"" The repetition of this phrase suggests it is a key part of the song's lyrics.\n\nThis interpretation is further supported by the metadata, which lists the song title as \""In the Shade of a Tree; We'll Outshine the Sun,\"" directly including the phrase \""outshine the sun\"" in the title.\n\nThe song was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R. Nye Collection, which focused on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":924,""output_tokens"":169}}
+
+Corrections:
+• The correct recording date is 1937-11-03.","RAG Response:
+
+• {""id"":""msg_bdrk_01Y6uRmeGtKH9734Vg4xh1yh"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The song says \""we'll outshine the sun.\"" \n\nThis is evident from multiple lines in the context that repeat the phrase \""outshine the sun, outshine the sun\"" following the line \""Let Jesus keep us polished and we'll not shine the sun.\"" The repetition of this phrase suggests it is a key part of the song's lyrics.\n\nThis interpretation is further supported by the metadata, which lists the song title as \""In the Shade of a Tree; We'll Outshine the Sun,\"" directly including the phrase \""outshine the sun\"" in the title.\n\nThe song was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye Collection, which focused on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":924,""output_tokens"":169}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.","Relevant Metadata:
+• Title: In the Shade of a Tree; We'll Outshine the Sun
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['field recordings', 'songs', 'music', 'folk songs, english', 'revival hymns']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000034/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01Y6uRmeGtKH9734Vg4xh1yh"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""The song says \""we'll outshine the sun.\"" \n\nThis is evident from multiple lines in the context that repeat the phrase \""outshine the sun, outshine the sun\"" following the line \""Let Jesus keep us polished and we'll not shine the sun.\"" The repetition of this phrase suggests it is a key part of the song's lyrics.\n\nThis interpretation is further supported by the metadata, which lists the song title as \""In the Shade of a Tree; We'll Outshine the Sun,\"" directly including the phrase \""outshine the sun\"" in the title.\n\nThe song was recorded in Akron, Ohio on November 3, 1937, as part of the Captain Pearl R.
+• Nye Collection, which focused on songs related to life on the Ohio and Erie Canal.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":924,""output_tokens"":169}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.","[00:04:04.000 --> 00:04:08.000] Let Jesus keep us polished and we'll not shine the sun.
+[00:04:08.000 --> 00:04:12.000] Outshine the sun, outshine the sun.
+[00:04:12.000 --> 00:04:16.000] Let Jesus keep us polished and we'll not shine the sun.",{'sr17b_en.txt'}
+claude,"In the 'Dying Cowboy' song, where was the cowboy born?",sr20b_en.txt,Boston,"{""id"":""msg_bdrk_01LZhAwYrX9gyoECWGfnkGTJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context and metadata, there is no information about where the cowboy in the 'Dying Cowboy' song was born. The context does not provide any details about the cowboy's birthplace in relation to this specific song. The only birthplace mentioned is in a different song lyric about Scarlett town, which does not appear to be related to the 'Dying Cowboy' song. Therefore, the information provided is not sufficient to answer the question about where the cowboy in the 'Dying Cowboy' song was born.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":829,""output_tokens"":122}}","{""id"":""msg_bdrk_01LZhAwYrX9gyoECWGfnkGTJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context and metadata, there is no information about where the cowboy in the 'Dying Cowboy' song was born. The context does not provide any details about the cowboy's birthplace in relation to this specific song. The only birthplace mentioned is in a different song lyric about Scarlett town, which does not appear to be related to the 'Dying Cowboy' song. Therefore, the information provided is not sufficient to answer the question about where the cowboy in the 'Dying Cowboy' song was born.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":829,""output_tokens"":122}}","{""id"":""msg_bdrk_01LZhAwYrX9gyoECWGfnkGTJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context and metadata, there is no information about where the cowboy in the 'Dying Cowboy' song was born. The context does not provide any details about the cowboy's birthplace in relation to this specific song. The only birthplace mentioned is in a different song lyric about Scarlett town, which does not appear to be related to the 'Dying Cowboy' song. Therefore, the information provided is not sufficient to answer the question about where the cowboy in the 'Dying Cowboy' song was born.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":829,""output_tokens"":122}}
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Chariot; The Dying Cowboy'.","RAG Response:
+
+• {""id"":""msg_bdrk_01LZhAwYrX9gyoECWGfnkGTJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context and metadata, there is no information about where the cowboy in the 'Dying Cowboy' song was born.
+• The context does not provide any details about the cowboy's birthplace in relation to this specific song.
+• The only birthplace mentioned is in a different song lyric about Scarlett town, which does not appear to be related to the 'Dying Cowboy' song.
+• Therefore, the information provided is not sufficient to answer the question about where the cowboy in the 'Dying Cowboy' song was born.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":829,""output_tokens"":122}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Chariot; The Dying Cowboy'.","Relevant Metadata:
+• Title: The Gospel Chariot; The Dying Cowboy
+• Date: 1937-11-03
+• Contributors: ['nye, pearl r.', 'lomax, alan', 'sturz, elizabeth lyttleton']
+• Subjects: ['field recordings', 'songs', 'folk songs, english', 'songs and music', 'music']
+• Type: sound recording
+• Url: https://www.loc.gov/item/afcnye000040/
+
+RAG Response:
+
+• {""id"":""msg_bdrk_01LZhAwYrX9gyoECWGfnkGTJ"",""type"":""message"",""role"":""assistant"",""model"":""claude-3-5-sonnet-20240620"",""content"":[{""type"":""text"",""text"":""Based on the provided context and metadata, there is no information about where the cowboy in the 'Dying Cowboy' song was born.
+• The context does not provide any details about the cowboy's birthplace in relation to this specific song.
+• The only birthplace mentioned is in a different song lyric about Scarlett town, which does not appear to be related to the 'Dying Cowboy' song.
+• Therefore, the information provided is not sufficient to answer the question about where the cowboy in the 'Dying Cowboy' song was born.""}],""stop_reason"":""end_turn"",""stop_sequence"":null,""usage"":{""input_tokens"":829,""output_tokens"":122}}.
+
+Corrections:
+• The correct recording date is 1937-11-03.
+• The correct title of the recording is 'The Gospel Chariot; The Dying Cowboy'.","[00:02:30.000 --> 00:02:33.000] Dying cowboy.
+[00:02:33.000 --> 00:02:37.000] So we're the one morning.
+[00:02:37.000 --> 00:02:41.000] I wrote all the branches.
+[00:02:41.000 --> 00:02:44.000] So early one morning.","{'sr20b_en.txt', 'sr02b_en.txt', 'sr28a_en.txt'}"
