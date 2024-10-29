@@ -84,19 +84,12 @@ https://www.markdownguide.org/cheat-sheet/
 ---
 ### Date: oct 29 2024 
 - Topics of discussion
-    - Reranking not making much of a difference, if at all, on early sample testing. It seems the top_k documents retrieved are often very similar if not identital; however, the 'best' match identified from within the retrieved documents often differs indicating the similarity scoring in the rerankers might need to be played with. Note that the originally retrieved documents without reranking was better in all instances. 
-        - bge: bge did better than qwen; 
-            - identical 'best' match as original retrievers (instructor, miniLM) for all batch sizes and topks
-            - identical top_k docs retrieved for batch sizes 250, 500 (not the case for 100)
-            - reranking among top_k=3 showed promising, but only returning 2 docs even when top_k was 3 (cutting off low scoring?); still identical accuracies except for low chunk sizes
-        - qwen:
-            - identical accuracy/retrievals for instructor, batch 100, topk 1,2,3
-            - different accuracy/retrievals for instructor, batch 250, topk 1,2,3; often identified the wrong doc as the 'best' match; one instance of differently ordered docs
-            - different accuracy/retrievals for instructor, batch 500, topk 1,2,3; often identified the wrong doc as the 'best' match; identical topk=3 results
-        - ideas: gets relevance scores from vectorstore and then enhance reranker using those scores. Reference
-            - similarity_search_with_relevance_scores instead of just similarity_search
-            - NodeWithScore scores in nodes at:                       https://docs.llamaindex.ai/en/stable/module_guides/querying/node_postprocessors/
-            - incorporate alternate similarity scores
+    - Reranking not making much of a difference, if at all, on early sample testing. It seems the top_k documents retrieved are often very similar if not identitally ordered. Instructor as original retriever yields better reranking results than miniLM, as expected. Bge returned identical retrieved docs and accuracies compared to the original instructor retrieved docs, and it cut off the lowest scoring doc when top=3. Qwen often retreived the same or similar documents as the original retriever but often extracted the wrong 'best' match, indicating the similarity scoring mechanism here might require additional analysis.   
+    - Given the lack of promise, worth continuing to pursue???
+    - ideas: gets relevance scores from vectorstore and then enhance reranker using those scores. Reference
+        - similarity_search_with_relevance_scores instead of just similarity_search
+        - NodeWithScore scores in nodes at:                       https://docs.llamaindex.ai/en/stable/module_guides/querying/node_postprocessors/
+        - incorporate alternate similarity scores
 
 
 
