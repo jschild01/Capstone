@@ -1092,10 +1092,9 @@ def retriever_eval_sample(rerank):
 
     # set reranking models
     if rerank.lower() =='yes':
-        #rerank_tokenizer = AutoTokenizer.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
-        #rerank_model = AutoModel.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
+        rerank_tokenizer = AutoTokenizer.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
+        rerank_model = AutoModel.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
         reranker = FlagEmbeddingReranker(model="BAAI/bge-reranker-large", use_fp16=False)
-
     else: # set these to populate df so no error'ing
         rerank_best_match_filename = 'no_reranking'
         rerank_doc_match = 'no_reranking'
@@ -1115,13 +1114,17 @@ def retriever_eval_sample(rerank):
                                     "Expected Answer",
                                     "Expected Doc",
                                     "Best Retrieved Doc",
-                                    "Best Reranked Doc",
+                                    "Best Qwen Doc",
+                                    "Best BGE Doc",
                                     "Doc Match",
-                                    "Rerank Doc Match",
+                                    "Qwen Doc Match",
+                                    "BGE Doc Match",
                                     "All Retrieved Docs",
-                                    "Rerank All Retrieved Docs",
+                                    "Qwen Retrieved Docs",
+                                    "BGE Retrieved Docs",
                                     "Expected Doc Found In All Retrieved Docs",
-                                    "Expected Doc Found In All Reranked Docs",
+                                    "Expected Doc Found In All Qwen Docs",
+                                    "Expected Doc Found In All BGE Docs",
                                     "Expected Chunk ID",
                                     "Expected Chunk Text",
                                     "Best Retrieved Chunk",
@@ -1153,15 +1156,15 @@ def retriever_eval_sample(rerank):
                         ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
                         ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
                         ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-                        #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-                        #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-                        #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-                        #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-                        #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-                        #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-                        #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-                        #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-                        #("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
+                        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+                        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+                        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+                        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+                        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+                        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+                        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+                        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+                        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
                     ]
 
                 # iterate through test questions
@@ -1184,10 +1187,14 @@ def retriever_eval_sample(rerank):
                             chunk_match = best_match_chunkid == expected_chunk_id
 
                             if rerank.lower() == 'yes':
-                                #query, reranked_results, rerank_num_matches, rerank_best_match_content, rerank_best_match_filename, rerank_best_match_chunkid, rerank_all_match_filenames, rerank_all_match_chunkids = rerank_with_qwen(rerank_model, rerank_tokenizer, query, results, top_k)
-                                query, reranked_results, rerank_num_matches, rerank_best_match_content, rerank_best_match_filename, rerank_best_match_chunkid, rerank_all_match_filenames, rerank_all_match_chunkids = rerank_with_bge(reranker, query, results, top_k)
-                                rerank_doc_match = rerank_best_match_filename in possible_filenames
-                                rerank_chunk_match = rerank_best_match_chunkid == expected_chunk_id
+                                query, reranked_results_qwen, rerank_num_matches_qwen, rerank_best_match_content_qwen, rerank_best_match_filename_qwen, rerank_best_match_chunkid_qwen, rerank_all_match_filenames_qwen, rerank_all_match_chunkids_qwen = rerank_with_qwen(rerank_model, rerank_tokenizer, query, results, top_k)
+                                query, reranked_results_bge, rerank_num_matches_bge, rerank_best_match_content_bge, rerank_best_match_filename_bge, rerank_best_match_chunkid_bge, rerank_all_match_filenames_bge, rerank_all_match_chunkids_bge = rerank_with_bge(reranker, query, results, top_k)
+                                
+                                rerank_doc_match_qwen = rerank_best_match_filename_qwen in possible_filenames
+                                rerank_chunk_match_qwen = rerank_best_match_chunkid_qwen == expected_chunk_id
+
+                                rerank_doc_match_bge = rerank_best_match_filename_qwen in possible_filenames
+                                rerank_chunk_match_bge = rerank_best_match_chunkid_qwen == expected_chunk_id
                             
 
                             # add data to dict
@@ -1200,13 +1207,17 @@ def retriever_eval_sample(rerank):
                                 "Expected Answer": answer,
                                 "Expected Doc": doc_filenames,
                                 "Best Retrieved Doc": best_match_filename,
-                                "Best Reranked Doc": rerank_best_match_filename, # for reranking
+                                "Best Qwen Doc": rerank_best_match_filename_qwen, # for reranking
+                                "Best BGE Doc": rerank_best_match_filename_bge, # for reranking
                                 "Doc Match": doc_match,
-                                "Rerank Doc Match": rerank_doc_match, # for reranking
+                                "Qwen Doc Match": rerank_doc_match_qwen, # for reranking
+                                "BGE Doc Match": rerank_doc_match_bge, # for reranking
                                 "All Retrieved Docs": all_match_filenames,
-                                "Rerank All Retrieved Docs": rerank_all_match_filenames, # for reranking
+                                "Qwen All Retrieved Docs": rerank_all_match_filenames_qwen, # for reranking
+                                "BGE All Retrieved Docs": rerank_all_match_filenames_bge, # for reranking
                                 "Expected Doc Found In All Retrieved Docs": any(filename in all_match_filenames for filename in possible_filenames),
-                                "Expected Doc Found In All Reranked Docs": any(filename in rerank_all_match_filenames for filename in possible_filenames),
+                                "Expected Doc Found In All Qwen Docs": any(filename in rerank_all_match_filenames_qwen for filename in possible_filenames), # for reranking
+                                "Expected Doc Found In All BGE Docs": any(filename in rerank_all_match_filenames_bge for filename in possible_filenames), # for reranking
                                 "Expected Chunk ID": expected_chunk_id,
                                 "Expected Chunk Text": expected_chunk_text,
                                 "Best Retrieved Chunk": best_match_chunkid,
@@ -1240,18 +1251,30 @@ def retriever_eval_sample(rerank):
 
     # Create df that compares all models by top_k and chunk size
     compare_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
-        Accuracy=('Expected Doc Found In All Retrieved Docs', 'sum')
-    ).reset_index()
-    compare_df[f'Accuracy'] = (compare_df[f'Accuracy'] / len(queries_answers))
+    Accuracy=('Expected Doc Found In All Retrieved Docs', 'sum')
+        ).reset_index()
+    compare_df['Accuracy'] = (compare_df['Accuracy'] / len(queries_answers))
     compare_df.rename(columns={'Accuracy': f'Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
 
-    # Create similar accuracy col for reranking results if reranking
+    # Create similar accuracy columns for reranking results if reranking
     if rerank.lower() == 'yes':
-        compare_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
-            Rerank_Accuracy=('Expected Doc Found In All Reranked Docs', 'sum')
+        # Qwen accuracy
+        qwen_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
+            Qwen_Accuracy=('Expected Doc Found In All Qwen Docs', 'sum')
+            ).reset_index()
+        qwen_df['Qwen_Accuracy'] = (qwen_df['Qwen_Accuracy'] / len(queries_answers))
+        qwen_df.rename(columns={'Qwen_Accuracy': f'Qwen Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
+
+        # BGE accuracy
+        bge_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
+            BGE_Accuracy=('Expected Doc Found In All BGE Docs', 'sum')
         ).reset_index()
-        compare_df[f'Rerank_Accuracy'] = (compare_df[f'Rerank_Accuracy'] / len(queries_answers))
-        compare_df.rename(columns={'Rerank_Accuracy': f'Rerank Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
+        bge_df['BGE_Accuracy'] = (bge_df['BGE_Accuracy'] / len(queries_answers))
+        bge_df.rename(columns={'BGE_Accuracy': f'BGE Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
+
+        # Merge qwen_df and bge_df into compare_df
+        compare_df = compare_df.merge(qwen_df, on=['Model', 'Top_k', 'Chunk Size'], how='left')
+        compare_df = compare_df.merge(bge_df, on=['Model', 'Top_k', 'Chunk Size'], how='left')
 
     # Save the detailed results and the comparable df to a CSV
     df_results_path = os.path.join(eval_dir, 'test_on_sample.csv')
