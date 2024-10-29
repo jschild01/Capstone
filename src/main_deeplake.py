@@ -3,10 +3,10 @@ import sys
 import time
 import torch
 import gc
-import pandas as pd
 from typing import List
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
+import re
 
 # Add the src directory to the Python path
 project_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
@@ -16,10 +16,12 @@ sys.path.insert(0, src_dir)
 from component.rag_retriever_deeplake import RAGRetriever
 from component.rag_generator_deeplake import RAGGenerator
 from component.rag_pipeline_deeplake import RAGPipeline
-from component.metadata_processor import process_metadata
+from component.metadata_processor import process_metadata, clean_metadata_dict
+from component.logging_config import setup_logging
 
 
 def set_seed(seed=42):
+    """Set random seeds for reproducibility."""
     torch.manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
@@ -27,145 +29,199 @@ def set_seed(seed=42):
         torch.backends.cudnn.benchmark = False
 
 
-def chunk_documents(documents: List[Document], chunk_size: int) -> List[Document]:
+def chunk_documents(documents: List[Document], chunk_size: int, logger) -> List[Document]:
+    """Chunk documents with enhanced metadata handling and logging."""
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_size * 15 // 100,
         length_function=len,
     )
 
+    timecode_pattern = r'\[\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}\] '
     chunked_documents = []
+    total_processed = 0
+
     for doc in documents:
-        chunks = text_splitter.split_text(doc.page_content)
-        for i, chunk in enumerate(chunks):
-            chunked_doc = Document(
-                page_content=chunk,
-                metadata={**doc.metadata, 'chunk_id': i}
-            )
-            chunked_documents.append(chunked_doc)
+        try:
+            # Clean metadata
+            clean_metadata = clean_metadata_dict(doc.metadata)
+
+            # Process content based on file type
+            is_transcript = clean_metadata.get('file_type') == 'transcript'
+            if is_transcript:
+                lines = doc.page_content.split('\n')
+                cleaned_lines = [re.sub(timecode_pattern, '', line) for line in lines]
+                content = '\n'.join(line for line in cleaned_lines if line.strip())
+                logger.debug(f"Cleaned transcript content for {clean_metadata.get('original_filename', 'unknown')}")
+            else:
+                content = doc.page_content
+
+            if not content.strip():
+                logger.warning(
+                    f"Empty content after cleaning for document: {clean_metadata.get('original_filename', 'unknown')}")
+                continue
+
+            # Split content into chunks
+            chunks = text_splitter.split_text(content)
+
+            # Create chunk documents
+            for i, chunk in enumerate(chunks):
+                chunk_metadata = {
+                    **clean_metadata,
+                    'chunk_id': i,
+                    'total_chunks': len(chunks)
+                }
+
+                chunked_doc = Document(
+                    page_content=chunk,
+                    metadata=chunk_metadata
+                )
+                chunked_documents.append(chunked_doc)
+
+            total_processed += 1
+            if total_processed % 100 == 0:
+                logger.info(f"Processed {total_processed} documents into {len(chunked_documents)} chunks")
+
+        except Exception as e:
+            logger.error(f"Error chunking document {doc.metadata.get('original_filename', 'unknown')}: {e}")
+            continue
+
+    logger.info(f"Final chunk count: {len(chunked_documents)} from {total_processed} documents")
     return chunked_documents
 
-def find_correct_chunk(documents: List[Document], answer: str, chunk_size: int) -> int:
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_size * 15 // 100,  # Assuming 15% overlap as before
-        length_function=len
-    )
-    for doc in documents:
-        chunks = text_splitter.split_text(doc.page_content)
-        for i, chunk in enumerate(chunks):
-            if answer in chunk:
-                return i
-    return -1  # Return -1 if no chunk contains the answer
-
-def get_chunk_text(document: Document, chunk_id: int, chunk_size: int) -> str:
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_size * 15 // 100,  # Assuming 15% overlap as before
-        length_function=len
-    )
-    chunks = text_splitter.split_text(document.page_content)
-    if chunk_id < len(chunks):
-        return chunks[chunk_id]
-    return "Chunk ID out of range" 
 
 def main():
+    """Main execution function with enhanced error handling and logging."""
+    logger = setup_logging()
+    logger.info("Starting RAG pipeline...")
+
     set_seed(42)
+    data_dir = os.path.join(project_root, 'data')
+    chunk_size = 250
 
-    data_dir = os.path.join(project_root, 'data', 'marc-xl-data')
-    chunk_size = 100  # Fixed chunk size of 100
-
-    print(f"Data directory: {data_dir}")
-    print(f"Chunk size: {chunk_size}")
+    logger.info(f"Data directory: {data_dir}")
+    logger.info(f"Chunk size: {chunk_size}")
 
     # Ask if user wants to delete existing data
     delete_existing = input("Do you want to delete the existing dataset? (y/n): ").lower() == 'y'
 
-    # Initialize components
-    metadata = process_metadata(data_dir)
-    print(f"Number of documents with metadata: {len(metadata)}")
+    try:
+        dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
+        logger.info(f"Dataset path: {dataset_path}")
 
-    dataset_path = os.path.join(data_dir, f'deeplake_dataset_chunk_{chunk_size}')
-    print(f"Dataset path: {dataset_path}")
+        # Initialize components
+        metadata = process_metadata(data_dir)
+        logger.info(f"Number of documents with metadata: {len(metadata)}")
 
-    text_retriever = RAGRetriever(dataset_path=dataset_path, model_name='titan') # main, instructor, titan
-    print("RAGRetriever initialized")
+        # Initialize retriever and vectorstore
+        text_retriever = RAGRetriever(
+            dataset_path=dataset_path,
+            model_name='instructor',
+            logger=logger
+        )
 
-    if delete_existing:
-        text_retriever.delete_dataset()
-        print("Existing dataset deleted.")
+        try:
+            text_retriever.initialize_vectorstore(delete_existing=delete_existing)
+            if delete_existing:
+                logger.info("Dataset deleted and reinitialized successfully")
+            else:
+                logger.info("Using existing dataset")
+        except Exception as e:
+            logger.error(f"Error initializing vectorstore: {e}")
+            return
 
-    # Load and prepare documents
-    documents = text_retriever.load_data(data_dir, metadata)
-    print(f"Number of documents loaded: {len(documents)}")
+        # Load and process documents
+        documents = text_retriever.load_data(data_dir, metadata)
+        if not documents:
+            logger.error("No documents loaded")
+            return
 
-    if len(documents) == 0:
-        print("No documents loaded. Check the load_data method in RAGRetriever.")
-        return
+        logger.info(f"Loaded {len(documents)} documents")
 
-    print("Sample of loaded documents:")
-    for i, doc in enumerate(documents[:3]):  # Print details of first 3 documents
-        print(f"Document {i+1}:")
-        print(f"Content preview: {doc.page_content[:100]}...")
-        print(f"Metadata: {doc.metadata}")
-        print("---")
+        # Sample document logging
+        logger.info("\nSample of loaded documents:")
+        for i, doc in enumerate(documents[:3]):
+            logger.info(f"\nDocument {i + 1}:")
+            logger.info(f"Content preview: {doc.page_content[:200]}...")
+            logger.info(f"Metadata: {doc.metadata}")
 
-    chunked_documents = chunk_documents(documents, chunk_size)
-    num_chunks = len(chunked_documents)
-    print(f"Prepared {num_chunks} chunks with size {chunk_size}")
-
-    if num_chunks == 0:
-        print("No chunks created. Check the chunking process.")
-        return
-
-    print("Sample of chunked documents:")
-    for i, chunk in enumerate(chunked_documents[:3]):  # Print details of first 3 chunks
-        print(f"Chunk {i+1}:")
-        print(f"Content preview: {chunk.page_content[:100]}...")
-        print(f"Metadata: {chunk.metadata}")
-        print("---")
-
-    # Generate embeddings if the dataset is empty
-    if text_retriever.is_empty():
-        print("Generating embeddings for chunked documents...")
-        text_retriever.generate_embeddings(chunked_documents)
-        print("Embeddings generated and saved.")
-    else:
-        print("Using existing embeddings.")
-
-    # Initialize RAG components
-    model_name='claude'
-    qa_generator = RAGGenerator(model_name=model_name) # llama, t5, claude
-    rag_pipeline = RAGPipeline(text_retriever, qa_generator)
-
-    while True:
-        query = input("Enter your question (or 'quit' to exit): ")
-        if query.lower() == 'quit':
-            break
-
-        start_time = time.time()
-        top_k=3
-        if model_name == 'claude':
-            retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run_claude(query=query, top_k=top_k)
+        # Generate embeddings if needed
+        if text_retriever.is_empty():
+            logger.info("Generating embeddings for documents...")
+            chunked_docs = chunk_documents(documents, chunk_size, logger)
+            if chunked_docs:
+                logger.info(f"Generated {len(chunked_docs)} chunks")
+                text_retriever.generate_embeddings(chunked_docs)
+                logger.info("Embeddings generated successfully")
+            else:
+                logger.error("No chunks generated")
+                return
         else:
-            retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = rag_pipeline.run(query=query, top_k=top_k)
-        #retrieved_docs, most_relevant_passage, response = rag_pipeline.run(query)
-        end_time = time.time()
+            logger.info("Using existing embeddings")
 
-        print("\n--- Results ---")
-        print(f"Processing time: {end_time - start_time:.2f} seconds")
-        print(f"Number of retrieved documents: {len(retrieved_docs)}")
-        print("Response:")
-        print(final_response)
-        print("-------------------\n")
+        # Initialize RAG components
+        model_name = 'claude'  # Options: 'llama', 't5', 'claude'
+        logger.info(f"Initializing RAG pipeline with {model_name} model")
 
-    # Cleanup
-    del text_retriever, qa_generator, rag_pipeline
-    gc.collect()
-    torch.cuda.empty_cache()
-    
+        qa_generator = RAGGenerator(model_name=model_name)
+        rag_pipeline = RAGPipeline(text_retriever, qa_generator)
+
+        # Interactive query loop
+        logger.info("\nEntering interactive query mode")
+        while True:
+            query = input("\nEnter your question (or 'quit' to exit): ")
+            if query.lower() == 'quit':
+                break
+
+            start_time = time.time()
+            try:
+                # Process query
+                if model_name == 'claude':
+                    results = rag_pipeline.run_claude(query=query, top_k=3)
+                else:
+                    results = rag_pipeline.run(query=query, top_k=3)
+
+                retrieved_docs, most_relevant_passage, raw_response, validated_response, structured_response, final_response = results
+
+                # Log results
+                end_time = time.time()
+                logger.info("\n=== Query Results ===")
+                logger.info(f"Processing time: {end_time - start_time:.2f} seconds")
+                logger.info(f"Retrieved {len(retrieved_docs)} relevant documents")
+
+                logger.info("\nFinal Response:")
+                logger.info(final_response)
+                logger.info("=" * 50)
+
+                # Debug logging
+                logger.debug("\nRaw Response:")
+                logger.debug(raw_response)
+                logger.debug("\nValidated Response:")
+                logger.debug(validated_response)
+                logger.debug("\nStructured Response:")
+                logger.debug(structured_response)
+
+            except Exception as e:
+                logger.error(f"Error processing query: {e}")
+                logger.info("Please try another question")
+
+    except Exception as e:
+        logger.error(f"Fatal error in main execution: {e}")
+
+    finally:
+        # Cleanup
+        logger.info("\nCleaning up resources...")
+        if 'text_retriever' in locals():
+            del text_retriever
+        if 'qa_generator' in locals():
+            del qa_generator
+        if 'rag_pipeline' in locals():
+            del rag_pipeline
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        logger.info("Cleanup complete")
+
 
 if __name__ == "__main__":
     main()
-    
-    

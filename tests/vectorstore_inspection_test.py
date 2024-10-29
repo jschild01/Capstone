@@ -106,31 +106,91 @@ def test_vectorstore_contents():
             dataset_path=dataset_path,
             model_name='instructor'
         )
+
+        # Define test queries with metadata filters
         test_queries = [
-            ("Complete this sentence: 'My mules are not hungry. They're lively and'", "gay"),
-            ("Complete this sentence: 'Take a trip on the canal if you want to have'", "fun"),
-            ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "Barbrae Allen"),
-            ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "Barbara Allen"),
-            ("Complete this phrase from the gospel train song: 'The gospel train is'", "night"),
-            ("In the song 'Barbara Allen,' where was Barbara Allen from?", "Scarlett town"),
-            ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "A year or two or three at most"),
-            ("What instrument does Captain Nye mention loving?", "old fiddled mouth organ banjo"),
-            ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "whiskers"),
-            ("Complete this line from a song: 'We land this war down by the'", "river"),
-            ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "Marry at all"),
-            ("What does the song say will 'outshine the sun'?", "We'll"),
-            ("In the 'Dying Cowboy' song, where was the cowboy born?", "Boston")
+            {
+                "query": "Complete this sentence from the Captain Pearl R. Nye collection (AFC 1937/002): 'My mules are not hungry. They're lively and'",
+                "expected": "gay",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "Complete this sentence: 'Take a trip on the canal if you want to have'",
+                "expected": "fun",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "In the song 'Barbara Allen,' where was Barbara Allen from?",
+                "expected": "Scarlett town",
+                "metadata_filter": {"title": {"$regex": ".*Barbara Allen.*"}}
+            },
+            {
+                "query": "According to the transcript, what is Captain Pearl R. Nye's favorite ballad?",
+                "expected": "Barbara Allen",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "Complete this phrase from the gospel train song: 'The gospel train is'",
+                "expected": "night",
+                "metadata_filter": {"title": {"$regex": ".*gospel.*"}}
+            },
+            {
+                "query": "In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?",
+                "expected": "A year or two or three at most",
+                "metadata_filter": {"title": {"$regex": ".*Lord Lovele.*"}}
+            },
+            {
+                "query": "What instrument does Captain Nye mention loving?",
+                "expected": "old fiddled mouth organ banjo",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "In the song about pumping out Lake Erie, what will be on the moon when they're done?",
+                "expected": "whiskers",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "Complete this line from a song: 'We land this war down by the'",
+                "expected": "river",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "What does the singer say they won't do in the song 'I Won't Marry At All'?",
+                "expected": "Marry at all",
+                "metadata_filter": {"title": {"$regex": ".*Marry.*"}}
+            },
+            {
+                "query": "What does the song say will 'outshine the sun'?",
+                "expected": "We'll",
+                "metadata_filter": {"call_number": "AFC 1937/002"}
+            },
+            {
+                "query": "In the 'Dying Cowboy' song, where was the cowboy born?",
+                "expected": "Boston",
+                "metadata_filter": {"title": {"$regex": ".*Dying Cowboy.*"}}
+            }
         ]
 
         print("\nExecuting test queries...")
-        for query, expected_content in test_queries:
+        for test_case in test_queries:
+            query = test_case["query"]
+            expected_content = test_case["expected"]
+            metadata_filter = test_case["metadata_filter"]
+
             print(f"\nQuery: {query}")
+            print(f"Using metadata filter: {metadata_filter}")
+
             try:
-                results = retriever.search_vector_store(query, top_k=3)
+                results = retriever.search_vector_store(
+                    query,
+                    filter=metadata_filter,
+                    top_k=3
+                )
 
                 query_results = {
                     "num_results": len(results),
-                    "results": []
+                    "results": [],
+                    "metadata_filter_used": metadata_filter
                 }
 
                 for i, doc in enumerate(results, 1):
