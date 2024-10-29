@@ -9,6 +9,9 @@ import pandas as pd
 from datetime import datetime
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
+from transformers import AutoTokenizer, AutoModel, AutoModelForSeq2SeqLM
+from sentence_transformers import SentenceTransformer
+import torch
 from langchain_community.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbeddings
 import shutil
 import re
@@ -24,7 +27,11 @@ import xml.etree.ElementTree as ET
 from configparser import ConfigParser, ExtendedInterpolation
 from langchain_aws import BedrockEmbeddings
 from pymarc import parse_xml_to_array
-
+from llama_index.postprocessor.flag_embedding_reranker import FlagEmbeddingReranker
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.core.schema import NodeWithScore, QueryBundle, TextNode
+from llama_index.core.postprocessor import SimilarityPostprocessor
+from llama_index.core.data_structs import Node
 
 
 def extract_call_number(text: str) -> str:
@@ -42,7 +49,6 @@ def parse_file_list_csv(file_path: str) -> Dict[str, str]:
             filename = os.path.basename(source_url)
             filename_to_id[filename] = row['id']
     return filename_to_id
-
 
 def parse_search_results_csv_sample(file_path: str) -> Dict[str, Dict]:
     id_to_metadata = {}
@@ -103,7 +109,6 @@ def parse_search_results_csv(file_path: str) -> Dict[str, Dict]:
             id_to_metadata[row['id']] = metadata
 
     return id_to_metadata
-
 
 def parse_ead_xml(file_path: str) -> Dict[str, Dict]:
     ead_metadata = {}
@@ -175,7 +180,6 @@ def parse_ead_xml_sample(file_path: str) -> Dict[str, Dict]:
     except Exception as e:
         print(f"Warning: Error parsing EAD XML file at {file_path}: {str(e)}")
     return ead_metadata
-
 
 def parse_marc_xml(file_path: str) -> Dict[str, Dict]:
     marc_metadata = {}
@@ -334,7 +338,6 @@ def parse_marc_xml_older(file_path: str) -> Dict[str, Dict]:
     #print("MARC Metadata Keys:", marc_metadata.keys())
     return marc_metadata
 
-
 def find_metadata_in_xml_files(call_number: str, xml_dir: str, parser_function) -> Dict:
     for filename in os.listdir(xml_dir):
         if filename.endswith('.xml'):
@@ -343,7 +346,6 @@ def find_metadata_in_xml_files(call_number: str, xml_dir: str, parser_function) 
             if call_number in metadata:
                 return metadata[call_number]
     return {}
-
 
 def process_metadata_sample(data_dir: str) -> Dict[str, Dict]:
     # file paths
@@ -843,7 +845,6 @@ def test_document_retrieval(query, logger, vectorstore, top_k):
    
     return query, logger, results, num_matches, best_match_content, best_match_filename, best_match_chunkid, all_match_filenames, all_match_chunkids
 
-
 def test_document_retrieval_sample(query, vectorstore, top_k):
     # Perform the search
     results = search_vector_store_sample(query=query, vectorstore=vectorstore, top_k=top_k)
@@ -877,6 +878,98 @@ def test_document_retrieval_sample(query, vectorstore, top_k):
     all_match_chunkids = list({match['chunk_id'] for match in matches_info})
    
     return query, results, num_matches, best_match_content, best_match_filename, best_match_chunkid, all_match_filenames, all_match_chunkids
+
+def rerank_with_qwen(rerank_model, rerank_tokenizer, query, retrieved_docs, top_k):
+    # Prepare inputs for reranking
+    inputs = [f"Query: {query} Document: {doc.page_content}" for doc in retrieved_docs]
+    tokenized_inputs = rerank_tokenizer(inputs, return_tensors="pt", padding=True, truncation=True)
+
+    # Run the model to get scores
+    with torch.no_grad():
+        outputs = rerank_model(**tokenized_inputs)
+        # Check if 'logits' exist; if not, use 'last_hidden_state'
+        scores = (
+            outputs.logits[:, 0].squeeze().tolist()
+            if hasattr(outputs, 'logits')
+            else outputs.last_hidden_state[:, 0].squeeze().tolist()
+        )
+
+    # Sort documents by score in descending order
+    ranked_docs_with_scores = sorted(zip(scores, retrieved_docs), key=lambda x: x[0], reverse=True)
+    reranked_docs = [doc for _, doc in ranked_docs_with_scores[:top_k]]
+
+    # Collect matches information
+    num_matches = len(reranked_docs)
+    best_match = reranked_docs[0] if reranked_docs else None
+    best_match_content = best_match.page_content if best_match else None
+    best_match_filename = best_match.metadata.get('original_filename', 'Unknown') if best_match else None
+    best_match_chunkid = best_match.metadata.get('chunk_id', -1) if best_match else None
+
+    matches_info = [
+        {
+            'content': doc.page_content,
+            'filename': doc.metadata.get('original_filename', 'Unknown'),
+            'chunk_id': doc.metadata.get('chunk_id', -1)
+        }
+        for doc in reranked_docs
+    ]
+
+    all_match_filenames = list({info['filename'] for info in matches_info})
+    all_match_chunkids = list({info['chunk_id'] for info in matches_info})
+
+    return query, reranked_docs, num_matches, best_match_content, best_match_filename, best_match_chunkid, all_match_filenames, all_match_chunkids
+
+def rerank_with_bge(reranker, query, retrieved_docs, top_k):
+    '''
+    pip install llama-index FlagEmbedding
+    pip install llama-index-embeddings-huggingface
+    pip install llama-index-llms-openai
+    pip install llama-index-postprocessor-flag-embedding-reranker
+
+    https://colemurray.medium.com/enhancing-rag-with-baai-bge-reranker-a-comprehensive-guide-fe994ba9f82a
+    '''
+    # Wrap documents in the required format
+    nodes = [NodeWithScore(node=TextNode(text=doc.page_content, metadata=doc.metadata)) for doc in retrieved_docs]
+
+    # Bundle the query
+    query_bundle = QueryBundle(query_str=query)
+    ranked_nodes = reranker._postprocess_nodes(nodes, query_bundle)
+
+    # Extract scores and sort nodes by score in descending order
+    ranked_docs_with_scores = sorted(
+        [(node.score, doc) for node, doc in zip(ranked_nodes, retrieved_docs)], 
+        key=lambda x: x[0], 
+        reverse=True
+    )
+
+    # Select top_k reranked documents
+    reranked_docs = [doc for _, doc in ranked_docs_with_scores[:top_k]]
+
+    # Collect matches information
+    num_matches = len(reranked_docs)
+    best_match = reranked_docs[0] if reranked_docs else None
+    best_match_content = best_match.page_content if best_match else None
+    best_match_filename = best_match.metadata.get('original_filename', 'Unknown') if best_match else None
+    best_match_chunkid = best_match.metadata.get('chunk_id', -1) if best_match else None
+
+    matches_info = [
+        {
+            'content': doc.page_content,
+            'filename': doc.metadata.get('original_filename', 'Unknown'),
+            'chunk_id': doc.metadata.get('chunk_id', -1)
+        }
+        for doc in reranked_docs
+    ]
+
+    all_match_filenames = list({info['filename'] for info in matches_info})
+    all_match_chunkids = list({info['chunk_id'] for info in matches_info})
+
+    return query, reranked_docs, num_matches, best_match_content, best_match_filename, best_match_chunkid, all_match_filenames, all_match_chunkids
+
+
+
+
+
 
 
 def retriever_eval_allData():
@@ -987,7 +1080,7 @@ def retriever_eval_allData():
     df_compare_path = os.path.join(eval_dir, 'test_on_PaulsAll_summary.csv')
     compare_df.to_csv(df_compare_path, index=False)
 
-def retriever_eval_sample():
+def retriever_eval_sample(rerank):
     set_seed(42)
     
     # Add the src directory to the Python path
@@ -997,10 +1090,21 @@ def retriever_eval_sample():
     eval_dir = os.path.join(src_dir, 'retrieval_eval')
     os.makedirs(eval_dir, exist_ok=True)
 
+    # set reranking models
+    if rerank.lower() =='yes':
+        #rerank_tokenizer = AutoTokenizer.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
+        #rerank_model = AutoModel.from_pretrained('Alibaba-NLP/gte-Qwen2-7B-instruct', trust_remote_code=True)
+        reranker = FlagEmbeddingReranker(model="BAAI/bge-reranker-large", use_fp16=False)
+
+    else: # set these to populate df so no error'ing
+        rerank_best_match_filename = 'no_reranking'
+        rerank_doc_match = 'no_reranking'
+        rerank_all_match_filenames = 'no_reranking'
+
     # Setup
     model_names = ['instructor', 'mini']#, 'instructor', 'mini'] # mini, instructor, titan
-    top_ks = [1, 2]
-    chunk_sizes = [250, 500]
+    top_ks = [1, 2, 3]
+    chunk_sizes = [100, 250, 500]
     
     # empty dataframe to hold results
     df_results = pd.DataFrame(columns=["Model",
@@ -1011,9 +1115,13 @@ def retriever_eval_sample():
                                     "Expected Answer",
                                     "Expected Doc",
                                     "Best Retrieved Doc",
+                                    "Best Reranked Doc",
                                     "Doc Match",
+                                    "Rerank Doc Match",
                                     "All Retrieved Docs",
+                                    "Rerank All Retrieved Docs",
                                     "Expected Doc Found In All Retrieved Docs",
+                                    "Expected Doc Found In All Reranked Docs",
                                     "Expected Chunk ID",
                                     "Expected Chunk Text",
                                     "Best Retrieved Chunk",
@@ -1045,15 +1153,15 @@ def retriever_eval_sample():
                         ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt", "fun"),
                         ("What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?", "sr02b_en.txt", "Barbrae Allen"), 
                         ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt", "Barbara Allen"),
-                        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
-                        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-                        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
-                        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
-                        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
-                        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-                        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
-                        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-                        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
+                        #("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"), 
+                        #("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
+                        #("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt", "A year or two or three at most"),
+                        #("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"), 
+                        #("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt", "whiskers"),
+                        #("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
+                        #("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt", "Marry/Mary at all"),
+                        #("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
+                        #("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston")
                     ]
 
                 # iterate through test questions
@@ -1064,13 +1172,25 @@ def retriever_eval_sample():
                     # iterate through unchunked docs and get data for comparing to retriever data
                     for doc in documents:
                         if doc.metadata['original_filename'] in possible_filenames:
+                            # get chunk data for the real/correct document
                             expected_chunk_id = find_correct_chunk([doc], answer, chunk_size)
                             expected_chunk_text = get_chunk_text(doc, expected_chunk_id, chunk_size)
 
-
+                            # retreive all data/results
                             query, results, num_matches, best_match_content, best_match_filename, best_match_chunkid, all_match_filenames, all_match_chunkids = test_document_retrieval_sample(query, vectorstore, top_k)
+                            
+                            # check if the best document/chunk retrieved is in the correct document/chunk filenames/ids
                             doc_match = best_match_filename in possible_filenames
                             chunk_match = best_match_chunkid == expected_chunk_id
+
+                            if rerank.lower() == 'yes':
+                                #query, reranked_results, rerank_num_matches, rerank_best_match_content, rerank_best_match_filename, rerank_best_match_chunkid, rerank_all_match_filenames, rerank_all_match_chunkids = rerank_with_qwen(rerank_model, rerank_tokenizer, query, results, top_k)
+                                query, reranked_results, rerank_num_matches, rerank_best_match_content, rerank_best_match_filename, rerank_best_match_chunkid, rerank_all_match_filenames, rerank_all_match_chunkids = rerank_with_bge(reranker, query, results, top_k)
+                                rerank_doc_match = rerank_best_match_filename in possible_filenames
+                                rerank_chunk_match = rerank_best_match_chunkid == expected_chunk_id
+                            
+
+                            # add data to dict
                             new_row = {
                                 "Model": model_name,
                                 "Top_k": top_k,
@@ -1080,9 +1200,13 @@ def retriever_eval_sample():
                                 "Expected Answer": answer,
                                 "Expected Doc": doc_filenames,
                                 "Best Retrieved Doc": best_match_filename,
+                                "Best Reranked Doc": rerank_best_match_filename, # for reranking
                                 "Doc Match": doc_match,
+                                "Rerank Doc Match": rerank_doc_match, # for reranking
                                 "All Retrieved Docs": all_match_filenames,
+                                "Rerank All Retrieved Docs": rerank_all_match_filenames, # for reranking
                                 "Expected Doc Found In All Retrieved Docs": any(filename in all_match_filenames for filename in possible_filenames),
+                                "Expected Doc Found In All Reranked Docs": any(filename in rerank_all_match_filenames for filename in possible_filenames),
                                 "Expected Chunk ID": expected_chunk_id,
                                 "Expected Chunk Text": expected_chunk_text,
                                 "Best Retrieved Chunk": best_match_chunkid,
@@ -1120,7 +1244,14 @@ def retriever_eval_sample():
     ).reset_index()
     compare_df[f'Accuracy'] = (compare_df[f'Accuracy'] / len(queries_answers))
     compare_df.rename(columns={'Accuracy': f'Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
-    
+
+    # Create similar accuracy col for reranking results if reranking
+    if rerank.lower() == 'yes':
+        compare_df = df_results.groupby(['Model', 'Top_k', 'Chunk Size']).agg(
+            Rerank_Accuracy=('Expected Doc Found In All Reranked Docs', 'sum')
+        ).reset_index()
+        compare_df[f'Rerank_Accuracy'] = (compare_df[f'Rerank_Accuracy'] / len(queries_answers))
+        compare_df.rename(columns={'Rerank_Accuracy': f'Rerank Accuracy (% Docs Correct Out of {len(queries_answers)} Q/As)'}, inplace=True)
 
     # Save the detailed results and the comparable df to a CSV
     df_results_path = os.path.join(eval_dir, 'test_on_sample.csv')
@@ -1132,6 +1263,6 @@ def retriever_eval_sample():
 
 if __name__ == "__main__":
     #retriever_eval_allData()
-    retriever_eval_sample()
+    retriever_eval_sample(rerank='yes')
 
 

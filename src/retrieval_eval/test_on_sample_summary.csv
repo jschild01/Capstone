@@ -1,9 +1,19 @@
-Model,Top_k,Chunk Size,Accuracy (% Docs Correct Out of 13 Q/As)
-instructor,1,250,0.8461538461538461
-instructor,1,500,0.6923076923076923
-instructor,2,250,0.8461538461538461
-instructor,2,500,0.7692307692307693
-mini,1,250,0.5384615384615384
-mini,1,500,0.46153846153846156
-mini,2,250,0.6153846153846154
-mini,2,500,0.6923076923076923
+Model,Top_k,Chunk Size,Rerank Accuracy (% Docs Correct Out of 4 Q/As)
+instructor,1,100,0.75
+instructor,1,250,1.0
+instructor,1,500,1.0
+instructor,2,100,0.75
+instructor,2,250,1.0
+instructor,2,500,1.0
+instructor,3,100,0.75
+instructor,3,250,1.0
+instructor,3,500,1.0
+mini,1,100,1.0
+mini,1,250,0.75
+mini,1,500,0.75
+mini,2,100,1.0
+mini,2,250,1.0
+mini,2,500,0.75
+mini,3,100,1.0
+mini,3,250,1.0
+mini,3,500,0.75
