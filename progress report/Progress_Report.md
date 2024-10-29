@@ -91,15 +91,11 @@ https://www.markdownguide.org/cheat-sheet/
         - NodeWithScore scores in nodes at:                       https://docs.llamaindex.ai/en/stable/module_guides/querying/node_postprocessors/
         - incorporate alternate similarity scores
 
-
-
 - Action Items:
-* [ ] Action Item 1
-* [ ] Action Item 2
-* [ ] Action Item 3
-* [ ] Action Item 4
-* [ ] Action Item 5
-
+* [ ] Retry retrieval accuracies on 100 questions instead of 13. If same accuracies then stop using reranking.
+* [ ] Consider summarization (summarize each doc with bedrock, put into seperate vector store)
+* [ ] Create multiple vector stores (for chunk size 250 and 1000, and with metadata and without metadata)
+* [ ] 
 
 
 
