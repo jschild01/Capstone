@@ -70,10 +70,23 @@ https://www.markdownguide.org/cheat-sheet/
 
 - Action Items:
 * [x] Add in Bedrock + Titan as options for user, pending IT
-* [ ] Clean tables in report showing accuracies for retrieval/generation
-    * [ ] Include things like: question, context, vectorstore output, prompt, generated output
+* [x] Clean tables in report showing accuracies for retrieval/generation
+    * [x] Include things like: question, context, vectorstore output, prompt, generated output
 * [ ] Multiple vectorstores - one with and one without metadata for comparing
-* [ ] Develop plan for Advanced RAG; pick ideas and incorporate into our draft(s).
+* [x] Develop plan for Advanced RAG; pick ideas and incorporate into our draft(s).
+
+![SampleData_AccEval_table](https://github.com/user-attachments/assets/5a92c996-5edf-486c-92b5-74b9a0603c0d)
+
+![SampleData_AccEval_linecharts](https://github.com/user-attachments/assets/c35b960e-cf49-4a51-8dfe-a83628e8c79c)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -85,9 +98,15 @@ https://www.markdownguide.org/cheat-sheet/
 
 
 ---
-### Date: sep 24 2024 
+### Date: oct 29 2024 
 - Topics of discussion
-
+    - Reranking not making much of a difference, if at all, on early sample testing
+        - bge: identical 'best' match as original retrievers (titan, miniLM)
+        - qwen:
+        - ideas: gets relevance scores from vectorstore and then enhance reranker using those scores. Reference
+            - similarity_search_with_relevance_scores instead of just similarity_search
+            - NodeWithScore scores in nodes at:                       https://docs.llamaindex.ai/en/stable/module_guides/querying/node_postprocessors/
+            - incorporate alternate similarity scores
 
 
 
