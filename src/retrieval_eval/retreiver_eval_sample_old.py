@@ -1193,8 +1193,8 @@ def retriever_eval_sample(rerank):
                                 rerank_doc_match_qwen = rerank_best_match_filename_qwen in possible_filenames
                                 rerank_chunk_match_qwen = rerank_best_match_chunkid_qwen == expected_chunk_id
 
-                                rerank_doc_match_bge = rerank_best_match_filename_bge in possible_filenames
-                                rerank_chunk_match_bge = rerank_best_match_chunkid_bge == expected_chunk_id
+                                rerank_doc_match_bge = rerank_best_match_filename_qwen in possible_filenames
+                                rerank_chunk_match_bge = rerank_best_match_chunkid_qwen == expected_chunk_id
                             
 
                             # add data to dict
@@ -1213,8 +1213,8 @@ def retriever_eval_sample(rerank):
                                 "Qwen Doc Match": rerank_doc_match_qwen, # for reranking
                                 "BGE Doc Match": rerank_doc_match_bge, # for reranking
                                 "All Retrieved Docs": all_match_filenames,
-                                "Qwen Retrieved Docs": rerank_all_match_filenames_qwen, # for reranking
-                                "BGE Retrieved Docs": rerank_all_match_filenames_bge, # for reranking
+                                "Qwen All Retrieved Docs": rerank_all_match_filenames_qwen, # for reranking
+                                "BGE All Retrieved Docs": rerank_all_match_filenames_bge, # for reranking
                                 "Expected Doc Found In All Retrieved Docs": any(filename in all_match_filenames for filename in possible_filenames),
                                 "Expected Doc Found In All Qwen Docs": any(filename in rerank_all_match_filenames_qwen for filename in possible_filenames), # for reranking
                                 "Expected Doc Found In All BGE Docs": any(filename in rerank_all_match_filenames_bge for filename in possible_filenames), # for reranking

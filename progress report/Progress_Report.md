@@ -84,7 +84,8 @@ https://www.markdownguide.org/cheat-sheet/
 ---
 ### Date: oct 29 2024 
 - Topics of discussion
-    - Reranking not making much of a difference, if at all, on early sample testing. It seems the top_k documents retrieved are often very similar if not identitally ordered. Instructor as original retriever yields better reranking results than miniLM, as expected. Bge returned identical retrieved docs and accuracies compared to the original instructor retrieved docs, and it cut off the lowest scoring doc when top=3. Qwen often retreived the same or similar documents as the original retriever but often extracted the wrong 'best' match, indicating the similarity scoring mechanism here might require additional analysis.   
+    - Reranking not making much of a difference, if at all, on early sample testing. It seems the top_k documents retrieved are often very similar if not identitally ordered. Instructor as original retriever yields better reranking results than miniLM, as expected. Bge returned identical retrieved docs and accuracies compared to the original instructor retrieved docs, and it cut off the lowest scoring doc when top=3. Qwen often retreived the same or similar documents as the original retriever but often extracted the wrong 'best' match, indicating the similarity scoring mechanism here might require additional analysis.
+    - Qwen seems better at getting all the docs while bge is better at getting the 'best' match; try multiple steps in reranking to first to Qwen and the bge
     - Given the lack of promise, worth continuing to pursue???
     - ideas: gets relevance scores from vectorstore and then enhance reranker using those scores. Reference
         - similarity_search_with_relevance_scores instead of just similarity_search
