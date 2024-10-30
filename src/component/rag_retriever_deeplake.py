@@ -251,51 +251,62 @@ class RAGRetriever:
         return self.documents
 
     def generate_embeddings(self, documents: List[Document]) -> None:
-        """Generate embeddings for documents."""
+        """Generate embeddings for documents with batch processing and tensor synchronization."""
         if self.vectorstore is None:
             self.logger.error("Vectorstore not initialized. Call initialize_vectorstore first.")
             raise ValueError("Vectorstore not initialized")
 
         try:
-            self.logger.info(f"Processing {len(documents)} documents")
+            total_docs = len(documents)
+            self.logger.info(f"Processing {total_docs} documents")
             ds = self.vectorstore.vectorstore.dataset
 
-            for doc in documents:
-                text = doc.page_content
-                metadata = doc.metadata.copy()
+            # Create lists to hold all data before adding to dataset
+            texts = []
+            embeddings = []
+            metadata_list = []
+            tensor_data = {field: [] for field in ds.tensors.keys() if
+                           field not in ['text', 'embedding', 'metadata', 'id']}
+            ids = []
 
-                # Create embeddings
-                embedding = self.embeddings.embed_query(text)
+            # Process all documents first
+            for i, doc in enumerate(documents):
+                if i % 10 == 0:
+                    self.logger.info(f"Processing document {i + 1}/{total_docs}")
 
-                # Add data to each tensor
-                with ds:
-                    ds.text.append(text)
-                    ds.embedding.append(embedding)
+                texts.append(doc.page_content)
+                embeddings.append(self.embeddings.embed_query(doc.page_content))
+                metadata_list.append(json.dumps(doc.metadata))
 
-                    # Handle metadata
-                    ds.metadata.append(json.dumps(metadata))  # Store full metadata as JSON
+                # Process each tensor field
+                for field in tensor_data:
+                    if field in ['chunk_id', 'total_chunks']:
+                        value = int(doc.metadata.get(field, 0))
+                    else:
+                        value = doc.metadata.get(field, '')
+                        if isinstance(value, (list, dict)):
+                            value = json.dumps(value)
+                        value = str(value) if value is not None else ''
+                    tensor_data[field].append(value)
 
-                    # Add values for each metadata field
-                    for field in ds.tensors:
-                        if field not in ['text', 'embedding', 'metadata', 'id']:
-                            if field in ['chunk_id', 'total_chunks']:
-                                try:
-                                    value = int(metadata.get(field, 0))
-                                except (ValueError, TypeError):
-                                    value = 0
-                                getattr(ds, field).append(value)
-                            else:
-                                value = metadata.get(field, '')
-                                if isinstance(value, (list, dict)):
-                                    value = json.dumps(value)
-                                else:
-                                    value = str(value)
-                                getattr(ds, field).append(value)
+                ids.append(str(len(ds) + i))
 
-                    # Generate ID
-                    ds.id.append(str(len(ds)))
+            # Add all data to dataset in a single batch
+            with ds:
+                ds.text.extend(texts)
+                ds.embedding.extend(embeddings)
+                ds.metadata.extend(metadata_list)
+                ds.id.extend(ids)
 
-            self.logger.info("Embeddings and metadata generated successfully")
+                # Extend all other tensors
+                for field, values in tensor_data.items():
+                    tensor = getattr(ds, field)
+                    tensor.extend(values)
+
+            self.logger.info(f"Successfully processed {total_docs} documents")
+            self.logger.info("Verifying tensor lengths...")
+            lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
+            self.logger.info(f"Tensor lengths: {lengths}")
 
         except Exception as e:
             self.logger.error(f"Error generating embeddings: {e}")
