@@ -11,6 +11,7 @@ import re
 from configparser import ConfigParser, ExtendedInterpolation
 from langchain_aws import BedrockEmbeddings
 from component.logging_config import setup_logging
+import numpy as np
 
 try:
     from langchain_community.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbeddings
@@ -312,38 +313,151 @@ class RAGRetriever:
             self.logger.error(f"Error generating embeddings: {e}")
             raise
 
+    def _convert_to_string(self, value) -> str:
+        """Convert various types to string, with special handling for numpy arrays."""
+        try:
+            if isinstance(value, np.ndarray):
+                # Handle numpy string arrays
+                if value.dtype.kind in ['U', 'S']:  # Unicode or byte string
+                    if value.size == 1:
+                        # Single element array
+                        return value.item()
+                    elif value.size > 0:
+                        # Multi-element array - take first element
+                        return value.flatten()[0]
+                    else:
+                        # Empty array
+                        return ""
+                # Handle other numpy arrays
+                return str(value.tolist())
+            elif isinstance(value, bytes):
+                return value.decode('utf-8')
+            elif isinstance(value, (list, dict)):
+                return json.dumps(value)
+            else:
+                return str(value)
+        except Exception as e:
+            self.logger.error(f"Error converting value to string: {e}")
+            self.logger.debug(f"Value type: {type(value)}")
+            self.logger.debug(f"Value: {value}")
+            return ""
+
     def search_vector_store(self, query: str, filter: Dict = None, top_k: int = 3) -> List[Document]:
-        """Enhanced search with complete metadata filtering capabilities."""
+        """Enhanced search with index validation."""
         if self.vectorstore is None:
             self.logger.error("Vectorstore not initialized")
             return []
 
         try:
-            # Log search parameters
             self.logger.info("\n--- Search Parameters ---")
             self.logger.info(f"Query: {query}")
             self.logger.info(f"Filter: {filter}")
             self.logger.info(f"Top K: {top_k}")
 
-            results = self.vectorstore.similarity_search(
-                query,
-                filter=filter,
-                k=top_k
+            # Access the underlying dataset
+            ds = self.vectorstore.vectorstore.dataset
+
+            # Get dataset size and validate
+            dataset_size = len(ds.embedding)
+            self.logger.info(f"Dataset size: {dataset_size}")
+
+            if dataset_size == 0:
+                self.logger.error("Empty dataset")
+                return []
+
+            # Generate query embedding
+            query_embedding = self.embeddings.embed_query(query)
+
+            # Convert embeddings to numpy array safely
+            try:
+                embeddings = ds.embedding.numpy()
+                if len(embeddings.shape) == 3:
+                    embeddings = embeddings.squeeze(1)
+            except Exception as e:
+                self.logger.error(f"Error accessing embeddings: {e}")
+                return []
+
+            # Calculate similarities
+            similarities = np.dot(embeddings, query_embedding) / (
+                    np.linalg.norm(embeddings, axis=1) * np.linalg.norm(query_embedding)
             )
 
-            self.logger.info("\n--- Search Results ---")
-            self.logger.info(f"Number of results: {len(results)}")
+            # Get top k indices with bounds checking
+            top_k = min(top_k, dataset_size)  # Ensure we don't request more than available
+            top_indices = np.argsort(similarities)[-top_k:][::-1]
 
-            if results:
-                self.logger.debug("First result metadata fields:")
-                for key in sorted(results[0].metadata.keys()):
-                    self.logger.debug(f"  {key}")
+            # Validate indices
+            valid_indices = [idx for idx in top_indices if 0 <= idx < dataset_size]
+            if len(valid_indices) != len(top_indices):
+                self.logger.warning(f"Some indices were out of bounds. Found {len(valid_indices)} valid indices.")
 
-            return results
+            # Process results
+            processed_results = []
+            for idx in valid_indices:
+                try:
+                    # Safely access dataset tensors
+                    text_array = ds.text[int(idx)].numpy()  # Ensure integer index
+                    metadata_array = ds.metadata[int(idx)].numpy()
+
+                    # Convert text and create document
+                    text_str = self._convert_to_string(text_array)
+                    if not text_str:
+                        continue
+
+                    metadata_dict = self._parse_metadata(metadata_array)
+                    metadata_dict['similarity_score'] = float(similarities[idx])
+                    metadata_dict['dataset_index'] = int(idx)
+
+                    doc = Document(
+                        page_content=str(text_str),
+                        metadata=metadata_dict
+                    )
+                    processed_results.append(doc)
+
+                except IndexError as e:
+                    self.logger.error(f"Index {idx} out of bounds: {e}")
+                    continue
+                except Exception as e:
+                    self.logger.error(f"Error processing result at index {idx}: {e}")
+                    continue
+
+            self.logger.info(f"Successfully processed {len(processed_results)} results")
+            return processed_results
 
         except Exception as e:
             self.logger.error(f"Error during similarity search: {e}")
             return []
+
+    def _parse_metadata(self, metadata) -> dict:
+        """Parse metadata into dictionary with improved numpy handling."""
+        try:
+            if isinstance(metadata, np.ndarray):
+                if metadata.size == 1:
+                    metadata = metadata.item()
+                elif metadata.size > 0:
+                    metadata = metadata.flatten()[0]
+                else:
+                    return {}
+
+            if isinstance(metadata, (bytes, np.bytes_)):
+                metadata = metadata.decode('utf-8')
+
+            if isinstance(metadata, str):
+                try:
+                    return json.loads(metadata)
+                except json.JSONDecodeError:
+                    self.logger.warning("Failed to parse metadata JSON string")
+                    return {}
+
+            if isinstance(metadata, dict):
+                return {k: self._convert_to_string(v) for k, v in metadata.items()}
+
+            self.logger.warning(f"Unexpected metadata type: {type(metadata)}")
+            return {}
+
+        except Exception as e:
+            self.logger.error(f"Error processing metadata: {e}")
+            return {}
 
     def is_empty(self) -> bool:
         """Check if the vectorstore is empty."""
@@ -351,25 +465,8 @@ class RAGRetriever:
             return True
 
         try:
-            return len(self.vectorstore.get_ids()) == 0
+            ds = self.vectorstore.vectorstore.dataset
+            return len(ds.embedding) == 0
         except Exception as e:
             self.logger.error(f"Error checking vectorstore: {e}")
             return True
-
-    def print_dataset_info(self) -> None:
-        """Print information about the current state of the dataset."""
-        if self.vectorstore is None:
-            self.logger.info("No vectorstore initialized")
-            return
-
-        try:
-            num_elements = len(self.vectorstore.get_ids())
-            self.logger.info(f"Number of elements in vectorstore: {num_elements}")
-
-            if num_elements > 0:
-                sample = self.vectorstore.get(ids=[self.vectorstore.get_ids()[0]])
-                self.logger.info("\nMetadata fields in first element:")
-                for key in sorted(sample[0].metadata.keys()):
-                    self.logger.info(f"  {key}")
-        except Exception as e:
-            self.logger.error(f"Error printing dataset info: {e}")
