@@ -201,49 +201,104 @@ class RAGRetriever:
             self.logger.error(f"Error during vectorstore initialization: {e}")
             raise
 
+    def normalize_transcript_filename(self, filename: str) -> str:
+        """Normalize English transcript filenames by converting to mp3."""
+        # Only process English transcripts, ignore others
+        if '_en' not in filename:
+            return None
+        # Remove the language suffix and .txt extension
+        base = re.sub(r'_(en|en_translation)\.txt$', '', filename)
+        return f"{base}.mp3"
+
     def load_data(self, data_dir: str, metadata: Dict[str, Dict]) -> List[Document]:
-        """Load documents from the data directory."""
+        """Load all documents from the data directory, with or without metadata."""
         self.logger.info("\nStarting document loading...")
         self.logger.info(f"Number of metadata entries: {len(metadata)}")
-
         if metadata:
             self.logger.debug("Sample metadata keys: %s", list(next(iter(metadata.values())).keys()))
 
         self.documents = []
         txt_dir = os.path.join(data_dir, 'txt')
+        transcripts_dir = os.path.join(data_dir, 'transcripts')
+        ocr_dir = os.path.join(data_dir, 'pdf', 'txtConversion')
 
-        for filename in os.listdir(txt_dir):
-            if filename.endswith('.txt'):
-                self.logger.debug(f"\nProcessing: {filename}")
-                file_path = os.path.join(txt_dir, filename)
+        docs_with_metadata = 0
+        docs_without_metadata = 0
+
+        for directory in [txt_dir, transcripts_dir, ocr_dir]:
+            if not os.path.exists(directory):
+                self.logger.warning(f"Directory not found: {directory}")
+                continue
+
+            for filename in os.listdir(directory):
+                if not filename.endswith('.txt'):
+                    continue
+
+                self.logger.debug(f"\nProcessing: {filename} from {os.path.basename(directory)}")
+                file_path = os.path.join(directory, filename)
+
+                # Handle different file types
+                if directory == transcripts_dir:
+                    # Skip non-English transcripts
+                    base_filename = self.normalize_transcript_filename(filename)
+                    if base_filename is None:
+                        self.logger.debug(f"Skipping non-English transcript: {filename}")
+                        continue
+                    file_type = 'transcript'
+                elif directory == ocr_dir:
+                    base_filename = re.sub(r'\.txt$', '.pdf', filename)
+                    file_type = 'pdf_ocr'
+                else:  # txt_dir
+                    base_filename = filename
+                    file_type = 'text'
+
+                self.logger.debug(f"Base filename: {base_filename}")
 
                 try:
                     with open(file_path, 'r', encoding='utf-8') as file:
                         content = file.read()
 
-                    if filename in metadata:
-                        doc_metadata = metadata[filename].copy()
+                    if base_filename in metadata:
+                        # Add document with full metadata
+                        doc_metadata = metadata[base_filename].copy()
                         self.logger.debug(f"Found metadata with {len(doc_metadata)} fields")
                         self.logger.debug(f"Metadata keys: {list(doc_metadata.keys())}")
 
-                        # Set file_type based on filename pattern
-                        if '_en.txt' in filename or '_en_translation.txt' in filename:
-                            doc_metadata['file_type'] = 'transcript'
-                        else:
-                            doc_metadata['file_type'] = 'text'
-
+                        # Add original filename and file type to metadata
                         doc_metadata['original_filename'] = filename
+                        doc_metadata['file_type'] = file_type
+                        doc_metadata['metadata_status'] = 'complete'
+
                         doc_metadata = {k: str(v) if v is not None and v != '' else 'N/A'
                                         for k, v in doc_metadata.items()}
 
-                        doc = Document(page_content=content, metadata=doc_metadata)
-                        self.documents.append(doc)
+                        docs_with_metadata += 1
                     else:
-                        self.logger.warning(f"No metadata found for {filename}")
+                        # Add document with basic metadata
+                        self.logger.warning(f"No metadata found for {base_filename}")
+                        doc_metadata = {
+                            'original_filename': filename,
+                            'base_filename': base_filename,
+                            'file_type': file_type,
+                            'source_directory': os.path.basename(directory),
+                            'metadata_status': 'missing',
+                            'title': 'N/A',
+                            'date': 'N/A',
+                            'contributors': 'N/A'
+                        }
+                        docs_without_metadata += 1
+
+                    doc = Document(page_content=content, metadata=doc_metadata)
+                    self.documents.append(doc)
+
                 except Exception as e:
                     self.logger.error(f"Error processing file {filename}: {e}")
 
-        self.logger.info(f"\nLoaded {len(self.documents)} documents")
+        self.logger.info(f"\nLoading complete:")
+        self.logger.info(f"Documents with metadata: {docs_with_metadata}")
+        self.logger.info(f"Documents without metadata: {docs_without_metadata}")
+        self.logger.info(f"Total documents loaded: {len(self.documents)}")
+
         if self.documents:
             self.logger.info("\nFirst document metadata:")
             for k, v in self.documents[0].metadata.items():
@@ -251,66 +306,166 @@ class RAGRetriever:
 
         return self.documents
 
-    def generate_embeddings(self, documents: List[Document]) -> None:
-        """Generate embeddings for documents with batch processing and tensor synchronization."""
+    def generate_embeddings(self, documents: List[Document], batch_size: int = 50) -> None:
+        """Generate embeddings for documents with batched processing and memory management."""
         if self.vectorstore is None:
             self.logger.error("Vectorstore not initialized. Call initialize_vectorstore first.")
             raise ValueError("Vectorstore not initialized")
 
         try:
             total_docs = len(documents)
-            self.logger.info(f"Processing {total_docs} documents")
+            self.logger.info(f"\nProcessing {total_docs} documents in batches of {batch_size}")
             ds = self.vectorstore.vectorstore.dataset
 
-            # Create lists to hold all data before adding to dataset
-            texts = []
-            embeddings = []
-            metadata_list = []
-            tensor_data = {field: [] for field in ds.tensors.keys() if
-                           field not in ['text', 'embedding', 'metadata', 'id']}
-            ids = []
+            # Process documents in batches
+            for batch_start in range(0, total_docs, batch_size):
+                batch_end = min(batch_start + batch_size, total_docs)
+                batch = documents[batch_start:batch_end]
+                batch_size_actual = len(batch)
 
-            # Process all documents first
-            for i, doc in enumerate(documents):
-                if i % 10 == 0:
-                    self.logger.info(f"Processing document {i + 1}/{total_docs}")
+                self.logger.info(
+                    f"\nProcessing batch {batch_start // batch_size + 1}/{(total_docs + batch_size - 1) // batch_size}")
+                self.logger.info(f"Documents {batch_start + 1} to {batch_end} of {total_docs}")
 
-                texts.append(doc.page_content)
-                embeddings.append(self.embeddings.embed_query(doc.page_content))
-                metadata_list.append(json.dumps(doc.metadata))
+                # Initialize lists for batch data
+                texts = []
+                embeddings = []
+                metadata_list = []
+                tensor_data = {field: [] for field in ds.tensors.keys() if
+                               field not in ['text', 'embedding', 'metadata', 'id']}
+                ids = []
 
-                # Process each tensor field
-                for field in tensor_data:
-                    if field in ['chunk_id', 'total_chunks']:
-                        value = int(doc.metadata.get(field, 0))
-                    else:
-                        value = doc.metadata.get(field, '')
-                        if isinstance(value, (list, dict)):
-                            value = json.dumps(value)
-                        value = str(value) if value is not None else ''
-                    tensor_data[field].append(value)
+                # Process documents in current batch
+                for i, doc in enumerate(batch):
+                    if (i + 1) % 10 == 0:
+                        self.logger.debug(f"Processing document {batch_start + i + 1}/{total_docs}")
 
-                ids.append(str(len(ds) + i))
+                    try:
+                        # Generate embedding for current document
+                        embedding = self.embeddings.embed_query(doc.page_content)
 
-            # Add all data to dataset in a single batch
-            with ds:
-                ds.text.extend(texts)
-                ds.embedding.extend(embeddings)
-                ds.metadata.extend(metadata_list)
-                ds.id.extend(ids)
+                        # Collect data for current document
+                        texts.append(doc.page_content)
+                        embeddings.append(embedding)
+                        metadata_list.append(json.dumps(doc.metadata))
 
-                # Extend all other tensors
-                for field, values in tensor_data.items():
-                    tensor = getattr(ds, field)
-                    tensor.extend(values)
+                        # Process tensor fields
+                        for field in tensor_data:
+                            if field in ['chunk_id', 'total_chunks']:
+                                value = int(doc.metadata.get(field, 0))
+                            else:
+                                value = doc.metadata.get(field, '')
+                                if isinstance(value, (list, dict)):
+                                    value = json.dumps(value)
+                                value = str(value) if value is not None else ''
+                            tensor_data[field].append(value)
 
-            self.logger.info(f"Successfully processed {total_docs} documents")
-            self.logger.info("Verifying tensor lengths...")
-            lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
-            self.logger.info(f"Tensor lengths: {lengths}")
+                        ids.append(str(len(ds) + batch_start + i))
+
+                    except Exception as e:
+                        self.logger.error(f"Error processing document {batch_start + i + 1}: {e}")
+                        continue
+
+                # Add batch data to dataset
+                try:
+                    with ds:
+                        ds.text.extend(texts)
+                        ds.embedding.extend(embeddings)
+                        ds.metadata.extend(metadata_list)
+                        ds.id.extend(ids)
+
+                        # Extend all other tensors
+                        for field, values in tensor_data.items():
+                            tensor = getattr(ds, field)
+                            tensor.extend(values)
+
+                    self.logger.info(f"Successfully added batch of {len(texts)} documents")
+
+                    # Verify tensor lengths after batch
+                    current_lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
+                    self.logger.debug(f"Current tensor lengths: {current_lengths}")
+
+                    # Clear memory
+                    import gc
+                    import torch
+                    del texts, embeddings, metadata_list, tensor_data, ids
+                    gc.collect()
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+
+                except Exception as e:
+                    self.logger.error(f"Error adding batch to dataset: {e}")
+                    raise
+
+            self.logger.info(f"\nCompleted processing {total_docs} documents")
+            self.logger.info("Final tensor lengths:")
+            final_lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
+            self.logger.info(str(final_lengths))
 
         except Exception as e:
-            self.logger.error(f"Error generating embeddings: {e}")
+            self.logger.error(f"Error in batch processing: {e}")
+            raise
+
+    def process_with_checkpoints(self, documents: List[Document], batch_size: int = 50,
+                                 checkpoint_dir: str = 'checkpoints') -> None:
+        """Process documents with checkpointing for recovery from failures."""
+        import os
+        import json
+        from datetime import datetime
+
+        # Create checkpoint directory
+        os.makedirs(checkpoint_dir, exist_ok=True)
+        checkpoint_file = os.path.join(checkpoint_dir,
+                                       f'embedding_checkpoint_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
+
+        # Load last checkpoint if exists
+        start_idx = 0
+        if os.path.exists(checkpoint_file):
+            try:
+                with open(checkpoint_file, 'r') as f:
+                    checkpoint_data = json.load(f)
+                    start_idx = checkpoint_data.get('last_processed_index', 0)
+                    self.logger.info(f"Resuming from checkpoint at index {start_idx}")
+            except Exception as e:
+                self.logger.error(f"Error loading checkpoint: {e}")
+
+        total_docs = len(documents)
+
+        try:
+            for batch_start in range(start_idx, total_docs, batch_size):
+                batch_end = min(batch_start + batch_size, total_docs)
+                batch = documents[batch_start:batch_end]
+
+                try:
+                    # Process batch
+                    self.generate_embeddings(batch)
+
+                    # Save checkpoint
+                    checkpoint_data = {
+                        'last_processed_index': batch_end,
+                        'total_documents': total_docs,
+                        'timestamp': datetime.now().isoformat()
+                    }
+                    with open(checkpoint_file, 'w') as f:
+                        json.dump(checkpoint_data, f)
+
+                    self.logger.info(f"Checkpoint saved at document {batch_end}")
+
+                except Exception as e:
+                    self.logger.error(f"Error processing batch {batch_start}-{batch_end}: {e}")
+                    # Save checkpoint at failure point
+                    checkpoint_data = {
+                        'last_processed_index': batch_start,
+                        'total_documents': total_docs,
+                        'timestamp': datetime.now().isoformat(),
+                        'error': str(e)
+                    }
+                    with open(checkpoint_file, 'w') as f:
+                        json.dump(checkpoint_data, f)
+                    raise
+
+        except Exception as e:
+            self.logger.error(f"Processing failed at document {batch_start}: {e}")
             raise
 
     def _convert_to_string(self, value) -> str:

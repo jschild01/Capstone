@@ -243,7 +243,7 @@ def main():
             success = test_vectorstore_creation(
                 test_data_dir,
                 embedding_model=embedding_model,
-                chunk_size=100
+                chunk_size=250
             )
             results[embedding_model] = success
 
