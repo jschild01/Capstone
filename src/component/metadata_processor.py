@@ -277,7 +277,7 @@ def match_base_id(filename: str, base_id_to_metadata: Dict[str, Dict],
             return mapping[base_name]
 
         # Try with AFC format
-        afc_format = f"afc2021007.{base_name}"
+        afc_format = re.search(r'(afc\d+)\.', base_name)
         print(f"3. Trying AFC format in {mapping_name} mapping: {afc_format}")
         if afc_format in mapping:
             return mapping[afc_format]
