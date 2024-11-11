@@ -277,10 +277,13 @@ def match_base_id(filename: str, base_id_to_metadata: Dict[str, Dict],
             return mapping[base_name]
 
         # Try with AFC format
-        afc_format = re.search(r'(afc\d+)\.', base_name)
-        print(f"3. Trying AFC format in {mapping_name} mapping: {afc_format}")
-        if afc_format in mapping:
-            return mapping[afc_format]
+        afc_prefix_match = re.match(r'(afc\d+)', base_name)
+        if afc_prefix_match:
+            afc_prefix = afc_prefix_match.group(1)
+            afc_format = f"{afc_prefix}.{base_name}"
+            print(f"3. Trying AFC format in {mapping_name} mapping: {afc_format}")
+            if afc_format in mapping:
+                return mapping[afc_format]
 
         # Try without suffix as last resort
         main_parts = re.match(r'(afc\d+_\d+)', base_name)
