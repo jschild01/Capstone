@@ -97,7 +97,7 @@ def main():
 
     set_seed(42)
     data_dir = os.path.join(project_root, 'data')
-    chunk_size = 250
+    chunk_size = 1000
 
     logger.info(f"Data directory: {data_dir}")
     logger.info(f"Chunk size: {chunk_size}")
@@ -116,7 +116,7 @@ def main():
         # Initialize retriever and vectorstore
         text_retriever = RAGRetriever(
             dataset_path=dataset_path,
-            model_name='instructor',
+            model_name='titan',
             logger=logger
         )
 
@@ -151,7 +151,12 @@ def main():
             chunked_docs = chunk_documents(documents, chunk_size, logger)
             if chunked_docs:
                 logger.info(f"Generated {len(chunked_docs)} chunks")
-                text_retriever.generate_embeddings(chunked_docs)
+                # Add credential refresh prompt before embedding generation
+                if hasattr(text_retriever, 'credential_manager'):
+                    input(
+                        "Please ensure your Bedrock credentials in config.ini are fresh before starting embedding generation. Press Enter to continue...")
+                text_retriever.process_with_checkpoints(
+                    chunked_docs)  # Using process_with_checkpoints for checkpointing
                 logger.info("Embeddings generated successfully")
             else:
                 logger.error("No chunks generated")
@@ -160,7 +165,7 @@ def main():
             logger.info("Using existing embeddings")
 
         # Initialize RAG components
-        model_name = 'llama'  # Options: 'llama', 't5', 'claude'
+        model_name = 'claude'  # Options: 'llama', 't5', 'claude'
         logger.info(f"Initializing RAG pipeline with {model_name} model")
 
         qa_generator = RAGGenerator(model_name=model_name)

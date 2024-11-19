@@ -12,12 +12,72 @@ from configparser import ConfigParser, ExtendedInterpolation
 from langchain_aws import BedrockEmbeddings
 from component.logging_config import setup_logging
 import numpy as np
+from datetime import datetime, timezone
+import time
 
 try:
     from langchain_community.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbeddings
 except ImportError:
     from langchain.embeddings import HuggingFaceEmbeddings
 
+
+class AWSCredentialManager:
+    def __init__(self, logger=None):
+        self.logger = logger
+        self._client = None
+
+        # Ask user to check credentials at startup
+        input("Please refresh your Bedrock credentials in config.ini and press Enter to continue...")
+
+        if self.logger:
+            self.logger.info("Initializing AWS credential manager")
+
+        # Load initial configuration
+        self.config = self.load_configuration(initial=True)
+
+    def load_configuration(self, initial=False):
+        """Load configuration from config files."""
+        try:
+            components_dir = os.path.dirname(os.path.dirname(__file__))  # This gets us to src/
+            project_root = os.path.dirname(components_dir)  # This gets us to Capstone/
+            config_dir = os.path.join(project_root, 'config')
+            config_file = os.path.join(config_dir, 'config.ini')
+
+            if initial:  # Only print during initialization
+                print(f"Loading config from: {config_file}")
+
+            config = ConfigParser(interpolation=ExtendedInterpolation())
+            config.read(config_file)
+            return config
+        except Exception as e:
+            if self.logger:
+                self.logger.error(f"Error loading configuration: {e}")
+            print(f"Error loading configuration: {e}")
+            raise
+
+    def get_bedrock_client(self):
+        """Get a Bedrock client with current credentials."""
+        try:
+            config = self.load_configuration()
+            session = boto3.Session(
+                aws_access_key_id=config['BedRock_LLM_API']['aws_access_key_id'],
+                aws_secret_access_key=config['BedRock_LLM_API']['aws_secret_access_key'],
+                aws_session_token=config['BedRock_LLM_API']['aws_session_token']
+            )
+            #print("Loaded credentials from config file")
+            self._client = session.client("bedrock-runtime", region_name="us-east-1")
+            return self._client
+
+        except ClientError as e:
+            if 'ExpiredToken' in str(e) or 'ExpiredTokenException' in str(e):
+                if self.logger:
+                    self.logger.info("Credentials expired, waiting for user to update them...")
+                print("\nBedrock credentials expired. Please update config.ini and press Enter to continue...")
+                input()
+                # Retry with new credentials
+                return self.get_bedrock_client()
+            print(f"Failed to create Bedrock client: {str(e)}")
+            raise
 
 class RAGRetriever:
     def __init__(self, dataset_path: str = './my_deeplake', model_name: str = 'instructor', logger=None):
@@ -89,66 +149,45 @@ class RAGRetriever:
             {"name": "catalog_collection_id", "dtype": "str"}
         ]
 
+        print(f"\nInitializing RAG Retriever with {model_name} model")
+
         # Initialize embedding model based on selection
         if model_name == 'instructor':
             self.embeddings = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
         elif model_name == 'mini':
             self.embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         elif model_name == 'titan':
-            self.config = self.load_configuration()
-            self.bedrock_client = self.create_bedrock_client(self.config)
+            self.credential_manager = AWSCredentialManager(logger=self.logger)
             self.embeddings = BedrockEmbeddings(
-                client=self.bedrock_client,
+                client=self.credential_manager.get_bedrock_client(),
                 region_name="us-east-1",
                 model_id="amazon.titan-embed-text-v2:0")
         else:
-            self.logger.info('Model name not recognized. Implementing default HuggingFace Embedding model')
+            print('Model name not recognized. Implementing default HuggingFace Embedding model')
             self.embeddings = HuggingFaceEmbeddings()
 
         self.vectorstore = None
         self.documents = []
 
-    def load_configuration(self):
-        """Load configuration from config files."""
-        components_dir = os.path.dirname(__file__)
-        src_dir = os.path.abspath(os.path.join(components_dir, os.pardir))
-        root_dir = os.path.abspath(os.path.join(src_dir, os.pardir))
-        config_dir = os.path.join(root_dir, 'config')
-
-        load_dotenv(dotenv_path=os.path.join(config_dir, '.env'))
-        config_file = os.environ['CONFIG_FILE']
-        config = ConfigParser(interpolation=ExtendedInterpolation())
-        config.read(f"{config_dir}/{config_file}")
-        return config
-
-    def create_bedrock_client(self, config):
-        """Create AWS Bedrock client."""
-        session = boto3.Session(
-            aws_access_key_id=config['BedRock_LLM_API']['aws_access_key_id'],
-            aws_secret_access_key=config['BedRock_LLM_API']['aws_secret_access_key'],
-            aws_session_token=config['BedRock_LLM_API']['aws_session_token']
-        )
-        return session.client("bedrock-runtime", region_name="us-east-1")
-
     def initialize_vectorstore(self, delete_existing: bool = False) -> None:
         """Initialize vectorstore with all required tensors."""
         try:
             if self.vectorstore is not None:
-                self.logger.info("Cleaning up existing vectorstore reference")
+                print("Cleaning up existing vectorstore reference")
                 self.vectorstore = None
 
             if delete_existing and os.path.exists(self.dataset_path):
-                self.logger.info(f"Deleting existing DeepLake dataset at {self.dataset_path}")
+                print(f"Deleting existing DeepLake dataset at {self.dataset_path}")
                 try:
                     shutil.rmtree(self.dataset_path)
-                    self.logger.info("Dataset deleted successfully")
+                    print("Dataset deleted successfully")
                 except Exception as e:
-                    self.logger.error(f"Error deleting dataset: {e}")
+                    print(f"Error deleting dataset: {e}")
                     raise
 
             # Create fresh dataset with all required tensors
             import deeplake
-            self.logger.info("Creating new dataset with all tensors")
+            print("Creating new dataset with all tensors")
 
             ds = deeplake.empty(self.dataset_path, overwrite=True)
 
@@ -170,6 +209,7 @@ class RAGRetriever:
                 'catalog_repository', 'catalog_collection_id'
             ]
 
+            print("Creating metadata tensors...")
             # Create tensor for each metadata field
             for field in metadata_fields:
                 ds.create_tensor(field, dtype='str', sample_compression=None)
@@ -179,6 +219,7 @@ class RAGRetriever:
                 'contributors', 'notes', 'catalog_subjects', 'catalog_notes',
                 'catalog_genre', 'catalog_contributors'
             ]
+            print("Creating array field tensors...")
             for field in array_fields:
                 ds.create_tensor(field, dtype='str', sample_compression=None)
 
@@ -186,7 +227,7 @@ class RAGRetriever:
             ds.create_tensor('chunk_id', dtype='int64', sample_compression=None)
             ds.create_tensor('total_chunks', dtype='int64', sample_compression=None)
 
-            self.logger.info(f"Created dataset with tensors: {list(ds.tensors.keys())}")
+            print(f"Created dataset with tensors: {list(ds.tensors.keys())}")
 
             # Initialize vectorstore with the prepared dataset
             self.vectorstore = DeepLake(
@@ -195,27 +236,90 @@ class RAGRetriever:
                 read_only=False
             )
 
-            self.logger.info("Vectorstore initialized successfully")
+            print("Vectorstore initialized successfully")
 
         except Exception as e:
-            self.logger.error(f"Error during vectorstore initialization: {e}")
+            print(f"Error during vectorstore initialization: {e}")
             raise
 
     def normalize_transcript_filename(self, filename: str) -> str:
         """Normalize English transcript filenames by converting to mp3."""
-        # Only process English transcripts, ignore others
         if '_en' not in filename:
             return None
-        # Remove the language suffix and .txt extension
         base = re.sub(r'_(en|en_translation)\.txt$', '', filename)
         return f"{base}.mp3"
 
+    def process_with_checkpoints(self, documents: List[Document], batch_size: int = 100,
+                                 checkpoint_dir: str = 'checkpoints') -> None:
+        """Process documents with checkpointing for recovery from failures."""
+        import os
+        import json
+        from datetime import datetime
+
+        # Create checkpoint directory
+        os.makedirs(checkpoint_dir, exist_ok=True)
+        checkpoint_file = os.path.join(checkpoint_dir,
+                                       f'embedding_checkpoint_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
+
+        print(f"\nUsing checkpoint file: {checkpoint_file}")
+
+        # Load last checkpoint if exists
+        start_idx = 0
+        if os.path.exists(checkpoint_file):
+            try:
+                with open(checkpoint_file, 'r') as f:
+                    checkpoint_data = json.load(f)
+                    start_idx = checkpoint_data.get('last_processed_index', 0)
+                    print(f"Resuming from checkpoint at index {start_idx}")
+            except Exception as e:
+                print(f"Error loading checkpoint: {e}")
+
+        total_docs = len(documents)
+
+        try:
+            for batch_start in range(start_idx, total_docs, batch_size):
+                batch_end = min(batch_start + batch_size, total_docs)
+                batch = documents[batch_start:batch_end]
+
+                try:
+                    # Process batch
+                    print(f"\nProcessing batch {batch_start}-{batch_end} of {total_docs}")
+                    self.generate_embeddings(batch)
+
+                    # Save checkpoint
+                    checkpoint_data = {
+                        'last_processed_index': batch_end,
+                        'total_documents': total_docs,
+                        'timestamp': datetime.now().isoformat()
+                    }
+                    with open(checkpoint_file, 'w') as f:
+                        json.dump(checkpoint_data, f)
+
+                    print(f"Checkpoint saved at document {batch_end}")
+
+                except Exception as e:
+                    print(f"Error processing batch {batch_start}-{batch_end}: {e}")
+                    # Save checkpoint at failure point
+                    checkpoint_data = {
+                        'last_processed_index': batch_start,
+                        'total_documents': total_docs,
+                        'timestamp': datetime.now().isoformat(),
+                        'error': str(e)
+                    }
+                    with open(checkpoint_file, 'w') as f:
+                        json.dump(checkpoint_data, f)
+                    raise
+
+        except Exception as e:
+            print(f"Processing failed at document {batch_start}: {e}")
+            raise
+
     def load_data(self, data_dir: str, metadata: Dict[str, Dict]) -> List[Document]:
         """Load all documents from the data directory, with or without metadata."""
-        self.logger.info("\nStarting document loading...")
-        self.logger.info(f"Number of metadata entries: {len(metadata)}")
+        print("\nStarting document loading...")
+        print(f"Number of metadata entries: {len(metadata)}")
         if metadata:
-            self.logger.debug("Sample metadata keys: %s", list(next(iter(metadata.values())).keys()))
+            print("Sample metadata keys:", list(next(iter(metadata.values())).keys()))
 
         self.documents = []
         txt_dir = os.path.join(data_dir, 'txt')
@@ -227,22 +331,22 @@ class RAGRetriever:
 
         for directory in [txt_dir, transcripts_dir, ocr_dir]:
             if not os.path.exists(directory):
-                self.logger.warning(f"Directory not found: {directory}")
+                print(f"Directory not found: {directory}")
                 continue
 
+            print(f"\nProcessing directory: {directory}")
             for filename in os.listdir(directory):
                 if not filename.endswith('.txt'):
                     continue
 
-                self.logger.debug(f"\nProcessing: {filename} from {os.path.basename(directory)}")
+                print(f"\nProcessing: {filename} from {os.path.basename(directory)}")
                 file_path = os.path.join(directory, filename)
 
                 # Handle different file types
                 if directory == transcripts_dir:
-                    # Skip non-English transcripts
                     base_filename = self.normalize_transcript_filename(filename)
                     if base_filename is None:
-                        self.logger.debug(f"Skipping non-English transcript: {filename}")
+                        print(f"Skipping non-English transcript: {filename}")
                         continue
                     file_type = 'transcript'
                 elif directory == ocr_dir:
@@ -252,19 +356,17 @@ class RAGRetriever:
                     base_filename = filename
                     file_type = 'text'
 
-                self.logger.debug(f"Base filename: {base_filename}")
+                print(f"Base filename: {base_filename}")
 
                 try:
                     with open(file_path, 'r', encoding='utf-8') as file:
                         content = file.read()
 
                     if base_filename in metadata:
-                        # Add document with full metadata
                         doc_metadata = metadata[base_filename].copy()
-                        self.logger.debug(f"Found metadata with {len(doc_metadata)} fields")
-                        self.logger.debug(f"Metadata keys: {list(doc_metadata.keys())}")
+                        print(f"Found metadata with {len(doc_metadata)} fields")
+                        print(f"Metadata keys: {list(doc_metadata.keys())}")
 
-                        # Add original filename and file type to metadata
                         doc_metadata['original_filename'] = filename
                         doc_metadata['file_type'] = file_type
                         doc_metadata['metadata_status'] = 'complete'
@@ -274,8 +376,7 @@ class RAGRetriever:
 
                         docs_with_metadata += 1
                     else:
-                        # Add document with basic metadata
-                        self.logger.warning(f"No metadata found for {base_filename}")
+                        print(f"No metadata found for {base_filename}")
                         doc_metadata = {
                             'original_filename': filename,
                             'base_filename': base_filename,
@@ -292,269 +393,192 @@ class RAGRetriever:
                     self.documents.append(doc)
 
                 except Exception as e:
-                    self.logger.error(f"Error processing file {filename}: {e}")
+                    print(f"Error processing file {filename}: {e}")
 
-        self.logger.info(f"\nLoading complete:")
-        self.logger.info(f"Documents with metadata: {docs_with_metadata}")
-        self.logger.info(f"Documents without metadata: {docs_without_metadata}")
-        self.logger.info(f"Total documents loaded: {len(self.documents)}")
+        print(f"\nLoading complete:")
+        print(f"Documents with metadata: {docs_with_metadata}")
+        print(f"Documents without metadata: {docs_without_metadata}")
+        print(f"Total documents loaded: {len(self.documents)}")
 
         if self.documents:
-            self.logger.info("\nFirst document metadata:")
+            print("\nFirst document metadata:")
             for k, v in self.documents[0].metadata.items():
-                self.logger.debug(f"  {k}: {v}")
+                print(f"  {k}: {v}")
 
         return self.documents
 
-    def generate_embeddings(self, documents: List[Document], batch_size: int = 50) -> None:
-        """Generate embeddings for documents with batched processing and memory management."""
+    def generate_embeddings(self, documents: List[Document], batch_size: int = 100) -> None:
+        """Generate embeddings with user-prompted credential refresh."""
         if self.vectorstore is None:
-            self.logger.error("Vectorstore not initialized. Call initialize_vectorstore first.")
+            print("Vectorstore not initialized. Call initialize_vectorstore first.")
             raise ValueError("Vectorstore not initialized")
 
         try:
             total_docs = len(documents)
-            self.logger.info(f"\nProcessing {total_docs} documents in batches of {batch_size}")
+            print(f"\nProcessing {total_docs} documents in batches of {batch_size}")
             ds = self.vectorstore.vectorstore.dataset
 
             # Process documents in batches
             for batch_start in range(0, total_docs, batch_size):
                 batch_end = min(batch_start + batch_size, total_docs)
                 batch = documents[batch_start:batch_end]
-                batch_size_actual = len(batch)
 
-                self.logger.info(
-                    f"\nProcessing batch {batch_start // batch_size + 1}/{(total_docs + batch_size - 1) // batch_size}")
-                self.logger.info(f"Documents {batch_start + 1} to {batch_end} of {total_docs}")
-
-                # Initialize lists for batch data
-                texts = []
-                embeddings = []
-                metadata_list = []
-                tensor_data = {field: [] for field in ds.tensors.keys() if
-                               field not in ['text', 'embedding', 'metadata', 'id']}
-                ids = []
-
-                # Process documents in current batch
-                for i, doc in enumerate(batch):
-                    if (i + 1) % 10 == 0:
-                        self.logger.debug(f"Processing document {batch_start + i + 1}/{total_docs}")
-
-                    try:
-                        # Generate embedding for current document
-                        embedding = self.embeddings.embed_query(doc.page_content)
-
-                        # Collect data for current document
-                        texts.append(doc.page_content)
-                        embeddings.append(embedding)
-                        metadata_list.append(json.dumps(doc.metadata))
-
-                        # Process tensor fields
-                        for field in tensor_data:
-                            if field in ['chunk_id', 'total_chunks']:
-                                value = int(doc.metadata.get(field, 0))
-                            else:
-                                value = doc.metadata.get(field, '')
-                                if isinstance(value, (list, dict)):
-                                    value = json.dumps(value)
-                                value = str(value) if value is not None else ''
-                            tensor_data[field].append(value)
-
-                        ids.append(str(len(ds) + batch_start + i))
-
-                    except Exception as e:
-                        self.logger.error(f"Error processing document {batch_start + i + 1}: {e}")
-                        continue
-
-                # Add batch data to dataset
                 try:
-                    with ds:
-                        ds.text.extend(texts)
-                        ds.embedding.extend(embeddings)
-                        ds.metadata.extend(metadata_list)
-                        ds.id.extend(ids)
+                    # Initialize lists for batch data
+                    texts = []
+                    embeddings = []
+                    metadata_list = []
+                    tensor_data = {field: [] for field in ds.tensors.keys() if
+                                   field not in ['text', 'embedding', 'metadata', 'id']}
+                    ids = []
 
-                        # Extend all other tensors
-                        for field, values in tensor_data.items():
-                            tensor = getattr(ds, field)
-                            tensor.extend(values)
+                    # Process documents in current batch
+                    i = 0
+                    while i < len(batch):
+                        doc = batch[i]
+                        try:
+                            # Update client before embedding
+                            if hasattr(self, 'credential_manager'):
+                                try:
+                                    self.embeddings.client = self.credential_manager.get_bedrock_client()
+                                except ClientError as e:
+                                    if 'ExpiredToken' in str(e) or 'ExpiredTokenException' in str(e):
+                                        print(
+                                            "\nBedrock credentials expired. Please update config.ini and press Enter to continue...")
+                                        input()
+                                        continue  # Retry getting client with new credentials
+                                    raise
 
-                    self.logger.info(f"Successfully added batch of {len(texts)} documents")
+                            print(f"Processing document {batch_start + i + 1}/{total_docs}")
 
-                    # Verify tensor lengths after batch
-                    current_lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
-                    self.logger.debug(f"Current tensor lengths: {current_lengths}")
+                            try:
+                                embedding = self.embeddings.embed_query(doc.page_content)
+                            except ClientError as e:
+                                if 'ExpiredToken' in str(e) or 'ExpiredTokenException' in str(e):
+                                    print(
+                                        "\nBedrock credentials expired during embedding. Please update config.ini and press Enter to continue...")
+                                    input()
+                                    continue  # Retry this document
+                                raise
 
-                    # Clear memory
-                    import gc
-                    import torch
-                    del texts, embeddings, metadata_list, tensor_data, ids
-                    gc.collect()
-                    if torch.cuda.is_available():
-                        torch.cuda.empty_cache()
+                            # If we get here, embedding was successful
+                            texts.append(doc.page_content)
+                            embeddings.append(embedding)
+                            metadata_list.append(json.dumps(doc.metadata))
+
+                            # Process tensor fields
+                            for field in tensor_data:
+                                if field in ['chunk_id', 'total_chunks']:
+                                    value = int(doc.metadata.get(field, 0))
+                                else:
+                                    value = doc.metadata.get(field, '')
+                                    if isinstance(value, (list, dict)):
+                                        value = json.dumps(value)
+                                    value = str(value) if value is not None else ''
+                                tensor_data[field].append(value)
+
+                            ids.append(str(len(ds) + batch_start + i))
+                            i += 1  # Only increment if successful
+
+                        except Exception as e:
+                            if not isinstance(e, ClientError) or \
+                                    ('ExpiredToken' not in str(e) and 'ExpiredTokenException' not in str(e)):
+                                print(f"Error processing document {batch_start + i + 1}: {e}")
+                                i += 1  # Skip this document on other errors
+                                continue
+
+                    # Only try to add batch if we have processed documents
+                    if texts:
+                        try:
+                            with ds:
+                                ds.text.extend(texts)
+                                ds.embedding.extend(embeddings)
+                                ds.metadata.extend(metadata_list)
+                                ds.id.extend(ids)
+
+                                # Extend all other tensors
+                                for field, values in tensor_data.items():
+                                    tensor = getattr(ds, field)
+                                    tensor.extend(values)
+
+                            print(f"Successfully added batch of {len(texts)} documents")
+
+                            # Clear memory
+                            import gc
+                            import torch
+                            del texts, embeddings, metadata_list, tensor_data, ids
+                            gc.collect()
+                            if torch.cuda.is_available():
+                                torch.cuda.empty_cache()
+
+                        except Exception as e:
+                            print(f"Error adding batch to dataset: {e}")
+                            raise
 
                 except Exception as e:
-                    self.logger.error(f"Error adding batch to dataset: {e}")
+                    print(f"Error processing batch: {str(e)}")
                     raise
 
-            self.logger.info(f"\nCompleted processing {total_docs} documents")
-            self.logger.info("Final tensor lengths:")
+            print(f"\nCompleted processing {total_docs} documents")
+            print("Final tensor lengths:")
             final_lengths = {name: len(tensor) for name, tensor in ds.tensors.items()}
-            self.logger.info(str(final_lengths))
+            print(str(final_lengths))
 
         except Exception as e:
-            self.logger.error(f"Error in batch processing: {e}")
+            print(f"Error in batch processing: {e}")
             raise
-
-    def process_with_checkpoints(self, documents: List[Document], batch_size: int = 50,
-                                 checkpoint_dir: str = 'checkpoints') -> None:
-        """Process documents with checkpointing for recovery from failures."""
-        import os
-        import json
-        from datetime import datetime
-
-        # Create checkpoint directory
-        os.makedirs(checkpoint_dir, exist_ok=True)
-        checkpoint_file = os.path.join(checkpoint_dir,
-                                       f'embedding_checkpoint_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
-
-        # Load last checkpoint if exists
-        start_idx = 0
-        if os.path.exists(checkpoint_file):
-            try:
-                with open(checkpoint_file, 'r') as f:
-                    checkpoint_data = json.load(f)
-                    start_idx = checkpoint_data.get('last_processed_index', 0)
-                    self.logger.info(f"Resuming from checkpoint at index {start_idx}")
-            except Exception as e:
-                self.logger.error(f"Error loading checkpoint: {e}")
-
-        total_docs = len(documents)
-
-        try:
-            for batch_start in range(start_idx, total_docs, batch_size):
-                batch_end = min(batch_start + batch_size, total_docs)
-                batch = documents[batch_start:batch_end]
-
-                try:
-                    # Process batch
-                    self.generate_embeddings(batch)
-
-                    # Save checkpoint
-                    checkpoint_data = {
-                        'last_processed_index': batch_end,
-                        'total_documents': total_docs,
-                        'timestamp': datetime.now().isoformat()
-                    }
-                    with open(checkpoint_file, 'w') as f:
-                        json.dump(checkpoint_data, f)
-
-                    self.logger.info(f"Checkpoint saved at document {batch_end}")
-
-                except Exception as e:
-                    self.logger.error(f"Error processing batch {batch_start}-{batch_end}: {e}")
-                    # Save checkpoint at failure point
-                    checkpoint_data = {
-                        'last_processed_index': batch_start,
-                        'total_documents': total_docs,
-                        'timestamp': datetime.now().isoformat(),
-                        'error': str(e)
-                    }
-                    with open(checkpoint_file, 'w') as f:
-                        json.dump(checkpoint_data, f)
-                    raise
-
-        except Exception as e:
-            self.logger.error(f"Processing failed at document {batch_start}: {e}")
-            raise
-
-    def _convert_to_string(self, value) -> str:
-        """Convert various types to string, with special handling for numpy arrays."""
-        try:
-            if isinstance(value, np.ndarray):
-                # Handle numpy string arrays
-                if value.dtype.kind in ['U', 'S']:  # Unicode or byte string
-                    if value.size == 1:
-                        # Single element array
-                        return value.item()
-                    elif value.size > 0:
-                        # Multi-element array - take first element
-                        return value.flatten()[0]
-                    else:
-                        # Empty array
-                        return ""
-                # Handle other numpy arrays
-                return str(value.tolist())
-            elif isinstance(value, bytes):
-                return value.decode('utf-8')
-            elif isinstance(value, (list, dict)):
-                return json.dumps(value)
-            else:
-                return str(value)
-        except Exception as e:
-            self.logger.error(f"Error converting value to string: {e}")
-            self.logger.debug(f"Value type: {type(value)}")
-            self.logger.debug(f"Value: {value}")
-            return ""
 
     def search_vector_store(self, query: str, filter: Dict = None, top_k: int = 3) -> List[Document]:
-        """Enhanced search with index validation."""
+        """Search with user-prompted credential refresh."""
         if self.vectorstore is None:
-            self.logger.error("Vectorstore not initialized")
+            print("Vectorstore not initialized")
             return []
 
         try:
-            self.logger.info("\n--- Search Parameters ---")
-            self.logger.info(f"Query: {query}")
-            self.logger.info(f"Filter: {filter}")
-            self.logger.info(f"Top K: {top_k}")
+            # Update client before search if using AWS
+            if hasattr(self, 'credential_manager'):
+                self.embeddings.client = self.credential_manager.get_bedrock_client()
 
-            # Access the underlying dataset
+            print("\n--- Search Parameters ---")
+            print(f"Query: {query}")
+            print(f"Filter: {filter}")
+            print(f"Top K: {top_k}")
+
             ds = self.vectorstore.vectorstore.dataset
-
-            # Get dataset size and validate
             dataset_size = len(ds.embedding)
-            self.logger.info(f"Dataset size: {dataset_size}")
+            print(f"Dataset size: {dataset_size}")
 
             if dataset_size == 0:
-                self.logger.error("Empty dataset")
+                print("Empty dataset")
                 return []
 
-            # Generate query embedding
             query_embedding = self.embeddings.embed_query(query)
 
-            # Convert embeddings to numpy array safely
             try:
                 embeddings = ds.embedding.numpy()
                 if len(embeddings.shape) == 3:
                     embeddings = embeddings.squeeze(1)
             except Exception as e:
-                self.logger.error(f"Error accessing embeddings: {e}")
+                print(f"Error accessing embeddings: {e}")
                 return []
 
-            # Calculate similarities
             similarities = np.dot(embeddings, query_embedding) / (
                     np.linalg.norm(embeddings, axis=1) * np.linalg.norm(query_embedding)
             )
 
-            # Get top k indices with bounds checking
-            top_k = min(top_k, dataset_size)  # Ensure we don't request more than available
+            top_k = min(top_k, dataset_size)
             top_indices = np.argsort(similarities)[-top_k:][::-1]
-
-            # Validate indices
             valid_indices = [idx for idx in top_indices if 0 <= idx < dataset_size]
-            if len(valid_indices) != len(top_indices):
-                self.logger.warning(f"Some indices were out of bounds. Found {len(valid_indices)} valid indices.")
 
-            # Process results
+            if len(valid_indices) != len(top_indices):
+                print(f"Some indices were out of bounds. Found {len(valid_indices)} valid indices.")
+
             processed_results = []
             for idx in valid_indices:
                 try:
-                    # Safely access dataset tensors
-                    text_array = ds.text[int(idx)].numpy()  # Ensure integer index
+                    text_array = ds.text[int(idx)].numpy()
                     metadata_array = ds.metadata[int(idx)].numpy()
 
-                    # Convert text and create document
                     text_str = self._convert_to_string(text_array)
                     if not text_str:
                         continue
@@ -570,18 +594,42 @@ class RAGRetriever:
                     processed_results.append(doc)
 
                 except IndexError as e:
-                    self.logger.error(f"Index {idx} out of bounds: {e}")
+                    print(f"Index {idx} out of bounds: {e}")
                     continue
                 except Exception as e:
-                    self.logger.error(f"Error processing result at index {idx}: {e}")
+                    print(f"Error processing result at index {idx}: {e}")
                     continue
 
-            self.logger.info(f"Successfully processed {len(processed_results)} results")
+            print(f"Successfully processed {len(processed_results)} results")
             return processed_results
 
         except Exception as e:
-            self.logger.error(f"Error during similarity search: {e}")
+            print(f"Error during similarity search: {e}")
             return []
+
+    def _convert_to_string(self, value) -> str:
+        """Convert various types to string, with special handling for numpy arrays."""
+        try:
+            if isinstance(value, np.ndarray):
+                if value.dtype.kind in ['U', 'S']:
+                    if value.size == 1:
+                        return value.item()
+                    elif value.size > 0:
+                        return value.flatten()[0]
+                    else:
+                        return ""
+                return str(value.tolist())
+            elif isinstance(value, bytes):
+                return value.decode('utf-8')
+            elif isinstance(value, (list, dict)):
+                return json.dumps(value)
+            else:
+                return str(value)
+        except Exception as e:
+            print(f"Error converting value to string: {e}")
+            print(f"Value type: {type(value)}")
+            print(f"Value: {value}")
+            return ""
 
     def _parse_metadata(self, metadata) -> dict:
         """Parse metadata into dictionary with improved numpy handling."""
@@ -601,17 +649,17 @@ class RAGRetriever:
                 try:
                     return json.loads(metadata)
                 except json.JSONDecodeError:
-                    self.logger.warning("Failed to parse metadata JSON string")
+                    print("Failed to parse metadata JSON string")
                     return {}
 
             if isinstance(metadata, dict):
                 return {k: self._convert_to_string(v) for k, v in metadata.items()}
 
-            self.logger.warning(f"Unexpected metadata type: {type(metadata)}")
+            print(f"Unexpected metadata type: {type(metadata)}")
             return {}
 
         except Exception as e:
-            self.logger.error(f"Error processing metadata: {e}")
+            print(f"Error processing metadata: {e}")
             return {}
 
     def is_empty(self) -> bool:
@@ -623,5 +671,5 @@ class RAGRetriever:
             ds = self.vectorstore.vectorstore.dataset
             return len(ds.embedding) == 0
         except Exception as e:
-            self.logger.error(f"Error checking vectorstore: {e}")
+            print(f"Error checking vectorstore: {e}")
             return True
