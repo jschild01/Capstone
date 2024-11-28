@@ -7,6 +7,7 @@ if __name__ == "__main__":
     project_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
     data_dir = os.path.join(project_root, 'data')
     demo_dir = os.path.join(project_root, 'demo')
+    vstore_dir = os.path.join(demo_dir, 'vector_stores')
     config_dir = os.path.join(project_root, 'config')
     src_dir = os.path.join(project_root, 'src')
     components_dir = os.path.join(src_dir, 'components')
