@@ -34,13 +34,19 @@ class HistOracleApp:
         self.vstore_name = ""
 
     def render_title(self):
-        st.title("HistOracle")
+        #st.title("HistOracle")
+        st.title("FolkRAG")
         st.subheader("Library of Congress Research Assistant")
 
     def get_user_input(self):
         self.query = st.text_input("Enter your query:", "")
         self.top_k = st.sidebar.selectbox("Select the top-k documents to process:", options=[1, 3, 5, 8, 10])
-        self.vstore_name = st.sidebar.selectbox("Select which vector store you would like to query against:", options=['vectorstore_all_250_instruct', 'vectorstore_all_1000_instruct', 'vectorstore_all_250_titan'])
+        self.vstore_name = st.sidebar.selectbox("Select which vector store you would like to query against:", options=['vectorstore_all_250_instruct', 
+                                                                                                                       'vectorstore_all_1000_instruct',
+                                                                                                                       'vectorstore_all_250_titan',
+                                                                                                                       'vectorstore_sample_250_instruct',
+                                                                                                                       'vectorstore_sample_1000_instruct', 
+                                                                                                                       ])
 
     def validate_input(self):
         if not self.query.strip():

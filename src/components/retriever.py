@@ -338,7 +338,16 @@ class retriever():
             embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
             vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
             return vectorstore, embeddor
-        #elif vstore_name=='vectorstore_sampleX_instruct'
+        elif vstore_name=='vectorstore_sample_250_instruct':
+            vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_sample_250_instruct')
+            embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
+            vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
+            return vectorstore, embeddor
+        elif vstore_name=='vectorstore_sample_1000_instruct':
+            vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_sample_1000_instruct')
+            embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
+            vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
+            return vectorstore, embeddor
         elif vstore_name=='vectorstore_all_250_titan':
             vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_all_250_titan')
             embeddor = lambda texts: self.get_embedding_vectors(texts, bedrock_client)
