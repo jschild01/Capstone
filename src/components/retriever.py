@@ -329,18 +329,18 @@ class retriever():
 
     def get_vector_store(self, vstore_name, bedrock_client):
         if vstore_name=='vectorstore_all_250_instruct':
-            vstor_dir = os.path.join(self.project_root, 'data', 'vectorstore_all_250_instruct')
+            vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_all_250_instruct')
             embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
             vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
             return vectorstore, embeddor
         elif vstore_name=='vectorstore_all_1000_instruct':
-            vstor_dir = os.path.join(self.project_root, 'data', 'vectorstore_all_1000_instruct')
+            vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_all_1000_instruct')
             embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
             vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
             return vectorstore, embeddor
         #elif vstore_name=='vectorstore_sampleX_instruct'
         elif vstore_name=='vectorstore_all_250_titan':
-            vstor_dir = os.path.join(self.project_root, 'data', 'vectorstore_all_250_titan')
+            vstor_dir = os.path.join(self.project_root, 'data', 'vector_stores', 'vectorstore_all_250_titan')
             embeddor = lambda texts: self.get_embedding_vectors(texts, bedrock_client)
             vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
             return vectorstore, embeddor
@@ -440,28 +440,12 @@ class retriever():
         return rr_results, rr_filenames, rr_best_filename
 
     def runRetriever(self, query, top_k, vstore_name):
-        #project_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-        config_dir = os.path.join(self.project_root, 'config')
-        data_dir = os.path.join(self.project_root, 'data')
-        cur_dir = os.path.join(self.project_root, 'streamlit')
-        vstor_dir = os.path.join(data_dir, self.vstore)
-
-        # Setup
-        #top_k = 3 #[1, 5, 10, 25, 50]
-        #query = 'What did Johnny Garrison say was the exact date he started his business?' # afs21189a_en.txt, "March 19, 1939"
-    
         # set client for amzn LLM
+        config_dir = os.path.join(self.project_root, 'config')
         config = self.load_configuration(config_dir)
         bedrock_client = self.create_bedrock_client(config)
 
-        # initialization: instructor/llama3 or titan/claude
-        #if self.embeddor=='titan':
-        #    embeddor = lambda texts: self.get_embedding_vectors(texts, bedrock_client)
-        #else:
-        #    embeddor = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
-        
         # set vectorstore (this one uses instructor-xl)
-        #vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
         vectorstore, embeddor = self.get_vector_store(vstore_name, bedrock_client)
 
         # generate hypothetical questions and responses using claude sonnet
