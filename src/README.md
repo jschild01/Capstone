@@ -32,3 +32,8 @@ components_dir = os.path.join(src_dir, 'components')
 ```
 
 To add new components to the application, place the files in the `src/components/` directory and ensure they are imported as needed.
+
+
+
+# License
+This project is licensed under the MIT License. See the LICENSE file in the root directory for details.

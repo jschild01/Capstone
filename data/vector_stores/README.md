@@ -8,3 +8,6 @@ Vector stores should be loaded into this repository.
 
 The Git repo already houses two smaller vector stores based on a small subset of the data, originally intended for testing. 
 
+
+# License
+This project is licensed under the MIT License. See the LICENSE file in the root directory for details.

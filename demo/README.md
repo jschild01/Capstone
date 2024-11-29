@@ -12,3 +12,6 @@
 - **Retriever Integration**: Fetches the most relevant documents using pre-configured vector stores.
 - **Generative Response**: Generates a human-readable response based on the retrieved documents.
 
+
+# License
+This project is licensed under the MIT License. See the LICENSE file in the root directory for details.
