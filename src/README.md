@@ -3,6 +3,7 @@
 - `retriever.py`: Handles data retrieval tasks.
 - `app.py`: Main application logic
 
+<img width="581" alt="retriever_diagram" src="https://github.com/user-attachments/assets/caf21441-162e-4a24-bb3a-2f7410528647">
 
 
 # Usage
