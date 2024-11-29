@@ -354,7 +354,7 @@ class retriever():
             vectorstore = DeepLake(dataset_path=vstor_dir, embedding_function=embeddor, read_only=False)
             return vectorstore, embeddor
 
-    def test_document_retrieval(self, embeddor, query, vectorstore, top_k):
+    def document_retrieval(self, embeddor, query, vectorstore, top_k):
         # Perform the search
         results = self.search_vector_store(embeddor=embeddor, query=query, vectorstore=vectorstore, top_k=top_k)
         if not results:
@@ -511,9 +511,9 @@ class retriever():
         combined_input3 = f'{query3} {response3}'
 
         # query vectorstore; all_match_filenamesX are uniques
-        query1, results1, num_matches1, best_match_content1, best_match_filename1, best_match_chunkid1, best_match_score1, all_match_filenames1, all_match_chunkids1, all_match_scores1 = self.test_document_retrieval(embeddor, combined_input1, vectorstore, top_k)
-        query2, results2, num_matches2, best_match_content2, best_match_filename2, best_match_chunkid2, best_match_score2, all_match_filenames2, all_match_chunkids2, all_match_scores2 = self.test_document_retrieval(embeddor, combined_input2, vectorstore, top_k)
-        query3, results3, num_matches3, best_match_content3, best_match_filename3, best_match_chunkid3, best_match_score3, all_match_filenames3, all_match_chunkids3, all_match_scores3 = self.test_document_retrieval(embeddor, combined_input3, vectorstore, top_k)
+        query1, results1, num_matches1, best_match_content1, best_match_filename1, best_match_chunkid1, best_match_score1, all_match_filenames1, all_match_chunkids1, all_match_scores1 = self.document_retrieval(embeddor, combined_input1, vectorstore, top_k)
+        query2, results2, num_matches2, best_match_content2, best_match_filename2, best_match_chunkid2, best_match_score2, all_match_filenames2, all_match_chunkids2, all_match_scores2 = self.document_retrieval(embeddor, combined_input2, vectorstore, top_k)
+        query3, results3, num_matches3, best_match_content3, best_match_filename3, best_match_chunkid3, best_match_score3, all_match_filenames3, all_match_chunkids3, all_match_scores3 = self.document_retrieval(embeddor, combined_input3, vectorstore, top_k)
         
         # reranking to get top_k
         combined_results = results1 + results2 + results3
