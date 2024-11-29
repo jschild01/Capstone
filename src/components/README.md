@@ -1,11 +1,8 @@
 # Components
 Main components for this RAG system consist of the `retriever.py` and `generator.py`. 
-
-# Usage
-Run the following command in the terminal to execute the Streamlit application.
-```bash
-streamlit run src/main.py
-``` 
+- [Usage](#usage)
+- [Retriever Details](#retriever-details)
+- [Generator Details](#generator-details)
 
 # Retriever Details
 The retriever module for information retrieval from vector stores using embedding models. The retriever leverages AWS Bedrock, DeepLake, and LangChain for advanced query processing and document search functionalities. Primary features include:
@@ -24,6 +21,18 @@ A vector store is selected by the user and loaded in by the application. There a
 
 ### HyDE Generator
 The `hyde_generator` function uses AWS Bedrock's Claude model to generate and process variations of the users' query and their responses. The LLM generates an initial response for the original query, rewrites the query into slightly different variations, and generates answers for each variation. Each query-and-response is generated using progressively higher temperatures (i.e., 0.7, 0.8, 0.9) to balance coherence and creativity while ensuring variety. Finally, each query-and-response is combined into a single string, or "document", for a total of three hypothetical documents that will each be searched against the vector store. 
+
+Query generation prompt example:
+```
+Rewrite this query to be slightly different but similar in meaning: {query}
+```
+
+Response generation prompt example:
+```
+You are a document that answers this question {query}.
+
+Write a short, natural paragraph that directly answers this question. Include additional relevant information if possible.
+```
 
 ### Document Retrieval
 The `test_document_retrieval` function receives each generated "document" containing the query-and-response and searches the vector store to retrieve `top_k` matching documents for each. Given three hypothetical documents are generated for retrieval, a `top_k` of two, for example, would yield a combined six fetched documents. All of the retrieved documents are then combined and de-duplicated.
