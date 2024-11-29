@@ -3,7 +3,7 @@
 - `retriever.py`: Handles data retrieval tasks.
 - `app.py`: Main application logic
 
-Overview of Retrieval Augmented Generation (RAG) system
+# Overview of Retrieval Augmented Generation (RAG) system
 <img width="581" alt="retriever_diagram" src="https://github.com/user-attachments/assets/caf21441-162e-4a24-bb3a-2f7410528647">
 
 
