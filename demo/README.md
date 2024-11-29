@@ -12,8 +12,3 @@
 - **Retriever Integration**: Fetches the most relevant documents using pre-configured vector stores.
 - **Generative Response**: Generates a human-readable response based on the retrieved documents.
 
-## Usage
-Run the following command in the terminal to execute the Streamlit application.
-```bash
-streamlit run src/main.py
-``` 
