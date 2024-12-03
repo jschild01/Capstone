@@ -1,4 +1,4 @@
-# FoldRAG: Library of Congress Research Assistant
+# FolkRAG: Library of Congress Research Assistant
 
 **FolkRAG** is a Streamlit-based application that acts as a research assistant for exploring resources from the Library of Congress. It leverages state-of-the-art retriever and generator models to process user queries and return relevant information from a vector store.
 
