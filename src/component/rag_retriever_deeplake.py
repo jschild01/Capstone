@@ -249,7 +249,7 @@ class RAGRetriever:
         base = re.sub(r'_(en|en_translation)\.txt$', '', filename)
         return f"{base}.mp3"
 
-    def process_with_checkpoints(self, documents: List[Document], batch_size: int = 100,
+    def process_with_checkpoints(self, documents: List[Document], batch_size: int = 1000,
                                  checkpoint_dir: str = 'checkpoints') -> None:
         """Process documents with checkpointing for recovery from failures."""
         import os
@@ -407,7 +407,7 @@ class RAGRetriever:
 
         return self.documents
 
-    def generate_embeddings(self, documents: List[Document], batch_size: int = 100) -> None:
+    def generate_embeddings(self, documents: List[Document], batch_size: int = 1000) -> None:
         """Generate embeddings with user-prompted credential refresh."""
         if self.vectorstore is None:
             print("Vectorstore not initialized. Call initialize_vectorstore first.")
@@ -528,8 +528,9 @@ class RAGRetriever:
             print(f"Error in batch processing: {e}")
             raise
 
-    def search_vector_store(self, query: str, filter: Dict = None, top_k: int = 3) -> List[Document]:
-        """Search with user-prompted credential refresh."""
+    def search_vector_store(self, query: str, filter: Dict = None, top_k: int = 3, txt_boost: float = 1.2) -> List[
+        Document]:
+        """Search with efficient boosting for txt files."""
         if self.vectorstore is None:
             print("Vectorstore not initialized")
             return []
@@ -543,6 +544,7 @@ class RAGRetriever:
             print(f"Query: {query}")
             print(f"Filter: {filter}")
             print(f"Top K: {top_k}")
+            print(f"TXT Boost Factor: {txt_boost}")
 
             ds = self.vectorstore.vectorstore.dataset
             dataset_size = len(ds.embedding)
@@ -562,19 +564,39 @@ class RAGRetriever:
                 print(f"Error accessing embeddings: {e}")
                 return []
 
+            # Calculate base similarities
             similarities = np.dot(embeddings, query_embedding) / (
                     np.linalg.norm(embeddings, axis=1) * np.linalg.norm(query_embedding)
             )
 
-            top_k = min(top_k, dataset_size)
-            top_indices = np.argsort(similarities)[-top_k:][::-1]
-            valid_indices = [idx for idx in top_indices if 0 <= idx < dataset_size]
+            # Get initial top candidates (3x the requested amount to account for potential boosting)
+            candidate_count = min(top_k * 3, dataset_size)
+            candidate_indices = np.argsort(similarities)[-candidate_count:][::-1]
 
-            if len(valid_indices) != len(top_indices):
-                print(f"Some indices were out of bounds. Found {len(valid_indices)} valid indices.")
+            # Process only the candidates
+            scored_indices = []
+            for idx in candidate_indices:
+                try:
+                    metadata_array = ds.metadata[int(idx)].numpy()
+                    metadata_dict = self._parse_metadata(metadata_array)
+
+                    # Apply boost to txt files
+                    adjusted_similarity = similarities[idx]
+                    if metadata_dict.get('file_type') == 'text':
+                        adjusted_similarity *= txt_boost
+
+                    scored_indices.append((idx, adjusted_similarity))
+                except Exception as e:
+                    print(f"Error processing metadata at index {idx}: {e}")
+                    continue
+
+            # Sort candidates by adjusted similarity and get top k
+            scored_indices.sort(key=lambda x: x[1], reverse=True)
+            top_k = min(top_k, len(scored_indices))
+            top_indices = [idx for idx, _ in scored_indices[:top_k]]
 
             processed_results = []
-            for idx in valid_indices:
+            for idx in top_indices:
                 try:
                     text_array = ds.text[int(idx)].numpy()
                     metadata_array = ds.metadata[int(idx)].numpy()
@@ -585,6 +607,7 @@ class RAGRetriever:
 
                     metadata_dict = self._parse_metadata(metadata_array)
                     metadata_dict['similarity_score'] = float(similarities[idx])
+                    metadata_dict['adjusted_similarity_score'] = float(scored_indices[top_indices.index(idx)][1])
                     metadata_dict['dataset_index'] = int(idx)
 
                     doc = Document(
@@ -600,7 +623,15 @@ class RAGRetriever:
                     print(f"Error processing result at index {idx}: {e}")
                     continue
 
-            print(f"Successfully processed {len(processed_results)} results")
+            # Log the types of documents retrieved
+            file_types = [
+                f"{doc.metadata.get('file_type', 'unknown')}"
+                f"{'*' if doc.metadata.get('file_type') == 'text' else ''}"
+                for doc in processed_results
+            ]
+            print(f"\nSuccessfully processed {len(processed_results)} results")
+            print(f"Retrieved documents: {file_types} (* = boosted)")
+
             return processed_results
 
         except Exception as e:

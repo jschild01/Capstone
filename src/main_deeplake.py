@@ -97,7 +97,7 @@ def main():
 
     set_seed(42)
     data_dir = os.path.join(project_root, 'data')
-    chunk_size = 1000
+    chunk_size = 250
 
     logger.info(f"Data directory: {data_dir}")
     logger.info(f"Chunk size: {chunk_size}")
@@ -165,7 +165,7 @@ def main():
             logger.info("Using existing embeddings")
 
         # Initialize RAG components
-        model_name = 'claude'  # Options: 'llama', 't5', 'claude'
+        model_name = 'llama'  # Options: 'llama', 't5', 'claude'
         logger.info(f"Initializing RAG pipeline with {model_name} model")
 
         qa_generator = RAGGenerator(model_name=model_name)
