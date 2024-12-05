@@ -204,187 +204,312 @@ def test_sample_queries(retriever: RAGRetriever) -> List[Tuple[str, int, bool, b
 
         ("Complete this sentence: 'They just want to go to their friend. They don't need to make'", "mb_r019_01_en.txt",
          "appointment"),
-        ("Complete this sentence: 'The mules are not hungry. They're lively and'", "sr22a_en.txt", "gay"),
-        ("Complete this sentence: 'Take a trip on the canal if you want to have'", "sr28a_en.txt or sr13a_en.txt",
-         "fun"),
-        (
-        "What is the name of the female character mentioned in the song that begins 'In Scarlett town where I was born'?",
-        "sr02b_en.txt", "Barbrae Allen"),
-        ("According to the transcript, what is Captain Pearl R. Nye's favorite ballad?", "sr28a_en.txt",
-         "Barbara Allen"),
-        ("Complete this phrase from the gospel train song: 'The gospel train is'", "sr26a_en.txt", "night"),
-        ("In the song 'Barbara Allen,' where was Barbara Allen from?", "sr02b_en.txt", "Scarlett town"),
-        ("In the song 'Lord Lovele,' how long was Lord Lovele gone before returning?", "sr08a_en.txt",
-         "A year or two or three at most"),
-        ("What instrument does Captain Nye mention loving?", "sr22a_en.txt", "old fiddled mouth organ banjo"),
-        ("In the song about pumping out Lake Erie, what will be on the moon when they're done?", "sr27b_en.txt",
-         "whiskers"),
-        ("Complete this line from a song: 'We land this war down by the'", "sr05a_en.txt", "river"),
-        ("What does the singer say they won't do in the song 'I Won't Marry At All'?", "sr01b_en.txt",
-         "Marry/Mary at all"),
-        ("What does the song say will 'outshine the sun'?", "sr17b_en.txt", "We'll/not"),
-        ("In the 'Dying Cowboy' song, where was the cowboy born?", "sr20b_en.txt", "Boston"),
-        ("When singing about the mountains, in what should I burn in?", "sr10a_en.txt", "the trees/trees"),
-        ('What is the farmer doing being sung about?', 'sr10a_en.txt', 'planting corn and beans'),
-        ('Who killed Ka-Raban?', 'sr23b_en.txt', 'I killed Ka-Raban'),
-        ('Who is Kevin Perlarni?', 'sr28a_en.txt', 'the last of the Ohio Canal Captains'),
-        ("How many boys and girls were in the Captain's family?", 'sr28a_en.txt', '18 of us 11 boys and seven girls'),
-        ('Why did Mr. Lomax travel to acrohone?', 'sr28a_en.txt',
-         'In the autumn of 1936, I received a letter from a lady reporter in the acrohone of how, saying that a wonderful ballot singer lived in that town. I packed my recording equipment in my car and arrived in acrohone the following week.'),
-        ('How much money do you play for?', 'sr27a_en.txt', 'I play for an nickel I play for a dime.'),
-        ('Who has dancing eyes?', 'sr27a_en.txt', 'And dear mother nature with kind dancing eyes.'),
-        ('Where does the gambling happen?', 'sr27a_en.txt or sr22a_en.txt', 'I gamble in Cleveland. (also see below)'),
-        ('If the gambling is not in Cleveland, then where does it take place?', 'sr21a_en.txt',
-         "I gamble down in Washington. I gamble down in Spain. I'm going down in Georgia to gamble my last game."),
-        ('Who is the doctor of Danielle Loughano?', 'sr21a_en.txt',
-         "I am Rowing Gamble...I'm the doctor of Danielle Loughano."),
-        ('Rowing Gamble, the doctor of Danielle Loughano, met a girl. Describe her appearance. ', 'sr21a_en.txt',
-         'Her eyes were like twos sparkling diamonds. As the stars of a clear frosty night. Her cheeks were too blooming roses. And a teeth of the ivory so white. She was emboiled a goddess of freedom. And green ones the mantle she wore.'),
-        ("What's the gospel train?", 'sr26a_en.txt', 'The gospel train is night.'),
-        ('What is coming out tonight?', 'sr25b_en.txt', 'Oh yellow but yellow is actually coming out tonight.'),
-        ('Tell me about the girl with beautiful face and smile.', 'sr25b_en.txt',
-         'There lives a girl literally, Love with beautiful face and smile. Her cheeks are like still red. Red rose and eyes are lovely brown. Her hair is long and beauty follow me.'),
-        ('When are you meeting Mary?', 'sr25b_en.txt',
-         "Pretty little Mary, my known boat's very. Oh my turtle dove. I'll meet you when the sun goes down."),
-        ('Who are you meeting at sun down?', 'sr25b_en.txt',
-         "Pretty little Mary is a keeper of a dairy and so. How I love. I'll meet you when the sun goes down."), (
-        'Why were they praying on the ship?', 'sr25a_en.txt',
-        "In a storm of sea. To the fearful thing in winter to be scattered by the blast. And to hear the rallying trumpet thunder cut away the mast. We were crowded in the cabin not a soul would dare to sleep. While the hungry sea was roaring and the storm was on the deep. Our ship was like a feather while the stouter's tail is breath. And the angry sea was roaring as the breaker threatened there. So we hovered there in silence each one busy in his prayers."),
-        ('What did the little girl take while on the ship?', 'sr25a_en.txt',
-         'Then his little daughter whispered as she took his icy hands.'), (
-        'Why must you use your common sense?', 'sr24b_en.txt',
-        'Experience I know is best so you must use your common sense.'), ('how much does bread cost?', 'sr24b_en.txt',
-                                                                          "Just one penny please oh mister, just one penny to buy bread. Just one penny's all I ask you, just one penny I know more."),
-        ('Why does mother need or want bread?', 'sr24b_en.txt',
-         "Mother weeps I know she's failing and may die for one to bread. Just one penny's all I ask you, just one penny I'll be saying. Mother sick and much I worry that till die for one to bread."),
-        ('Who should I stay away from and give room?', 'sr24a_en.txt',
-         'So boys keep away from the girls I see and give them lots of room.'),
-        ('where should I big a big hole?', 'sr23a_en.txt', 'And dig a big hole in the center'),
-        ('how many good fellows are there?', 'sr23a_en.txt', 'Then let those six trusty good fellows'), (
-        'For what reason did I show the world I did for?', 'sr22b_en.txt',
-        'So take my grave both wide and deep, place a marble stone, and not my head and feet, and on my breast, that turtle, though, to show to the world that I died for love.'),
-        ("I eat when I'm hungry. When do I drink?", 'sr22a_en.txt', "I eat when I'm hungry and drink when my dry."),
-        ('What do I like better than a gay time?', 'sr22a_en.txt', 'I like a gay time but I love just one girl.'), (
-        'Why does Rowing Gamble put money down?', 'sr21a_en.txt',
-        'Rowing Gamble. I am Rowing Gamble. I am going down in town. Whenever I meet a deck of cards I lay my money down'),
-        ('Describe how the young cowboy was dressed and looked.', 'sr20b_en.txt',
-         'I saw a young cowboy. All dressed in white linen. With cold black eyes and waving black hair.'),
-        ('What did the boy do in town?', 'sr20a_en.txt', 'but all the boys in our town went out to toss their ball'), (
-        'What did the rich lady from London call herself?', 'sr19b_en.txt',
-        'There was a rich lady from London she came. She called herself silly. Pretty silly by name.'), (
-        'Why must Sally suffer?', 'sr19b_en.txt',
-        "Oh, Sally, oh, Sally. Oh, Sally said he, oh don't you remember. How you slighted me. You treated me like me, my love you discord. So now you must suffer for the past you have done."),
-        ('Who grew sick and denied treatment from the doctor', 'sr19b_en.txt',
-         "Pretty Sally grew sick and she pitchy would die. She tangled words and lovin' herself she accused. So sent for the doctor she once had refused. Oh, am I that doctor? Who skill you would try? Or am I the young man? You once did deny? Yes you were the doctor can cure, can cure."),
-        ("What is Highland White's title?", 'sr18b_en.txt',
-         "I'll spoke say hard to you, Highland White, I'll go my chief, I'm ready."), (
-        "What word or phrase is used to rhyme with this line: 'should this starsteps discover'", 'sr18b_en.txt',
-        'when they had slain her lover'),
-        ('where does the damsel that dwell?', 'sr18a_en.txt', 'In London, sweet city, a fair damsel that dwells.'), (
-        "What was the woman's name who was courted by a sailor?", 'sr18a_en.txt',
-        'She was courted by sailor for two bayous brine, and him two is trade with a shippipe and a shippipe. He says, my Miss Mary, if you will agree, if you will consent, go along with me.'),
-        ('How did the blood flow from her body?', 'sr18a_en.txt',
-         'And the blood from her body, like a fountain did flow.'), (
-        'What were the others doing on the train?', 'sr18a_en.txt',
-        'Some were reading, some were drinking, some were sleeping, some were laughing and some they cry.'), (
-        'What did she say half crying?', 'sr17b_en.txt',
-        "Oh, don't leave me now, this she said half crying. Be manly and brave."), (
-        'What happened on the banks of silly?', 'sr17a_en.txt',
-        "we'll both sport together on the banks of Silly…How happy we will be, and we'll both sport together, on the banks of Silly."),
-        ('How was the weather on the eighth day of March?', 'sr14b_en.txt',
-         'On the eight day of March about ten in the morning, The sky it was cloudless and bright shown the sun.'), (
-        "what phrase was used to rhyme with 'rebel flag flew'?", 'sr14b_en.txt',
-        'The turmen took conquer the Comberland crew'), (
-        'What is described as a "dangerous, terrific power"?', 'sr02a_en.txt',
-        "Her gun's a dangerous, a terrific power that savages,"), (
-        'What ultimately happened to the British League?', 'sr02a_en.txt',
-        'The whole British League was captured completely.'), (
-        "What unfortunate news is delivered to Bird's parents in the letter?", 'sr03a_en.txt',
-        "The letter to Bird's parents contained distressing news that Bird was to suffer for deserting from the brig 'Naiga,' indicating that he was ordered to die."),
-        ('What happens to the servant who overhears the conversation in the song?', 'sr04a_en.txt',
-         "One of Lord benefits servants then, who overheard it all. He randomly came to the river side, and he lit the thin and swam.He swam till he came to the other side, and then he lit out and ran. He randomly came to King George's gate, he rattled and rattled and rang."),
-        ('What behavior change does the song describe about the man after he was married?', 'sr03b_en.txt',
-         "Before we were married, he's models of kind, and there everyone spoke of him well. But now he goes out and my heart's full of doubts and nothing to me will he tell."),
-        ('How did the woman in the song respond when her husband wanted to fight?', 'sr03b_en.txt',
-         'My nerves give way out and I cry. And in that he delights and not wants to fight, but please him so often I try. But one day I accepted his challenge, So grand with a flat iron I knocked him quite cold.'),
-        ('What is repeatedly mentioned as being kept open in the song?', 'sr05a_en.txt',
-         'The song repeatedly mentions keeping the "golden gates" wide open.'), (
-        'In the song about the devil and a river side, whos face was seen in a place?', 'sr05a_en.txt',
-        "For I'm going to a place where I've seen my Savior's face."),
-        ('According to the song, is the Bible true or false?', 'sr05a_en.txt', "The Bible's true."), (
-        'What is the name of the hill being climbed towards the golden gates?', 'sr05a_en.txt',
-        "But keep those golden gays wide open. For I am climbing Zion's hill. So keep those gays a jar."), (
-        'What phrase is repeated in the song about the people all dressed in white?', 'sr11b_en.txt',
-        "Mary don't you read"),
-        ('What does Sally do while singing?', 'sr11b_en.txt', 'Sally often chuckles while they sing this little song'),
-        ('How does the lady try to defend Riley?', 'sr10b_en.txt',
-         'The lady with the tear began and the sweet fly-g. The fall was done a while is a blame lies with me. I forced him to leave this place and come along with me. I loved him out of Malaysia which brought back destiny.'),
-        ("What consequence does Willy Riley face for eloping with the young woman against her father's wishes?",
-         'sr10b_en.txt',
-         "Willy Riley faces imprisonment and the threat of severe punishment for eloping with the young woman against her father's wishes."),
-        ('What valuable items does the young woman mention taking with her when she eloped with Willy Riley?',
-         'sr10b_en.txt',
-         'The young woman mentions taking diamonds, rings, a watch, silver, and other precious things with her when she eloped with Willy Riley, amounting to a value of more than 500 pounds.'),
-        ("What is Mr. Soblet's plight in the song?", 'sr11a_en.txt',
-         'Mr. Soblet appears to be in a well, expressing distress or an "awful yell" as described in the song.'),
-        ('How did Soblet fall into a well?', 'sr11a_en.txt', 'I lost my balance and my fell-whoo.'), (
-        'Who did Mr. Hunter come after?', 'sr11a_en.txt',
-        'Then Mr. Rattles-Nake-whoo. Then Mr. Rattles-Nake-whoo said shut the door. I love you all whoo. Soon after Mr. Hunter came to whoo. Soon after Mr. Hunter came, He raised his gun with deadly aewo.'),
-        ('What challenges are described as being faced on the "knallet" as per the song?', 'sr14a_en.txt',
-         'The song describes facing challenges with robbers, skaters, bed bugs, and other pests such as roaches and crickets, all adding to the struggles and lively experiences on the "knallet."'),
-        ('Why did the man work and cry after learning the truth?', 'sr14a_en.txt',
-         'Not knowing she was dead and buried. With thoughts of her he was occupied. When he arrived to her home he hastened. The truth he learned he worked and cried. The sunshine of his life had vanished.'),
-        ('What action does the song frequently urge to be taken regarding the baby?', 'sr07b_en.txt',
-         'The song frequently urges to stop the noise and keep the baby still, emphasizing the need for quiet in order to calm or soothe the baby.'),
-        ('What did the woman dream about one night?', 'sr07a_en.txt',
-         'She had a dream that night that her lover was killed and she saw the blood running.'), (
-        'How does the woman predict her father will die?', 'sr07a_en.txt',
-        "And he told her she told him what would happen. He'd die public show."),
-        ('Who was the third that came in?', 'sr05b_en.txt', "The third came in was Lord Jennifer's wife"), (
-        'Who wears a ring on their finger?', 'sr05b_en.txt',
-        'For I know by the ring that you wear on your finger, you are Lord Bennett for twice.'), (
-        'How was Lord Bennett identified?', 'sr05b_en.txt',
-        'For I know by the ring that you wear on your finger, you are Lord Bennett for twice.'), (
-        'What bird is the clever tailor compared to?', 'sr12a_en.txt',
-        'Therely the tailor like a hawk in the stall, Tuberralli Tally,'), (
-        "Where is Jenny's piece of bread?", 'sr12b_nn.txt or sr12b_nn_en_translation.txt',
-        "And scorn she bows and starts to row my gentle let go Jenny. There's a piece of bread upon the shelf, see it there."),
-        ('Which is better, a trip to Omnick Great Lakes or a trip on grail boats?', 'sr13a_en.txt',
-         'You may talk of your pleasure trip to Omnick Great Lakes but a trip on these grail boats to bet takes the cake.'),
-        ('What caught the old boy and caused him to eat right for a long time?', 'sr13a_en.txt',
-         "Her hip nodded guys (hipnotic gaze?) and that wonderful smile would catch the old boy and he'd eat right for miles."),
-        ("What was Mrs. Dalligim's previous name?", 'sr21b_en.txt',
-         'She changed her name from lovely dime to Mrs. Dalligim of caroline'), (
-        'Where did the man go after dressing himself from top to toe?', 'sr21b_en.txt',
-        'I dressed myself from top to toe and down to diner I did go'), (
-        'Is the house cruffender nice or mean, and why did he get left?', 'sr01a_en.txt',
-        "For I have married a house-cruffender, and I think he's a nice young man, and I think he's a nice young man. If you will leave your house-cruffender, and go along with me,"),
-        ('How long was the woman at sea before she left her husband?', 'sr01a_en.txt',
-         "For I have married a house-cruffender, and I think he's a nice young man,she had not been that sea three weeks, I'm sure it was not for, until she began to leave the house-cruffender, you never see a anymore,"),
-        ('What weather element was covering the hills in this winter morning?', 'sr08b_en.txt',
-         "Like a winter's morning when the hills are glad with snow."), (
-        'Did the dark night leave the boat six years ago or was it someone else?', 'sr08b_en.txt',
-        'For my dark night can all her. For my dark night can all her though may he live or die. My every hope is based on him. To love will wait, to love will win. She said while tears summarized it fall. To smile dark night can all her. To smile dark night can all her. Approving my dumb fall. His cold black eyes and curly hair. His flattering tongue, my heart and snare. Gentle was he, no rake like you. To advise our maiden. To advise our maiden to slide the jacket blue. It is six long years since he left our boat.'),
-        ('Describe the woman who was nameless and singingly.', 'sr08b_en.txt',
-         'I know this is true but told me by bitty. Her self who is nameless is singingly. It was a lovely young lady fair. Was walking out to take the air.'),
-        ('What accent or brogue did the woman laugh and joke in?', 'sr08b_en.txt',
-         "There were four miles around. Her prices were transparent. She stood her own ground. She laughed and she'd joke in a rich Irish bro. She cheered up her collar this bit of a robe."),
-        ('How long until lord love of his sin return to Nancy?', 'sr08a_en.txt',
-         'When will you be back Lord love of His sin, or when will you be back said she, in a year or two or three at most, I return to my fair Nancy,'),
-        ('What color was the horse that the lord rode while returning to Nancy?', 'sr08a_en.txt',
-         'So he rode and he rode on his milk white horse, till he came to London town,'), (
-        "What caused the Lord's death after discovering Nancy's death?", 'sr08a_en.txt',
-        'Lady Nancy, she died as I might today. Lord love of He died too, Morrow. Lady Nancy, she died out of court court. Reward love of He died for sorrow. Lord love of He died of sorrow.'),
-        ('Where were the lord and Nancy laid to rest?', 'sr08a_en.txt',
-         'Lady Nancy was laid, laid in the church. Lord love of He was laid, set by her side,'), (
-        'What are storms of the sea so often termed as?', 'sr19a_en.txt',
-        'and why are storms upon the sea so often termed as foes?')
+
+        ("What specific dates were the songs recorded at Akron, Ohio?", "sr28a_en.txt",
+         "Sunday, June the 27th, 1937"),
+
+        ("How does Captain Nye describe his family size on the canal?", "sr28a_en.txt",
+         "There were 18 of us, 11 boys and 7 girls. And I'm the 15th youngster, 9th boy"),
+
+        ("What does the song say about gambling locations?", "sr21a_en.txt",
+         "I've gambled down in Washington, I've gambled down in Spain, I'm going down in Georgia to gamble my last game"),
+
+        ("In Aaron's Green Shore, how are the woman's features described?", "sr21a_en.txt",
+         "Her eyes were like two sparkling diamonds, as the stars of a clear frosty night, her cheeks were two blooming roses, and her teeth all the more of the ivory so white"),
+
+        ("What happens to Lord Lovell when he returns to town?", "sr08a_en.txt",
+         "And there he heard the church bells ring, and the people a-morning round"),
+
+        ("What do they say about Lord Lovell and Lady Nancy's deaths?", "sr08a_en.txt",
+         "Lady Nancy, she died as I might today, Lord Lovell, he died tomorrow. Lady Nancy, she died out of pure, pure grief, Lord Lovell, he died for sorrow"),
+
+        ("What grows from Lady Nancy's grave?", "sr08a_en.txt",
+         "And out of her bosom there grew a rose"),
+
+        ("How is the cook's baking described in the canal boat song?", "sr13a_en.txt",
+         "She's so fond of biscuits she makes them like rocks, and woe unto you if you fall in the locks. They do for a cannon, with them we kill snakes"),
+
+        ("What instruction is given about the mules and cook?", "sr13a_en.txt",
+         "Whatever you do, be sure don't forget, tap the mule gently while the cook is on deck"),
+
+        ("How does the song describe what the Gospel Train does?", "sr26a_en.txt",
+         "She crosses every trestle, through tunnels she does roar, and over tops the mountains, she's bound for Zion's shore"),
+
+        ("What's the warning about getting tickets for the Gospel Train?", "sr26a_en.txt",
+         "Oh hurry to the station, and get your ticket there. As proof of your salvation, let nothing interfere"),
+
+        ("In the beggar song, what does the child say about their mother?", "sr24b_en.txt",
+         "Mother weeps I know she's failing and may die for want of bread"),
+
+        ("What does the penny beggar say about their home situation?", "sr24b_en.txt",
+         "Father died when I a baby, mother worked, helped us a home, but in time her strength all left her"),
+
+        ("How does the song describe the beefsteak on the canal boat?", "sr13a_en.txt",
+         "Beefsteak is tough as a fighting dog's neck, and the flies they play tag with their cook on the deck"),
+
+        ("What happens when the superintendent visits the canal boat?", "sr13a_en.txt",
+         "Her hypnotic eyes and that wonderful smile would catch the old boy and he'd eat right for miles"),
+
+        ("What does Lord Lovell say about how long he'll be gone?", "sr08a_en.txt",
+         "In a year or two or three at most, I'll return to my fair Nancy"),
+
+        ("How does Mr. Lomax describe his first meeting with Captain Nye?", "sr28a_en.txt",
+         "The kind reporter brought to my room a big, breezy, wholesome, smiling man"),
+
+        ("What does Captain Nye say about his birth?", "sr28a_en.txt",
+         "I was born on a canal boat which ran from Akron to the Ohio River"),
+
+        ("How does Captain Nye describe where he learned songs?", "sr28a_en.txt",
+         "My great-grandmothers brought many folk songs from England, and we all picked up more songs in this country wherever we traveled"),
+
+        ("In the bird song, what is the farmer doing?", "sr10a_en.txt",
+         "Sing about the farmer planting corn and beans"),
+
+        ("What does the dying cowboy say about his family?", "sr20b_en.txt",
+         "My friends and relation, I left them in Boston, my parents knew not where I had roamed"),
+
+        ("What message does the dying cowboy want sent?", "sr20b_en.txt",
+         "Please write me a letter to my gray-haired mother and break the news to my sister so dear"),
+
+        ("How is the canal cook's personality described?", "sr13a_en.txt",
+         "She sure had an answer for all that was said, and if you would cross her she'd try raise the dead"),
+
+        ("What weapons are mentioned in Lord Vannifer's confrontation?", "sr05b_en.txt",
+         "If I have two swords by my side, they cost me deep in my purse, but you shall have the very best one, and I shall have the worst"),
+
+        ("How does Lord Vannifer's servant warn of the danger?", "sr05b_en.txt",
+         "He ran till he came to the riverside, then leaped in and swam. He swam till he came to the other side, then leaped out and ran"),
+
+        ("What does the young woman say about the gambler to her mother?", "sr21a_en.txt",
+         "But the love I have for this gambling man no human tongue can tell"),
+
+        ("How is Mary described in the canal boat wedding song?", "sr25b_en.txt",
+         "Her cheeks are like the red red rose and her eyes have a lovely brown, her hair is long and beautiful"),
+
+        ("What birds are listed in the Little Birdie song?", "sr10a_en.txt",
+         "Little Snowbird, Blue Bird, Blackbird, Tant, goldfish, Tanninger, meadowlark, indigo bunting, wren, Robin Redbreast and Bob White"),
+
+        ("What happens in the Resurrection Car verse?", "sr05a_en.txt",
+         "For I'm going to a place where I'll see my Savior's face when I ride up in the resurrection car"),
+
+        ("How does the girl first meet the gambler?", "sr21a_en.txt",
+         "She took me in her parlor, she cooled me with her fan, she whispered low in a mother's ears, I love that gambling man"),
+
+        ("In the gambling song, what does her mother ask her?", "sr21a_en.txt",
+         "Oh, doctor, oh, dear doctor, why do you treat me so, to leave your dear old mother and with the gambler go"),
+
+        ("When pumping Lake Erie, what will be on the moon?", "sr27b_en.txt",
+         "And when we get done, you can tell me the song will be whiskers on the moon"),
+
+        ("What does the woman say about marrying a rich man?", "sr23b_en.txt",
+         "A rich man I will never have, he's greedy and tight always needs much serve"),
+
+        ("What does the woman say about marrying a lawyer?", "sr23b_en.txt",
+         "The lawyers always after gold, sets orphan widows out in the cold"),
+
+        ("In Barbara Allen, where does the story begin?", "sr28a_en.txt",
+         "In Scarlet Town where I was born there was a fair maid dwelling"),
+
+        ("How does Captain Nye describe where he learned religious songs?", "sr05a_en.txt",
+         "Down in the Ohio River on the Kentucky side at the colored camp meetings"),
+
+        ("What happens when you cross the cook on the canal boat?", "sr13a_en.txt",
+         "And if you would cross her she'd try raise the dead"),
+
+        ("What is special about the Gospel Train's schedule?", "sr26a_en.txt",
+         "She's always true to schedule, and runs on glory time"),
+
+        ("How does Lord Vannifer's wife try to convince the young man?", "sr05b_en.txt",
+         "What if I am Lord Vannifer's wife? The lord has gone from home, he has gone to seek for Henry, King George is on his throne"),
+
+        ("What happens to the blood in the ship carpenter song?", "sr18a_en.txt",
+         "And the blood from her body like a fountain did flow"),
+
+        ("How does the daughter describe her love for the gambler to her mother?", "sr21a_en.txt",
+         "Oh mother, oh dear mother, you know I love you well, but the love I have for this gambling man no human tongue can tell"),
+
+        ("What does Captain Nye say about his manuscripts?", "sr28a_en.txt",
+         "When I first started to write down the words of the old songs, I often found that I remembered the tune but not the words"),
+
+        ("What does the cook do while others are sleeping?", "sr13a_en.txt",
+         "We all have our trouble but this rule we keep, is move about easy, the cook is asleep"),
+
+        ("How does Captain Nye describe the importance of these songs?", "sr28a_en.txt",
+         "These songs are sacred to me, they bring back memories of the silver ribbon, the Ohio Canal"),
+
+        ("What happens if you fall in the locks according to the canal song?", "sr13a_en.txt",
+         "Woe unto you if you fall in the locks, they do for a cannon, with them we kill snakes"),
+
+        ("How does the song describe the cook's pies?", "sr13a_en.txt",
+         "Her pies are like leather, you need teeth of steel"),
+
+        ("What warning is given to girls in the daughter's song?", "sr08a_en.txt",
+         "Oh girls here take warning, behold my poor daughter, who met loved a stranger so cunning and wise, he betrayed and soon left her, as he did some others, then in her anguish she weakened and died"),
+
+        ("How does the dying cowboy want his final moments handled?", "sr20b_en.txt",
+         "Now take me to the graveyard and place this odd army and play the dead march as I they carry me on, just beat the drum or me and play the fight slowly for I'm a dead cowboy I know I've done wrong"),
+
+        ("What does Lord Vannifer say about using the swords?", "sr05b_en.txt",
+         "And you shall strike the very first blow, but strike it like a man, and I shall strike the very next blow, and I'll kill you if I can"),
+
+        ("How does Captain Nye describe his family's canal boat life?", "sr28a_en.txt",
+         "And we had one great old time, swimming, falling overboard, and as you might expect from a large family. And music and so on more or less controlled our home"),
+
+        ("What does the song say about where he met the pretty gal?", "sr21a_en.txt",
+         "I had been in Washington many more weeks than three, when I fell in love with a pretty little gal and she fell in love with me"),
+
+        ("How does the Gospel Train song describe its schedule and reliability?", "sr26a_en.txt",
+         "She's always true to schedule, and runs on glory time. All other routes are failure, so take this gospel line"),
+
+        ("What happens to McGrew after he strikes Lord Vannifer?", "sr05b_en.txt",
+         "McGrew he struck the very first blow, and wounded Lord Vannifer's sword, Lord Vannifer struck the very next blow, and McGrew could strike no more"),
+
+        ("What does Lord Vannifer do after killing McGrew?", "sr05b_en.txt",
+         "Then he took her round away so small, and kisses gave her three, and in his right held a sword, and pierced her fair body"),
+
+        ("When Mrs. Waterhouse introduced Captain Nye, what did he say about himself?", "sr28a_en.txt",
+         "I'm the last of the Ohio Canal captains"),
+
+        ("What was unique about the manuscript scrolls Captain Nye brought?", "sr28a_en.txt",
+         "Each scroll made up of 20 or 30 long, yellow sheets of paper pasted end to end together"),
+
+        ("How does the woman by Lake Erie describe her love?", "sr27b_en.txt",
+         "For I love the old towpath and all that things that float, so you cannot make a wagon of my old canal boat"),
+
+        ("What does the beggar child say happened to their father?", "sr24b_en.txt",
+         "Father died when I a baby, mother worked, helped us a home"),
+
+        ("How is the journey of the Gospel Train described?", "sr26a_en.txt",
+         "She runs through valleys, prairies, is safe at curves or fills. Your fare is paid, so catch her, for two so ever will"),
+
+        ("What does the gambling man say about leaving?", "sr21a_en.txt",
+         "If you ever see me coming back, I'll be with this gambling man"),
+
+        ("What does the canal boat song say about the water pail?", "sr13a_en.txt",
+         "The water pale often, you know, would get dry. She'd open the window, dip up a supply"),
+
+        ("What happens after Lord Lovell and Lady Nancy die?", "sr08a_en.txt",
+         "Lady Nancy was laid, laid in the church, Lord Lovell was laid set by her side"),
+
+        ("What does the young woman in Aaron's Green Shore say about her mission?", "sr21a_en.txt",
+         "I've come to awaken my brethren that slumber on Aaron's Green Shore"),
+
+        ("How does the song describe the storm at sea?", "sr25a_en.txt",
+         "To be scattered by the blast. And to hear the rallying trumpet thunder cut away the mast. We were crowded in the cabin not a soul would dare to sleep. While the hungry sea was roaring and the storm was on the deep"),
+
+        ("What does the dying cowboy request about his funeral march?", "sr20b_en.txt",
+         "Just beat the drum or me and play the fight slowly for I'm a dead cowboy I know I've done wrong"),
+
+        ("What does Lord Vannifer say about giving McGrew a sword?", "sr05b_en.txt",
+         "If I have two swords by my side, they cost me deep in my purse, but you shall have the very best one, and I shall have the worst"),
+
+        ("How does Captain Nye describe where he was raised?", "sr28a_en.txt",
+         "Yes, sir, I was born there and raised there... Chillicothe, Ohio, Upper Payne Street Bridge on a canal boat"),
+
+        ("What does the woman who won't marry say about the grocer?", "sr23b_en.txt",
+         "The grocer butcher gives short weight, farmer's milk is thirsty, takes water straight"),
+
+        ("What do they say about the canal cook's soup?", "sr13a_en.txt",
+         "Her soups are the limit, oh yes, all are chow. We put it away, but I won't tell you how"),
+
+        ("How does the Gospel Train song describe who can board?", "sr26a_en.txt",
+         "Oh, the sin-sick, lost, and dying, we always take them in, no matter who or where they are, if they call unto Him"),
+
+        ("What do the lock tenders do when they see the cook coming?", "sr13a_en.txt",
+         "The lock tenders run when they pull in the locks"),
+
+        ("What does the song say about who's proud of 'Papa's new bride'?", "sr10a_en.txt",
+         "Ten little devils came set by her side, said they were all proud of papa's new bride"),
+
+        ("What does Lady Nancy's death make Lord Lovell do?", "sr08a_en.txt",
+         "So he ordered the grave to be open wide"),
+
+        ("According to Mr. Lomax, how long had he been collecting songs?", "sr28a_en.txt",
+         "For more than 30 years, Mr. Lomax has been gathering the songs of the American people"),
+
+        ("How does Mr. Lomax describe where he collected songs from?", "sr28a_en.txt",
+         "To collect these songs, Mr. Lomax has ridden night herd with cowboys, visited ballad singers far back in the mountains, gone to dances in the country, spoken to tenant farmers in the deep south"),
+
+        ("What does Captain Nye say about remembering song words?", "sr28a_en.txt",
+         "When I first started to write down the words of the old songs, I often found that I remembered the tune but not the words. I'd keep humming the tunes till all of a sudden the old words would bob up"),
+
+        ("What does Lord Vannifer say about killing the couple?", "sr05b_en.txt",
+         "There now I kill that fair young man, that Scotland could afford, likewise the fairest lady, that ere the sun shone on"),
+
+        ("What does the beggar child say happened to their mother?", "sr24b_en.txt",
+         "In time her strength all left her, hunger often to us comes"),
+
+        ("What happens if someone crosses the canal boat cook?", "sr13a_en.txt",
+         "And if you would cross her she'd try raise the dead"),
+
+        ("How does the song describe when Lord Lovell returned?", "sr08a_en.txt",
+         "But he had not been gone for years or a day, strange countries for to see, when languishing thoughts came to his mind, Lady Nancy Bell he would see"),
+
+        ("What does the gambling man say about his gambling locations?", "sr21a_en.txt",
+         "I've gambled down in Washington, I've gambled down in Spain, I'm going down in Georgia to gamble my last game"),
+
+        ("According to the dying cowboy, who else would weep for him?", "sr20b_en.txt",
+         "But there is another as dear as my mother who'd weep if she knew I was dying out here"),
+
+        ("What does Captain Nye say made his family special?", "sr28a_en.txt",
+         "My family was a singing botch"),
+
+        ("How does the song describe the train's reliability?", "sr26a_en.txt",
+         "She's always true to schedule, and runs on glory time"),
+
+        ("What details does the captain give about his birth?", "sr28a_en.txt",
+         "I was born on a canal boat which ran from Akron to the Ohio River, down which we floated our cargo to Louisville, Kentucky"),
+
+        ("In the Gospel Train song, what should you do at the station?", "sr26a_en.txt",
+         "Oh hurry to the station, and get your ticket there. As proof of your salvation, let nothing interfere"),
+
+        ("What does Lord Vannifer say about his final wound?", "sr05b_en.txt",
+         "And soon you'll see there will be three, for fatal is my wound"),
+
+        ("What does the cook do with the biscuits according to the song?", "sr13a_en.txt",
+         "She's so fond of biscuits she makes them like rocks, and woe unto you if you fall in the locks. They do for a cannon, with them we kill snakes"),
+
+        ("How does the girl in Aaron's Green Shore introduce herself?", "sr21a_en.txt",
+         "I'm the daughter of Daniel O'Connell... from England I lately came o'er"),
+
+        ("What does Captain Nye say about the importance of canal life?", "sr28a_en.txt",
+         "That was the best life a man ever had"),
+
+        ("What does Captain Nye say about learning songs from his mother?", "sr11a_en.txt",
+         "My mother used to sing it to me, and the rest of us children when we were small would gather around her knee on the deck of a canal boat, which is our home"),
+
+        ("When asked about his family on the canal, what details does Captain Nye provide?", "sr28a_en.txt",
+         "Well, there were a large family, there were 18 of us, 11 boys and 7 girls. And I'm the 15th youngster, 9th boy. And we had one great old time, swimming, falling overboard, and as you might expect from a large family. And music and so on more or less controlled our home"),
+
+        ("What happens when Mr. Frog meets Miss Mouse?", "sr11a_en.txt",
+         "One night Miss Mouse, he heard his call, he went to see, but in did fall. He went for her with all his might, said, you must be my bride tonight"),
+
+        ("How does Miss Mouse respond to Mr. Frog's marriage proposal?", "sr11a_en.txt",
+         "She said, I came to hear you sing, but pussy at me made a spring. I lost my balance, then I fell, so this the truth to you I tell"),
+
+        ("What does Lord Vannifer say about the fighting conditions?", "sr05b_en.txt",
+         "Now rise, rise, rise, young man, said he, and do the best you can, for I would not have said in fair Scotland that I kill you a defenseless man"),
+
+        ("What warning does Mother Nature give in the canal song?", "sr13a_en.txt",
+         "The water pale often, you know, would get dry. She'd open the window, dip up a supply. In the food you could taste it the captain would rear. But one look from her and the weather was fair"),
+
+        ("What does Captain Nye say was the purpose of recording these songs?", "sr28a_en.txt",
+         "For the benefit and perpetual use of the Library of Congress in Washington"),
+
+        ("How does Aaron's Green Shore describe the woman's clothing?", "sr21a_en.txt",
+         "She resembled the goddess of freedom, and green was the mantle she wore, bound round with the shamrock and roses that grew along Aaron's Green Shore"),
+
+        ("What request does the dying cowboy make about his funeral march?", "sr20b_en.txt",
+         "Now take me to the graveyard and place this odd army and play the dead march as I the carry me on. Just beat the drum or me and play the fight slowly for I'm a dead cowboy I know I've done wrong"),
+
+        ("What does the canal boat song say about running at night?", "sr13a_en.txt",
+         "Whatever the weather, we'd run night or day")
     ]
 
     results = []
     for query, expected_file, expected_content in test_queries:
         try:
-            logger.info("\n--- Search Parameters ---")
+            logger.info("\n" + "=" * 50)
             logger.info(f"Query: {query}")
             logger.info(f"Expected file: {expected_file}")
             logger.info(f"Expected content: {expected_content}")
@@ -397,22 +522,47 @@ def test_sample_queries(retriever: RAGRetriever) -> List[Tuple[str, int, bool, b
                 continue
 
             try:
-                search_results = retriever.search_vector_store(query, top_k=50)
+                # Run search with boosting
+                search_results = retriever.search_vector_store(query, top_k=5000)  # txt_boost=1.2 is default now
                 logger.info(f"Search completed. Found {len(search_results)} results")
 
                 # Check for content match
                 content_match = any(expected_content.lower() in doc.page_content.lower()
                                     for doc in search_results)
 
-                # Check for document match
+                # Check for document match and track boosting effects
                 doc_match = False
                 correct_doc_rank = None
-                for i, doc in enumerate(search_results, 1):
+
+                logger.info("\nTop 5 Results:")
+                for i, doc in enumerate(search_results[:5], 1):
                     original_filename = doc.metadata.get('original_filename', '')
+                    file_type = doc.metadata.get('file_type', 'unknown')
+                    base_score = doc.metadata.get('similarity_score', 0)
+                    adjusted_score = doc.metadata.get('adjusted_similarity_score', 0)
+
+                    # Track if this is the expected document
                     if original_filename == expected_file:
                         doc_match = True
                         correct_doc_rank = i
-                        break
+
+                    # Log result with boosting information
+                    logger.info(f"\nResult {i}:")
+                    logger.info(f"File: {original_filename}")
+                    logger.info(f"Type: {file_type}")
+                    logger.info(f"Base similarity: {base_score:.4f}")
+                    logger.info(f"Adjusted similarity: {adjusted_score:.4f}")
+                    if file_type == 'text':
+                        logger.info(f"Boosted: Yes (20% boost applied)")
+                    else:
+                        logger.info("Boosted: No")
+
+                    # Show if this contains the expected content
+                    contains_expected = expected_content.lower() in doc.page_content.lower()
+                    is_correct_doc = original_filename == expected_file
+                    logger.info(f"Contains expected content: {contains_expected}")
+                    logger.info(f"Is correct document: {is_correct_doc}")
+                    logger.info(f"Content preview: {doc.page_content[:200]}...")
 
                 results.append((query, len(search_results), content_match, doc_match))
 
@@ -422,15 +572,6 @@ def test_sample_queries(retriever: RAGRetriever) -> List[Tuple[str, int, bool, b
                 logger.info(f"Correct document found: {doc_match}")
                 if correct_doc_rank:
                     logger.info(f"Correct document rank: {correct_doc_rank}")
-
-                for i, doc in enumerate(search_results[:3], 1):  # Log first 3 results
-                    logger.info(f"\nResult {i}:")
-                    logger.info(f"File: {doc.metadata.get('original_filename', 'Unknown')}")
-                    logger.info(f"Content preview: {doc.page_content[:200]}...")
-                    contains_expected = expected_content.lower() in doc.page_content.lower()
-                    is_correct_doc = doc.metadata.get('original_filename', '') == expected_file
-                    logger.info(f"Contains expected content: {contains_expected}")
-                    logger.info(f"Is correct document: {is_correct_doc}")
 
             except Exception as e:
                 logger.error(f"Error during similarity search: {e}")
@@ -453,7 +594,6 @@ def test_sample_queries(retriever: RAGRetriever) -> List[Tuple[str, int, bool, b
         f"Perfect matches (both): {sum(1 for _, _, c, d in results if c and d)} ({sum(1 for _, _, c, d in results if c and d) / total_queries * 100:.1f}%)")
 
     return results
-
 
 def verify_dataset_integrity(dataset_path: str) -> bool:
     """Verify the integrity of the dataset."""
@@ -511,7 +651,7 @@ def test_vectorstore_contents():
     """Test the vectorstore contents and functionality with enhanced result reporting."""
     logger.info("\nStarting vectorstore content test...")
 
-    dataset_path = os.path.join(DATA_DIR, 'deeplake_dataset_chunk_1000')
+    dataset_path = os.path.join(DATA_DIR, 'testing_yet_again')
     test_results = {
         "dataset_info": None,
         "query_results": [],
