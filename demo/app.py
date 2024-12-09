@@ -74,7 +74,7 @@ class HistOracleApp:
         st.subheader("Create New Vector Store")
 
         # Add data structure information
-        st.write("#### Required Data Structure")
+        st.write("### Required Data Structure")
         st.write("Your data directory must follow this structure:")
 
         directory_structure = """
@@ -91,7 +91,7 @@ class HistOracleApp:
 
         st.code(directory_structure, language="")
 
-        st.write("#### Important Notes")
+        st.write("### Important Notes")
         st.markdown("""
         - All text files must be UTF-8 encoded
         - File names should follow AFC identifier pattern (e.g., afc2021007_002_ms01.txt)
@@ -100,9 +100,16 @@ class HistOracleApp:
         """)
 
         # Create vector store form
-        st.write("#### Vector Store Creation")
+        st.write("### Vector Store Creation")
         data_dir = st.text_input("Data Directory:", self.project_root)
         dataset_path = st.text_input("Dataset Output Path:", os.path.join(data_dir, 'vectorstore'))
+
+        chunk_size = st.select_slider(
+            "Chunk Size (in characters):",
+            options=[250, 500, 750, 1000, 1500, 2000],
+            value=500,
+            help="Controls how documents are split. Smaller chunks are better for finding specific information, larger chunks provide more context."
+        )
 
         model_type = st.selectbox(
             "Embedding Model:",
@@ -114,18 +121,108 @@ class HistOracleApp:
             }[x]
         )
 
-        batch_size = st.number_input("Batch Size:", value=1000, min_value=1)
+        batch_size = st.number_input(
+            "Processing Batch Size:",
+            value=1000,
+            min_value=1,
+            help="Number of chunks to process at once. Reduce if you encounter memory issues."
+        )
+
         delete_existing = st.checkbox("Delete existing dataset if present")
 
         if st.button("Create Vector Store"):
             try:
                 retriever = RAGRetriever(
                     dataset_path=dataset_path,
-                    model_name=model_type
+                    model_name=model_type,
+                    chunk_size=chunk_size
                 )
 
                 with st.spinner("Processing metadata..."):
                     metadata = process_metadata(data_dir)
+
+                    # Display sample metadata
+                    st.write("### Sample Document Metadata")
+                    if metadata:
+                        # Get first 3 metadata entries
+                        sample_entries = list(metadata.items())[:3]
+
+                        for filename, meta in sample_entries:
+                            with st.expander(f"📄 {filename}"):
+                                # Basic Identification
+                                st.markdown("#### 📑 Basic Identification")
+                                st.write(f"• Call Number: {meta.get('call_number', 'N/A')}")
+                                st.write(f"• Title: {meta.get('title', 'N/A')}")
+                                st.write(f"• Type: {meta.get('type', 'N/A')}")
+
+                                # Dates and Creation Info
+                                st.markdown("#### 📅 Dates and Creation")
+                                st.write(f"• Date: {meta.get('date', 'N/A')}")
+                                st.write(f"• Created/Published: {meta.get('created_published', 'N/A')}")
+                                st.write(f"• Timestamp: {meta.get('timestamp', 'N/A')}")
+
+                                # Contributors and Sources
+                                st.markdown("#### 👥 Contributors and Sources")
+                                st.write(f"• Contributors: {meta.get('contributors', 'N/A')}")
+                                st.write(f"• Creator: {meta.get('creator', 'N/A')}")
+                                st.write(f"• Repository: {meta.get('repository', 'N/A')}")
+                                st.write(f"• Collection: {meta.get('collection', 'N/A')}")
+                                st.write(f"• Source Collection: {meta.get('source_collection', 'N/A')}")
+
+                                # Content Details
+                                st.markdown("#### 📝 Content Information")
+                                st.write(f"• Language: {meta.get('language', 'N/A')}")
+                                st.write(f"• Original Format: {meta.get('original_format', 'N/A')}")
+                                st.write(f"• Online Formats: {meta.get('online_formats', 'N/A')}")
+                                st.write(f"• Subjects: {meta.get('subjects', 'N/A')}")
+                                st.write(f"• Locations: {meta.get('locations', 'N/A')}")
+
+                                if meta.get('description'):
+                                    st.markdown("#### 📋 Description")
+                                    st.write(meta.get('description'))
+
+                                if meta.get('notes'):
+                                    st.markdown("#### 📒 Notes")
+                                    st.write(meta.get('notes'))
+
+                                # Collection Details
+                                st.markdown("#### 📚 Collection Details")
+                                st.write(f"• Collection Title: {meta.get('collection_title', 'N/A')}")
+                                st.write(f"• Collection Date: {meta.get('collection_date', 'N/A')}")
+                                if meta.get('collection_abstract'):
+                                    st.write("**Collection Abstract:**")
+                                    st.write(meta.get('collection_abstract'))
+                                st.write(f"• Series Title: {meta.get('series_title', 'N/A')}")
+
+                                # Catalog Information
+                                st.markdown("#### 📗 Catalog Information")
+                                st.write(f"• Catalog Title: {meta.get('catalog_title', 'N/A')}")
+                                st.write(f"• Catalog Creator: {meta.get('catalog_creator', 'N/A')}")
+                                st.write(f"• Catalog Date: {meta.get('catalog_date', 'N/A')}")
+                                st.write(f"• Catalog Language: {meta.get('catalog_language', 'N/A')}")
+                                st.write(f"• Catalog Genre: {meta.get('catalog_genre', 'N/A')}")
+                                st.write(f"• Catalog Contributors: {meta.get('catalog_contributors', 'N/A')}")
+                                st.write(f"• Catalog Repository: {meta.get('catalog_repository', 'N/A')}")
+                                st.write(f"• Catalog Collection ID: {meta.get('catalog_collection_id', 'N/A')}")
+                                if meta.get('catalog_description'):
+                                    st.write("**Catalog Description:**")
+                                    st.write(meta.get('catalog_description'))
+                                if meta.get('catalog_subjects'):
+                                    st.write("**Catalog Subjects:**")
+                                    st.write(meta.get('catalog_subjects'))
+                                if meta.get('catalog_notes'):
+                                    st.write("**Catalog Notes:**")
+                                    st.write(meta.get('catalog_notes'))
+
+                                # Rights and Access
+                                st.markdown("#### 🔒 Rights and Access")
+                                st.write(f"• Rights: {meta.get('rights', 'N/A')}")
+                                st.write(f"• Access Restricted: {meta.get('access_restricted', 'N/A')}")
+                                st.write(f"• URL: {meta.get('url', 'N/A')}")
+
+                        st.write(f"\nTotal documents with metadata: {len(metadata)}")
+                    else:
+                        st.warning("No metadata found in the specified directory.")
 
                 with st.spinner("Initializing vector store..."):
                     retriever.initialize_vectorstore(delete_existing=delete_existing)
@@ -134,7 +231,8 @@ class HistOracleApp:
                     documents = retriever.load_data(data_dir, metadata)
 
                 if documents:
-                    with st.spinner("Generating embeddings..."):
+                    with st.spinner(
+                            f"Processing documents into {chunk_size}-character chunks and generating embeddings..."):
                         retriever.process_with_checkpoints(documents, batch_size=batch_size)
                     st.success("Vector store created successfully!")
                 else:
